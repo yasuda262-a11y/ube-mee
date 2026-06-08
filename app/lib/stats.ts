@@ -1,8 +1,8 @@
-export interface WordStat {
-  correct: number;
-  total: number;
+export interface CardStat {
+  correct: number;  // 全blank中の正解数合計
+  total: number;    // 全blank中の回答数合計
 }
-export type StatsRecord = Record<number, WordStat>;
+export type StatsRecord = Record<number, CardStat>;
 
 const STATS_KEY = "ube_stats";
 
@@ -15,11 +15,16 @@ export function saveStats(s: StatsRecord) {
   localStorage.setItem(STATS_KEY, JSON.stringify(s));
 }
 
-export function recordResult(stats: StatsRecord, id: number, correct: boolean): StatsRecord {
-  const cur = stats[id] ?? { correct: 0, total: 0 };
-  const next = {
+/** カード1枚分の結果（blank単位のbool配列）を統計に記録 */
+export function recordCardResult(stats: StatsRecord, cardId: number, results: boolean[]): StatsRecord {
+  const cur = stats[cardId] ?? { correct: 0, total: 0 };
+  const correctCount = results.filter(Boolean).length;
+  const next: StatsRecord = {
     ...stats,
-    [id]: { correct: cur.correct + (correct ? 1 : 0), total: cur.total + 1 },
+    [cardId]: {
+      correct: cur.correct + correctCount,
+      total: cur.total + results.length,
+    },
   };
   saveStats(next);
   return next;

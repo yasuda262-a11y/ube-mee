@@ -2,15 +2,21 @@
 
 import { useState, useEffect, useRef } from "react";
 import { ChevronRight, CheckCircle, XCircle, Eye } from "lucide-react";
-import type { Question } from "../data/questions";
+import type { Card } from "../data/questions";
 
 interface Props {
-  question: Question;
+  card: Card;
   cardNumber: number;
   total: number;
-  onResult: (correct: boolean) => void;
+  onResult: (results: boolean[]) => void;  // blanks分の正誤配列
   onNext: () => void;
 }
+
+const PRIORITY_LABEL: Record<string, { label: string; color: string; bg: string }> = {
+  H: { label: "High", color: "text-red-600", bg: "bg-red-50 border-red-200" },
+  M: { label: "Middle", color: "text-orange-500", bg: "bg-orange-50 border-orange-200" },
+  L: { label: "Low", color: "text-yellow-600", bg: "bg-yellow-50 border-yellow-200" },
+};
 
 /** キーワード一致（ゆるめ）判定 */
 function judge(input: string, answer: string): boolean {
@@ -20,66 +26,93 @@ function judge(input: string, answer: string): boolean {
   const ansN = norm(answer);
   if (!userN) return false;
   if (userN === ansN) return true;
-
-  // 正解の各単語のうち「中身のある単語」（stop word除外）が入力に含まれるか
-  const stopWords = new Set(["a", "an", "the", "of", "in", "on", "to", "is", "are", "or", "and", "by", "that", "it"]);
+  const stopWords = new Set(["a","an","the","of","in","on","to","is","are","or","and","by","that","it","be","at","as"]);
   const keywords = ansN.split(/\s+/).filter((w) => w.length > 2 && !stopWords.has(w));
   if (keywords.length === 0) return ansN.includes(userN) || userN.includes(ansN);
   const matched = keywords.filter((kw) => userN.includes(kw));
   return matched.length >= Math.ceil(keywords.length * 0.6);
 }
 
-/** context 中の __BLANK__ をハイライト表示に変換 */
-function renderContext(context: string, state: "unanswered" | "correct" | "incorrect", answer: string) {
-  const parts = context.split("__BLANK__");
-  const blankEl = state === "unanswered"
-    ? <span key="blank" className="inline-block bg-gray-200 text-gray-200 rounded px-1 select-none min-w-[60px]">{"____"}</span>
-    : state === "correct"
-    ? <span key="blank" className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1">{answer}</span>
-    : <span key="blank" className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1">{answer}</span>;
-
-  return parts.flatMap((part, i) =>
-    i < parts.length - 1 ? [part, blankEl] : [part]
-  );
+/** context文字列を __BLANK_N__ でパースしてReact要素の配列に変換 */
+function parseContext(
+  context: string,
+  blanksCount: number,
+  states: ("unanswered" | "correct" | "incorrect")[],
+  answers: string[]
+): React.ReactNode[] {
+  const parts = context.split(/(__BLANK_\d+__)/g);
+  return parts.map((part, i) => {
+    const m = part.match(/^__BLANK_(\d+)__$/);
+    if (!m) return <span key={i}>{part} </span>;
+    const idx = parseInt(m[1]) - 1;  // 0-based
+    const state = states[idx] ?? "unanswered";
+    const answer = answers[idx] ?? "";
+    if (state === "unanswered") {
+      return (
+        <span key={i} className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none min-w-[60px] mx-0.5">
+          {"____"}
+        </span>
+      );
+    }
+    if (state === "correct") {
+      return (
+        <span key={i} className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 mx-0.5">
+          {answer}
+        </span>
+      );
+    }
+    return (
+      <span key={i} className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 mx-0.5">
+        {answer}
+      </span>
+    );
+  });
 }
 
-export default function FlashCard({ question, cardNumber, total, onResult, onNext }: Props) {
-  const [input, setInput] = useState("");
-  const [state, setState] = useState<"unanswered" | "correct" | "incorrect">("unanswered");
-  const [revealed, setRevealed] = useState(false);
-  const inputRef = useRef<HTMLInputElement>(null);
+export default function FlashCard({ card, cardNumber, total, onResult, onNext }: Props) {
+  const blanksCount = card.blanks.length;
+  const [inputs, setInputs] = useState<string[]>(Array(blanksCount).fill(""));
+  const [states, setStates] = useState<("unanswered" | "correct" | "incorrect")[]>(
+    Array(blanksCount).fill("unanswered")
+  );
+  const [submitted, setSubmitted] = useState(false);
+  const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
 
   useEffect(() => {
-    setInput("");
-    setState("unanswered");
-    setRevealed(false);
-    setResultRecorded(false);
-    setTimeout(() => inputRef.current?.focus(), 50);
-  }, [question.id]);
-
-  const [resultRecorded, setResultRecorded] = useState(false);
+    setInputs(Array(card.blanks.length).fill(""));
+    setStates(Array(card.blanks.length).fill("unanswered"));
+    setSubmitted(false);
+    setTimeout(() => inputRefs.current[0]?.focus(), 50);
+  }, [card.id, card.blanks.length]);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (state !== "unanswered") return;
-    const correct = judge(input, question.answer);
-    setState(correct ? "correct" : "incorrect");
-    if (!resultRecorded) { onResult(correct); setResultRecorded(true); }
+    if (submitted) return;
+    const newStates = card.blanks.map((b, i) =>
+      judge(inputs[i] ?? "", b.answer) ? "correct" : "incorrect"
+    ) as ("correct" | "incorrect")[];
+    setStates(newStates);
+    setSubmitted(true);
+    onResult(newStates.map((s) => s === "correct"));
   }
 
   function handleReveal() {
-    setRevealed(true);
-    setState("incorrect");
-    if (!resultRecorded) { onResult(false); setResultRecorded(true); }
+    if (submitted) return;
+    const newStates = Array(blanksCount).fill("incorrect") as "incorrect"[];
+    setStates(newStates);
+    setSubmitted(true);
+    onResult(newStates.map(() => false));
   }
+
+  const allCorrect = submitted && states.every((s) => s === "correct");
+  const correctCount = states.filter((s) => s === "correct").length;
+  const pri = card.priority ? PRIORITY_LABEL[card.priority] : null;
 
   return (
     <div className="flex flex-col gap-4">
       {/* 進捗バー */}
       <div className="flex items-center gap-3">
-        <span className="text-xs text-gray-400 font-medium min-w-[60px]">
-          {cardNumber} / {total}
-        </span>
+        <span className="text-xs text-gray-400 font-medium min-w-[60px]">{cardNumber} / {total}</span>
         <div className="flex-1 h-1.5 bg-gray-200 rounded-full overflow-hidden">
           <div
             className="h-full bg-indigo-500 rounded-full transition-all duration-300"
@@ -91,37 +124,55 @@ export default function FlashCard({ question, cardNumber, total, onResult, onNex
       {/* メタ情報 */}
       <div className="flex gap-2 flex-wrap">
         <span className="text-xs bg-indigo-50 text-indigo-600 font-semibold px-2.5 py-1 rounded-full">
-          {question.subject}
+          {card.subject}
         </span>
-        <span className="text-xs bg-gray-100 text-gray-500 px-2.5 py-1 rounded-full">
-          p.{question.page}
-        </span>
+        {card.sectionHeader && (
+          <span className="text-xs bg-gray-800 text-white font-semibold px-2.5 py-1 rounded-full">
+            {card.sectionHeader}
+          </span>
+        )}
+        {pri && (
+          <span className={`text-xs font-bold px-2.5 py-1 rounded-full border ${pri.bg} ${pri.color}`}>
+            {card.priority} ({pri.label})
+          </span>
+        )}
+        <span className="text-xs bg-gray-100 text-gray-400 px-2.5 py-1 rounded-full">p.{card.page}</span>
       </div>
 
       {/* 文脈カード */}
-      <div className={`bg-white rounded-3xl border-2 shadow-md p-5 text-[15px] leading-7 text-gray-700 transition-colors ${
-        state === "correct" ? "border-emerald-300" :
-        state === "incorrect" ? "border-red-300" : "border-gray-100"
+      <div className={`bg-white rounded-3xl border-2 shadow-md p-5 text-[15px] leading-8 text-gray-700 transition-colors ${
+        !submitted ? "border-gray-100"
+        : allCorrect ? "border-emerald-300"
+        : "border-red-200"
       }`}>
-        {renderContext(question.context, state, question.answer)}
+        {parseContext(card.context, blanksCount, states, card.blanks.map((b) => b.answer))}
       </div>
 
-      {/* 入力 or 結果 */}
-      {state === "unanswered" ? (
+      {/* 入力欄群 */}
+      {!submitted ? (
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-          <input
-            ref={inputRef}
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            placeholder="空欄に入る語句を入力..."
-            className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-900 text-base focus:outline-none focus:border-indigo-400 bg-white"
-          />
-          <div className="flex gap-2">
+          {card.blanks.map((blank, i) => (
+            <div key={blank.idx} className="flex items-center gap-2">
+              <span className="text-xs font-bold text-indigo-400 w-5 flex-shrink-0">({blank.idx})</span>
+              <input
+                ref={(el) => { inputRefs.current[i] = el; }}
+                value={inputs[i] ?? ""}
+                onChange={(e) => {
+                  const next = [...inputs];
+                  next[i] = e.target.value;
+                  setInputs(next);
+                }}
+                placeholder={`空欄 (${blank.idx}) を入力...`}
+                className="flex-1 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-900 text-sm focus:outline-none focus:border-indigo-400 bg-white"
+              />
+            </div>
+          ))}
+          <div className="flex gap-2 mt-1">
             <button
               type="submit"
-              disabled={!input.trim()}
+              disabled={inputs.every((v) => !v.trim())}
               className={`flex-1 py-3.5 rounded-2xl font-bold text-base transition-all shadow-md ${
-                input.trim()
+                inputs.some((v) => v.trim())
                   ? "bg-indigo-600 text-white hover:bg-indigo-700 active:scale-95"
                   : "bg-gray-100 text-gray-400 cursor-not-allowed"
               }`}
@@ -140,28 +191,43 @@ export default function FlashCard({ question, cardNumber, total, onResult, onNex
         </form>
       ) : (
         <div className="flex flex-col gap-3">
-          {/* 判定結果 */}
-          <div className={`flex items-center gap-3 rounded-2xl px-4 py-3 ${
-            state === "correct" ? "bg-emerald-50 border border-emerald-200" : "bg-red-50 border border-red-200"
-          }`}>
-            {state === "correct"
-              ? <CheckCircle size={20} className="text-emerald-500 flex-shrink-0" />
-              : <XCircle size={20} className="text-red-400 flex-shrink-0" />}
-            <div className="flex-1 min-w-0">
-              {state === "correct"
-                ? <p className="font-semibold text-emerald-700">正解！</p>
-                : <>
-                    <p className="font-semibold text-red-600">不正解</p>
-                    <p className="text-sm text-red-500 mt-0.5">
-                      正解：<span className="font-bold">{question.answer}</span>
-                    </p>
-                    {input && <p className="text-xs text-gray-400 mt-0.5">あなたの回答：{input}</p>}
-                  </>
-              }
-            </div>
-          </div>
+          {/* 各blank結果 */}
+          {card.blanks.map((blank, i) => {
+            const s = states[i];
+            return (
+              <div key={blank.idx} className={`flex items-start gap-3 rounded-2xl px-4 py-3 ${
+                s === "correct" ? "bg-emerald-50 border border-emerald-200" : "bg-red-50 border border-red-200"
+              }`}>
+                {s === "correct"
+                  ? <CheckCircle size={18} className="text-emerald-500 flex-shrink-0 mt-0.5" />
+                  : <XCircle size={18} className="text-red-400 flex-shrink-0 mt-0.5" />}
+                <div className="flex-1 min-w-0">
+                  <p className="text-xs text-gray-500 mb-0.5">空欄 ({blank.idx})</p>
+                  {s === "correct"
+                    ? <p className="font-semibold text-emerald-700 text-sm">正解！</p>
+                    : <>
+                        <p className="font-semibold text-red-600 text-sm">
+                          正解：<span className="font-bold">{blank.answer}</span>
+                        </p>
+                        {inputs[i] && (
+                          <p className="text-xs text-gray-400 mt-0.5">あなたの回答：{inputs[i]}</p>
+                        )}
+                      </>
+                  }
+                </div>
+              </div>
+            );
+          })}
 
-          {/* 次へ */}
+          {/* スコア表示 */}
+          {blanksCount > 1 && (
+            <div className={`text-center text-sm font-bold rounded-2xl py-2 ${
+              allCorrect ? "text-emerald-600 bg-emerald-50" : "text-indigo-600 bg-indigo-50"
+            }`}>
+              {correctCount} / {blanksCount} 正解
+            </div>
+          )}
+
           <button
             onClick={onNext}
             className="w-full py-3.5 bg-indigo-600 text-white rounded-2xl font-bold text-base flex items-center justify-center gap-2 hover:bg-indigo-700 active:scale-95 transition-all shadow-md"
