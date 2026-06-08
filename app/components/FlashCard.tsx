@@ -33,40 +33,58 @@ function judge(input: string, answer: string): boolean {
   return matched.length >= Math.ceil(keywords.length * 0.6);
 }
 
-/** context文字列を __BLANK_N__ でパースしてReact要素の配列に変換 */
-function parseContext(
-  context: string,
-  blanksCount: number,
+/** context文字列の1行分を __BLANK_N__ でパースしてReact要素の配列に変換 */
+function parseContextLine(
+  line: string,
   states: ("unanswered" | "correct" | "incorrect")[],
-  answers: string[]
+  answers: string[],
+  keyOffset: number
 ): React.ReactNode[] {
-  const parts = context.split(/(__BLANK_\d+__)/g);
+  const parts = line.split(/(__BLANK_\d+__)/g);
   return parts.map((part, i) => {
     const m = part.match(/^__BLANK_(\d+)__$/);
-    if (!m) return <span key={i}>{part} </span>;
+    if (!m) return <span key={keyOffset + i}>{part}</span>;
     const idx = parseInt(m[1]) - 1;  // 0-based
     const state = states[idx] ?? "unanswered";
     const answer = answers[idx] ?? "";
     if (state === "unanswered") {
       return (
-        <span key={i} className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none min-w-[60px] mx-0.5">
+        <span key={keyOffset + i} className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none min-w-[60px] mx-0.5">
           {"____"}
         </span>
       );
     }
     if (state === "correct") {
       return (
-        <span key={i} className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 mx-0.5">
+        <span key={keyOffset + i} className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 mx-0.5">
           {answer}
         </span>
       );
     }
     return (
-      <span key={i} className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 mx-0.5">
+      <span key={keyOffset + i} className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 mx-0.5">
         {answer}
       </span>
     );
   });
+}
+
+/** context文字列を改行・__BLANK_N__ でパースしてReact要素の配列に変換 */
+function parseContext(
+  context: string,
+  blanksCount: number,
+  states: ("unanswered" | "correct" | "incorrect")[],
+  answers: string[]
+): React.ReactNode[] {
+  const lines = context.split("\n");
+  const result: React.ReactNode[] = [];
+  let keyOffset = 0;
+  lines.forEach((line, li) => {
+    if (li > 0) result.push(<br key={`br-${li}`} />);
+    result.push(...parseContextLine(line, states, answers, keyOffset));
+    keyOffset += line.split(/(__BLANK_\d+__)/).length;
+  });
+  return result;
 }
 
 export default function FlashCard({ card, cardNumber, total, onResult, onNext }: Props) {
@@ -129,6 +147,11 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
         {card.sectionHeader && (
           <span className="text-xs bg-gray-800 text-white font-semibold px-2.5 py-1 rounded-full">
             {card.sectionHeader}
+          </span>
+        )}
+        {card.subsectionTitle && (
+          <span className="text-xs bg-gray-700 text-gray-200 font-semibold px-2.5 py-1 rounded-full">
+            {card.subsectionTitle}
           </span>
         )}
         {pri && (

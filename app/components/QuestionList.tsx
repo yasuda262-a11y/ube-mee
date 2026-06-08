@@ -33,7 +33,8 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
         const lq = query.toLowerCase();
         return c.context.toLowerCase().includes(lq) ||
           c.blanks.some((b) => b.answer.toLowerCase().includes(lq)) ||
-          (c.sectionHeader ?? "").toLowerCase().includes(lq);
+          (c.sectionHeader ?? "").toLowerCase().includes(lq) ||
+          (c.subsectionTitle ?? "").toLowerCase().includes(lq);
       }
       return true;
     });

@@ -10,6 +10,7 @@ export interface Card {
   page: number;
   subject: string;
   sectionHeader: string | null;
+  subsectionTitle: string | null;
   priority: "H" | "M" | "L" | null;
   context: string;
   blanks: Blank[];
