@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search, CheckCircle, XCircle, Minus, ChevronDown } from "lucide-react";
+import { Search, CheckCircle, XCircle, Minus } from "lucide-react";
 import type { Card } from "../data/questions";
 import { SUBJECTS } from "../data/questions";
 import type { StatsRecord } from "../lib/stats";
@@ -22,7 +22,6 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<"all" | "weak" | "unanswered">("all");
   const [subject, setSubject] = useState<string | null>(null);
-  const [showSubjectMenu, setShowSubjectMenu] = useState(false);
 
   const filtered = useMemo(() => {
     return cards.filter((c) => {
@@ -52,36 +51,29 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
 
   return (
     <div className="flex flex-col gap-3">
-      {/* 科目フィルタ */}
-      <div className="relative">
-        <button
-          onClick={() => setShowSubjectMenu((v) => !v)}
-          className="w-full flex items-center justify-between bg-white border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-gray-700 font-medium"
-        >
-          <span>{subject ?? "すべての科目"}</span>
-          <ChevronDown size={14} className={`text-gray-400 transition-transform ${showSubjectMenu ? "rotate-180" : ""}`} />
-        </button>
-        {showSubjectMenu && (
-          <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-xl z-20 overflow-hidden shadow-lg">
+      {/* 科目タブ（横スクロール） */}
+      <div className="-mx-4 px-4 overflow-x-auto">
+        <div className="flex gap-2 pb-1" style={{ width: "max-content" }}>
+          <button
+            onClick={() => setSubject(null)}
+            className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
+              !subject ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-500"
+            }`}
+          >
+            すべて
+          </button>
+          {SUBJECTS.map((s) => (
             <button
-              onClick={() => { setSubject(null); setShowSubjectMenu(false); }}
-              className={`w-full text-left px-4 py-2.5 text-sm ${!subject ? "bg-indigo-50 text-indigo-700 font-bold" : "text-gray-700 hover:bg-gray-50"}`}
+              key={s}
+              onClick={() => setSubject(s)}
+              className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
+                subject === s ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-500"
+              }`}
             >
-              すべての科目（{cards.length}カード）
+              {s}
             </button>
-            {SUBJECTS.map((s) => {
-              const cnt = cards.filter((c) => c.subject === s).length;
-              return (
-                <button key={s}
-                  onClick={() => { setSubject(s); setShowSubjectMenu(false); }}
-                  className={`w-full text-left px-4 py-2.5 text-sm ${subject === s ? "bg-indigo-50 text-indigo-700 font-bold" : "text-gray-700 hover:bg-gray-50"}`}
-                >
-                  {s}（{cnt}カード）
-                </button>
-              );
-            })}
-          </div>
-        )}
+          ))}
+        </div>
       </div>
 
       {/* キーワード検索 */}
