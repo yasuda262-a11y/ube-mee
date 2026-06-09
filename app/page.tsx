@@ -37,11 +37,10 @@ export default function Home() {
 
   useEffect(() => { setStats(loadStats()); }, []);
 
+  // 全体進捗 = 回答済みカード数 / 全カード数
   const overallRate = useMemo(() => {
-    const entries = Object.values(stats);
-    const total = entries.reduce((s, e) => s + e.total, 0);
-    const correct = entries.reduce((s, e) => s + e.correct, 0);
-    return total > 0 ? Math.round((correct / total) * 100) : null;
+    const answered = Object.values(stats).filter((s) => s.total > 0).length;
+    return ALL_CARDS.length > 0 ? Math.round((answered / ALL_CARDS.length) * 100) : null;
   }, [stats]);
 
   const subjectCards = useMemo(() => {
@@ -87,6 +86,7 @@ export default function Home() {
   // ===== ホーム =====
   if (appMode === "select") {
     const answeredCount = Object.values(stats).filter((s) => s.total > 0).length;
+    const progressPct = Math.round((answeredCount / ALL_CARDS.length) * 100);
     return (
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 flex flex-col">
         <header className="px-4 py-4 flex items-center justify-center gap-2">
@@ -101,12 +101,10 @@ export default function Home() {
           <div className="w-full max-w-sm bg-white/10 rounded-3xl p-5 text-white">
             <p className="text-xs text-white/60 mb-1">全体進捗</p>
             <div className="flex items-end gap-2 mb-2">
-              {overallRate !== null
-                ? <><span className="text-4xl font-bold">{overallRate}</span><span className="text-xl mb-0.5">%</span></>
-                : <span className="text-2xl font-bold text-white/50">未回答</span>}
+              <span className="text-4xl font-bold">{progressPct}</span><span className="text-xl mb-0.5">%</span>
             </div>
             <div className="h-2 bg-white/20 rounded-full overflow-hidden mb-2">
-              <div className="h-full bg-amber-400 rounded-full" style={{ width: `${overallRate ?? 0}%` }} />
+              <div className="h-full bg-amber-400 rounded-full" style={{ width: `${progressPct}%` }} />
             </div>
             <p className="text-xs text-white/60">
               {answeredCount} / {ALL_CARDS.length} カード（全{TOTAL_BLANKS}空欄）
