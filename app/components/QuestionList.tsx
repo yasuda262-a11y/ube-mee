@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search, CheckCircle, XCircle, Minus } from "lucide-react";
+import { Search, CheckCircle, XCircle, Minus, ChevronDown } from "lucide-react";
 import type { Card } from "../data/questions";
+import { SUBJECTS } from "../data/questions";
 import type { StatsRecord } from "../lib/stats";
 
 const PRIORITY_COLOR: Record<string, string> = {
@@ -20,9 +21,12 @@ interface Props {
 export default function QuestionList({ cards, stats, onStartFrom }: Props) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<"all" | "weak" | "unanswered">("all");
+  const [subject, setSubject] = useState<string | null>(null);
+  const [showSubjectMenu, setShowSubjectMenu] = useState(false);
 
   const filtered = useMemo(() => {
     return cards.filter((c) => {
+      if (subject && c.subject !== subject) return false;
       const s = stats[c.id];
       if (filter === "weak") {
         if (!s || s.total === 0) return false;
@@ -38,7 +42,7 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
       }
       return true;
     });
-  }, [cards, stats, filter, query]);
+  }, [cards, stats, filter, query, subject]);
 
   function rateInfo(id: number) {
     const s = stats[id];
@@ -48,6 +52,39 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
 
   return (
     <div className="flex flex-col gap-3">
+      {/* 科目フィルタ */}
+      <div className="relative">
+        <button
+          onClick={() => setShowSubjectMenu((v) => !v)}
+          className="w-full flex items-center justify-between bg-white border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-gray-700 font-medium"
+        >
+          <span>{subject ?? "すべての科目"}</span>
+          <ChevronDown size={14} className={`text-gray-400 transition-transform ${showSubjectMenu ? "rotate-180" : ""}`} />
+        </button>
+        {showSubjectMenu && (
+          <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-xl z-20 overflow-hidden shadow-lg">
+            <button
+              onClick={() => { setSubject(null); setShowSubjectMenu(false); }}
+              className={`w-full text-left px-4 py-2.5 text-sm ${!subject ? "bg-indigo-50 text-indigo-700 font-bold" : "text-gray-700 hover:bg-gray-50"}`}
+            >
+              すべての科目（{cards.length}カード）
+            </button>
+            {SUBJECTS.map((s) => {
+              const cnt = cards.filter((c) => c.subject === s).length;
+              return (
+                <button key={s}
+                  onClick={() => { setSubject(s); setShowSubjectMenu(false); }}
+                  className={`w-full text-left px-4 py-2.5 text-sm ${subject === s ? "bg-indigo-50 text-indigo-700 font-bold" : "text-gray-700 hover:bg-gray-50"}`}
+                >
+                  {s}（{cnt}カード）
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      {/* キーワード検索 */}
       <div className="relative">
         <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
         <input
@@ -58,6 +95,7 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
         />
       </div>
 
+      {/* 絞り込みタブ */}
       <div className="flex gap-1 bg-gray-100 rounded-xl p-1">
         {([["all", "すべて"], ["weak", "苦手"], ["unanswered", "未回答"]] as const).map(([v, label]) => (
           <button

@@ -269,7 +269,7 @@ export default function Home() {
           </div>
         </header>
         <div className="max-w-lg mx-auto px-4 pt-4 pb-10">
-          <QuestionList cards={subjectCards} stats={stats} onStartFrom={startFrom} />
+          <QuestionList cards={ALL_CARDS} stats={stats} onStartFrom={startFrom} />
         </div>
       </div>
     );
