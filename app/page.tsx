@@ -3,14 +3,15 @@
 import { useState, useEffect, useMemo } from "react";
 import {
   BookOpen, LayoutList, BarChart2, ChevronDown,
-  RotateCcw, AlertTriangle, Shuffle,
+  RotateCcw, AlertTriangle, Shuffle, NotebookPen,
 } from "lucide-react";
 import { ALL_CARDS, SUBJECTS, TOTAL_BLANKS, type Card } from "./data/questions";
 import FlashCard from "./components/FlashCard";
 import QuestionList from "./components/QuestionList";
+import MemoList from "./components/MemoList";
 import { loadStats, recordCardResult, type StatsRecord } from "./lib/stats";
 
-type AppMode = "select" | "study" | "list" | "stats";
+type AppMode = "select" | "study" | "list" | "stats" | "memos";
 
 const SUBJECT_COLORS: Record<string, string> = {
   "AGENCY": "bg-violet-600",
@@ -188,6 +189,13 @@ export default function Home() {
                 <p className="text-[11px] font-bold leading-tight">統計</p>
                 <p className="text-[10px] text-white/50 leading-tight">科目別成績</p>
               </button>
+
+              <button onClick={() => setAppMode("memos")}
+                className="flex-1 rounded-2xl px-2 py-3 flex flex-col items-center gap-1 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+                <NotebookPen size={16} className="text-emerald-400" />
+                <p className="text-[11px] font-bold leading-tight">表現メモ</p>
+                <p className="text-[10px] text-white/50 leading-tight">英語表現集</p>
+              </button>
             </div>
           </div>
 
@@ -256,6 +264,26 @@ export default function Home() {
               </div>
             );
           })}
+        </div>
+      </div>
+    );
+  }
+
+  // ===== 表現メモ =====
+  if (appMode === "memos") {
+    return (
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-gray-100 px-4 py-3">
+          <div className="max-w-lg mx-auto flex items-center justify-between">
+            <button onClick={() => setAppMode("select")} className="text-indigo-600 font-semibold text-sm">← ホーム</button>
+            <span className="font-bold text-gray-800 text-sm flex items-center gap-1.5">
+              <NotebookPen size={14} className="text-emerald-500" /> 英語表現メモ
+            </span>
+            <div className="w-16" />
+          </div>
+        </header>
+        <div className="max-w-lg mx-auto px-4 pt-4 pb-10">
+          <MemoList onBack={() => setAppMode("select")} />
         </div>
       </div>
     );
