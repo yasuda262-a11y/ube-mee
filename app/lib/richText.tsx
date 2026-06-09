@@ -84,8 +84,12 @@ export function renderRichText(text: string): React.ReactNode {
 // ---- フォーマットツールバー (クライアントコンポーネント向け) -----------------
 
 /**
- * テキストエリアの選択範囲を指定記法で囲む。
- * `ref` と `onChange` を受け取り、操作後に onChange を呼ぶ。
+ * テキストエリアの選択範囲を指定記法でラップ／アンラップする。
+ *
+ * アンラップ条件（いずれか）:
+ *   A. 選択テキスト自体が marker で囲まれている  → 選択内のマーカーを除去
+ *   B. 選択範囲の直前・直後に marker がある       → 外側のマーカーを除去
+ *   C. 選択なしでカーソルが marker ペアの内側にある → ペアを除去
  */
 export function wrapSelection(
   textarea: HTMLTextAreaElement,
@@ -96,12 +100,12 @@ export function wrapSelection(
   const selected = value.slice(start, end);
   const before = value.slice(0, start);
   const after = value.slice(end);
+  const ml = marker.length;
 
-  // すでに囲まれている場合は解除
-  if (selected.startsWith(marker) && selected.endsWith(marker) && selected.length > marker.length * 2) {
-    const inner = selected.slice(marker.length, selected.length - marker.length);
-    const next = before + inner + after;
-    onChange(next);
+  // ---- A: 選択テキスト自体が marker で囲まれている ----
+  if (selected.startsWith(marker) && selected.endsWith(marker) && selected.length >= ml * 2) {
+    const inner = selected.slice(ml, selected.length - ml);
+    onChange(before + inner + after);
     requestAnimationFrame(() => {
       textarea.focus();
       textarea.setSelectionRange(start, start + inner.length);
@@ -109,15 +113,76 @@ export function wrapSelection(
     return;
   }
 
+  // ---- B: 選択範囲の直前・直後に marker がある ----
+  if (before.endsWith(marker) && after.startsWith(marker)) {
+    const newBefore = before.slice(0, before.length - ml);
+    const newAfter = after.slice(ml);
+    onChange(newBefore + selected + newAfter);
+    requestAnimationFrame(() => {
+      textarea.focus();
+      textarea.setSelectionRange(start - ml, end - ml);
+    });
+    return;
+  }
+
+  // ---- C: カーソル位置（選択なし）が marker ペアの内側 ----
+  if (start === end) {
+    // カーソル前後を走査して最も近いマーカーペアを探す
+    const markerRegex = new RegExp(
+      marker.replace(/\*/g, "\\*").replace(/_/g, "\\_") + "([\\s\\S]*?)" +
+      marker.replace(/\*/g, "\\*").replace(/_/g, "\\_"),
+      "g"
+    );
+    let m: RegExpExecArray | null;
+    while ((m = markerRegex.exec(value)) !== null) {
+      const pairStart = m.index;
+      const pairEnd = m.index + m[0].length;
+      if (pairStart < start && start <= pairEnd - ml) {
+        // カーソルはこのペアの内側
+        const inner = m[1];
+        onChange(value.slice(0, pairStart) + inner + value.slice(pairEnd));
+        requestAnimationFrame(() => {
+          textarea.focus();
+          const newPos = Math.min(start - ml, pairStart + inner.length);
+          textarea.setSelectionRange(newPos, newPos);
+        });
+        return;
+      }
+    }
+  }
+
+  // ---- ラップ（新規追加）----
   const next = before + marker + selected + marker + after;
   onChange(next);
   requestAnimationFrame(() => {
     textarea.focus();
     if (selected) {
-      textarea.setSelectionRange(start + marker.length, end + marker.length);
+      textarea.setSelectionRange(start + ml, end + ml);
     } else {
-      const pos = start + marker.length;
+      const pos = start + ml;
       textarea.setSelectionRange(pos, pos);
     }
   });
+}
+
+/**
+ * textarea の keydown イベントで Cmd/Ctrl+B・U を処理するハンドラを返す。
+ * 各テキストエリアの onKeyDown に渡して使用する。
+ */
+export function makeFormatKeyHandler(
+  textareaRef: React.RefObject<HTMLTextAreaElement | null>,
+  onChange: (v: string) => void
+) {
+  return (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (!(e.metaKey || e.ctrlKey)) return;
+    if (e.key === "b" || e.key === "B") {
+      e.preventDefault();
+      const ta = textareaRef.current;
+      if (ta) wrapSelection(ta, "**", onChange);
+    } else if (e.key === "u" || e.key === "U") {
+      e.preventDefault();
+      const ta = textareaRef.current;
+      if (ta) wrapSelection(ta, "__", onChange);
+    }
+  };
 }

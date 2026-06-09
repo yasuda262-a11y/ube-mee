@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Plus, Trash2, Pencil, Check, X, Tag, ChevronRight, BookText, Quote, Search } from "lucide-react";
 import { getMemos, addMemo, updateMemo, deleteMemo, getAllTags, type Memo } from "../lib/memos";
-import { renderRichText } from "../lib/richText";
+import { renderRichText, makeFormatKeyHandler } from "../lib/richText";
 import FormatToolbar from "./FormatToolbar";
 
 // ---- タグピル ----------------------------------------------------------------
@@ -109,6 +109,7 @@ function MemoForm({
           ref={contentRef}
           value={content}
           onChange={(e) => setContent(e.target.value)}
+          onKeyDown={makeFormatKeyHandler(contentRef, setContent)}
           placeholder="説明・注意事項など&#10;例）reach / establish などの動詞と相性が良い"
           rows={3}
           className="w-full text-sm text-gray-800 leading-relaxed resize-none outline-none placeholder:text-gray-400"
@@ -127,6 +128,7 @@ function MemoForm({
           ref={examplesRef}
           value={examples}
           onChange={(e) => setExamples(e.target.value)}
+          onKeyDown={makeFormatKeyHandler(examplesRef, setExamples)}
           placeholder="例）Mutual assent is established when both parties..."
           rows={3}
           className="w-full text-sm text-gray-700 leading-relaxed resize-none outline-none placeholder:text-gray-400 bg-transparent italic"

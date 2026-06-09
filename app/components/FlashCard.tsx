@@ -17,7 +17,7 @@ import {
   type ActiveBlank,
 } from "../lib/customBlanks";
 import { getCardMemo, saveCardMemo } from "../lib/cardMemos";
-import { renderRichText } from "../lib/richText";
+import { renderRichText, makeFormatKeyHandler } from "../lib/richText";
 import FormatToolbar from "./FormatToolbar";
 
 interface Props {
@@ -666,6 +666,7 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
                       ref={memoRef}
                       value={memoInput}
                       onChange={(e) => setMemoInput(e.target.value)}
+                      onKeyDown={makeFormatKeyHandler(memoToolbarRef, setMemoInput)}
                       placeholder="このカードへのメモを入力…"
                       rows={3}
                       className="w-full text-sm text-gray-800 leading-relaxed resize-none outline-none bg-transparent placeholder:text-amber-300"
