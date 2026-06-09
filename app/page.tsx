@@ -300,7 +300,7 @@ export default function Home() {
             <div className="w-16" />
           </div>
         </header>
-        <div className="max-w-lg mx-auto px-4 pt-4 pb-10">
+        <div className="max-w-2xl mx-auto px-4 pt-4 pb-10">
           <QuestionList cards={ALL_CARDS} stats={stats} onStartFrom={startFrom} />
         </div>
       </div>

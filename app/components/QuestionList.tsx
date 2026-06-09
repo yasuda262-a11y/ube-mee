@@ -12,6 +12,40 @@ const PRIORITY_COLOR: Record<string, string> = {
   L: "text-yellow-600 bg-yellow-50 border-yellow-200",
 };
 
+// ホーム画面の科目カラーと統一
+const SUBJECT_COLORS: Record<string, string> = {
+  "AGENCY":                "bg-violet-100 text-violet-700",
+  "CONTRACTS":             "bg-blue-100 text-blue-700",
+  "TORTS":                 "bg-orange-100 text-orange-700",
+  "CONSTITUTIONAL LAW":    "bg-red-100 text-red-700",
+  "CRIMINAL LAW & PROCEDURE": "bg-rose-100 text-rose-800",
+  "CIVIL PROCEDURE":       "bg-cyan-100 text-cyan-700",
+  "EVIDENCE":              "bg-emerald-100 text-emerald-700",
+  "REAL PROPERTY":         "bg-amber-100 text-amber-700",
+  "CORPORATIONS & LLC'S":  "bg-indigo-100 text-indigo-700",
+  "PARTNERSHIPS":          "bg-teal-100 text-teal-700",
+};
+function subjectCls(s: string) {
+  return SUBJECT_COLORS[s] ?? "bg-gray-100 text-gray-600";
+}
+
+// 科目タブのアクティブ時のソリッド色
+const SUBJECT_ACTIVE: Record<string, string> = {
+  "AGENCY":                "bg-violet-600 text-white",
+  "CONTRACTS":             "bg-blue-600 text-white",
+  "TORTS":                 "bg-orange-500 text-white",
+  "CONSTITUTIONAL LAW":    "bg-red-600 text-white",
+  "CRIMINAL LAW & PROCEDURE": "bg-rose-700 text-white",
+  "CIVIL PROCEDURE":       "bg-cyan-600 text-white",
+  "EVIDENCE":              "bg-emerald-600 text-white",
+  "REAL PROPERTY":         "bg-amber-600 text-white",
+  "CORPORATIONS & LLC'S":  "bg-indigo-600 text-white",
+  "PARTNERSHIPS":          "bg-teal-600 text-white",
+};
+function subjectActiveCls(s: string) {
+  return SUBJECT_ACTIVE[s] ?? "bg-gray-600 text-white";
+}
+
 interface Props {
   cards: Card[];
   stats: StatsRecord;
@@ -51,29 +85,27 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
 
   return (
     <div className="flex flex-col gap-3">
-      {/* 科目タブ（横スクロール） */}
-      <div className="-mx-4 px-4 overflow-x-auto">
-        <div className="flex gap-2 pb-1" style={{ width: "max-content" }}>
+      {/* 科目タブ（折り返し表示・全件一覧） */}
+      <div className="flex flex-wrap gap-1.5">
+        <button
+          onClick={() => setSubject(null)}
+          className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
+            !subject ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-500 hover:bg-gray-200"
+          }`}
+        >
+          すべて
+        </button>
+        {SUBJECTS.map((s) => (
           <button
-            onClick={() => setSubject(null)}
-            className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
-              !subject ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-500"
+            key={s}
+            onClick={() => setSubject(subject === s ? null : s)}
+            className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
+              subject === s ? subjectActiveCls(s) : `${subjectCls(s)} hover:opacity-80`
             }`}
           >
-            すべて
+            {s}
           </button>
-          {SUBJECTS.map((s) => (
-            <button
-              key={s}
-              onClick={() => setSubject(s)}
-              className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
-                subject === s ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-500"
-              }`}
-            >
-              {s}
-            </button>
-          ))}
-        </div>
+        ))}
       </div>
 
       {/* キーワード検索 */}
@@ -104,40 +136,67 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
 
       <p className="text-xs text-gray-400">{filtered.length} 件</p>
 
-      <div className="flex flex-col gap-1.5">
+      <div className="flex flex-col gap-2">
         {filtered.map((c) => {
           const info = rateInfo(c.id);
-          const preview = c.context.replace(/__BLANK_\d+__/g, "[ ? ]").slice(0, 80) + "…";
+          const preview = c.context.replace(/__BLANK_\d+__/g, "[ ? ]").slice(0, 100) + "…";
           const answers = c.blanks.map((b) => b.answer).join(" / ");
           return (
             <button
               key={c.id}
               onClick={() => onStartFrom(c)}
-              className="bg-white rounded-2xl border border-gray-100 px-4 py-3 text-left flex items-start gap-3 hover:border-indigo-200 hover:bg-indigo-50 transition-colors active:scale-95"
+              className="w-full bg-white rounded-2xl border border-gray-100 px-4 py-3.5 text-left flex items-start gap-3 hover:border-indigo-200 hover:bg-indigo-50 transition-colors active:scale-[0.99]"
             >
-              <div className="mt-0.5 flex-shrink-0">
+              {/* 正誤アイコン */}
+              <div className="mt-1 flex-shrink-0">
                 {!info
                   ? <Minus size={15} className="text-gray-300" />
                   : info.rate >= 0.7
                   ? <CheckCircle size={15} className="text-emerald-400" />
                   : <XCircle size={15} className="text-red-400" />}
               </div>
+
               <div className="flex-1 min-w-0">
-                <p className="text-xs text-indigo-500 font-semibold mb-0.5 truncate">{answers}</p>
-                <p className="text-xs text-gray-500 leading-5 line-clamp-2">{preview}</p>
-                <div className="flex gap-1.5 mt-1 flex-wrap">
-                  <span className="text-[10px] bg-gray-100 text-gray-400 px-1.5 py-0.5 rounded">{c.subject}</span>
+                {/* 答え */}
+                <p className="text-xs text-indigo-500 font-semibold mb-1 truncate">{answers}</p>
+
+                {/* コンテキストプレビュー */}
+                <p className="text-xs text-gray-600 leading-5 line-clamp-2 mb-2">{preview}</p>
+
+                {/* タグ行 */}
+                <div className="flex gap-1.5 flex-wrap items-center">
+                  {/* 科目 */}
+                  <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${subjectCls(c.subject)}`}>
+                    {c.subject}
+                  </span>
+
+                  {/* 大項目 */}
                   {c.sectionHeader && (
-                    <span className="text-[10px] bg-gray-800 text-white px-1.5 py-0.5 rounded">{c.sectionHeader}</span>
+                    <span className="text-[10px] bg-gray-800 text-white px-1.5 py-0.5 rounded-full">
+                      {c.sectionHeader}
+                    </span>
                   )}
+
+                  {/* 中項目 ★新規追加 */}
+                  {c.subsectionTitle && (
+                    <span className="text-[10px] bg-gray-600 text-gray-100 px-1.5 py-0.5 rounded-full">
+                      {c.subsectionTitle}
+                    </span>
+                  )}
+
+                  {/* 優先度 */}
                   {c.priority && (
-                    <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border ${PRIORITY_COLOR[c.priority]}`}>
+                    <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full border ${PRIORITY_COLOR[c.priority]}`}>
                       {c.priority}
                     </span>
                   )}
+
+                  {/* ページ */}
                   <span className="text-[10px] text-gray-400">p.{c.page}</span>
+
+                  {/* 正答率 */}
                   {info && (
-                    <span className={`text-[10px] font-bold ${info.rate >= 0.7 ? "text-emerald-500" : "text-red-400"}`}>
+                    <span className={`text-[10px] font-bold ml-auto ${info.rate >= 0.7 ? "text-emerald-500" : "text-red-400"}`}>
                       {info.pct}% ({info.correct}/{info.total})
                     </span>
                   )}
