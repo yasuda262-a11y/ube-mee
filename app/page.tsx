@@ -33,6 +33,7 @@ export default function Home() {
   const [deck, setDeck] = useState<Card[]>([]);
   const [deckIndex, setDeckIndex] = useState(0);
   const [showSubjectMenu, setShowSubjectMenu] = useState(false);
+  const [studyFrom, setStudyFrom] = useState<"select" | "list">("select");
 
   useEffect(() => { setStats(loadStats()); }, []);
 
@@ -58,16 +59,18 @@ export default function Home() {
     const qs = shuffle ? [...cards].sort(() => Math.random() - 0.5) : cards;
     setDeck(qs);
     setDeckIndex(0);
+    setStudyFrom("select");
     setAppMode("study");
   }
 
   function startFrom(card: Card) {
-    const idx = subjectCards.findIndex((c) => c.id === card.id);
+    const idx = ALL_CARDS.findIndex((c) => c.id === card.id);
     const reordered = idx >= 0
-      ? [...subjectCards.slice(idx), ...subjectCards.slice(0, idx)]
-      : subjectCards;
+      ? [...ALL_CARDS.slice(idx), ...ALL_CARDS.slice(0, idx)]
+      : ALL_CARDS;
     setDeck(reordered);
     setDeckIndex(0);
+    setStudyFrom("list");
     setAppMode("study");
   }
 
@@ -298,7 +301,12 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-gray-100 px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center justify-between">
-          <button onClick={() => setAppMode("select")} className="text-indigo-600 font-semibold text-sm">← ホーム</button>
+          <button
+            onClick={() => setAppMode(studyFrom)}
+            className="text-indigo-600 font-semibold text-sm"
+          >
+            {studyFrom === "list" ? "← 一覧" : "← ホーム"}
+          </button>
           <span className="font-bold text-gray-800 text-sm">{selectedSubject ?? "全科目"} 学習</span>
           <div className="w-16" />
         </div>
