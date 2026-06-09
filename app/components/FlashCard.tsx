@@ -426,8 +426,35 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
   // pending selection を確定してカスタムグループに追加
   function handleConfirmSelection() {
     if (pendingSelection.size === 0) return;
+
+    // 選択トークンをトークン順に並べ、間に非選択トークンが挟まる場合は
+    // 別グループに分割する（例: A B [gap:C] D E → [A,B] と [D,E] の2グループ）
+    const sortedTokens = tokens.filter(t => pendingSelection.has(t.idx));
+    const groups: number[][] = [];
+    let current: number[] = [];
+
+    for (let i = 0; i < sortedTokens.length; i++) {
+      if (i === 0) {
+        current.push(sortedTokens[i].idx);
+        continue;
+      }
+      const prevIdx = sortedTokens[i - 1].idx;
+      const curIdx = sortedTokens[i].idx;
+      // prevIdx と curIdx の間に非選択トークンがあるか確認
+      const hasGap = tokens
+        .slice(prevIdx + 1, curIdx)
+        .some(t => !pendingSelection.has(t.idx) && t.type === "word");
+      if (hasGap) {
+        if (current.length > 0) groups.push(current);
+        current = [curIdx];
+      } else {
+        current.push(curIdx);
+      }
+    }
+    if (current.length > 0) groups.push(current);
+
     const next = { ...override };
-    next.customBlanks = [...next.customBlanks, [...pendingSelection]];
+    next.customBlanks = [...next.customBlanks, ...groups];
     applyOverride(next);
     setPendingSelection(new Set());
   }
