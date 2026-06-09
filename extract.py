@@ -414,8 +414,11 @@ def extract():
                                          for b in [first_block])]
             para_prio = get_priority_for_y(para_y0, para_y1, para_x0, para_x1)
             if para_prio:
-                # This paragraph has its own priority circle: extract the title from it
-                extracted = get_subsection_title(dict_blocks, first_block, bool(first_block_masks))
+                # This paragraph has its own priority circle: extract the title from it.
+                # Pass block_has_masks=False so bold text is extracted even when the first
+                # block contains inline blanks (e.g. "Claim __BLANK_1__ (Res Judicata)").
+                # The priority-circle gate already ensures this is a real section heading.
+                extracted = get_subsection_title(dict_blocks, first_block, False)
                 if extracted:
                     subsection_title = extracted
                     # Save to pending so subsequent sibling cards in the same section inherit it

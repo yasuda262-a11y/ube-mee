@@ -264,7 +264,7 @@
     "page": 7,
     "subject": "AGENCY",
     "sectionHeader": "B. Contractual Liability of Principal & Agent",
-    "subsectionTitle": "Inherent Agency Power",
+    "subsectionTitle": "Ratification",
     "priority": "H",
     "context": "Ratification – Makes the principal liable for an agent’s\ncontract entered into __BLANK_1__",
     "blanks": [
@@ -279,7 +279,7 @@
     "page": 7,
     "subject": "AGENCY",
     "sectionHeader": "B. Contractual Liability of Principal & Agent",
-    "subsectionTitle": "Inherent Agency Power",
+    "subsectionTitle": "Ratification",
     "priority": "H",
     "context": "Ratification occurs when the Principal:\n1) Has __BLANK_1__ AND\n2) __BLANK_2__ *Agent also remains liable if principal was not disclosed.",
     "blanks": [
@@ -336,7 +336,7 @@
     "page": 7,
     "subject": "AGENCY",
     "sectionHeader": "C. Vicarious Liability for Agent’s Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Employee vs. Independent Contractor",
     "priority": "H",
     "context": "Employee vs. Independent Contractor – Primary\nfocus is whether the principal had __BLANK_1__ which the job was performed.",
     "blanks": [
@@ -351,7 +351,7 @@
     "page": 7,
     "subject": "AGENCY",
     "sectionHeader": "C. Vicarious Liability for Agent’s Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Ratification",
     "priority": "H",
     "context": "Respondeat Superior Doctrine – An employer is liable\nfor an employee’s negligent acts if the employee was\n__BLANK_1__",
     "blanks": [
@@ -366,7 +366,7 @@
     "page": 7,
     "subject": "AGENCY",
     "sectionHeader": "C. Vicarious Liability for Agent’s Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Ratification",
     "priority": "H",
     "context": "Employee acts within Scope of Employment when:\na) Performing __BLANK_1__ OR\nb) Engaging in a course of conduct subject to the\n__BLANK_2__",
     "blanks": [
@@ -385,7 +385,7 @@
     "page": 7,
     "subject": "AGENCY",
     "sectionHeader": "C. Vicarious Liability for Agent’s Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Ratification",
     "priority": "H",
     "context": "Intentional Torts – are __BLANK_1__ scope.\nEXCEPTIONS:\na) Act __BLANK_2__ employer;\nb) Act was __BLANK_3__ OR\nc) Act was __BLANK_4__ from the type of employment.",
     "blanks": [
@@ -412,7 +412,7 @@
     "page": 7,
     "subject": "AGENCY",
     "sectionHeader": "C. Vicarious Liability for Agent’s Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Ratification",
     "priority": "H",
     "context": "Not Within Scope of Employment – Conduct is NOT\nwithin the scope if __BLANK_1__ − BUT see exception below.",
     "blanks": [
@@ -549,7 +549,7 @@
     "page": 9,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "B. Power & Authority of Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Authority to Bind the Partnership",
     "priority": "H",
     "context": "Authority to Bind the Partnership – A partner is an\n__BLANK_1__ the Pship, and generally has authority to bind\nthe Pship for its business (including contracts).\n− To bind the Pship, the partner MUST have\n__BLANK_2__",
     "blanks": [
@@ -568,7 +568,7 @@
     "page": 9,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "B. Power & Authority of Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Authority to Bind the Partnership",
     "priority": "H",
     "context": "Express Actual Authority – A partner receives such\nauthority __BLANK_1__ − Differences among partners for Acts within\n__BLANK_2__ → must be\napproved by __BLANK_3__ the partners.\n− Acts outside __BLANK_4__ must be approved __BLANK_5__ →\n− If Pship Agreement is silent → a partner has\nauthority for __BLANK_6__ UNLESS he knows: (a) other partners might\ndisagree, or (b) that consultation is appropriate.",
     "blanks": [
@@ -603,7 +603,7 @@
     "page": 9,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "B. Power & Authority of Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Authority to Bind the Partnership",
     "priority": "H",
     "context": "Ordinary Course of Business __BLANK_1__",
     "blanks": [
@@ -618,7 +618,7 @@
     "page": 9,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "B. Power & Authority of Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Authority to Bind the Partnership",
     "priority": "H",
     "context": "Implied Actual Authority (Incidental Authority) – A\npartner may take __BLANK_1__ to achieve the partner’s authorized duties.",
     "blanks": [
@@ -633,7 +633,7 @@
     "page": 9,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "B. Power & Authority of Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Authority to Bind the Partnership",
     "priority": "H",
     "context": "Apparent Authority – A partner has apparent authority\nfor acts:\na) conducted __BLANK_1__ OR\nb) __BLANK_2__",
     "blanks": [
@@ -652,7 +652,7 @@
     "page": 9,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "B. Power & Authority of Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Authority to Bind the Partnership",
     "priority": "H",
     "context": "BUT, a partner’s act will NOT bind the Pship when the:\n1) __BLANK_1__ AND\n2) __BLANK_2__ *For acts outside the scope of business → need a\nmanifestation by Pship that partner had authority in order\nto be binding.",
     "blanks": [
@@ -754,7 +754,7 @@
     "page": 10,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "D. Rights of Partners Among Themselves",
-    "subsectionTitle": "Liability of Limited Liability Partners",
+    "subsectionTitle": "Sharing of Profits and Losses",
     "priority": "L",
     "context": "Sharing of Profits and Losses – Unless otherwise\nagreed, profits are __BLANK_1__ losses are\nshared in the same ratio as profits.\n− Any partner who pays more than his fair share in\nlosses is entitled to contribution from the other\npartners.",
     "blanks": [
@@ -769,7 +769,7 @@
     "page": 10,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "D. Rights of Partners Among Themselves",
-    "subsectionTitle": "Liability of Limited Liability Partners",
+    "subsectionTitle": "Right to Management & Control",
     "priority": "M",
     "context": "Right to Management & Control – Unless otherwise\nagreed, each partner __BLANK_1__ the\nmanagement and control of the business.\n− A disagreement __BLANK_2__ need only be approved by __BLANK_3__ the\npartners.\n− __BLANK_4__ MUST be __BLANK_5__",
     "blanks": [
@@ -800,7 +800,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "D. Rights of Partners Among Themselves",
-    "subsectionTitle": null,
+    "subsectionTitle": "Right to Partnership Property",
     "priority": "H",
     "context": "Right to Partnership Property – All property acquired\nby a Pship (or with Pship assets) is owned by the\nPship, not __BLANK_1__ − Partners have __BLANK_2__ for\nPship purposes.\n− Personal use of Pship property requires the\n__BLANK_3__",
     "blanks": [
@@ -823,7 +823,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "D. Rights of Partners Among Themselves",
-    "subsectionTitle": null,
+    "subsectionTitle": "Right to Partnership Property",
     "priority": "H",
     "context": "Judgment Solely Against a Partner → CANNOT be\nsatisfied with Pship property because the partner __BLANK_1__ − However, a creditor may seize the partner’s\n__BLANK_2__ the Pship.",
     "blanks": [
@@ -857,7 +857,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "D. Rights of Partners Among Themselves",
-    "subsectionTitle": "Remuneration (Payment for Partner’s Services)",
+    "subsectionTitle": "Advance of Funds & Reimbursement",
     "priority": "M",
     "context": "Advance of Funds & Reimbursement – Pship MUST\nreimburse a partner for an advance to the __BLANK_1__ − For Reimbursement → (1) payment must be in\nproper course of Pship business, AND (2)\npartner must comply with duty of care & loyalty.",
     "blanks": [
@@ -872,7 +872,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "E. Special Rules for Limited Partnerships",
-    "subsectionTitle": "Remuneration (Payment for Partner’s Services)",
+    "subsectionTitle": "Management & Control in a LP",
     "priority": "M",
     "context": "Management & Control in a LP\nGeneral Partner __BLANK_1__ →\n__BLANK_2__ Limited Partner Has NO say or control as to how the →\nLP is run, and DOES NOT have the right to manage or\ncontrol day-to-day business.\n− Generally, they are passive and have voting\nrights only __BLANK_3__ or __BLANK_4__",
     "blanks": [
@@ -899,7 +899,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "E. Special Rules for Limited Partnerships",
-    "subsectionTitle": "Remuneration (Payment for Partner’s Services)",
+    "subsectionTitle": "Limited Partner’s Right to Inspect Records",
     "priority": "M",
     "context": "Limited Partner’s Right to Inspect Records\nRULPA → Limited partners have the right to inspect and\ncopy records the LP __BLANK_1__",
     "blanks": [
@@ -914,7 +914,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "E. Special Rules for Limited Partnerships",
-    "subsectionTitle": "Remuneration (Payment for Partner’s Services)",
+    "subsectionTitle": "Limited Partner’s Right to Inspect Records",
     "priority": "M",
     "context": "Upon reasonable demand, a limited partner may obtain:\n1) True and full info regarding the __BLANK_1__\n2) __BLANK_2__ and",
     "blanks": [
@@ -952,7 +952,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "F. Duties Owed by Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duty of Care",
     "priority": "H",
     "context": "Duty of Care – A partner owes the fiduciary duty of care\nto the Pship and __BLANK_1__",
     "blanks": [
@@ -967,7 +967,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "F. Duties Owed by Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duty of Care",
     "priority": "H",
     "context": "Under RUPA, a partner only breaches the duty of\ncare if he engages in:\na) __BLANK_1__\nb) __BLANK_2__ OR\nc) __BLANK_3__ *If a partner breaches, he may be held personally liable\nto the Pship for any losses.",
     "blanks": [
@@ -990,7 +990,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "F. Duties Owed by Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duty of Loyalty",
     "priority": "H",
     "context": "Duty of Loyalty – A partner owes the fiduciary duty of\nloyalty to the Pship and other partners. This requires a\npartner __BLANK_1__",
     "blanks": [
@@ -1005,7 +1005,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "F. Duties Owed by Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duty of Loyalty",
     "priority": "H",
     "context": "Under RUPA, a partner must:\n1) Account for any property, profit, or benefit\nderived from Pship property or business\n(including refraining from appropriating Pship\nassets);\n2) Not __BLANK_1__ to the Pship (a\nconflict of interest); AND\n3) Not __BLANK_2__ the Pship (unless agreed\notherwise).",
     "blanks": [
@@ -1024,7 +1024,7 @@
     "page": 11,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "F. Duties Owed by Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duty of Loyalty",
     "priority": "H",
     "context": "BUT, a partner is NOT liable if:\n1) __BLANK_1__ AND\n2) Either:\na) the __BLANK_2__ OR\nb) __BLANK_3__",
     "blanks": [
@@ -1074,7 +1074,7 @@
     "page": 12,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "F. Duties Owed by Partners",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duty to Provide Full Information",
     "priority": "M",
     "context": "Duty to Provide Full Information\nUPA → Partners shall render __BLANK_1__ by any\npartner) true and full information of all things affecting\nthe Pship.\nRUPA → Partners shall disclose __BLANK_2__ full\ninformation concerning the Pship’s business and affairs.",
     "blanks": [
@@ -1215,7 +1215,7 @@
     "page": 14,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "C. Pre-Formation Contract Liability",
-    "subsectionTitle": "Formation of a Corporation",
+    "subsectionTitle": "Bylaws",
     "priority": "M",
     "context": "Bylaws = rules and regulations adopted __BLANK_1__ M\ngovern __BLANK_2__ a corp.\n− RMBCA → bylaws may contain any provision\nnot inconsistent with the: (a) Articles of\nIncorporation; OR (b) law of the jurisdiction.",
     "blanks": [
@@ -1234,7 +1234,7 @@
     "page": 14,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "A. Formation of a Corporation",
-    "subsectionTitle": "Amending the Bylaws",
+    "subsectionTitle": "Powers of a Corporation",
     "priority": "M",
     "context": "Powers of a Corporation – A corp. has the power to do\n__BLANK_1__ carry out its\nbusiness and affairs.",
     "blanks": [
@@ -1359,7 +1359,7 @@
     "page": 15,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "C. Pre-Formation Contract Liability",
-    "subsectionTitle": null,
+    "subsectionTitle": "Liability of Corporation",
     "priority": "M",
     "context": "Liability of Corporation – A corp. is NOT liable on a\ncontract made by a promoter UNLESS the corp.\n__BLANK_1__ − Express Adoption = __BLANK_2__ − Implied Adoption = Corp. (1) knows / has\nreason to __BLANK_3__ AND __BLANK_4__",
     "blanks": [
@@ -1512,7 +1512,7 @@
     "page": 16,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "E. Corporate Finance",
-    "subsectionTitle": null,
+    "subsectionTitle": "Consideration in Exchange for Shares",
     "priority": "L",
     "context": "Consideration in Exchange for Shares – Under the\nRMBCA, shares may be issued for __BLANK_1__ − Includes → money, tangible or intangible\nproperty, past performance of services, future\npromises of service or payment of\nmoney/property.",
     "blanks": [
@@ -1527,7 +1527,7 @@
     "page": 16,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "E. Corporate Finance",
-    "subsectionTitle": null,
+    "subsectionTitle": "Consideration in Exchange for Shares",
     "priority": "L",
     "context": "The BoD determines the value of non-monetary\nconsideration. Absent fraud or bad faith, their\ndetermination __BLANK_1__",
     "blanks": [
@@ -1542,7 +1542,7 @@
     "page": 16,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "E. Corporate Finance",
-    "subsectionTitle": null,
+    "subsectionTitle": "Dividends & Distributions to SH’s",
     "priority": "H",
     "context": "Dividends & Distributions to SH’s – Distributions are\n__BLANK_1__ decisions\nare protected under __BLANK_2__ − Once a dividend is declared, the SH has a legal\nright to the distribution.",
     "blanks": [
@@ -1561,7 +1561,7 @@
     "page": 16,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "E. Corporate Finance",
-    "subsectionTitle": null,
+    "subsectionTitle": "Dividends & Distributions to SH’s",
     "priority": "H",
     "context": "SH’s DO NOT have the right to compel a distribution,\nunless such right is expressly granted __BLANK_1__ − BUT, some courts will interfere and compel a\ndistribution upon a showing: (1) __BLANK_2__ AND (2) that funds were\navailable.",
     "blanks": [
@@ -1580,7 +1580,7 @@
     "page": 16,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "F. Shareholders",
-    "subsectionTitle": null,
+    "subsectionTitle": "SH Meetings – Right to Vote & Record Date",
     "priority": "M",
     "context": "SH Meetings – Right to Vote & Record Date\n__BLANK_1__ entitled to vote at the shareholders meeting (even if a\nSH sells the shares before the meeting – unless a __BLANK_2__ is given to the buyer).\n− Record date CANNOT be more __BLANK_3__ prior to the SH meeting.",
     "blanks": [
@@ -1759,7 +1759,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "E. Corporate Finance",
-    "subsectionTitle": "Election of Directors",
+    "subsectionTitle": "SH’s Right to Inspect Books and Records",
     "priority": "H",
     "context": "SH’s Right to Inspect Books and Records – Under\nthe RMBCA, a SH has the right to inspect and copy the\n__BLANK_1__ and __BLANK_2__ if:\n1) made __BLANK_3__ at a\nreasonable location (specified by the corp.);\n2) __BLANK_4__\n3) made __BLANK_5__\n4) described the purpose __BLANK_6__ AND\n5) the requested records __BLANK_7__",
     "blanks": [
@@ -1798,7 +1798,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "E. Corporate Finance",
-    "subsectionTitle": "Election of Directors",
+    "subsectionTitle": "SH’s Right to Inspect Books and Records",
     "priority": "H",
     "context": "A SH may inspect the following records without\nproviding a proper purpose:\n▪ __BLANK_1__ ▪ __BLANK_2__ ▪ BoD Resolutions on classification of shares;\n▪ __BLANK_3__ (for past 3 years);\n▪ Name and business addresses __BLANK_4__ and\n▪ Most __BLANK_5__",
     "blanks": [
@@ -1844,7 +1844,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "E. Corporate Finance",
-    "subsectionTitle": null,
+    "subsectionTitle": "Election of Directors",
     "priority": "L",
     "context": "SH’s Right of Expression & Proposed Resolutions –\nSubmitting a “proposed resolution” at a SH Meeting is\ngenerally accepted, BUT a corp. may __BLANK_1__ − Non-Binding / Precatory Proposals → PROPER\n− Binding Proposals → NOT PROPER, unless for\n__BLANK_2__",
     "blanks": [
@@ -1863,7 +1863,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "G. Directors",
-    "subsectionTitle": "BoD Exercise of Corp. Powers",
+    "subsectionTitle": "BoD Meetings",
     "priority": "M",
     "context": "BoD Meetings – The BoD can act only if a __BLANK_1__ present at the time when a vote is taken.",
     "blanks": [
@@ -1878,7 +1878,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "G. Directors",
-    "subsectionTitle": "BoD Exercise of Corp. Powers",
+    "subsectionTitle": "BoD Meetings",
     "priority": "M",
     "context": "Quorum for BoD Action → __BLANK_1__ necessary to make a quorum, UNLESS a higher or lower\nnumber is required by the Articles of Incorporation.\n− If the Articles of Incorporation lowers the\nnumber, it cannot be less than __BLANK_2__ the\ndirectors.",
     "blanks": [
@@ -1897,7 +1897,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "G. Directors",
-    "subsectionTitle": "BoD Exercise of Corp. Powers",
+    "subsectionTitle": "BoD Meetings",
     "priority": "M",
     "context": "The BoD may permit participation of a director by any\nmeans of communication, BUT all directors must be able\n__BLANK_1__ the meeting.",
     "blanks": [
@@ -1912,7 +1912,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "G. Directors",
-    "subsectionTitle": "BoD Exercise of Corp. Powers",
+    "subsectionTitle": "Voting",
     "priority": "M",
     "context": "Voting – If a quorum is present, then an act is approved\nby the affirmative vote of __BLANK_1__ directors\npresent at the meeting.\n− UNLESS a greater number is required by the\nArticles of Incorporation or Bylaws.",
     "blanks": [
@@ -1927,7 +1927,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "G. Directors",
-    "subsectionTitle": "BoD Exercise of Corp. Powers",
+    "subsectionTitle": "Notice & Waiver",
     "priority": "M",
     "context": "Notice & Waiver\nRegular Meeting may be held without notice. →\nSpecial Meeting requires at __BLANK_1__ (of →\nthe date, time, and place of the meeting)\nWaiver – A director may waive notice:\na) in a signed writing; OR\nb) if the director attends the meeting (unless he\nobjects at the beginning of the meeting or upon\nhis arrival and does not vote).",
     "blanks": [
@@ -1942,7 +1942,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "G. Directors",
-    "subsectionTitle": "Board Action by Written Consent",
+    "subsectionTitle": "Removal of Directors",
     "priority": "L",
     "context": "Removal of Directors\nRMBCA SH’s may remove a __BLANK_1__ →\n__BLANK_2__ the Articles of Incorporation requires\ncause.\nCommon Law could only be removed for cause. →",
     "blanks": [
@@ -2037,7 +2037,7 @@
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "I. Members & Managers",
-    "subsectionTitle": "Removal of Officers",
+    "subsectionTitle": "Management of an LLC",
     "priority": "M",
     "context": "Management of an LLC\nMember-Managed LLC → An LLC is presumed to be\nmember-managed.\nManager-Managed → To be manager-managed, the\n__BLANK_1__ state that the LLC will be\nmanager-managed.\n− A manager-managed LLC is run by an elected\ngroup of managers (similar to a BoD).",
     "blanks": [
@@ -2052,7 +2052,7 @@
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "I. Members & Managers",
-    "subsectionTitle": "Removal of Officers",
+    "subsectionTitle": "Authority of Members / Managers",
     "priority": "H",
     "context": "Authority of Members / Managers – Under RULLCA\nand general agency principles, each member has\nauthority to bind the LLC __BLANK_1__ (including contracts).",
     "blanks": [
@@ -2242,7 +2242,7 @@
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "K. Fiduciary Duties",
-    "subsectionTitle": "Duty of Care",
+    "subsectionTitle": "Duty of Loyalty",
     "priority": "H",
     "context": "Duty of Loyalty – Directors must act in __BLANK_1__",
     "blanks": [
@@ -2257,7 +2257,7 @@
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "K. Fiduciary Duties",
-    "subsectionTitle": "Duty of Care",
+    "subsectionTitle": "Duty of Loyalty",
     "priority": "H",
     "context": "Forbids a Director from:\na) Entering __BLANK_1__\nb) __BLANK_2__\nc) __BLANK_3__ OR\nd) __BLANK_4__",
     "blanks": [
@@ -2399,7 +2399,7 @@
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "J. Close Corporations & Control Devices",
-    "subsectionTitle": "Fiduciary Duties of Shareholders",
+    "subsectionTitle": "Duty of Loyalty",
     "priority": "L",
     "context": "Restricting Fiduciary Duties – Corporations\nRMBCA → The Articles of Incorporation MAY eliminate\nor limit __BLANK_1__ actions\ntaken or not taken.\n− BUT, the following CANNOT be limited: (1)\nfinancial benefits improperly received; (2)\n__BLANK_2__ harm to the corp. or SH’s;\n__BLANK_3__ or (4) __BLANK_4__",
     "blanks": [
@@ -2426,7 +2426,7 @@
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "J. Close Corporations & Control Devices",
-    "subsectionTitle": "Fiduciary Duties of Shareholders",
+    "subsectionTitle": "Fiduciary Duties Owed by LLC Members/Managers",
     "priority": "M",
     "context": "Fiduciary Duties Owed by LLC Members/Managers\nMember-Managed LLC’s → Members owe the duty of\ncare and loyalty __BLANK_1__",
     "blanks": [
@@ -2441,7 +2441,7 @@
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "J. Close Corporations & Control Devices",
-    "subsectionTitle": "Fiduciary Duties of Shareholders",
+    "subsectionTitle": "Fiduciary Duties Owed by LLC Members/Managers",
     "priority": "M",
     "context": "Duty of Care → a member must act:\n1) with the care __BLANK_1__\n2) with __BLANK_2__",
     "blanks": [
@@ -2494,7 +2494,7 @@
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "J. Close Corporations & Control Devices",
-    "subsectionTitle": null,
+    "subsectionTitle": "Restricting Fiduciary Duties – LLC’s",
     "priority": "L",
     "context": "Restricting Fiduciary Duties – LLC’s\nRULLCA → the Operating Agreement may do the\nfollowing so long as __BLANK_1__\n1) Restrict/eliminate the duty of loyalty;\n2) Set forth activities that do not violate the duty of\nloyalty;\n3) Alter the duty of care (but it cannot authorize\nintentional misconduct or a knowing violation of\nlaw);\n4) Alter/eliminate any other fiduciary duty; and\n5) Set forth standards to measure the duty of good\nfaith & fair dealing.",
     "blanks": [
@@ -2752,7 +2752,7 @@
     "page": 21,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "J. Close Corporations & Control Devices",
-    "subsectionTitle": null,
+    "subsectionTitle": "Sale of All / Substantially All of the Corp.’s Assets",
     "priority": "M",
     "context": "Sale of All / Substantially All of the Corp.’s Assets –\ndeemed a fundamental change if the sale is NOT in the\n__BLANK_1__",
     "blanks": [
@@ -2767,7 +2767,7 @@
     "page": 21,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "J. Close Corporations & Control Devices",
-    "subsectionTitle": null,
+    "subsectionTitle": "Sale of All / Substantially All of the Corp.’s Assets",
     "priority": "M",
     "context": "Fundamental Changes – require the following:\n1) Adoption by the BoD;\n2) Notice to all SH’s – must state purpose of the\nmeeting; AND\n3) Adoption by the SH’s __BLANK_1__ – unless\na greater number is required under state law or\nthe Articles of Incorp.",
     "blanks": [
@@ -2782,7 +2782,7 @@
     "page": 21,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "J. Close Corporations & Control Devices",
-    "subsectionTitle": null,
+    "subsectionTitle": "Sale of All / Substantially All of the Corp.’s Assets",
     "priority": "M",
     "context": "A majority vote of SH’s is not required if the sale __BLANK_1__",
     "blanks": [
@@ -2912,7 +2912,7 @@
     "page": 22,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "N. Dissolution & Dissociation",
-    "subsectionTitle": "Voluntary Dissolution of a Corp.",
+    "subsectionTitle": "Dissociation of a Member from an LLC",
     "priority": "M",
     "context": "Dissociation of a Member from an LLC – A member\nhas a right to dissociate (rightfully or wrongfully) at any\ntime, and occurs when the LLC has notice of the\n__BLANK_1__ − A dissociating member loses the right to\nparticipate in management of the LLC, BUT he\n__BLANK_2__ − RULLCA → dissociation DOES NOT result in\ndissolution of the LLC.",
     "blanks": [
@@ -2958,7 +2958,7 @@
     "page": 23,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "A. Federal Subject Matter Jurisdiction (SMJ)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Federal Question Jurisdiction",
     "priority": "H",
     "context": "Federal Question Jurisdiction – Exists when the claim\narises under (a) __BLANK_1__ (b) the __BLANK_2__ OR (c) __BLANK_3__ − P must be enforcing a federal right.\n− Federal question MUST be present on the face\nof a well pled complaint.\n− Raising a defense under federal law is NOT\nsufficient.",
     "blanks": [
@@ -3024,7 +3024,7 @@
     "page": 23,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Supplemental Jurisdiction",
     "priority": "H",
     "context": "Supplemental Jurisdiction – Allows a party to bring a\n__BLANK_1__ Federal Court that does not meet the\nrequirement of SMJ.\n− A Federal __BLANK_2__ Supplemental\nJurisdiction when such claim __BLANK_3__ the\nother claims the court has SMJ over (the claims\nmust arise out of __BLANK_4__",
     "blanks": [
@@ -3051,7 +3051,7 @@
     "page": 23,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Supplemental Jurisdiction",
     "priority": "H",
     "context": "Limitations of Supplemental Jurisdiction:\n− Supp. Jurisdiction CANNOT be used to\novercome a lack of diversity.\n− It CANNOT be asserted if it would violate\n__BLANK_1__ − It DOES NOT apply to claims __BLANK_2__",
     "blanks": [
@@ -3070,7 +3070,7 @@
     "page": 23,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Domestic Relations Exception",
     "priority": "L",
     "context": "Domestic Relations Exception – Federal courts MUST\ndecline jurisdiction if a case primarily involves\n__BLANK_1__ (divorce, alimony, child\ncustody/support issues).\n− But, a court should NOT decline jurisdiction\nwhen a domestic relations matter/issue is\nancillary to the case.",
     "blanks": [
@@ -3205,7 +3205,7 @@
     "page": 24,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "C. Service of Process & Notice",
-    "subsectionTitle": null,
+    "subsectionTitle": "Service of Process & Notice",
     "priority": "H",
     "context": "Service of Process & Notice\nTiming – Summons & Complaint MUST be served on D\n__BLANK_1__ filed with the court.\n− Otherwise, the court must → __BLANK_2__ against that D; OR (b)\norder that service be made within a specified\nperiod of time.",
     "blanks": [
@@ -3224,7 +3224,7 @@
     "page": 24,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "C. Service of Process & Notice",
-    "subsectionTitle": null,
+    "subsectionTitle": "Service of Process & Notice",
     "priority": "H",
     "context": "Process Server – Service may be made by any person\nwho is: (1) at __BLANK_1__ AND (2) __BLANK_2__",
     "blanks": [
@@ -3243,7 +3243,7 @@
     "page": 24,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "C. Service of Process & Notice",
-    "subsectionTitle": null,
+    "subsectionTitle": "Service of Process & Notice",
     "priority": "H",
     "context": "Method of Service – The method of service must be\nconsistent with Due Process → reasonably calculated, to\nmake the parties aware of the action, and give them an\nopportunity to object.\n− Individual → may be served: __BLANK_1__ (b)\n__BLANK_2__ (c) via an agent (by\nappointment or by law); OR (d) in accordance",
     "blanks": [
@@ -3380,7 +3380,7 @@
     "page": 25,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "F. Injunctions & TRO’s",
-    "subsectionTitle": null,
+    "subsectionTitle": "Preliminary Injunction",
     "priority": "M",
     "context": "Preliminary Injunction – Maintains __BLANK_1__ pending the outcome of an action.",
     "blanks": [
@@ -3395,7 +3395,7 @@
     "page": 25,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "F. Injunctions & TRO’s",
-    "subsectionTitle": null,
+    "subsectionTitle": "Preliminary Injunction",
     "priority": "M",
     "context": "May be issued only:\n1) __BLANK_1__ the adverse party; AND\n2) if the moving __BLANK_2__ to reimburse non-movant for injury caused by\nthe injunction if the moving party is not\nsuccessful on the merits).",
     "blanks": [
@@ -3414,7 +3414,7 @@
     "page": 25,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "F. Injunctions & TRO’s",
-    "subsectionTitle": null,
+    "subsectionTitle": "Preliminary Injunction",
     "priority": "M",
     "context": "Traditional 4 -Prong Test requires:\n1) __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ AND\n4) __BLANK_4__",
     "blanks": [
@@ -3724,7 +3724,7 @@
     "page": 26,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "F. Injunctions & TRO’s",
-    "subsectionTitle": "Counterclaims",
+    "subsectionTitle": "Cross-Claims",
     "priority": "L",
     "context": "Cross-Claims – A pleading may state a claim against a\nco-party (co-defendant) as a cross-claim, BUT only __BLANK_1__",
     "blanks": [
@@ -4053,7 +4053,7 @@
     "page": 28,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "J. Discovery",
-    "subsectionTitle": "Discoverable Information",
+    "subsectionTitle": "Depositions",
     "priority": "M",
     "context": "Depositions – A party is permitted up __BLANK_1__ of any person/party, so long as the deposition is:\n1) Is limited to 1 day of no more __BLANK_2__ AND\n2) Proper notice is given (reasonable written\nnotice).\n*A subpoena is NOT required to depose a party to the\naction.",
     "blanks": [
@@ -4072,7 +4072,7 @@
     "page": 28,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "J. Discovery",
-    "subsectionTitle": "Discoverable Information",
+    "subsectionTitle": "Depositions",
     "priority": "M",
     "context": "Unless stipulated otherwise, a party MUST obtain leave\nof the court:\na) To take more than 10 depositions;\nb) To depose a __BLANK_1__ if they had already\nbeen deposed in the action; OR\nc) If it’s seeking a deposition prior to the Rule 26(f)\nmeet and confer conference.",
     "blanks": [
@@ -4087,7 +4087,7 @@
     "page": 28,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "J. Discovery",
-    "subsectionTitle": "Discoverable Information",
+    "subsectionTitle": "Electronically Stored Info (ESI)",
     "priority": "M",
     "context": "Electronically Stored Info (ESI) – Includes emails, text\nmessages, digital files, and meta-data. When a party\n__BLANK_1__ it must take reasonable\nsteps to preserve ESI (e.g. suspend routine document\nretention/destruction policy, litigation hold).",
     "blanks": [
@@ -4102,7 +4102,7 @@
     "page": 28,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "J. Discovery",
-    "subsectionTitle": "Discoverable Information",
+    "subsectionTitle": "Electronically Stored Info (ESI)",
     "priority": "M",
     "context": "Sanctions for Failure to Preserve ESI – The court may\nsanction a party for failure to preserve ESI only if:\n1) The __BLANK_1__\n2) The party failed __BLANK_2__ AND\n3) The ESI __BLANK_3__ through\nadditional discovery.",
     "blanks": [
@@ -4156,7 +4156,7 @@
     "page": 29,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "J. Discovery",
-    "subsectionTitle": null,
+    "subsectionTitle": "Rule 26(g) – Discovery Disclosures & Sanctions",
     "priority": "L",
     "context": "Rule 26(g) – Discovery Disclosures & Sanctions – All\ndiscovery papers served in a __BLANK_1__ record (or a party personally if\nunrepresented).",
     "blanks": [
@@ -4171,7 +4171,7 @@
     "page": 29,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "J. Discovery",
-    "subsectionTitle": null,
+    "subsectionTitle": "Rule 26(g) – Discovery Disclosures & Sanctions",
     "priority": "L",
     "context": "Certifications When Signing:\n− Signing any disclosure → certifies that it’s\n__BLANK_1__ the time made.\n− Signing any other discovery document →\ncertifies that it’s: (1) consistent with the FRCP\nand is not frivolous; (2) not being presented for\nan improper purpose; AND (3) not\nunreasonable, unduly burdensome, or unduly\nexpensive.",
     "blanks": [
@@ -4186,7 +4186,7 @@
     "page": 29,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "J. Discovery",
-    "subsectionTitle": null,
+    "subsectionTitle": "Rule 26(a) – Initial Disclosures",
     "priority": "M",
     "context": "Rule 26(a) – Initial Disclosures – Without request,\neach party MUST provide these initial disclosures to\nopposing parties __BLANK_1__ the Rule 26(f)\n“meet and confer” conference:\n1) Contact info __BLANK_2__ & the info they likely possess\n(if it will be used __BLANK_3__\n2) Copy or description of all documents, ESI, &\ntangible things the party __BLANK_4__ (unless it will be used solely\nfor impeachment);\n3) __BLANK_5__ AND\n4) __BLANK_6__ may be liable to\nsatisfy a judgment in the action.\n*If a party fails to provide the above, that party is NOT\nallowed to use that witness/info on a motion, hearing, or\ntrial UNLESS the failure __BLANK_7__",
     "blanks": [
@@ -4382,7 +4382,7 @@
     "page": 30,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "L. Motions",
-    "subsectionTitle": "Motion for Judgment as a Matter of Law (JMOL)",
+    "subsectionTitle": "Motion for a New Trial",
     "priority": "L",
     "context": "Motion for a New Trial – Court may grant a new trial for\n__BLANK_1__ which a new trial has been granted in\nfederal court.\n− Must be filed no later __BLANK_2__ the\nentry of judgment.",
     "blanks": [
@@ -4401,7 +4401,7 @@
     "page": 30,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "L. Motions",
-    "subsectionTitle": "Motion for Judgment as a Matter of Law (JMOL)",
+    "subsectionTitle": "Motion for a New Trial",
     "priority": "L",
     "context": "Grounds for a New Trial:\na) Error at trial that makes judgment unfair;\nb) __BLANK_1__\nc) __BLANK_2__ a party, attorney, third-\nparty, or juror;\nd) Judgment __BLANK_3__ OR\ne) Verdict __BLANK_4__",
     "blanks": [
@@ -4443,7 +4443,7 @@
     "page": 30,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "N. Claim Preclusion & Issue Preclusion",
-    "subsectionTitle": "Default Judgment",
+    "subsectionTitle": "Claim Preclusion (Res Judicata)",
     "priority": "M",
     "context": "Claim __BLANK_1__ – precludes a party\nfrom subsequently relitigating any claim that was or\ncould have been raised.",
     "blanks": [
@@ -4458,7 +4458,7 @@
     "page": 30,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "N. Claim Preclusion & Issue Preclusion",
-    "subsectionTitle": "Default Judgment",
+    "subsectionTitle": "Claim Preclusion (Res Judicata)",
     "priority": "M",
     "context": "Elements – Claim Preclusion may be invoked when:\n1) Parties __BLANK_1__\n2) Prior judgment was rendered by a court of\ncompetent jurisdiction;\n3) __BLANK_2__ in the prior action;\nAND\n4) __BLANK_3__ involved in both actions (claim\narises out __BLANK_4__",
     "blanks": [
@@ -4485,7 +4485,7 @@
     "page": 30,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "N. Claim Preclusion & Issue Preclusion",
-    "subsectionTitle": "Default Judgment",
+    "subsectionTitle": "Claim Preclusion (Res Judicata)",
     "priority": "M",
     "context": "Privity – exists when the non-party __BLANK_1__ the original party and would\nbe bound by a judgment against the original party.",
     "blanks": [
@@ -4500,7 +4500,7 @@
     "page": 30,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "N. Claim Preclusion & Issue Preclusion",
-    "subsectionTitle": "Default Judgment",
+    "subsectionTitle": "Issue Preclusion (Collateral Estoppel)",
     "priority": "H",
     "context": "Issue Preclusion __BLANK_1__ – precludes a\nparty from attempting to retry an issue if there has been\n__BLANK_2__ a court of competent\njurisdiction.",
     "blanks": [
@@ -4519,7 +4519,7 @@
     "page": 30,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "N. Claim Preclusion & Issue Preclusion",
-    "subsectionTitle": "Default Judgment",
+    "subsectionTitle": "Issue Preclusion (Collateral Estoppel)",
     "priority": "H",
     "context": "Elements – Issue Preclusion may be invoked when:\n1) __BLANK_1__ rendered in the\nfirst action;\n2) Issue is identical to the issue decided in the prior\naction;\n3) Issue __BLANK_2__ and\n__BLANK_3__ the prior action; AND\n4) Party against whom enforcement is sought had\n__BLANK_4__ in\nthe prior action.\n*Generally, a non-party to a prior action MAY assert\nissue preclusion.",
     "blanks": [
@@ -4705,7 +4705,7 @@
     "page": 32,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "A. Constitutional Limits on Federal Court Jurisdiction",
-    "subsectionTitle": null,
+    "subsectionTitle": "State Sovereign Immunity (11th Amendment)",
     "priority": "H",
     "context": "State Sovereign Immunity (11th Amendment)\n11th Amend. prohibits a party __BLANK_1__\na) State explicitly consents to waive protection;\nb) Lawsuit pertains to federal laws adopted under\n__BLANK_2__\nc) Lawsuit seeks only injunctive relief against a\n__BLANK_3__ OR\nd) Lawsuit seeks money damages from __BLANK_4__",
     "blanks": [
@@ -4732,7 +4732,7 @@
     "page": 32,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "A. Constitutional Limits on Federal Court Jurisdiction",
-    "subsectionTitle": null,
+    "subsectionTitle": "State Sovereign Immunity (11th Amendment)",
     "priority": "H",
     "context": "11th Amend. DOES NOT apply to:\na) __BLANK_1__\nb) A federal lawsuit __BLANK_2__\nc) A lawsuit by __BLANK_3__ OR\nd) A lawsuit against a State under certain federal\npowers/laws __BLANK_4__",
     "blanks": [
@@ -4831,7 +4831,7 @@
     "page": 32,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Advisory Opinions, Ripeness, & Mootness",
     "priority": "M",
     "context": "Advisory Opinions, Ripeness, & Mootness – Courts\nCANNOT __BLANK_1__ address hypothetical\ndisputes.",
     "blanks": [
@@ -4846,7 +4846,7 @@
     "page": 32,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Advisory Opinions, Ripeness, & Mootness",
     "priority": "M",
     "context": "Ripeness – whether the case is ready to be litigated.\nA case is ripe → __BLANK_1__ − Court may grant pre-enforcement review of a\nstatute/law after considering: __BLANK_2__ no review; AND (2) __BLANK_3__",
     "blanks": [
@@ -4869,7 +4869,7 @@
     "page": 32,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Advisory Opinions, Ripeness, & Mootness",
     "priority": "M",
     "context": "Mootness – when a dispute has ended or was resolved\nbefore review.\n− Exceptions → (a) case is capable of being\n__BLANK_1__ (b) __BLANK_2__ OR (c)\n__BLANK_3__",
     "blanks": [
@@ -4972,7 +4972,7 @@
     "page": 33,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "C. Powers of Congress",
-    "subsectionTitle": "Taxing Power",
+    "subsectionTitle": "Spending Power",
     "priority": "M",
     "context": "Spending Power – Congress has the power to spend\nfor __BLANK_1__",
     "blanks": [
@@ -4987,7 +4987,7 @@
     "page": 33,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "C. Powers of Congress",
-    "subsectionTitle": "Taxing Power",
+    "subsectionTitle": "Spending Power",
     "priority": "M",
     "context": "Congress MAY __BLANK_1__ States receiving federal funds, BUT must satisfy the\nfollowing:\n1) Spending must be for __BLANK_2__\n2) Condition must __BLANK_3__\n3) Condition must __BLANK_4__\n4) Condition cannot __BLANK_5__ AND\n5) Condition cannot __BLANK_6__",
     "blanks": [
@@ -5049,7 +5049,7 @@
     "page": 33,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "D. Powers of the President",
-    "subsectionTitle": "Domestic Powers",
+    "subsectionTitle": "Treaty & Foreign Affairs Powers",
     "priority": "M",
     "context": "Treaty & Foreign Affairs Powers – President shares\ntreaty powers with Congress. Treaties may be\nnegotiated by the President, but __BLANK_1__ the\nSenate.\n− But, the President has the power to enter into\n__BLANK_2__ (agreements between\nthe President and a head of a foreign country)\nwithout Senate approval.",
     "blanks": [
@@ -5068,7 +5068,7 @@
     "page": 33,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "D. Powers of the President",
-    "subsectionTitle": "Domestic Powers",
+    "subsectionTitle": "Treaty & Foreign Affairs Powers",
     "priority": "M",
     "context": "President has the power __BLANK_1__ troops in foreign countries.",
     "blanks": [
@@ -5202,7 +5202,7 @@
     "page": 34,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "G. Federalism-Based Limits on State Authority",
-    "subsectionTitle": null,
+    "subsectionTitle": "Supremacy Clause & Preemption",
     "priority": "M",
     "context": "Supremacy Clause & Preemption – Under the\nSupremacy Clause, a validly enacted federal law will\n__BLANK_1__ − Express Preemption – occurs when the federal\nlaw specifically states it is exclusive.\n− Implied Preemption – occurs when: __BLANK_2__ state law; __BLANK_3__ (appears from the law itself or legislative\nhistory); OR (c) state __BLANK_4__ with the objective of the federal law.",
     "blanks": [
@@ -5328,7 +5328,7 @@
     "page": 34,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "J. Due Process (5th & 14th Amendments)",
-    "subsectionTitle": "Substantive Due Process",
+    "subsectionTitle": "Procedural Due Process",
     "priority": "M",
     "context": "Procedural Due Process – Certain procedures are\nrequired when the __BLANK_1__ entitlement that is not\nfulfilled).",
     "blanks": [
@@ -5343,7 +5343,7 @@
     "page": 34,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "J. Due Process (5th & 14th Amendments)",
-    "subsectionTitle": "Substantive Due Process",
+    "subsectionTitle": "Procedural Due Process",
     "priority": "M",
     "context": "Mathews v. Eldridge Factors → To determine the\nprocedure required, the court balances the:\n1) Importance of __BLANK_1__\n2) __BLANK_2__ current procedures and the\n__BLANK_3__ and\n3) Importance __BLANK_4__ arises from additional safeguards.\n*Due process usually __BLANK_5__",
     "blanks": [
@@ -5436,7 +5436,7 @@
     "page": 35,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "L. Takings (5th Amendment)",
-    "subsectionTitle": "Equal Protection Analysis",
+    "subsectionTitle": "Takings",
     "priority": "H",
     "context": "Takings – Govt. MAY take private property __BLANK_1__ it __BLANK_2__ − __BLANK_3__ it’s __BLANK_4__ − __BLANK_5__",
     "blanks": [
@@ -5467,7 +5467,7 @@
     "page": 35,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "L. Takings (5th Amendment)",
-    "subsectionTitle": "Equal Protection Analysis",
+    "subsectionTitle": "Takings",
     "priority": "H",
     "context": "Possessory (Per Se) Taking – Govt. physically\noccupies the property (even if __BLANK_1__",
     "blanks": [
@@ -5482,7 +5482,7 @@
     "page": 35,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "L. Takings (5th Amendment)",
-    "subsectionTitle": "Equal Protection Analysis",
+    "subsectionTitle": "Takings",
     "priority": "H",
     "context": "Regulatory Taking – Three categories:\n− Depriving Owner __BLANK_1__ →Is a per se taking.\n− Penn Central Taking → Court will balance these\nfactors to determine if a taking: __BLANK_2__ regulation on claimant; (2) __BLANK_3__ the investment-backed\nexpectations; and __BLANK_4__ regulation.",
     "blanks": [
@@ -5574,7 +5574,7 @@
     "page": 35,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "M. Other Protections",
-    "subsectionTitle": "Privileges & Immunities Clause",
+    "subsectionTitle": "Contracts Clause",
     "priority": "M",
     "context": "Contracts Clause – Restricts States & Local\nGovernments from passing laws that interfere with\n__BLANK_1__",
     "blanks": [
@@ -5589,7 +5589,7 @@
     "page": 35,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "M. Other Protections",
-    "subsectionTitle": "Privileges & Immunities Clause",
+    "subsectionTitle": "Contracts Clause",
     "priority": "M",
     "context": "Private Contracts → A state law that:\n1) Substantially impairs a contract is\nunconstitutional, UNLESS:\n2) There’s __BLANK_1__ the law; AND\n3) The law __BLANK_2__ for its\nintended purpose.",
     "blanks": [
@@ -5608,7 +5608,7 @@
     "page": 35,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "M. Other Protections",
-    "subsectionTitle": "Privileges & Immunities Clause",
+    "subsectionTitle": "Contracts Clause",
     "priority": "M",
     "context": "Substantial impairment (Element 1) Is a threshold –\nissue, and DOES NOT exist if it:\na) Burdens an __BLANK_1__ the contract;\nb) Is __BLANK_2__ by the State;\nc) __BLANK_3__ OR\nd) Allows a party __BLANK_4__",
     "blanks": [
@@ -5635,7 +5635,7 @@
     "page": 35,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "M. Other Protections",
-    "subsectionTitle": "Privileges & Immunities Clause",
+    "subsectionTitle": "Contracts Clause",
     "priority": "M",
     "context": "Means-End Balancing (Elements 2 & 3) If a state’s law –\nsubstantially impairs a contract, then courts apply a\nmeans-end balancing test (Elements 2 & 3 above).\n− Courts MUST __BLANK_1__ a\nstate’s conclusion that its approach __BLANK_2__",
     "blanks": [
@@ -5677,7 +5677,7 @@
     "page": 36,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "N. Freedom of Religion (1st Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Establishment Clause",
     "priority": "M",
     "context": "Establishment Clause – Prohibits the govt. from\n__BLANK_1__ religion.",
     "blanks": [
@@ -5692,7 +5692,7 @@
     "page": 36,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "N. Freedom of Religion (1st Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Establishment Clause",
     "priority": "M",
     "context": "Laws that discriminate against a religion MUST satisfy\nstrict scrutiny → Govt. must show that:\n1) the law __BLANK_1__\n2) to __BLANK_2__ AND\n3) __BLANK_3__ was used.",
     "blanks": [
@@ -5715,7 +5715,7 @@
     "page": 36,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "N. Freedom of Religion (1st Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Establishment Clause",
     "priority": "M",
     "context": "Laws that __BLANK_1__ (not discriminating against\na particular religion) → PROHIBITED __BLANK_2__ the Establishment\nClause are violated.\n− __BLANK_3__ (to support or participate in religious\nactivity) is a primary factor for a violation.",
     "blanks": [
@@ -5999,7 +5999,7 @@
     "page": 37,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
-    "subsectionTitle": "Commercial Speech",
+    "subsectionTitle": "Public School Students",
     "priority": "M",
     "context": "Public School Students – Students DO NOT lose their\n1st Amendment free speech rights at school, BUT\nschools are __BLANK_1__ − A school MAY regulate speech if it shows that\nthe conduct regulated __BLANK_2__",
     "blanks": [
@@ -6254,7 +6254,7 @@
     "page": 39,
     "subject": "CONTRACTS",
     "sectionHeader": "A. Applicable Law",
-    "subsectionTitle": null,
+    "subsectionTitle": "UCC vs. Common Law",
     "priority": "H",
     "context": "UCC vs. Common Law\nUCC Art. 2 → __BLANK_1__ Common Law (CL) → Applies to all other contracts\n(e.g. services, construction, real property).\nMixed Contracts (involves both goods & services/\nother) __BLANK_2__ the contract controls\nthe law to apply.",
     "blanks": [
@@ -6584,7 +6584,7 @@
     "page": 40,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": "Indefiniteness / Absence of Terms",
+    "subsectionTitle": "Consideration",
     "priority": "H",
     "context": "Consideration __BLANK_1__ that benefits the promisor or causes\ndetriment to the promisee.\n− Past / Moral Consideration → not sufficient.\n− Illusory Promises → are invalid; occurs when\none party has no obligation to perform.\n− Promise of Gift → not sufficient.\n− Sham/Nominal/Token Consideration → not\nsufficient.",
     "blanks": [
@@ -6599,7 +6599,7 @@
     "page": 40,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": "Indefiniteness / Absence of Terms",
+    "subsectionTitle": "Consideration",
     "priority": "H",
     "context": "Consideration Substitutes/Exceptions:\n− Material Benefit Rule – A promise made in\nrecognition of a benefit previously received is\nbinding to the extent necessary to prevent\ninjustice.\n▪ BUT, not applied when: (a) conferred as\na gift; or (b) value of promise is\ndisproportional to the benefit conferred.\n− __BLANK_1__ – Applies when: (1) a\n__BLANK_2__",
     "blanks": [
@@ -6645,7 +6645,7 @@
     "page": 41,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Modification of Contracts",
     "priority": "H",
     "context": "Modification of Contracts – Requires __BLANK_1__ AND __BLANK_2__ (unless an exception below\napplies).",
     "blanks": [
@@ -6664,7 +6664,7 @@
     "page": 41,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Modification of Contracts",
     "priority": "H",
     "context": "Pre-Existing Duty Rule (CL) – Past performance or a\npre-existing duty is NOT adequate consideration.\n− Exceptions:\na) __BLANK_1__ performance;\nb) __BLANK_2__ a fair and\nequitable modification due to severe\nunanticipated circumstances __BLANK_3__ OR\nc) Third-Party Promise – where duty was\nowed to a third-person (not promisor).",
     "blanks": [
@@ -6687,7 +6687,7 @@
     "page": 41,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Modification of Contracts",
     "priority": "H",
     "context": "UCC – No consideration is required for contract\nmodifications made __BLANK_1__ − BUT, must have a writing if: (a) it falls within the\n__BLANK_2__ OR __BLANK_3__",
     "blanks": [
@@ -6779,7 +6779,7 @@
     "page": 41,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duress",
     "priority": "M",
     "context": "Duress – Is __BLANK_1__ overcomes the\nfree will of a person.",
     "blanks": [
@@ -6794,7 +6794,7 @@
     "page": 41,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duress",
     "priority": "M",
     "context": "Physical Compulsion – Contract is __BLANK_1__ Occurs if a __BLANK_2__ person to\nagree to a contract (e.g. by gun-point).",
     "blanks": [
@@ -6813,7 +6813,7 @@
     "page": 41,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Duress",
     "priority": "M",
     "context": "Non-Physical / Economic Duress – Contract is\n__BLANK_1__ victim. Occurs when:\n1) __BLANK_2__ made;\n2) __BLANK_3__ party;\n3) who __BLANK_4__\n4) __BLANK_5__ *A mere threat to breach a contract (without more) is\ngenerally insufficient.",
     "blanks": [
@@ -6844,7 +6844,7 @@
     "page": 41,
     "subject": "CONTRACTS",
     "sectionHeader": "B. Contract Formation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Undue Influence",
     "priority": "M",
     "context": "Undue Influence – Contract __BLANK_1__ victim.\nRequires:\n1) __BLANK_2__ a person (e.g.\noverbearing pressure), AND\n2) Who is either:\na) __BLANK_3__ the person\nexercising influence; OR\nb) in __BLANK_4__ justify believing that the other person will\n__BLANK_5__ family, fiduciary relationship).",
     "blanks": [
@@ -7237,7 +7237,7 @@
     "page": 43,
     "subject": "CONTRACTS",
     "sectionHeader": "D. Contract Content & Meaning",
-    "subsectionTitle": null,
+    "subsectionTitle": "Parol Evidence Rule",
     "priority": "H",
     "context": "Parol Evidence Rule – Evidence of __BLANK_1__ or agreement is\nINADMISSIBLE to __BLANK_2__ a later written\ncontract.",
     "blanks": [
@@ -7256,7 +7256,7 @@
     "page": 43,
     "subject": "CONTRACTS",
     "sectionHeader": "D. Contract Content & Meaning",
-    "subsectionTitle": null,
+    "subsectionTitle": "Parol Evidence Rule",
     "priority": "H",
     "context": "Exceptions:\n1) To __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ courts will interpret using the __BLANK_4__\n4) To __BLANK_5__ *Note: The Parol Evidence Rule DOES NOT apply to\nsubsequent agreements.",
     "blanks": [
@@ -7287,7 +7287,7 @@
     "page": 43,
     "subject": "CONTRACTS",
     "sectionHeader": "D. Contract Content & Meaning",
-    "subsectionTitle": null,
+    "subsectionTitle": "Parol Evidence Rule",
     "priority": "H",
     "context": "Partially Integrated Writing = the writing does not\ncontain a complete statement of all the terms.\n− Evidence is allowed __BLANK_1__",
     "blanks": [
@@ -7302,7 +7302,7 @@
     "page": 43,
     "subject": "CONTRACTS",
     "sectionHeader": "D. Contract Content & Meaning",
-    "subsectionTitle": null,
+    "subsectionTitle": "UCC Omitted & Implied Terms",
     "priority": "M",
     "context": "UCC Omitted & Implied Terms – If not agreed upon,\nthe court will fill in default contract terms __BLANK_1__",
     "blanks": [
@@ -7317,7 +7317,7 @@
     "page": 43,
     "subject": "CONTRACTS",
     "sectionHeader": "D. Contract Content & Meaning",
-    "subsectionTitle": null,
+    "subsectionTitle": "UCC Omitted & Implied Terms",
     "priority": "M",
     "context": "UCC Gap Fillers:\n− Price → __BLANK_1__ − Time for Payment __BLANK_2__ − Time for Shipment/Delivery → within a\n__BLANK_3__ at a reasonable hour\n− Place for Delivery __BLANK_4__ o Seller’s residence (if no place of\nbusiness).",
     "blanks": [
@@ -7699,7 +7699,7 @@
     "page": 45,
     "subject": "CONTRACTS",
     "sectionHeader": "E. Performance, Breach, & Discharge",
-    "subsectionTitle": null,
+    "subsectionTitle": "Anticipatory Repudiation",
     "priority": "H",
     "context": "Anticipatory Repudiation – Occurs when a party\n__BLANK_1__ that they are unable or\nunwilling to perform under the contract.",
     "blanks": [
@@ -7714,7 +7714,7 @@
     "page": 45,
     "subject": "CONTRACTS",
     "sectionHeader": "E. Performance, Breach, & Discharge",
-    "subsectionTitle": null,
+    "subsectionTitle": "Anticipatory Repudiation",
     "priority": "H",
     "context": "If occurs, the non-breaching party may:\na) treat the contract as repudiated __BLANK_1__\nb) treat the contract __BLANK_2__\nc) __BLANK_3__ then sue; OR\nd) __BLANK_4__",
     "blanks": [
@@ -7741,7 +7741,7 @@
     "page": 45,
     "subject": "CONTRACTS",
     "sectionHeader": "E. Performance, Breach, & Discharge",
-    "subsectionTitle": null,
+    "subsectionTitle": "Anticipatory Repudiation",
     "priority": "H",
     "context": "A party can retract its repudiation and restore the\ncontract UNLESS the non-breaching party has:\na) __BLANK_1__\nb) __BLANK_2__ OR\nc) __BLANK_3__",
     "blanks": [
@@ -7764,7 +7764,7 @@
     "page": 45,
     "subject": "CONTRACTS",
     "sectionHeader": "E. Performance, Breach, & Discharge",
-    "subsectionTitle": null,
+    "subsectionTitle": "Anticipatory Repudiation",
     "priority": "H",
     "context": "Insecurity & Demand for Adequate Assurances – If\nthere __BLANK_1__ for being insecure about\nperformance, THEN a party may make __BLANK_2__ − A party __BLANK_3__ adequate assurances are received.\n− If the other party DOES NOT give assurances\nafter asked to do so, the requesting party may\ntreat that __BLANK_4__",
     "blanks": [
@@ -7791,7 +7791,7 @@
     "page": 45,
     "subject": "CONTRACTS",
     "sectionHeader": "E. Performance, Breach, & Discharge",
-    "subsectionTitle": null,
+    "subsectionTitle": "Accord & Satisfaction",
     "priority": "M",
     "context": "Accord & Satisfaction\nAccord – __BLANK_1__ the parties\npromising __BLANK_2__ return for a specific act.\nSatisfaction – Upon satisfaction of the accord (the new\nact), the party __BLANK_3__",
     "blanks": [
@@ -7882,7 +7882,7 @@
     "page": 45,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": "Express Warranty",
+    "subsectionTitle": "Implied Warranty of Merchantability",
     "priority": "M",
     "context": "Implied Warranty of __BLANK_1__ All goods sold\nby a MERCHANT (dealing in goods of the kind) must be\n__BLANK_2__ − Merchant seller will be liable for breach.",
     "blanks": [
@@ -7901,7 +7901,7 @@
     "page": 45,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": "Express Warranty",
+    "subsectionTitle": "Implied Warranty of Fitness for Particular Purpose",
     "priority": "M",
     "context": "Implied Warranty of __BLANK_1__ Applies when:\n1) Seller knows (or has reason to know) of the\n__BLANK_2__ AND\n2) __BLANK_3__ select or furnish suitable goods.",
     "blanks": [
@@ -7978,7 +7978,7 @@
     "page": 46,
     "subject": "CONTRACTS",
     "sectionHeader": "G. Third-Party Rights",
-    "subsectionTitle": "Limiting Damages for Breach of Warranty",
+    "subsectionTitle": "Third-Party Beneficiaries",
     "priority": "M",
     "context": "Third-Party Beneficiaries – Generally, a party who is\n__BLANK_1__ CANNOT\nassert a claim for breach of contract.\n− HOWEVER, an Intended Third-Party Beneficiary\nhas the same rights as those in privity, and can\nsue for breach of contract.",
     "blanks": [
@@ -7993,7 +7993,7 @@
     "page": 46,
     "subject": "CONTRACTS",
     "sectionHeader": "G. Third-Party Rights",
-    "subsectionTitle": "Limiting Damages for Breach of Warranty",
+    "subsectionTitle": "Third-Party Beneficiaries",
     "priority": "M",
     "context": "Intended vs. Incidental Third-Party Beneficiaries\nIntended Third-Party Beneficiary → Not a party to the\ncontract, but has rights __BLANK_1__ Incidental Third-Party Beneficiary → Someone who\n__BLANK_2__ but has NO\nlegal rights.",
     "blanks": [
@@ -8012,7 +8012,7 @@
     "page": 46,
     "subject": "CONTRACTS",
     "sectionHeader": "G. Third-Party Rights",
-    "subsectionTitle": "Limiting Damages for Breach of Warranty",
+    "subsectionTitle": "Third-Party Beneficiaries",
     "priority": "M",
     "context": "Enforcement of Rights – A third-party beneficiary may\nenforce rights under a contract ONLY __BLANK_1__ − Vesting occurs when the third-party: (a) →\n__BLANK_2__ the __BLANK_3__ OR __BLANK_4__ *Once vested, the contract CANNOT be changed or\nmodified without consent of the third-party.",
     "blanks": [
@@ -8251,7 +8251,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "H. Remedies",
-    "subsectionTitle": null,
+    "subsectionTitle": "Expectation Damages",
     "priority": "H",
     "context": "Expectation Damages – Are meant to put the non-\nbreaching __BLANK_1__",
     "blanks": [
@@ -8266,7 +8266,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "H. Remedies",
-    "subsectionTitle": null,
+    "subsectionTitle": "Expectation Damages",
     "priority": "H",
     "context": "To recover, damages must be:\n1) __BLANK_1__ breaching party __BLANK_2__\n2) __BLANK_3__\n3) __BLANK_4__ AND\n4) __BLANK_5__ steps were taken to\nmitigate damages).\n*An award of damages MUST account & deduct for any\ncosts the injured party avoided because of the breach.",
     "blanks": [
@@ -8297,7 +8297,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "H. Remedies",
-    "subsectionTitle": null,
+    "subsectionTitle": "Expectation Damages",
     "priority": "H",
     "context": "Expectation Damages\n=\n__BLANK_1__ loss)\n+\n__BLANK_2__ (other/indirect loss)\n–\n__BLANK_3__ (by not having to perform)",
     "blanks": [
@@ -8320,7 +8320,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "H. Remedies",
-    "subsectionTitle": null,
+    "subsectionTitle": "Consequential Damages",
     "priority": "H",
     "context": "Consequential Damages – __BLANK_1__ the\nbreach (e.g. lost profits).\n− May be limited or excluded by agreement unless\nit’s unconscionable.",
     "blanks": [
@@ -8335,7 +8335,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "H. Remedies",
-    "subsectionTitle": null,
+    "subsectionTitle": "Consequential Damages",
     "priority": "H",
     "context": "To recover, damages must be:\n1) __BLANK_1__ the time of contract\nformation;\n2) Arise from __BLANK_2__ AND\n3) __BLANK_3__ (not speculative).",
     "blanks": [
@@ -8358,7 +8358,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "H. Remedies",
-    "subsectionTitle": null,
+    "subsectionTitle": "Incidental Damages",
     "priority": "M",
     "context": "Incidental Damages – Are the __BLANK_1__ a result of a breach.\n− Examples → cost to return, store, inspect,\ntransport, or care for non-conforming goods.",
     "blanks": [
@@ -8373,7 +8373,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "H. Remedies",
-    "subsectionTitle": null,
+    "subsectionTitle": "Reliance Damages",
     "priority": "M",
     "context": "Reliance Damages __BLANK_1__ Are meant to put the\nnon-breaching __BLANK_2__ − If Detrimental Reliance exists or if Expectation\nDamages are too speculative, a court may\naward Reliance damages instead.",
     "blanks": [
@@ -8411,7 +8411,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Restitution Damages",
     "priority": "H",
     "context": "Restitution Damages – Awarded to __BLANK_1__ Is available when one party __BLANK_2__ if there is no\nenforceable contract).\n− Damages __BLANK_3__ − A party CANNOT recover both expectation and\nrestitution damages.",
     "blanks": [
@@ -8468,7 +8468,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": "Liquidated Damages",
+    "subsectionTitle": "Specific Performance",
     "priority": "M",
     "context": "Specific Performance – Is only allowed __BLANK_1__ an injured\nparty.\n− NOT awarded __BLANK_2__ but\n__BLANK_3__ be awarded.",
     "blanks": [
@@ -8491,7 +8491,7 @@
     "page": 47,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": "Liquidated Damages",
+    "subsectionTitle": "Specific Performance",
     "priority": "M",
     "context": "Is an available remedy when:\n1) A __BLANK_1__ exists (with clear & definite\nterms);\n2) __BLANK_2__\n3) __BLANK_3__ rare/unique item, sale of land);\n4) __BLANK_4__ the court (not\nfeasible for personal service contracts or where\nland/person is outside court’s jurisdiction);\n5) __BLANK_5__ exist; AND\n6) Plaintiff __BLANK_6__",
     "blanks": [
@@ -8526,7 +8526,7 @@
     "page": 48,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Rescission",
     "priority": "M",
     "context": "Rescission – Treats the original contract __BLANK_1__ − Available when there is a problem with contract\nformation.",
     "blanks": [
@@ -8541,7 +8541,7 @@
     "page": 48,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Reformation",
     "priority": "M",
     "context": "Reformation – Allows a contract to __BLANK_1__",
     "blanks": [
@@ -8556,7 +8556,7 @@
     "page": 48,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Reformation",
     "priority": "M",
     "context": "Is an available remedy when:\na) A valid contract exists, but there was a\n__BLANK_1__ OR\nb) __BLANK_2__ (a unilateral\nmistake is sufficient if the non-mistaken party\nhad reason to know of the mistake).\n*Reformation is NOT allowed if a __BLANK_3__ applies (e.g. unclean hands, laches).",
     "blanks": [
@@ -8579,7 +8579,7 @@
     "page": 48,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Waste Doctrine",
     "priority": "H",
     "context": "Waste Doctrine – When an award for cost of completion\nis wasteful, a court may award damages __BLANK_1__ difference in value of the property/land).\n− This may be awarded instead of expectation\ndamages.",
     "blanks": [
@@ -8594,7 +8594,7 @@
     "page": 48,
     "subject": "CONTRACTS",
     "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Waste Doctrine",
     "priority": "H",
     "context": "Waste doctrine applies if:\n1) __BLANK_1__ but defects\nexist; AND\n2) Remedying the defects would entail economic\nwaste (the cost of __BLANK_2__ the value of the completed work).\n*Normally seen in __BLANK_3__",
     "blanks": [
@@ -8736,7 +8736,7 @@
     "page": 49,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "A. General Principles",
-    "subsectionTitle": "Elements of a Crime",
+    "subsectionTitle": "Acts and Omissions",
     "priority": "M",
     "context": "Acts and Omissions\nPhysical Act (actus reus) of the D must __BLANK_1__ Omission – is generally NOT criminal unless:\n1) D had __BLANK_2__\n2) D __BLANK_3__\n3) It __BLANK_4__",
     "blanks": [
@@ -8763,7 +8763,7 @@
     "page": 49,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "A. General Principles",
-    "subsectionTitle": "Elements of a Crime",
+    "subsectionTitle": "Acts and Omissions",
     "priority": "M",
     "context": "Duty to Act __BLANK_1__",
     "blanks": [
@@ -8912,7 +8912,7 @@
     "page": 49,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
+    "subsectionTitle": "Murder",
     "priority": "H",
     "context": "Murder\nCommon Law & 2nd Degree Murder – Murder is the\n(1) unlawful killing, (2) of a person, (3) __BLANK_1__ − Malice Aforethought = __BLANK_2__ OR __BLANK_3__",
     "blanks": [
@@ -8935,7 +8935,7 @@
     "page": 49,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
+    "subsectionTitle": "Murder",
     "priority": "H",
     "context": "1st Degree Murder – The killing was __BLANK_1__",
     "blanks": [
@@ -8950,7 +8950,7 @@
     "page": 49,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
+    "subsectionTitle": "Manslaughter",
     "priority": "H",
     "context": "Manslaughter\nVoluntary Manslaughter – __BLANK_1__ provocation).\n− Adequate Provocation = (1) D was provoked\n__BLANK_2__ (2) __BLANK_3__ have",
     "blanks": [
@@ -9082,7 +9082,7 @@
     "page": 50,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "C. Other Crimes",
-    "subsectionTitle": "Theft Crimes",
+    "subsectionTitle": "Robbery",
     "priority": "H",
     "context": "Robbery – is the __BLANK_1__ (2) of the personal property of another, __BLANK_2__ (5) with the intent __BLANK_3__ − Armed Robbery = above elements + use of a\ndangerous weapon.",
     "blanks": [
@@ -9105,7 +9105,7 @@
     "page": 50,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "C. Other Crimes",
-    "subsectionTitle": "Theft Crimes",
+    "subsectionTitle": "Burglary",
     "priority": "H",
     "context": "Burglary – is the __BLANK_1__ (2) of a\n__BLANK_2__ (5) __BLANK_3__ − Most jurisdictions extend burglary to include\nbreaking into any structure at any time.",
     "blanks": [
@@ -9128,7 +9128,7 @@
     "page": 50,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
+    "subsectionTitle": "Rape Common Law",
     "priority": "M",
     "context": "Rape\nCommon Law – rape is the __BLANK_1__ (2) __BLANK_2__ − Modern definition → includes marital rape (in\nmost states) and makes gender irrelevant.\nMPC – a male who has sex with a female (not his wife)\nis guilty of rape if: (a) __BLANK_3__ (b) __BLANK_4__ (c) female is\n__BLANK_5__ OR (d) female __BLANK_6__ − Deviate Sexual Intercourse → has same\nelements as above, but is gender neutral.\nStatutory Rape – is the (1) unlawful sexual intercourse,\n(2) with a person, (3) under the age of consent (as\ndefined by statute).",
     "blanks": [
@@ -9163,7 +9163,7 @@
     "page": 50,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
+    "subsectionTitle": "Theft Crimes",
     "priority": "M",
     "context": "Assault & Battery\nBattery – is the __BLANK_1__ (3) __BLANK_2__ − Battery is __BLANK_3__ − Intent to __BLANK_4__ is NOT required.\nAssault – either (a) __BLANK_5__ OR (b) the\n__BLANK_6__",
     "blanks": [
@@ -9198,7 +9198,7 @@
     "page": 50,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
+    "subsectionTitle": "Kidnapping & False Imprisonment",
     "priority": "M",
     "context": "Kidnapping & False Imprisonment\nKidnapping – is the __BLANK_1__ of a person, (2) __BLANK_2__ − MPC → abducting another person: (a) for\n__BLANK_3__ (b) __BLANK_4__ (c) __BLANK_5__ OR (d) __BLANK_6__ False imprisonment – is the (1) __BLANK_7__ (2)\n__BLANK_8__ (4) with\n__BLANK_9__ − MPC → when D knowingly restrains a person\nunlawfully so as to substantially interfere with\nthe person’s liberty.",
     "blanks": [
@@ -9245,7 +9245,7 @@
     "page": 50,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
+    "subsectionTitle": "Arson",
     "priority": "M",
     "context": "Arson – is the (1) __BLANK_1__ (3) of a\n__BLANK_2__ − Majority of States → includes damage (i) caused\nby explosives, and (ii) to other types of buildings\nand vehicles.",
     "blanks": [
@@ -9283,7 +9283,7 @@
     "page": 51,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "D. Inchoate Offenses",
-    "subsectionTitle": "Criminal Possession",
+    "subsectionTitle": "Attempt",
     "priority": "M",
     "context": "Attempt – when a person (1) had __BLANK_1__ commit a crime, AND (2) took __BLANK_2__ (most states & MPC = a\n__BLANK_3__ minority of states = __BLANK_4__ − Attempt merges with the underlying crime.",
     "blanks": [
@@ -9310,7 +9310,7 @@
     "page": 51,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "D. Inchoate Offenses",
-    "subsectionTitle": "Criminal Possession",
+    "subsectionTitle": "Attempt",
     "priority": "M",
     "context": "Abandonment / Withdrawal Defense:\nMost States → NOT a defense once D has taken a\nsubstantial step toward the crime (conduct beyond mere\npreparation).\nMinority States & MPC → Abandonment before the\ncompletion of the crime is an affirmative defense if:\n1) __BLANK_1__ criminal purpose;\nAND\n2) __BLANK_2__",
     "blanks": [
@@ -9329,7 +9329,7 @@
     "page": 51,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "D. Inchoate Offenses",
-    "subsectionTitle": "Criminal Possession",
+    "subsectionTitle": "Conspiracy",
     "priority": "M",
     "context": "Conspiracy – is __BLANK_1__ and requires:\n1) __BLANK_2__\n2) Intent __BLANK_3__\n3) Intent __BLANK_4__ (common\nlaw = all parties; MPC & modern trend = only\nrequire one party’s intent); AND\n4) Commission of __BLANK_5__ act taken by a co-\nconspirator is sufficient).",
     "blanks": [
@@ -9360,7 +9360,7 @@
     "page": 51,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "D. Inchoate Offenses",
-    "subsectionTitle": "Criminal Possession",
+    "subsectionTitle": "Conspiracy",
     "priority": "M",
     "context": "A conspirator is liable for the conspiracy, PLUS all\n__BLANK_1__ furtherance of the unlawful objective.\n− __BLANK_2__ is NOT a defense for the\nconspiracy, but it is a defense for crimes\n__BLANK_3__",
     "blanks": [
@@ -9517,7 +9517,7 @@
     "page": 51,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "F. Defenses",
-    "subsectionTitle": "Duress",
+    "subsectionTitle": "Insanity",
     "priority": "H",
     "context": "Insanity – D must have a __BLANK_1__ PLUS:\n− __BLANK_2__ D is __BLANK_3__ or __BLANK_4__ − __BLANK_5__ D was (a) __BLANK_6__ or __BLANK_7__ − Irresistible Impulse Test → D’s mental illness\nmade D (a) unable to control their actions, or (b)\nunable to conform their actions to the law.",
     "blanks": [
@@ -9661,7 +9661,7 @@
     "page": 52,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "F. Defenses",
-    "subsectionTitle": "Intoxication",
+    "subsectionTitle": "Mistake of Fact or Law",
     "priority": "M",
     "context": "Mistake of Fact or Law\nMistake of Fact → is a defense __BLANK_1__ Mistake of Law → generally NOT a defense.",
     "blanks": [
@@ -9734,7 +9734,7 @@
     "page": 52,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": "Government Action & Standing",
+    "subsectionTitle": "Arrests",
     "priority": "H",
     "context": "Arrests – To be proper, a police officer MUST have\n__BLANK_1__ → __BLANK_2__ (2) sufficient to warrant __BLANK_3__ (3) that __BLANK_4__ − Officer DOES NOT need firsthand knowledge (it\nmay be based on informant’s information).\n− An __BLANK_5__ requires a\nwarrant __BLANK_6__ or\nanother exception exists).",
     "blanks": [
@@ -9769,7 +9769,7 @@
     "page": 52,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": "Government Action & Standing",
+    "subsectionTitle": "Request for Info, Stop & Inquire, Stop & Frisk",
     "priority": "H",
     "context": "Request for Info, Stop & Inquire, Stop & Frisk\nRequest for Information – __BLANK_1__ on\n__BLANK_2__ Stop & Inquire – police must have (1) __BLANK_3__ (2) __BLANK_4__ − Allows a brief detention for questioning.\nStop & Frisk – police must have (1) __BLANK_5__ (2) that __BLANK_6__ and (3) __BLANK_7__ − Plain Feel Doctrine → during the frisk, police\nmay only seize items reasonably believed to be\n__BLANK_8__",
     "blanks": [
@@ -9812,7 +9812,7 @@
     "page": 52,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": "Government Action & Standing",
+    "subsectionTitle": "Request for Info, Stop & Inquire, Stop & Frisk",
     "priority": "H",
     "context": "Reasonable Suspicion = __BLANK_1__",
     "blanks": [
@@ -9827,7 +9827,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Warrant Requirement",
     "priority": "H",
     "context": "Warrant Requirement – a warrant is required __BLANK_1__ unless an exception applies.",
     "blanks": [
@@ -9842,7 +9842,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Warrant Requirement",
     "priority": "H",
     "context": "A valid search warrant requires:\n1) __BLANK_1__ – reliable info that evidence of\nillegality will be found;\n2) It must state __BLANK_2__ AND\n3) Be issued by __BLANK_3__",
     "blanks": [
@@ -9865,7 +9865,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Plain View Doctrine",
     "priority": "H",
     "context": "__BLANK_1__ – police may seize items if:\n1) observed __BLANK_2__ (with any of the 5\nsenses),\n2) from a __BLANK_3__ AND\n3) __BLANK_4__ exists to __BLANK_5__",
     "blanks": [
@@ -9896,7 +9896,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Exigent Circumstances",
     "priority": "H",
     "context": "__BLANK_1__ – allows a warrantless search\nif:\na) evidence __BLANK_2__ will dissipate or\ndisappear);\nb) it’s necessary to prevent __BLANK_3__\nc) the police are __BLANK_4__ evidence is in plain view; OR\nd) the __BLANK_5__",
     "blanks": [
@@ -9927,7 +9927,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Automobile Exception",
     "priority": "M",
     "context": "Automobile Exception – allows a warrantless search if\n__BLANK_1__ exists __BLANK_2__ be found in the vehicle.\n− Police can search entire vehicle, PLUS\npackages, luggage, containers that may\n__BLANK_3__ − In order to search after a traffic stop → police\nneed probable cause prior to the search.",
     "blanks": [
@@ -9950,7 +9950,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Search Incident to Arrest",
     "priority": "M",
     "context": "__BLANK_1__ police may search a\n__BLANK_2__ or __BLANK_3__ − If arrested in a home → may also search other\n__BLANK_4__",
     "blanks": [
@@ -9996,7 +9996,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Consent",
     "priority": "M",
     "context": "Consent – must be __BLANK_1__ − A third-person with authority MAY consent.\n− If 2 or more people share authority __BLANK_2__ consent, but police cannot search\n__BLANK_3__ only the non-consenting\nperson has authority to give [i.e. private\nbedroom]).",
     "blanks": [
@@ -10019,7 +10019,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Inventory Search",
     "priority": "M",
     "context": "Inventory Search – allows a warrantless search when a\nperson __BLANK_1__ for __BLANK_2__ − Inventory search must be: __BLANK_3__ AND\n(2) __BLANK_4__ are designed to meet\nthe legitimate objectives of the search while\nlimiting the discretion of the officer in the field).",
     "blanks": [
@@ -10046,7 +10046,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
+    "subsectionTitle": "Exigent Circumstances",
     "priority": "M",
     "context": "Stop & Frisk – police must have __BLANK_1__ (2) __BLANK_2__ and (3) __BLANK_3__ − Plain Feel Doctrine → during the frisk, police\nmay only seize __BLANK_4__",
     "blanks": [
@@ -10088,7 +10088,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "Incrimination",
-    "subsectionTitle": "Special Need",
+    "subsectionTitle": "Due Process Clause (14th Amend.)",
     "priority": "M",
     "context": "Due Process Clause (14th Amend.) – It’s a violation of\nD’s rights if a confession is the product __BLANK_1__ − Police MAY use coercive conduct (i.e. lying), as\nlong as it doesn’t overcome D’s free will.",
     "blanks": [
@@ -10103,7 +10103,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "Incrimination",
-    "subsectionTitle": "Special Need",
+    "subsectionTitle": "Privilege Against Self-Incrimination (5th Amend.)",
     "priority": "H",
     "context": "Privilege Against Self-Incrimination (5th Amend.) –\nprotects __BLANK_1__",
     "blanks": [
@@ -10118,7 +10118,7 @@
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "Incrimination",
-    "subsectionTitle": "Special Need",
+    "subsectionTitle": "Privilege Against Self-Incrimination (5th Amend.)",
     "priority": "H",
     "context": "Miranda Rights – attach when a suspect is in a\n__BLANK_1__",
     "blanks": [
@@ -10286,7 +10286,7 @@
     "page": 54,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "Incrimination",
-    "subsectionTitle": null,
+    "subsectionTitle": "Right to Counsel (6th Amend.)",
     "priority": "M",
     "context": "Right to Counsel (6th Amend.) – the accused has the\nright to counsel __BLANK_1__ State misdemeanor prosecutions __BLANK_2__ − Attaches → __BLANK_3__ commenced (formal charge,\npreliminary hearing, indictment, arraignment).\n− Once rights attach, a suspect CANNOT be\n__BLANK_4__ a valid waiver occurs).\n− This right is __BLANK_5__",
     "blanks": [
@@ -10317,7 +10317,7 @@
     "page": 54,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "I. Right to Counsel",
-    "subsectionTitle": "Public Safety Exception",
+    "subsectionTitle": "Effective Assistance of Counsel (6th Amend.)",
     "priority": "M",
     "context": "__BLANK_1__ of Counsel (6th Amend.) – D\nhas the right to __BLANK_2__ of counsel.\n− Includes __BLANK_3__ and __BLANK_4__",
     "blanks": [
@@ -10344,7 +10344,7 @@
     "page": 54,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "I. Right to Counsel",
-    "subsectionTitle": "Public Safety Exception",
+    "subsectionTitle": "Effective Assistance of Counsel (6th Amend.)",
     "priority": "M",
     "context": "Ineffective Assistance of Counsel – D must show:\n1) Counsel’s __BLANK_1__ AND\n2) But for the __BLANK_2__ *If shown, __BLANK_3__ and D is\n__BLANK_4__",
     "blanks": [
@@ -10440,7 +10440,7 @@
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "K. Exclusionary Rule",
-    "subsectionTitle": null,
+    "subsectionTitle": "Exclusionary Rule",
     "priority": "H",
     "context": "Exclusionary Rule – Evidence obtained in violation of\n__BLANK_1__ is inadmissible at\ntrial.\n− All derivative evidence is also inadmissible\nunder __BLANK_2__",
     "blanks": [
@@ -10459,7 +10459,7 @@
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "K. Exclusionary Rule",
-    "subsectionTitle": null,
+    "subsectionTitle": "Exclusionary Rule",
     "priority": "H",
     "context": "Exceptions – Exclusionary Rule DOES NOT apply if:\na) Police had __BLANK_1__ for the\nsecondary evidence;\nb) Discovery of evidence __BLANK_2__ regardless of the illegality;\nc) Through the __BLANK_3__ when D’s\n__BLANK_4__\nd) __BLANK_5__ OR\ne) Violation of __BLANK_6__",
     "blanks": [
@@ -10494,7 +10494,7 @@
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "K. Exclusionary Rule",
-    "subsectionTitle": null,
+    "subsectionTitle": "Exclusionary Rule",
     "priority": "H",
     "context": "Limitations on Miranda Violations – In addition to the\nabove, the following limitations apply to Miranda\nviolations:\n▪ Limitation #1 → Not required to suppress the\n__BLANK_1__ of D’s\nstatements (as long as statement was\n__BLANK_2__ ▪ Limitation #2 __BLANK_3__ are admissible\nUNLESS a previous statement was obtained\nthrough the use __BLANK_4__",
     "blanks": [
@@ -10536,7 +10536,7 @@
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "L. Fair Trial & Guilty Pleas",
-    "subsectionTitle": null,
+    "subsectionTitle": "Right to a Jury Trial",
     "priority": "M",
     "context": "Right to a Jury Trial – 6th Amend. guarantees a\ncriminal defendant the right to a jury trial for offenses\n__BLANK_1__ − Minimum __BLANK_2__ required, and a verdict\nMUST __BLANK_3__ − Any fact (other than a prior conviction) that\nincreases the maximum penalty for a crime\nMUST be submitted to a jury and __BLANK_4__",
     "blanks": [
@@ -10563,7 +10563,7 @@
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "M. Double Jeopardy",
-    "subsectionTitle": "Competence to Stand Trial",
+    "subsectionTitle": "Double Jeopardy",
     "priority": "H",
     "context": "Double Jeopardy – Prevents a D from being\n__BLANK_1__ − __BLANK_2__ two crimes are NOT\n__BLANK_3__ − A final judgment on a lesser offense bars\nprosecution of a greater offense on the same\nfacts UNLESS the greater offense: __BLANK_4__ OR (b) was not\n__BLANK_5__",
     "blanks": [
@@ -10594,7 +10594,7 @@
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "M. Double Jeopardy",
-    "subsectionTitle": "Competence to Stand Trial",
+    "subsectionTitle": "Double Jeopardy",
     "priority": "H",
     "context": "Jeopardy Attaches:\n− Jury Trial → When __BLANK_1__ − Bench Trial __BLANK_2__",
     "blanks": [
@@ -10686,7 +10686,7 @@
     "page": 56,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "O. Appeal and Error",
-    "subsectionTitle": null,
+    "subsectionTitle": "Harmless Error Rule",
     "priority": "M",
     "context": "__BLANK_1__ – even if evidence is improperly\nadmitted at trial, a guilty verdict will stand if the\nProsecution can prove __BLANK_2__ (that D would have been convicted anyway).",
     "blanks": [
@@ -10785,7 +10785,7 @@
     "page": 57,
     "subject": "EVIDENCE",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Pleas & Plea Negotiations",
     "priority": "M",
     "context": "Pleas & Plea Negotiations\nThe following are NOT admissible (against a D) in a\n__BLANK_1__ or criminal case:\na) statements made __BLANK_2__\nb) a __BLANK_3__ doesn’t admit or\ndispute the charge);\nc) __BLANK_4__ OR\nd) statements made during an above (b) or (c)\nproceeding.",
     "blanks": [
@@ -10812,7 +10812,7 @@
     "page": 57,
     "subject": "EVIDENCE",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Paying / Offer to Pay Medical Expenses",
     "priority": "M",
     "context": "Paying / Offer to Pay Medical Expenses – Is NOT\nadmissible to __BLANK_1__ − BUT, any related statements or factual\nadmissions ARE ADMISSIBLE.",
     "blanks": [
@@ -10827,7 +10827,7 @@
     "page": 57,
     "subject": "EVIDENCE",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Liability Insurance",
     "priority": "M",
     "context": "Liability Insurance – Evidence of insurance (or lack of)\nis NOT ADMISSIBLE to __BLANK_1__ − BUT, it IS ADMISSIBLE for other purposes (e.g.\nwitness bias/prejudice, agency, ownership,\ncontrol, motive).",
     "blanks": [
@@ -10873,7 +10873,7 @@
     "page": 57,
     "subject": "EVIDENCE",
     "sectionHeader": "C. Physical & Documentary Evidence",
-    "subsectionTitle": "Authentication of Evidence",
+    "subsectionTitle": "Best Evidence Rule",
     "priority": "M",
     "context": "Best Evidence Rule – the __BLANK_1__ is required to __BLANK_2__ UNLESS:\na) it’s __BLANK_3__\nb) all the originals __BLANK_4__ and not\nby __BLANK_5__\nc) an __BLANK_6__\nd) it __BLANK_7__ given to the party in control and against whom it\nwould be offered against; OR\ne) __BLANK_8__",
     "blanks": [
@@ -10916,7 +10916,7 @@
     "page": 57,
     "subject": "EVIDENCE",
     "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": "Authentication of Evidence",
+    "subsectionTitle": "Character Evidence",
     "priority": "H",
     "context": "Character Evidence – Character evidence __BLANK_1__ a person acted\nin conformity with a character trait on a particular\noccasion).",
     "blanks": [
@@ -11126,7 +11126,7 @@
     "page": 58,
     "subject": "EVIDENCE",
     "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Prior Bad Acts",
     "priority": "H",
     "context": "Prior Bad Acts (Crimes, Wrongs, Acts) – Generally\nNOT ADMISSIBLE to __BLANK_1__",
     "blanks": [
@@ -11141,7 +11141,7 @@
     "page": 58,
     "subject": "EVIDENCE",
     "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Prior Bad Acts",
     "priority": "H",
     "context": "But, IS ADMISSIBLE for non-propensity purposes →\n__BLANK_1__ or __BLANK_2__",
     "blanks": [
@@ -11160,7 +11160,7 @@
     "page": 58,
     "subject": "EVIDENCE",
     "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Prior Bad Acts",
     "priority": "H",
     "context": "To offer such evidence, the proponent MUST show that:\n1) the prior act was committed (by a\n__BLANK_1__\n2) __BLANK_2__ (FRE 403 Balancing); AND\n3) __BLANK_3__",
     "blanks": [
@@ -11183,7 +11183,7 @@
     "page": 58,
     "subject": "EVIDENCE",
     "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Prior Bad Acts",
     "priority": "H",
     "context": "Proper Notice Required → Prosecutor MUST give D at\nleast __BLANK_1__ trial of the evidence to be\noffered __BLANK_2__ shown).",
     "blanks": [
@@ -11202,7 +11202,7 @@
     "page": 58,
     "subject": "EVIDENCE",
     "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Prior Bad Acts",
     "priority": "H",
     "context": "Sexual Assault / Child Molestation Exception – Prior\ncrimes of Sexual-Assault or Child Molestation ARE\nADMISSIBLE to __BLANK_1__ D is accused of such\nconduct.\n− A “child” = a __BLANK_2__",
     "blanks": [
@@ -11361,7 +11361,7 @@
     "page": 59,
     "subject": "EVIDENCE",
     "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Specific Instances of Conduct",
     "priority": "H",
     "context": "Specific Instances of Conduct – A witness’s credibility\nmay be attacked on cross-examination __BLANK_1__ ONLY IF the\nconduct __BLANK_2__ − __BLANK_3__ NEVER admissible to\nattack or support such instances of a witness’s\ncredibility.",
     "blanks": [
@@ -11399,7 +11399,7 @@
     "page": 59,
     "subject": "EVIDENCE",
     "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": "Ability to Observe, Remember, or Relate Facts",
+    "subsectionTitle": "Bias",
     "priority": "M",
     "context": "Bias – A witness’s bias, motive, partiality, or corruption\n__BLANK_1__ impeachment.",
     "blanks": [
@@ -11433,7 +11433,7 @@
     "page": 60,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Judicial Notice",
     "priority": "M",
     "context": "Judicial Notice – A court may take judicial notice of\n__BLANK_1__ (a fact not subject to reasonable\ndispute):\na) __BLANK_2__ OR\nb) __BLANK_3__",
     "blanks": [
@@ -11456,7 +11456,7 @@
     "page": 60,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Judicial Notice",
     "priority": "M",
     "context": "Civil Cases → court must instruct jury to accept the\nnoticed fact __BLANK_1__ (the fact is dispositive).",
     "blanks": [
@@ -11471,7 +11471,7 @@
     "page": 60,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Judicial Notice",
     "priority": "M",
     "context": "Criminal Cases → court must instruct jury that __BLANK_1__ noticed fact as conclusive.",
     "blanks": [
@@ -11643,7 +11643,7 @@
     "page": 60,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Statements by a Party Opponent",
     "priority": "H",
     "context": "__BLANK_1__ – A statement by a\nparty opponent is:\n1) __BLANK_2__ offered against an opposing\nparty, AND\n2) That is:\na) made by the party (or their\nrepresentative);\nb) adopted or believed to be true by the\nparty (silence may be sufficient);\nc) made by an authorized person;\nd) made by __BLANK_3__ the\n__BLANK_4__\ne) made by __BLANK_5__\nf) made by __BLANK_6__ a\nparty-opponent (the party’s claim,\ndefense, or potential liability is directly\nderived from a declarant or declarant’s\nprincipal).",
     "blanks": [
@@ -11678,7 +11678,7 @@
     "page": 60,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Prior Statements by a Witness",
     "priority": "H",
     "context": "__BLANK_1__ A prior statement by\na declarant-witness is deemed non-hearsay if:\n1) __BLANK_2__\n2) Declarant __BLANK_3__ AND\n3) The prior statement:\na) __BLANK_4__ a prior court\nproceeding or deposition;\nb) __BLANK_5__ as\n__BLANK_6__ OR\nc) is __BLANK_7__ prior testimony and is\noffered to either __BLANK_8__ or (ii) __BLANK_9__",
     "blanks": [
@@ -11752,7 +11752,7 @@
     "page": 61,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": "Co-Conspirator Admission",
+    "subsectionTitle": "Present Sense Impression",
     "priority": "H",
     "context": "__BLANK_1__ – Is a statement describing\nan event made by the declarant:\na) __BLANK_2__ OR\nb) __BLANK_3__ *A slight lapse in time (e.g. a few minutes) after the\nevent is allowed.",
     "blanks": [
@@ -11775,7 +11775,7 @@
     "page": 61,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": "Co-Conspirator Admission",
+    "subsectionTitle": "Excited Utterance",
     "priority": "H",
     "context": "__BLANK_1__ – Is a statement relating to:\n1) __BLANK_2__\n2) made while the declarant __BLANK_3__ the event/condition caused.\n*A slight delay between the event and statement is ok.",
     "blanks": [
@@ -11798,7 +11798,7 @@
     "page": 61,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": "Co-Conspirator Admission",
+    "subsectionTitle": "Business Records",
     "priority": "H",
     "context": "__BLANK_1__ – Admissible if it’s:\n1) A record __BLANK_2__\n2) Kept __BLANK_3__\n3) __BLANK_4__\n4) Made __BLANK_5__\n5) __BLANK_6__ AND\n6) The opponent party does not show a lack of\ntrustworthiness.",
     "blanks": [
@@ -11833,7 +11833,7 @@
     "page": 61,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": "Co-Conspirator Admission",
+    "subsectionTitle": "Statements Made for Medical Diagnosis/Treatment",
     "priority": "H",
     "context": "Statements Made __BLANK_1__ Not excluded by the hearsay rule when the statement:\n1) is made for (and reasonably pertinent to)\n__BLANK_2__ AND\n2) describes __BLANK_3__ (past or\npresent).\n*Statements that are not relevant to medical diagnosis or\ntreatment DO NOT fall within this hearsay exception.",
     "blanks": [
@@ -11856,7 +11856,7 @@
     "page": 61,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": "Co-Conspirator Admission",
+    "subsectionTitle": "Statements of Mental, Emotional, or Physical",
     "priority": "H",
     "context": "Statements __BLANK_1__ Admissible when the statement is of\ndeclarant’s:\na) __BLANK_2__ or\n__BLANK_3__ OR\nb) __BLANK_4__ *BUT, statements of memory or belief are NOT\nadmissible unless it relates to the validity or terms of the\ndeclarant’s will.",
     "blanks": [
@@ -11883,7 +11883,7 @@
     "page": 61,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Co-Conspirator Admission",
     "priority": "M",
     "context": "__BLANK_1__ Elements to be admissible:\n1) Declarant __BLANK_2__\n2) Statement __BLANK_3__\n3) __BLANK_4__ put the declarant in the position of\n__BLANK_5__ *ONLY ALLOWED __BLANK_6__ cases.",
     "blanks": [
@@ -11918,7 +11918,7 @@
     "page": 61,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Co-Conspirator Admission",
     "priority": "M",
     "context": "Declarant Unavailable Requirement – deemed\nunavailable if the witness:\na) is exempt due __BLANK_1__\nb) __BLANK_2__ a court order;\nc) __BLANK_3__\nd) cannot be present due to __BLANK_4__ OR\ne) __BLANK_5__",
     "blanks": [
@@ -12007,7 +12007,7 @@
     "page": 61,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": "Statement Against Interest",
+    "subsectionTitle": "Public Records",
     "priority": "M",
     "context": "__BLANK_1__ – The following records are admissible:\na) a record __BLANK_2__ a\npublic office;\nb) __BLANK_3__ by __BLANK_4__ (but __BLANK_5__ OR\nc) __BLANK_6__ a legally authorized\ninvestigation (but only in __BLANK_7__ against\nthe __BLANK_8__ *BUT, such records will NOT be admitted if the opponent\nparty shows a lack of trustworthiness.",
     "blanks": [
@@ -12089,7 +12089,7 @@
     "page": 62,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": "Past Recollection Recorded",
+    "subsectionTitle": "Former Testimony",
     "priority": "M",
     "context": "__BLANK_1__ Admissible if:\n1) Declarant __BLANK_2__\n2) The testimony was given by a witness at __BLANK_3__ the\ncurrent proceeding or a different one); AND\n3) It is __BLANK_4__ in\na civil case whose predecessor in interest had) a\n__BLANK_5__ develop the\ntestimony on direct, cross, or redirect\nexamination.\nLearned Treatises, Periodicals, or Pamphlets –\nStatements in such items are admissible if:\n4) The publication __BLANK_6__ (by judicial notice or an expert\nwitness); AND\n5) The statement is (a) called to attention by an\n__BLANK_7__ OR (b)\nrelied on by __BLANK_8__",
     "blanks": [
@@ -12155,7 +12155,7 @@
     "page": 62,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Right to Confront Witnesses",
     "priority": "H",
     "context": "Right to Confront Witnesses (6th Amend.) – The\nConfrontation Clause gives a criminal defendant the right\nto __BLANK_1__",
     "blanks": [
@@ -12170,7 +12170,7 @@
     "page": 62,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Right to Confront Witnesses",
     "priority": "H",
     "context": "The use of an out-of-court statement (even __BLANK_1__ violates the 6th Amend. when:\n1) The statement __BLANK_2__\n2) Declarant __BLANK_3__ at trial; AND\n3) D __BLANK_4__ declarant before trial.",
     "blanks": [
@@ -12197,7 +12197,7 @@
     "page": 62,
     "subject": "EVIDENCE",
     "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Right to Confront Witnesses",
     "priority": "H",
     "context": "Testimonial = Statements made to:\na) Grand juries;\nb) Affidavit or Certified Report with forensic lab\nresults; OR\nc) The police whose primary purpose (when\nviewed objectively) was to collect testimony to\nbe used at a later trial.\n*A statement to assist the police in __BLANK_1__ is NOT testimonial.",
     "blanks": [
@@ -12330,7 +12330,7 @@
     "page": 63,
     "subject": "EVIDENCE",
     "sectionHeader": "H. Privileges",
-    "subsectionTitle": "Attorney-Client Privilege",
+    "subsectionTitle": "Attorney Work Product Doctrine",
     "priority": "M",
     "context": "Attorney Work Product Doctrine – Protects from\ndisclosure all materials prepared by an attorney (or their\n__BLANK_1__ − Exception → If a party shows: (1) __BLANK_2__ AND (2) __BLANK_3__ cannot be __BLANK_4__",
     "blanks": [
@@ -12384,7 +12384,7 @@
     "page": 63,
     "subject": "EVIDENCE",
     "sectionHeader": "H. Privileges",
-    "subsectionTitle": "Physician-Patient Privilege",
+    "subsectionTitle": "Psychotherapist-Patient Privilege",
     "priority": "M",
     "context": "__BLANK_1__ – ALL states\nrecognize the privilege, which protects:\n1) __BLANK_2__\n2) made to __BLANK_3__ (psychologist,\npsychiatrist, __BLANK_4__\n3) for __BLANK_5__ *The patient holds the privilege and may waive it.",
     "blanks": [
@@ -12430,7 +12430,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": "A. Present Estates & Future Interests",
-    "subsectionTitle": "Fee Tail",
+    "subsectionTitle": "Fee Simple Defeasible",
     "priority": "H",
     "context": "Fee __BLANK_1__ types) – a conveyance of real\nproperty with conditions.\n− Created with express conditional language.\n− Ownership may be terminated upon the\noccurrence/non-occurrence of an event or\ncondition.",
     "blanks": [
@@ -12445,7 +12445,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": "A. Present Estates & Future Interests",
-    "subsectionTitle": "Fee Tail",
+    "subsectionTitle": "Fee Simple Defeasible",
     "priority": "H",
     "context": "Fee __BLANK_1__ reserves a future interest →\nin the grantor __BLANK_2__ − Created with words of duration (i.e. so long as,\nduring, while).\n− Conveyance __BLANK_3__ the\nspecific condition occurs.",
     "blanks": [
@@ -12468,7 +12468,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": "A. Present Estates & Future Interests",
-    "subsectionTitle": "Fee Tail",
+    "subsectionTitle": "Fee Simple Defeasible",
     "priority": "H",
     "context": "Fee __BLANK_1__ reserves a future interest in the grantor __BLANK_2__ − Created when a conveyance is subject to\ngrantor’s right of re-entry if a specific condition\noccurs.\n− Only terminates if __BLANK_3__",
     "blanks": [
@@ -12491,7 +12491,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": "A. Present Estates & Future Interests",
-    "subsectionTitle": "Fee Tail",
+    "subsectionTitle": "Fee Simple Defeasible",
     "priority": "H",
     "context": "Fee __BLANK_1__ reserves\na future interest in a third-party (not the grantor or his\nheirs).\n− Example → “To person X, so long as (or “but if”)\n… to person Y.”",
     "blanks": [
@@ -12506,7 +12506,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": "A. Present Estates & Future Interests",
-    "subsectionTitle": "Fee Tail",
+    "subsectionTitle": "Life Estate",
     "priority": "M",
     "context": "Life Estate – a conveyance where the life tenant is\nentitled __BLANK_1__ upon\ndeath the real property transfers to another party\n(specified by deed).\n− The life-tenant is responsible __BLANK_2__ the property during their\nlifetime.\n− Life-tenant CANNOT __BLANK_3__ the\nproperty to decrease in value).",
     "blanks": [
@@ -12529,7 +12529,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": null,
-    "subsectionTitle": "Statute of Limitations",
+    "subsectionTitle": "Possibility of Reverter",
     "priority": "H",
     "context": "__BLANK_1__ if the condition occurs,\ngrantee’s interest __BLANK_2__ vests\nin the grantor.",
     "blanks": [
@@ -12548,7 +12548,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": null,
-    "subsectionTitle": "Statute of Limitations",
+    "subsectionTitle": "Right of Re-entry",
     "priority": "H",
     "context": "__BLANK_1__ upon the occurrence of a specified\ncondition, the grantor MAY re-enter and take the\nproperty.\n− The grantor MUST exercise the right to\nterminate the interest.",
     "blanks": [
@@ -12563,7 +12563,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": null,
-    "subsectionTitle": "Statute of Limitations",
+    "subsectionTitle": "Vested Remainder",
     "priority": "H",
     "context": "Vested Remainder – is a future interest in land given to\n__BLANK_1__",
     "blanks": [
@@ -12616,7 +12616,7 @@
     "page": 64,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Tenancy in Common",
+    "subsectionTitle": "Joint Tenancy: Creation",
     "priority": "M",
     "context": "Joint Tenancy: Creation – created when 4 unities are\npresent → Unity of __BLANK_1__ AND __BLANK_2__ − MUST have __BLANK_3__ create a\nJoint Tenancy __BLANK_4__ (i.e. deed states “as joint tenants”, “right of\nsurvivorship”).",
     "blanks": [
@@ -12643,7 +12643,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": null,
+    "subsectionTitle": "Joint Tenancy: Severance",
     "priority": "H",
     "context": "Joint Tenancy: Severance – When one joint tenant\n__BLANK_1__ ownership interest in the\nproperty, the joint tenancy __BLANK_2__ Tenants then hold\nthe property __BLANK_3__ − If there are more than two joint tenants, the joint\ntenancy remains, but only among the other joint\ntenants.",
     "blanks": [
@@ -12666,7 +12666,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": null,
+    "subsectionTitle": "Joint Tenancy: Severance",
     "priority": "H",
     "context": "If a joint tenant takes out a mortgage on her interest:\n− __BLANK_1__ → severs joint tenancy\n− __BLANK_2__ → does not sever",
     "blanks": [
@@ -12685,7 +12685,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": null,
+    "subsectionTitle": "Joint Tenancy: Severance",
     "priority": "H",
     "context": "If one joint tenant leases the property:\n− Most States __BLANK_1__",
     "blanks": [
@@ -12764,7 +12764,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "C. Landlord & Tenant Issues",
-    "subsectionTitle": "Co-Tenant’s Entitlement to Rent / Reimbursement",
+    "subsectionTitle": "Types of Leasehold Interests",
     "priority": "H",
     "context": "Types of Leasehold Interests – A lease grants a tenant\n__BLANK_1__ real property for a\nlimited period of time.",
     "blanks": [
@@ -12779,7 +12779,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "C. Landlord & Tenant Issues",
-    "subsectionTitle": "Co-Tenant’s Entitlement to Rent / Reimbursement",
+    "subsectionTitle": "Types of Leasehold Interests",
     "priority": "H",
     "context": "3 Types:\n__BLANK_1__ lasts for __BLANK_2__ automatically terminated after the period ends.\n__BLANK_3__ – lasts for initial period, then\n__BLANK_4__ (weekly/monthly) until terminated __BLANK_5__ − Is created by: (a) express agreement; (b)\n__BLANK_6__ if rent is paid at specific periods; OR\n(c) law (when a tenant-for-years remains after\ntermination of the period or lease is invalid).\n− Termination __BLANK_7__ (if yearly, 6 months’ notice is\nrequired).",
     "blanks": [
@@ -12875,7 +12875,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Tenant’s Duty to Pay Rent",
+    "subsectionTitle": "Rent from Co-Tenant",
     "priority": "M",
     "context": "__BLANK_1__ Tenant – If a __BLANK_2__ (remains in\npossession after the lease ends), the landlord may:\na) __BLANK_3__ OR\nb) __BLANK_4__",
     "blanks": [
@@ -12902,7 +12902,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Tenant’s Duty to Pay Rent",
+    "subsectionTitle": "Rent from Co-Tenant",
     "priority": "M",
     "context": "When a hold-over occurs, __BLANK_1__ created __BLANK_2__ the original\nlease.\n− If tenant is informed __BLANK_3__ the\nend of the __BLANK_4__",
     "blanks": [
@@ -12929,7 +12929,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Tenant’s Duty to Pay Rent",
+    "subsectionTitle": "Implied Warranty of Habitability",
     "priority": "M",
     "context": "Implied Warranty of Habitability – Landlord MUST\nprovide a place to live that is habitable __BLANK_1__ − Implied __BLANK_2__ − Some courts also impose this warranty in\ncommercial leases (in limited circumstances).",
     "blanks": [
@@ -12948,7 +12948,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Tenant’s Duty to Pay Rent",
+    "subsectionTitle": "Implied Warranty of Habitability",
     "priority": "M",
     "context": "If warranty is breached, tenant may:\na) __BLANK_1__\nb) __BLANK_2__\nc) __BLANK_3__ OR\nd) __BLANK_4__",
     "blanks": [
@@ -12975,7 +12975,7 @@
     "page": 65,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Tenant’s Duty to Pay Rent",
+    "subsectionTitle": "Constructive Eviction",
     "priority": "H",
     "context": "Constructive Eviction – Every lease includes an\n__BLANK_1__ prevents a\nlandlord from interfering with the tenant’s quiet\nenjoyment and possession of the property.\n− This covenant is breached when a tenant is\n__BLANK_2__",
     "blanks": [
@@ -13086,7 +13086,7 @@
     "page": 66,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Landlord’s Duty to Mitigate Damages",
+    "subsectionTitle": "Assignment of a Lease",
     "priority": "H",
     "context": "Assignment of a Lease – when a tenant __BLANK_1__ to a third-party.\n− A lease may be freely assigned UNLESS the\nlease states otherwise.\n− An assignment CANNOT be for a longer period\nthan the remaining lease term.",
     "blanks": [
@@ -13101,7 +13101,7 @@
     "page": 66,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Landlord’s Duty to Mitigate Damages",
+    "subsectionTitle": "Assignment of a Lease",
     "priority": "H",
     "context": "Liability for Rent / Breach:\n− Assignee → liable to the landlord for rent and all\nother covenants __BLANK_1__ (privity of\n__BLANK_2__ − Assignor (Original Tenant) → also remains\nliable for rent (privity __BLANK_3__ − Landlord __BLANK_4__ with\nthe land (privity of estate).",
     "blanks": [
@@ -13143,7 +13143,7 @@
     "page": 66,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": null,
+    "subsectionTitle": "Subleases",
     "priority": "M",
     "context": "Subleases – when a tenant (sublessor) __BLANK_1__ − Tenant may freely sublet UNLESS a provision in\nthe lease states otherwise.\n− A sublease CANNOT be for a longer period than\nthe remaining lease term.",
     "blanks": [
@@ -13158,7 +13158,7 @@
     "page": 66,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": null,
+    "subsectionTitle": "Surrender of a Lease",
     "priority": "H",
     "context": "__BLANK_1__ of a Lease – an agreement to end a lease\nearly.\n− Landlord __BLANK_2__ the\nlease (unless otherwise agreed).\n− An attempt to end the lease early (such as\nleaving the keys) DOES NOT constitute a\nsurrender __BLANK_3__",
     "blanks": [
@@ -13181,7 +13181,7 @@
     "page": 66,
     "subject": "REAL PROPERTY",
     "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": null,
+    "subsectionTitle": "Surrender of a Lease",
     "priority": "H",
     "context": "If landlord:\n− ACCEPTS the surrender → tenant’s duty to\npay rent (after the acceptance) ends.\n− DOES NOT accept the surrender → tenant is\ndeemed __BLANK_1__",
     "blanks": [
@@ -13196,7 +13196,7 @@
     "page": 66,
     "subject": "REAL PROPERTY",
     "sectionHeader": "D. Covenants & Equitable Servitudes",
-    "subsectionTitle": null,
+    "subsectionTitle": "Real Covenant",
     "priority": "M",
     "context": "Real Covenant – __BLANK_1__ land that\nobligates the holder to either __BLANK_2__ − Remedy __BLANK_3__",
     "blanks": [
@@ -13219,7 +13219,7 @@
     "page": 66,
     "subject": "REAL PROPERTY",
     "sectionHeader": "D. Covenants & Equitable Servitudes",
-    "subsectionTitle": null,
+    "subsectionTitle": "Real Covenant",
     "priority": "M",
     "context": "To enforce the Benefit of a Covenant, it requires:\n1) a __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ when a successor holds the\nentire interest held by a predecessor, AND\n4) the __BLANK_4__ (makes the land more useful or valuable).",
     "blanks": [
@@ -13284,7 +13284,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "D. Covenants & Equitable Servitudes",
-    "subsectionTitle": null,
+    "subsectionTitle": "Equitable Servitude",
     "priority": "M",
     "context": "Equitable Servitude – a covenant that equity will\nenforce if the burdened estate __BLANK_1__ the\ncovenant (regardless __BLANK_2__ − Remedy __BLANK_3__ To enforce the Benefit of an Equitable Servitude, must\nhave:\n1) __BLANK_4__ the statute of frauds,\n2) __BLANK_5__ AND\n3) the __BLANK_6__ (makes the land more useful or valuable).",
     "blanks": [
@@ -13319,7 +13319,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "D. Covenants & Equitable Servitudes",
-    "subsectionTitle": null,
+    "subsectionTitle": "Equitable Servitude",
     "priority": "M",
     "context": "To enforce the Burden of an Equitable Servitude,\nmust have elements (1)-(3) above, PLUS (4) the new\nowner must have __BLANK_1__ the servitude (actual,\nconstructive, or inquiry).",
     "blanks": [
@@ -13334,7 +13334,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "D. Covenants & Equitable Servitudes",
-    "subsectionTitle": null,
+    "subsectionTitle": "Common Scheme or Plan Doctrine",
     "priority": "M",
     "context": "Common Scheme or Plan Doctrine – courts will imply\n__BLANK_1__ on land parcels in a\nsubdivision sold by a developer ONLY IF:\n1) Developer had __BLANK_2__ ALL parcels would be subject __BLANK_3__ AND\n2) Land owner __BLANK_4__ the restriction – (a)\nactual, (b) constructive/record, or (c) inquiry –\nobvious from looking at the subdivision.",
     "blanks": [
@@ -13361,7 +13361,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "D. Covenants & Equitable Servitudes",
-    "subsectionTitle": null,
+    "subsectionTitle": "Condos, Co-Ops, & HOA’s",
     "priority": "M",
     "context": "Condos, Co-Ops, & HOA’s – A Common Interest\nCommunity (“CIC”) is a development/neighborhood of\n__BLANK_1__ which have an obligation to:\na) __BLANK_2__ the\nproperty held in common; OR\nb) __BLANK_3__ that maintains the neighborhood and/or\nproperties.\n*Typical CIC’s = condos, co-ops, and HOA’s.",
     "blanks": [
@@ -13384,7 +13384,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "D. Covenants & Equitable Servitudes",
-    "subsectionTitle": null,
+    "subsectionTitle": "Condos, Co-Ops, & HOA’s",
     "priority": "M",
     "context": "Residents and successive owners are subject to\n__BLANK_1__ covenants) that run with\nthe land.",
     "blanks": [
@@ -13399,7 +13399,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "E. Easements & Licenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Easement",
     "priority": "H",
     "context": "Easement – is __BLANK_1__ the use of\n__BLANK_2__ − __BLANK_3__ → benefits __BLANK_4__ (DOES NOT pass to\nsubsequent owners, unless easement is for\n__BLANK_5__ − __BLANK_6__ enjoyment (DOES pass to subsequent owners, if\n__BLANK_7__",
     "blanks": [
@@ -13438,7 +13438,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "E. Easements & Licenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Easement",
     "priority": "H",
     "context": "Easement by __BLANK_1__ Requires:\n1) __BLANK_2__ by the grantor;\n2) identify __BLANK_3__ AND\n3) __BLANK_4__ *Scope = the use agreed upon.",
     "blanks": [
@@ -13465,7 +13465,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "E. Easements & Licenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Easement",
     "priority": "H",
     "context": "Easement __BLANK_1__ → Created when a\npossessor’s use of the land is:\n1) __BLANK_2__\n2) __BLANK_3__\n3) __BLANK_4__ permission from the land owner);\nAND\n4) for the statutory period (i.e. 10 years).\n*Scope = actual usage during statutory period.",
     "blanks": [
@@ -13492,7 +13492,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "E. Easements & Licenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Easement",
     "priority": "H",
     "context": "Easement __BLANK_1__ Established when:\n1) __BLANK_2__\n2) __BLANK_3__ the grantor is established\nprior to the division;\n3) use __BLANK_4__ that it was meant to be permanent; AND\n4) the use __BLANK_5__ the\nowner’s use and enjoyment of the land\nconveyed.\n*Scope = the prior use.",
     "blanks": [
@@ -13523,7 +13523,7 @@
     "page": 67,
     "subject": "REAL PROPERTY",
     "sectionHeader": "E. Easements & Licenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Easement",
     "priority": "H",
     "context": "Easement __BLANK_1__ Created if:\n1) land owned by one owner __BLANK_2__ AND\n2) the easement (access of land) __BLANK_3__ the\nuse __BLANK_4__ *Scope = is limited to remedying the necessity.",
     "blanks": [
@@ -13612,7 +13612,7 @@
     "page": 68,
     "subject": "REAL PROPERTY",
     "sectionHeader": "F. Fixtures",
-    "subsectionTitle": "Profit",
+    "subsectionTitle": "Fixture",
     "priority": "H",
     "context": "Fixture – __BLANK_1__ that it __BLANK_2__ − Whether an item is a fixture is determined by the\n__BLANK_3__ the installer.",
     "blanks": [
@@ -13635,7 +13635,7 @@
     "page": 68,
     "subject": "REAL PROPERTY",
     "sectionHeader": "F. Fixtures",
-    "subsectionTitle": "Profit",
+    "subsectionTitle": "Fixture",
     "priority": "H",
     "context": "Determining if a Fixture → Courts consider the (1)\n__BLANK_1__ (2) __BLANK_2__ (3) __BLANK_3__ and __BLANK_4__ − The more the item is incorporated into the\nproperty, the more likely it’s a fixture.",
     "blanks": [
@@ -13662,7 +13662,7 @@
     "page": 68,
     "subject": "REAL PROPERTY",
     "sectionHeader": "F. Fixtures",
-    "subsectionTitle": "Profit",
+    "subsectionTitle": "Fixture",
     "priority": "H",
     "context": "__BLANK_1__ Exception – An item attached for a\n__BLANK_2__ NOT a fixture UNLESS\n__BLANK_3__ – But, the item may become a fixture if it’s not\n__BLANK_4__",
     "blanks": [
@@ -13827,7 +13827,7 @@
     "page": 69,
     "subject": "REAL PROPERTY",
     "sectionHeader": "H. Land Conveyances",
-    "subsectionTitle": null,
+    "subsectionTitle": "Damages for Breach of Warranty of Marketable Title",
     "priority": "M",
     "context": "Damages for Breach of Warranty of Marketable Title\n– measured by __BLANK_1__ − Courts are divided on whether damages are\nrecoverable if the encumbrance is known or\nobvious (when actual, constructive, or inquiry\nnotice exists).",
     "blanks": [
@@ -13884,7 +13884,7 @@
     "page": 69,
     "subject": "REAL PROPERTY",
     "sectionHeader": "H. Land Conveyances",
-    "subsectionTitle": "Doctrine of Equitable Conversion & Risk of Loss",
+    "subsectionTitle": "Time for Performance",
     "priority": "M",
     "context": "Time for Performance – Even though a land sale\ncontract may specify a closing date, the time for\nperformance __BLANK_1__ requested by one of the\nparties.",
     "blanks": [
@@ -13899,7 +13899,7 @@
     "page": 69,
     "subject": "REAL PROPERTY",
     "sectionHeader": "H. Land Conveyances",
-    "subsectionTitle": "Doctrine of Equitable Conversion & Risk of Loss",
+    "subsectionTitle": "Time for Performance",
     "priority": "M",
     "context": "EXCEPTION → If the contract contains a __BLANK_1__ clause.\n− If buyer fails to perform on the closing date, it’s\ndeemed __BLANK_2__ the seller may\n__BLANK_3__",
     "blanks": [
@@ -13922,7 +13922,7 @@
     "page": 69,
     "subject": "REAL PROPERTY",
     "sectionHeader": "H. Land Conveyances",
-    "subsectionTitle": "Doctrine of Equitable Conversion & Risk of Loss",
+    "subsectionTitle": "Action for Specific Performance",
     "priority": "M",
     "context": "Action for Specific Performance – Real property is\ndeemed __BLANK_1__ and specific performance is an\nappropriate remedy.\n− EXCEPTION → when the property has been\nsold __BLANK_2__",
     "blanks": [
@@ -13941,7 +13941,7 @@
     "page": 69,
     "subject": "REAL PROPERTY",
     "sectionHeader": "H. Land Conveyances",
-    "subsectionTitle": null,
+    "subsectionTitle": "Title is Unmarketable",
     "priority": "H",
     "context": "Home Builder’s Implied Warranty – Protects buyers of\n__BLANK_1__ and warrants\nthat the home __BLANK_2__ at the time of sale.\n− Latent Defect = a defect that could not have\nbeen discovered __BLANK_3__",
     "blanks": [
@@ -13964,7 +13964,7 @@
     "page": 69,
     "subject": "REAL PROPERTY",
     "sectionHeader": "H. Land Conveyances",
-    "subsectionTitle": null,
+    "subsectionTitle": "Title is Unmarketable",
     "priority": "H",
     "context": "Breach – allows a buyer to recover damages discovered\nwithin a reasonable time for:\na) __BLANK_1__ OR\nb) __BLANK_2__ accepted norms of the industry).",
     "blanks": [
@@ -13983,7 +13983,7 @@
     "page": 69,
     "subject": "REAL PROPERTY",
     "sectionHeader": "H. Land Conveyances",
-    "subsectionTitle": null,
+    "subsectionTitle": "Title is Unmarketable",
     "priority": "H",
     "context": "Subsequent Purchasers:\n− Some States → __BLANK_1__ the home builder.\n− Other States → warranty applies because a\nsubsequent buyer is in the same vulnerable\nposition.",
     "blanks": [
@@ -14118,7 +14118,7 @@
     "page": 70,
     "subject": "REAL PROPERTY",
     "sectionHeader": "I. Title to Real Property",
-    "subsectionTitle": "Types of Deeds",
+    "subsectionTitle": "Estoppel by Deed",
     "priority": "M",
     "context": "Estoppel by Deed – If grantor conveys title to real\n__BLANK_1__ the title will __BLANK_2__ soon as grantor acquires title.",
     "blanks": [
@@ -14366,7 +14366,7 @@
     "page": 71,
     "subject": "REAL PROPERTY",
     "sectionHeader": "J. Mortgages / Security Devices",
-    "subsectionTitle": "Assumption & Transfer Subject to a Mortgage",
+    "subsectionTitle": "Foreclosure",
     "priority": "M",
     "context": "Foreclosure – It extinguishes (destroys) __BLANK_1__ − All senior (prior recorded) mortgages are NOT\naffected.",
     "blanks": [
@@ -14381,7 +14381,7 @@
     "page": 71,
     "subject": "REAL PROPERTY",
     "sectionHeader": "J. Mortgages / Security Devices",
-    "subsectionTitle": "Assumption & Transfer Subject to a Mortgage",
+    "subsectionTitle": "Foreclosure",
     "priority": "M",
     "context": "Order of Preference – Proceeds from a foreclosure sale\nare used to pay off debts in this order:\n1) __BLANK_1__\n2) Debts owed to mortgagee (the lender).\n3) Any __BLANK_2__ to __BLANK_3__ (debtor).",
     "blanks": [
@@ -14419,7 +14419,7 @@
     "page": 71,
     "subject": "REAL PROPERTY",
     "sectionHeader": "K. Zoning",
-    "subsectionTitle": "Transfer of a Mortgage Note",
+    "subsectionTitle": "Zoning Ordinances & Laws",
     "priority": "M",
     "context": "Zoning Ordinances & Laws (land-use regulations) –\nare ALLOWED when it __BLANK_1__ the community.",
     "blanks": [
@@ -14434,7 +14434,7 @@
     "page": 71,
     "subject": "REAL PROPERTY",
     "sectionHeader": "K. Zoning",
-    "subsectionTitle": "Transfer of a Mortgage Note",
+    "subsectionTitle": "Variance",
     "priority": "M",
     "context": "__BLANK_1__ Is an exception to a zoning ordinance.\n− Two types → __BLANK_2__ and __BLANK_3__",
     "blanks": [
@@ -14457,7 +14457,7 @@
     "page": 71,
     "subject": "REAL PROPERTY",
     "sectionHeader": "K. Zoning",
-    "subsectionTitle": "Transfer of a Mortgage Note",
+    "subsectionTitle": "Variance",
     "priority": "M",
     "context": "A variance application may be granted if:\n1) Property owner shows he will __BLANK_1__ because of the ordinance; AND\n2) Variance __BLANK_2__",
     "blanks": [
@@ -14476,7 +14476,7 @@
     "page": 71,
     "subject": "REAL PROPERTY",
     "sectionHeader": "K. Zoning",
-    "subsectionTitle": "Transfer of a Mortgage Note",
+    "subsectionTitle": "primarily and",
     "priority": "M",
     "context": "__BLANK_1__ Allows a landowner\nto continue to use his land in violation of __BLANK_2__ − If the prior use __BLANK_3__ a\nsubsequent zoning law will NOT bar the\ncontinued use.\n*The non-conforming use MUST be continuous,\notherwise it’s no longer protected.",
     "blanks": [
@@ -14499,7 +14499,7 @@
     "page": 71,
     "subject": "REAL PROPERTY",
     "sectionHeader": "K. Zoning",
-    "subsectionTitle": "Transfer of a Mortgage Note",
+    "subsectionTitle": "primarily and",
     "priority": "M",
     "context": "Changes to a Non-Conforming Use Property:\n− __BLANK_1__ PERMITTED.\n− Substantial changes that enlarge, alter, or\nextend the non-conforming use → NOT\nALLOWED.",
     "blanks": [
@@ -14514,7 +14514,7 @@
     "page": 72,
     "subject": "REAL PROPERTY",
     "sectionHeader": "L. Conflict of Laws",
-    "subsectionTitle": null,
+    "subsectionTitle": "Conflict of Laws for Real Property Cases",
     "priority": "M",
     "context": "Conflict of Laws for Real Property Cases – Apply the\nState law where real property at issue is located (the\n__BLANK_1__ for cases involving the title/sale of real\nproperty.\n− Rest. 2nd Approach → it is presumed that the\nsitus State has the most significant\nrelationship.\n− Rest. 1st Approach → apply State law where the\nreal property is located (situs rule).\n− Interest Analysis Approach → the State law\nwhere the real property is located will generally\ngovern UNLESS another State has a greater\ninterest in having its law applied.\n*If the land is merely incidental to a contract (i.e.\nbrokerage contract, mortgage agreement), then apply\nthe choice of law rules for contracts.",
     "blanks": [
@@ -14529,7 +14529,7 @@
     "page": 72,
     "subject": "REAL PROPERTY",
     "sectionHeader": "M. Fair Housing / Discrimination",
-    "subsectionTitle": null,
+    "subsectionTitle": "Discrimination & Fair Housing Act (“FHA”)",
     "priority": "M",
     "context": "__BLANK_1__ – The\nFHA prohibits discrimination in housing-related activities\nbased on a person’s __BLANK_2__ for\nfacilities designated as 55+ year old “senior housing”).",
     "blanks": [
@@ -14548,7 +14548,7 @@
     "page": 72,
     "subject": "REAL PROPERTY",
     "sectionHeader": "N. Rule Against Perpetuities",
-    "subsectionTitle": null,
+    "subsectionTitle": "Rule Against Perpetuities (RAP)",
     "priority": "M",
     "context": "Rule Against Perpetuities (RAP) – Under the Common\nLaw, __BLANK_1__ real property __BLANK_2__ − If a future interest violates RAP, that interest is\ndeemed invalid (but the remaining conveyance\nwill remain intact).",
     "blanks": [
@@ -14609,7 +14609,7 @@
     "page": 73,
     "subject": "TORTS",
     "sectionHeader": "A. Intentional Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Battery",
     "priority": "H",
     "context": "Battery – is an __BLANK_1__ offends a reasonable sense of personal\ndignity), __BLANK_2__ − Intentional = (a) a desire to bring about the\nharm/contact; OR (b) knowing the harm/contact\nis substantially certain to occur.\n__BLANK_3__ are sufficient.",
     "blanks": [
@@ -14632,7 +14632,7 @@
     "page": 73,
     "subject": "TORTS",
     "sectionHeader": "A. Intentional Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Assault",
     "priority": "M",
     "context": "Assault – is an __BLANK_1__ (2) __BLANK_2__ (3) of an\n__BLANK_3__ P’s\nperson.\n− Intentional = (a) for the purpose of causing such\napprehension; OR (b) with knowledge to a\nsubstantial certainty that the apprehension will\nresult.\n− Reasonable Apprehension = P must __BLANK_4__ D’s act AND __BLANK_5__ *Nominal damages alone are sufficient.",
     "blanks": [
@@ -14663,7 +14663,7 @@
     "page": 73,
     "subject": "TORTS",
     "sectionHeader": "A. Intentional Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "False Imprisonment",
     "priority": "H",
     "context": "False Imprisonment – is an __BLANK_1__ (2) to\n__BLANK_2__ (with no reasonable\nmeans of escape), AND (3) __BLANK_3__ − Intentional = (a) purposely bringing about the\nconfinement; OR (b) knowing the confinement is\nsubstantially certain to occur.\n− Restraint → by physical force or through threats.\n__BLANK_4__ alone are sufficient.",
     "blanks": [
@@ -14690,7 +14690,7 @@
     "page": 73,
     "subject": "TORTS",
     "sectionHeader": "A. Intentional Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Intentional Infliction of Emotional Distress",
     "priority": "M",
     "context": "M Intentional Infliction of Emotional Distress – is (1)\n__BLANK_1__ (2) that __BLANK_2__ all bounds of decency), (3)\nthat __BLANK_3__ (causation),\nAND __BLANK_4__ (damages).\n− Intentional = the person (a) __BLANK_5__ OR (b) knows that\n__BLANK_6__ − Reckless = __BLANK_7__ of __BLANK_8__ that emotional distress will follow.",
     "blanks": [
@@ -14733,7 +14733,7 @@
     "page": 73,
     "subject": "TORTS",
     "sectionHeader": "A. Intentional Torts",
-    "subsectionTitle": null,
+    "subsectionTitle": "Intentional Infliction of Emotional Distress",
     "priority": "M",
     "context": "If conduct is directed at a third-party, D is liable for\nintentional/reckless infliction of emotional caused to:\na) A member of such __BLANK_1__\nb) Any other person present, __BLANK_2__",
     "blanks": [
@@ -14752,7 +14752,7 @@
     "page": 73,
     "subject": "TORTS",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Trespass to Land",
     "priority": "M",
     "context": "Trespass to Land – D is liable if: (1) __BLANK_1__ (2) either __BLANK_2__ remains on\nthe land) or __BLANK_3__ the land (or fails to remove an object he is\nunder a duty to remove).\n− P must be the possessor of the land at the time\nof the trespass.\n− __BLANK_4__ alone may support a claim.",
     "blanks": [
@@ -14779,7 +14779,7 @@
     "page": 73,
     "subject": "TORTS",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Trespass to Land",
     "priority": "M",
     "context": "Intent = (a) desire; OR (b) knows entry is substantially\ncertain to occur.\n− __BLANK_1__ is NOT required – only the\n__BLANK_2__ required.",
     "blanks": [
@@ -14798,7 +14798,7 @@
     "page": 73,
     "subject": "TORTS",
     "sectionHeader": null,
-    "subsectionTitle": null,
+    "subsectionTitle": "Trespass to Land",
     "priority": "M",
     "context": "Actual Damages – P may recover __BLANK_1__\na) Land; AND/OR\nb) Land possessor (or their family).",
     "blanks": [
@@ -14889,7 +14889,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "B. Intentional Tort Defenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Privilege",
     "priority": "H",
     "context": "Privilege – Is conduct that normally would subject the\nactor to liability, but __BLANK_1__",
     "blanks": [
@@ -14904,7 +14904,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "B. Intentional Tort Defenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Privilege",
     "priority": "H",
     "context": "Necessity – D is NOT liable for harm to P’s property if\nD’s intrusion was (or reasonably appeared to be)\n__BLANK_1__ − Applicable only __BLANK_2__ − __BLANK_3__ defense) → when D\nacts for the public good.\n− __BLANK_4__ Necessity __BLANK_5__ → when\nD is protecting his own (or a few others) property\ninterests. D is liable __BLANK_6__ UNLESS the\n__BLANK_7__",
     "blanks": [
@@ -14943,7 +14943,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "B. Intentional Tort Defenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Privilege",
     "priority": "H",
     "context": "Self-Defense / Defense of Others – D is not liable for\nharm to P if he:\n1) __BLANK_1__ him or another; AND\n2) __BLANK_2__ to\nprotect himself or another.",
     "blanks": [
@@ -14962,7 +14962,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "B. Intentional Tort Defenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Privilege",
     "priority": "H",
     "context": "Defense of Property – may __BLANK_1__ defend property, but CANNOT __BLANK_2__",
     "blanks": [
@@ -14981,7 +14981,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "B. Intentional Tort Defenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Privilege",
     "priority": "H",
     "context": "Recapture of Chattels – An owner of wrongfully taken\nchattels may __BLANK_1__ chattels from the\nwrongdoer.\n− Force is deemed unreasonable __BLANK_2__ UNLESS\nthe demand __BLANK_3__",
     "blanks": [
@@ -15004,7 +15004,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "B. Intentional Tort Defenses",
-    "subsectionTitle": null,
+    "subsectionTitle": "Privilege",
     "priority": "H",
     "context": "Detain for Investigation __BLANK_1__ (1)\n__BLANK_2__ (3) __BLANK_3__ − When a request to remain has been made and\nrefused, __BLANK_4__ may be\nused to detain.",
     "blanks": [
@@ -15101,7 +15101,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": "Necessity",
+    "subsectionTitle": "Reasonable Person Standard",
     "priority": "H",
     "context": "Reasonable Person Standard – Every person owes a\nduty to act as __BLANK_1__ − Following community customs & statutory\nrequirements are relevant, but not dispositive.\nIt is merely evidence of reasonable care.",
     "blanks": [
@@ -15116,7 +15116,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": "Necessity",
+    "subsectionTitle": "Reasonable Person Standard",
     "priority": "H",
     "context": "Physical Disability → must act as a reasonable person\n__BLANK_1__ act.",
     "blanks": [
@@ -15131,7 +15131,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": "Necessity",
+    "subsectionTitle": "Children",
     "priority": "H",
     "context": "Children – must act as __BLANK_1__ acting under similar\ncircumstances.\n− EXCEPTION → If engaging in __BLANK_2__ the child has a duty to act __BLANK_3__",
     "blanks": [
@@ -15154,7 +15154,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": "Necessity",
+    "subsectionTitle": "Professionals",
     "priority": "H",
     "context": "Professionals – Must act __BLANK_1__ in __BLANK_2__ − Professional → doctors, lawyers, accountants,\nengineers, architects, nurses.",
     "blanks": [
@@ -15173,7 +15173,7 @@
     "page": 74,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": "Necessity",
+    "subsectionTitle": "Professionals",
     "priority": "H",
     "context": "Medical Doctor – Held to the degree of care and skill of\nan average qualified practitioner under __BLANK_1__",
     "blanks": [
@@ -15335,7 +15335,7 @@
     "page": 75,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Negligence Per Se",
     "priority": "H",
     "context": "Negligence Per Se – The elements of duty & breach\nare established when __BLANK_1__",
     "blanks": [
@@ -15350,7 +15350,7 @@
     "page": 75,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Negligence Per Se",
     "priority": "H",
     "context": "To use Negligence Per Se, P must show:\n1) __BLANK_1__ AND\n2) __BLANK_2__",
     "blanks": [
@@ -15369,7 +15369,7 @@
     "page": 75,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Res Ipsa Loquitur",
     "priority": "H",
     "context": "__BLANK_1__ Can be used when the breach\nelement is difficult to prove.",
     "blanks": [
@@ -15384,7 +15384,7 @@
     "page": 75,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Res Ipsa Loquitur",
     "priority": "H",
     "context": "Restatement (Second) Test – Plaintiff must show that:\n1) the injury is of a kind that __BLANK_1__\n2) __BLANK_2__ by the evidence (including the\nconduct of P and third persons); AND\n3) the negligence was __BLANK_3__ D\nowed to P.",
     "blanks": [
@@ -15407,7 +15407,7 @@
     "page": 75,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Causation",
     "priority": "H",
     "context": "Causation – P must show that D’s conduct was BOTH\n__BLANK_1__ the injury.",
     "blanks": [
@@ -15422,7 +15422,7 @@
     "page": 75,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Causation",
     "priority": "H",
     "context": "Actual Cause → the __BLANK_1__ cause.\n− Substantial Factor Test – deemed an actual\ncause if it’s __BLANK_2__ bringing\nabout the injury (even if __BLANK_3__",
     "blanks": [
@@ -15445,7 +15445,7 @@
     "page": 75,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Causation",
     "priority": "H",
     "context": "Proximate Cause → injury must have been a\n__BLANK_1__ of the breach.\n− D is NOT liable for remote harms caused.",
     "blanks": [
@@ -15506,7 +15506,7 @@
     "page": 76,
     "subject": "TORTS",
     "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
+    "subsectionTitle": "Eggshell Plaintiff Rule",
     "priority": "H",
     "context": "__BLANK_1__ – “Take P as you find P”\nD is liable __BLANK_2__ suffers as a result of his\nconduct, even if P suffers __BLANK_3__ that makes the harm worse than what\na normal person might suffer.",
     "blanks": [
@@ -15578,7 +15578,7 @@
     "page": 76,
     "subject": "TORTS",
     "sectionHeader": "D. Negligence Defenses",
-    "subsectionTitle": "Comparative & Contributory Negligence",
+    "subsectionTitle": "Assumption of Risk",
     "priority": "M",
     "context": "Assumption of Risk – Is a defense to negligence, and\napplies if __BLANK_1__ − May be express (by agreement) OR implied (an\naverage person would appreciate the risk).",
     "blanks": [
@@ -15651,7 +15651,7 @@
     "page": 76,
     "subject": "TORTS",
     "sectionHeader": "F. Liability for Acts of Others",
-    "subsectionTitle": null,
+    "subsectionTitle": "Respondeat Superior Doctrine",
     "priority": "H",
     "context": "Respondeat Superior Doctrine – An employer is liable\nfor an employee’s negligent acts if the employee was\n__BLANK_1__",
     "blanks": [
@@ -15666,7 +15666,7 @@
     "page": 76,
     "subject": "TORTS",
     "sectionHeader": "F. Liability for Acts of Others",
-    "subsectionTitle": null,
+    "subsectionTitle": "Respondeat Superior Doctrine",
     "priority": "H",
     "context": "Employee acts within Scope of Employment when:\na) Performing work assigned by the employer; OR\nb) Engaging __BLANK_1__",
     "blanks": [
@@ -15681,7 +15681,7 @@
     "page": 76,
     "subject": "TORTS",
     "sectionHeader": "F. Liability for Acts of Others",
-    "subsectionTitle": null,
+    "subsectionTitle": "Respondeat Superior Doctrine",
     "priority": "H",
     "context": "Intentional Torts – are __BLANK_1__ EXCEPTIONS:\na) Act __BLANK_2__\nb) Act __BLANK_3__ OR\nc) Act was __BLANK_4__ from the type of employment.",
     "blanks": [
@@ -15708,7 +15708,7 @@
     "page": 76,
     "subject": "TORTS",
     "sectionHeader": "F. Liability for Acts of Others",
-    "subsectionTitle": null,
+    "subsectionTitle": "Respondeat Superior Doctrine",
     "priority": "H",
     "context": "Not Within Scope of Employment – Conduct is NOT\nwithin the scope if __BLANK_1__ − BUT see exception below.",
     "blanks": [
@@ -15758,7 +15758,7 @@
     "page": 77,
     "subject": "TORTS",
     "sectionHeader": "F. Liability for Acts of Others",
-    "subsectionTitle": null,
+    "subsectionTitle": "Employee vs. Independent Contractor",
     "priority": "H",
     "context": "Employee vs. Independent Contractor – Primary\nfocus is whether the principal had the __BLANK_1__ the manner and method in which the job was performed.",
     "blanks": [
@@ -15800,7 +15800,7 @@
     "page": 77,
     "subject": "TORTS",
     "sectionHeader": "G. Liability of Multiple Defendants",
-    "subsectionTitle": "Liability for Independent Contractors",
+    "subsectionTitle": "Joint and Several Liability",
     "priority": "H",
     "context": "__BLANK_1__ – If multiple Ds are the\nproximate cause of __BLANK_2__ then P may\nrecover the ENTIRE amount of damages from any\ndefendant.\n− BUT, any D who pays more than his share of the\ndamages may bring action against the other Ds\n__BLANK_3__",
     "blanks": [
@@ -15823,7 +15823,7 @@
     "page": 77,
     "subject": "TORTS",
     "sectionHeader": "F. Liability for Acts of Others",
-    "subsectionTitle": null,
+    "subsectionTitle": "Employee vs. Independent Contractor",
     "priority": "H",
     "context": "Doctrine __BLANK_1__ – Allows the negligence of\none D to be imputed to other Ds if:\n1) Multiple Ds __BLANK_2__ AND\n2) All Ds have made __BLANK_3__",
     "blanks": [
@@ -15846,7 +15846,7 @@
     "page": 77,
     "subject": "TORTS",
     "sectionHeader": "F. Liability for Acts of Others",
-    "subsectionTitle": null,
+    "subsectionTitle": "Doctrine of Market Share Liability",
     "priority": "H",
     "context": "Doctrine __BLANK_1__ – If applicable, all\nmanufacturers (of products identical to the one that\nharmed P) are __BLANK_2__",
     "blanks": [
@@ -15865,7 +15865,7 @@
     "page": 77,
     "subject": "TORTS",
     "sectionHeader": "F. Liability for Acts of Others",
-    "subsectionTitle": null,
+    "subsectionTitle": "Doctrine of Market Share Liability",
     "priority": "H",
     "context": "Market Share Liability is appropriate if:\n1) All Ds __BLANK_1__\n2) Products __BLANK_2__ (or were “fungible”);\n3) P is __BLANK_3__ through no fault of his own; AND\n4) __BLANK_4__",
     "blanks": [
@@ -16376,7 +16376,7 @@
     "page": 79,
     "subject": "TORTS",
     "sectionHeader": "I. Common Law Strict Liability",
-    "subsectionTitle": null,
+    "subsectionTitle": "Wild & Domestic Animals",
     "priority": "M",
     "context": "Wild & Domestic Animals\nDomestic Animals – Owner is NOT strictly liable\nUNLESS he __BLANK_1__ − Includes dogs, cats, & farm animals.",
     "blanks": [
@@ -16391,7 +16391,7 @@
     "page": 79,
     "subject": "TORTS",
     "sectionHeader": "I. Common Law Strict Liability",
-    "subsectionTitle": null,
+    "subsectionTitle": "Wild & Domestic Animals",
     "priority": "M",
     "context": "Wild Animals – Owner is SUBJECT TO strict liability\nfor harm caused __BLANK_1__",
     "blanks": [
@@ -16406,7 +16406,7 @@
     "page": 79,
     "subject": "TORTS",
     "sectionHeader": "I. Common Law Strict Liability",
-    "subsectionTitle": null,
+    "subsectionTitle": "Wild & Domestic Animals",
     "priority": "M",
     "context": "Animal owners are strictly liable for __BLANK_1__ by their animals (if\nreasonably foreseeable).",
     "blanks": [
