@@ -46,10 +46,29 @@ function isListStartText(text: string): boolean {
   return /^(\d+[).]\s*|[a-z][).]\s*|[ivxlcdm]+[).]\s*|[−–•])/.test(text);
 }
 
+/** 行末から取り出した最後の "表示テキスト"（blank は answer 文字列）を使う */
+function prevDisplayText(t: Token): string {
+  return t.text;
+}
+
 function separator(prev: Token, cur: Token, key: string): React.ReactNode {
-  if (prev.lineIdx === cur.lineIdx) return <span key={key}> </span>;
-  if (prev.text.endsWith("-")) return null;
   const curText = cur.type === "word" ? cur.text : "";
+
+  if (prev.lineIdx === cur.lineIdx) {
+    // 同一行でも "−" / "–" の直前でブランクか文末ピリオドがある場合は改行
+    // （PDF上は別行だが抽出時に同一行にまとめられたケース）
+    const standaloneListDash = /^[−–]$/.test(curText);
+    if (standaloneListDash) {
+      const pt = prevDisplayText(prev);
+      if (prev.type === "originalBlank" || pt.endsWith(".") || pt.endsWith(";")) {
+        return <br key={key} />;
+      }
+    }
+    return <span key={key}> </span>;
+  }
+
+  // 行をまたぐ場合
+  if (prevDisplayText(prev).endsWith("-")) return null; // ハイフン連結
   if (isListStartText(curText)) return <br key={key} />;
   return <span key={key}> </span>;
 }
