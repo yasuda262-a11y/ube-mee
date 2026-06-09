@@ -379,21 +379,21 @@ def extract():
                 # Extract potential subsectionTitle and priority from this no-mask paragraph
                 cand = get_subsection_title(dict_blocks, para_group[0], False)
                 prio_cand = get_priority_for_y(para_y0, para_y1, para_x0, para_x1)
-                if cand:
+                # Only update pending_subsec when a priority circle is present
+                # (same logic as pending_prio — persists until a new heading overrides it)
+                if cand and prio_cand:
                     if col == "left":
                         pending_subsec_left = cand
-                        if prio_cand:
-                            pending_prio_left = prio_cand
+                        pending_prio_left = prio_cand
                     else:
                         pending_subsec_right = cand
-                        if prio_cand:
-                            pending_prio_right = prio_cand
-                else:
-                    # Non-heading no-mask paragraph: clear pending title but keep priority
+                        pending_prio_right = prio_cand
+                elif prio_cand:
+                    # Priority circle found but no subsection title text — update priority only
                     if col == "left":
-                        pending_subsec_left = None
+                        pending_prio_left = prio_cand
                     else:
-                        pending_subsec_right = None
+                        pending_prio_right = prio_cand
                 continue
 
             # Section header for this paragraph
@@ -406,20 +406,29 @@ def extract():
 
             section_header = current_left_section if col == "left" else current_right_section
 
-            # Subsection title: try extracting from first block; fall back to pending title
+            # Subsection title: try to extract from first block (if it has a priority circle),
+            # otherwise use the persisted pending heading from a prior paragraph.
             first_block = para_group[0]
             first_block_masks = [mr for mr in para_masks
                                   if any(b[1] - 2 <= (mr.y0+mr.y1)/2 <= b[3] + 2
                                          for b in [first_block])]
-            subsection_title = get_subsection_title(dict_blocks, first_block, bool(first_block_masks))
-            if subsection_title is None:
-                # Use heading from preceding no-mask paragraph in same column
-                subsection_title = pending_subsec_left if col == "left" else pending_subsec_right
-            # Consume the pending title
-            if col == "left":
-                pending_subsec_left = None
+            para_prio = get_priority_for_y(para_y0, para_y1, para_x0, para_x1)
+            if para_prio:
+                # This paragraph has its own priority circle: extract the title from it
+                extracted = get_subsection_title(dict_blocks, first_block, bool(first_block_masks))
+                if extracted:
+                    subsection_title = extracted
+                    # Save to pending so subsequent sibling cards in the same section inherit it
+                    if col == "left":
+                        pending_subsec_left = extracted
+                    else:
+                        pending_subsec_right = extracted
+                else:
+                    subsection_title = pending_subsec_left if col == "left" else pending_subsec_right
             else:
-                pending_subsec_right = None
+                # No circle → inherit from prior heading (do NOT extract bold text as a title,
+                # as summary lines like "Regulations will be UPHELD..." look like headings)
+                subsection_title = pending_subsec_left if col == "left" else pending_subsec_right
 
             # Priority: check paragraph itself, then fall back to persistent pending from heading
             priority = get_priority_for_y(para_y0, para_y1, para_x0, para_x1)
