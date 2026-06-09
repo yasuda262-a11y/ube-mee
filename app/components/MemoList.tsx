@@ -67,26 +67,42 @@ function MemoForm({
   onSave,
   onCancel,
 }: {
-  initial?: { content: string; tags: string[] };
-  onSave: (content: string, tags: string[]) => void;
+  initial?: { word: string; content: string; tags: string[] };
+  onSave: (word: string, content: string, tags: string[]) => void;
   onCancel: () => void;
 }) {
+  const [word, setWord] = useState(initial?.word ?? "");
   const [content, setContent] = useState(initial?.content ?? "");
   const [tags, setTags] = useState<string[]>(initial?.tags ?? []);
-  const textRef = useRef<HTMLTextAreaElement>(null);
+  const wordRef = useRef<HTMLInputElement>(null);
 
-  useEffect(() => { textRef.current?.focus(); }, []);
+  useEffect(() => { wordRef.current?.focus(); }, []);
 
   return (
     <div className="bg-white rounded-2xl border border-indigo-200 shadow-md p-4 flex flex-col gap-3">
-      <textarea
-        ref={textRef}
-        value={content}
-        onChange={(e) => setContent(e.target.value)}
-        placeholder="英語表現メモを入力…&#10;例）assent は reach / establish と相性が良い"
-        rows={4}
-        className="w-full text-sm text-gray-800 leading-relaxed resize-none outline-none placeholder:text-gray-400"
-      />
+      {/* 主題単語 */}
+      <div>
+        <p className="text-[11px] text-gray-400 mb-1 font-semibold tracking-wide">単語（インデックス）</p>
+        <input
+          ref={wordRef}
+          value={word}
+          onChange={(e) => setWord(e.target.value)}
+          placeholder="例）assent"
+          className="w-full text-base font-bold text-gray-800 border-b border-gray-200 pb-1.5 outline-none placeholder:text-gray-300 focus:border-indigo-400 transition-colors"
+        />
+      </div>
+      {/* メモ本文 */}
+      <div>
+        <p className="text-[11px] text-gray-400 mb-1 font-semibold tracking-wide">メモ</p>
+        <textarea
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
+          placeholder="英語表現のメモを入力…&#10;例）reach / establish などの動詞と相性が良い"
+          rows={4}
+          className="w-full text-sm text-gray-800 leading-relaxed resize-none outline-none placeholder:text-gray-400"
+        />
+      </div>
+      {/* タグ */}
       <div>
         <p className="text-[11px] text-gray-400 mb-1 flex items-center gap-1">
           <Tag size={10} /> タグ（任意）
@@ -103,8 +119,8 @@ function MemoForm({
         </button>
         <button
           type="button"
-          onClick={() => content.trim() && onSave(content, tags)}
-          disabled={!content.trim()}
+          onClick={() => (word.trim() || content.trim()) && onSave(word, content, tags)}
+          disabled={!word.trim() && !content.trim()}
           className="flex items-center gap-1 text-xs text-white bg-indigo-600 rounded-xl px-3 py-1.5 hover:bg-indigo-500 disabled:opacity-40 active:scale-95 transition-all"
         >
           <Check size={13} /> 保存
@@ -133,7 +149,11 @@ function MemoCard({
 
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 flex flex-col gap-2">
-      <p className="text-sm text-gray-800 leading-relaxed whitespace-pre-wrap">{memo.content}</p>
+      {/* 単語タイトル */}
+      {memo.word && (
+        <p className="text-base font-bold text-gray-900 tracking-wide">{memo.word}</p>
+      )}
+      <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap">{memo.content}</p>
       {memo.tags.length > 0 && (
         <div className="flex flex-wrap gap-1">
           {memo.tags.map((t) => (
@@ -227,7 +247,10 @@ function ReviewMode({ memos, onExit }: { memos: Memo[]; onExit: () => void }) {
       >
         {revealed ? (
           <>
-            <p className="text-base text-gray-800 leading-relaxed whitespace-pre-wrap text-center">
+            {current.word && (
+              <p className="text-xl font-bold text-gray-900 text-center">{current.word}</p>
+            )}
+            <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap text-center">
               {current.content}
             </p>
             {current.tags.length > 0 && (
@@ -239,9 +262,14 @@ function ReviewMode({ memos, onExit }: { memos: Memo[]; onExit: () => void }) {
             )}
           </>
         ) : (
-          <p className="text-sm text-gray-400 flex items-center gap-2">
-            タップして表示 <ChevronRight size={16} />
-          </p>
+          <>
+            {current.word && (
+              <p className="text-xl font-bold text-gray-800">{current.word}</p>
+            )}
+            <p className="text-sm text-gray-400 flex items-center gap-2">
+              タップして内容を表示 <ChevronRight size={16} />
+            </p>
+          </>
         )}
       </div>
 
@@ -326,8 +354,8 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
       {/* 追加フォーム */}
       {adding ? (
         <MemoForm
-          onSave={(content, tags) => {
-            addMemo(content, tags);
+          onSave={(word, content, tags) => {
+            addMemo(word, content, tags);
             reload();
             setAdding(false);
           }}
@@ -365,9 +393,9 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
             editingId === memo.id ? (
               <MemoForm
                 key={memo.id}
-                initial={{ content: memo.content, tags: memo.tags }}
-                onSave={(content, tags) => {
-                  updateMemo(memo.id, content, tags);
+                initial={{ word: memo.word ?? "", content: memo.content, tags: memo.tags }}
+                onSave={(word, content, tags) => {
+                  updateMemo(memo.id, word, content, tags);
                   reload();
                   setEditingId(null);
                 }}

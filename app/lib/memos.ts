@@ -4,6 +4,7 @@
 
 export type Memo = {
   id: number;
+  word: string;      // 主題となる単語（アルファベット順インデックス）
   content: string;   // メモ本文
   tags: string[];    // 任意タグ（例: "collocation", "usage", "grammar"）
   createdAt: string; // ISO date string
@@ -24,21 +25,35 @@ function save(memos: Memo[]) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(memos));
 }
 
+/** アルファベット順（word）で並べて返す。word が空の場合は末尾 */
 export function getMemos(): Memo[] {
-  return load().sort((a, b) => b.id - a.id); // 新しい順
+  return load().sort((a, b) => {
+    const aw = (a.word ?? "").toLowerCase();
+    const bw = (b.word ?? "").toLowerCase();
+    if (!aw && !bw) return b.id - a.id;
+    if (!aw) return 1;
+    if (!bw) return -1;
+    return aw < bw ? -1 : aw > bw ? 1 : 0;
+  });
 }
 
-export function addMemo(content: string, tags: string[]): Memo {
+export function addMemo(word: string, content: string, tags: string[]): Memo {
   const memos = load();
   const id = Date.now();
-  const memo: Memo = { id, content: content.trim(), tags, createdAt: new Date().toISOString() };
+  const memo: Memo = {
+    id,
+    word: word.trim(),
+    content: content.trim(),
+    tags,
+    createdAt: new Date().toISOString(),
+  };
   save([...memos, memo]);
   return memo;
 }
 
-export function updateMemo(id: number, content: string, tags: string[]) {
+export function updateMemo(id: number, word: string, content: string, tags: string[]) {
   const memos = load().map((m) =>
-    m.id === id ? { ...m, content: content.trim(), tags } : m
+    m.id === id ? { ...m, word: word.trim(), content: content.trim(), tags } : m
   );
   save(memos);
 }
