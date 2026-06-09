@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-import { Plus, Trash2, Pencil, Check, X, Tag, ChevronRight, BookText, Quote } from "lucide-react";
+import { useState, useEffect, useRef, useCallback } from "react";
+import { Plus, Trash2, Pencil, Check, X, Tag, ChevronRight, BookText, Quote, Search } from "lucide-react";
 import { getMemos, addMemo, updateMemo, deleteMemo, getAllTags, type Memo } from "../lib/memos";
 
 // ---- タグピル ----------------------------------------------------------------
@@ -346,6 +346,30 @@ function ReviewMode({ memos, onExit }: { memos: Memo[]; onExit: () => void }) {
   );
 }
 
+// ---- アルファベットインデックスバー -----------------------------------------
+function AlphaBar({
+  letters,
+  onJump,
+}: {
+  letters: string[];
+  onJump: (letter: string) => void;
+}) {
+  if (letters.length === 0) return null;
+  return (
+    <div className="flex flex-wrap gap-1">
+      {letters.map((l) => (
+        <button
+          key={l}
+          onClick={() => onJump(l)}
+          className="w-7 h-7 rounded-lg text-xs font-bold bg-indigo-50 text-indigo-600 hover:bg-indigo-600 hover:text-white active:scale-90 transition-all"
+        >
+          {l}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 // ---- メインコンポーネント ---------------------------------------------------
 export default function MemoList({ onBack }: { onBack: () => void }) {
   const [memos, setMemos] = useState<Memo[]>([]);
@@ -353,12 +377,43 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
   const [editingId, setEditingId] = useState<number | null>(null);
   const [filterTag, setFilterTag] = useState<string | null>(null);
   const [reviewMode, setReviewMode] = useState(false);
+  const [query, setQuery] = useState("");
+  const sectionRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
   function reload() { setMemos(getMemos()); }
   useEffect(() => { reload(); }, []);
 
+  // 検索 + タグフィルター
+  const filtered = memos.filter((m) => {
+    if (filterTag && !m.tags.includes(filterTag)) return false;
+    if (!query.trim()) return true;
+    const q = query.toLowerCase();
+    return (
+      (m.word ?? "").toLowerCase().includes(q) ||
+      m.content.toLowerCase().includes(q) ||
+      (m.examples ?? "").toLowerCase().includes(q)
+    );
+  });
+
+  // 頭文字でグルーピング
+  type Group = { letter: string; memos: Memo[] };
+  const groups: Group[] = [];
+  for (const memo of filtered) {
+    const letter = (memo.word?.[0] ?? "#").toUpperCase();
+    const last = groups[groups.length - 1];
+    if (last && last.letter === letter) {
+      last.memos.push(memo);
+    } else {
+      groups.push({ letter, memos: [memo] });
+    }
+  }
+  const activeLetters = groups.map((g) => g.letter);
+
+  const jumpTo = useCallback((letter: string) => {
+    sectionRefs.current[letter]?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
+
   const allTags = getAllTags(memos);
-  const filtered = filterTag ? memos.filter((m) => m.tags.includes(filterTag)) : memos;
 
   if (reviewMode) {
     return (
@@ -370,6 +425,28 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
 
   return (
     <div className="flex flex-col gap-4">
+      {/* 検索バー */}
+      <div className="relative">
+        <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="単語・メモ・例文を検索…"
+          className="w-full pl-9 pr-4 py-2.5 rounded-2xl border border-gray-200 bg-white text-sm outline-none focus:border-indigo-400 transition-colors placeholder:text-gray-400"
+        />
+        {query && (
+          <button
+            onClick={() => setQuery("")}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
+          >
+            <X size={14} />
+          </button>
+        )}
+      </div>
+
+      {/* アルファベットタブ */}
+      {!query && <AlphaBar letters={activeLetters} onJump={jumpTo} />}
+
       {/* タグフィルター */}
       {allTags.length > 0 && (
         <div className="flex flex-wrap gap-1.5">
@@ -426,34 +503,48 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
         </button>
       )}
 
-      {/* メモ一覧 */}
+      {/* メモ一覧（頭文字セクション区切り） */}
       {filtered.length === 0 ? (
         <div className="text-center text-gray-400 text-sm py-12">
-          {filterTag ? `「${filterTag}」のメモはありません` : "メモはまだありません"}
+          {query ? `「${query}」に一致するメモはありません` : filterTag ? `「${filterTag}」のメモはありません` : "メモはまだありません"}
         </div>
       ) : (
-        <div className="flex flex-col gap-3">
-          {filtered.map((memo) =>
-            editingId === memo.id ? (
-              <MemoForm
-                key={memo.id}
-                initial={{ word: memo.word ?? "", content: memo.content, examples: memo.examples ?? "", tags: memo.tags }}
-                onSave={(word, content, examples, tags) => {
-                  updateMemo(memo.id, word, content, examples, tags);
-                  reload();
-                  setEditingId(null);
-                }}
-                onCancel={() => setEditingId(null)}
-              />
-            ) : (
-              <MemoCard
-                key={memo.id}
-                memo={memo}
-                onEdit={() => setEditingId(memo.id)}
-                onDelete={() => { deleteMemo(memo.id); reload(); }}
-              />
-            )
-          )}
+        <div className="flex flex-col gap-6">
+          {groups.map(({ letter, memos: gMemos }) => (
+            <div
+              key={letter}
+              ref={(el) => { sectionRefs.current[letter] = el; }}
+            >
+              {/* 頭文字ヘッダー */}
+              <div className="flex items-center gap-2 mb-3 scroll-mt-20">
+                <span className="text-lg font-black text-indigo-600 w-7 leading-none">{letter}</span>
+                <div className="flex-1 h-px bg-indigo-100" />
+              </div>
+              <div className="flex flex-col gap-3">
+                {gMemos.map((memo) =>
+                  editingId === memo.id ? (
+                    <MemoForm
+                      key={memo.id}
+                      initial={{ word: memo.word ?? "", content: memo.content, examples: memo.examples ?? "", tags: memo.tags }}
+                      onSave={(word, content, examples, tags) => {
+                        updateMemo(memo.id, word, content, examples, tags);
+                        reload();
+                        setEditingId(null);
+                      }}
+                      onCancel={() => setEditingId(null)}
+                    />
+                  ) : (
+                    <MemoCard
+                      key={memo.id}
+                      memo={memo}
+                      onEdit={() => setEditingId(memo.id)}
+                      onDelete={() => { deleteMemo(memo.id); reload(); }}
+                    />
+                  )
+                )}
+              </div>
+            </div>
+          ))}
         </div>
       )}
     </div>
