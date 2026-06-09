@@ -69,6 +69,15 @@ function parseContextLine(
   });
 }
 
+/** 行がリスト項目（番号・箇条書き記号）で始まるか判定 */
+function isListStart(line: string): boolean {
+  // 先頭の __BLANK_N__ を除去してからチェック
+  const stripped = line.trimStart().replace(/^(__BLANK_\d+__\s*)+/, "");
+  // 番号リスト: "1) ", "2. ", "i) ", "ii. ", "a) "
+  // 箇条書き: "− ", "– ", "• "
+  return /^(\d+[).]\s|[a-z][).]\s|[ivxlcdm]+[).]\s|[−–•]\s|[−–]$)/.test(stripped);
+}
+
 /** context文字列を改行・__BLANK_N__ でパースしてReact要素の配列に変換 */
 function parseContext(
   context: string,
@@ -80,7 +89,23 @@ function parseContext(
   const result: React.ReactNode[] = [];
   let keyOffset = 0;
   lines.forEach((line, li) => {
-    if (li > 0) result.push(<br key={`br-${li}`} />);
+    if (li > 0) {
+      const prevLine = lines[li - 1];
+      // 前の行の末尾単語を取得（__BLANK_N__ を除く）
+      const prevWords = prevLine.trim().split(/\s+/);
+      const prevLast = [...prevWords].reverse().find(w => !w.startsWith("__BLANK_")) ?? "";
+      const prevEndsHyphen = prevLast.endsWith("-");
+
+      if (prevEndsHyphen) {
+        // ハイフン連結: "non-" + "resident:" → "non-resident:" (セパレータなし)
+      } else if (isListStart(line)) {
+        // リスト項目: 改行
+        result.push(<br key={`br-${li}`} />);
+      } else {
+        // 通常の折り返し: スペースで結合
+        result.push(<span key={`sp-${li}`}> </span>);
+      }
+    }
     result.push(...parseContextLine(line, states, answers, keyOffset));
     keyOffset += line.split(/(__BLANK_\d+__)/).length;
   });

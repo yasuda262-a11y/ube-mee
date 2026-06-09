@@ -297,13 +297,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-gray-100 px-4 py-3">
-        <div className="max-w-sm mx-auto flex items-center justify-between">
+        <div className="max-w-2xl mx-auto flex items-center justify-between">
           <button onClick={() => setAppMode("select")} className="text-indigo-600 font-semibold text-sm">← ホーム</button>
           <span className="font-bold text-gray-800 text-sm">{selectedSubject ?? "全科目"} 学習</span>
           <div className="w-16" />
         </div>
       </header>
-      <main className="max-w-sm mx-auto px-4 pt-5 pb-10">
+      <main className="max-w-2xl mx-auto px-4 pt-5 pb-10">
         <FlashCard
           card={currentCard}
           cardNumber={deckIndex + 1}
