@@ -67,10 +67,6 @@ type TokenInputState = {
   state: "unanswered" | "correct" | "incorrect";
 };
 
-type TokenInputState = {
-  state: "unanswered" | "correct" | "incorrect";
-};
-
 function StudyTokens({
   tokens,
   blankedSet,
