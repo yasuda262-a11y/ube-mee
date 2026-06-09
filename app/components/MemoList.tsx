@@ -143,20 +143,20 @@ function MemoCard({
           ))}
         </div>
       )}
-      <div className="flex items-center justify-between pt-1 border-t border-gray-50">
+      <div className="flex items-center justify-between pt-2 border-t border-gray-100">
         <span className="text-[11px] text-gray-400">{date}</span>
         <div className="flex gap-2">
           {confirmDelete ? (
             <>
               <button
                 onClick={() => setConfirmDelete(false)}
-                className="text-[11px] text-gray-400 border border-gray-200 rounded-lg px-2 py-1 hover:bg-gray-50"
+                className="text-xs text-gray-500 border border-gray-200 rounded-xl px-3 py-1.5 hover:bg-gray-50 active:scale-95 transition-all"
               >
                 取消
               </button>
               <button
                 onClick={onDelete}
-                className="text-[11px] text-white bg-red-500 rounded-lg px-2 py-1 hover:bg-red-400 active:scale-95 transition-all"
+                className="text-xs text-white bg-red-500 rounded-xl px-3 py-1.5 hover:bg-red-400 active:scale-95 transition-all"
               >
                 削除確認
               </button>
@@ -165,15 +165,15 @@ function MemoCard({
             <>
               <button
                 onClick={onEdit}
-                className="p-1.5 text-gray-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+                className="flex items-center gap-1 text-xs text-indigo-600 bg-indigo-50 border border-indigo-100 rounded-xl px-3 py-1.5 hover:bg-indigo-100 active:scale-95 transition-all"
               >
-                <Pencil size={13} />
+                <Pencil size={12} /> 編集
               </button>
               <button
                 onClick={() => setConfirmDelete(true)}
-                className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                className="flex items-center gap-1 text-xs text-red-500 bg-red-50 border border-red-100 rounded-xl px-3 py-1.5 hover:bg-red-100 active:scale-95 transition-all"
               >
-                <Trash2 size={13} />
+                <Trash2 size={12} /> 削除
               </button>
             </>
           )}
