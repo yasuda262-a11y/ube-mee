@@ -3,6 +3,8 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Plus, Trash2, Pencil, Check, X, Tag, ChevronRight, BookText, Quote, Search } from "lucide-react";
 import { getMemos, addMemo, updateMemo, deleteMemo, getAllTags, type Memo } from "../lib/memos";
+import { renderRichText } from "../lib/richText";
+import FormatToolbar from "./FormatToolbar";
 
 // ---- タグピル ----------------------------------------------------------------
 const TAG_COLORS = [
@@ -76,6 +78,8 @@ function MemoForm({
   const [examples, setExamples] = useState(initial?.examples ?? "");
   const [tags, setTags] = useState<string[]>(initial?.tags ?? []);
   const wordRef = useRef<HTMLInputElement>(null);
+  const contentRef = useRef<HTMLTextAreaElement>(null);
+  const examplesRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => { wordRef.current?.focus(); }, []);
 
@@ -95,10 +99,14 @@ function MemoForm({
 
       {/* メモ本文 */}
       <div>
-        <p className="text-[11px] text-gray-400 mb-1.5 font-semibold tracking-wide uppercase flex items-center gap-1">
-          <BookText size={10} /> メモ
-        </p>
+        <div className="flex items-center justify-between mb-1.5">
+          <p className="text-[11px] text-gray-400 font-semibold tracking-wide uppercase flex items-center gap-1">
+            <BookText size={10} /> メモ
+          </p>
+          <FormatToolbar textareaRef={contentRef} onChange={setContent} theme="indigo" />
+        </div>
         <textarea
+          ref={contentRef}
           value={content}
           onChange={(e) => setContent(e.target.value)}
           placeholder="説明・注意事項など&#10;例）reach / establish などの動詞と相性が良い"
@@ -109,10 +117,14 @@ function MemoForm({
 
       {/* 例文 */}
       <div className="bg-amber-50 rounded-xl p-3 border border-amber-100">
-        <p className="text-[11px] text-amber-600 mb-1.5 font-semibold tracking-wide uppercase flex items-center gap-1">
-          <Quote size={10} /> 例文
-        </p>
+        <div className="flex items-center justify-between mb-1.5">
+          <p className="text-[11px] text-amber-600 font-semibold tracking-wide uppercase flex items-center gap-1">
+            <Quote size={10} /> 例文
+          </p>
+          <FormatToolbar textareaRef={examplesRef} onChange={setExamples} theme="amber" />
+        </div>
         <textarea
+          ref={examplesRef}
           value={examples}
           onChange={(e) => setExamples(e.target.value)}
           placeholder="例）Mutual assent is established when both parties..."
@@ -175,7 +187,7 @@ function MemoCard({
       )}
       {/* メモ本文 */}
       {memo.content && (
-        <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap">{memo.content}</p>
+        <p className="text-sm text-gray-700 leading-relaxed">{renderRichText(memo.content)}</p>
       )}
       {/* 例文 */}
       {memo.examples && (
@@ -183,7 +195,7 @@ function MemoCard({
           <p className="text-[10px] text-amber-500 font-semibold mb-0.5 uppercase tracking-wide flex items-center gap-1">
             <Quote size={9} /> 例文
           </p>
-          <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap italic">{memo.examples}</p>
+          <p className="text-sm text-gray-700 leading-relaxed italic">{renderRichText(memo.examples)}</p>
         </div>
       )}
       {memo.tags.length > 0 && (
@@ -283,8 +295,8 @@ function ReviewMode({ memos, onExit }: { memos: Memo[]; onExit: () => void }) {
               <p className="text-xl font-bold text-gray-900 text-center">{current.word}</p>
             )}
             {current.content && (
-              <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap text-center">
-                {current.content}
+              <p className="text-sm text-gray-700 leading-relaxed text-center">
+                {renderRichText(current.content)}
               </p>
             )}
             {current.examples && (
@@ -292,8 +304,8 @@ function ReviewMode({ memos, onExit }: { memos: Memo[]; onExit: () => void }) {
                 <p className="text-[10px] text-amber-500 font-semibold mb-0.5 uppercase tracking-wide flex items-center justify-center gap-1">
                   <Quote size={9} /> 例文
                 </p>
-                <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap italic text-center">
-                  {current.examples}
+                <p className="text-sm text-gray-700 leading-relaxed italic text-center">
+                  {renderRichText(current.examples)}
                 </p>
               </div>
             )}

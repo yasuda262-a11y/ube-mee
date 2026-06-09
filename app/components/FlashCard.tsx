@@ -17,6 +17,8 @@ import {
   type ActiveBlank,
 } from "../lib/customBlanks";
 import { getCardMemo, saveCardMemo } from "../lib/cardMemos";
+import { renderRichText } from "../lib/richText";
+import FormatToolbar from "./FormatToolbar";
 
 interface Props {
   card: Card;
@@ -315,6 +317,8 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
   const [memoEditing, setMemoEditing] = useState(false);
   const [memoInput, setMemoInput] = useState("");
   const memoRef = useRef<HTMLTextAreaElement>(null);
+  // FormatToolbar に渡す ref（型を合わせる）
+  const memoToolbarRef = memoRef as React.RefObject<HTMLTextAreaElement | null>;
 
   const tokens = useMemo(() => parseTokens(card.context, card.blanks), [card.id]);
 
@@ -644,7 +648,9 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
                   <span className="text-[11px] font-semibold text-amber-600 flex items-center gap-1">
                     <NotebookPen size={11} /> カードメモ
                   </span>
-                  {!memoEditing && (
+                  {memoEditing ? (
+                    <FormatToolbar textareaRef={memoToolbarRef} onChange={setMemoInput} theme="amber" />
+                  ) : (
                     <button
                       onClick={openMemoEdit}
                       className="text-[11px] text-amber-500 hover:text-amber-700 flex items-center gap-0.5 transition-colors"
@@ -682,9 +688,9 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
                 ) : cardMemo ? (
                   <p
                     onClick={openMemoEdit}
-                    className="px-3 py-2.5 text-sm text-gray-700 leading-relaxed whitespace-pre-wrap cursor-text"
+                    className="px-3 py-2.5 text-sm text-gray-700 leading-relaxed cursor-text"
                   >
-                    {cardMemo}
+                    {renderRichText(cardMemo)}
                   </p>
                 ) : (
                   <p
