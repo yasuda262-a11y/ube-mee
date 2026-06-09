@@ -144,45 +144,49 @@ export default function Home() {
           </div>
 
           {/* 学習ボタン */}
-          <div className="w-full max-w-sm flex flex-col gap-3">
+          <div className="w-full max-w-sm flex flex-col gap-2">
+            {/* 学習モード（上段・全幅） */}
             <button
               onClick={() => startDeck(subjectCards)}
-              className="w-full bg-amber-400 text-slate-900 rounded-3xl px-6 py-5 flex items-center gap-4 shadow-lg hover:bg-amber-300 active:scale-95 transition-all"
+              className="w-full bg-amber-400 text-slate-900 rounded-2xl px-4 py-3 flex items-center gap-3 shadow-lg hover:bg-amber-300 active:scale-95 transition-all"
             >
-              <div className="w-12 h-12 rounded-2xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
-                <Shuffle size={22} />
+              <div className="w-9 h-9 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
+                <Shuffle size={18} />
               </div>
               <div className="text-left">
-                <p className="text-lg font-bold">学習モード</p>
-                <p className="text-sm text-slate-700">{subjectCards.length}カード シャッフル出題</p>
+                <p className="text-sm font-bold leading-tight">学習モード</p>
+                <p className="text-xs text-slate-700">{subjectCards.length}カード シャッフル出題</p>
               </div>
             </button>
 
-            {weakCards.length > 0 && (
+            {/* 下段・3ボタン横並び */}
+            <div className="flex gap-2">
               <button
-                onClick={() => startDeck(weakCards)}
-                className="w-full bg-white/10 text-white rounded-3xl px-6 py-4 flex items-center gap-4 border border-white/10 hover:bg-white/15 active:scale-95 transition-all"
+                onClick={() => weakCards.length > 0 ? startDeck(weakCards) : undefined}
+                disabled={weakCards.length === 0}
+                className={`flex-1 rounded-2xl px-2 py-3 flex flex-col items-center gap-1 border transition-all active:scale-95 ${
+                  weakCards.length > 0
+                    ? "bg-white/10 text-white border-white/10 hover:bg-white/15"
+                    : "bg-white/5 text-white/25 border-white/5 cursor-not-allowed"
+                }`}
               >
-                <div className="w-12 h-12 rounded-2xl bg-red-500/20 flex items-center justify-center flex-shrink-0">
-                  <AlertTriangle size={22} className="text-red-400" />
-                </div>
-                <div className="text-left">
-                  <p className="text-base font-bold">苦手カードのみ</p>
-                  <p className="text-sm text-white/50">正答率70%未満 {weakCards.length}カード</p>
-                </div>
+                <AlertTriangle size={16} className={weakCards.length > 0 ? "text-red-400" : "text-white/20"} />
+                <p className="text-[11px] font-bold leading-tight">苦手のみ</p>
+                <p className="text-[10px] text-white/50 leading-tight">{weakCards.length}枚</p>
               </button>
-            )}
 
-            <div className="flex gap-3">
               <button onClick={() => setAppMode("list")}
-                className="flex-1 bg-white/10 text-white rounded-2xl px-4 py-4 flex items-center gap-3 border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
-                <LayoutList size={18} className="text-white/70 flex-shrink-0" />
-                <div className="text-left"><p className="text-sm font-bold">カード一覧</p><p className="text-xs text-white/50">検索・絞り込み</p></div>
+                className="flex-1 rounded-2xl px-2 py-3 flex flex-col items-center gap-1 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+                <LayoutList size={16} className="text-white/70" />
+                <p className="text-[11px] font-bold leading-tight">カード一覧</p>
+                <p className="text-[10px] text-white/50 leading-tight">検索・絞込</p>
               </button>
+
               <button onClick={() => setAppMode("stats")}
-                className="flex-1 bg-white/10 text-white rounded-2xl px-4 py-4 flex items-center gap-3 border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
-                <BarChart2 size={18} className="text-white/70 flex-shrink-0" />
-                <div className="text-left"><p className="text-sm font-bold">統計</p><p className="text-xs text-white/50">科目別成績</p></div>
+                className="flex-1 rounded-2xl px-2 py-3 flex flex-col items-center gap-1 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+                <BarChart2 size={16} className="text-white/70" />
+                <p className="text-[11px] font-bold leading-tight">統計</p>
+                <p className="text-[10px] text-white/50 leading-tight">科目別成績</p>
               </button>
             </div>
           </div>
