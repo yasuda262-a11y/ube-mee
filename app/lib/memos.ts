@@ -5,7 +5,8 @@
 export type Memo = {
   id: number;
   word: string;      // 主題となる単語（アルファベット順インデックス）
-  content: string;   // メモ本文
+  content: string;   // メモ本文（説明・注意事項など）
+  examples: string;  // 例文
   tags: string[];    // 任意タグ（例: "collocation", "usage", "grammar"）
   createdAt: string; // ISO date string
 };
@@ -37,13 +38,14 @@ export function getMemos(): Memo[] {
   });
 }
 
-export function addMemo(word: string, content: string, tags: string[]): Memo {
+export function addMemo(word: string, content: string, examples: string, tags: string[]): Memo {
   const memos = load();
   const id = Date.now();
   const memo: Memo = {
     id,
     word: word.trim(),
     content: content.trim(),
+    examples: examples.trim(),
     tags,
     createdAt: new Date().toISOString(),
   };
@@ -51,9 +53,9 @@ export function addMemo(word: string, content: string, tags: string[]): Memo {
   return memo;
 }
 
-export function updateMemo(id: number, word: string, content: string, tags: string[]) {
+export function updateMemo(id: number, word: string, content: string, examples: string, tags: string[]) {
   const memos = load().map((m) =>
-    m.id === id ? { ...m, word: word.trim(), content: content.trim(), tags } : m
+    m.id === id ? { ...m, word: word.trim(), content: content.trim(), examples: examples.trim(), tags } : m
   );
   save(memos);
 }

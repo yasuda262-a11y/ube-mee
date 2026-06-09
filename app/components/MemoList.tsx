@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { Plus, Trash2, Pencil, Check, X, Tag, ChevronRight } from "lucide-react";
+import { Plus, Trash2, Pencil, Check, X, Tag, ChevronRight, BookText, Quote } from "lucide-react";
 import { getMemos, addMemo, updateMemo, deleteMemo, getAllTags, type Memo } from "../lib/memos";
 
 // ---- タグピル ----------------------------------------------------------------
@@ -67,48 +67,68 @@ function MemoForm({
   onSave,
   onCancel,
 }: {
-  initial?: { word: string; content: string; tags: string[] };
-  onSave: (word: string, content: string, tags: string[]) => void;
+  initial?: { word: string; content: string; examples: string; tags: string[] };
+  onSave: (word: string, content: string, examples: string, tags: string[]) => void;
   onCancel: () => void;
 }) {
   const [word, setWord] = useState(initial?.word ?? "");
   const [content, setContent] = useState(initial?.content ?? "");
+  const [examples, setExamples] = useState(initial?.examples ?? "");
   const [tags, setTags] = useState<string[]>(initial?.tags ?? []);
   const wordRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => { wordRef.current?.focus(); }, []);
 
   return (
-    <div className="bg-white rounded-2xl border border-indigo-200 shadow-md p-4 flex flex-col gap-3">
+    <div className="bg-white rounded-2xl border border-indigo-200 shadow-md p-4 flex flex-col gap-4">
       {/* 主題単語 */}
       <div>
-        <p className="text-[11px] text-gray-400 mb-1 font-semibold tracking-wide">単語（インデックス）</p>
+        <p className="text-[11px] text-gray-400 mb-1.5 font-semibold tracking-wide uppercase">単語（インデックス）</p>
         <input
           ref={wordRef}
           value={word}
           onChange={(e) => setWord(e.target.value)}
           placeholder="例）assent"
-          className="w-full text-base font-bold text-gray-800 border-b border-gray-200 pb-1.5 outline-none placeholder:text-gray-300 focus:border-indigo-400 transition-colors"
+          className="w-full text-base font-bold text-gray-800 border-b-2 border-gray-200 pb-1.5 outline-none placeholder:text-gray-300 focus:border-indigo-400 transition-colors"
         />
       </div>
+
       {/* メモ本文 */}
       <div>
-        <p className="text-[11px] text-gray-400 mb-1 font-semibold tracking-wide">メモ</p>
+        <p className="text-[11px] text-gray-400 mb-1.5 font-semibold tracking-wide uppercase flex items-center gap-1">
+          <BookText size={10} /> メモ
+        </p>
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
-          placeholder="英語表現のメモを入力…&#10;例）reach / establish などの動詞と相性が良い"
-          rows={4}
+          placeholder="説明・注意事項など&#10;例）reach / establish などの動詞と相性が良い"
+          rows={3}
           className="w-full text-sm text-gray-800 leading-relaxed resize-none outline-none placeholder:text-gray-400"
         />
       </div>
+
+      {/* 例文 */}
+      <div className="bg-amber-50 rounded-xl p-3 border border-amber-100">
+        <p className="text-[11px] text-amber-600 mb-1.5 font-semibold tracking-wide uppercase flex items-center gap-1">
+          <Quote size={10} /> 例文
+        </p>
+        <textarea
+          value={examples}
+          onChange={(e) => setExamples(e.target.value)}
+          placeholder="例）Mutual assent is established when both parties..."
+          rows={3}
+          className="w-full text-sm text-gray-700 leading-relaxed resize-none outline-none placeholder:text-gray-400 bg-transparent italic"
+        />
+      </div>
+
       {/* タグ */}
       <div>
-        <p className="text-[11px] text-gray-400 mb-1 flex items-center gap-1">
+        <p className="text-[11px] text-gray-400 mb-1.5 flex items-center gap-1">
           <Tag size={10} /> タグ（任意）
         </p>
         <TagInput tags={tags} onChange={setTags} />
       </div>
+
       <div className="flex gap-2 justify-end">
         <button
           type="button"
@@ -119,7 +139,7 @@ function MemoForm({
         </button>
         <button
           type="button"
-          onClick={() => (word.trim() || content.trim()) && onSave(word, content, tags)}
+          onClick={() => (word.trim() || content.trim()) && onSave(word, content, examples, tags)}
           disabled={!word.trim() && !content.trim()}
           className="flex items-center gap-1 text-xs text-white bg-indigo-600 rounded-xl px-3 py-1.5 hover:bg-indigo-500 disabled:opacity-40 active:scale-95 transition-all"
         >
@@ -153,7 +173,19 @@ function MemoCard({
       {memo.word && (
         <p className="text-base font-bold text-gray-900 tracking-wide">{memo.word}</p>
       )}
-      <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap">{memo.content}</p>
+      {/* メモ本文 */}
+      {memo.content && (
+        <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap">{memo.content}</p>
+      )}
+      {/* 例文 */}
+      {memo.examples && (
+        <div className="bg-amber-50 rounded-xl px-3 py-2 border border-amber-100">
+          <p className="text-[10px] text-amber-500 font-semibold mb-0.5 uppercase tracking-wide flex items-center gap-1">
+            <Quote size={9} /> 例文
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap italic">{memo.examples}</p>
+        </div>
+      )}
       {memo.tags.length > 0 && (
         <div className="flex flex-wrap gap-1">
           {memo.tags.map((t) => (
@@ -250,9 +282,21 @@ function ReviewMode({ memos, onExit }: { memos: Memo[]; onExit: () => void }) {
             {current.word && (
               <p className="text-xl font-bold text-gray-900 text-center">{current.word}</p>
             )}
-            <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap text-center">
-              {current.content}
-            </p>
+            {current.content && (
+              <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap text-center">
+                {current.content}
+              </p>
+            )}
+            {current.examples && (
+              <div className="w-full bg-amber-50 rounded-xl px-3 py-2 border border-amber-100">
+                <p className="text-[10px] text-amber-500 font-semibold mb-0.5 uppercase tracking-wide flex items-center justify-center gap-1">
+                  <Quote size={9} /> 例文
+                </p>
+                <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap italic text-center">
+                  {current.examples}
+                </p>
+              </div>
+            )}
             {current.tags.length > 0 && (
               <div className="flex flex-wrap gap-1 justify-center">
                 {current.tags.map((t) => (
@@ -354,8 +398,8 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
       {/* 追加フォーム */}
       {adding ? (
         <MemoForm
-          onSave={(word, content, tags) => {
-            addMemo(word, content, tags);
+          onSave={(word, content, examples, tags) => {
+            addMemo(word, content, examples, tags);
             reload();
             setAdding(false);
           }}
@@ -393,9 +437,9 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
             editingId === memo.id ? (
               <MemoForm
                 key={memo.id}
-                initial={{ word: memo.word ?? "", content: memo.content, tags: memo.tags }}
-                onSave={(word, content, tags) => {
-                  updateMemo(memo.id, word, content, tags);
+                initial={{ word: memo.word ?? "", content: memo.content, examples: memo.examples ?? "", tags: memo.tags }}
+                onSave={(word, content, examples, tags) => {
+                  updateMemo(memo.id, word, content, examples, tags);
                   reload();
                   setEditingId(null);
                 }}
