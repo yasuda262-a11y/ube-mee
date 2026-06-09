@@ -1,17 +1,20 @@
 "use client";
 
 import { useState, useEffect, useRef, useMemo } from "react";
-import { ChevronRight, CheckCircle, XCircle, Eye, Pencil, RotateCcw } from "lucide-react";
+import { ChevronRight, CheckCircle, XCircle, Eye, Pencil, RotateCcw, Plus } from "lucide-react";
 import type { Card } from "../data/questions";
 import {
   parseTokens,
   getOverride,
   saveOverride,
   resetOverride,
-  toggleToken,
-  getEffectiveBlankedSet,
+  getActiveBlanks,
+  buildBlankMap,
+  buildSkipSet,
+  splitBlankIntoChunks,
   type Token,
   type BlankOverride,
+  type ActiveBlank,
 } from "../lib/customBlanks";
 
 interface Props {
@@ -23,9 +26,9 @@ interface Props {
 }
 
 const PRIORITY_LABEL: Record<string, { label: string; color: string; bg: string }> = {
-  H: { label: "High",   color: "text-red-600",    bg: "bg-red-50 border-red-200"    },
-  M: { label: "Middle", color: "text-orange-500",  bg: "bg-orange-50 border-orange-200" },
-  L: { label: "Low",    color: "text-yellow-600",  bg: "bg-yellow-50 border-yellow-200" },
+  H: { label: "High",   color: "text-red-600",   bg: "bg-red-50 border-red-200"    },
+  M: { label: "Middle", color: "text-orange-500", bg: "bg-orange-50 border-orange-200" },
+  L: { label: "Low",    color: "text-yellow-600", bg: "bg-yellow-50 border-yellow-200" },
 };
 
 function judge(input: string, answer: string): boolean {
@@ -43,118 +46,146 @@ function isListStartText(text: string): boolean {
   return /^(\d+[).]\s*|[a-z][).]\s*|[ivxlcdm]+[).]\s*|[−–•])/.test(text);
 }
 
-// ---- Token separator helper -----------------------------------------------
-
-/** 2 つの連続トークン間に挿入する区切り要素を返す */
 function separator(prev: Token, cur: Token, key: string): React.ReactNode {
-  if (prev.lineIdx === cur.lineIdx) {
-    return <span key={key}> </span>;
-  }
-  // 行をまたぐ場合
-  if (prev.text.endsWith("-")) {
-    return null; // ハイフン連結: スペースなし
-  }
+  if (prev.lineIdx === cur.lineIdx) return <span key={key}> </span>;
+  if (prev.text.endsWith("-")) return null;
   const curText = cur.type === "word" ? cur.text : "";
-  if (isListStartText(curText)) {
-    return <br key={key} />;
-  }
+  if (isListStartText(curText)) return <br key={key} />;
   return <span key={key}> </span>;
 }
 
-// ---- Study mode renderer --------------------------------------------------
+// ---- Blank box renderers --------------------------------------------------
 
-type TokenInputState = {
+function BlankBox({ answer, num, state }: {
+  answer: string;
+  num: number;
   state: "unanswered" | "correct" | "incorrect";
-};
+}) {
+  const em = Math.min(24, Math.max(4, Math.round(answer.length * 0.6)));
+  const numLabel = (
+    <span className="text-[10px] font-bold text-indigo-400 select-none mr-0.5 align-baseline">
+      ({num})
+    </span>
+  );
+  if (state === "unanswered") {
+    return (
+      <span className="inline-block align-baseline mx-0.5 whitespace-nowrap">
+        {numLabel}
+        <span className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle"
+          style={{ minWidth: `${em}em` }}>_</span>
+      </span>
+    );
+  }
+  if (state === "correct") {
+    return (
+      <span className="inline-block align-baseline mx-0.5 whitespace-nowrap">
+        {numLabel}
+        <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 align-middle">
+          {answer}
+        </span>
+      </span>
+    );
+  }
+  return (
+    <span className="inline-block align-baseline mx-0.5 whitespace-nowrap">
+      {numLabel}
+      <span className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 align-middle">
+        {answer}
+      </span>
+    </span>
+  );
+}
+
+// ---- Study mode -----------------------------------------------------------
+
+type InputState = "unanswered" | "correct" | "incorrect";
 
 function StudyTokens({
   tokens,
-  blankedSet,
-  disabledOriginals,
+  activeBlanks,
   inputStates,
-  blankNumberMap,
 }: {
   tokens: Token[];
-  blankedSet: Set<number>;
-  disabledOriginals: Set<number>;
-  inputStates: Map<number, TokenInputState>; // tokenIdx → state
-  blankNumberMap: Map<number, number>;        // tokenIdx → 1-based 番号
+  activeBlanks: ActiveBlank[];
+  inputStates: Map<string, InputState>; // blank.id → state
 }) {
+  const blankMap = useMemo(() => buildBlankMap(activeBlanks), [activeBlanks]);
+  const skipSet = useMemo(() => buildSkipSet(activeBlanks), [activeBlanks]);
+  const disabledOrigSet = useMemo(() => {
+    const s = new Set<number>();
+    // token is disabled-original if it's an originalBlank not in blankMap
+    for (const t of tokens) {
+      if (t.type === "originalBlank" && !blankMap.has(t.idx)) s.add(t.idx);
+    }
+    return s;
+  }, [tokens, blankMap]);
+
   const nodes: React.ReactNode[] = [];
   let prev: Token | null = null;
 
   for (const t of tokens) {
+    if (skipSet.has(t.idx)) { prev = t; continue; }
+
     if (prev !== null) {
       const sep = separator(prev, t, `sep-${t.idx}`);
       if (sep) nodes.push(sep);
     }
 
-    if (blankedSet.has(t.idx)) {
-      const st = inputStates.get(t.idx)?.state ?? "unanswered";
-      const num = blankNumberMap.get(t.idx);
-      // 番号ラベル（上付きではなく小さいインラインテキスト）
-      const numLabel = (
-        <span className="text-[10px] font-bold text-indigo-400 select-none mr-0.5 align-baseline">
-          ({num})
-        </span>
-      );
-      if (st === "unanswered") {
-        const em = Math.min(24, Math.max(4, Math.round(t.text.length * 0.6)));
-        nodes.push(
-          <span key={t.idx} className="inline-block align-baseline mx-0.5 whitespace-nowrap">
-            {numLabel}
-            <span
-              className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle"
-              style={{ minWidth: `${em}em` }}>_</span>
-          </span>
-        );
-      } else if (st === "correct") {
-        nodes.push(
-          <span key={t.idx} className="inline-block align-baseline mx-0.5 whitespace-nowrap">
-            {numLabel}
-            <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 align-middle">
-              {t.text}
-            </span>
-          </span>
-        );
+    const entry = blankMap.get(t.idx);
+    if (entry) {
+      const state = inputStates.get(entry.blank.id) ?? "unanswered";
+      if (entry.blank.chunks) {
+        // 部分的に無効化されている originalBlank:
+        // disabled → グレーイタリック、enabled → 1つの空欄ボックス（最初の enabled チャンクの位置に）
+        let blankRendered = false;
+        entry.blank.chunks.forEach((chunk, ci) => {
+          if (ci > 0) nodes.push(<span key={`csp-${t.idx}-${ci}`}> </span>);
+          if (chunk.type === "disabled") {
+            nodes.push(<span key={`cd-${t.idx}-${ci}`} className="text-gray-400 italic">{chunk.text}</span>);
+          } else if (!blankRendered) {
+            blankRendered = true;
+            nodes.push(<BlankBox key={`cb-${t.idx}-${ci}`} answer={entry.blank.answer} num={entry.number} state={state} />);
+          }
+          // 2つ目以降の enabled チャンクはスキップ（answer に含まれている）
+        });
       } else {
         nodes.push(
-          <span key={t.idx} className="inline-block align-baseline mx-0.5 whitespace-nowrap">
-            {numLabel}
-            <span className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 align-middle">
-              {t.text}
-            </span>
-          </span>
+          <BlankBox key={t.idx} answer={entry.blank.answer} num={entry.number} state={state} />
         );
       }
-    } else if (t.type === "originalBlank" && disabledOriginals.has(t.blankIdx!)) {
-      nodes.push(
-        <span key={t.idx} className="text-gray-400 italic">{t.text}</span>
-      );
+    } else if (disabledOrigSet.has(t.idx)) {
+      nodes.push(<span key={t.idx} className="text-gray-400 italic">{t.text}</span>);
     } else {
       nodes.push(<span key={t.idx}>{t.text}</span>);
     }
+
     prev = t;
   }
 
   return <>{nodes}</>;
 }
 
-// ---- Edit mode renderer ---------------------------------------------------
+// ---- Edit mode ------------------------------------------------------------
 
 function EditTokens({
   tokens,
-  blankedSet,
-  disabledOriginals,
-  customSet,
-  onToggle,
+  override,
+  pendingSelection,
+  onToggleOriginalWord,
+  onWordTap,
 }: {
   tokens: Token[];
-  blankedSet: Set<number>;
-  disabledOriginals: Set<number>;
-  customSet: Set<number>;
-  onToggle: (t: Token) => void;
+  override: BlankOverride;
+  pendingSelection: Set<number>;
+  onToggleOriginalWord: (blankIdx: number, wordIdx: number) => void;
+  onWordTap: (t: Token) => void;
 }) {
+  const disabledOrigSet = new Set(override.disabledOriginalBlanks);
+  const customTokenSet = new Set(override.customBlanks.flat());
+  // token.idx → group index
+  const tokenToGroup = new Map<number, number>();
+  override.customBlanks.forEach((g, gi) => g.forEach((idx) => tokenToGroup.set(idx, gi)));
+
   const nodes: React.ReactNode[] = [];
   let prev: Token | null = null;
 
@@ -165,41 +196,67 @@ function EditTokens({
     }
 
     if (t.type === "originalBlank") {
-      const isOff = disabledOriginals.has(t.blankIdx!);
-      nodes.push(
-        <button
-          key={t.idx}
-          type="button"
-          onClick={() => onToggle(t)}
-          title={isOff ? "クリックして伏字に戻す" : "クリックして伏字を解除"}
-          className={`inline rounded px-1 py-0.5 text-[14px] leading-7 font-medium transition-colors cursor-pointer ${
-            isOff
-              ? "bg-gray-100 text-gray-400 line-through"
-              : "bg-indigo-100 text-indigo-800 border-b-2 border-indigo-400"
-          }`}
-        >
-          {t.text}
-        </button>
-      );
+      // 伏字が丸ごと OFF なら打ち消しチップとして1つ表示
+      if (disabledOrigSet.has(t.blankIdx!)) {
+        nodes.push(
+          <button key={t.idx} type="button"
+            onClick={() => {
+              const next = { ...override };
+              next.disabledOriginalBlanks = next.disabledOriginalBlanks.filter(b => b !== t.blankIdx);
+              saveOverride(-1, next); // handled in parent via callback
+              onWordTap({ ...t, type: "originalBlank" }); // reuse tap handler
+            }}
+            title="クリックして伏字に戻す"
+            className="inline-block bg-gray-100 text-gray-400 line-through rounded px-1 py-0.5 text-[14px] leading-7 cursor-pointer">
+            {t.text}
+          </button>
+        );
+      } else {
+        // 単語レベルで展開して表示
+        const words = t.text.split(" ");
+        const disabledSubWords = new Set(override.partialDisabledWords[t.blankIdx!] ?? []);
+        words.forEach((word, wi) => {
+          if (wi > 0) nodes.push(<span key={`ws-${t.idx}-${wi}`}> </span>);
+          const isDisabled = disabledSubWords.has(wi);
+          nodes.push(
+            <button key={`w-${t.idx}-${wi}`} type="button"
+              onClick={() => onToggleOriginalWord(t.blankIdx!, wi)}
+              title={isDisabled ? "クリックして伏字に戻す" : "クリックして伏字から除外"}
+              className={`inline rounded px-1 py-0.5 text-[14px] leading-7 font-medium transition-colors cursor-pointer ${
+                isDisabled
+                  ? "bg-gray-100 text-gray-400 line-through"
+                  : "bg-indigo-100 text-indigo-800 border-b-2 border-indigo-400"
+              }`}>
+              {word}
+            </button>
+          );
+        });
+      }
     } else {
       // word token
-      const isCustom = customSet.has(t.idx);
+      const inCustom = customTokenSet.has(t.idx);
+      const inPending = pendingSelection.has(t.idx);
+
       nodes.push(
-        <button
-          key={t.idx}
-          type="button"
-          onClick={() => onToggle(t)}
-          title={isCustom ? "クリックして伏字を解除" : "クリックして伏字に追加"}
+        <button key={t.idx} type="button"
+          onClick={() => onWordTap(t)}
+          title={
+            inCustom ? "クリックして伏字を解除" :
+            inPending ? "クリックして選択を解除" :
+            "クリックして選択（複数選択して伏字に追加可）"
+          }
           className={`inline rounded px-1 py-0.5 text-[14px] leading-7 transition-colors cursor-pointer ${
-            isCustom
+            inCustom
               ? "bg-amber-100 text-amber-800 border-b-2 border-amber-400 font-medium"
+              : inPending
+              ? "bg-yellow-100 text-yellow-800 border-2 border-yellow-400 font-medium"
               : "hover:bg-gray-100 text-gray-700"
-          }`}
-        >
+          }`}>
           {t.text}
         </button>
       );
     }
+
     prev = t;
   }
 
@@ -211,45 +268,30 @@ function EditTokens({
 export default function FlashCard({ card, cardNumber, total, onResult, onNext }: Props) {
   const [override, setOverride] = useState<BlankOverride>({
     disabledOriginalBlanks: [],
-    customBlankedTokens: [],
+    partialDisabledWords: {},
+    customBlanks: [],
   });
-  const [inputs, setInputs] = useState<Map<number, string>>(new Map()); // tokenIdx → input
-  const [inputStates, setInputStates] = useState<Map<number, TokenInputState>>(new Map());
+  const [inputs, setInputs] = useState<Map<string, string>>(new Map()); // blank.id → input
+  const [inputStates, setInputStates] = useState<Map<string, InputState>>(new Map());
   const [submitted, setSubmitted] = useState(false);
   const [editMode, setEditMode] = useState(false);
-  const inputRefs = useRef<Map<number, HTMLInputElement | null>>(new Map());
+  const [pendingSelection, setPendingSelection] = useState<Set<number>>(new Set());
+  const inputRefs = useRef<Map<string, HTMLInputElement | null>>(new Map());
 
-  // tokens は card が変わったときのみ再計算
   const tokens = useMemo(() => parseTokens(card.context, card.blanks), [card.id]);
 
-  // blankedSet / disabledOriginals / customSet は override が変わるたびに再計算
-  const blankedSet = useMemo(
-    () => getEffectiveBlankedSet(tokens, override),
+  const activeBlanks = useMemo(
+    () => getActiveBlanks(tokens, override),
     [tokens, override]
   );
-  const disabledOriginals = useMemo(
-    () => new Set(override.disabledOriginalBlanks),
-    [override]
-  );
-  const customSet = useMemo(
-    () => new Set(override.customBlankedTokens),
-    [override]
-  );
 
-  // アクティブな blank token（伏字として出題される順序リスト）
-  const activeBlanks = useMemo(
-    () => tokens.filter((t) => blankedSet.has(t.idx)),
-    [tokens, blankedSet]
-  );
-
-  // tokenIdx → 1-based 番号（コンテキスト内の (1)(2)... 表示用）
+  // blank.id → 1-based番号
   const blankNumberMap = useMemo(() => {
-    const m = new Map<number, number>();
-    activeBlanks.forEach((t, i) => m.set(t.idx, i + 1));
+    const m = new Map<string, number>();
+    activeBlanks.forEach((b, i) => m.set(b.id, i + 1));
     return m;
   }, [activeBlanks]);
 
-  // カード切り替え時リセット
   useEffect(() => {
     const ov = getOverride(card.id);
     setOverride(ov);
@@ -257,33 +299,96 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
     setInputStates(new Map());
     setSubmitted(false);
     setEditMode(false);
-    // 最初の入力欄にフォーカス
+    setPendingSelection(new Set());
     setTimeout(() => {
       const first = inputRefs.current.values().next().value;
       first?.focus();
     }, 50);
   }, [card.id]);
 
-  function handleToggleToken(t: Token) {
-    const next = toggleToken(t, override);
+  function applyOverride(next: BlankOverride) {
     setOverride(next);
     saveOverride(card.id, next);
   }
 
+  // originalBlank の単語レベル toggle
+  function handleToggleOriginalWord(blankIdx: number, wordIdx: number) {
+    const next = { ...override };
+    const prev = new Set(next.partialDisabledWords[blankIdx] ?? []);
+    prev.has(wordIdx) ? prev.delete(wordIdx) : prev.add(wordIdx);
+
+    const words = card.blanks[blankIdx]?.answer?.split(" ") ?? [];
+    if (prev.size === words.length) {
+      // 全単語無効 → 丸ごと無効扱いに統一
+      next.disabledOriginalBlanks = [...new Set([...next.disabledOriginalBlanks, blankIdx])];
+      const pd = { ...next.partialDisabledWords };
+      delete pd[blankIdx];
+      next.partialDisabledWords = pd;
+    } else {
+      next.partialDisabledWords = { ...next.partialDisabledWords, [blankIdx]: [...prev] };
+      next.disabledOriginalBlanks = next.disabledOriginalBlanks.filter(b => b !== blankIdx);
+    }
+    applyOverride(next);
+  }
+
+  // word token tap in edit mode
+  function handleWordTap(t: Token) {
+    if (t.type === "originalBlank") {
+      // 丸ごと OFF → ON に戻す
+      const next = { ...override };
+      next.disabledOriginalBlanks = next.disabledOriginalBlanks.filter(b => b !== t.blankIdx);
+      applyOverride(next);
+      return;
+    }
+
+    // カスタムグループに既に属している → グループから除去
+    const groupIdx = override.customBlanks.findIndex(g => g.includes(t.idx));
+    if (groupIdx >= 0) {
+      const next = { ...override };
+      const group = next.customBlanks[groupIdx].filter(idx => idx !== t.idx);
+      if (group.length === 0) {
+        next.customBlanks = next.customBlanks.filter((_, i) => i !== groupIdx);
+      } else {
+        next.customBlanks = next.customBlanks.map((g, i) => i === groupIdx ? group : g);
+      }
+      applyOverride(next);
+      return;
+    }
+
+    // pending selection に toggle
+    const next = new Set(pendingSelection);
+    next.has(t.idx) ? next.delete(t.idx) : next.add(t.idx);
+    setPendingSelection(next);
+  }
+
+  // pending selection を確定してカスタムグループに追加
+  function handleConfirmSelection() {
+    if (pendingSelection.size === 0) return;
+    const next = { ...override };
+    next.customBlanks = [...next.customBlanks, [...pendingSelection]];
+    applyOverride(next);
+    setPendingSelection(new Set());
+  }
+
+  function handleCancelSelection() {
+    setPendingSelection(new Set());
+  }
+
   function handleReset() {
     resetOverride(card.id);
-    setOverride({ disabledOriginalBlanks: [], customBlankedTokens: [] });
+    setOverride({ disabledOriginalBlanks: [], partialDisabledWords: {}, customBlanks: [] });
+    setPendingSelection(new Set());
   }
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (submitted) return;
-    const newStates = new Map<number, TokenInputState>();
+    const newStates = new Map<string, InputState>();
     const results: boolean[] = [];
-    for (const t of activeBlanks) {
-      const input = inputs.get(t.idx) ?? "";
-      const correct = judge(input, t.text);
-      newStates.set(t.idx, { state: correct ? "correct" : "incorrect" });
+    for (const b of activeBlanks) {
+      const input = inputs.get(b.id) ?? "";
+      const correct = judge(input, b.answer);
+      newStates.set(b.id, correct ? "correct" : "incorrect");
       results.push(correct);
     }
     setInputStates(newStates);
@@ -293,41 +398,17 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
 
   function handleReveal() {
     if (submitted) return;
-    const newStates = new Map<number, TokenInputState>();
-    for (const t of activeBlanks) {
-      newStates.set(t.idx, { state: "incorrect" });
-    }
+    const newStates = new Map<string, InputState>();
+    for (const b of activeBlanks) newStates.set(b.id, "incorrect");
     setInputStates(newStates);
     setSubmitted(true);
     onResult(activeBlanks.map(() => false));
   }
 
-  const correctCount = [...inputStates.values()].filter((s) => s.state === "correct").length;
-  const allCorrect = submitted && correctCount === activeBlanks.length && activeBlanks.length > 0;
+  const correctCount = [...inputStates.values()].filter(s => s === "correct").length;
+  const allCorrect = submitted && activeBlanks.length > 0 && correctCount === activeBlanks.length;
   const pri = card.priority ? PRIORITY_LABEL[card.priority] : null;
-  const someInput = activeBlanks.some((t) => (inputs.get(t.idx) ?? "").trim() !== "");
-
-  // 編集モードの凡例
-  const editLegend = (
-    <div className="flex flex-wrap gap-3 text-[11px] text-gray-500 px-1">
-      <span className="flex items-center gap-1">
-        <span className="inline-block bg-indigo-100 text-indigo-800 border-b-2 border-indigo-400 rounded px-1.5">語句</span>
-        既存の伏字（タップでOFF）
-      </span>
-      <span className="flex items-center gap-1">
-        <span className="inline-block bg-gray-100 text-gray-400 line-through rounded px-1.5">語句</span>
-        伏字OFF（タップでON）
-      </span>
-      <span className="flex items-center gap-1">
-        <span className="inline-block bg-amber-100 text-amber-800 border-b-2 border-amber-400 rounded px-1.5">語句</span>
-        カスタム追加（タップで解除）
-      </span>
-      <span className="flex items-center gap-1">
-        <span className="inline-block hover:bg-gray-100 rounded px-1.5 text-gray-700">語句</span>
-        通常テキスト（タップで追加）
-      </span>
-    </div>
-  );
+  const someInput = activeBlanks.some(b => (inputs.get(b.id) ?? "").trim() !== "");
 
   return (
     <div className="flex flex-col gap-4">
@@ -342,18 +423,12 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
 
       {/* メタ情報 */}
       <div className="flex gap-2 flex-wrap">
-        <span className="text-xs bg-indigo-50 text-indigo-600 font-semibold px-2.5 py-1 rounded-full">
-          {card.subject}
-        </span>
+        <span className="text-xs bg-indigo-50 text-indigo-600 font-semibold px-2.5 py-1 rounded-full">{card.subject}</span>
         {card.sectionHeader && (
-          <span className="text-xs bg-gray-800 text-white font-semibold px-2.5 py-1 rounded-full">
-            {card.sectionHeader}
-          </span>
+          <span className="text-xs bg-gray-800 text-white font-semibold px-2.5 py-1 rounded-full">{card.sectionHeader}</span>
         )}
         {card.subsectionTitle && (
-          <span className="text-xs bg-gray-700 text-gray-200 font-semibold px-2.5 py-1 rounded-full">
-            {card.subsectionTitle}
-          </span>
+          <span className="text-xs bg-gray-700 text-gray-200 font-semibold px-2.5 py-1 rounded-full">{card.subsectionTitle}</span>
         )}
         {pri && (
           <span className={`text-xs font-bold px-2.5 py-1 rounded-full border ${pri.bg} ${pri.color}`}>
@@ -366,35 +441,60 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
       {/* ── 編集モード ── */}
       {editMode ? (
         <>
-          {/* 編集コンテキスト */}
           <div className="bg-white rounded-3xl border-2 border-indigo-200 shadow-md p-5 text-[15px] leading-8 text-gray-700">
             <EditTokens
               tokens={tokens}
-              blankedSet={blankedSet}
-              disabledOriginals={disabledOriginals}
-              customSet={customSet}
-              onToggle={handleToggleToken}
+              override={override}
+              pendingSelection={pendingSelection}
+              onToggleOriginalWord={handleToggleOriginalWord}
+              onWordTap={handleWordTap}
             />
           </div>
 
-          {/* 凡例 */}
-          {editLegend}
+          {/* pending selection の確定バー */}
+          {pendingSelection.size > 0 && (
+            <div className="flex items-center gap-2 bg-yellow-50 border border-yellow-300 rounded-2xl px-4 py-3">
+              <span className="flex-1 text-sm text-yellow-800 font-medium">
+                {pendingSelection.size}語を選択中
+              </span>
+              <button type="button" onClick={handleCancelSelection}
+                className="text-xs text-gray-400 hover:text-gray-600 px-3 py-1.5 rounded-xl border border-gray-200">
+                キャンセル
+              </button>
+              <button type="button" onClick={handleConfirmSelection}
+                className="flex items-center gap-1 text-xs font-bold bg-amber-500 text-white px-3 py-1.5 rounded-xl hover:bg-amber-600">
+                <Plus size={13} />
+                伏字に追加
+              </button>
+            </div>
+          )}
 
-          {/* 編集操作ボタン */}
+          {/* 凡例 */}
+          <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-[11px] text-gray-500 px-1">
+            <span className="flex items-center gap-1">
+              <span className="bg-indigo-100 text-indigo-800 border-b-2 border-indigo-400 rounded px-1.5">語句</span>既存の伏字（タップで単語単位に解除）
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="bg-gray-100 text-gray-400 line-through rounded px-1.5">語句</span>伏字OFF（タップでON）
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="bg-amber-100 text-amber-800 border-b-2 border-amber-400 rounded px-1.5">語句</span>カスタム追加（タップで解除）
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="bg-yellow-100 text-yellow-800 border-2 border-yellow-400 rounded px-1.5">語句</span>選択中（複数選択→「伏字に追加」）
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="hover:bg-gray-100 rounded px-1.5 text-gray-700">語句</span>通常テキスト（タップで選択）
+            </span>
+          </div>
+
           <div className="flex gap-2">
-            <button
-              type="button"
-              onClick={handleReset}
-              className="flex items-center gap-1.5 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300 text-sm transition-colors"
-            >
-              <RotateCcw size={15} />
-              リセット
+            <button type="button" onClick={handleReset}
+              className="flex items-center gap-1.5 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-400 hover:text-gray-600 text-sm transition-colors">
+              <RotateCcw size={15} />リセット
             </button>
-            <button
-              type="button"
-              onClick={() => setEditMode(false)}
-              className="flex-1 py-3 bg-indigo-600 text-white rounded-2xl font-bold text-base hover:bg-indigo-700 active:scale-95 transition-all shadow-md"
-            >
+            <button type="button" onClick={() => setEditMode(false)}
+              className="flex-1 py-3 bg-indigo-600 text-white rounded-2xl font-bold text-base hover:bg-indigo-700 active:scale-95 transition-all shadow-md">
               編集完了
             </button>
           </div>
@@ -402,91 +502,70 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
       ) : (
         <>
           {/* ── 学習モード ── */}
-          {/* コンテキストカード */}
           <div className={`bg-white rounded-3xl border-2 shadow-md p-5 text-[15px] leading-8 text-gray-700 transition-colors ${
-            !submitted ? "border-gray-100"
-            : allCorrect ? "border-emerald-300"
-            : "border-red-200"
+            !submitted ? "border-gray-100" : allCorrect ? "border-emerald-300" : "border-red-200"
           }`}>
-            <StudyTokens
-              tokens={tokens}
-              blankedSet={blankedSet}
-              disabledOriginals={disabledOriginals}
-              inputStates={inputStates}
-              blankNumberMap={blankNumberMap}
-            />
+            <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates} />
           </div>
 
-          {/* 入力フォーム or 結果 */}
           {!submitted ? (
             <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-              {activeBlanks.map((t, ai) => (
-                <div key={t.idx} className="flex items-center gap-2">
-                  <span className="text-xs font-bold text-indigo-400 w-5 flex-shrink-0">
-                    ({ai + 1})
-                  </span>
-                  <input
-                    ref={(el) => { inputRefs.current.set(t.idx, el); }}
-                    value={inputs.get(t.idx) ?? ""}
-                    onChange={(e) => {
-                      const next = new Map(inputs);
-                      next.set(t.idx, e.target.value);
-                      setInputs(next);
-                    }}
-                    placeholder={`空欄 (${ai + 1}) を入力...`}
-                    className="flex-1 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-900 text-sm focus:outline-none focus:border-indigo-400 bg-white"
-                  />
-                </div>
-              ))}
+              {activeBlanks.map((b) => {
+                const num = blankNumberMap.get(b.id) ?? 0;
+                return (
+                  <div key={b.id} className="flex items-center gap-2">
+                    <span className="text-xs font-bold text-indigo-400 w-5 flex-shrink-0">({num})</span>
+                    <input
+                      ref={(el) => { inputRefs.current.set(b.id, el); }}
+                      value={inputs.get(b.id) ?? ""}
+                      onChange={(e) => {
+                        const next = new Map(inputs);
+                        next.set(b.id, e.target.value);
+                        setInputs(next);
+                      }}
+                      placeholder={`空欄 (${num}) を入力...`}
+                      className="flex-1 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-900 text-sm focus:outline-none focus:border-indigo-400 bg-white"
+                    />
+                  </div>
+                );
+              })}
               <div className="flex gap-2 mt-1">
-                <button
-                  type="submit"
-                  disabled={!someInput}
+                <button type="submit" disabled={!someInput}
                   className={`flex-1 py-3.5 rounded-2xl font-bold text-base transition-all shadow-md ${
                     someInput
                       ? "bg-indigo-600 text-white hover:bg-indigo-700 active:scale-95"
                       : "bg-gray-100 text-gray-400 cursor-not-allowed"
-                  }`}
-                >
-                  採点する
-                </button>
+                  }`}>採点する</button>
                 <button type="button" onClick={handleReveal}
                   className="px-4 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300 transition-colors"
-                  title="答えを見る">
-                  <Eye size={18} />
-                </button>
+                  title="答えを見る"><Eye size={18} /></button>
                 <button type="button" onClick={() => setEditMode(true)}
                   className="px-4 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300 transition-colors"
-                  title="伏字を編集">
-                  <Pencil size={18} />
-                </button>
+                  title="伏字を編集"><Pencil size={18} /></button>
               </div>
             </form>
           ) : (
             <div className="flex flex-col gap-3">
-              {activeBlanks.map((t, ai) => {
-                const s = inputStates.get(t.idx)?.state ?? "unanswered";
+              {activeBlanks.map((b) => {
+                const num = blankNumberMap.get(b.id) ?? 0;
+                const s = inputStates.get(b.id) ?? "unanswered";
                 return (
-                  <div key={t.idx} className={`flex items-start gap-3 rounded-2xl px-4 py-3 ${
-                    s === "correct"
-                      ? "bg-emerald-50 border border-emerald-200"
-                      : "bg-red-50 border border-red-200"
+                  <div key={b.id} className={`flex items-start gap-3 rounded-2xl px-4 py-3 ${
+                    s === "correct" ? "bg-emerald-50 border border-emerald-200" : "bg-red-50 border border-red-200"
                   }`}>
                     {s === "correct"
                       ? <CheckCircle size={18} className="text-emerald-500 flex-shrink-0 mt-0.5" />
                       : <XCircle size={18} className="text-red-400 flex-shrink-0 mt-0.5" />}
                     <div className="flex-1 min-w-0">
-                      <p className="text-xs text-gray-500 mb-0.5">空欄 ({ai + 1})</p>
+                      <p className="text-xs text-gray-500 mb-0.5">空欄 ({num})</p>
                       {s === "correct"
                         ? <p className="font-semibold text-emerald-700 text-sm">正解！</p>
                         : <>
                             <p className="font-semibold text-red-600 text-sm">
-                              正解：<span className="font-bold">{t.text}</span>
+                              正解：<span className="font-bold">{b.answer}</span>
                             </p>
-                            {(inputs.get(t.idx) ?? "") && (
-                              <p className="text-xs text-gray-400 mt-0.5">
-                                あなたの回答：{inputs.get(t.idx)}
-                              </p>
+                            {(inputs.get(b.id) ?? "") && (
+                              <p className="text-xs text-gray-400 mt-0.5">あなたの回答：{inputs.get(b.id)}</p>
                             )}
                           </>
                       }
@@ -498,21 +577,16 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
               {activeBlanks.length > 1 && (
                 <div className={`text-center text-sm font-bold rounded-2xl py-2 ${
                   allCorrect ? "text-emerald-600 bg-emerald-50" : "text-indigo-600 bg-indigo-50"
-                }`}>
-                  {correctCount} / {activeBlanks.length} 正解
-                </div>
+                }`}>{correctCount} / {activeBlanks.length} 正解</div>
               )}
 
               <div className="flex gap-2">
                 <button type="button" onClick={() => setEditMode(true)}
                   className="px-4 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300 transition-colors"
-                  title="伏字を編集">
-                  <Pencil size={18} />
-                </button>
+                  title="伏字を編集"><Pencil size={18} /></button>
                 <button onClick={onNext}
                   className="flex-1 py-3.5 bg-indigo-600 text-white rounded-2xl font-bold text-base flex items-center justify-center gap-2 hover:bg-indigo-700 active:scale-95 transition-all shadow-md">
-                  次の問題へ
-                  <ChevronRight size={18} />
+                  次の問題へ <ChevronRight size={18} />
                 </button>
               </div>
             </div>
