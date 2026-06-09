@@ -82,14 +82,15 @@ def get_green_masks(page):
 def get_section_headers(page):
     headers = []
     for path in page.get_drawings():
-        c = path.get("fill") or path.get("color")
+        c = path.get("fill")
         if c is None:
             continue
         r, g, b = color_to_rgb(c)
         if not is_black(r, g, b):
             continue
         rect = path["rect"]
-        if rect.width > 150 and rect.height > 8:
+        # Real section header bars: height ≈ 13.4–15.2 pt (clear gap above shadow rects ≤12.4)
+        if rect.width > 150 and rect.height > 12.5:
             headers.append(rect)
     return headers
 
@@ -298,11 +299,13 @@ def extract():
             section_header_texts[id(hr)] = " ".join(w[4] for w in sorted(words_in_header, key=lambda w: w[0]))
 
         def get_section_for_rect(rect):
-            """Return the most recent section header above this rect."""
-            # Check same-page headers above this rect
+            """Return the most recent section header above this rect, in the same column."""
             best = None
             best_y = -1
             for hr in section_header_rects:
+                # Must be in the same horizontal column (overlap in x)
+                if hr.x1 < rect.x0 - 20 or hr.x0 > rect.x1 + 20:
+                    continue
                 if hr.y1 <= rect.y0 + 5:  # header above or at rect top
                     if hr.y1 > best_y:
                         best_y = hr.y1
@@ -332,6 +335,11 @@ def extract():
         current_left_section  = last_right_section_header or last_section_header
         current_right_section = current_left_section
 
+        # Pending subsection title: a no-mask heading paragraph passes its title
+        # to the next masked paragraph in the same column
+        pending_subsec_left  = None
+        pending_subsec_right = None
+
         for col, para_group in para_groups:
             if not para_group:
                 continue
@@ -352,13 +360,26 @@ def extract():
                     para_masks.append(mr)
 
             if not para_masks:
-                # Update section header state but skip (no blanks)
+                # Update section header state
                 sh = get_section_for_rect(fitz.Rect(para_x0, para_y0, para_x1, para_y1))
                 if sh:
                     if col == "left":
                         current_left_section = sh
                     else:
                         current_right_section = sh
+                # Extract potential subsectionTitle from this no-mask paragraph (heading candidate)
+                cand = get_subsection_title(dict_blocks, para_group[0], False)
+                if cand:
+                    if col == "left":
+                        pending_subsec_left = cand
+                    else:
+                        pending_subsec_right = cand
+                else:
+                    # Non-heading no-mask paragraph clears pending title
+                    if col == "left":
+                        pending_subsec_left = None
+                    else:
+                        pending_subsec_right = None
                 continue
 
             # Section header for this paragraph
@@ -371,12 +392,20 @@ def extract():
 
             section_header = current_left_section if col == "left" else current_right_section
 
-            # Subsection title
+            # Subsection title: try extracting from first block; fall back to pending title
             first_block = para_group[0]
             first_block_masks = [mr for mr in para_masks
                                   if any(b[1] - 2 <= (mr.y0+mr.y1)/2 <= b[3] + 2
                                          for b in [first_block])]
             subsection_title = get_subsection_title(dict_blocks, first_block, bool(first_block_masks))
+            if subsection_title is None:
+                # Use heading from preceding no-mask paragraph in same column
+                subsection_title = pending_subsec_left if col == "left" else pending_subsec_right
+            # Consume the pending title
+            if col == "left":
+                pending_subsec_left = None
+            else:
+                pending_subsec_right = None
 
             # Priority
             priority = get_priority_for_y(para_y0, para_y1, para_x0, para_x1)
