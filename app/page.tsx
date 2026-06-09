@@ -194,15 +194,14 @@ export default function Home() {
               {SUBJECTS.map((s) => {
                 const qs = ALL_CARDS.filter((c) => c.subject === s);
                 const answered = qs.filter((c) => stats[c.id]?.total > 0).length;
-                const correct = qs.filter((c) => { const st = stats[c.id]; return st && st.total > 0 && st.correct / st.total >= 0.7; }).length;
-                const pct = answered > 0 ? Math.round((correct / answered) * 100) : null;
+                const pct = Math.round((answered / qs.length) * 100);
                 return (
                   <button key={s}
                     onClick={() => { setSelectedSubject(s); startDeck(ALL_CARDS.filter((c) => c.subject === s)); }}
                     className={`${subjectColor(s)} rounded-2xl p-3 text-left text-white hover:opacity-90 active:scale-95 transition-all`}>
                     <p className="text-[11px] font-bold leading-tight mb-1">{s}</p>
                     <p className="text-xs text-white/70">{qs.length}カード</p>
-                    {pct !== null && <p className="text-xs font-bold text-white/90 mt-0.5">{pct}%</p>}
+                    <p className="text-xs font-bold text-white/90 mt-0.5">{pct}%</p>
                   </button>
                 );
               })}
