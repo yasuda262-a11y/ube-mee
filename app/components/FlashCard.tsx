@@ -92,35 +92,36 @@ function StudyTokens({
     if (blankedSet.has(t.idx)) {
       const st = inputStates.get(t.idx)?.state ?? "unanswered";
       const num = blankNumberMap.get(t.idx);
+      // 番号ラベル（上付きではなく小さいインラインテキスト）
       const numLabel = (
-        <sup key={`num-${t.idx}`} className="text-[10px] font-bold text-indigo-400 mr-0.5 select-none">
+        <span className="text-[10px] font-bold text-indigo-400 select-none mr-0.5 align-baseline">
           ({num})
-        </sup>
+        </span>
       );
       if (st === "unanswered") {
         const em = Math.min(24, Math.max(4, Math.round(t.text.length * 0.6)));
         nodes.push(
-          <span key={t.idx} className="inline-block align-middle mx-0.5">
+          <span key={t.idx} className="inline-block align-baseline mx-0.5 whitespace-nowrap">
             {numLabel}
             <span
-              className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none"
+              className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle"
               style={{ minWidth: `${em}em` }}>_</span>
           </span>
         );
       } else if (st === "correct") {
         nodes.push(
-          <span key={t.idx} className="inline-block align-middle mx-0.5">
+          <span key={t.idx} className="inline-block align-baseline mx-0.5 whitespace-nowrap">
             {numLabel}
-            <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5">
+            <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 align-middle">
               {t.text}
             </span>
           </span>
         );
       } else {
         nodes.push(
-          <span key={t.idx} className="inline-block align-middle mx-0.5">
+          <span key={t.idx} className="inline-block align-baseline mx-0.5 whitespace-nowrap">
             {numLabel}
-            <span className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5">
+            <span className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 align-middle">
               {t.text}
             </span>
           </span>
