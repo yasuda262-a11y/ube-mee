@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useMemo } from "react";
-import { ChevronRight, CheckCircle, XCircle, Eye, Pencil, RotateCcw, Plus } from "lucide-react";
+import { ChevronRight, CheckCircle, XCircle, Eye, Pencil, RotateCcw, Plus, NotebookPen, Check, X } from "lucide-react";
 import type { Card } from "../data/questions";
 import {
   parseTokens,
@@ -16,6 +16,7 @@ import {
   type BlankOverride,
   type ActiveBlank,
 } from "../lib/customBlanks";
+import { getCardMemo, saveCardMemo } from "../lib/cardMemos";
 
 interface Props {
   card: Card;
@@ -309,6 +310,12 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
   const [pendingSelection, setPendingSelection] = useState<Set<number>>(new Set());
   const inputRefs = useRef<Map<string, HTMLInputElement | null>>(new Map());
 
+  // ---- カードメモ ----
+  const [cardMemo, setCardMemo] = useState("");
+  const [memoEditing, setMemoEditing] = useState(false);
+  const [memoInput, setMemoInput] = useState("");
+  const memoRef = useRef<HTMLTextAreaElement>(null);
+
   const tokens = useMemo(() => parseTokens(card.context, card.blanks), [card.id]);
 
   const activeBlanks = useMemo(
@@ -331,6 +338,11 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
     setSubmitted(false);
     setEditMode(false);
     setPendingSelection(new Set());
+    // カードメモを読み込む
+    const memo = getCardMemo(card.id);
+    setCardMemo(memo);
+    setMemoInput(memo);
+    setMemoEditing(false);
     setTimeout(() => {
       const first = inputRefs.current.values().next().value;
       first?.focus();
@@ -340,6 +352,21 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
   function applyOverride(next: BlankOverride) {
     setOverride(next);
     saveOverride(card.id, next);
+  }
+
+  function openMemoEdit() {
+    setMemoInput(cardMemo);
+    setMemoEditing(true);
+    setTimeout(() => memoRef.current?.focus(), 50);
+  }
+  function saveMemo() {
+    saveCardMemo(card.id, memoInput);
+    setCardMemo(memoInput.trim());
+    setMemoEditing(false);
+  }
+  function cancelMemo() {
+    setMemoInput(cardMemo);
+    setMemoEditing(false);
   }
 
   // originalBlank の単語レベル toggle
@@ -610,6 +637,64 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
                   allCorrect ? "text-emerald-600 bg-emerald-50" : "text-indigo-600 bg-indigo-50"
                 }`}>{correctCount} / {activeBlanks.length} 正解</div>
               )}
+
+              {/* カードメモ */}
+              <div className="rounded-2xl border border-amber-200 bg-amber-50 overflow-hidden">
+                <div className="flex items-center justify-between px-3 py-2 border-b border-amber-100">
+                  <span className="text-[11px] font-semibold text-amber-600 flex items-center gap-1">
+                    <NotebookPen size={11} /> カードメモ
+                  </span>
+                  {!memoEditing && (
+                    <button
+                      onClick={openMemoEdit}
+                      className="text-[11px] text-amber-500 hover:text-amber-700 flex items-center gap-0.5 transition-colors"
+                    >
+                      <Pencil size={11} /> {cardMemo ? "編集" : "追加"}
+                    </button>
+                  )}
+                </div>
+
+                {memoEditing ? (
+                  <div className="p-3 flex flex-col gap-2">
+                    <textarea
+                      ref={memoRef}
+                      value={memoInput}
+                      onChange={(e) => setMemoInput(e.target.value)}
+                      placeholder="このカードへのメモを入力…"
+                      rows={3}
+                      className="w-full text-sm text-gray-800 leading-relaxed resize-none outline-none bg-transparent placeholder:text-amber-300"
+                    />
+                    <div className="flex gap-2 justify-end">
+                      <button
+                        onClick={cancelMemo}
+                        className="flex items-center gap-1 text-xs text-gray-400 border border-gray-200 bg-white rounded-xl px-3 py-1.5 hover:bg-gray-50 active:scale-95 transition-all"
+                      >
+                        <X size={11} /> キャンセル
+                      </button>
+                      <button
+                        onClick={saveMemo}
+                        className="flex items-center gap-1 text-xs text-white bg-amber-500 rounded-xl px-3 py-1.5 hover:bg-amber-400 active:scale-95 transition-all"
+                      >
+                        <Check size={11} /> 保存
+                      </button>
+                    </div>
+                  </div>
+                ) : cardMemo ? (
+                  <p
+                    onClick={openMemoEdit}
+                    className="px-3 py-2.5 text-sm text-gray-700 leading-relaxed whitespace-pre-wrap cursor-text"
+                  >
+                    {cardMemo}
+                  </p>
+                ) : (
+                  <p
+                    onClick={openMemoEdit}
+                    className="px-3 py-2.5 text-xs text-amber-300 italic cursor-text"
+                  >
+                    タップしてメモを追加…
+                  </p>
+                )}
+              </div>
 
               <div className="flex gap-2">
                 <button type="button" onClick={() => setEditMode(true)}
