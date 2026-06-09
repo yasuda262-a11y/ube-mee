@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { ChevronRight, CheckCircle, XCircle, Eye } from "lucide-react";
+import { ChevronRight, CheckCircle, XCircle, Eye, Pencil, RotateCcw } from "lucide-react";
 import type { Card } from "../data/questions";
+import { getDisabled, toggleBlank, resetCard } from "../lib/customBlanks";
 
 interface Props {
   card: Card;
@@ -33,10 +34,16 @@ function judge(input: string, answer: string): boolean {
   return matched.length >= Math.ceil(keywords.length * 0.6);
 }
 
+/** 行がリスト項目で始まるか判定 */
+function isListStart(line: string): boolean {
+  const stripped = line.trimStart().replace(/^(__BLANK_\d+__\s*)+/, "");
+  return /^(\d+[).]\s|[a-z][).]\s|[ivxlcdm]+[).]\s|[−–•]\s|[−–]$)/.test(stripped);
+}
+
 /** context文字列の1行分を __BLANK_N__ でパースしてReact要素の配列に変換 */
 function parseContextLine(
   line: string,
-  states: ("unanswered" | "correct" | "incorrect")[],
+  states: ("unanswered" | "correct" | "incorrect" | "disabled")[],
   answers: string[],
   keyOffset: number
 ): React.ReactNode[] {
@@ -47,8 +54,16 @@ function parseContextLine(
     const idx = parseInt(m[1]) - 1;  // 0-based
     const state = states[idx] ?? "unanswered";
     const answer = answers[idx] ?? "";
+
+    if (state === "disabled") {
+      // 伏字OFF: 答えをグレー斜体で表示
+      return (
+        <span key={keyOffset + i} className="inline-block text-gray-400 italic rounded px-1 mx-0.5">
+          {answer}
+        </span>
+      );
+    }
     if (state === "unanswered") {
-      // 伏字幅を回答文字数に比例させる（1文字≒0.6em、最小4em・最大24em）
       const em = Math.min(24, Math.max(4, Math.round(answer.length * 0.6)));
       return (
         <span
@@ -75,20 +90,10 @@ function parseContextLine(
   });
 }
 
-/** 行がリスト項目（番号・箇条書き記号）で始まるか判定 */
-function isListStart(line: string): boolean {
-  // 先頭の __BLANK_N__ を除去してからチェック
-  const stripped = line.trimStart().replace(/^(__BLANK_\d+__\s*)+/, "");
-  // 番号リスト: "1) ", "2. ", "i) ", "ii. ", "a) "
-  // 箇条書き: "− ", "– ", "• "
-  return /^(\d+[).]\s|[a-z][).]\s|[ivxlcdm]+[).]\s|[−–•]\s|[−–]$)/.test(stripped);
-}
-
 /** context文字列を改行・__BLANK_N__ でパースしてReact要素の配列に変換 */
 function parseContext(
   context: string,
-  blanksCount: number,
-  states: ("unanswered" | "correct" | "incorrect")[],
+  states: ("unanswered" | "correct" | "incorrect" | "disabled")[],
   answers: string[]
 ): React.ReactNode[] {
   const lines = context.split("\n");
@@ -97,18 +102,15 @@ function parseContext(
   lines.forEach((line, li) => {
     if (li > 0) {
       const prevLine = lines[li - 1];
-      // 前の行の末尾単語を取得（__BLANK_N__ を除く）
       const prevWords = prevLine.trim().split(/\s+/);
       const prevLast = [...prevWords].reverse().find(w => !w.startsWith("__BLANK_")) ?? "";
       const prevEndsHyphen = prevLast.endsWith("-");
 
       if (prevEndsHyphen) {
-        // ハイフン連結: "non-" + "resident:" → "non-resident:" (セパレータなし)
+        // ハイフン連結: セパレータなし
       } else if (isListStart(line)) {
-        // リスト項目: 改行
         result.push(<br key={`br-${li}`} />);
       } else {
-        // 通常の折り返し: スペースで結合
         result.push(<span key={`sp-${li}`}> </span>);
       }
     }
@@ -125,37 +127,71 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
     Array(blanksCount).fill("unanswered")
   );
   const [submitted, setSubmitted] = useState(false);
+  const [editMode, setEditMode] = useState(false);
+  const [disabled, setDisabled] = useState<Set<number>>(new Set());
   const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
 
+  // カード切り替え時にリセット
   useEffect(() => {
     setInputs(Array(card.blanks.length).fill(""));
     setStates(Array(card.blanks.length).fill("unanswered"));
     setSubmitted(false);
+    setEditMode(false);
+    setDisabled(getDisabled(card.id));
     setTimeout(() => inputRefs.current[0]?.focus(), 50);
   }, [card.id, card.blanks.length]);
+
+  // disabled な blank を含むアクティブ blank インデックス（0-based）
+  const activeIndices = card.blanks
+    .map((_, i) => i)
+    .filter((i) => !disabled.has(i));
+
+  /** disabled を考慮した表示用 states */
+  function displayStates(): ("unanswered" | "correct" | "incorrect" | "disabled")[] {
+    return card.blanks.map((_, i) => {
+      if (disabled.has(i)) return "disabled";
+      return states[i] ?? "unanswered";
+    });
+  }
+
+  function handleToggleBlank(idx: number) {
+    setDisabled(toggleBlank(card.id, idx));
+  }
+
+  function handleResetBlanks() {
+    resetCard(card.id);
+    setDisabled(new Set());
+  }
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (submitted) return;
-    const newStates = card.blanks.map((b, i) =>
-      judge(inputs[i] ?? "", b.answer) ? "correct" : "incorrect"
-    ) as ("correct" | "incorrect")[];
+    // activeIndices のみ採点（disabled は除外）
+    const newStates = [...states] as ("correct" | "incorrect" | "unanswered")[];
+    activeIndices.forEach((i) => {
+      newStates[i] = judge(inputs[i] ?? "", card.blanks[i].answer) ? "correct" : "incorrect";
+    });
     setStates(newStates);
     setSubmitted(true);
-    onResult(newStates.map((s) => s === "correct"));
+    onResult(activeIndices.map((i) => newStates[i] === "correct"));
   }
 
   function handleReveal() {
     if (submitted) return;
-    const newStates = Array(blanksCount).fill("incorrect") as "incorrect"[];
+    const newStates = [...states] as ("correct" | "incorrect" | "unanswered")[];
+    activeIndices.forEach((i) => { newStates[i] = "incorrect"; });
     setStates(newStates);
     setSubmitted(true);
-    onResult(newStates.map(() => false));
+    onResult(activeIndices.map(() => false));
   }
 
-  const allCorrect = submitted && states.every((s) => s === "correct");
-  const correctCount = states.filter((s) => s === "correct").length;
+  const allCorrect = submitted && activeIndices.every((i) => states[i] === "correct");
+  const correctCount = activeIndices.filter((i) => states[i] === "correct").length;
   const pri = card.priority ? PRIORITY_LABEL[card.priority] : null;
+
+  // 入力欄は active な blank のみ
+  const activeInputs = activeIndices.map((i) => ({ blank: card.blanks[i], origIdx: i }));
+  const someInput = activeInputs.some((_, ai) => (inputs[activeIndices[ai]] ?? "").trim());
 
   return (
     <div className="flex flex-col gap-4">
@@ -199,21 +235,76 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
         : allCorrect ? "border-emerald-300"
         : "border-red-200"
       }`}>
-        {parseContext(card.context, blanksCount, states, card.blanks.map((b) => b.answer))}
+        {parseContext(card.context, displayStates(), card.blanks.map((b) => b.answer))}
       </div>
+
+      {/* 伏字設定パネル */}
+      {editMode && (
+        <div className="bg-white rounded-2xl border border-gray-200 p-4 flex flex-col gap-3">
+          <div className="flex items-center justify-between">
+            <p className="text-xs font-bold text-gray-500">伏字の調整</p>
+            <button
+              onClick={handleResetBlanks}
+              className="flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600"
+            >
+              <RotateCcw size={12} />
+              すべてONに戻す
+            </button>
+          </div>
+          <div className="flex flex-col gap-2">
+            {card.blanks.map((blank, i) => {
+              const isDisabled = disabled.has(i);
+              return (
+                <button
+                  key={blank.idx}
+                  onClick={() => handleToggleBlank(i)}
+                  className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-left transition-colors ${
+                    isDisabled
+                      ? "bg-gray-50 border border-gray-200"
+                      : "bg-indigo-50 border border-indigo-200"
+                  }`}
+                >
+                  {/* トグル */}
+                  <div className={`w-9 h-5 rounded-full flex-shrink-0 relative transition-colors ${
+                    isDisabled ? "bg-gray-300" : "bg-indigo-500"
+                  }`}>
+                    <div className={`absolute top-0.5 w-4 h-4 bg-white rounded-full shadow transition-transform ${
+                      isDisabled ? "translate-x-0.5" : "translate-x-4"
+                    }`} />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <span className="text-[10px] text-gray-400 font-medium">空欄 ({blank.idx})</span>
+                    <p className={`text-sm font-semibold truncate ${isDisabled ? "text-gray-400 line-through" : "text-gray-800"}`}>
+                      {blank.answer}
+                    </p>
+                  </div>
+                  <span className={`text-[10px] font-bold ${isDisabled ? "text-gray-400" : "text-indigo-500"}`}>
+                    {isDisabled ? "OFF" : "ON"}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+          {disabled.size > 0 && (
+            <p className="text-[10px] text-gray-400 text-center">
+              {disabled.size}個の空欄がOFF（答えを表示中）
+            </p>
+          )}
+        </div>
+      )}
 
       {/* 入力欄群 */}
       {!submitted ? (
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-          {card.blanks.map((blank, i) => (
+          {activeInputs.map(({ blank, origIdx }, ai) => (
             <div key={blank.idx} className="flex items-center gap-2">
               <span className="text-xs font-bold text-indigo-400 w-5 flex-shrink-0">({blank.idx})</span>
               <input
-                ref={(el) => { inputRefs.current[i] = el; }}
-                value={inputs[i] ?? ""}
+                ref={(el) => { inputRefs.current[ai] = el; }}
+                value={inputs[origIdx] ?? ""}
                 onChange={(e) => {
                   const next = [...inputs];
-                  next[i] = e.target.value;
+                  next[origIdx] = e.target.value;
                   setInputs(next);
                 }}
                 placeholder={`空欄 (${blank.idx}) を入力...`}
@@ -224,9 +315,9 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
           <div className="flex gap-2 mt-1">
             <button
               type="submit"
-              disabled={inputs.every((v) => !v.trim())}
+              disabled={!someInput}
               className={`flex-1 py-3.5 rounded-2xl font-bold text-base transition-all shadow-md ${
-                inputs.some((v) => v.trim())
+                someInput
                   ? "bg-indigo-600 text-white hover:bg-indigo-700 active:scale-95"
                   : "bg-gray-100 text-gray-400 cursor-not-allowed"
               }`}
@@ -241,13 +332,26 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
             >
               <Eye size={18} />
             </button>
+            {/* 伏字編集ボタン */}
+            <button
+              type="button"
+              onClick={() => setEditMode((v) => !v)}
+              className={`px-4 py-3.5 rounded-2xl border-2 transition-colors ${
+                editMode
+                  ? "border-indigo-400 bg-indigo-50 text-indigo-600"
+                  : "border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300"
+              }`}
+              title="伏字を調整"
+            >
+              <Pencil size={18} />
+            </button>
           </div>
         </form>
       ) : (
         <div className="flex flex-col gap-3">
-          {/* 各blank結果 */}
-          {card.blanks.map((blank, i) => {
-            const s = states[i];
+          {/* 各blank結果（activeのみ） */}
+          {activeInputs.map(({ blank, origIdx }) => {
+            const s = states[origIdx];
             return (
               <div key={blank.idx} className={`flex items-start gap-3 rounded-2xl px-4 py-3 ${
                 s === "correct" ? "bg-emerald-50 border border-emerald-200" : "bg-red-50 border border-red-200"
@@ -263,8 +367,8 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
                         <p className="font-semibold text-red-600 text-sm">
                           正解：<span className="font-bold">{blank.answer}</span>
                         </p>
-                        {inputs[i] && (
-                          <p className="text-xs text-gray-400 mt-0.5">あなたの回答：{inputs[i]}</p>
+                        {inputs[origIdx] && (
+                          <p className="text-xs text-gray-400 mt-0.5">あなたの回答：{inputs[origIdx]}</p>
                         )}
                       </>
                   }
@@ -274,21 +378,36 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
           })}
 
           {/* スコア表示 */}
-          {blanksCount > 1 && (
+          {activeIndices.length > 1 && (
             <div className={`text-center text-sm font-bold rounded-2xl py-2 ${
               allCorrect ? "text-emerald-600 bg-emerald-50" : "text-indigo-600 bg-indigo-50"
             }`}>
-              {correctCount} / {blanksCount} 正解
+              {correctCount} / {activeIndices.length} 正解
             </div>
           )}
 
-          <button
-            onClick={onNext}
-            className="w-full py-3.5 bg-indigo-600 text-white rounded-2xl font-bold text-base flex items-center justify-center gap-2 hover:bg-indigo-700 active:scale-95 transition-all shadow-md"
-          >
-            次の問題へ
-            <ChevronRight size={18} />
-          </button>
+          <div className="flex gap-2">
+            {/* 伏字編集ボタン（採点後も使える） */}
+            <button
+              type="button"
+              onClick={() => setEditMode((v) => !v)}
+              className={`px-4 py-3.5 rounded-2xl border-2 transition-colors ${
+                editMode
+                  ? "border-indigo-400 bg-indigo-50 text-indigo-600"
+                  : "border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300"
+              }`}
+              title="伏字を調整"
+            >
+              <Pencil size={18} />
+            </button>
+            <button
+              onClick={onNext}
+              className="flex-1 py-3.5 bg-indigo-600 text-white rounded-2xl font-bold text-base flex items-center justify-center gap-2 hover:bg-indigo-700 active:scale-95 transition-all shadow-md"
+            >
+              次の問題へ
+              <ChevronRight size={18} />
+            </button>
+          </div>
         </div>
       )}
     </div>
