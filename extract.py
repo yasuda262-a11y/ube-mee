@@ -278,13 +278,20 @@ def extract():
     # Cross-page state
     last_section_header = None
     last_right_section_header = None  # right column's last header carries to next page left
+    last_right_prio = None            # right column's last priority carries to next page left
 
     for page_num in range(total_pages):
         page_orig   = doc_orig[page_num]
         page_marked = doc_marked[page_num]
         human_page  = page_num + 1
 
+        prev_subject = get_subject(human_page - 1) if human_page > 1 else None
         subject = get_subject(human_page)
+        if subject != prev_subject:
+            # New subject starts — reset cross-page priority state
+            last_right_prio = None
+            last_section_header = None
+            last_right_section_header = None
         page_width = page_orig.rect.width
         col_split = page_width / 2  # ~306pt
 
@@ -335,10 +342,12 @@ def extract():
         current_left_section  = last_right_section_header or last_section_header
         current_right_section = current_left_section
 
-        # Pending subsection title: a no-mask heading paragraph passes its title
-        # to the next masked paragraph in the same column
-        pending_subsec_left  = None
-        pending_subsec_right = None
+        # Pending subsection title / priority: heading paragraphs (no blanks) pass
+        # their title and priority circle to the next masked paragraph in the same column
+        pending_subsec_left   = None
+        pending_subsec_right  = None
+        pending_prio_left     = last_right_prio  # inherit from previous page's right column
+        pending_prio_right    = None
 
         for col, para_group in para_groups:
             if not para_group:
@@ -367,15 +376,20 @@ def extract():
                         current_left_section = sh
                     else:
                         current_right_section = sh
-                # Extract potential subsectionTitle from this no-mask paragraph (heading candidate)
+                # Extract potential subsectionTitle and priority from this no-mask paragraph
                 cand = get_subsection_title(dict_blocks, para_group[0], False)
+                prio_cand = get_priority_for_y(para_y0, para_y1, para_x0, para_x1)
                 if cand:
                     if col == "left":
                         pending_subsec_left = cand
+                        if prio_cand:
+                            pending_prio_left = prio_cand
                     else:
                         pending_subsec_right = cand
+                        if prio_cand:
+                            pending_prio_right = prio_cand
                 else:
-                    # Non-heading no-mask paragraph clears pending title
+                    # Non-heading no-mask paragraph: clear pending title but keep priority
                     if col == "left":
                         pending_subsec_left = None
                     else:
@@ -407,8 +421,16 @@ def extract():
             else:
                 pending_subsec_right = None
 
-            # Priority
+            # Priority: check paragraph itself, then fall back to persistent pending from heading
             priority = get_priority_for_y(para_y0, para_y1, para_x0, para_x1)
+            if priority is None:
+                priority = pending_prio_left if col == "left" else pending_prio_right
+            else:
+                # Directly detected — update pending so subsequent paras in same section inherit it
+                if col == "left":
+                    pending_prio_left = priority
+                else:
+                    pending_prio_right = priority
 
             # Word extraction
             clip = fitz.Rect(para_x0 - 2, para_y0 - 2, para_x1 + 2, para_y1 + 2)
@@ -443,6 +465,7 @@ def extract():
         # Update cross-page state
         last_section_header = current_right_section or current_left_section
         last_right_section_header = current_right_section
+        last_right_prio = pending_prio_right if pending_prio_right is not None else pending_prio_left
 
     doc_orig.close()
     doc_marked.close()
