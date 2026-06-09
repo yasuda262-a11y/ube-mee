@@ -155,7 +155,10 @@ function StudyTokens({
       const state = inputStates.get(entry.blank.id) ?? "unanswered";
       if (entry.blank.chunks) {
         // 部分的に無効化されている originalBlank:
-        // disabled → グレーイタリック、enabled → 1つの空欄ボックス（最初の enabled チャンクの位置に）
+        // チャンクを元の順序通りにレンダリングする。
+        // disabled → グレーイタリック（元の位置に留まる）
+        // enabled 1つ目 → BlankBox（全 enabled 単語を answer に含む）
+        // enabled 2つ目以降 → 下線プレースホルダー（同じ空欄の続きを示す）
         let blankRendered = false;
         entry.blank.chunks.forEach((chunk, ci) => {
           if (ci > 0) nodes.push(<span key={`csp-${t.idx}-${ci}`}> </span>);
@@ -164,8 +167,17 @@ function StudyTokens({
           } else if (!blankRendered) {
             blankRendered = true;
             nodes.push(<BlankBox key={`cb-${t.idx}-${ci}`} answer={entry.blank.answer} num={entry.number} state={state} />);
+          } else {
+            // 2つ目以降の enabled チャンク: 下線スパンで位置を示す（同じ空欄の続き）
+            const dashLen = Math.max(chunk.text.length, 3);
+            nodes.push(
+              <span
+                key={`ce-${t.idx}-${ci}`}
+                className="inline-block border-b-2 border-indigo-400 min-w-[1.5rem] mx-0.5"
+                style={{ color: "transparent", userSelect: "none" }}
+              >{"_".repeat(dashLen)}</span>
+            );
           }
-          // 2つ目以降の enabled チャンクはスキップ（answer に含まれている）
         });
       } else {
         nodes.push(
