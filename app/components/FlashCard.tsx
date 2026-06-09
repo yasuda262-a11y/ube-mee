@@ -67,16 +67,22 @@ type TokenInputState = {
   state: "unanswered" | "correct" | "incorrect";
 };
 
+type TokenInputState = {
+  state: "unanswered" | "correct" | "incorrect";
+};
+
 function StudyTokens({
   tokens,
   blankedSet,
   disabledOriginals,
   inputStates,
+  blankNumberMap,
 }: {
   tokens: Token[];
   blankedSet: Set<number>;
   disabledOriginals: Set<number>;
   inputStates: Map<number, TokenInputState>; // tokenIdx → state
+  blankNumberMap: Map<number, number>;        // tokenIdx → 1-based 番号
 }) {
   const nodes: React.ReactNode[] = [];
   let prev: Token | null = null;
@@ -89,25 +95,38 @@ function StudyTokens({
 
     if (blankedSet.has(t.idx)) {
       const st = inputStates.get(t.idx)?.state ?? "unanswered";
+      const num = blankNumberMap.get(t.idx);
+      const numLabel = (
+        <sup key={`num-${t.idx}`} className="text-[10px] font-bold text-indigo-400 mr-0.5 select-none">
+          ({num})
+        </sup>
+      );
       if (st === "unanswered") {
         const em = Math.min(24, Math.max(4, Math.round(t.text.length * 0.6)));
         nodes.push(
-          <span key={t.idx}
-            className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none mx-0.5"
-            style={{ minWidth: `${em}em` }}>_</span>
+          <span key={t.idx} className="inline-block align-middle mx-0.5">
+            {numLabel}
+            <span
+              className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none"
+              style={{ minWidth: `${em}em` }}>_</span>
+          </span>
         );
       } else if (st === "correct") {
         nodes.push(
-          <span key={t.idx}
-            className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 mx-0.5">
-            {t.text}
+          <span key={t.idx} className="inline-block align-middle mx-0.5">
+            {numLabel}
+            <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5">
+              {t.text}
+            </span>
           </span>
         );
       } else {
         nodes.push(
-          <span key={t.idx}
-            className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 mx-0.5">
-            {t.text}
+          <span key={t.idx} className="inline-block align-middle mx-0.5">
+            {numLabel}
+            <span className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5">
+              {t.text}
+            </span>
           </span>
         );
       }
@@ -225,6 +244,13 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
     () => tokens.filter((t) => blankedSet.has(t.idx)),
     [tokens, blankedSet]
   );
+
+  // tokenIdx → 1-based 番号（コンテキスト内の (1)(2)... 表示用）
+  const blankNumberMap = useMemo(() => {
+    const m = new Map<number, number>();
+    activeBlanks.forEach((t, i) => m.set(t.idx, i + 1));
+    return m;
+  }, [activeBlanks]);
 
   // カード切り替え時リセット
   useEffect(() => {
@@ -390,6 +416,7 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
               blankedSet={blankedSet}
               disabledOriginals={disabledOriginals}
               inputStates={inputStates}
+              blankNumberMap={blankNumberMap}
             />
           </div>
 
