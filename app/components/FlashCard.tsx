@@ -48,9 +48,15 @@ function parseContextLine(
     const state = states[idx] ?? "unanswered";
     const answer = answers[idx] ?? "";
     if (state === "unanswered") {
+      // 伏字幅を回答文字数に比例させる（1文字≒0.6em、最小4em・最大24em）
+      const em = Math.min(24, Math.max(4, Math.round(answer.length * 0.6)));
       return (
-        <span key={keyOffset + i} className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none min-w-[60px] mx-0.5">
-          {"____"}
+        <span
+          key={keyOffset + i}
+          className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none mx-0.5"
+          style={{ minWidth: `${em}em` }}
+        >
+          {"_"}
         </span>
       );
     }
