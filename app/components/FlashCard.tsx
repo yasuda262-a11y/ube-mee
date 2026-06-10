@@ -168,7 +168,7 @@ function StudyTokens({
         entry.blank.chunks.forEach((chunk, ci) => {
           if (ci > 0) nodes.push(<span key={`csp-${t.idx}-${ci}`}> </span>);
           if (chunk.type === "disabled") {
-            nodes.push(<span key={`cd-${t.idx}-${ci}`} className="text-gray-400 italic">{chunk.text}</span>);
+            nodes.push(<span key={`cd-${t.idx}-${ci}`}>{chunk.text}</span>);
           } else if (!blankRendered) {
             blankRendered = true;
             nodes.push(<BlankBox key={`cb-${t.idx}-${ci}`} answer={entry.blank.answer} num={entry.number} state={state} />);
