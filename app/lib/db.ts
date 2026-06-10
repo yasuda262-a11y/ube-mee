@@ -21,21 +21,40 @@ const OVERRIDE_LS = "ube-blank-overrides-v3";
 
 export async function fetchOverrides(): Promise<Record<number, BlankOverride>> {
   const uid = await getUserId();
-  if (!uid) {
+  const localData: Record<number, BlankOverride> = (() => {
     try { return JSON.parse(localStorage.getItem(OVERRIDE_LS) ?? "{}"); } catch { return {}; }
-  }
+  })();
+
+  if (!uid) return localData;
+
   const { data, error } = await supabase
     .from("blank_overrides")
     .select("card_id, override")
     .eq("user_id", uid);
-  if (error) {
-    try { return JSON.parse(localStorage.getItem(OVERRIDE_LS) ?? "{}"); } catch { return {}; }
+  if (error) return localData;
+
+  const remoteData: Record<number, BlankOverride> = {};
+  for (const row of data ?? []) remoteData[row.card_id] = row.override;
+
+  // ローカルにあってリモートにないデータをアップロード（初回ログイン時の移行）
+  const localOnlyKeys = Object.keys(localData)
+    .map(Number)
+    .filter(k => !(k in remoteData));
+  if (localOnlyKeys.length > 0) {
+    await supabase.from("blank_overrides").upsert(
+      localOnlyKeys.map(cardId => ({
+        user_id: uid,
+        card_id: cardId,
+        override: localData[cardId],
+        updated_at: new Date().toISOString(),
+      })),
+      { onConflict: "user_id,card_id" }
+    );
+    for (const k of localOnlyKeys) remoteData[k] = localData[k];
   }
-  const result: Record<number, BlankOverride> = {};
-  for (const row of data ?? []) result[row.card_id] = row.override;
-  // mirror to localStorage as cache
-  localStorage.setItem(OVERRIDE_LS, JSON.stringify(result));
-  return result;
+
+  localStorage.setItem(OVERRIDE_LS, JSON.stringify(remoteData));
+  return remoteData;
 }
 
 export async function saveOverrideRemote(cardId: number, override: BlankOverride): Promise<void> {
@@ -60,20 +79,41 @@ const STATS_LS = "ube_stats";
 
 export async function fetchStats(): Promise<StatsRecord> {
   const uid = await getUserId();
-  if (!uid) {
+  const localData: StatsRecord = (() => {
     try { return JSON.parse(localStorage.getItem(STATS_LS) ?? "{}"); } catch { return {}; }
-  }
+  })();
+
+  if (!uid) return localData;
+
   const { data, error } = await supabase
     .from("stats")
     .select("card_id, correct, total")
     .eq("user_id", uid);
-  if (error) {
-    try { return JSON.parse(localStorage.getItem(STATS_LS) ?? "{}"); } catch { return {}; }
+  if (error) return localData;
+
+  const remoteData: StatsRecord = {};
+  for (const row of data ?? []) remoteData[row.card_id] = { correct: row.correct, total: row.total };
+
+  // ローカルにあってリモートにないデータをアップロード
+  const localOnlyKeys = Object.keys(localData)
+    .map(Number)
+    .filter(k => !(k in remoteData));
+  if (localOnlyKeys.length > 0) {
+    await supabase.from("stats").upsert(
+      localOnlyKeys.map(cardId => ({
+        user_id: uid,
+        card_id: cardId,
+        correct: localData[cardId].correct,
+        total: localData[cardId].total,
+        updated_at: new Date().toISOString(),
+      })),
+      { onConflict: "user_id,card_id" }
+    );
+    for (const k of localOnlyKeys) remoteData[k] = localData[k];
   }
-  const result: StatsRecord = {};
-  for (const row of data ?? []) result[row.card_id] = { correct: row.correct, total: row.total };
-  localStorage.setItem(STATS_LS, JSON.stringify(result));
-  return result;
+
+  localStorage.setItem(STATS_LS, JSON.stringify(remoteData));
+  return remoteData;
 }
 
 export async function saveStatRemote(cardId: number, correct: number, total: number): Promise<void> {
@@ -97,20 +137,40 @@ const CARD_MEMO_LS = "ube-card-memos";
 
 export async function fetchCardMemos(): Promise<Record<number, string>> {
   const uid = await getUserId();
-  if (!uid) {
+  const localData: Record<number, string> = (() => {
     try { return JSON.parse(localStorage.getItem(CARD_MEMO_LS) ?? "{}"); } catch { return {}; }
-  }
+  })();
+
+  if (!uid) return localData;
+
   const { data, error } = await supabase
     .from("card_memos")
     .select("card_id, memo")
     .eq("user_id", uid);
-  if (error) {
-    try { return JSON.parse(localStorage.getItem(CARD_MEMO_LS) ?? "{}"); } catch { return {}; }
+  if (error) return localData;
+
+  const remoteData: Record<number, string> = {};
+  for (const row of data ?? []) remoteData[row.card_id] = row.memo;
+
+  // ローカルにあってリモートにないデータをアップロード
+  const localOnlyKeys = Object.keys(localData)
+    .map(Number)
+    .filter(k => !(k in remoteData));
+  if (localOnlyKeys.length > 0) {
+    await supabase.from("card_memos").upsert(
+      localOnlyKeys.map(cardId => ({
+        user_id: uid,
+        card_id: cardId,
+        memo: localData[cardId],
+        updated_at: new Date().toISOString(),
+      })),
+      { onConflict: "user_id,card_id" }
+    );
+    for (const k of localOnlyKeys) remoteData[k] = localData[k];
   }
-  const result: Record<number, string> = {};
-  for (const row of data ?? []) result[row.card_id] = row.memo;
-  localStorage.setItem(CARD_MEMO_LS, JSON.stringify(result));
-  return result;
+
+  localStorage.setItem(CARD_MEMO_LS, JSON.stringify(remoteData));
+  return remoteData;
 }
 
 export async function saveCardMemoRemote(cardId: number, memo: string): Promise<void> {
