@@ -56,7 +56,7 @@ function judge(input: string, answer: string): boolean {
 }
 
 function isListStartText(text: string): boolean {
-  return /^(\d+[).]\s*|[a-z][).]\s*|[ivxlcdm]+[).]\s*|[−–•▪■])/.test(text);
+  return /^(\d+[).]\s*|[a-z][).]\s*|[ivxlcdm]+[).]\s*|[−–•▪■]|\*)/.test(text);
 }
 
 /** 箇条書きマーカーか判定 */
