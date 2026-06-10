@@ -155,14 +155,24 @@ export function getEnabledAnswer(answer: string, disabledWordIdxs: Set<number>):
 
 // ---- Active blank computation ---------------------------------------------
 
+export type SubBlank = {
+  id: string;
+  answer: string;
+};
+
 export type ActiveBlank = {
   id: string;         // 一意キー
   leadTokenIdx: number;   // 描画の基準となるトークン idx
-  answer: string;     // ユーザーが入力すべき答え
+  answer: string;     // ユーザーが入力すべき答え（単一 or 全体）
   /** originalBlank の場合、部分無効化チャンク（描画用） */
   chunks?: BlankWordChunk[];
   /** カスタムグループ全体の token.idx（複数単語グループ用） */
   groupTokenIdxs?: number[];
+  /**
+   * 有効チャンクが2つ以上ある場合、チャンクごとに独立した空欄として入力させる。
+   * インデックス順は enabled chunk の出現順に対応。
+   */
+  subBlanks?: SubBlank[];
 };
 
 /**
@@ -185,11 +195,23 @@ export function getActiveBlanks(tokens: Token[], override: BlankOverride): Activ
       ? splitBlankIntoChunks(t.text, disabledWords)
       : undefined;
 
+    let subBlanks: SubBlank[] | undefined;
+    if (chunks) {
+      const enabledChunks = chunks.filter(c => c.type === "enabled") as Array<{ type: "enabled"; text: string }>;
+      if (enabledChunks.length > 1) {
+        subBlanks = enabledChunks.map((c, ci) => ({
+          id: `orig-${t.blankIdx}-${ci}`,
+          answer: c.text,
+        }));
+      }
+    }
+
     result.push({
       id: `orig-${t.blankIdx}`,
       leadTokenIdx: t.idx,
       answer,
       chunks,
+      subBlanks,
     });
   }
 

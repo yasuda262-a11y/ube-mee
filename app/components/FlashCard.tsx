@@ -102,10 +102,11 @@ function separator(prev: Token, cur: Token, key: string): React.ReactNode {
 
 // ---- Blank box renderers --------------------------------------------------
 
-function BlankBox({ answer, num, state }: {
+function BlankBox({ answer, num, state, onClick }: {
   answer: string;
   num: number;
   state: "unanswered" | "exact" | "partial" | "incorrect";
+  onClick?: () => void;
 }) {
   const em = Math.min(24, Math.max(4, Math.round(answer.length * 0.6)));
   const numLabel = (
@@ -115,7 +116,8 @@ function BlankBox({ answer, num, state }: {
   );
   if (state === "unanswered") {
     return (
-      <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
+      <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full"
+        onClick={onClick} style={onClick ? { cursor: "pointer" } : undefined}>
         {numLabel}
         <span className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle"
           style={{ minWidth: `${em}em`, maxWidth: "100%" }}>_</span>
@@ -160,11 +162,13 @@ function StudyTokens({
   tokens,
   activeBlanks,
   inputStates,
+  blankNumberMap,
   onFocusBlank,
 }: {
   tokens: Token[];
   activeBlanks: ActiveBlank[];
-  inputStates: Map<string, InputState>; // blank.id → state
+  inputStates: Map<string, InputState>; // blank.id or subBlank.id → state
+  blankNumberMap: Map<string, number>;  // blank.id or subBlank.id → 1-based number
   onFocusBlank?: (blankId: string) => void;
 }) {
   const blankMap = useMemo(() => buildBlankMap(activeBlanks), [activeBlanks]);
@@ -208,31 +212,28 @@ function StudyTokens({
 
     const entry = blankMap.get(t.idx);
     if (entry) {
-      const state = inputStates.get(entry.blank.id) ?? "unanswered";
       if (entry.blank.chunks) {
-        let blankRendered = false;
+        // 有効チャンクごとに subBlanks が対応（なければ親 blank を使う）
+        let enabledIdx = 0;
         entry.blank.chunks.forEach((chunk, ci) => {
           if (ci > 0) pushNode(<span key={`csp-${t.idx}-${ci}`}> </span>);
           if (chunk.type === "disabled") {
             pushNode(<span key={`cd-${t.idx}-${ci}`}>{chunk.text}</span>);
-          } else if (!blankRendered) {
-            blankRendered = true;
-            pushNode(<BlankBox key={`cb-${t.idx}-${ci}`} answer={entry.blank.answer} num={entry.number} state={state} />);
           } else {
-            const em2 = Math.min(16, Math.max(3, Math.round(chunk.text.length * 0.6)));
-            const blankId2 = entry.blank.id;
+            const sub = entry.blank.subBlanks?.[enabledIdx];
+            const bId = sub ? sub.id : entry.blank.id;
+            const bAnswer = sub ? sub.answer : entry.blank.answer;
+            const bNum = blankNumberMap.get(bId) ?? entry.number;
+            const state = inputStates.get(bId) ?? "unanswered";
             pushNode(
-              <span
-                key={`ce-${t.idx}-${ci}`}
-                className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle mx-0.5 cursor-pointer"
-                style={{ minWidth: `${em2}em` }}
-                onClick={() => onFocusBlank?.(blankId2)}
-                title={`空欄 (${entry.number})`}
-              >_</span>
+              <BlankBox key={`cb-${t.idx}-${ci}`} answer={bAnswer} num={bNum} state={state}
+                onClick={() => onFocusBlank?.(bId)} />
             );
+            enabledIdx++;
           }
         });
       } else {
+        const state = inputStates.get(entry.blank.id) ?? "unanswered";
         pushNode(<BlankBox key={t.idx} answer={entry.blank.answer} num={entry.number} state={state} />);
       }
     } else if (disabledOrigSet.has(t.idx)) {
@@ -388,10 +389,17 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     [tokens, override]
   );
 
-  // blank.id → 1-based番号
+  // blank.id / subBlank.id → 1-based番号
   const blankNumberMap = useMemo(() => {
     const m = new Map<string, number>();
-    activeBlanks.forEach((b, i) => m.set(b.id, i + 1));
+    let n = 1;
+    for (const b of activeBlanks) {
+      if (b.subBlanks && b.subBlanks.length > 1) {
+        for (const sb of b.subBlanks) m.set(sb.id, n++);
+      } else {
+        m.set(b.id, n++);
+      }
+    }
     return m;
   }, [activeBlanks]);
 
@@ -540,10 +548,19 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     const newStates = new Map<string, InputState>();
     const results: boolean[] = [];
     for (const b of activeBlanks) {
-      const input = inputs.get(b.id) ?? "";
-      const result = judge(input, b.answer);
-      newStates.set(b.id, result || "incorrect");
-      results.push(!!result);
+      if (b.subBlanks && b.subBlanks.length > 1) {
+        for (const sb of b.subBlanks) {
+          const input = inputs.get(sb.id) ?? "";
+          const result = judge(input, sb.answer);
+          newStates.set(sb.id, result || "incorrect");
+          results.push(!!result);
+        }
+      } else {
+        const input = inputs.get(b.id) ?? "";
+        const result = judge(input, b.answer);
+        newStates.set(b.id, result || "incorrect");
+        results.push(!!result);
+      }
     }
     setInputStates(newStates);
     setSubmitted(true);
@@ -553,18 +570,30 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
   function handleReveal() {
     if (submitted) return;
     const newStates = new Map<string, InputState>();
-    for (const b of activeBlanks) newStates.set(b.id, "incorrect");
+    for (const b of activeBlanks) {
+      if (b.subBlanks && b.subBlanks.length > 1) {
+        for (const sb of b.subBlanks) newStates.set(sb.id, "incorrect");
+      } else {
+        newStates.set(b.id, "incorrect");
+      }
+    }
     setInputStates(newStates);
     setSubmitted(true);
-    onResult(activeBlanks.map(() => false));
+    onResult(activeBlanks.flatMap(b => b.subBlanks && b.subBlanks.length > 1 ? b.subBlanks.map(() => false) : [false]));
   }
+
+  // 全入力 ID（subBlanks 考慮）
+  const allInputIds = useMemo(() =>
+    activeBlanks.flatMap(b =>
+      b.subBlanks && b.subBlanks.length > 1 ? b.subBlanks.map(sb => ({ id: sb.id, answer: sb.answer })) : [{ id: b.id, answer: b.answer }]
+    ), [activeBlanks]);
 
   const exactCount = [...inputStates.values()].filter(s => s === "exact").length;
   const partialCount = [...inputStates.values()].filter(s => s === "partial").length;
   const correctCount = exactCount + partialCount;
-  const allCorrect = submitted && activeBlanks.length > 0 && correctCount === activeBlanks.length;
+  const allCorrect = submitted && allInputIds.length > 0 && correctCount === allInputIds.length;
   const pri = card.priority ? PRIORITY_LABEL[card.priority] : null;
-  const someInput = activeBlanks.some(b => (inputs.get(b.id) ?? "").trim() !== "");
+  const someInput = allInputIds.some(({ id }) => (inputs.get(id) ?? "").trim() !== "");
 
   return (
     <div className="flex flex-col gap-4">
@@ -664,29 +693,36 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
             !submitted ? "border-gray-100" : allCorrect ? "border-emerald-300" : "border-red-200"
           }`}>
             <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates}
+              blankNumberMap={blankNumberMap}
               onFocusBlank={(id) => inputRefs.current.get(id)?.focus()} />
           </div>
 
           {!submitted ? (
             <form onSubmit={handleSubmit} className="flex flex-col gap-3">
               {activeBlanks.map((b) => {
-                const num = blankNumberMap.get(b.id) ?? 0;
-                return (
-                  <div key={b.id} className="flex items-center gap-2">
-                    <span className="text-xs font-bold text-indigo-400 w-5 flex-shrink-0">({num})</span>
-                    <input
-                      ref={(el) => { inputRefs.current.set(b.id, el); }}
-                      value={inputs.get(b.id) ?? ""}
-                      onChange={(e) => {
-                        const next = new Map(inputs);
-                        next.set(b.id, e.target.value);
-                        setInputs(next);
-                      }}
-                      placeholder={`空欄 (${num}) を入力...`}
-                      className="flex-1 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-900 text-sm focus:outline-none focus:border-indigo-400 bg-white"
-                    />
-                  </div>
-                );
+                // subBlanks がある場合は各チャンクごとに入力欄を表示
+                const rows = b.subBlanks && b.subBlanks.length > 1
+                  ? b.subBlanks.map(sb => ({ id: sb.id, answer: sb.answer }))
+                  : [{ id: b.id, answer: b.answer }];
+                return rows.map(({ id }) => {
+                  const num = blankNumberMap.get(id) ?? 0;
+                  return (
+                    <div key={id} className="flex items-center gap-2">
+                      <span className="text-xs font-bold text-indigo-400 w-5 flex-shrink-0">({num})</span>
+                      <input
+                        ref={(el) => { inputRefs.current.set(id, el); }}
+                        value={inputs.get(id) ?? ""}
+                        onChange={(e) => {
+                          const next = new Map(inputs);
+                          next.set(id, e.target.value);
+                          setInputs(next);
+                        }}
+                        placeholder={`空欄 (${num}) を入力...`}
+                        className="flex-1 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-900 text-sm focus:outline-none focus:border-indigo-400 bg-white"
+                      />
+                    </div>
+                  );
+                });
               })}
               <div className="flex gap-2 mt-1">
                 <button type="submit" disabled={!someInput}
@@ -709,54 +745,59 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
           ) : (
             <div className="flex flex-col gap-3">
               {activeBlanks.map((b) => {
-                const num = blankNumberMap.get(b.id) ?? 0;
-                const s = inputStates.get(b.id) ?? "unanswered";
-                return (
-                  <div key={b.id} className={`flex items-start gap-3 rounded-2xl px-4 py-3 ${
-                    s === "exact" ? "bg-emerald-50 border border-emerald-200"
-                    : s === "partial" ? "bg-teal-50 border border-teal-200"
-                    : "bg-red-50 border border-red-200"
-                  }`}>
-                    {s === "exact"
-                      ? <CheckCircle size={18} className="text-emerald-500 flex-shrink-0 mt-0.5" />
-                      : s === "partial"
-                      ? <CheckCircle size={18} className="text-teal-400 flex-shrink-0 mt-0.5" />
-                      : <XCircle size={18} className="text-red-400 flex-shrink-0 mt-0.5" />}
-                    <div className="flex-1 min-w-0">
-                      <p className="text-xs text-gray-500 mb-0.5">空欄 ({num})</p>
+                const rows = b.subBlanks && b.subBlanks.length > 1
+                  ? b.subBlanks.map(sb => ({ id: sb.id, answer: sb.answer }))
+                  : [{ id: b.id, answer: b.answer }];
+                return rows.map(({ id, answer }) => {
+                  const num = blankNumberMap.get(id) ?? 0;
+                  const s = inputStates.get(id) ?? "unanswered";
+                  return (
+                    <div key={id} className={`flex items-start gap-3 rounded-2xl px-4 py-3 ${
+                      s === "exact" ? "bg-emerald-50 border border-emerald-200"
+                      : s === "partial" ? "bg-teal-50 border border-teal-200"
+                      : "bg-red-50 border border-red-200"
+                    }`}>
                       {s === "exact"
-                        ? <>
-                            <p className="font-semibold text-emerald-700 text-sm">正解！</p>
-                            {(inputs.get(b.id) ?? "") && (
-                              <p className="text-xs text-emerald-600 mt-0.5">あなたの回答：{inputs.get(b.id)}</p>
-                            )}
-                          </>
+                        ? <CheckCircle size={18} className="text-emerald-500 flex-shrink-0 mt-0.5" />
                         : s === "partial"
-                        ? <>
-                            <p className="font-semibold text-teal-700 text-sm">ほぼ正解 <span className="text-[11px] font-normal text-teal-600">（部分一致）</span></p>
-                            <p className="text-xs text-teal-700 mt-0.5">正解：<span className="font-bold">{b.answer}</span></p>
-                            {(inputs.get(b.id) ?? "") && (
-                              <p className="text-xs text-teal-600 mt-0.5">あなたの回答：{inputs.get(b.id)}</p>
-                            )}
-                          </>
-                        : <>
-                            <p className="font-semibold text-red-600 text-sm">
-                              正解：<span className="font-bold">{b.answer}</span>
-                            </p>
-                            {(inputs.get(b.id) ?? "") && (
-                              <p className="text-xs text-gray-400 mt-0.5">あなたの回答：{inputs.get(b.id)}</p>
-                            )}
-                          </>
-                      }
+                        ? <CheckCircle size={18} className="text-teal-400 flex-shrink-0 mt-0.5" />
+                        : <XCircle size={18} className="text-red-400 flex-shrink-0 mt-0.5" />}
+                      <div className="flex-1 min-w-0">
+                        <p className="text-xs text-gray-500 mb-0.5">空欄 ({num})</p>
+                        {s === "exact"
+                          ? <>
+                              <p className="font-semibold text-emerald-700 text-sm">正解！</p>
+                              {(inputs.get(id) ?? "") && (
+                                <p className="text-xs text-emerald-600 mt-0.5">あなたの回答：{inputs.get(id)}</p>
+                              )}
+                            </>
+                          : s === "partial"
+                          ? <>
+                              <p className="font-semibold text-teal-700 text-sm">ほぼ正解 <span className="text-[11px] font-normal text-teal-600">（部分一致）</span></p>
+                              <p className="text-xs text-teal-700 mt-0.5">正解：<span className="font-bold">{answer}</span></p>
+                              {(inputs.get(id) ?? "") && (
+                                <p className="text-xs text-teal-600 mt-0.5">あなたの回答：{inputs.get(id)}</p>
+                              )}
+                            </>
+                          : <>
+                              <p className="font-semibold text-red-600 text-sm">
+                                正解：<span className="font-bold">{answer}</span>
+                              </p>
+                              {(inputs.get(id) ?? "") && (
+                                <p className="text-xs text-gray-400 mt-0.5">あなたの回答：{inputs.get(id)}</p>
+                              )}
+                            </>
+                        }
+                      </div>
                     </div>
-                  </div>
-                );
+                  );
+                });
               })}
 
-              {activeBlanks.length > 1 && (
+              {allInputIds.length > 1 && (
                 <div className={`text-center text-sm font-bold rounded-2xl py-2 ${
                   allCorrect ? "text-emerald-600 bg-emerald-50" : "text-indigo-600 bg-indigo-50"
-                }`}>{correctCount} / {activeBlanks.length} 正解</div>
+                }`}>{correctCount} / {allInputIds.length} 正解</div>
               )}
 
               {/* カードメモ */}
