@@ -654,7 +654,12 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
                     <div className="flex-1 min-w-0">
                       <p className="text-xs text-gray-500 mb-0.5">空欄 ({num})</p>
                       {s === "correct"
-                        ? <p className="font-semibold text-emerald-700 text-sm">正解！</p>
+                        ? <>
+                            <p className="font-semibold text-emerald-700 text-sm">正解！</p>
+                            {(inputs.get(b.id) ?? "") && (
+                              <p className="text-xs text-emerald-600 mt-0.5">あなたの回答：{inputs.get(b.id)}</p>
+                            )}
+                          </>
                         : <>
                             <p className="font-semibold text-red-600 text-sm">
                               正解：<span className="font-bold">{b.answer}</span>
