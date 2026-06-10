@@ -49,10 +49,11 @@ function subjectActiveCls(s: string) {
 interface Props {
   cards: Card[];
   stats: StatsRecord;
+  subjectIndex: Map<number, number>;
   onStartFrom: (card: Card) => void;
 }
 
-export default function QuestionList({ cards, stats, onStartFrom }: Props) {
+export default function QuestionList({ cards, stats, subjectIndex, onStartFrom }: Props) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<"all" | "weak" | "unanswered">("all");
   const [subject, setSubject] = useState<string | null>(null);
@@ -165,9 +166,9 @@ export default function QuestionList({ cards, stats, onStartFrom }: Props) {
 
                 {/* タグ行 */}
                 <div className="flex gap-1.5 flex-wrap items-center">
-                  {/* 科目 */}
+                  {/* 科目 + 通し番号 */}
                   <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${subjectCls(c.subject)}`}>
-                    {c.subject}
+                    {c.subject} <span className="opacity-60">#{subjectIndex.get(c.id) ?? ""}</span>
                   </span>
 
                   {/* 大項目 */}

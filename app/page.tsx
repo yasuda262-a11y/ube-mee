@@ -319,7 +319,7 @@ export default function Home() {
           </div>
         </header>
         <div className="max-w-2xl mx-auto px-4 pt-4 pb-10">
-          <QuestionList cards={ALL_CARDS} stats={stats} onStartFrom={startFrom} />
+          <QuestionList cards={ALL_CARDS} stats={stats} subjectIndex={SUBJECT_INDEX} onStartFrom={startFrom} />
         </div>
       </div>
     );
