@@ -24,6 +24,7 @@ interface Props {
   card: Card;
   cardNumber: number;
   total: number;
+  subjectIndex: number;
   onResult: (results: boolean[]) => void;
   onNext: () => void;
 }
@@ -301,7 +302,7 @@ function EditTokens({
 
 // ---- Main component -------------------------------------------------------
 
-export default function FlashCard({ card, cardNumber, total, onResult, onNext }: Props) {
+export default function FlashCard({ card, cardNumber, total, subjectIndex, onResult, onNext }: Props) {
   const [override, setOverride] = useState<BlankOverride>({
     disabledOriginalBlanks: [],
     partialDisabledWords: {},
@@ -518,7 +519,9 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
 
       {/* メタ情報 */}
       <div className="flex gap-2 flex-wrap">
-        <span className="text-xs bg-indigo-50 text-indigo-600 font-semibold px-2.5 py-1 rounded-full">{card.subject}</span>
+        <span className="text-xs bg-indigo-50 text-indigo-600 font-semibold px-2.5 py-1 rounded-full">
+          {card.subject} <span className="opacity-60">#{subjectIndex}</span>
+        </span>
         {card.sectionHeader && (
           <span className="text-xs bg-gray-800 text-white font-semibold px-2.5 py-1 rounded-full">{card.sectionHeader}</span>
         )}

@@ -27,6 +27,17 @@ const SUBJECT_COLORS: Record<string, string> = {
 };
 function subjectColor(s: string) { return SUBJECT_COLORS[s] ?? "bg-gray-600"; }
 
+// 科目ごとの通し番号 (card.id → 1-based index within subject)
+const SUBJECT_INDEX: Map<number, number> = (() => {
+  const m = new Map<number, number>();
+  const counts: Record<string, number> = {};
+  for (const c of ALL_CARDS) {
+    counts[c.subject] = (counts[c.subject] ?? 0) + 1;
+    m.set(c.id, counts[c.subject]);
+  }
+  return m;
+})();
+
 export default function Home() {
   const [appMode, setAppMode] = useState<AppMode>("select");
   const [stats, setStats] = useState<StatsRecord>({});
@@ -352,6 +363,7 @@ export default function Home() {
           card={currentCard}
           cardNumber={deckIndex + 1}
           total={deck.length}
+          subjectIndex={SUBJECT_INDEX.get(currentCard.id) ?? 0}
           onResult={handleResult}
           onNext={handleNext}
         />
