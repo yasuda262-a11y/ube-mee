@@ -41,6 +41,13 @@ function judge(input: string, answer: string): boolean {
     s.toLowerCase().replace(/[^a-z0-9]/g, " ").replace(/\s+/g, " ").trim();
   const u = norm(input), a = norm(answer);
   if (!u) return false;
+  // 数字が含まれる場合：正解の数字がすべてユーザー入力に含まれていなければ不正解
+  const answerNums = a.match(/\d+/g);
+  if (answerNums && answerNums.length > 0) {
+    const inputNums = u.match(/\d+/g) ?? [];
+    const inputNumSet = new Set(inputNums);
+    if (!answerNums.every(n => inputNumSet.has(n))) return false;
+  }
   if (u === a) return true;
   const stop = new Set(["a","an","the","of","in","on","to","is","are","or","and","by","that","it","be","at","as","has","have","had","can","may","shall","will","its","their","which"]);
   const kws = a.split(/\s+/).filter(w => w.length > 2 && !stop.has(w));
