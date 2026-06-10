@@ -440,10 +440,10 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
       }
       const prevIdx = sortedTokens[i - 1].idx;
       const curIdx = sortedTokens[i].idx;
-      // prevIdx と curIdx の間に非選択トークンがあるか確認
+      // prevIdx と curIdx の間に非選択トークン（word/originalBlank 問わず）があるか確認
       const hasGap = tokens
         .slice(prevIdx + 1, curIdx)
-        .some(t => !pendingSelection.has(t.idx) && t.type === "word");
+        .some(t => !pendingSelection.has(t.idx));
       if (hasGap) {
         if (current.length > 0) groups.push(current);
         current = [curIdx];
