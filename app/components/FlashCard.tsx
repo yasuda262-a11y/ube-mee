@@ -94,27 +94,27 @@ function BlankBox({ answer, num, state }: {
   );
   if (state === "unanswered") {
     return (
-      <span className="inline-block align-baseline mx-0.5 whitespace-nowrap">
+      <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
         {numLabel}
         <span className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle"
-          style={{ minWidth: `${em}em` }}>_</span>
+          style={{ minWidth: `${em}em`, maxWidth: "100%" }}>_</span>
       </span>
     );
   }
   if (state === "correct") {
     return (
-      <span className="inline-block align-baseline mx-0.5 whitespace-nowrap">
+      <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
         {numLabel}
-        <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 align-middle">
+        <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 align-middle break-words">
           {answer}
         </span>
       </span>
     );
   }
   return (
-    <span className="inline-block align-baseline mx-0.5 whitespace-nowrap">
+    <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
       {numLabel}
-      <span className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 align-middle">
+      <span className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 align-middle break-words">
         {answer}
       </span>
     </span>
@@ -601,7 +601,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
       ) : (
         <>
           {/* ── 学習モード ── */}
-          <div className={`bg-white rounded-3xl border-2 shadow-md p-5 text-[15px] leading-8 text-gray-700 transition-colors ${
+          <div className={`bg-white rounded-3xl border-2 shadow-md p-5 text-[15px] leading-8 text-gray-700 transition-colors overflow-hidden ${
             !submitted ? "border-gray-100" : allCorrect ? "border-emerald-300" : "border-red-200"
           }`}>
             <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates} />
