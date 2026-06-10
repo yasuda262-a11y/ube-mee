@@ -454,6 +454,10 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
     if (current.length > 0) groups.push(current);
 
     const next = { ...override };
+    // 新しい選択範囲と重なる既存グループを除去（古い状態との干渉を防ぐ）
+    next.customBlanks = next.customBlanks.filter(
+      g => !g.some(idx => pendingSelection.has(idx))
+    );
     next.customBlanks = [...next.customBlanks, ...groups];
     applyOverride(next);
     setPendingSelection(new Set());
