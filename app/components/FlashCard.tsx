@@ -35,11 +35,13 @@ const PRIORITY_LABEL: Record<string, { label: string; color: string; bg: string 
 };
 
 function judge(input: string, answer: string): boolean {
-  const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9\s]/g, "").trim();
+  // 記号・句読点をすべてスペースに変換してから正規化（ハイフン・セミコロン等を無視）
+  const norm = (s: string) =>
+    s.toLowerCase().replace(/[^a-z0-9]/g, " ").replace(/\s+/g, " ").trim();
   const u = norm(input), a = norm(answer);
   if (!u) return false;
   if (u === a) return true;
-  const stop = new Set(["a","an","the","of","in","on","to","is","are","or","and","by","that","it","be","at","as"]);
+  const stop = new Set(["a","an","the","of","in","on","to","is","are","or","and","by","that","it","be","at","as","has","have","had","can","may","shall","will","its","their","which"]);
   const kws = a.split(/\s+/).filter(w => w.length > 2 && !stop.has(w));
   if (kws.length === 0) return a.includes(u) || u.includes(a);
   return kws.filter(kw => u.includes(kw)).length >= Math.ceil(kws.length * 0.6);
