@@ -188,7 +188,7 @@ function StudyTokens({
         );
       }
     } else if (disabledOrigSet.has(t.idx)) {
-      nodes.push(<span key={t.idx} className="text-gray-400 italic">{t.text}</span>);
+      nodes.push(<span key={t.idx}>{t.text}</span>);
     } else {
       nodes.push(<span key={t.idx}>{t.text}</span>);
     }
