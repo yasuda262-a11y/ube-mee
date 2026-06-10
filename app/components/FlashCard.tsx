@@ -175,7 +175,8 @@ function StudyTokens({
             nodes.push(<BlankBox key={`cb-${t.idx}-${ci}`} answer={entry.blank.answer} num={entry.number} state={state} />);
           } else {
             // 2つ目以降の enabled チャンク: 下線スパンで位置を示す（同じ空欄の続き）
-            const dashLen = Math.max(chunk.text.length, 3);
+            // 長すぎる答えで全幅にならないよう上限を設ける
+            const dashLen = Math.min(Math.max(chunk.text.length, 3), 24);
             nodes.push(
               <span
                 key={`ce-${t.idx}-${ci}`}
