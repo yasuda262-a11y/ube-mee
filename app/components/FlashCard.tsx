@@ -136,10 +136,12 @@ function StudyTokens({
   tokens,
   activeBlanks,
   inputStates,
+  onFocusBlank,
 }: {
   tokens: Token[];
   activeBlanks: ActiveBlank[];
   inputStates: Map<string, InputState>; // blank.id → state
+  onFocusBlank?: (blankId: string) => void;
 }) {
   const blankMap = useMemo(() => buildBlankMap(activeBlanks), [activeBlanks]);
   const skipSet = useMemo(() => buildSkipSet(activeBlanks), [activeBlanks]);
@@ -181,15 +183,17 @@ function StudyTokens({
             blankRendered = true;
             nodes.push(<BlankBox key={`cb-${t.idx}-${ci}`} answer={entry.blank.answer} num={entry.number} state={state} />);
           } else {
-            // 2つ目以降の enabled チャンク: 下線スパンで位置を示す（同じ空欄の続き）
-            // 長すぎる答えで全幅にならないよう上限を設ける
-            const dashLen = Math.min(Math.max(chunk.text.length, 3), 24);
+            // 2つ目以降の enabled チャンク: 同じ空欄の一部として gray box で表示
+            const em2 = Math.min(16, Math.max(3, Math.round(chunk.text.length * 0.6)));
+            const blankId2 = entry.blank.id;
             nodes.push(
               <span
                 key={`ce-${t.idx}-${ci}`}
-                className="inline-block border-b-2 border-indigo-400 min-w-[1.5rem] mx-0.5"
-                style={{ color: "transparent", userSelect: "none" }}
-              >{"_".repeat(dashLen)}</span>
+                className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle mx-0.5 cursor-pointer"
+                style={{ minWidth: `${em2}em` }}
+                onClick={() => onFocusBlank?.(blankId2)}
+                title={`空欄 (${entry.number})`}
+              >_</span>
             );
           }
         });
@@ -611,7 +615,8 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
           <div className={`bg-white rounded-3xl border-2 shadow-md p-5 text-[15px] leading-8 text-gray-700 transition-colors overflow-hidden ${
             !submitted ? "border-gray-100" : allCorrect ? "border-emerald-300" : "border-red-200"
           }`}>
-            <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates} />
+            <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates}
+              onFocusBlank={(id) => inputRefs.current.get(id)?.focus()} />
           </div>
 
           {!submitted ? (
