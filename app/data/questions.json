@@ -3983,7 +3983,7 @@
     "sectionHeader": "I. Joinder of Parties & Claims",
     "subsectionTitle": "Class Actions",
     "priority": "M",
-    "context": "Class Certification: If the above are met, the class will\nbe certified if:\na) Inconsistent/Dispositive Adjudications –\nseparate actions would create a risk of (i)\n__BLANK_1__ (ii) harm the\ninterests __BLANK_2__\nb) Declaratory/Injunctive Relief – the party\nopposing the class has acted/refused to act on\ngrounds that apply generally to the class so that\nthe grounds for declaratory/injunctive relief are\nappropriate to the whole class; OR",
+    "context": "Class Certification: If the above are met, the class will\nbe certified if:\na) Inconsistent/Dispositive Adjudications –\nseparate actions would create a risk of (i)\n__BLANK_1__ (ii) harm the\ninterests __BLANK_2__\nb) Declaratory/Injunctive Relief – the party\nopposing the class has acted/refused to act on\ngrounds that apply generally to the class so that\nthe grounds for declaratory/injunctive relief are\nappropriate to the whole class; OR\nc) Predominance & Superiority – common\nquestions of law or fact __BLANK_3__ and a\nclass action is superior to other methods.",
     "blanks": [
       {
         "idx": 1,
@@ -3992,20 +3992,9 @@
       {
         "idx": 2,
         "answer": "of absent class members;"
-      }
-    ]
-  },
-  {
-    "id": 198,
-    "page": 28,
-    "subject": "CIVIL PROCEDURE",
-    "sectionHeader": "I. Joinder of Parties & Claims",
-    "subsectionTitle": null,
-    "priority": null,
-    "context": "c) Predominance & Superiority – common\nquestions of law or fact __BLANK_1__ and a\nclass action is superior to other methods.",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 3,
         "answer": "are predominant,"
       }
     ]
