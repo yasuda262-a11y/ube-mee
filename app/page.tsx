@@ -4,12 +4,17 @@ import { useState, useEffect, useMemo } from "react";
 import {
   BookOpen, LayoutList, BarChart2, ChevronDown,
   RotateCcw, AlertTriangle, Shuffle, NotebookPen,
+  LogIn, LogOut, User,
 } from "lucide-react";
 import { ALL_CARDS, SUBJECTS, TOTAL_BLANKS, type Card } from "./data/questions";
 import FlashCard from "./components/FlashCard";
 import QuestionList from "./components/QuestionList";
 import MemoList from "./components/MemoList";
+import AuthModal from "./components/AuthModal";
 import { loadStats, recordCardResult, type StatsRecord } from "./lib/stats";
+import { supabase } from "./lib/supabase";
+import { fetchStats, saveStatRemote } from "./lib/db";
+import type { User as SupabaseUser } from "@supabase/supabase-js";
 
 type AppMode = "select" | "study" | "list" | "stats" | "memos";
 
@@ -46,8 +51,33 @@ export default function Home() {
   const [deckIndex, setDeckIndex] = useState(0);
   const [showSubjectMenu, setShowSubjectMenu] = useState(false);
   const [studyFrom, setStudyFrom] = useState<"select" | "list">("select");
+  const [user, setUser] = useState<SupabaseUser | null>(null);
+  const [showAuthModal, setShowAuthModal] = useState(false);
 
-  useEffect(() => { setStats(loadStats()); }, []);
+  // 認証状態の監視とデータ読み込み
+  useEffect(() => {
+    // 初期セッション取得
+    supabase.auth.getUser().then(({ data }) => {
+      setUser(data.user ?? null);
+    });
+    // ログイン/ログアウトイベント
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
+    });
+    return () => subscription.unsubscribe();
+  }, []);
+
+  // ユーザー変化時にデータをリモートから再取得してlocalStorageに反映
+  useEffect(() => {
+    fetchStats().then(setStats);
+    if (user) {
+      // 伏字・メモもリモートから取得（localStorageキャッシュを更新）
+      import("./lib/db").then(({ fetchOverrides, fetchCardMemos }) => {
+        fetchOverrides().catch(() => {});
+        fetchCardMemos().catch(() => {});
+      });
+    }
+  }, [user]);
 
   // 全体進捗 = 回答済みカード数 / 全カード数
   const overallRate = useMemo(() => {
@@ -87,7 +117,13 @@ export default function Home() {
 
   function handleResult(results: boolean[]) {
     const card = deck[deckIndex];
-    setStats((prev) => recordCardResult(prev, card.id, results));
+    setStats((prev) => {
+      const next = recordCardResult(prev, card.id, results);
+      // Supabase に非同期保存（エラーは無視してローカルは常に更新済み）
+      const s = next[card.id];
+      saveStatRemote(card.id, s.correct, s.total).catch(() => {});
+      return next;
+    });
   }
 
   function handleNext() {
@@ -101,12 +137,31 @@ export default function Home() {
     const progressPct = Math.round((answeredCount / ALL_CARDS.length) * 100);
     return (
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 flex flex-col">
-        <header className="px-4 py-4 flex items-center justify-center gap-2">
-          <div className="w-8 h-8 rounded-xl bg-amber-400 flex items-center justify-center">
-            <BookOpen size={15} className="text-slate-900" />
+        <header className="px-4 py-4 flex items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-xl bg-amber-400 flex items-center justify-center">
+              <BookOpen size={15} className="text-slate-900" />
+            </div>
+            <span className="font-bold text-white tracking-wide">UBE Smart Sheets</span>
           </div>
-          <span className="font-bold text-white tracking-wide">UBE Smart Sheets</span>
+          {user ? (
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-white/60 flex items-center gap-1">
+                <User size={12} />{user.email?.split("@")[0]}
+              </span>
+              <button onClick={() => supabase.auth.signOut()}
+                className="flex items-center gap-1 text-xs text-white/60 hover:text-white px-2 py-1 rounded-lg hover:bg-white/10 transition-colors">
+                <LogOut size={13} />ログアウト
+              </button>
+            </div>
+          ) : (
+            <button onClick={() => setShowAuthModal(true)}
+              className="flex items-center gap-1.5 text-xs font-semibold bg-amber-400 text-slate-900 px-3 py-1.5 rounded-xl hover:bg-amber-300 transition-colors">
+              <LogIn size={13} />ログイン
+            </button>
+          )}
         </header>
+        {showAuthModal && <AuthModal onClose={() => setShowAuthModal(false)} />}
 
         <main className="flex-1 flex flex-col items-center px-5 pb-10 gap-5 pt-2">
           <div className="w-full max-w-2xl flex flex-col gap-5">

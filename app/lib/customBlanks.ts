@@ -94,6 +94,12 @@ export function saveOverride(cardId: number, ov: BlankOverride) {
   if (isEmpty) delete store[cardId];
   else store[cardId] = ov;
   saveStore(store);
+  // Supabase に非同期保存（循環参照を避けるため動的インポート）
+  if (typeof window !== "undefined") {
+    import("./db").then(({ saveOverrideRemote }) => {
+      saveOverrideRemote(cardId, ov).catch(() => {});
+    });
+  }
 }
 
 export function resetOverride(cardId: number) {

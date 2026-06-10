@@ -32,4 +32,10 @@ export function saveCardMemo(cardId: number, text: string) {
     delete store[cardId];
   }
   save(store);
+  // Supabase に非同期保存
+  if (typeof window !== "undefined") {
+    import("./db").then(({ saveCardMemoRemote }) => {
+      saveCardMemoRemote(cardId, trimmed).catch(() => {});
+    });
+  }
 }
