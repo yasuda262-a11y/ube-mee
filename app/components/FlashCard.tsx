@@ -35,7 +35,7 @@ const PRIORITY_LABEL: Record<string, { label: string; color: string; bg: string 
   L: { label: "Low",    color: "text-yellow-600", bg: "bg-yellow-50 border-yellow-200" },
 };
 
-function judge(input: string, answer: string): boolean {
+function judge(input: string, answer: string): "exact" | "partial" | false {
   // 記号・句読点をすべてスペースに変換してから正規化（ハイフン・セミコロン等を無視）
   const norm = (s: string) =>
     s.toLowerCase().replace(/[^a-z0-9]/g, " ").replace(/\s+/g, " ").trim();
@@ -48,11 +48,13 @@ function judge(input: string, answer: string): boolean {
     const inputNumSet = new Set(inputNums);
     if (!answerNums.every(n => inputNumSet.has(n))) return false;
   }
-  if (u === a) return true;
+  if (u === a) return "exact";
   const stop = new Set(["a","an","the","of","in","on","to","is","are","or","and","by","that","it","be","at","as","has","have","had","can","may","shall","will","its","their","which"]);
   const kws = a.split(/\s+/).filter(w => w.length > 2 && !stop.has(w));
-  if (kws.length === 0) return a.includes(u) || u.includes(a);
-  return kws.filter(kw => u.includes(kw)).length >= Math.ceil(kws.length * 0.6);
+  const matches = kws.length === 0
+    ? (a.includes(u) || u.includes(a))
+    : kws.filter(kw => u.includes(kw)).length >= Math.ceil(kws.length * 0.6);
+  return matches ? "partial" : false;
 }
 
 function isListStartText(text: string): boolean {
@@ -103,7 +105,7 @@ function separator(prev: Token, cur: Token, key: string): React.ReactNode {
 function BlankBox({ answer, num, state }: {
   answer: string;
   num: number;
-  state: "unanswered" | "correct" | "incorrect";
+  state: "unanswered" | "exact" | "partial" | "incorrect";
 }) {
   const em = Math.min(24, Math.max(4, Math.round(answer.length * 0.6)));
   const numLabel = (
@@ -120,11 +122,21 @@ function BlankBox({ answer, num, state }: {
       </span>
     );
   }
-  if (state === "correct") {
+  if (state === "exact") {
     return (
       <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
         {numLabel}
         <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 align-middle break-words">
+          {answer}
+        </span>
+      </span>
+    );
+  }
+  if (state === "partial") {
+    return (
+      <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
+        {numLabel}
+        <span className="inline-block bg-teal-100 text-teal-800 font-semibold rounded px-1.5 align-middle break-words">
           {answer}
         </span>
       </span>
@@ -142,7 +154,7 @@ function BlankBox({ answer, num, state }: {
 
 // ---- Study mode -----------------------------------------------------------
 
-type InputState = "unanswered" | "correct" | "incorrect";
+type InputState = "unanswered" | "exact" | "partial" | "incorrect";
 
 function StudyTokens({
   tokens,
@@ -529,9 +541,9 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     const results: boolean[] = [];
     for (const b of activeBlanks) {
       const input = inputs.get(b.id) ?? "";
-      const correct = judge(input, b.answer);
-      newStates.set(b.id, correct ? "correct" : "incorrect");
-      results.push(correct);
+      const result = judge(input, b.answer);
+      newStates.set(b.id, result || "incorrect");
+      results.push(!!result);
     }
     setInputStates(newStates);
     setSubmitted(true);
@@ -547,7 +559,9 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     onResult(activeBlanks.map(() => false));
   }
 
-  const correctCount = [...inputStates.values()].filter(s => s === "correct").length;
+  const exactCount = [...inputStates.values()].filter(s => s === "exact").length;
+  const partialCount = [...inputStates.values()].filter(s => s === "partial").length;
+  const correctCount = exactCount + partialCount;
   const allCorrect = submitted && activeBlanks.length > 0 && correctCount === activeBlanks.length;
   const pri = card.priority ? PRIORITY_LABEL[card.priority] : null;
   const someInput = activeBlanks.some(b => (inputs.get(b.id) ?? "").trim() !== "");
@@ -699,18 +713,30 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                 const s = inputStates.get(b.id) ?? "unanswered";
                 return (
                   <div key={b.id} className={`flex items-start gap-3 rounded-2xl px-4 py-3 ${
-                    s === "correct" ? "bg-emerald-50 border border-emerald-200" : "bg-red-50 border border-red-200"
+                    s === "exact" ? "bg-emerald-50 border border-emerald-200"
+                    : s === "partial" ? "bg-teal-50 border border-teal-200"
+                    : "bg-red-50 border border-red-200"
                   }`}>
-                    {s === "correct"
+                    {s === "exact"
                       ? <CheckCircle size={18} className="text-emerald-500 flex-shrink-0 mt-0.5" />
+                      : s === "partial"
+                      ? <CheckCircle size={18} className="text-teal-400 flex-shrink-0 mt-0.5" />
                       : <XCircle size={18} className="text-red-400 flex-shrink-0 mt-0.5" />}
                     <div className="flex-1 min-w-0">
                       <p className="text-xs text-gray-500 mb-0.5">空欄 ({num})</p>
-                      {s === "correct"
+                      {s === "exact"
                         ? <>
                             <p className="font-semibold text-emerald-700 text-sm">正解！</p>
                             {(inputs.get(b.id) ?? "") && (
                               <p className="text-xs text-emerald-600 mt-0.5">あなたの回答：{inputs.get(b.id)}</p>
+                            )}
+                          </>
+                        : s === "partial"
+                        ? <>
+                            <p className="font-semibold text-teal-700 text-sm">ほぼ正解 <span className="text-[11px] font-normal text-teal-600">（部分一致）</span></p>
+                            <p className="text-xs text-teal-700 mt-0.5">正解：<span className="font-bold">{b.answer}</span></p>
+                            {(inputs.get(b.id) ?? "") && (
+                              <p className="text-xs text-teal-600 mt-0.5">あなたの回答：{inputs.get(b.id)}</p>
                             )}
                           </>
                         : <>
