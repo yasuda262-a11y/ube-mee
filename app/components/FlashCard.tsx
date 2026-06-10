@@ -631,6 +631,9 @@ export default function FlashCard({ card, cardNumber, total, onResult, onNext }:
                       ? "bg-indigo-600 text-white hover:bg-indigo-700 active:scale-95"
                       : "bg-gray-100 text-gray-400 cursor-not-allowed"
                   }`}>採点する</button>
+                <button type="button" onClick={onNext}
+                  className="flex-1 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-600 font-bold text-base hover:border-indigo-300 hover:text-indigo-600 transition-colors flex items-center justify-center gap-1"
+                  title="スキップして次へ">次へ <ChevronRight size={16} /></button>
                 <button type="button" onClick={handleReveal}
                   className="px-4 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300 transition-colors"
                   title="答えを見る"><Eye size={18} /></button>
