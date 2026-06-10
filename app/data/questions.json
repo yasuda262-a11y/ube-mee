@@ -3245,7 +3245,7 @@
     "sectionHeader": "C. Service of Process & Notice",
     "subsectionTitle": "Service of Process & Notice",
     "priority": "H",
-    "context": "Method of Service – The method of service must be\nconsistent with Due Process → reasonably calculated, to\nmake the parties aware of the action, and give them an\nopportunity to object.\n− Individual → may be served: __BLANK_1__ (b)\n__BLANK_2__ (c) via an agent (by\nappointment or by law); OR (d) in accordance",
+    "context": "Method of Service – The method of service must be\nconsistent with Due Process → reasonably calculated, to\nmake the parties aware of the action, and give them an\nopportunity to object.\n− Individual → may be served: __BLANK_1__ (b)\n__BLANK_2__ (c) via an agent (by\nappointment or by law); OR (d) in accordance\nwith state law of the forum state or where\nservice is made.\n− Corporation, Partnership, or Association → may\nbe served: (a) in accordance with state law of\nthe forum state or where service is made; OR\n(b) __BLANK_3__ − Foreign Defendant → may be served via any\nmanner NOT prohibited by international\nagreement.",
     "blanks": [
       {
         "idx": 1,
@@ -3254,20 +3254,9 @@
       {
         "idx": 2,
         "answer": "via someone of suitable age & discretion who resides at the individual’s current dwelling or usual place of abode;"
-      }
-    ]
-  },
-  {
-    "id": 163,
-    "page": 25,
-    "subject": "CIVIL PROCEDURE",
-    "sectionHeader": "C. Service of Process & Notice",
-    "subsectionTitle": null,
-    "priority": "H",
-    "context": "with state law of the forum state or where\nservice is made.\n− Corporation, Partnership, or Association → may\nbe served: (a) in accordance with state law of\nthe forum state or where service is made; OR\n(b) __BLANK_1__ − Foreign Defendant → may be served via any\nmanner NOT prohibited by international\nagreement.",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 3,
         "answer": "to an officer or managing/general/authorized agent."
       }
     ]
