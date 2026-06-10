@@ -56,34 +56,46 @@ function judge(input: string, answer: string): boolean {
 }
 
 function isListStartText(text: string): boolean {
-  return /^(\d+[).]\s*|[a-z][).]\s*|[ivxlcdm]+[).]\s*|[−–•])/.test(text);
+  return /^(\d+[).]\s*|[a-z][).]\s*|[ivxlcdm]+[).]\s*|[−–•▪■])/.test(text);
 }
+
+/** 箇条書きマーカーか判定 */
+const BULLET_RE = /^[▪•■]$/;
+/** ダッシュ系の箇条書きマーカーか判定（行頭限定） */
+const DASH_BULLET_RE = /^[−–]$/;
 
 /** 行末から取り出した最後の "表示テキスト"（blank は answer 文字列）を使う */
 function prevDisplayText(t: Token): string {
   return t.text;
 }
 
-function separator(prev: Token, cur: Token, key: string): React.ReactNode {
+/** prev→cur のセパレータ種別を返す */
+function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
   const curText = cur.type === "word" ? cur.text : "";
 
   if (prev.lineIdx === cur.lineIdx) {
-    // 同一行でも "−" / "–" の直前でブランクか文末ピリオドがある場合は改行
-    // （PDF上は別行だが抽出時に同一行にまとめられたケース）
-    const standaloneListDash = /^[−–]$/.test(curText);
+    const standaloneListDash = DASH_BULLET_RE.test(curText);
     if (standaloneListDash) {
       const pt = prevDisplayText(prev);
       if (prev.type === "originalBlank" || pt.endsWith(".") || pt.endsWith(";")) {
-        return <br key={key} />;
+        return "break";
       }
     }
-    return <span key={key}> </span>;
+    return "space";
   }
 
   // 行をまたぐ場合
-  if (prevDisplayText(prev).endsWith("-")) return null; // ハイフン連結
-  if (isListStartText(curText)) return <br key={key} />;
-  return <span key={key}> </span>;
+  if (prevDisplayText(prev).endsWith("-")) return "none"; // ハイフン連結
+  if (isListStartText(curText)) return "break";
+  return "space";
+}
+
+// Legacy wrapper for EditTokens which still uses ReactNode separator
+function separator(prev: Token, cur: Token, key: string): React.ReactNode {
+  const kind = lineSep(prev, cur);
+  if (kind === "break") return <br key={key} />;
+  if (kind === "space") return <span key={key}> </span>;
+  return null;
 }
 
 // ---- Blank box renderers --------------------------------------------------
@@ -154,39 +166,50 @@ function StudyTokens({
     return s;
   }, [tokens, blankMap]);
 
-  const nodes: React.ReactNode[] = [];
+  // 行ベース構造でレンダリング（箇条書きを適切に表示するため）
+  type RenderLine = { isBullet: boolean; nodes: React.ReactNode[] };
+  const lines: RenderLine[] = [{ isBullet: false, nodes: [] }];
   let prev: Token | null = null;
+
+  function curLine() { return lines[lines.length - 1]; }
+  function pushNode(n: React.ReactNode) { curLine().nodes.push(n); }
 
   for (const t of tokens) {
     if (skipSet.has(t.idx)) { prev = t; continue; }
 
     if (prev !== null) {
-      const sep = separator(prev, t, `sep-${t.idx}`);
-      if (sep) nodes.push(sep);
+      const kind = lineSep(prev, t);
+      if (kind === "break") {
+        lines.push({ isBullet: false, nodes: [] });
+      } else if (kind === "space") {
+        pushNode(<span key={`sep-${t.idx}`}> </span>);
+      }
+      // "none" → ハイフン連結、何も挿入しない
+    }
+
+    // 行頭の箇条書きマーカー → bullet フラグをセットしてスキップ（自前マーカーを表示）
+    if (t.type === "word" && (BULLET_RE.test(t.text) || DASH_BULLET_RE.test(t.text)) && curLine().nodes.length === 0) {
+      curLine().isBullet = true;
+      prev = t;
+      continue;
     }
 
     const entry = blankMap.get(t.idx);
     if (entry) {
       const state = inputStates.get(entry.blank.id) ?? "unanswered";
       if (entry.blank.chunks) {
-        // 部分的に無効化されている originalBlank:
-        // チャンクを元の順序通りにレンダリングする。
-        // disabled → グレーイタリック（元の位置に留まる）
-        // enabled 1つ目 → BlankBox（全 enabled 単語を answer に含む）
-        // enabled 2つ目以降 → 下線プレースホルダー（同じ空欄の続きを示す）
         let blankRendered = false;
         entry.blank.chunks.forEach((chunk, ci) => {
-          if (ci > 0) nodes.push(<span key={`csp-${t.idx}-${ci}`}> </span>);
+          if (ci > 0) pushNode(<span key={`csp-${t.idx}-${ci}`}> </span>);
           if (chunk.type === "disabled") {
-            nodes.push(<span key={`cd-${t.idx}-${ci}`}>{chunk.text}</span>);
+            pushNode(<span key={`cd-${t.idx}-${ci}`}>{chunk.text}</span>);
           } else if (!blankRendered) {
             blankRendered = true;
-            nodes.push(<BlankBox key={`cb-${t.idx}-${ci}`} answer={entry.blank.answer} num={entry.number} state={state} />);
+            pushNode(<BlankBox key={`cb-${t.idx}-${ci}`} answer={entry.blank.answer} num={entry.number} state={state} />);
           } else {
-            // 2つ目以降の enabled チャンク: 同じ空欄の一部として gray box で表示
             const em2 = Math.min(16, Math.max(3, Math.round(chunk.text.length * 0.6)));
             const blankId2 = entry.blank.id;
-            nodes.push(
+            pushNode(
               <span
                 key={`ce-${t.idx}-${ci}`}
                 className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle mx-0.5 cursor-pointer"
@@ -198,20 +221,31 @@ function StudyTokens({
           }
         });
       } else {
-        nodes.push(
-          <BlankBox key={t.idx} answer={entry.blank.answer} num={entry.number} state={state} />
-        );
+        pushNode(<BlankBox key={t.idx} answer={entry.blank.answer} num={entry.number} state={state} />);
       }
     } else if (disabledOrigSet.has(t.idx)) {
-      nodes.push(<span key={t.idx}>{t.text}</span>);
+      pushNode(<span key={t.idx}>{t.text}</span>);
     } else {
-      nodes.push(<span key={t.idx}>{t.text}</span>);
+      pushNode(<span key={t.idx}>{t.text}</span>);
     }
 
     prev = t;
   }
 
-  return <>{nodes}</>;
+  return (
+    <div>
+      {lines.map((line, li) =>
+        line.isBullet ? (
+          <div key={li} className="flex items-baseline gap-2 pl-1 mt-0.5">
+            <span className="text-gray-400 flex-shrink-0 leading-8 text-[13px]">▪</span>
+            <span className="flex-1 min-w-0">{line.nodes}</span>
+          </div>
+        ) : (
+          <span key={li} className={li > 0 ? "block" : undefined}>{line.nodes}</span>
+        )
+      )}
+    </div>
+  );
 }
 
 // ---- Edit mode ------------------------------------------------------------
