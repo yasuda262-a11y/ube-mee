@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search, CheckCircle, XCircle, Minus } from "lucide-react";
+import { Search, CheckCircle, XCircle, Minus, Flag } from "lucide-react";
 import type { Card } from "../data/questions";
 import { SUBJECTS } from "../data/questions";
 import type { StatsRecord } from "../lib/stats";
@@ -51,11 +51,13 @@ interface Props {
   stats: StatsRecord;
   subjectIndex: Map<number, number>;
   onStartFrom: (card: Card) => void;
+  flagged?: Set<number>;
+  onToggleFlag?: (cardId: number) => void;
 }
 
-export default function QuestionList({ cards, stats, subjectIndex, onStartFrom }: Props) {
+export default function QuestionList({ cards, stats, subjectIndex, onStartFrom, flagged = new Set(), onToggleFlag }: Props) {
   const [query, setQuery] = useState("");
-  const [filter, setFilter] = useState<"all" | "weak" | "unanswered">("all");
+  const [filter, setFilter] = useState<"all" | "weak" | "unanswered" | "flagged">("all");
   const [subject, setSubject] = useState<string | null>(null);
 
   const filtered = useMemo(() => {
@@ -67,6 +69,7 @@ export default function QuestionList({ cards, stats, subjectIndex, onStartFrom }
         return s.correct / s.total < 0.7;
       }
       if (filter === "unanswered") return !s || s.total === 0;
+      if (filter === "flagged") return flagged.has(c.id);
       if (query) {
         const lq = query.toLowerCase();
         return c.context.toLowerCase().includes(lq) ||
@@ -76,7 +79,7 @@ export default function QuestionList({ cards, stats, subjectIndex, onStartFrom }
       }
       return true;
     });
-  }, [cards, stats, filter, query, subject]);
+  }, [cards, stats, filter, query, subject, flagged]);
 
   function rateInfo(id: number) {
     const s = stats[id];
@@ -122,12 +125,14 @@ export default function QuestionList({ cards, stats, subjectIndex, onStartFrom }
 
       {/* 絞り込みタブ */}
       <div className="flex gap-1 bg-gray-100 rounded-xl p-1">
-        {([["all", "すべて"], ["weak", "苦手"], ["unanswered", "未回答"]] as const).map(([v, label]) => (
+        {([["all", "すべて"], ["weak", "苦手"], ["unanswered", "未回答"], ["flagged", "フラグ"]] as const).map(([v, label]) => (
           <button
             key={v}
             onClick={() => { setFilter(v); setQuery(""); }}
             className={`flex-1 py-2 text-xs font-bold rounded-lg transition-colors ${
-              filter === v ? "bg-white text-gray-800 shadow-sm" : "text-gray-500"
+              filter === v
+                ? v === "flagged" ? "bg-amber-400 text-white shadow-sm" : "bg-white text-gray-800 shadow-sm"
+                : "text-gray-500"
             }`}
           >
             {label}
@@ -143,10 +148,9 @@ export default function QuestionList({ cards, stats, subjectIndex, onStartFrom }
           const preview = c.context.replace(/__BLANK_\d+__/g, "[ ? ]").slice(0, 100) + "…";
           const answers = c.blanks.map((b) => b.answer).join(" / ");
           return (
-            <button
+            <div
               key={c.id}
-              onClick={() => onStartFrom(c)}
-              className="w-full bg-white rounded-2xl border border-gray-100 px-4 py-3.5 text-left flex items-start gap-3 hover:border-indigo-200 hover:bg-indigo-50 transition-colors active:scale-[0.99]"
+              className="w-full bg-white rounded-2xl border border-gray-100 px-4 py-3.5 flex items-start gap-3 hover:border-indigo-200 hover:bg-indigo-50 transition-colors"
             >
               {/* 正誤アイコン */}
               <div className="mt-1 flex-shrink-0">
@@ -157,7 +161,7 @@ export default function QuestionList({ cards, stats, subjectIndex, onStartFrom }
                   : <XCircle size={15} className="text-red-400" />}
               </div>
 
-              <div className="flex-1 min-w-0">
+              <button className="flex-1 min-w-0 text-left" onClick={() => onStartFrom(c)}>
                 {/* 答え */}
                 <p className="text-xs text-indigo-500 font-semibold mb-1 truncate">{answers}</p>
 
@@ -202,8 +206,21 @@ export default function QuestionList({ cards, stats, subjectIndex, onStartFrom }
                     </span>
                   )}
                 </div>
-              </div>
-            </button>
+              </button>
+              {/* フラグボタン */}
+              {onToggleFlag && (
+                <button
+                  onClick={() => onToggleFlag(c.id)}
+                  className={`mt-1 flex-shrink-0 p-1.5 rounded-lg transition-colors ${
+                    flagged.has(c.id)
+                      ? "text-amber-400 hover:bg-amber-50"
+                      : "text-gray-300 hover:text-amber-300 hover:bg-amber-50"
+                  }`}
+                >
+                  <Flag size={14} fill={flagged.has(c.id) ? "currentColor" : "none"} />
+                </button>
+              )}
+            </div>
           );
         })}
         {filtered.length === 0 && (

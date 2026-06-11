@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import {
   BookOpen, LayoutList, BarChart2, ChevronDown,
   RotateCcw, AlertTriangle, Shuffle, NotebookPen,
-  LogIn, LogOut, User,
+  LogIn, LogOut, User, Flag,
 } from "lucide-react";
 import { ALL_CARDS, SUBJECTS, TOTAL_BLANKS, type Card } from "./data/questions";
 import FlashCard from "./components/FlashCard";
@@ -13,7 +13,7 @@ import MemoList from "./components/MemoList";
 import AuthModal from "./components/AuthModal";
 import { loadStats, recordCardResult, type StatsRecord } from "./lib/stats";
 import { supabase } from "./lib/supabase";
-import { fetchStats, saveStatRemote } from "./lib/db";
+import { fetchStats, saveStatRemote, fetchFlags, saveFlagsRemote } from "./lib/db";
 import type { User as SupabaseUser } from "@supabase/supabase-js";
 
 type AppMode = "select" | "study" | "list" | "stats" | "memos";
@@ -51,6 +51,7 @@ export default function Home() {
   const [deckIndex, setDeckIndex] = useState(0);
   const [showSubjectMenu, setShowSubjectMenu] = useState(false);
   const [studyFrom, setStudyFrom] = useState<"select" | "list">("select");
+  const [flagged, setFlagged] = useState<Set<number>>(new Set());
   const [user, setUser] = useState<SupabaseUser | null>(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
 
@@ -70,6 +71,7 @@ export default function Home() {
   // ユーザー変化時にデータをリモートから再取得してlocalStorageに反映
   useEffect(() => {
     fetchStats().then(setStats);
+    fetchFlags().then(setFlagged);
     if (user) {
       // 伏字・メモもリモートから取得（localStorageキャッシュを更新）
       import("./lib/db").then(({ fetchOverrides, fetchCardMemos }) => {
@@ -95,6 +97,17 @@ export default function Home() {
       return s && s.total > 0 && s.correct / s.total < 0.7;
     });
   }, [subjectCards, stats]);
+
+  const flaggedCards = useMemo(() => ALL_CARDS.filter((c) => flagged.has(c.id)), [flagged]);
+
+  function handleToggleFlag(cardId: number) {
+    setFlagged((prev) => {
+      const next = new Set(prev);
+      next.has(cardId) ? next.delete(cardId) : next.add(cardId);
+      saveFlagsRemote(next).catch(() => {});
+      return next;
+    });
+  }
 
   function startDeck(cards: Card[], shuffle = true) {
     const qs = shuffle ? [...cards].sort(() => Math.random() - 0.5) : cards;
@@ -230,7 +243,7 @@ export default function Home() {
                 </div>
               </button>
 
-              {/* 4ボタン 2×2 グリッド */}
+              {/* ボタン 2×3 グリッド */}
               <div className="grid grid-cols-2 gap-1.5">
                 <button
                   onClick={() => weakCards.length > 0 ? startDeck(weakCards) : undefined}
@@ -244,6 +257,20 @@ export default function Home() {
                   <AlertTriangle size={14} className={weakCards.length > 0 ? "text-red-400" : "text-white/20"} />
                   <p className="text-[10px] font-bold leading-tight">苦手のみ</p>
                   <p className="text-[9px] text-white/50">{weakCards.length}枚</p>
+                </button>
+
+                <button
+                  onClick={() => flaggedCards.length > 0 ? startDeck(flaggedCards) : undefined}
+                  disabled={flaggedCards.length === 0}
+                  className={`rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
+                    flaggedCards.length > 0
+                      ? "bg-white/10 text-white border-white/10 hover:bg-white/15"
+                      : "bg-white/5 text-white/25 border-white/5 cursor-not-allowed"
+                  }`}
+                >
+                  <Flag size={14} className={flaggedCards.length > 0 ? "text-amber-400" : "text-white/20"} fill={flaggedCards.length > 0 ? "currentColor" : "none"} />
+                  <p className="text-[10px] font-bold leading-tight">フラグのみ</p>
+                  <p className="text-[9px] text-white/50">{flaggedCards.length}枚</p>
                 </button>
 
                 <button onClick={() => setAppMode("list")}
@@ -374,7 +401,7 @@ export default function Home() {
           </div>
         </header>
         <div className="max-w-2xl mx-auto px-4 pt-4 pb-10">
-          <QuestionList cards={ALL_CARDS} stats={stats} subjectIndex={SUBJECT_INDEX} onStartFrom={startFrom} />
+          <QuestionList cards={ALL_CARDS} stats={stats} subjectIndex={SUBJECT_INDEX} onStartFrom={startFrom} flagged={flagged} onToggleFlag={handleToggleFlag} />
         </div>
       </div>
     );
@@ -421,6 +448,8 @@ export default function Home() {
           subjectIndex={SUBJECT_INDEX.get(currentCard.id) ?? 0}
           onResult={handleResult}
           onNext={handleNext}
+          isFlagged={flagged.has(currentCard.id)}
+          onToggleFlag={() => handleToggleFlag(currentCard.id)}
         />
       </main>
     </div>

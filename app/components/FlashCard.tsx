@@ -27,6 +27,8 @@ interface Props {
   subjectIndex: number;
   onResult: (results: boolean[]) => void;
   onNext: () => void;
+  isFlagged?: boolean;
+  onToggleFlag?: () => void;
 }
 
 const PRIORITY_LABEL: Record<string, { label: string; color: string; bg: string }> = {
@@ -361,7 +363,7 @@ function EditTokens({
 
 // ---- Main component -------------------------------------------------------
 
-export default function FlashCard({ card, cardNumber, total, subjectIndex, onResult, onNext }: Props) {
+export default function FlashCard({ card, cardNumber, total, subjectIndex, onResult, onNext, isFlagged = false, onToggleFlag }: Props) {
   const [override, setOverride] = useState<BlankOverride>({
     disabledOriginalBlanks: [],
     partialDisabledWords: {},
@@ -607,7 +609,23 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
       </div>
 
       {/* メタ情報 */}
-      <div className="flex gap-2 flex-wrap">
+      <div className="flex gap-2 flex-wrap items-center">
+        {onToggleFlag && (
+          <button
+            type="button"
+            onClick={onToggleFlag}
+            className={`flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-full border transition-colors ${
+              isFlagged
+                ? "bg-amber-50 text-amber-500 border-amber-300 hover:bg-amber-100"
+                : "bg-gray-50 text-gray-400 border-gray-200 hover:bg-amber-50 hover:text-amber-400 hover:border-amber-200"
+            }`}
+          >
+            <svg width="11" height="11" viewBox="0 0 24 24" fill={isFlagged ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
+              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>
+            </svg>
+            {isFlagged ? "フラグ済み" : "フラグ"}
+          </button>
+        )}
         <span className="text-xs bg-indigo-50 text-indigo-600 font-semibold px-2.5 py-1 rounded-full">
           {card.subject} <span className="opacity-60">#{subjectIndex}</span>
         </span>

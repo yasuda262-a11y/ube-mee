@@ -188,6 +188,53 @@ export async function saveCardMemoRemote(cardId: number, memo: string): Promise<
   );
 }
 
+// ---- Card Flags -------------------------------------------------------------
+
+const FLAGS_LS = "ube-card-flags";
+
+export async function fetchFlags(): Promise<Set<number>> {
+  const uid = await getUserId();
+  const localData: number[] = (() => {
+    try { return JSON.parse(localStorage.getItem(FLAGS_LS) ?? "[]"); } catch { return []; }
+  })();
+
+  if (!uid) return new Set(localData);
+
+  const { data, error } = await supabase
+    .from("card_flags")
+    .select("card_ids")
+    .eq("user_id", uid)
+    .single();
+  if (error || !data) {
+    // Supabaseにデータなし → ローカルをアップロード
+    if (localData.length > 0) {
+      await supabase.from("card_flags").upsert(
+        { user_id: uid, card_ids: localData, updated_at: new Date().toISOString() },
+        { onConflict: "user_id" }
+      );
+    }
+    return new Set(localData);
+  }
+
+  // マージ: ローカルとリモートの和集合
+  const remoteIds: number[] = data.card_ids ?? [];
+  const merged = [...new Set([...remoteIds, ...localData])];
+  localStorage.setItem(FLAGS_LS, JSON.stringify(merged));
+  return new Set(merged);
+}
+
+export async function saveFlagsRemote(flags: Set<number>): Promise<void> {
+  const arr = [...flags];
+  localStorage.setItem(FLAGS_LS, JSON.stringify(arr));
+
+  const uid = await getUserId();
+  if (!uid) return;
+  await supabase.from("card_flags").upsert(
+    { user_id: uid, card_ids: arr, updated_at: new Date().toISOString() },
+    { onConflict: "user_id" }
+  );
+}
+
 // ---- Expression Memos -------------------------------------------------------
 
 const EXPR_MEMO_LS = "ube-expression-memos";
