@@ -5548,6 +5548,29 @@
     ]
   },
   {
+    "id": 760,
+    "page": 35,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "G. Individual Rights",
+    "subsectionTitle": "Privileges or Immunities Clause (14th Amendment)",
+    "priority": "L",
+    "context": "Privileges or Immunities Clause (of 14th Amendment) – Provides that \"No State shall make or enforce any law which shall abridge __BLANK_1__.\"\nThis clause is construed very narrowly to protect only:\n1) __BLANK_2__ (it doesn't apply to non-citizens or corporations),\n2) From State action or laws,\n3) Concerning their rights of national citizenship, such as: (i) __BLANK_3__; (ii) the right to vote in national elections; and (iii) the right to contact, travel to, or organize to petition Congress.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "the privileges or immunities of citizens of the United States"
+      },
+      {
+        "idx": 2,
+        "answer": "United States citizens"
+      },
+      {
+        "idx": 3,
+        "answer": "the right to interstate travel, including a citizen's right to be treated equally in her new State of residence as other citizens of the State"
+      }
+    ]
+  },
+  {
     "id": 271,
     "page": 35,
     "subject": "CONSTITUTIONAL LAW",
@@ -9383,10 +9406,10 @@
     "id": 439,
     "page": 51,
     "subject": "CRIMINAL LAW & PROCEDURE",
-    "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
+    "sectionHeader": "D. Inchoate Offenses",
+    "subsectionTitle": "Solicitation",
     "priority": null,
-    "context": "__BLANK_1__ Renunciation – is an affirmative defense if Defendant:\n1) __BLANK_2__ AND\n2) __BLANK_3__",
+    "context": "__BLANK_1__ MPC Renunciation Defense – Affirmative defense if D:\n1) __BLANK_2__ AND\n2) __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -10533,6 +10556,37 @@
       {
         "idx": 4,
         "answer": "proven beyond a reasonable doubt."
+      }
+    ]
+  },
+  {
+    "id": 759,
+    "page": 55,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "L. Fair Trial & Guilty Pleas",
+    "subsectionTitle": "Guilty Plea Requirements",
+    "priority": "L",
+    "context": "Guilty Plea Requirements – A guilty plea is valid if it's:\n1) __BLANK_1__; AND\n2) __BLANK_2__, which requires the Judge to inform D of the following in open court when the plea is entered:\ni) __BLANK_3__;\nii) __BLANK_4__;\niii) __BLANK_5__;\niv) That D has a right to a jury trial, to confront witnesses, to be protected against self-incrimination; AND\nv) That these rights will be waived.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Voluntary"
+      },
+      {
+        "idx": 2,
+        "answer": "Knowingly & Intelligently made"
+      },
+      {
+        "idx": 3,
+        "answer": "Nature of the charge"
+      },
+      {
+        "idx": 4,
+        "answer": "Maximum possible sentence"
+      },
+      {
+        "idx": 5,
+        "answer": "Mandatory minimum sentence"
       }
     ]
   },
