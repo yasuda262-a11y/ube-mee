@@ -13170,6 +13170,52 @@
     ]
   },
   {
+    "id": 757,
+    "page": 66,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "C. Landlord & Tenant Issues",
+    "subsectionTitle": "Abandonment of a Lease",
+    "priority": "H",
+    "context": "Abandonment of a Lease – Occurs if a tenant:\n1) __BLANK_1__;\n2) __BLANK_2__; AND\n3) __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Vacates the leased premises without justification"
+      },
+      {
+        "idx": 2,
+        "answer": "Lacks the present intent to return"
+      },
+      {
+        "idx": 3,
+        "answer": "Defaults in paying rent"
+      }
+    ]
+  },
+  {
+    "id": 758,
+    "page": 66,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "C. Landlord & Tenant Issues",
+    "subsectionTitle": "Abandonment of a Lease",
+    "priority": "H",
+    "context": "Landlord Remedies – Landlord may:\na) __BLANK_1__;\nb) __BLANK_2__; OR\nc) __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Terminate the lease"
+      },
+      {
+        "idx": 2,
+        "answer": "Relet the premises to a new tenant & sue for unpaid rent"
+      },
+      {
+        "idx": 3,
+        "answer": "Leave the premises vacant & sue for accrued rent (subject to any duty to mitigate damages)"
+      }
+    ]
+  },
+  {
     "id": 605,
     "page": 66,
     "subject": "REAL PROPERTY",
