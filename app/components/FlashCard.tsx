@@ -51,11 +51,20 @@ function judge(input: string, answer: string): "exact" | "partial" | false {
     if (!answerNums.every(n => inputNumSet.has(n))) return false;
   }
   if (u === a) return "exact";
+  // 語幹正規化: 複数形 / 三単現 などを統一（ies→y, 末尾s除去）
+  const stem = (w: string) =>
+    w.endsWith("ies") && w.length > 4 ? w.slice(0, -3) + "y" :
+    w.endsWith("ing") && w.length > 5 ? w.slice(0, -3) :
+    w.endsWith("s")   && w.length > 3 ? w.slice(0, -1) : w;
+  const stemAll = (s: string) => s.split(/\s+/).map(stem).join(" ");
+  const uStem = stemAll(u), aStem = stemAll(a);
+  if (uStem === aStem) return "exact";
   const stop = new Set(["a","an","the","of","in","on","to","is","are","or","and","by","that","it","be","at","as","has","have","had","can","may","shall","will","its","their","which"]);
-  const kws = a.split(/\s+/).filter(w => w.length > 2 && !stop.has(w));
+  // キーワード抽出（語幹ベース）
+  const kws = aStem.split(/\s+/).filter(w => w.length > 2 && !stop.has(w));
   const matches = kws.length === 0
-    ? (a.includes(u) || u.includes(a))
-    : kws.filter(kw => u.includes(kw)).length >= Math.ceil(kws.length * 0.6);
+    ? (aStem.includes(uStem) || uStem.includes(aStem))
+    : kws.filter(kw => uStem.includes(kw) || u.includes(kw)).length >= Math.ceil(kws.length * 0.5);
   return matches ? "partial" : false;
 }
 
