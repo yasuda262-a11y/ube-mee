@@ -89,6 +89,8 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
   const curText = cur.type === "word" ? cur.text : "";
 
   if (prev.lineIdx === cur.lineIdx) {
+    // 句読点トークン（, . ; : など）の前にはスペースを入れない
+    if (/^[,.:;]+$/.test(curText)) return "none";
     const standaloneListDash = DASH_BULLET_RE.test(curText);
     if (standaloneListDash) {
       const pt = prevDisplayText(prev);

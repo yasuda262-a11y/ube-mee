@@ -40,8 +40,19 @@ export function parseTokens(
           lineIdx,
         });
       } else {
-        const words = part.split(/\s+/).filter((w) => w.length > 0);
-        for (const word of words) {
+        const rawWords = part.split(/\s+/).filter((w) => w.length > 0);
+        // 末尾の句読点（, . ; :）を独立トークンに分離
+        // ただし "1)" "iv)" などのリストマーカーは分割しない（) は対象外）
+        const splitWords: string[] = [];
+        for (const raw of rawWords) {
+          const m = raw.match(/^(.*\S)([,.:;]+)$/);
+          if (m && m[1].length > 0) {
+            splitWords.push(m[1], m[2]);
+          } else {
+            splitWords.push(raw);
+          }
+        }
+        for (const word of splitWords) {
           tokens.push({ idx: tokenIdx++, text: word, type: "word", lineIdx });
         }
       }
