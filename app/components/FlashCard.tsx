@@ -370,24 +370,35 @@ function EditTokens({
           </button>
         );
       } else {
-        // 単語レベルで展開して表示
+        // 単語レベルで展開して表示（カッコも独立トークンに分割）
         const words = t.text.split(" ");
         const disabledSubWords = new Set(override.partialDisabledWords[t.blankIdx!] ?? []);
         words.forEach((word, wi) => {
           if (wi > 0) nodes.push(<span key={`ws-${t.idx}-${wi}`}> </span>);
           const isDisabled = disabledSubWords.has(wi);
-          nodes.push(
-            <button key={`w-${t.idx}-${wi}`} type="button"
-              onClick={() => onToggleOriginalWord(t.blankIdx!, wi)}
-              title={isDisabled ? "クリックして伏字に戻す" : "クリックして伏字から除外"}
-              className={`inline rounded px-1 py-0.5 text-[14px] leading-7 font-medium transition-colors cursor-pointer ${
-                isDisabled
-                  ? "bg-gray-100 text-gray-400 line-through"
-                  : "bg-indigo-100 text-indigo-800 border-b-2 border-indigo-400"
-              }`}>
-              {word}
-            </button>
-          );
+          // カッコを分離して表示（同じ wi に紐づく）
+          const parts: string[] = [];
+          let w = word;
+          if (w.startsWith("(")) { parts.push("("); w = w.slice(1); }
+          if (w) {
+            const pm = w.match(/^(.*?)([)]+)$/);
+            if (pm && pm[1].length > 0) { parts.push(pm[1]); parts.push(pm[2]); }
+            else parts.push(w);
+          }
+          parts.forEach((part, pi) => {
+            nodes.push(
+              <button key={`w-${t.idx}-${wi}-${pi}`} type="button"
+                onClick={() => onToggleOriginalWord(t.blankIdx!, wi)}
+                title={isDisabled ? "クリックして伏字に戻す" : "クリックして伏字から除外"}
+                className={`inline rounded px-1 py-0.5 text-[14px] leading-7 font-medium transition-colors cursor-pointer ${
+                  isDisabled
+                    ? "bg-gray-100 text-gray-400 line-through"
+                    : "bg-indigo-100 text-indigo-800 border-b-2 border-indigo-400"
+                }`}>
+                {part}
+              </button>
+            );
+          });
         });
       }
     } else {
