@@ -33,16 +33,31 @@ function parseFormattedWords(
   let isUnder = false;
   let last = 0;
 
+  // (a), (b), (1), (iv) などのマーカーはそのまま維持する
+  const KEEP_AS_ONE = /^(\([a-z]\)|\([ivxlcdm]+\)|\(\d+\))$/i;
+
   const flushSegment = (seg: string) => {
     const rawWords = seg.split(/\s+/).filter((w) => w.length > 0);
     for (const raw of rawWords) {
-      // 末尾の句読点を分離（parseTokens と同じルール）
-      const pm = raw.match(/^(.*\S)([,.:;]+)$/);
+      // マーカー系はそのまま
+      if (KEEP_AS_ONE.test(raw)) {
+        result.push({ word: raw, bold: isBold, underline: isUnder });
+        continue;
+      }
+      let word = raw;
+      // 先頭の ( を独立トークンに分離
+      if (word.startsWith("(")) {
+        result.push({ word: "(", bold: false, underline: false });
+        word = word.slice(1);
+        if (!word) continue;
+      }
+      // 末尾の句読点・) を分離
+      const pm = word.match(/^(.*\S)([,.:;)]+)$/);
       if (pm && pm[1].length > 0) {
         result.push({ word: pm[1], bold: isBold, underline: isUnder });
         result.push({ word: pm[2], bold: false, underline: false });
       } else {
-        result.push({ word: raw, bold: isBold, underline: isUnder });
+        result.push({ word, bold: isBold, underline: isUnder });
       }
     }
   };
