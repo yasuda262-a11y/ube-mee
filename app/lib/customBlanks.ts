@@ -52,13 +52,21 @@ function parseFormattedWords(
         if (!word) continue;
       }
       // 末尾の句読点・) を分離
+      let trailing = "";
       const pm = word.match(/^(.*\S)([,.:;)]+)$/);
       if (pm && pm[1].length > 0) {
-        result.push({ word: pm[1], bold: isBold, underline: isUnder });
-        result.push({ word: pm[2], bold: false, underline: false });
+        word = pm[1];
+        trailing = pm[2];
+      }
+      // アポストロフィで分離: contractor's → contractor + 's
+      const apoIdx = word.indexOf("'");
+      if (apoIdx > 0) {
+        result.push({ word: word.slice(0, apoIdx), bold: isBold, underline: isUnder });
+        result.push({ word: word.slice(apoIdx), bold: false, underline: false });
       } else {
         result.push({ word, bold: isBold, underline: isUnder });
       }
+      if (trailing) result.push({ word: trailing, bold: false, underline: false });
     }
   };
 
