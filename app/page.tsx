@@ -144,6 +144,10 @@ export default function Home() {
     else setDeckIndex((i) => i + 1);
   }
 
+  function handlePrev() {
+    if (deckIndex > 0) setDeckIndex((i) => i - 1);
+  }
+
   // ===== ホーム =====
   if (appMode === "select") {
     const answeredCount = Object.values(stats).filter((s) => s.total > 0).length;
@@ -448,6 +452,7 @@ export default function Home() {
           subjectIndex={SUBJECT_INDEX.get(currentCard.id) ?? 0}
           onResult={handleResult}
           onNext={handleNext}
+          onPrev={deckIndex > 0 ? handlePrev : undefined}
           isFlagged={flagged.has(currentCard.id)}
           onToggleFlag={() => handleToggleFlag(currentCard.id)}
         />

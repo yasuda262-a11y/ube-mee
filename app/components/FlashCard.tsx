@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useMemo } from "react";
-import { ChevronRight, CheckCircle, XCircle, Eye, Pencil, RotateCcw, Plus, NotebookPen, Check, X } from "lucide-react";
+import { ChevronRight, ChevronLeft, CheckCircle, XCircle, Eye, Pencil, RotateCcw, Plus, NotebookPen, Check, X, RefreshCw } from "lucide-react";
 import type { Card } from "../data/questions";
 import {
   parseTokens,
@@ -27,6 +27,7 @@ interface Props {
   subjectIndex: number;
   onResult: (results: boolean[]) => void;
   onNext: () => void;
+  onPrev?: () => void;
   isFlagged?: boolean;
   onToggleFlag?: () => void;
 }
@@ -393,7 +394,7 @@ function EditTokens({
 
 // ---- Main component -------------------------------------------------------
 
-export default function FlashCard({ card, cardNumber, total, subjectIndex, onResult, onNext, isFlagged = false, onToggleFlag }: Props) {
+export default function FlashCard({ card, cardNumber, total, subjectIndex, onResult, onNext, onPrev, isFlagged = false, onToggleFlag }: Props) {
   const [override, setOverride] = useState<BlankOverride>({
     disabledOriginalBlanks: [],
     partialDisabledWords: {},
@@ -599,6 +600,12 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     onResult(results);
   }
 
+  function handleRetry() {
+    setInputs(new Map());
+    setInputStates(new Map());
+    setSubmitted(false);
+  }
+
   function handleReveal() {
     if (submitted) return;
     const newStates = new Map<string, InputState>();
@@ -773,6 +780,11 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                 });
               })}
               <div className="flex gap-2 mt-1">
+                {onPrev && (
+                  <button type="button" onClick={onPrev}
+                    className="px-4 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-500 hover:border-indigo-300 hover:text-indigo-600 transition-colors flex items-center justify-center"
+                    title="前の問題へ"><ChevronLeft size={18} /></button>
+                )}
                 <button type="submit" disabled={!someInput}
                   className={`flex-1 py-3.5 rounded-2xl font-bold text-base transition-all shadow-md ${
                     someInput
@@ -913,6 +925,14 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                 <button type="button" onClick={() => setEditMode(true)}
                   className="px-4 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300 transition-colors"
                   title="伏字を編集"><Pencil size={18} /></button>
+                {onPrev && (
+                  <button type="button" onClick={onPrev}
+                    className="px-4 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-500 hover:border-indigo-300 hover:text-indigo-600 transition-colors flex items-center justify-center"
+                    title="前の問題へ"><ChevronLeft size={18} /></button>
+                )}
+                <button type="button" onClick={handleRetry}
+                  className="px-4 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-500 hover:border-amber-300 hover:text-amber-600 transition-colors flex items-center justify-center"
+                  title="もう一度"><RefreshCw size={18} /></button>
                 <button onClick={onNext}
                   className="flex-1 py-3.5 bg-indigo-600 text-white rounded-2xl font-bold text-base flex items-center justify-center gap-2 hover:bg-indigo-700 active:scale-95 transition-all shadow-md">
                   次の問題へ <ChevronRight size={18} />
