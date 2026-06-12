@@ -91,6 +91,12 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
   if (prev.lineIdx === cur.lineIdx) {
     // 句読点トークン（, . ; : など）の前にはスペースを入れない
     if (/^[,.:;]+$/.test(curText)) return "none";
+    // (N) 番号付きリストマーカー → blank の直後 or 句読点の直後で改行
+    if (/^\(\d+\)$/.test(curText)) {
+      if (prev.type === "originalBlank") return "break";
+      const pt = prevDisplayText(prev);
+      if (/^[,;.]$/.test(pt)) return "break";
+    }
     const standaloneListDash = DASH_BULLET_RE.test(curText);
     if (standaloneListDash) {
       const pt = prevDisplayText(prev);
