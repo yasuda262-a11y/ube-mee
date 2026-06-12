@@ -377,13 +377,19 @@ function EditTokens({
           if (wi > 0) nodes.push(<span key={`ws-${t.idx}-${wi}`}> </span>);
           const isDisabled = disabledSubWords.has(wi);
           // カッコを分離して表示（同じ wi に紐づく）
+          // ただし a), b), (a), (1) などのマーカーはそのまま維持
+          const KEEP_PAREN = /^(\([a-z]\)|\([ivxlcdm]+\)|\(\d+\)|[a-z]\)|\d+\)|[ivxlcdm]+\))$/i;
           const parts: string[] = [];
-          let w = word;
-          if (w.startsWith("(")) { parts.push("("); w = w.slice(1); }
-          if (w) {
-            const pm = w.match(/^(.*?)([)]+)$/);
-            if (pm && pm[1].length > 0) { parts.push(pm[1]); parts.push(pm[2]); }
-            else parts.push(w);
+          if (KEEP_PAREN.test(word)) {
+            parts.push(word);
+          } else {
+            let w = word;
+            if (w.startsWith("(")) { parts.push("("); w = w.slice(1); }
+            if (w) {
+              const pm = w.match(/^(.*?)([)]+)$/);
+              if (pm && pm[1].length > 0) { parts.push(pm[1]); parts.push(pm[2]); }
+              else parts.push(w);
+            }
           }
           parts.forEach((part, pi) => {
             nodes.push(
