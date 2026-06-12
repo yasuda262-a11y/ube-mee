@@ -259,7 +259,8 @@ function StudyTokens({
     } else if (disabledOrigSet.has(t.idx)) {
       pushNode(<span key={t.idx}>{t.text}</span>);
     } else {
-      pushNode(<span key={t.idx}>{t.text}</span>);
+      const cls = [t.bold && "font-bold", t.underline && "underline"].filter(Boolean).join(" ");
+      pushNode(<span key={t.idx} className={cls || undefined}>{t.text}</span>);
     }
 
     prev = t;
@@ -372,7 +373,7 @@ function EditTokens({
               : inPending
               ? "bg-yellow-100 text-yellow-800 border-2 border-yellow-400 font-medium"
               : "hover:bg-gray-100 text-gray-700"
-          }`}>
+          } ${t.bold ? "font-bold" : ""} ${t.underline ? "underline" : ""}`}>
           {t.text}
         </button>
       );

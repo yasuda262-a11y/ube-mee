@@ -9011,7 +9011,7 @@
     "sectionHeader": "C. Other Crimes",
     "priority": "H",
     "subsectionTitle": "Theft Crimes",
-    "context": "Larceny – __BLANK_1__ (2) __BLANK_2__ (3) of __BLANK_3__ with the intent __BLANK_4__ (intent must exist at the time of taking).",
+    "context": "**Larceny** – (1) __BLANK_1__ (2) __BLANK_2__ (3) of __BLANK_3__ with the intent __BLANK_4__ (intent must exist at the time of taking).",
     "blanks": [
       {
         "idx": 1,

@@ -14,7 +14,50 @@ export type Token = {
   type: "originalBlank" | "word";
   blankIdx?: number;   // 0-based into card.blanks[] (originalBlank のみ)
   lineIdx: number;
+  bold?: boolean;
+  underline?: boolean;
 };
+
+/**
+ * テキストセグメントを **bold** / ++underline++ マークアップ付きで単語分割する。
+ * マーカーは除去し、各単語に bold/underline フラグを付与して返す。
+ */
+function parseFormattedWords(
+  text: string
+): Array<{ word: string; bold: boolean; underline: boolean }> {
+  const result: Array<{ word: string; bold: boolean; underline: boolean }> = [];
+
+  // **...** と ++...++ を交互にパース
+  const re = /(\*\*|\+\+)/g;
+  let isBold = false;
+  let isUnder = false;
+  let last = 0;
+
+  const flushSegment = (seg: string) => {
+    const rawWords = seg.split(/\s+/).filter((w) => w.length > 0);
+    for (const raw of rawWords) {
+      // 末尾の句読点を分離（parseTokens と同じルール）
+      const pm = raw.match(/^(.*\S)([,.:;]+)$/);
+      if (pm && pm[1].length > 0) {
+        result.push({ word: pm[1], bold: isBold, underline: isUnder });
+        result.push({ word: pm[2], bold: false, underline: false });
+      } else {
+        result.push({ word: raw, bold: isBold, underline: isUnder });
+      }
+    }
+  };
+
+  let match: RegExpExecArray | null;
+  while ((match = re.exec(text)) !== null) {
+    flushSegment(text.slice(last, match.index));
+    last = match.index + match[0].length;
+    if (match[0] === "**") isBold = !isBold;
+    else isUnder = !isUnder;
+  }
+  flushSegment(text.slice(last));
+
+  return result;
+}
 
 export function parseTokens(
   context: string,
@@ -40,20 +83,17 @@ export function parseTokens(
           lineIdx,
         });
       } else {
-        const rawWords = part.split(/\s+/).filter((w) => w.length > 0);
-        // 末尾の句読点（, . ; :）を独立トークンに分離
-        // ただし "1)" "iv)" などのリストマーカーは分割しない（) は対象外）
-        const splitWords: string[] = [];
-        for (const raw of rawWords) {
-          const m = raw.match(/^(.*\S)([,.:;]+)$/);
-          if (m && m[1].length > 0) {
-            splitWords.push(m[1], m[2]);
-          } else {
-            splitWords.push(raw);
-          }
-        }
-        for (const word of splitWords) {
-          tokens.push({ idx: tokenIdx++, text: word, type: "word", lineIdx });
+        // **bold** / ++underline++ マークアップを解析しつつ単語分割・句読点分離
+        const formatted = parseFormattedWords(part);
+        for (const { word, bold, underline } of formatted) {
+          tokens.push({
+            idx: tokenIdx++,
+            text: word,
+            type: "word",
+            lineIdx,
+            ...(bold && { bold: true }),
+            ...(underline && { underline: true }),
+          });
         }
       }
     }
