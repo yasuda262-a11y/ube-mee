@@ -88,6 +88,10 @@ function prevDisplayText(t: Token): string {
 /** prev→cur のセパレータ種別を返す */
 function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
   const curText = cur.type === "word" ? cur.text : "";
+  const prevText = prevDisplayText(prev);
+
+  // (a)/(b)/(c) スタイルマーカーか判定
+  const LETTER_MARKER_RE = /^\([a-z]\)$/;
 
   if (prev.lineIdx === cur.lineIdx) {
     // 句読点トークン（, . ; : など）の前にはスペースを入れない
@@ -95,13 +99,15 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
     // (N) 番号付きリストマーカー → blank の直後 or 句読点の直後で改行
     if (/^\(\d+\)$/.test(curText)) {
       if (prev.type === "originalBlank") return "break";
-      const pt = prevDisplayText(prev);
-      if (/^[,;.]$/.test(pt)) return "break";
+      if (/^[,;.]$/.test(prevText)) return "break";
+    }
+    // (a)/(b)/(c) → blank の直後 or 句読点の直後で改行
+    if (LETTER_MARKER_RE.test(curText)) {
+      if (prev.type === "originalBlank" || /^[,;.]$/.test(prevText)) return "break";
     }
     const standaloneListDash = DASH_BULLET_RE.test(curText);
     if (standaloneListDash) {
-      const pt = prevDisplayText(prev);
-      if (prev.type === "originalBlank" || pt.endsWith(".") || pt.endsWith(";")) {
+      if (prev.type === "originalBlank" || prevText.endsWith(".") || prevText.endsWith(";")) {
         return "break";
       }
     }
@@ -109,10 +115,13 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
   }
 
   // 行をまたぐ場合
-  if (prevDisplayText(prev).endsWith("-")) return "none"; // ハイフン連結
-  // リストマーカー / (N) 番号 / 太字（新概念の開始）→ 改行
+  if (prevText.endsWith("-")) return "none"; // ハイフン連結
+  // (a)/(b)/(c) の直後は改行しない（内容を同じ行に続ける）
+  if (LETTER_MARKER_RE.test(prevText)) return "space";
+  // リストマーカー / (N) 番号 / (a)/(b)/(c) 番号 / 太字（新概念の開始）→ 改行
   if (isListStartText(curText)) return "break";
   if (/^\(\d+\)$/.test(curText)) return "break";
+  if (LETTER_MARKER_RE.test(curText)) return "break";
   if (cur.type === "word" && cur.bold) return "break";
   // それ以外（PDFの折り返し等）→ スペースとして扱う
   return "space";

@@ -3585,7 +3585,7 @@
     "sectionHeader": "F. Injunctions & TRO’s",
     "subsectionTitle": null,
     "priority": null,
-    "context": "**Waived Defenses** – If the following defenses are NOT\nincluded in the D’s first response (answer/ pre-answer\nmotion), they are deemed waived: __BLANK_1__\n(2)\n__BLANK_2__ and\n(4)\n__BLANK_3__ − BUT, courts have allowed adding waivable\ndefenses to a MTD when:\n(1) promptly made;\n**AND**\n(2) it’s prior to a hearing on the original\nmotion.",
+    "context": "**Waived Defenses** – If the following defenses are NOT\nincluded in the D's first response (answer/ pre-answer\nmotion), they are deemed waived: __BLANK_1__\n(2)\n__BLANK_2__\n(3)\n__BLANK_3__ and\n(4)\n__BLANK_4__ − BUT, courts have allowed adding waivable\ndefenses to a MTD when:\n(1) promptly made;\n**AND**\n(2) it's prior to a hearing on the original\nmotion.",
     "blanks": [
       {
         "idx": 1,
@@ -3593,10 +3593,14 @@
       },
       {
         "idx": 2,
-        "answer": "improper venue; (3) insufficient process;"
+        "answer": "improper venue;"
       },
       {
         "idx": 3,
+        "answer": "insufficient process;"
+      },
+      {
+        "idx": 4,
         "answer": "insufficient service of process."
       }
     ]
@@ -6291,7 +6295,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Bilateral vs. Unilateral Contract",
     "priority": "H",
-    "context": "OFFER –\n(1) __BLANK_1__ enter\ninto a contract,\n(2) with __BLANK_2__",
+    "context": "OFFER –\n(1) __BLANK_1__ enter\ninto a contract,\n(2) with __BLANK_2__\n(3) __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -6299,7 +6303,11 @@
       },
       {
         "idx": 2,
-        "answer": "definite & reasonably certain terms, (3) communicated to an identified offeree."
+        "answer": "definite & reasonably certain terms,"
+      },
+      {
+        "idx": 3,
+        "answer": "communicated to an identified offeree."
       }
     ]
   },
@@ -7097,14 +7105,22 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Statute of Frauds (SOF)",
     "priority": "H",
-    "context": "Writing Requirement – Writing must __BLANK_1__\n(4) __BLANK_2__",
+    "context": "Writing Requirement – Writing must\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__ AND\n(4) __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) be signed by the party to charged, (2) reasonably identify the subject matter, (3) indicate a contract was made, AND"
+        "answer": "be signed by the party to charged,"
       },
       {
         "idx": 2,
+        "answer": "reasonably identify the subject matter,"
+      },
+      {
+        "idx": 3,
+        "answer": "indicate a contract was made,"
+      },
+      {
+        "idx": 4,
         "answer": "state the essential terms."
       }
     ]
@@ -9011,11 +9027,11 @@
     "sectionHeader": "C. Other Crimes",
     "priority": "H",
     "subsectionTitle": "Theft Crimes",
-    "context": "**Larceny** –\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) of __BLANK_3__ with the intent __BLANK_4__ (intent must exist at the time of taking).",
+    "context": "**Larceny** –\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) of __BLANK_3__\n(4) with the intent __BLANK_4__ (intent must exist at the time of taking).",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) trespassory taking,"
+        "answer": "trespassory taking,"
       },
       {
         "idx": 2,
@@ -9023,7 +9039,7 @@
       },
       {
         "idx": 3,
-        "answer": "the personal property of another, (4)"
+        "answer": "the personal property of another,"
       },
       {
         "idx": 4,
@@ -9048,11 +9064,11 @@
     "sectionHeader": "C. Other Crimes",
     "priority": "H",
     "subsectionTitle": "Theft Crimes",
-    "context": "**False Pretenses** –\n(1) __BLANK_1__ to personal property of another,\n(3) through __BLANK_2__\n(4) __BLANK_3__",
+    "context": "**False Pretenses** –\n(1) __BLANK_1__\n(2) to personal property of another,\n(3) through __BLANK_2__\n(4) __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "obtain title, (2)"
+        "answer": "obtain title,"
       },
       {
         "idx": 2,
@@ -9117,18 +9133,22 @@
     "sectionHeader": "C. Other Crimes",
     "subsectionTitle": "Robbery",
     "priority": "H",
-    "context": "**Robbery** – is the __BLANK_1__\n(2) of the personal property of another, __BLANK_2__\n(5) with the intent __BLANK_3__ − **Armed Robbery** = above elements + use of a\ndangerous weapon.",
+    "context": "**Robbery** – is the\n(1) __BLANK_1__\n(2) of the personal property of another,\n(3) __BLANK_2__\n(4) __BLANK_3__\n(5) with the intent __BLANK_4__ − **Armed Robbery** = above elements + use of a\ndangerous weapon.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) trespassory taking and carrying away,"
+        "answer": "trespassory taking and carrying away,"
       },
       {
         "idx": 2,
-        "answer": "(3) in their presence, (4) by the use of force or threat of immediate physical harm,"
+        "answer": "in their presence,"
       },
       {
         "idx": 3,
+        "answer": "by the use of force or threat of immediate physical harm,"
+      },
+      {
+        "idx": 4,
         "answer": "to permanently deprive the owner of the property."
       }
     ]
@@ -9140,18 +9160,26 @@
     "sectionHeader": "C. Other Crimes",
     "subsectionTitle": "Burglary",
     "priority": "H",
-    "context": "**Burglary** – is the __BLANK_1__\n(2) of a\n__BLANK_2__\n(5) __BLANK_3__ − Most jurisdictions extend burglary to include\nbreaking into any structure at any time.",
+    "context": "**Burglary** – is the\n(1) __BLANK_1__\n(2) of a\n__BLANK_2__\n(3) __BLANK_3__\n(4) __BLANK_4__\n(5) __BLANK_5__ − Most jurisdictions extend burglary to include\nbreaking into any structure at any time.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) breaking and entering,"
+        "answer": "breaking and entering,"
       },
       {
         "idx": 2,
-        "answer": "dwelling, (3) of another, (4) at night,"
+        "answer": "dwelling,"
       },
       {
         "idx": 3,
+        "answer": "of another,"
+      },
+      {
+        "idx": 4,
+        "answer": "at night,"
+      },
+      {
+        "idx": 5,
         "answer": "for the purpose of committing a felony inside."
       }
     ]
@@ -9163,7 +9191,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Rape Common Law",
     "priority": "L",
-    "context": "**Rape**\n**Common Law** – rape is the\n(1) __BLANK_1__\n(2) __BLANK_2__ − Modern definition → includes marital rape (in\nmost states) and makes gender irrelevant.\n**MPC** – a male who has sex with a female (not his wife)\nis guilty of rape if: (a) __BLANK_3__ (b) __BLANK_4__ (c) female is\n__BLANK_5__ **OR** (d) female __BLANK_6__ − Deviate Sexual Intercourse → has same\nelements as above, but is gender neutral.\n**Statutory Rape** – is the\n(1) unlawful sexual intercourse,\n(2) with a person,\n(3) under the age of consent (as\ndefined by statute).",
+    "context": "**Rape**\n**Common Law** – rape is the\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__ − Modern definition → includes marital rape (in\nmost states) and makes gender irrelevant.\n**MPC** – a male who has sex with a female (not his wife)\nis guilty of rape if: (a) __BLANK_4__ (b) __BLANK_5__ (c) female is\n__BLANK_6__ **OR** (d) female __BLANK_7__ − Deviate Sexual Intercourse → has same\nelements as above, but is gender neutral.\n**Statutory Rape** – is the\n(1) unlawful sexual intercourse,\n(2) with a person,\n(3) under the age of consent (as\ndefined by statute).",
     "blanks": [
       {
         "idx": 1,
@@ -9171,22 +9199,26 @@
       },
       {
         "idx": 2,
-        "answer": "of a woman by a man (not her husband), (3) without her consent."
+        "answer": "of a woman by a man (not her husband),"
       },
       {
         "idx": 3,
-        "answer": "he compels her by force/threat of imminent death, serious bodily injury, extreme pain, or kidnapping;"
+        "answer": "without her consent."
       },
       {
         "idx": 4,
-        "answer": "he secretly drugs her;"
+        "answer": "he compels her by force/threat of imminent death, serious bodily injury, extreme pain, or kidnapping;"
       },
       {
         "idx": 5,
-        "answer": "unconscious;"
+        "answer": "he secretly drugs her;"
       },
       {
         "idx": 6,
+        "answer": "unconscious;"
+      },
+      {
+        "idx": 7,
         "answer": "is less than 10 years old."
       }
     ]
@@ -9198,30 +9230,34 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Theft Crimes",
     "priority": "L",
-    "context": "**Assault & Battery**\n**Battery** – is the __BLANK_1__\n(3) __BLANK_2__ − **Battery** is __BLANK_3__ − Intent to __BLANK_4__ is NOT required.\n**Assault** – either (a) __BLANK_5__ **OR** (b) the\n__BLANK_6__",
+    "context": "**Assault & Battery**\n**Battery** – is the\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__ − **Battery** is __BLANK_4__ − Intent to __BLANK_5__ is NOT required.\n**Assault** – either (a) __BLANK_6__ **OR** (b) the\n__BLANK_7__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) unlawful application of force, (2) directly or indirectly upon another person or their close personal belongings,"
+        "answer": "unlawful application of force,"
       },
       {
         "idx": 2,
-        "answer": "resulting in injury or offensive contact."
+        "answer": "directly or indirectly upon another person or their close personal belongings,"
       },
       {
         "idx": 3,
-        "answer": "a general intent crime."
+        "answer": "resulting in injury or offensive contact."
       },
       {
         "idx": 4,
-        "answer": "cause injury"
+        "answer": "a general intent crime."
       },
       {
         "idx": 5,
-        "answer": "an attempted battery,"
+        "answer": "cause injury"
       },
       {
         "idx": 6,
+        "answer": "an attempted battery,"
+      },
+      {
+        "idx": 7,
         "answer": "intentional creation of a reasonable apprehension of imminent bodily harm to a person."
       }
     ]
@@ -9233,7 +9269,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Kidnapping & False Imprisonment",
     "priority": "L",
-    "context": "**Kidnapping & False Imprisonment**\n**Kidnapping** – is the __BLANK_1__ of a person,\n(2) __BLANK_2__ − **MPC** → abducting another person: (a) for\n__BLANK_3__ (b) __BLANK_4__ (c) __BLANK_5__ **OR** (d) __BLANK_6__\n**False imprisonment** – is the\n(1) __BLANK_7__\n(2)\n__BLANK_8__\n(4) with\n__BLANK_9__ − **MPC** → when D knowingly restrains a person\nunlawfully so as to substantially interfere with\nthe person’s liberty.",
+    "context": "**Kidnapping & False Imprisonment**\n**Kidnapping** – is the __BLANK_1__ of a person,\n(2) __BLANK_2__ − **MPC** → abducting another person: (a) for\n__BLANK_3__ (b) __BLANK_4__ (c) __BLANK_5__ **OR** (d) __BLANK_6__\n**False imprisonment** – is the\n(1) __BLANK_7__\n(2)\n__BLANK_8__\n(3)\n__BLANK_9__\n(4) with\n__BLANK_10__ − **MPC** → when D knowingly restrains a person\nunlawfully so as to substantially interfere with\nthe person's liberty.",
     "blanks": [
       {
         "idx": 1,
@@ -9265,10 +9301,14 @@
       },
       {
         "idx": 8,
-        "answer": "confinement of a person, (3) against their will,"
+        "answer": "confinement of a person,"
       },
       {
         "idx": 9,
+        "answer": "against their will,"
+      },
+      {
+        "idx": 10,
         "answer": "knowledge that the restriction is unlawful."
       }
     ]
@@ -9599,7 +9639,7 @@
     "sectionHeader": "F. Defenses",
     "subsectionTitle": "Self-Defense & Defense of Others",
     "priority": "H",
-    "context": "**Self-Defense** – is a complete defense to a crime.\nNon-Deadly Force → justified when __BLANK_1__\n(2) __BLANK_2__ **AND** __BLANK_3__ Deadly Force → justified when\n(1) D kills based on a\n__BLANK_4__\n(2) __BLANK_5__ **AND**\n(3) the\n__BLANK_6__ was necessary.\n− Minority of States → D has a __BLANK_7__ before deadly force may be used.\no BUT, D has no duty to retreat when: (a)\n__BLANK_8__ (b) __BLANK_9__ or __BLANK_10__ − An **aggressor** may only use force in self-\ndefense if: (a) __BLANK_11__ it; OR __BLANK_12__",
+    "context": "**Self-Defense** – is a complete defense to a crime.\n**Non-Deadly Force** → justified when __BLANK_1__\n(2) __BLANK_2__ **AND** __BLANK_3__\n**Deadly Force** → justified when\n(1) D kills based on a\n__BLANK_4__\n(2) __BLANK_5__ **AND**\n(3) the\n__BLANK_6__ was necessary.\n− Minority of States → D has a __BLANK_7__ before deadly force may be used.\no BUT, D has no duty to retreat when: (a)\n__BLANK_8__ (b) __BLANK_9__ or __BLANK_10__\n− An **aggressor** may only use force in self-\ndefense if: (a) __BLANK_11__ it; OR __BLANK_12__",
     "blanks": [
       {
         "idx": 1,
@@ -9746,7 +9786,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Government Action & Standing",
     "priority": "H",
-    "context": "Supreme Court has held NO privacy rights for:\n(1) paint scrapings taken from a car;\n(2) __BLANK_1__ records;\n(3) __BLANK_2__\n(4)\n__BLANK_3__ on the curb;\n(5) __BLANK_4__\n(6)\n__BLANK_5__ and\n(8) anything that can be seen\nin or across areas outside one’s home.",
+    "context": "Supreme Court has held NO privacy rights for:\n(1) paint scrapings taken from a car;\n(2) __BLANK_1__ records;\n(3) __BLANK_2__\n(4)\n__BLANK_3__ on the curb;\n(5) __BLANK_4__\n(6)\n__BLANK_5__\n(7)\n__BLANK_6__ and\n(8) anything that can be seen\nin or across areas outside one's home.",
     "blanks": [
       {
         "idx": 1,
@@ -9762,11 +9802,15 @@
       },
       {
         "idx": 4,
-        "answer": "the sound of one’s voice;"
+        "answer": "the sound of one's voice;"
       },
       {
         "idx": 5,
-        "answer": "odors; (7) handwriting;"
+        "answer": "odors;"
+      },
+      {
+        "idx": 6,
+        "answer": "handwriting;"
       }
     ]
   },
@@ -10176,15 +10220,23 @@
     "sectionHeader": "Incrimination",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "− Police must give Miranda warnings →\n(1) right to\n__BLANK_1__ and __BLANK_2__ *Statements made in violation of a suspect’s Miranda\nrights are subject to the Exclusionary Rule.",
+    "context": "− Police must give Miranda warnings →\n(1) right to __BLANK_1__\n(2) __BLANK_2__\n(3) right to __BLANK_3__\n(4) __BLANK_4__\n*Statements made in violation of a suspect's Miranda\nrights are subject to the Exclusionary Rule.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "remain silent, (2) anything said can be used against suspect in court, (3) right to talk to an attorney and have one present when they are questioned,"
+        "answer": "remain silent,"
       },
       {
         "idx": 2,
-        "answer": "(4) if cannot afford an attorney, one will be provided."
+        "answer": "anything said can be used against suspect in court,"
+      },
+      {
+        "idx": 3,
+        "answer": "talk to an attorney and have one present when they are questioned,"
+      },
+      {
+        "idx": 4,
+        "answer": "if cannot afford an attorney, one will be provided."
       }
     ]
   },
@@ -10414,11 +10466,11 @@
     "sectionHeader": "J. Police-Arranged Identification Procedures",
     "subsectionTitle": "Line-Ups & Police-Arranged Identification",
     "priority": "M",
-    "context": "Due Process Clause (14th Amend.) → violated when a\nline-up is __BLANK_1__ resulting in a\n__BLANK_2__ − If violated → identification is inadmissible at trial.\n− __BLANK_3__ ADMISSIBLE.",
+    "context": "Due Process Clause (14th Amend.) → violated when a\nline-up is\n(1) __BLANK_1__\n(2) resulting in a\n__BLANK_2__ − If violated → identification is inadmissible at trial.\n− __BLANK_3__ ADMISSIBLE.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) unnecessarily suggestive, (2)"
+        "answer": "unnecessarily suggestive,"
       },
       {
         "idx": 2,
@@ -11637,15 +11689,27 @@
     "sectionHeader": "F. Presentation of Evidence",
     "subsectionTitle": "Expert Witness Testimony",
     "priority": "H",
-    "context": "Reliability → is based on __BLANK_1__ **AND**\n__BLANK_2__",
+    "context": "Reliability → is based on\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__\n(4) __BLANK_4__ **AND**\n(5) __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) testability, (2) publication & peer review, (3) error rate, (4) standards & controls,"
+        "answer": "testability,"
       },
       {
         "idx": 2,
-        "answer": "(5) if it’s generally accepted in the field."
+        "answer": "publication & peer review,"
+      },
+      {
+        "idx": 3,
+        "answer": "error rate,"
+      },
+      {
+        "idx": 4,
+        "answer": "standards & controls,"
+      },
+      {
+        "idx": 5,
+        "answer": "if it's generally accepted in the field."
       }
     ]
   },
@@ -11656,11 +11720,11 @@
     "sectionHeader": "G. Hearsay",
     "subsectionTitle": "Hearsay & Non-Hearsay",
     "priority": "H",
-    "context": "**Hearsay** is an __BLANK_1__ that is\n__BLANK_2__ − Admissible ONLY IF it falls under an exception\nor exclusion.",
+    "context": "**Hearsay** is an\n(1) __BLANK_1__\n(2) that is\n__BLANK_2__ − Admissible ONLY IF it falls under an exception\nor exclusion.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) out of court statement, (2)"
+        "answer": "out of court statement,"
       },
       {
         "idx": 2,
@@ -12690,22 +12754,30 @@
     "sectionHeader": "B. Co-Tenancy",
     "subsectionTitle": "Joint Tenancy: Creation",
     "priority": "M",
-    "context": "**Joint Tenancy: Creation** – created when 4 unities are\npresent → Unity of __BLANK_1__ AND __BLANK_2__ − **MUST have** __BLANK_3__ create a\nJoint Tenancy __BLANK_4__ (i.e. deed states “as joint tenants”, “right of\nsurvivorship”).",
+    "context": "**Joint Tenancy: Creation** – created when 4 unities are\npresent → Unity of\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__ AND\n(4) __BLANK_4__ − **MUST have** __BLANK_5__ create a\nJoint Tenancy __BLANK_6__ (i.e. deed states \"as joint tenants\", \"right of\nsurvivorship\").",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) time, (2) title (same instrument), (3) interest,"
+        "answer": "time,"
       },
       {
         "idx": 2,
-        "answer": "(4) possession."
+        "answer": "title (same instrument),"
       },
       {
         "idx": 3,
-        "answer": "clear express intent to"
+        "answer": "interest,"
       },
       {
         "idx": 4,
+        "answer": "possession."
+      },
+      {
+        "idx": 5,
+        "answer": "clear express intent to"
+      },
+      {
+        "idx": 6,
         "answer": "with a right of survivorship"
       }
     ]
@@ -14729,18 +14801,22 @@
     "sectionHeader": "A. Intentional Torts",
     "subsectionTitle": "Battery",
     "priority": "H",
-    "context": "**Battery** – is an __BLANK_1__ offends a reasonable sense of personal\ndignity), __BLANK_2__ − Intentional = (a) a desire to bring about the\nharm/contact; OR (b) knowing the harm/contact\nis substantially certain to occur.\n__BLANK_3__ are sufficient.",
+    "context": "**Battery** – is an\n(1) __BLANK_1__\n(2) __BLANK_2__ offends a reasonable sense of personal\ndignity),\n(3) __BLANK_3__ − Intentional = (a) a desire to bring about the\nharm/contact; OR (b) knowing the harm/contact\nis substantially certain to occur.\n__BLANK_4__ are sufficient.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) intentional, (2) harmful or offensive contact (that"
+        "answer": "intentional,"
       },
       {
         "idx": 2,
-        "answer": "(3) with the P’s person (including anything connected to P)."
+        "answer": "harmful or offensive contact (that"
       },
       {
         "idx": 3,
+        "answer": "with the P's person (including anything connected to P)."
+      },
+      {
+        "idx": 4,
         "answer": "*Nominal damages alone"
       }
     ]
@@ -15124,7 +15200,7 @@
     "sectionHeader": "B. Intentional Tort Defenses",
     "subsectionTitle": "Privilege",
     "priority": "H",
-    "context": "**Detain for Investigation** __BLANK_1__\n(1)\n__BLANK_2__\n(3) __BLANK_3__ − When a request to remain has been made and\nrefused, __BLANK_4__ may be\nused to detain.",
+    "context": "**Detain for Investigation** __BLANK_1__\n(1)\n__BLANK_2__\n(2) __BLANK_3__\n(3) __BLANK_4__\n(4) __BLANK_5__ − When a request to remain has been made and\nrefused, __BLANK_6__ may be\nused to detain.",
     "blanks": [
       {
         "idx": 1,
@@ -15132,14 +15208,22 @@
       },
       {
         "idx": 2,
-        "answer": "temporarily detain, (2) a person reasonably suspected of theft,"
+        "answer": "temporarily detain,"
       },
       {
         "idx": 3,
-        "answer": "in or near their store, (4) for the purpose of investigation."
+        "answer": "a person reasonably suspected of theft,"
       },
       {
         "idx": 4,
+        "answer": "in or near their store,"
+      },
+      {
+        "idx": 5,
+        "answer": "for the purpose of investigation."
+      },
+      {
+        "idx": 6,
         "answer": "reasonable non-deadly force"
       }
     ]
@@ -15308,7 +15392,7 @@
     "sectionHeader": "C. Negligence",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "**Psychologist / Psychotherapist** – Also have a duty to\n__BLANK_1__ if:\n(1) the therapist believed the __BLANK_2__\n(3) __BLANK_3__ and __BLANK_4__",
+    "context": "**Psychologist / Psychotherapist** – Also have a duty to\n__BLANK_1__ if:\n(1) the therapist believed the __BLANK_2__\n(2) __BLANK_3__\n(3) __BLANK_4__ and\n(4) __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
@@ -15316,15 +15400,19 @@
       },
       {
         "idx": 2,
-        "answer": "patient posed a real risk, (2) of serious physical violence,"
+        "answer": "patient posed a real risk,"
       },
       {
         "idx": 3,
-        "answer": "to a readily identifiable victim,"
+        "answer": "of serious physical violence,"
       },
       {
         "idx": 4,
-        "answer": "(4) failed to take steps to warn the victim."
+        "answer": "to a readily identifiable victim,"
+      },
+      {
+        "idx": 5,
+        "answer": "failed to take steps to warn the victim."
       }
     ]
   },
@@ -16431,18 +16519,22 @@
     "sectionHeader": "H. Economic Torts",
     "subsectionTitle": "Nuisance",
     "priority": "L",
-    "context": "**Public Nuisance** → is\n(1) an __BLANK_1__\n(3) of the\n__BLANK_2__ considerable amount of people or an\nentire community/neighborhood).\n− Must __BLANK_3__",
+    "context": "**Public Nuisance** → is\n(1) an __BLANK_1__\n(2) __BLANK_2__\n(3) of the\n__BLANK_3__ considerable amount of people or an\nentire community/neighborhood).\n− Must __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "unreasonable interference, (2) with the health, safety, or property rights,"
+        "answer": "unreasonable interference,"
       },
       {
         "idx": 2,
-        "answer": "community (a"
+        "answer": "with the health, safety, or property rights,"
       },
       {
         "idx": 3,
+        "answer": "community (a"
+      },
+      {
+        "idx": 4,
         "answer": "show actual damages."
       }
     ]
@@ -16454,15 +16546,15 @@
     "sectionHeader": "H. Economic Torts",
     "subsectionTitle": null,
     "priority": "M",
-    "context": "**Private Nuisance** → is\n(1) __BLANK_1__ with a __BLANK_2__ − MUST __BLANK_3__",
+    "context": "**Private Nuisance** → is\n(1) __BLANK_1__\n(2) with a __BLANK_2__ − MUST __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "a substantial and unreasonable interference, (2)"
+        "answer": "a substantial and unreasonable interference,"
       },
       {
         "idx": 2,
-        "answer": "person’s use or enjoyment of her property."
+        "answer": "person's use or enjoyment of her property."
       },
       {
         "idx": 3,
