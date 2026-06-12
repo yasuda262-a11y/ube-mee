@@ -16696,7 +16696,7 @@
     "sectionHeader": "I. Common Law Strict Liability",
     "subsectionTitle": "Abnormally Dangerous Activity",
     "priority": "H",
-    "context": "**Abnormally Dangerous Activity** – Is an activity that: M\n1) is not __BLANK_1__ **AND**\n2) creates __BLANK_2__ *D is subject to strict liability.\nJ. **Products Liability**\n**Strict Products Liability** – A commercial supplier is H\nstrictly liable for any harm caused by its product.\nElements:\n1) Product was __BLANK_3__ defect, design defect, or\nfailure to warn);\n2) Product was __BLANK_4__ it reached P;\n3) Caused an injury to P when it was being __BLANK_5__ **AND**\n4) D is __BLANK_6__",
+    "context": "**Abnormally Dangerous Activity** – Is an activity that:\n1) is not __BLANK_1__ **AND**\n2) creates __BLANK_2__\n*D is subject to strict liability.",
     "blanks": [
       {
         "idx": 1,
@@ -16705,21 +16705,32 @@
       {
         "idx": 2,
         "answer": "a foreseeable and highly significant risk of physical harm (even when reasonable care is exercised)."
-      },
+      }
+    ]
+  },
+  {
+    "id": 766,
+    "page": 79,
+    "subject": "TORTS",
+    "sectionHeader": "J. Products Liability",
+    "subsectionTitle": "Strict Products Liability",
+    "priority": "H",
+    "context": "**Strict Products Liability** – A commercial supplier is strictly liable for any harm caused by its product.\nElements:\n1) Product was __BLANK_1__ defect, design defect, or failure to warn);\n2) Product was __BLANK_2__ it reached P;\n3) Caused an injury to P when it was being __BLANK_3__ **AND**\n4) D is __BLANK_4__",
+    "blanks": [
       {
-        "idx": 3,
+        "idx": 1,
         "answer": "defective when it left the hands of D (manufacturing"
       },
       {
-        "idx": 4,
+        "idx": 2,
         "answer": "not altered when"
       },
       {
-        "idx": 5,
+        "idx": 3,
         "answer": "used in an intended or unintended foreseeable use;"
       },
       {
-        "idx": 6,
+        "idx": 4,
         "answer": "a commercial supplier who routinely deals in goods of this type."
       }
     ]
