@@ -108,9 +108,14 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
     return "space";
   }
 
-  // 行をまたぐ場合 → 常に改行（ハイフン連結のみ例外）
+  // 行をまたぐ場合
   if (prevDisplayText(prev).endsWith("-")) return "none"; // ハイフン連結
-  return "break";
+  // リストマーカー / (N) 番号 / 太字（新概念の開始）→ 改行
+  if (isListStartText(curText)) return "break";
+  if (/^\(\d+\)$/.test(curText)) return "break";
+  if (cur.type === "word" && cur.bold) return "break";
+  // それ以外（PDFの折り返し等）→ スペースとして扱う
+  return "space";
 }
 
 // Legacy wrapper for EditTokens which still uses ReactNode separator
