@@ -9280,15 +9280,23 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Arson",
     "priority": "L",
-    "context": "**Arson** – is the\n(1) __BLANK_1__\n(3) of a\n__BLANK_2__ − Majority of States → includes damage (i) caused\nby explosives, and (ii) to other types of buildings\nand vehicles.",
+    "context": "**Arson** – is the\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) of a __BLANK_3__\n(4) __BLANK_4__\n▪ Majority of States → includes damage (i) caused by explosives, and (ii) to other types of buildings and vehicles.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "malicious, (2) burning,"
+        "answer": "malicious,"
       },
       {
         "idx": 2,
-        "answer": "dwelling, (4) of another."
+        "answer": "burning,"
+      },
+      {
+        "idx": 3,
+        "answer": "dwelling,"
+      },
+      {
+        "idx": 4,
+        "answer": "of another."
       }
     ]
   },
