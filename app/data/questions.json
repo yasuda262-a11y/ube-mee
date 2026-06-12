@@ -8953,7 +8953,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Manslaughter",
     "priority": "H",
-    "context": "Manslaughter\nVoluntary Manslaughter – __BLANK_1__ provocation).\n− Adequate Provocation = (1) D was provoked\n__BLANK_2__ (2) __BLANK_3__ have",
+    "context": "Manslaughter\nVoluntary Manslaughter – __BLANK_1__ provocation).\n− Adequate Provocation = (1) D was provoked __BLANK_2__ (2) __BLANK_3__ have been provoked; __BLANK_4__ AND __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
@@ -8966,24 +8966,13 @@
       {
         "idx": 3,
         "answer": "a reasonable person would"
-      }
-    ]
-  },
-  {
-    "id": 424,
-    "page": 50,
-    "subject": "CRIMINAL LAW & PROCEDURE",
-    "sectionHeader": "B. Homicide",
-    "subsectionTitle": null,
-    "priority": "H",
-    "context": "been provoked; __BLANK_1__ AND __BLANK_2__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 4,
         "answer": "(3) not enough time to cool off;"
       },
       {
-        "idx": 2,
+        "idx": 5,
         "answer": "(4) D in fact did not cool off."
       }
     ]
