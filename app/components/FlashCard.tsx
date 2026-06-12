@@ -715,7 +715,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
         <>
           <div className="rounded-3xl overflow-hidden"
             style={{ boxShadow: "0 2px 0 #a8c8d8, 0 4px 0 #a8c8d855, 0 12px 40px -4px #8ab0c440, 0 2px 8px rgba(0,0,0,0.08)" }}>
-            <div className="h-1.5" style={{ background: subjectAccent(card.subject) }} />
+            <div className="h-1.5" style={{ background: "#a8c8d8" }} />
             <div className="bg-[#eaf5f9] p-5 text-[15px] leading-8 text-gray-700">
             <EditTokens
               tokens={tokens}
@@ -785,7 +785,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
             <div className="h-1.5 transition-all" style={{
               background: submitted
                 ? allCorrect ? "#10b981" : "#f87171"
-                : subjectAccent(card.subject)
+                : "#a8c8d8"
             }} />
             <div className={`bg-[#eaf5f9] p-5 text-[15px] leading-8 text-gray-700 border-b border-x rounded-b-3xl transition-colors ${
               !submitted ? "border-gray-200" : allCorrect ? "border-emerald-300" : "border-red-300"
