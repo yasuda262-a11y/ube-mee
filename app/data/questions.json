@@ -874,7 +874,7 @@
     "sectionHeader": "E. Special Rules for Limited Partnerships",
     "subsectionTitle": "Management & Control in a LP",
     "priority": "M",
-    "context": "**Management & Control in a LP**\n**General Partner** __BLANK_1__ →\n__BLANK_2__ **Limited Partner** Has NO say or control as to how the →\nLP is run, and DOES NOT have the right to manage or\ncontrol day-to-day business.\n− Generally, they are passive and have voting\nrights only __BLANK_3__ or __BLANK_4__",
+    "context": "**Management & Control in a LP**\n**General Partner** __BLANK_1__ →\n__BLANK_2__\n**Limited Partner** Has NO say or control as to how the →\nLP is run, and DOES NOT have the right to manage or\ncontrol day-to-day business.\n− Generally, they are passive and have voting\nrights only __BLANK_3__ or __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -1133,7 +1133,7 @@
     "sectionHeader": "F. Duties Owed by Partners",
     "subsectionTitle": "Dissolution of a General Partnership",
     "priority": "H",
-    "context": "Under RUPA\n(1997):\n− **If wrongful dissociation** → ALL remaining\n**partners** may waive their right to wind-\nup/terminate the Pship, and __BLANK_1__ − **If rightful dissociation** → The dissociated\npartner is allowed to vote on __BLANK_2__ Regardless, the other **partners** MAY choose to\ncontinue the business for a reasonable amount\nof time.",
+    "context": "Under RUPA\n(1997):\n− **If wrongful dissociation** → ALL remaining\n**partners** may waive their right to wind-\nup/terminate the Pship, and __BLANK_1__\n− **If rightful dissociation** → The dissociated\npartner is allowed to vote on __BLANK_2__\nRegardless, the other **partners** MAY choose to\ncontinue the business for a reasonable amount\nof time.",
     "blanks": [
       {
         "idx": 1,
@@ -1361,7 +1361,7 @@
     "sectionHeader": "C. Pre-Formation Contract Liability",
     "subsectionTitle": "Liability of Corporation",
     "priority": "M",
-    "context": "**Liability of Corporation** – A corp. is NOT liable on a\ncontract made by a promoter UNLESS the corp.\n__BLANK_1__ − **Express Adoption** = __BLANK_2__ − **Implied Adoption** = Corp.\n(1) knows / has\nreason to __BLANK_3__ **AND** __BLANK_4__",
+    "context": "**Liability of Corporation** – A corp. is NOT liable on a\ncontract made by a promoter UNLESS the corp.\n__BLANK_1__\n− **Express Adoption** = __BLANK_2__\n− **Implied Adoption** = Corp.\n(1) knows / has\nreason to __BLANK_3__ **AND** __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -5401,7 +5401,7 @@
     "sectionHeader": "K. Equal Protection (5th & 14th Amendments)",
     "subsectionTitle": "Equal Protection Analysis",
     "priority": "H",
-    "context": "When laws classify people into groups, apply the\nappropriate test below based on the type of class:\n− **Strict Scrutiny** → suspect class __BLANK_1__ under state\nlaw) or infringes on a fundamental right.\n• Govt. must show the classification is\nnecessary to serve a compelling\ngovernment interest.\n− **Intermediate Scrutiny** → quasi-suspect class\n__BLANK_2__ & most likely\n__BLANK_3__ • Govt. must show the classification is\n__BLANK_4__ − **Rational Basis** → all other classes.\n• Plaintiff must show the classification is\n__BLANK_5__ conceivable\ninterest is sufficient).",
+    "context": "When laws classify people into groups, apply the\nappropriate test below based on the type of class:\n− **Strict Scrutiny** → suspect class __BLANK_1__ under state\nlaw) or infringes on a fundamental right.\n• Govt. must show the classification is\nnecessary to serve a compelling\ngovernment interest.\n− **Intermediate Scrutiny** → quasi-suspect class\n__BLANK_2__ & most likely\n__BLANK_3__ • Govt. must show the classification is\n__BLANK_4__\n− **Rational Basis** → all other classes.\n• Plaintiff must show the classification is\n__BLANK_5__ conceivable\ninterest is sufficient).",
     "blanks": [
       {
         "idx": 1,
@@ -5822,7 +5822,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Content-Based vs. Content Neutral Restrictions",
     "priority": "H",
-    "context": "**Content-Based Restrictions** – Govt. regulations\nregarding the content of speech (subject matter or\nviewpoint) are subject to strict scrutiny.\n− Strict Scrutiny → Govt. must show\n(1) the\nregulation __BLANK_1__\n(2) to achieve a\n__BLANK_2__ **AND** __BLANK_3__ **Content-Neutral Restrictions** – Govt. MAY regulate the\n__BLANK_4__ content-neutral speech if it\n__BLANK_5__ − Intermediate Scrutiny Govt. must show that →\n(1) the regulation is __BLANK_6__\n(2) to\nachieve a __BLANK_7__ **AND**\n(3) __BLANK_8__",
+    "context": "**Content-Based Restrictions** – Govt. regulations\nregarding the content of speech (subject matter or\nviewpoint) are subject to strict scrutiny.\n− Strict Scrutiny → Govt. must show\n(1) the\nregulation __BLANK_1__\n(2) to achieve a\n__BLANK_2__ **AND** __BLANK_3__\n**Content-Neutral Restrictions** – Govt. MAY regulate the\n__BLANK_4__ content-neutral speech if it\n__BLANK_5__ − Intermediate Scrutiny Govt. must show that →\n(1) the regulation is __BLANK_6__\n(2) to\nachieve a __BLANK_7__ **AND**\n(3) __BLANK_8__",
     "blanks": [
       {
         "idx": 1,
@@ -6235,7 +6235,7 @@
     "sectionHeader": "Contract Fundamentals",
     "subsectionTitle": null,
     "priority": null,
-    "context": "**Bilateral vs. Unilateral Contract**\n**Bilateral Contract** – A contract formed by __BLANK_1__ **Unilateral Contract** – Involves only 1 promise (by\nofferor) that __BLANK_2__ − Contract is formed ONLY WHEN offeree\ncompletes performance.",
+    "context": "**Bilateral vs. Unilateral Contract**\n**Bilateral Contract** – A contract formed by __BLANK_1__\n**Unilateral Contract** – Involves only 1 promise (by\nofferor) that __BLANK_2__ − Contract is formed ONLY WHEN offeree\ncompletes performance.",
     "blanks": [
       {
         "idx": 1,
@@ -7052,7 +7052,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Illegality",
     "priority": "L",
-    "context": "**Illegality** – Courts will NOT enforce illegal contracts.\n− **Illegal Subject Matter** → Contract __BLANK_1__ − **Illegal Purpose** → Contract is __BLANK_2__ the\nparty __BLANK_3__ *Performance is discharged if the contract subsequently\nbecame illegal.",
+    "context": "**Illegality** – Courts will NOT enforce illegal contracts.\n− **Illegal Subject Matter** → Contract __BLANK_1__\n− **Illegal Purpose** → Contract is __BLANK_2__ the\nparty __BLANK_3__ *Performance is discharged if the contract subsequently\nbecame illegal.",
     "blanks": [
       {
         "idx": 1,
@@ -7348,7 +7348,7 @@
     "sectionHeader": "D. Contract Content & Meaning",
     "subsectionTitle": "UCC Omitted & Implied Terms",
     "priority": "M",
-    "context": "UCC Gap Fillers:\n− **Price** → __BLANK_1__ − **Time for Payment** __BLANK_2__ − **Time for Shipment/Delivery** → within a\n__BLANK_3__ at a reasonable hour\n− **Place for Delivery** __BLANK_4__ o Seller’s residence (if no place of\nbusiness).",
+    "context": "UCC Gap Fillers:\n− **Price** → __BLANK_1__\n− **Time for Payment** __BLANK_2__\n− **Time for Shipment/Delivery** → within a\n__BLANK_3__ at a reasonable hour\n− **Place for Delivery** __BLANK_4__ o Seller’s residence (if no place of\nbusiness).",
     "blanks": [
       {
         "idx": 1,
@@ -8775,7 +8775,7 @@
     "sectionHeader": "A. General Principles",
     "subsectionTitle": "Acts and Omissions",
     "priority": "L",
-    "context": "**Acts and Omissions**\n**Physical Act** (actus reus) of the D must __BLANK_1__ **Omission** – is generally NOT criminal unless:\n1) D had __BLANK_2__\n2) D __BLANK_3__\n3) It __BLANK_4__",
+    "context": "**Acts and Omissions**\n**Physical Act** (actus reus) of the D must __BLANK_1__\n**Omission** – is generally NOT criminal unless:\n1) D had __BLANK_2__\n2) D __BLANK_3__\n3) It __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -9161,7 +9161,7 @@
     "sectionHeader": "C. Other Crimes",
     "subsectionTitle": "Robbery",
     "priority": "H",
-    "context": "**Robbery** – is the\n(1) __BLANK_1__\n(2) of the personal property of another,\n(3) __BLANK_2__\n(4) __BLANK_3__\n(5) with the intent __BLANK_4__ − **Armed Robbery** = above elements + use of a\ndangerous weapon.",
+    "context": "**Robbery** – is the\n(1) __BLANK_1__\n(2) of the personal property of another,\n(3) __BLANK_2__\n(4) __BLANK_3__\n(5) with the intent __BLANK_4__\n− **Armed Robbery** = above elements + use of a\ndangerous weapon.",
     "blanks": [
       {
         "idx": 1,
@@ -9258,7 +9258,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Theft Crimes",
     "priority": "L",
-    "context": "**Assault & Battery**\n**Battery** – is the\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__ − **Battery** is __BLANK_4__ − Intent to __BLANK_5__ is NOT required.\n**Assault** – either (a) __BLANK_6__ **OR** (b) the\n__BLANK_7__",
+    "context": "**Assault & Battery**\n**Battery** – is the\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__\n**Battery** is __BLANK_4__ − Intent to __BLANK_5__ is NOT required.\n**Assault** – either (a) __BLANK_6__ **OR** (b) the\n__BLANK_7__",
     "blanks": [
       {
         "idx": 1,
@@ -9394,7 +9394,7 @@
     "sectionHeader": "D. Inchoate Offenses",
     "subsectionTitle": "Attempt",
     "priority": "M",
-    "context": "**Attempt** – when a person\n(1) had __BLANK_1__ commit a crime, **AND**\n(2) took __BLANK_2__ (most states & MPC = a\n__BLANK_3__ minority of states = __BLANK_4__ − **Attempt** merges with the underlying crime.",
+    "context": "**Attempt** – when a person\n(1) had __BLANK_1__ commit a crime, **AND**\n(2) took __BLANK_2__ (most states & MPC = a\n__BLANK_3__ minority of states = __BLANK_4__\n− **Attempt** merges with the underlying crime.",
     "blanks": [
       {
         "idx": 1,
@@ -9772,7 +9772,7 @@
     "sectionHeader": "F. Defenses",
     "subsectionTitle": "Mistake of Fact or Law",
     "priority": "L",
-    "context": "**Mistake of Fact or Law**\n**Mistake of Fact** → is a defense __BLANK_1__ **Mistake of Law** → generally NOT a defense.",
+    "context": "**Mistake of Fact or Law**\n**Mistake of Fact** → is a defense __BLANK_1__\n**Mistake of Law** → generally NOT a defense.",
     "blanks": [
       {
         "idx": 1,
@@ -9884,7 +9884,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Request for Info, Stop & Inquire, Stop & Frisk",
     "priority": "H",
-    "context": "**Request for Info, Stop & Inquire, Stop & Frisk**\n**Request for Information** – __BLANK_1__ on\n__BLANK_2__ **Stop & Inquire** – police must have\n(1) __BLANK_3__\n(2) __BLANK_4__ − Allows a brief detention for questioning.\n**Stop & Frisk** – police must have\n(1) __BLANK_5__\n(2) that __BLANK_6__ and\n(3) __BLANK_7__ − Plain Feel Doctrine → during the frisk, police\nmay only seize items reasonably believed to be\n__BLANK_8__",
+    "context": "**Request for Info, Stop & Inquire, Stop & Frisk**\n**Request for Information** – __BLANK_1__ on\n__BLANK_2__\n**Stop & Inquire** – police must have\n(1) __BLANK_3__\n(2) __BLANK_4__ − Allows a brief detention for questioning.\n**Stop & Frisk** – police must have\n(1) __BLANK_5__\n(2) that __BLANK_6__ and\n(3) __BLANK_7__ − Plain Feel Doctrine → during the frisk, police\nmay only seize items reasonably believed to be\n__BLANK_8__",
     "blanks": [
       {
         "idx": 1,
@@ -11000,7 +11000,7 @@
     "sectionHeader": "C. Physical & Documentary Evidence",
     "subsectionTitle": "Authentication of Evidence",
     "priority": "H",
-    "context": "**Authentication of Evidence** – All evidence MUST be\nauthenticated before being admitted.\n− **Physical Evidence** → __BLANK_1__ by evidence that shows it has been\nheld __BLANK_2__ − **Voice Recordings** __BLANK_3__ →\n__BLANK_4__ − **Video Recordings** → __BLANK_5__",
+    "context": "**Authentication of Evidence** – All evidence MUST be\nauthenticated before being admitted.\n− **Physical Evidence** → __BLANK_1__ by evidence that shows it has been\nheld __BLANK_2__\n− **Voice Recordings** __BLANK_3__ →\n__BLANK_4__\n− **Video Recordings** → __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
@@ -13203,7 +13203,7 @@
     "sectionHeader": "B. Co-Tenancy",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "Residential Leases → **Landlord** HAS a duty to\n(1) repair\n__BLANK_1__ and __BLANK_2__ Commercial Leases → **Landlord** has NO duty to repair\n(unless specified in the lease agreement).",
+    "context": "Residential Leases → **Landlord** HAS a duty to\n(1) repair\n__BLANK_1__ and __BLANK_2__ Commercial Leases →\n**Landlord** has NO duty to repair\n(unless specified in the lease agreement).",
     "blanks": [
       {
         "idx": 1,
@@ -15132,7 +15132,7 @@
     "sectionHeader": "B. Intentional Tort Defenses",
     "subsectionTitle": "Privilege",
     "priority": "H",
-    "context": "**Necessity** – D is NOT liable for harm to P’s property if\nD’s intrusion was (or reasonably appeared to be)\n__BLANK_1__ − Applicable only __BLANK_2__ − __BLANK_3__ defense) → when D\nacts for the public good.\n− __BLANK_4__ **Necessity** __BLANK_5__ → when\nD is protecting his own (or a few others) property\ninterests. D is liable __BLANK_6__ UNLESS the\n__BLANK_7__",
+    "context": "**Necessity** – D is NOT liable for harm to P’s property if\nD’s intrusion was (or reasonably appeared to be)\n__BLANK_1__ − Applicable only __BLANK_2__ − __BLANK_3__ defense) → when D\nacts for the public good.\n− __BLANK_4__\n**Necessity** __BLANK_5__ → when\nD is protecting his own (or a few others) property\ninterests. D is liable __BLANK_6__ UNLESS the\n__BLANK_7__",
     "blanks": [
       {
         "idx": 1,
