@@ -9009,9 +9009,9 @@
     "page": 50,
     "subject": "CRIMINAL LAW & PROCEDURE",
     "sectionHeader": "C. Other Crimes",
-    "subsectionTitle": "Theft Crimes",
     "priority": "H",
-    "context": "Theft Crimes H\nLarceny – __BLANK_1__ (2) __BLANK_2__ (3) of __BLANK_3__ with the intent\n__BLANK_4__ (intent\nmust exist at the time of taking).\nLarceny by Trick – obtain possession (not title) of the\npersonal property of another by trick or deception.\nFalse Pretenses – (1) __BLANK_5__ to personal\nproperty of another, (3) through __BLANK_6__ (4) __BLANK_7__ Embezzlement – __BLANK_8__ (2)\n__BLANK_9__ (3) of personal property of another, (4) by a\n__BLANK_10__ − Intent to __BLANK_11__ required.\nReceiving Stolen Property – when a person (1)\nreceives possession of stolen property, (2) __BLANK_12__ (3) with the\nintent __BLANK_13__",
+    "subsectionTitle": "Theft Crimes",
+    "context": "Larceny – __BLANK_1__ (2) __BLANK_2__ (3) of __BLANK_3__ with the intent __BLANK_4__ (intent must exist at the time of taking).",
     "blanks": [
       {
         "idx": 1,
@@ -9028,41 +9028,84 @@
       {
         "idx": 4,
         "answer": "to permanently deprive the owner of the property"
-      },
+      }
+    ]
+  },
+  {
+    "id": 761,
+    "page": 50,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "C. Other Crimes",
+    "priority": "H",
+    "subsectionTitle": "Theft Crimes",
+    "context": "Larceny by Trick – obtain possession (not title) of the personal property of another by trick or deception.",
+    "blanks": []
+  },
+  {
+    "id": 762,
+    "page": 50,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "C. Other Crimes",
+    "priority": "H",
+    "subsectionTitle": "Theft Crimes",
+    "context": "False Pretenses – (1) __BLANK_1__ to personal property of another, (3) through __BLANK_2__ (4) __BLANK_3__",
+    "blanks": [
       {
-        "idx": 5,
+        "idx": 1,
         "answer": "obtain title, (2)"
       },
       {
-        "idx": 6,
+        "idx": 2,
         "answer": "an intentional false statement of material fact,"
       },
       {
-        "idx": 7,
+        "idx": 3,
         "answer": "with intent to defraud."
-      },
+      }
+    ]
+  },
+  {
+    "id": 763,
+    "page": 50,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "C. Other Crimes",
+    "priority": "H",
+    "subsectionTitle": "Theft Crimes",
+    "context": "Embezzlement – __BLANK_1__ (2) __BLANK_2__ (3) of personal property of another, (4) by a __BLANK_3__\n▪ Intent to __BLANK_4__ required.",
+    "blanks": [
       {
-        "idx": 8,
+        "idx": 1,
         "answer": "(1) fraudulent or wrongful,"
       },
       {
-        "idx": 9,
+        "idx": 2,
         "answer": "conversion,"
       },
       {
-        "idx": 10,
+        "idx": 3,
         "answer": "person with lawful possession of the property."
       },
       {
-        "idx": 11,
+        "idx": 4,
         "answer": "permanently deprive the lawful owner of the property is"
-      },
+      }
+    ]
+  },
+  {
+    "id": 764,
+    "page": 50,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "C. Other Crimes",
+    "priority": "H",
+    "subsectionTitle": "Theft Crimes",
+    "context": "Receiving Stolen Property – when a person (1) receives possession of stolen property, (2) __BLANK_1__ (3) with the intent __BLANK_2__",
+    "blanks": [
       {
-        "idx": 12,
+        "idx": 1,
         "answer": "who knows the property is stolen when receiving it,"
       },
       {
-        "idx": 13,
+        "idx": 2,
         "answer": "to permanently deprive the owner of the property."
       }
     ]
