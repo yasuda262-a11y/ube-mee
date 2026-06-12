@@ -667,6 +667,29 @@
     ]
   },
   {
+    "id": 767,
+    "page": 9,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "D. Limited Liability Partnership",
+    "subsectionTitle": "Limited Liability Partnership (LLP)",
+    "priority": "M",
+    "context": "**Limited Liability Partnership (LLP)** – In an LLP, all partners have __BLANK_1__ personal liability.\nTo Become an LLP:\n1) It must be approved by __BLANK_2__\n2) A __BLANK_3__ must be filed with the Secretary of State.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "limited"
+      },
+      {
+        "idx": 2,
+        "answer": "the same vote necessary to amend the Pship Agreement;"
+      },
+      {
+        "idx": 3,
+        "answer": "Statement of Qualification"
+      }
+    ]
+  },
+  {
     "id": 34,
     "page": 10,
     "subject": "PARTNERSHIPS",
@@ -792,6 +815,52 @@
       {
         "idx": 5,
         "answer": "approved unanimously."
+      }
+    ]
+  },
+  {
+    "id": 768,
+    "page": 10,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "E. Dissolution & Winding Up",
+    "subsectionTitle": "Authority to Bind the Partnership After Dissolution",
+    "priority": "M",
+    "context": "**Authority to Bind the Partnership After Dissolution** – A partner's authority is limited after dissolution.\n**Actual Authority** → limited only to __BLANK_1__\n**Apparent Authority** → a partner has apparent authority to bind the Pship if the:\n1) Partner's acts would have __BLANK_2__\n2) Third-party did not have __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "acts appropriate for winding up the business."
+      },
+      {
+        "idx": 2,
+        "answer": "normally bound the Pship;"
+      },
+      {
+        "idx": 3,
+        "answer": "notice of dissolution."
+      }
+    ]
+  },
+  {
+    "id": 769,
+    "page": 10,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "C. Partners' Rights & Duties",
+    "subsectionTitle": "Transfer of Partnership Ownership",
+    "priority": "H",
+    "context": "**Transfer of Partnership Ownership** – A partner can only transfer:\n1) his interest in __BLANK_1__\n2) the right to __BLANK_2__\nAny other rights CANNOT be transferred, unless the partnership agreement provides otherwise.\nALL partners __BLANK_3__ for an assignee of a partnership interest to become a partner.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "the share of profits and losses;"
+      },
+      {
+        "idx": 2,
+        "answer": "receive distributions."
+      },
+      {
+        "idx": 3,
+        "answer": "MUST CONSENT"
       }
     ]
   },
@@ -1146,6 +1215,44 @@
     ]
   },
   {
+    "id": 770,
+    "page": 12,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "C. Partners' Rights & Duties",
+    "subsectionTitle": "Action Against a Partner for Misconduct",
+    "priority": "L",
+    "context": "The Pship can maintain an action against a partner for misconduct.\nA partner can also maintain a direct action against another partner to enforce the partner's right, including an action for __BLANK_1__\nBUT, a partner CANNOT maintain a __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "violating fiduciary duties."
+      },
+      {
+        "idx": 2,
+        "answer": "derivative action."
+      }
+    ]
+  },
+  {
+    "id": 771,
+    "page": 12,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "E. Dissolution & Winding Up",
+    "subsectionTitle": "Dissociation (Withdrawal of a Partner)",
+    "priority": "H",
+    "context": "**Dissociation (Withdrawal of a Partner)** – A partner may dissociate from the Pship at any time upon notice.\n**Dissociation Events** – A partner becomes dissociated from the Pship upon:\n(a) __BLANK_1__\n(b) The occurrence of an agreed upon event;\n(c) __BLANK_2__\n(d) Expulsion by unanimous vote of the other partners.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "The partner providing notice of their express will to withdraw;"
+      },
+      {
+        "idx": 2,
+        "answer": "Expulsion pursuant to the Pship agreement;"
+      }
+    ]
+  },
+  {
     "id": 59,
     "page": 13,
     "subject": "PARTNERSHIPS",
@@ -1169,6 +1276,29 @@
       {
         "idx": 4,
         "answer": "the passage of 90 days after the dissociation"
+      }
+    ]
+  },
+  {
+    "id": 772,
+    "page": 13,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "E. Dissolution & Winding Up",
+    "subsectionTitle": "Winding Up & Termination",
+    "priority": "M",
+    "context": "**Dissolution vs. Winding Up vs. Termination:**\n**Dissolution** → Occurs upon __BLANK_1__\n**Winding Up** → Is the period between dissolution and termination, in which __BLANK_2__\n**Termination** → Occurs when __BLANK_3__\n\nDistribution Order:\n1) Outside creditors;\n2) Inside creditors;\n3) Capital contributions;\n4) Remaining profits.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "the occurrence of any specified statutory event."
+      },
+      {
+        "idx": 2,
+        "answer": "assets are liquidated to satisfy creditors."
+      },
+      {
+        "idx": 3,
+        "answer": "the winding up process is complete."
       }
     ]
   },
@@ -1504,6 +1634,25 @@
       {
         "idx": 1,
         "answer": "(a.k.a Treasury Shares)"
+      }
+    ]
+  },
+  {
+    "id": 773,
+    "page": 15,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "B. Formation & Capitalization",
+    "subsectionTitle": "Common & Preferred Shares",
+    "priority": "L",
+    "context": "**Common Shares** → Provide SH's with __BLANK_1__\n**Preferred Shares** → Usually DO NOT have voting rights. Generally, provide a SH the preferred right to __BLANK_2__ before SH's with common shares.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "voting rights."
+      },
+      {
+        "idx": 2,
+        "answer": "an asset distribution"
       }
     ]
   },
@@ -2138,6 +2287,25 @@
       {
         "idx": 1,
         "answer": "*An absolute restraint on"
+      }
+    ]
+  },
+  {
+    "id": 774,
+    "page": 18,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "D. Officers",
+    "subsectionTitle": "Removal of Officers",
+    "priority": "L",
+    "context": "**Removal of Officers** – Officers may be removed at any time with or without cause by:\n(a) __BLANK_1__\n(b) __BLANK_2__ (unless the bylaws or BoD provide otherwise); OR\n(c) Any other Officer authorized by the Articles, Bylaws, or BoD.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "The Board of Directors;"
+      },
+      {
+        "idx": 2,
+        "answer": "An Officer who appointed such Officer"
       }
     ]
   },
@@ -3262,6 +3430,29 @@
     ]
   },
   {
+    "id": 775,
+    "page": 24,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "B. Abstention Doctrines",
+    "subsectionTitle": "Abstention Doctrines",
+    "priority": "M",
+    "context": "**Abstention Doctrines** – Federal courts MAY abstain from hearing a case when it would __BLANK_1__\n**Pullman Doctrine** – discretionary abstention when a __BLANK_2__\n**Burford Doctrine** – abstention when federal review would __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "intrude upon the powers of another court."
+      },
+      {
+        "idx": 2,
+        "answer": "case involves an unsettled question of state law."
+      },
+      {
+        "idx": 3,
+        "answer": "disrupt a state's effort to establish a coherent policy."
+      }
+    ]
+  },
+  {
     "id": 164,
     "page": 25,
     "subject": "CIVIL PROCEDURE",
@@ -3728,6 +3919,29 @@
     ]
   },
   {
+    "id": 776,
+    "page": 26,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "G. Injunctions",
+    "subsectionTitle": "Permanent Injunction",
+    "priority": "L",
+    "context": "**Permanent Injunction** – A party MUST show:\n1) __BLANK_1__\n2) Legal remedies are __BLANK_2__\n3) __BLANK_3__ favors the party seeking the injunction; AND\n4) Public interest is not harmed.\n*May be issued only after a full trial on the merits.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Irreparable injury;"
+      },
+      {
+        "idx": 2,
+        "answer": "inadequate;"
+      },
+      {
+        "idx": 3,
+        "answer": "Balance of hardships"
+      }
+    ]
+  },
+  {
     "id": 186,
     "page": 27,
     "subject": "CIVIL PROCEDURE",
@@ -3896,6 +4110,29 @@
       {
         "idx": 4,
         "answer": "is not adequately represented by"
+      }
+    ]
+  },
+  {
+    "id": 777,
+    "page": 27,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "H. Sanctions",
+    "subsectionTitle": "Rule 11 – Sanctions",
+    "priority": "M",
+    "context": "**Rule 11 – Sanctions** – The court may issue sanctions (by motion or on its own) for failure to comply with Rule 11.\n**Nature of Sanctions:**\n(a) non-monetary directives;\n(b) pay a penalty; or\n(c) pay reasonable __BLANK_1__\n**Liability:** A law firm is __BLANK_2__ for a violation by its partner, associate, or employee.\nMonetary sanctions CANNOT be issued against a client for __BLANK_3__ made by their attorney.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "attorney's fees/expenses."
+      },
+      {
+        "idx": 2,
+        "answer": "jointly responsible"
+      },
+      {
+        "idx": 3,
+        "answer": "an unwarranted claim/defense/legal contention"
       }
     ]
   },
@@ -7705,6 +7942,29 @@
     ]
   },
   {
+    "id": 778,
+    "page": 44,
+    "subject": "CONTRACTS",
+    "sectionHeader": "J. Performance & Breach",
+    "subsectionTitle": "Obligation of Good Faith & Fair Dealing",
+    "priority": "M",
+    "context": "**Obligation of Good Faith & Fair Dealing** – Every contract contains an implied obligation of good faith and fair dealing to __BLANK_1__\n**UCC** → Requires:\n(1) __BLANK_2__ AND\n(2) observance of __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "act honestly and fairly."
+      },
+      {
+        "idx": 2,
+        "answer": "honesty in fact,"
+      },
+      {
+        "idx": 3,
+        "answer": "reasonable commercial standards of fair dealing."
+      }
+    ]
+  },
+  {
     "id": 365,
     "page": 45,
     "subject": "CONTRACTS",
@@ -9018,6 +9278,33 @@
       {
         "idx": 5,
         "answer": "(4) D in fact did not cool off."
+      }
+    ]
+  },
+  {
+    "id": 779,
+    "page": 49,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "A. Elements of a Crime",
+    "subsectionTitle": "Elements of a Crime",
+    "priority": "H",
+    "context": "**Elements of a Crime** – Prosecution must prove all elements beyond a reasonable doubt:\n1) __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ (both actual and proximate cause); AND\n4) __BLANK_4__ (mental state and physical act occur at the same time).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Physical Act (actus reus);"
+      },
+      {
+        "idx": 2,
+        "answer": "Mental State (mens rea);"
+      },
+      {
+        "idx": 3,
+        "answer": "Causation"
+      },
+      {
+        "idx": 4,
+        "answer": "Concurrence"
       }
     ]
   },
@@ -10732,6 +11019,25 @@
     ]
   },
   {
+    "id": 780,
+    "page": 55,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "L. Competence to Stand Trial",
+    "subsectionTitle": "Competence to Stand Trial",
+    "priority": "M",
+    "context": "**Competence to Stand Trial** – D is competent to stand trial if they have:\n1) a sufficient present ability to __BLANK_1__\n2) a __BLANK_2__ understanding of proceedings.\n*D cannot be tried if deemed incompetent (but competence can be reassessed at a later date).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "consult with their lawyer (able to assist in preparing a defense);"
+      },
+      {
+        "idx": 2,
+        "answer": "rational and factual"
+      }
+    ]
+  },
+  {
     "id": 488,
     "page": 56,
     "subject": "CRIMINAL LAW & PROCEDURE",
@@ -11548,6 +11854,25 @@
       {
         "idx": 2,
         "answer": "is unable to recall it while testifying."
+      }
+    ]
+  },
+  {
+    "id": 781,
+    "page": 59,
+    "subject": "EVIDENCE",
+    "sectionHeader": "D. Hearsay",
+    "subsectionTitle": "Hearsay Declarants – Impeachment",
+    "priority": "M",
+    "context": "**Hearsay Declarants** – May be attacked (and then supported) by any evidence that would be __BLANK_1__\nEvidence (including hearsay) is admissible to impeach regardless of __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "admissible if the declarant had testified as a witness."
+      },
+      {
+        "idx": 2,
+        "answer": "when / whether declarant had an opportunity to explain or deny it."
       }
     ]
   },
@@ -12404,6 +12729,29 @@
     ]
   },
   {
+    "id": 782,
+    "page": 62,
+    "subject": "EVIDENCE",
+    "sectionHeader": "D. Hearsay",
+    "subsectionTitle": "Learned Treatises",
+    "priority": "M",
+    "context": "**Learned Treatises, Periodicals, or Pamphlets** – Statements are admissible if:\n1) The publication is established as a __BLANK_1__ (by judicial notice or an expert witness); AND\n2) The statement is:\n(a) called to attention by an expert witness on __BLANK_2__ OR\n(b) relied on by an expert on __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "reliable authority"
+      },
+      {
+        "idx": 2,
+        "answer": "cross-examination,"
+      },
+      {
+        "idx": 3,
+        "answer": "direct examination."
+      }
+    ]
+  },
+  {
     "id": 560,
     "page": 63,
     "subject": "EVIDENCE",
@@ -12778,6 +13126,25 @@
       {
         "idx": 6,
         "answer": "with a right of survivorship"
+      }
+    ]
+  },
+  {
+    "id": 783,
+    "page": 64,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "A. Freehold Estates",
+    "subsectionTitle": "Fee Tail",
+    "priority": "M",
+    "context": "**Fee Tail** – A conveyance of real property to a person AND their lineal heirs.\n__BLANK_1__ in most jurisdictions; is treated as a __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Abolished"
+      },
+      {
+        "idx": 2,
+        "answer": "fee simple absolute."
       }
     ]
   },
@@ -13989,6 +14356,25 @@
     ]
   },
   {
+    "id": 784,
+    "page": 68,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "C. Non-Possessory Interests",
+    "subsectionTitle": "Profit",
+    "priority": "M",
+    "context": "**Profit** – Gives the holder the right to __BLANK_1__ such as petroleum, minerals, timber, and wild game __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "take natural resources"
+      },
+      {
+        "idx": 2,
+        "answer": "from the land of another."
+      }
+    ]
+  },
+  {
     "id": 629,
     "page": 69,
     "subject": "REAL PROPERTY",
@@ -14695,6 +15081,25 @@
       {
         "idx": 1,
         "answer": "Insubstantial changes and reasonable alterations to repair the property →"
+      }
+    ]
+  },
+  {
+    "id": 785,
+    "page": 71,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "E. Mortgages",
+    "subsectionTitle": "Deed of Trust",
+    "priority": "M",
+    "context": "**Deed of Trust** – Similar to a mortgage, but involves 3 parties:\n1) __BLANK_1__\n2) Lender; and\n3) Trustee.\nThe mortgage automatically follows the note when it is __BLANK_2__ (even without notice to the mortgagor).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Borrower (the purchaser of the property);"
+      },
+      {
+        "idx": 2,
+        "answer": "properly assigned"
       }
     ]
   },
@@ -16260,6 +16665,90 @@
       {
         "idx": 1,
         "answer": "negligence."
+      }
+    ]
+  },
+  {
+    "id": 786,
+    "page": 77,
+    "subject": "TORTS",
+    "sectionHeader": "G. Liability of Multiple Defendants",
+    "subsectionTitle": "Indemnification",
+    "priority": "M",
+    "context": "**Indemnification** – A __BLANK_1__ tortfeasor can assert its claim against an __BLANK_2__ tortfeasor to recover the __BLANK_3__ it paid (or may have to pay) to P.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "passive"
+      },
+      {
+        "idx": 2,
+        "answer": "active"
+      },
+      {
+        "idx": 3,
+        "answer": "FULL amount"
+      }
+    ]
+  },
+  {
+    "id": 787,
+    "page": 77,
+    "subject": "TORTS",
+    "sectionHeader": "G. Liability of Multiple Defendants",
+    "subsectionTitle": "Contribution",
+    "priority": "M",
+    "context": "**Contribution** – D may seek contribution from other Ds if he pays __BLANK_1__\nThe amount recoverable from each D is based on __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "more than his share of the liability."
+      },
+      {
+        "idx": 2,
+        "answer": "each's percentage share of fault."
+      }
+    ]
+  },
+  {
+    "id": 788,
+    "page": 77,
+    "subject": "TORTS",
+    "sectionHeader": "G. Liability of Multiple Defendants",
+    "subsectionTitle": "Doctrine of Alternative Liability",
+    "priority": "H",
+    "context": "**Doctrine of Alternative Liability** – Allows a jury to find ALL Ds liable if:\n1) __BLANK_1__\n2) but it's unclear __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "multiple Ds are negligent,"
+      },
+      {
+        "idx": 2,
+        "answer": "which one caused P's injuries."
+      }
+    ]
+  },
+  {
+    "id": 789,
+    "page": 77,
+    "subject": "TORTS",
+    "sectionHeader": "G. Liability of Multiple Defendants",
+    "subsectionTitle": "Doctrine of Joint Enterprise",
+    "priority": "H",
+    "context": "**Doctrine of Joint Enterprise** – Allows the negligence of one D to be __BLANK_1__ other Ds if:\n1) Multiple Ds are engaged in __BLANK_2__\n2) All Ds have made an __BLANK_3__ to engage in tortious conduct.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "imputed to"
+      },
+      {
+        "idx": 2,
+        "answer": "a common project or enterprise;"
+      },
+      {
+        "idx": 3,
+        "answer": "explicit/implied agreement"
       }
     ]
   },
