@@ -9745,7 +9745,7 @@
     "sectionHeader": "F. Defenses",
     "subsectionTitle": "Intoxication",
     "priority": "L",
-    "context": "**Voluntary Intoxication** = Ingesting an intoxicating\nsubstance by D’s own free will.\n− __BLANK_1__ **Involuntary Intoxication** = Ingesting an intoxicating\n__BLANK_2__ − Is a defense __BLANK_3__ → __BLANK_4__",
+    "context": "**Voluntary Intoxication** = Ingesting an intoxicating\nsubstance by D's own free will.\n− __BLANK_1__\n**Involuntary Intoxication** = Ingesting an intoxicating\n__BLANK_2__\n− Is a defense __BLANK_3__ → __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
