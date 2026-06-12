@@ -15027,7 +15027,7 @@
     "sectionHeader": null,
     "subsectionTitle": "Trespass to Chattels & Conversion",
     "priority": "M",
-    "context": "**Conversion** – liable when:\n1) D __BLANK_1__ another (damage, preventing use),\n**AND**\n2) The amount of damage __BLANK_2__ *P can recover __BLANK_3__ the property. __BLANK_4__",
+    "context": "**Conversion** – liable when:\n1) D __BLANK_1__ another (damage, preventing use),\n**AND**\n2) The amount of damage __BLANK_2__ *P can recover __BLANK_3__ the property.",
     "blanks": [
       {
         "idx": 1,
@@ -15040,10 +15040,6 @@
       {
         "idx": 3,
         "answer": "full market value of"
-      },
-      {
-        "idx": 4,
-        "answer": "the"
       }
     ]
   },
