@@ -10054,7 +10054,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Search Incident to Arrest",
     "priority": "M",
-    "context": "__BLANK_1__ police may search a\n__BLANK_2__ or __BLANK_3__ − If arrested in a home → may also search other\n__BLANK_4__",
+    "context": "__BLANK_1__ police may search a\n__BLANK_2__ or __BLANK_3__ − If arrested in a home → may also search other\n__BLANK_4__\n− If arrested in an automobile → may also search\nentire interior **AND** passenger's compartment if:\n(a) reason to __BLANK_5__ **OR**\n(b) __BLANK_6__",
     "blanks": [
       {
         "idx": 1,
@@ -10071,24 +10071,13 @@
       {
         "idx": 4,
         "answer": "immediately adjoining spaces from where an attack may be launched."
-      }
-    ]
-  },
-  {
-    "id": 460,
-    "page": 53,
-    "subject": "CRIMINAL LAW & PROCEDURE",
-    "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": null,
-    "priority": null,
-    "context": "− If arrested in an automobile → may also search\nentire interior **AND** passenger’s compartment if:\n(a) reason to __BLANK_1__ **OR** (b) __BLANK_2__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 5,
         "answer": "believe evidence of the crime arrested for might be found;"
       },
       {
-        "idx": 2,
+        "idx": 6,
         "answer": "arrested person is unsecured and could gain access to the vehicle."
       }
     ]
