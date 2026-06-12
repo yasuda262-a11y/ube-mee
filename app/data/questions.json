@@ -1289,7 +1289,7 @@
     "sectionHeader": "B. Formation of a Limited Liability Company",
     "subsectionTitle": "Formation of an LLC",
     "priority": "M",
-    "context": "**Operating Agreement** – Governs: (1) the relations\nbetween the members and LLC; (2) the rights/duties of\n__BLANK_1__ (3) __BLANK_2__ of the LLC; and (4)\nany means and conditions for amending the Operating\nAgreement.",
+    "context": "**Operating Agreement** – Governs: (1) the relations\nbetween the members and LLC;\n(2) the rights/duties of\n__BLANK_1__\n(3) __BLANK_2__ of the LLC; and (4)\nany means and conditions for amending the Operating\nAgreement.",
     "blanks": [
       {
         "idx": 1,
@@ -2213,7 +2213,7 @@
     "sectionHeader": "K. Fiduciary Duties",
     "subsectionTitle": "Duty of Care",
     "priority": "H",
-    "context": "A court will NOT disturb decisions subject to the BJR\nstandard if __BLANK_1__ Directors must __BLANK_2__ the\ndecisions they make.\n− They MAY rely on __BLANK_3__ (1) the reliance __BLANK_4__ **AND** (2) the advisor or committee __BLANK_5__",
+    "context": "A court will NOT disturb decisions subject to the BJR\nstandard if __BLANK_1__ Directors must __BLANK_2__ the\ndecisions they make.\n− They MAY rely on __BLANK_3__\n(1) the reliance __BLANK_4__ **AND** (2) the advisor or committee __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
@@ -2401,7 +2401,7 @@
     "sectionHeader": "J. Close Corporations & Control Devices",
     "subsectionTitle": "Duty of Loyalty",
     "priority": "L",
-    "context": "**Restricting Fiduciary Duties – Corporations**\nRMBCA → The Articles of Incorporation MAY eliminate\nor limit __BLANK_1__ actions\ntaken or not taken.\n− BUT, the following CANNOT be limited: (1)\nfinancial benefits improperly received; (2)\n__BLANK_2__ harm to the corp. or SH’s;\n__BLANK_3__ or (4) __BLANK_4__",
+    "context": "**Restricting Fiduciary Duties – Corporations**\nRMBCA → The Articles of Incorporation MAY eliminate\nor limit __BLANK_1__ actions\ntaken or not taken.\n− BUT, the following CANNOT be limited: (1)\nfinancial benefits improperly received;\n(2)\n__BLANK_2__ harm to the corp. or SH’s;\n__BLANK_3__ or (4) __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -3585,7 +3585,7 @@
     "sectionHeader": "F. Injunctions & TRO’s",
     "subsectionTitle": null,
     "priority": null,
-    "context": "**Waived Defenses** – If the following defenses are NOT\nincluded in the D’s first response (answer/ pre-answer\nmotion), they are deemed waived: __BLANK_1__ (2)\n__BLANK_2__ and (4)\n__BLANK_3__ − BUT, courts have allowed adding waivable\ndefenses to a MTD when: (1) promptly made;\n**AND** (2) it’s prior to a hearing on the original\nmotion.",
+    "context": "**Waived Defenses** – If the following defenses are NOT\nincluded in the D’s first response (answer/ pre-answer\nmotion), they are deemed waived: __BLANK_1__\n(2)\n__BLANK_2__ and (4)\n__BLANK_3__ − BUT, courts have allowed adding waivable\ndefenses to a MTD when: (1) promptly made;\n**AND** (2) it’s prior to a hearing on the original\nmotion.",
     "blanks": [
       {
         "idx": 1,
@@ -4151,7 +4151,7 @@
     "sectionHeader": "J. Discovery",
     "subsectionTitle": "Rule 26(g) – Discovery Disclosures & Sanctions",
     "priority": "L",
-    "context": "**Certifications When Signing**:\n− Signing any disclosure → certifies that it’s\n__BLANK_1__ the time made.\n− Signing any other discovery document →\ncertifies that it’s: (1) consistent with the FRCP\nand is not frivolous; (2) not being presented for\nan improper purpose; **AND** (3) not\nunreasonable, unduly burdensome, or unduly\nexpensive.",
+    "context": "**Certifications When Signing**:\n− Signing any disclosure → certifies that it’s\n__BLANK_1__ the time made.\n− Signing any other discovery document →\ncertifies that it’s: (1) consistent with the FRCP\nand is not frivolous;\n(2) not being presented for\nan improper purpose; **AND** (3) not\nunreasonable, unduly burdensome, or unduly\nexpensive.",
     "blanks": [
       {
         "idx": 1,
@@ -4899,7 +4899,7 @@
     "sectionHeader": "C. Powers of Congress",
     "subsectionTitle": "Commerce Clause",
     "priority": "H",
-    "context": "Federal regulations regarding intrastate commerce will\nbe upheld when (1) there __BLANK_1__ (2) to\nconclude that __BLANK_2__ (3)\nhas __BLANK_3__ − Aggregation CANNOT be used when the activity\nis not commercial/economic in nature.",
+    "context": "Federal regulations regarding intrastate commerce will\nbe upheld when (1) there __BLANK_1__\n(2) to\nconclude that __BLANK_2__\n(3)\nhas __BLANK_3__ − Aggregation CANNOT be used when the activity\nis not commercial/economic in nature.",
     "blanks": [
       {
         "idx": 1,
@@ -5462,7 +5462,7 @@
     "sectionHeader": "L. Takings (5th Amendment)",
     "subsectionTitle": "Takings",
     "priority": "H",
-    "context": "**Regulatory Taking** – Three categories:\n− Depriving Owner __BLANK_1__ →Is a per se taking.\n− Penn Central Taking → Court will balance these\nfactors to determine if a taking: __BLANK_2__ regulation on claimant; (2) __BLANK_3__ the investment-backed\nexpectations; and __BLANK_4__ regulation.",
+    "context": "**Regulatory Taking** – Three categories:\n− Depriving Owner __BLANK_1__ →Is a per se taking.\n− Penn Central Taking → Court will balance these\nfactors to determine if a taking: __BLANK_2__ regulation on claimant;\n(2) __BLANK_3__ the investment-backed\nexpectations; and __BLANK_4__ regulation.",
     "blanks": [
       {
         "idx": 1,
@@ -5806,7 +5806,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Content-Based vs. Content Neutral Restrictions",
     "priority": "H",
-    "context": "**Content-Based Restrictions** – Govt. regulations\nregarding the content of speech (subject matter or\nviewpoint) are subject to strict scrutiny.\n− Strict Scrutiny → Govt. must show (1) the\nregulation __BLANK_1__ (2) to achieve a\n__BLANK_2__ **AND** __BLANK_3__ **Content-Neutral Restrictions** – Govt. MAY regulate the\n__BLANK_4__ content-neutral speech if it\n__BLANK_5__ − Intermediate Scrutiny Govt. must show that →\n(1) the regulation is __BLANK_6__ (2) to\nachieve a __BLANK_7__ **AND**\n(3) __BLANK_8__",
+    "context": "**Content-Based Restrictions** – Govt. regulations\nregarding the content of speech (subject matter or\nviewpoint) are subject to strict scrutiny.\n− Strict Scrutiny → Govt. must show (1) the\nregulation __BLANK_1__\n(2) to achieve a\n__BLANK_2__ **AND** __BLANK_3__ **Content-Neutral Restrictions** – Govt. MAY regulate the\n__BLANK_4__ content-neutral speech if it\n__BLANK_5__ − Intermediate Scrutiny Govt. must show that →\n(1) the regulation is __BLANK_6__\n(2) to\nachieve a __BLANK_7__ **AND**\n(3) __BLANK_8__",
     "blanks": [
       {
         "idx": 1,
@@ -6173,7 +6173,7 @@
     "sectionHeader": "Q. Freedom of Association (1st Amendment)",
     "subsectionTitle": "Defamation & Actual Malice Standard",
     "priority": "M",
-    "context": "The govt. may only regulate the **right to freely**\n**associate** in a **group** if it satisfies Strict Scrutiny.\n− Strict Scrutiny → Govt. must show (1) regulation\n__BLANK_1__ (2) to __BLANK_2__ **AND** (3) __BLANK_3__",
+    "context": "The govt. may only regulate the **right to freely**\n**associate** in a **group** if it satisfies Strict Scrutiny.\n− Strict Scrutiny → Govt. must show (1) regulation\n__BLANK_1__\n(2) to __BLANK_2__ **AND** (3) __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -6291,7 +6291,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Bilateral vs. Unilateral Contract",
     "priority": "H",
-    "context": "OFFER – (1) __BLANK_1__ enter\ninto a contract, (2) with __BLANK_2__",
+    "context": "OFFER – (1) __BLANK_1__ enter\ninto a contract,\n(2) with __BLANK_2__",
     "blanks": [
       {
         "idx": 1,
@@ -6372,7 +6372,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Bilateral vs. Unilateral Contract",
     "priority": "H",
-    "context": "Irrevocable Offers – An offer is irrevocable if:\n− __BLANK_1__ a promise to keep an\noffer open supported by consideration.\n− __BLANK_2__ requires (1)\nan offer by a __BLANK_3__ buy/sell goods, (2)\nin __BLANK_4__ (3) stating offer will be\nheld open (irrevocability CANNOT __BLANK_5__ (4) __BLANK_6__ (if\nform was supplied by offeree).\n▪ Consideration is NOT required.\n− __BLANK_7__ offer was\n__BLANK_8__ to offeree’s detriment.\n− __BLANK_9__ – makes __BLANK_10__ a\nreasonable time to complete performance.\nMere preparation is insufficient. ▪",
+    "context": "Irrevocable Offers – An offer is irrevocable if:\n− __BLANK_1__ a promise to keep an\noffer open supported by consideration.\n− __BLANK_2__ requires (1)\nan offer by a __BLANK_3__ buy/sell goods,\n(2)\nin __BLANK_4__\n(3) stating offer will be\nheld open (irrevocability CANNOT __BLANK_5__\n(4) __BLANK_6__ (if\nform was supplied by offeree).\n▪ Consideration is NOT required.\n− __BLANK_7__ offer was\n__BLANK_8__ to offeree’s detriment.\n− __BLANK_9__ – makes __BLANK_10__ a\nreasonable time to complete performance.\nMere preparation is insufficient. ▪",
     "blanks": [
       {
         "idx": 1,
@@ -6621,7 +6621,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "__BLANK_1__ (2) __BLANK_2__ **AND** (3) it’s __BLANK_3__ − **Promise to Pay a Non-Legally Enforceable**\n**Past Debt** – Is binding without new\nconsideration if __BLANK_4__",
+    "context": "__BLANK_1__\n(2) __BLANK_2__ **AND** (3) it’s __BLANK_3__ − **Promise to Pay a Non-Legally Enforceable**\n**Past Debt** – Is binding without new\nconsideration if __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -6959,7 +6959,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Fraud, Misrepresentation, & Nondisclosure",
     "priority": "M",
-    "context": "**Fraudulent Misrepresentation** – Occurs when: (1) D\n__BLANK_1__ (2) made a false representation, (3) of\n__BLANK_2__ **AND** (4) the other __BLANK_3__ − Contract is voidable by the injured party.",
+    "context": "**Fraudulent Misrepresentation** – Occurs when: (1) D\n__BLANK_1__\n(2) made a false representation,\n(3) of\n__BLANK_2__ **AND** (4) the other __BLANK_3__ − Contract is voidable by the injured party.",
     "blanks": [
       {
         "idx": 1,
@@ -6982,7 +6982,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Fraud, Misrepresentation, & Nondisclosure",
     "priority": "M",
-    "context": "**Non-Fraudulent Misrepresentation** – Occurs when: (1)\na party/agent, (2) makes a statement __BLANK_1__ (3)\nthat is false (no wrongdoing required), __BLANK_2__ **AND** (5) the other party __BLANK_3__ − Contract is voidable by the injured party.",
+    "context": "**Non-Fraudulent Misrepresentation** – Occurs when: (1)\na party/agent,\n(2) makes a statement __BLANK_1__\n(3)\nthat is false (no wrongdoing required), __BLANK_2__ **AND** (5) the other party __BLANK_3__ − Contract is voidable by the injured party.",
     "blanks": [
       {
         "idx": 1,
@@ -7055,7 +7055,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Public Policy",
     "priority": "M",
-    "context": "Restrictive Covenant – Is ENFORCEABLE if reasonable\nin __BLANK_1__ (2) __BLANK_2__ **AND** __BLANK_3__ − If found unreasonable, Most Courts will enforce\na restrictive covenant up to its reasonable limits.",
+    "context": "Restrictive Covenant – Is ENFORCEABLE if reasonable\nin __BLANK_1__\n(2) __BLANK_2__ **AND** __BLANK_3__ − If found unreasonable, Most Courts will enforce\na restrictive covenant up to its reasonable limits.",
     "blanks": [
       {
         "idx": 1,
@@ -7097,7 +7097,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Statute of Frauds (SOF)",
     "priority": "H",
-    "context": "Writing Requirement – Writing must __BLANK_1__ (4) __BLANK_2__",
+    "context": "Writing Requirement – Writing must __BLANK_1__\n(4) __BLANK_2__",
     "blanks": [
       {
         "idx": 1,
@@ -8915,7 +8915,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Murder",
     "priority": "H",
-    "context": "**Murder**\n**Common Law & 2nd Degree Murder** – **Murder** is the\n(1) unlawful killing, (2) of a person, (3) __BLANK_1__ − **Malice** Aforethought = __BLANK_2__ **OR** __BLANK_3__",
+    "context": "**Murder**\n**Common Law & 2nd Degree Murder** – **Murder** is the\n(1) unlawful killing,\n(2) of a person,\n(3) __BLANK_1__ − **Malice** Aforethought = __BLANK_2__ **OR** __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -8953,7 +8953,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Manslaughter",
     "priority": "H",
-    "context": "**Manslaughter**\n**Voluntary Manslaughter** – __BLANK_1__ provocation).\n− Adequate Provocation = (1) D was provoked __BLANK_2__ (2) __BLANK_3__ have been provoked; __BLANK_4__ **AND** __BLANK_5__",
+    "context": "**Manslaughter**\n**Voluntary Manslaughter** – __BLANK_1__ provocation).\n− Adequate Provocation = (1) D was provoked __BLANK_2__\n(2) __BLANK_3__ have been provoked; __BLANK_4__ **AND** __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
@@ -9011,7 +9011,7 @@
     "sectionHeader": "C. Other Crimes",
     "priority": "H",
     "subsectionTitle": "Theft Crimes",
-    "context": "**Larceny** – (1) __BLANK_1__ (2) __BLANK_2__ (3) of __BLANK_3__ with the intent __BLANK_4__ (intent must exist at the time of taking).",
+    "context": "**Larceny** – (1) __BLANK_1__\n(2) __BLANK_2__\n(3) of __BLANK_3__ with the intent __BLANK_4__ (intent must exist at the time of taking).",
     "blanks": [
       {
         "idx": 1,
@@ -9048,7 +9048,7 @@
     "sectionHeader": "C. Other Crimes",
     "priority": "H",
     "subsectionTitle": "Theft Crimes",
-    "context": "**False Pretenses** – (1) __BLANK_1__ to personal property of another, (3) through __BLANK_2__ (4) __BLANK_3__",
+    "context": "**False Pretenses** – (1) __BLANK_1__ to personal property of another,\n(3) through __BLANK_2__\n(4) __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -9071,7 +9071,7 @@
     "sectionHeader": "C. Other Crimes",
     "priority": "H",
     "subsectionTitle": "Theft Crimes",
-    "context": "**Embezzlement** – __BLANK_1__ (2) __BLANK_2__ (3) of personal property of another, (4) by a __BLANK_3__\n▪ Intent to __BLANK_4__ required.",
+    "context": "**Embezzlement** – __BLANK_1__\n(2) __BLANK_2__\n(3) of personal property of another,\n(4) by a __BLANK_3__\n▪ Intent to __BLANK_4__ required.",
     "blanks": [
       {
         "idx": 1,
@@ -9098,7 +9098,7 @@
     "sectionHeader": "C. Other Crimes",
     "priority": "H",
     "subsectionTitle": "Theft Crimes",
-    "context": "**Receiving Stolen Property** – when a person (1) receives possession of stolen property, (2) __BLANK_1__ (3) with the intent __BLANK_2__",
+    "context": "**Receiving Stolen Property** – when a person (1) receives possession of stolen property,\n(2) __BLANK_1__\n(3) with the intent __BLANK_2__",
     "blanks": [
       {
         "idx": 1,
@@ -9117,7 +9117,7 @@
     "sectionHeader": "C. Other Crimes",
     "subsectionTitle": "Robbery",
     "priority": "H",
-    "context": "**Robbery** – is the __BLANK_1__ (2) of the personal property of another, __BLANK_2__ (5) with the intent __BLANK_3__ − **Armed Robbery** = above elements + use of a\ndangerous weapon.",
+    "context": "**Robbery** – is the __BLANK_1__\n(2) of the personal property of another, __BLANK_2__\n(5) with the intent __BLANK_3__ − **Armed Robbery** = above elements + use of a\ndangerous weapon.",
     "blanks": [
       {
         "idx": 1,
@@ -9140,7 +9140,7 @@
     "sectionHeader": "C. Other Crimes",
     "subsectionTitle": "Burglary",
     "priority": "H",
-    "context": "**Burglary** – is the __BLANK_1__ (2) of a\n__BLANK_2__ (5) __BLANK_3__ − Most jurisdictions extend burglary to include\nbreaking into any structure at any time.",
+    "context": "**Burglary** – is the __BLANK_1__\n(2) of a\n__BLANK_2__\n(5) __BLANK_3__ − Most jurisdictions extend burglary to include\nbreaking into any structure at any time.",
     "blanks": [
       {
         "idx": 1,
@@ -9163,7 +9163,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Rape Common Law",
     "priority": "L",
-    "context": "**Rape**\n**Common Law** – rape is the __BLANK_1__ (2) __BLANK_2__ − Modern definition → includes marital rape (in\nmost states) and makes gender irrelevant.\n**MPC** – a male who has sex with a female (not his wife)\nis guilty of rape if: (a) __BLANK_3__ (b) __BLANK_4__ (c) female is\n__BLANK_5__ **OR** (d) female __BLANK_6__ − Deviate Sexual Intercourse → has same\nelements as above, but is gender neutral.\n**Statutory Rape** – is the (1) unlawful sexual intercourse,\n(2) with a person, (3) under the age of consent (as\ndefined by statute).",
+    "context": "**Rape**\n**Common Law** – rape is the __BLANK_1__\n(2) __BLANK_2__ − Modern definition → includes marital rape (in\nmost states) and makes gender irrelevant.\n**MPC** – a male who has sex with a female (not his wife)\nis guilty of rape if: (a) __BLANK_3__ (b) __BLANK_4__ (c) female is\n__BLANK_5__ **OR** (d) female __BLANK_6__ − Deviate Sexual Intercourse → has same\nelements as above, but is gender neutral.\n**Statutory Rape** – is the (1) unlawful sexual intercourse,\n(2) with a person,\n(3) under the age of consent (as\ndefined by statute).",
     "blanks": [
       {
         "idx": 1,
@@ -9198,7 +9198,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Theft Crimes",
     "priority": "L",
-    "context": "**Assault & Battery**\n**Battery** – is the __BLANK_1__ (3) __BLANK_2__ − **Battery** is __BLANK_3__ − Intent to __BLANK_4__ is NOT required.\n**Assault** – either (a) __BLANK_5__ **OR** (b) the\n__BLANK_6__",
+    "context": "**Assault & Battery**\n**Battery** – is the __BLANK_1__\n(3) __BLANK_2__ − **Battery** is __BLANK_3__ − Intent to __BLANK_4__ is NOT required.\n**Assault** – either (a) __BLANK_5__ **OR** (b) the\n__BLANK_6__",
     "blanks": [
       {
         "idx": 1,
@@ -9233,7 +9233,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Kidnapping & False Imprisonment",
     "priority": "L",
-    "context": "**Kidnapping & False Imprisonment**\n**Kidnapping** – is the __BLANK_1__ of a person, (2) __BLANK_2__ − **MPC** → abducting another person: (a) for\n__BLANK_3__ (b) __BLANK_4__ (c) __BLANK_5__ **OR** (d) __BLANK_6__ **False imprisonment** – is the (1) __BLANK_7__ (2)\n__BLANK_8__ (4) with\n__BLANK_9__ − **MPC** → when D knowingly restrains a person\nunlawfully so as to substantially interfere with\nthe person’s liberty.",
+    "context": "**Kidnapping & False Imprisonment**\n**Kidnapping** – is the __BLANK_1__ of a person,\n(2) __BLANK_2__ − **MPC** → abducting another person: (a) for\n__BLANK_3__ (b) __BLANK_4__ (c) __BLANK_5__ **OR** (d) __BLANK_6__ **False imprisonment** – is the (1) __BLANK_7__\n(2)\n__BLANK_8__\n(4) with\n__BLANK_9__ − **MPC** → when D knowingly restrains a person\nunlawfully so as to substantially interfere with\nthe person’s liberty.",
     "blanks": [
       {
         "idx": 1,
@@ -9280,7 +9280,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Arson",
     "priority": "L",
-    "context": "**Arson** – is the (1) __BLANK_1__ (3) of a\n__BLANK_2__ − Majority of States → includes damage (i) caused\nby explosives, and (ii) to other types of buildings\nand vehicles.",
+    "context": "**Arson** – is the (1) __BLANK_1__\n(3) of a\n__BLANK_2__ − Majority of States → includes damage (i) caused\nby explosives, and (ii) to other types of buildings\nand vehicles.",
     "blanks": [
       {
         "idx": 1,
@@ -9591,7 +9591,7 @@
     "sectionHeader": "F. Defenses",
     "subsectionTitle": "Self-Defense & Defense of Others",
     "priority": "H",
-    "context": "**Self-Defense** – is a complete defense to a crime.\nNon-Deadly Force → justified when __BLANK_1__ (2) __BLANK_2__ **AND** __BLANK_3__ Deadly Force → justified when (1) D kills based on a\n__BLANK_4__ (2) __BLANK_5__ **AND** (3) the\n__BLANK_6__ was necessary.\n− Minority of States → D has a __BLANK_7__ before deadly force may be used.\no BUT, D has no duty to retreat when: (a)\n__BLANK_8__ (b) __BLANK_9__ or __BLANK_10__ − An **aggressor** may only use force in self-\ndefense if: (a) __BLANK_11__ it; OR __BLANK_12__",
+    "context": "**Self-Defense** – is a complete defense to a crime.\nNon-Deadly Force → justified when __BLANK_1__\n(2) __BLANK_2__ **AND** __BLANK_3__ Deadly Force → justified when (1) D kills based on a\n__BLANK_4__\n(2) __BLANK_5__ **AND** (3) the\n__BLANK_6__ was necessary.\n− Minority of States → D has a __BLANK_7__ before deadly force may be used.\no BUT, D has no duty to retreat when: (a)\n__BLANK_8__ (b) __BLANK_9__ or __BLANK_10__ − An **aggressor** may only use force in self-\ndefense if: (a) __BLANK_11__ it; OR __BLANK_12__",
     "blanks": [
       {
         "idx": 1,
@@ -9650,7 +9650,7 @@
     "sectionHeader": "F. Defenses",
     "subsectionTitle": "Self-Defense & Defense of Others",
     "priority": "H",
-    "context": "**Imperfect Self-Defense** – Mitigates murder to voluntary\nmanslaughter when: (1) D kills based __BLANK_1__ (2) but such belief was\n__BLANK_2__",
+    "context": "**Imperfect Self-Defense** – Mitigates murder to voluntary\nmanslaughter when: (1) D kills based __BLANK_1__\n(2) but such belief was\n__BLANK_2__",
     "blanks": [
       {
         "idx": 1,
@@ -9738,7 +9738,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Government Action & Standing",
     "priority": "H",
-    "context": "Supreme Court has held NO privacy rights for:\n(1) paint scrapings taken from a car; (2) __BLANK_1__ records; (3) __BLANK_2__ (4)\n__BLANK_3__ on the curb; (5) __BLANK_4__ (6)\n__BLANK_5__ and (8) anything that can be seen\nin or across areas outside one’s home.",
+    "context": "Supreme Court has held NO privacy rights for:\n(1) paint scrapings taken from a car;\n(2) __BLANK_1__ records;\n(3) __BLANK_2__\n(4)\n__BLANK_3__ on the curb;\n(5) __BLANK_4__\n(6)\n__BLANK_5__ and (8) anything that can be seen\nin or across areas outside one’s home.",
     "blanks": [
       {
         "idx": 1,
@@ -9769,7 +9769,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Arrests",
     "priority": "H",
-    "context": "**Arrests** – To be proper, a police officer MUST have\n__BLANK_1__ → __BLANK_2__ (2) sufficient to warrant __BLANK_3__ (3) that __BLANK_4__ − Officer DOES NOT need firsthand knowledge (it\nmay be based on informant’s information).\n− An __BLANK_5__ requires a\nwarrant __BLANK_6__ or\nanother exception exists).",
+    "context": "**Arrests** – To be proper, a police officer MUST have\n__BLANK_1__ → __BLANK_2__\n(2) sufficient to warrant __BLANK_3__\n(3) that __BLANK_4__ − Officer DOES NOT need firsthand knowledge (it\nmay be based on informant’s information).\n− An __BLANK_5__ requires a\nwarrant __BLANK_6__ or\nanother exception exists).",
     "blanks": [
       {
         "idx": 1,
@@ -9804,7 +9804,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Request for Info, Stop & Inquire, Stop & Frisk",
     "priority": "H",
-    "context": "**Request for Info, Stop & Inquire, Stop & Frisk**\n**Request for Information** – __BLANK_1__ on\n__BLANK_2__ **Stop & Inquire** – police must have (1) __BLANK_3__ (2) __BLANK_4__ − Allows a brief detention for questioning.\n**Stop & Frisk** – police must have (1) __BLANK_5__ (2) that __BLANK_6__ and (3) __BLANK_7__ − Plain Feel Doctrine → during the frisk, police\nmay only seize items reasonably believed to be\n__BLANK_8__",
+    "context": "**Request for Info, Stop & Inquire, Stop & Frisk**\n**Request for Information** – __BLANK_1__ on\n__BLANK_2__ **Stop & Inquire** – police must have (1) __BLANK_3__\n(2) __BLANK_4__ − Allows a brief detention for questioning.\n**Stop & Frisk** – police must have (1) __BLANK_5__\n(2) that __BLANK_6__ and (3) __BLANK_7__ − Plain Feel Doctrine → during the frisk, police\nmay only seize items reasonably believed to be\n__BLANK_8__",
     "blanks": [
       {
         "idx": 1,
@@ -10081,7 +10081,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Exigent Circumstances",
     "priority": "M",
-    "context": "**Stop & Frisk** – police must have __BLANK_1__ (2) __BLANK_2__ and (3) __BLANK_3__ − Plain Feel Doctrine → during the frisk, police\nmay only seize __BLANK_4__",
+    "context": "**Stop & Frisk** – police must have __BLANK_1__\n(2) __BLANK_2__ and (3) __BLANK_3__ − Plain Feel Doctrine → during the frisk, police\nmay only seize __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -12423,7 +12423,7 @@
     "sectionHeader": "H. Privileges",
     "subsectionTitle": "Physician-Patient Privilege",
     "priority": "H",
-    "context": "**Most States** → recognize the privilege if (1) it’s a\n__BLANK_1__ (2) made to a\n__BLANK_2__ (3) for the purpose __BLANK_3__ − The patient holds the privilege, BUT it may be\nwaived __BLANK_4__ personal injury lawsuit).",
+    "context": "**Most States** → recognize the privilege if (1) it’s a\n__BLANK_1__\n(2) made to a\n__BLANK_2__\n(3) for the purpose __BLANK_3__ − The patient holds the privilege, BUT it may be\nwaived __BLANK_4__ personal injury lawsuit).",
     "blanks": [
       {
         "idx": 1,
@@ -13747,7 +13747,7 @@
     "sectionHeader": "F. Fixtures",
     "subsectionTitle": "Fixture",
     "priority": "H",
-    "context": "**Determining if a Fixture** → Courts consider the (1)\n__BLANK_1__ (2) __BLANK_2__ (3) __BLANK_3__ and __BLANK_4__ − The more the item is incorporated into the\nproperty, the more likely it’s a fixture.",
+    "context": "**Determining if a Fixture** → Courts consider the (1)\n__BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__ and __BLANK_4__ − The more the item is incorporated into the\nproperty, the more likely it’s a fixture.",
     "blanks": [
       {
         "idx": 1,
@@ -14421,7 +14421,7 @@
     "sectionHeader": "J. Mortgages / Security Devices",
     "subsectionTitle": "Assumption & Transfer Subject to a Mortgage",
     "priority": "M",
-    "context": "**Assumption of a Mortgage** → may be express or\nimplied.\n− Express Mortgage Assumption – occurs if there\nis __BLANK_1__ grantee to (1) take\nthe real property, **AND** (2) continue making\n__BLANK_2__ − Implied Mortgage Assumption (only allowed in a\nfew states) – occurs if: (1) no express\nagreement exists; (2) grantee/buyer pays the\nseller only the equity in the home; **AND** (3)\ngrantee continues to make payments to the\nlender on the balance of the mortgage.",
+    "context": "**Assumption of a Mortgage** → may be express or\nimplied.\n− Express Mortgage Assumption – occurs if there\nis __BLANK_1__ grantee to (1) take\nthe real property, **AND** (2) continue making\n__BLANK_2__ − Implied Mortgage Assumption (only allowed in a\nfew states) – occurs if: (1) no express\nagreement exists;\n(2) grantee/buyer pays the\nseller only the equity in the home; **AND** (3)\ngrantee continues to make payments to the\nlender on the balance of the mortgage.",
     "blanks": [
       {
         "idx": 1,
@@ -14744,7 +14744,7 @@
     "sectionHeader": "A. Intentional Torts",
     "subsectionTitle": "Assault",
     "priority": "M",
-    "context": "**Assault** – is an __BLANK_1__ (2) __BLANK_2__ (3) of an\n__BLANK_3__ P’s\nperson.\n− Intentional = (a) for the purpose of causing such\napprehension; OR (b) with knowledge to a\nsubstantial certainty that the apprehension will\nresult.\n− Reasonable Apprehension = P must __BLANK_4__ D’s act **AND** __BLANK_5__ *Nominal damages alone are sufficient.",
+    "context": "**Assault** – is an __BLANK_1__\n(2) __BLANK_2__\n(3) of an\n__BLANK_3__ P’s\nperson.\n− Intentional = (a) for the purpose of causing such\napprehension; OR (b) with knowledge to a\nsubstantial certainty that the apprehension will\nresult.\n− Reasonable Apprehension = P must __BLANK_4__ D’s act **AND** __BLANK_5__ *Nominal damages alone are sufficient.",
     "blanks": [
       {
         "idx": 1,
@@ -14775,7 +14775,7 @@
     "sectionHeader": "A. Intentional Torts",
     "subsectionTitle": "False Imprisonment",
     "priority": "H",
-    "context": "**False Imprisonment** – is an __BLANK_1__ (2) to\n__BLANK_2__ (with no reasonable\nmeans of escape), **AND** (3) __BLANK_3__ − Intentional = (a) purposely bringing about the\nconfinement; OR (b) knowing the confinement is\nsubstantially certain to occur.\n− Restraint → by physical force or through threats.\n__BLANK_4__ alone are sufficient.",
+    "context": "**False Imprisonment** – is an __BLANK_1__\n(2) to\n__BLANK_2__ (with no reasonable\nmeans of escape), **AND** (3) __BLANK_3__ − Intentional = (a) purposely bringing about the\nconfinement; OR (b) knowing the confinement is\nsubstantially certain to occur.\n− Restraint → by physical force or through threats.\n__BLANK_4__ alone are sufficient.",
     "blanks": [
       {
         "idx": 1,
@@ -14802,7 +14802,7 @@
     "sectionHeader": "A. Intentional Torts",
     "subsectionTitle": "Intentional Infliction of Emotional Distress",
     "priority": "M",
-    "context": "M **Intentional Infliction of Emotional Distress** – is (1)\n__BLANK_1__ (2) that __BLANK_2__ all bounds of decency), (3)\nthat __BLANK_3__ (causation),\n**AND** __BLANK_4__ (damages).\n− Intentional = the person (a) __BLANK_5__ OR (b) knows that\n__BLANK_6__ − Reckless = __BLANK_7__ of __BLANK_8__ that emotional distress will follow.",
+    "context": "M **Intentional Infliction of Emotional Distress** – is (1)\n__BLANK_1__\n(2) that __BLANK_2__ all bounds of decency),\n(3)\nthat __BLANK_3__ (causation),\n**AND** __BLANK_4__ (damages).\n− Intentional = the person (a) __BLANK_5__ OR (b) knows that\n__BLANK_6__ − Reckless = __BLANK_7__ of __BLANK_8__ that emotional distress will follow.",
     "blanks": [
       {
         "idx": 1,
@@ -14864,7 +14864,7 @@
     "sectionHeader": null,
     "subsectionTitle": "Trespass to Land",
     "priority": "M",
-    "context": "**Trespass to Land** – D is liable if: (1) __BLANK_1__ (2) either __BLANK_2__ remains on\nthe land) or __BLANK_3__ the land (or fails to remove an object he is\nunder a duty to remove).\n− P must be the possessor of the land at the time\nof the trespass.\n− __BLANK_4__ alone may support a claim.",
+    "context": "**Trespass to Land** – D is liable if: (1) __BLANK_1__\n(2) either __BLANK_2__ remains on\nthe land) or __BLANK_3__ the land (or fails to remove an object he is\nunder a duty to remove).\n− P must be the possessor of the land at the time\nof the trespass.\n− __BLANK_4__ alone may support a claim.",
     "blanks": [
       {
         "idx": 1,
@@ -15116,7 +15116,7 @@
     "sectionHeader": "B. Intentional Tort Defenses",
     "subsectionTitle": "Privilege",
     "priority": "H",
-    "context": "**Detain for Investigation** __BLANK_1__ (1)\n__BLANK_2__ (3) __BLANK_3__ − When a request to remain has been made and\nrefused, __BLANK_4__ may be\nused to detain.",
+    "context": "**Detain for Investigation** __BLANK_1__\n(1)\n__BLANK_2__\n(3) __BLANK_3__ − When a request to remain has been made and\nrefused, __BLANK_4__ may be\nused to detain.",
     "blanks": [
       {
         "idx": 1,
@@ -15300,7 +15300,7 @@
     "sectionHeader": "C. Negligence",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "**Psychologist / Psychotherapist** – Also have a duty to\n__BLANK_1__ if: (1) the therapist believed the __BLANK_2__ (3) __BLANK_3__ and __BLANK_4__",
+    "context": "**Psychologist / Psychotherapist** – Also have a duty to\n__BLANK_1__ if: (1) the therapist believed the __BLANK_2__\n(3) __BLANK_3__ and __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -15705,7 +15705,7 @@
     "sectionHeader": "E. Negligent Infliction of Emotional Distress",
     "subsectionTitle": "Negligent Infliction of Emotional Distress",
     "priority": "H",
-    "context": "**Negligent Infliction of Emotional Distress** – Three\nscenarios where a P can recover:\n− __BLANK_1__ Case → (1) D’s negligence, (2)\ncreates __BLANK_2__ (3)\nP __BLANK_3__ **AND** (4) P manifests\n__BLANK_4__ − __BLANK_5__ → (1) negligence by D, (2) P\n__BLANK_6__ (parent, child, spouse), **AND** (3) P manifests\n__BLANK_7__ ▪ In a few states → P must also be in the\nzone of danger.\n− __BLANK_8__ (1) a pre-existing\nrelationship between the parties, **AND** (2) D’s\nnegligent act foreseeably causes distress.",
+    "context": "**Negligent Infliction of Emotional Distress** – Three\nscenarios where a P can recover:\n− __BLANK_1__ Case → (1) D’s negligence,\n(2)\ncreates __BLANK_2__\n(3)\nP __BLANK_3__ **AND** (4) P manifests\n__BLANK_4__ − __BLANK_5__ → (1) negligence by D,\n(2) P\n__BLANK_6__ (parent, child, spouse), **AND** (3) P manifests\n__BLANK_7__ ▪ In a few states → P must also be in the\nzone of danger.\n− __BLANK_8__\n(1) a pre-existing\nrelationship between the parties, **AND** (2) D’s\nnegligent act foreseeably causes distress.",
     "blanks": [
       {
         "idx": 1,
@@ -16165,7 +16165,7 @@
     "sectionHeader": "H. Economic Torts",
     "subsectionTitle": "Invasion of Privacy Torts",
     "priority": "L",
-    "context": "__BLANK_1__ – occurs when D\n(1) used P’s __BLANK_2__ (2) __BLANK_3__ (promoting a product/service).\n− __BLANK_4__ is a defense.",
+    "context": "__BLANK_1__ – occurs when D\n(1) used P’s __BLANK_2__\n(2) __BLANK_3__ (promoting a product/service).\n− __BLANK_4__ is a defense.",
     "blanks": [
       {
         "idx": 1,
@@ -16192,7 +16192,7 @@
     "sectionHeader": "H. Economic Torts",
     "subsectionTitle": "Invasion of Privacy Torts",
     "priority": "L",
-    "context": "__BLANK_1__ occurs when D (1) causes __BLANK_2__ (2) __BLANK_3__ (3)\n__BLANK_4__ (4) that would be __BLANK_5__ − If a public figure or matter of public concern →\nMUST __BLANK_6__ of falsity\nor reckless disregard).",
+    "context": "__BLANK_1__ occurs when D (1) causes __BLANK_2__\n(2) __BLANK_3__\n(3)\n__BLANK_4__\n(4) that would be __BLANK_5__ − If a public figure or matter of public concern →\nMUST __BLANK_6__ of falsity\nor reckless disregard).",
     "blanks": [
       {
         "idx": 1,
@@ -16227,7 +16227,7 @@
     "sectionHeader": "H. Economic Torts",
     "subsectionTitle": "Invasion of Privacy Torts",
     "priority": "L",
-    "context": "__BLANK_1__ occurs when: (1) D intrudes into\n__BLANK_2__ (2) P __BLANK_3__ **AND** (3) the intrusion __BLANK_4__ − Examples → reading private mail, illegal\nwiretapping.",
+    "context": "__BLANK_1__ occurs when: (1) D intrudes into\n__BLANK_2__\n(2) P __BLANK_3__ **AND** (3) the intrusion __BLANK_4__ − Examples → reading private mail, illegal\nwiretapping.",
     "blanks": [
       {
         "idx": 1,
@@ -16254,7 +16254,7 @@
     "sectionHeader": "H. Economic Torts",
     "subsectionTitle": "Invasion of Privacy Torts",
     "priority": "L",
-    "context": "__BLANK_1__ – occurs when D\n(1) caused __BLANK_2__ (2) of __BLANK_3__ (3) that is __BLANK_4__ − __BLANK_5__ is a defense __BLANK_6__ of falsity or reckless\ndisregard) is present.",
+    "context": "__BLANK_1__ – occurs when D\n(1) caused __BLANK_2__\n(2) of __BLANK_3__\n(3) that is __BLANK_4__ − __BLANK_5__ is a defense __BLANK_6__ of falsity or reckless\ndisregard) is present.",
     "blanks": [
       {
         "idx": 1,
@@ -16423,7 +16423,7 @@
     "sectionHeader": "H. Economic Torts",
     "subsectionTitle": "Nuisance",
     "priority": "L",
-    "context": "**Public Nuisance** → is (1) an __BLANK_1__ (3) of the\n__BLANK_2__ considerable amount of people or an\nentire community/neighborhood).\n− Must __BLANK_3__",
+    "context": "**Public Nuisance** → is (1) an __BLANK_1__\n(3) of the\n__BLANK_2__ considerable amount of people or an\nentire community/neighborhood).\n− Must __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
