@@ -69,13 +69,15 @@ function judge(input: string, answer: string): "exact" | "partial" | false {
 }
 
 function isListStartText(text: string): boolean {
-  return /^(\d+[).]\s*|[a-z][).]\s*|[ivxlcdm]+[).]\s*|[−–•▪■]|\*)/.test(text);
+  return /^(\d+[).]\s*|[a-z][).]\s*|[ivxlcdm]+[).]\s*|[−–•▪■○]|\*)/.test(text);
 }
 
 /** 箇条書きマーカーか判定 */
 const BULLET_RE = /^[▪•■]$/;
 /** ダッシュ系の箇条書きマーカーか判定（行頭限定） */
 const DASH_BULLET_RE = /^[−–]$/;
+/** サブ箇条書きマーカーか判定（○ = U+25CB） */
+const SUB_BULLET_RE = /^[○]$/;
 
 /** 行末から取り出した最後の "表示テキスト"（blank は answer 文字列）を使う */
 function prevDisplayText(t: Token): string {
@@ -194,8 +196,8 @@ function StudyTokens({
   }, [tokens, blankMap]);
 
   // 行ベース構造でレンダリング（箇条書きを適切に表示するため）
-  type RenderLine = { isBullet: boolean; nodes: React.ReactNode[] };
-  const lines: RenderLine[] = [{ isBullet: false, nodes: [] }];
+  type RenderLine = { isBullet: boolean; isSubBullet: boolean; nodes: React.ReactNode[] };
+  const lines: RenderLine[] = [{ isBullet: false, isSubBullet: false, nodes: [] }];
   let prev: Token | null = null;
 
   function curLine() { return lines[lines.length - 1]; }
@@ -207,7 +209,7 @@ function StudyTokens({
     if (prev !== null) {
       const kind = lineSep(prev, t);
       if (kind === "break") {
-        lines.push({ isBullet: false, nodes: [] });
+        lines.push({ isBullet: false, isSubBullet: false, nodes: [] });
       } else if (kind === "space") {
         pushNode(<span key={`sep-${t.idx}`}> </span>);
       }
@@ -217,6 +219,12 @@ function StudyTokens({
     // 行頭の箇条書きマーカー → bullet フラグをセットしてスキップ（自前マーカーを表示）
     if (t.type === "word" && (BULLET_RE.test(t.text) || DASH_BULLET_RE.test(t.text)) && curLine().nodes.length === 0) {
       curLine().isBullet = true;
+      prev = t;
+      continue;
+    }
+    // 行頭のサブ箇条書きマーカー（○）→ isSubBullet フラグをセットしてスキップ
+    if (t.type === "word" && SUB_BULLET_RE.test(t.text) && curLine().nodes.length === 0) {
+      curLine().isSubBullet = true;
       prev = t;
       continue;
     }
@@ -259,7 +267,12 @@ function StudyTokens({
   return (
     <div>
       {lines.map((line, li) =>
-        line.isBullet ? (
+        line.isSubBullet ? (
+          <div key={li} className="flex items-baseline gap-2 pl-6 mt-0.5">
+            <span className="text-gray-400 flex-shrink-0 leading-8 text-[11px]">○</span>
+            <span className="flex-1 min-w-0">{line.nodes}</span>
+          </div>
+        ) : line.isBullet ? (
           <div key={li} className="flex items-baseline gap-2 pl-1 mt-0.5">
             <span className="text-gray-400 flex-shrink-0 leading-8 text-[13px]">▪</span>
             <span className="flex-1 min-w-0">{line.nodes}</span>

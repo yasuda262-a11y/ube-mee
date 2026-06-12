@@ -6021,7 +6021,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Government Employees",
     "priority": "L",
-    "context": "Two-Step Test to determine if their speech is protected:\n▪ Step 1: Did employee speak as __BLANK_1__ o If no → speech is not protected\no If yes → go to Step 2\n▪ Step 2: Did the govt. entity have __BLANK_2__ from any other member of the\ngeneral public (based on the govt. interests as\nan employer)?\no The court must balance the employee’s\nrights vs. the govt. employer’s interests.",
+    "context": "Two-Step Test to determine if their speech is protected:\n▪ Step 1: Did employee speak as __BLANK_1__\n○ If no → speech is not protected\n○ If yes → go to Step 2\n▪ Step 2: Did the govt. entity have __BLANK_2__ from any other member of the general public (based on the govt. interests as an employer)?\n○ The court must balance the employee's rights vs. the govt. employer's interests.",
     "blanks": [
       {
         "idx": 1,
