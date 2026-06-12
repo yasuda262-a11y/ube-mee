@@ -15044,6 +15044,29 @@
     ]
   },
   {
+    "id": 765,
+    "page": 73,
+    "subject": "TORTS",
+    "sectionHeader": "A. Intentional Torts",
+    "subsectionTitle": "Doctrine of Transferred Intent",
+    "priority": "L",
+    "context": "**Doctrine of Transferred Intent** – The intent to harm one party can be transferred when:\n1) D __BLANK_1__ against one particular individual; **AND**\n2) Either:\n(a) __BLANK_2__ against that person; OR\n(b) __BLANK_3__ by the same or different tort.\n*Applies to battery, assault, false imprisonment, trespass to land, and trespass to chattels.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "intends to commit a tort"
+      },
+      {
+        "idx": 2,
+        "answer": "commits a different tort"
+      },
+      {
+        "idx": 3,
+        "answer": "another person is injured"
+      }
+    ]
+  },
+  {
     "id": 678,
     "page": 73,
     "subject": "TORTS",
