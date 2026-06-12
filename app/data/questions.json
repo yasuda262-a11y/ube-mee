@@ -15819,7 +15819,7 @@
     "sectionHeader": "E. Negligent Infliction of Emotional Distress",
     "subsectionTitle": "Negligent Infliction of Emotional Distress",
     "priority": "H",
-    "context": "**Negligent Infliction of Emotional Distress** – Three\nscenarios where a P can recover:\n− __BLANK_1__ Case →\n(1) D’s negligence,\n(2)\ncreates __BLANK_2__\n(3)\nP __BLANK_3__ **AND**\n(4) P manifests\n__BLANK_4__ − __BLANK_5__ →\n(1) negligence by D,\n(2) P\n__BLANK_6__ (parent, child, spouse), **AND**\n(3) P manifests\n__BLANK_7__ ▪ In a few states → P must also be in the\nzone of danger.\n− __BLANK_8__\n(1) a pre-existing\nrelationship between the parties, **AND**\n(2) D’s\nnegligent act foreseeably causes distress.",
+    "context": "**Negligent Infliction of Emotional Distress** – Three\nscenarios where a P can recover:\n− __BLANK_1__ Case →\n(1) D’s negligence,\n(2)\ncreates __BLANK_2__\n(3)\nP __BLANK_3__ **AND**\n(4) P manifests\n__BLANK_4__ − __BLANK_5__ →\n(1) negligence by D,\n(2) P\n__BLANK_6__ (parent, child, spouse), **AND**\n(3) P manifests\n__BLANK_7__ ▪ In a few states → P must also be in the\nzone of danger.\n− __BLANK_8__\n(1) a pre-existing\nrelationship between the parties, **AND**\n(2) D’s\nnegligent act foreseeably causes distress.\n▪ Recovery is rare; only available in\n__BLANK_9__",
     "blanks": [
       {
         "idx": 1,
@@ -15852,20 +15852,9 @@
       {
         "idx": 8,
         "answer": "Pre-Existing Relationship →"
-      }
-    ]
-  },
-  {
-    "id": 713,
-    "page": 76,
-    "subject": "TORTS",
-    "sectionHeader": "C. Negligence",
-    "subsectionTitle": null,
-    "priority": null,
-    "context": "▪ Recovery is rare; only available in\n__BLANK_1__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 9,
         "answer": "egregious situations."
       }
     ]
