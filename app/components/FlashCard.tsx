@@ -716,7 +716,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
           <div className="rounded-3xl overflow-hidden"
             style={{ boxShadow: `0 2px 0 ${subjectAccent(card.subject)}, 0 4px 0 ${subjectAccent(card.subject)}55, 0 12px 40px -4px ${subjectAccent(card.subject)}35, 0 2px 8px rgba(0,0,0,0.08)` }}>
             <div className="h-1.5" style={{ background: subjectAccent(card.subject) }} />
-            <div className="bg-[#fdf6e3] p-5 text-[15px] leading-8 text-gray-700">
+            <div className="bg-[#fefce8] p-5 text-[15px] leading-8 text-gray-700">
             <EditTokens
               tokens={tokens}
               override={override}
@@ -791,7 +791,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                 ? allCorrect ? "#10b981" : "#f87171"
                 : subjectAccent(card.subject)
             }} />
-            <div className={`bg-[#fdf6e3] p-5 text-[15px] leading-8 text-gray-700 border-b border-x rounded-b-3xl transition-colors ${
+            <div className={`bg-[#fefce8] p-5 text-[15px] leading-8 text-gray-700 border-b border-x rounded-b-3xl transition-colors ${
               !submitted ? "border-gray-200" : allCorrect ? "border-emerald-300" : "border-red-300"
             }`}>
             <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates}
