@@ -9884,7 +9884,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Request for Info, Stop & Inquire, Stop & Frisk",
     "priority": "H",
-    "context": "**Request for Info, Stop & Inquire, Stop & Frisk**\n**Request for Information** – __BLANK_1__ on\n__BLANK_2__\n**Stop & Inquire** – police must have\n(1) __BLANK_3__\n(2) __BLANK_4__ − Allows a brief detention for questioning.\n**Stop & Frisk** – police must have\n(1) __BLANK_5__\n(2) that __BLANK_6__ and\n(3) __BLANK_7__ − Plain Feel Doctrine → during the frisk, police\nmay only seize items reasonably believed to be\n__BLANK_8__",
+    "context": "**Request for Info, Stop & Inquire, Stop & Frisk**\n**Request for Information** – __BLANK_1__ on\n__BLANK_2__\n**Stop & Inquire** – police must have\n(1) __BLANK_3__\n(2) __BLANK_4__ − Allows a brief detention for questioning.\n**Stop & Frisk** – police must have\n(1) __BLANK_5__\n(2) that __BLANK_6__ and\n(3) __BLANK_7__ − Plain Feel Doctrine → during the frisk, police\nmay only seize items reasonably believed to be\n__BLANK_8__\n**Reasonable Suspicion** = __BLANK_9__",
     "blanks": [
       {
         "idx": 1,
@@ -9917,20 +9917,9 @@
       {
         "idx": 8,
         "answer": "contraband or a weapon."
-      }
-    ]
-  },
-  {
-    "id": 453,
-    "page": 52,
-    "subject": "CRIMINAL LAW & PROCEDURE",
-    "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
-    "subsectionTitle": "Request for Info, Stop & Inquire, Stop & Frisk",
-    "priority": "H",
-    "context": "Reasonable Suspicion = __BLANK_1__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 9,
         "answer": "quantum of knowledge sufficient to induce an ordinarily prudent and cautious person to believe that criminal activity is at hand."
       }
     ]
