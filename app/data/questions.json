@@ -15973,11 +15973,55 @@
     "sectionHeader": "F. Liability for Acts of Others",
     "subsectionTitle": "Employee vs. Independent Contractor",
     "priority": "H",
-    "context": "**Employee vs. Independent Contractor** – Primary\nfocus is whether the principal had the __BLANK_1__ the manner and method in which the job was performed.",
+    "context": "**Employee vs. Independent Contractor** – Primary\nfocus is whether the principal had the __BLANK_1__ the manner and method in which the job was performed.\n**Factors** → courts analyze the following to determine if a person is an employee or independent contractor:\n1) __BLANK_2__\n2) __BLANK_3__\n3) __BLANK_4__\n4) __BLANK_5__\n5) __BLANK_6__\n6) __BLANK_7__\n7) __BLANK_8__\n8) __BLANK_9__\n9) __BLANK_10__\n10) __BLANK_11__ and\n11) __BLANK_12__",
     "blanks": [
       {
         "idx": 1,
         "answer": "right to control"
+      },
+      {
+        "idx": 2,
+        "answer": "type of work;"
+      },
+      {
+        "idx": 3,
+        "answer": "pay (hourly vs. per project);"
+      },
+      {
+        "idx": 4,
+        "answer": "who supplied the equipment/tools;"
+      },
+      {
+        "idx": 5,
+        "answer": "degree of supervision;"
+      },
+      {
+        "idx": 6,
+        "answer": "degree of skill required;"
+      },
+      {
+        "idx": 7,
+        "answer": "if the work benefits the employer's business;"
+      },
+      {
+        "idx": 8,
+        "answer": "extent of principal's control over work details;"
+      },
+      {
+        "idx": 9,
+        "answer": "whether agent/contractor is engaged in a distinct business;"
+      },
+      {
+        "idx": 10,
+        "answer": "length of time employed/engaged;"
+      },
+      {
+        "idx": 11,
+        "answer": "characterization & belief of relationship;"
+      },
+      {
+        "idx": 12,
+        "answer": "whether agent was hired for a business purpose."
       }
     ]
   },
@@ -15988,7 +16032,7 @@
     "sectionHeader": "F. Liability for Acts of Others",
     "subsectionTitle": "Liability for Independent Contractors",
     "priority": "H",
-    "context": "Exceptions:\n1) __BLANK_1__\n2) __BLANK_2__ by principal.\n3) __BLANK_3__ the __BLANK_4__ and the third-party suffered\nharm.",
+    "context": "**Liability for Independent Contractors** – Generally, an employer/principal has __BLANK_5__ for an Independent Contractor's torts.\n\n**Exceptions:**\n1) __BLANK_1__\n2) __BLANK_2__ by principal.\n3) __BLANK_3__ the __BLANK_4__ and the third-party suffered\nharm.",
     "blanks": [
       {
         "idx": 1,
@@ -16005,6 +16049,10 @@
       {
         "idx": 4,
         "answer": "principal holds out the contractor as his agent, third-party reasonably relied on contractor’s skill,"
+      },
+      {
+        "idx": 5,
+        "answer": "NO liability"
       }
     ]
   },
