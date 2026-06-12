@@ -1152,15 +1152,15 @@
     "sectionHeader": "F. Duties Owed by Partners",
     "subsectionTitle": "Dissolution of a Limited Partnership",
     "priority": "L",
-    "context": "**Dissolution of a Limited Partnership**\nA non-judicial dissolution of an LP occurs upon:\na) Happening of an event specified in the Pship\nagreement;\nb) Consent of __BLANK_1__ and __BLANK_2__\nc) After the dissociation of a general partner either\n(i) upon consent of the partners __BLANK_3__ LP has at least 1\ngeneral partner), or (ii) __BLANK_4__ (unless the LP admits at\nleast 1 general partner);\nd) 90 days after dissociation of the last limited\npartner, unless the LP admits at least one limited\npartner; **OR**\ne) the filing of a declaration of administrative\ndissolution by the Secretary of State.",
+    "context": "**Dissolution of a Limited Partnership**\nA non-judicial dissolution of an LP occurs upon:\na) Happening of an event specified in the Pship\nagreement;\nb) Consent of\n(i) __BLANK_1__ and\n(ii) __BLANK_2__\nc) After the dissociation of a general partner either\n(i) upon consent of the partners __BLANK_3__ LP has at least 1\ngeneral partner), or (ii) __BLANK_4__ (unless the LP admits at\nleast 1 general partner);\nd) 90 days after dissociation of the last limited\npartner, unless the LP admits at least one limited\npartner; **OR**\ne) the filing of a declaration of administrative\ndissolution by the Secretary of State.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(i) all general partners"
+        "answer": "all general partners"
       },
       {
         "idx": 2,
-        "answer": "(ii) limited partners owning a majority interest;"
+        "answer": "limited partners owning a majority interest;"
       },
       {
         "idx": 3,
@@ -1251,15 +1251,15 @@
     "sectionHeader": null,
     "subsectionTitle": "Foreign Corporation",
     "priority": "L",
-    "context": "**Foreign Corporation** – A corp. incorporated in another\nstate or jurisdiction.\n− Foreign Registration Statement → MUST be\nfiled with the Secretary of State to do business\nin another state.\n− Governing Law → Law where corp. is formed\ngoverns both __BLANK_1__ and (ii)\n__BLANK_2__",
+    "context": "**Foreign Corporation** – A corp. incorporated in another\nstate or jurisdiction.\n− Foreign Registration Statement → MUST be\nfiled with the Secretary of State to do business\nin another state.\n− Governing Law → Law where corp. is formed\ngoverns both\n(i) __BLANK_1__ and\n(ii) __BLANK_2__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(i) internal affairs of corp.,"
+        "answer": "internal affairs of corp.,"
       },
       {
         "idx": 2,
-        "answer": "interest liability of SH’s."
+        "answer": "interest liability of SH's."
       }
     ]
   },
@@ -3207,7 +3207,7 @@
     "sectionHeader": "C. Service of Process & Notice",
     "subsectionTitle": "Service of Process & Notice",
     "priority": "H",
-    "context": "**Service of Process & Notice**\n**Timing** – Summons & Complaint MUST be served on D\n__BLANK_1__ filed with the court.\n− Otherwise, the court must → __BLANK_2__ against that D; **OR** (b)\norder that service be made within a specified\nperiod of time.",
+    "context": "**Service of Process & Notice**\n**Timing** – Summons & Complaint MUST be served on D\n__BLANK_1__ filed with the court.\n− Otherwise, the court must →\n(a) __BLANK_2__ against that D; **OR**\n(b) order that service be made within a specified\nperiod of time.",
     "blanks": [
       {
         "idx": 1,
@@ -3215,7 +3215,7 @@
       },
       {
         "idx": 2,
-        "answer": "(a) dismiss the action without prejudice"
+        "answer": "dismiss the action without prejudice"
       }
     ]
   },
@@ -3245,15 +3245,15 @@
     "sectionHeader": "C. Service of Process & Notice",
     "subsectionTitle": "Service of Process & Notice",
     "priority": "H",
-    "context": "**Method of Service** – The method of service must be\nconsistent with Due Process → reasonably calculated, to\nmake the parties aware of the action, and give them an\nopportunity to object.\n− Individual → may be served: __BLANK_1__ (b)\n__BLANK_2__ (c) via an agent (by\nappointment or by law); **OR** (d) in accordance\nwith state law of the forum state or where\nservice is made.\n− Corporation, Partnership, or Association → may\nbe served: (a) in accordance with state law of\nthe forum state or where service is made; **OR**\n(b) __BLANK_3__ − Foreign Defendant → may be served via any\nmanner NOT prohibited by international\nagreement.",
+    "context": "**Method of Service** – The method of service must be\nconsistent with Due Process → reasonably calculated, to\nmake the parties aware of the action, and give them an\nopportunity to object.\n− Individual → may be served:\n(a) __BLANK_1__\n(b) __BLANK_2__\n(c) via an agent (by\nappointment or by law); **OR**\n(d) in accordance\nwith state law of the forum state or where\nservice is made.\n− Corporation, Partnership, or Association → may\nbe served:\n(a) in accordance with state law of\nthe forum state or where service is made; **OR**\n(b) __BLANK_3__\n− Foreign Defendant → may be served via any\nmanner NOT prohibited by international\nagreement.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(a) personally;"
+        "answer": "personally;"
       },
       {
         "idx": 2,
-        "answer": "via someone of suitable age & discretion who resides at the individual’s current dwelling or usual place of abode;"
+        "answer": "via someone of suitable age & discretion who resides at the individual's current dwelling or usual place of abode;"
       },
       {
         "idx": 3,
@@ -4583,14 +4583,26 @@
     "sectionHeader": "O. Appeals",
     "subsectionTitle": "Final Judgment Rule & Exceptions",
     "priority": "H",
-    "context": "**Statutory Exceptions** – can immediately appeal orders\nfor: __BLANK_1__ and (v)\n__BLANK_2__",
+    "context": "**Statutory Exceptions** – can immediately appeal orders\nfor:\n(i) __BLANK_1__\n(ii) __BLANK_2__\n(iii) __BLANK_3__\n(iv) __BLANK_4__ and\n(v) __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(i) injunctions, (ii) receiverships, (iii) possession of property, (iv) liability in an admiralty action,"
+        "answer": "injunctions,"
       },
       {
         "idx": 2,
+        "answer": "receiverships,"
+      },
+      {
+        "idx": 3,
+        "answer": "possession of property,"
+      },
+      {
+        "idx": 4,
+        "answer": "liability in an admiralty action,"
+      },
+      {
+        "idx": 5,
         "answer": "patent infringement orders that are final except for an accounting."
       }
     ]
@@ -5186,7 +5198,7 @@
     "sectionHeader": "G. Federalism-Based Limits on State Authority",
     "subsectionTitle": "Supremacy Clause & Preemption",
     "priority": "L",
-    "context": "**Supremacy Clause & Preemption** – Under the\nSupremacy Clause, a validly enacted federal law will\n__BLANK_1__ − Express Preemption – occurs when the federal\nlaw specifically states it is exclusive.\n− Implied Preemption – occurs when: __BLANK_2__ state law; __BLANK_3__ (appears from the law itself or legislative\nhistory); **OR** (c) state __BLANK_4__ with the objective of the federal law.",
+    "context": "**Supremacy Clause & Preemption** – Under the\nSupremacy Clause, a validly enacted federal law will\n__BLANK_1__\n− Express Preemption – occurs when the federal\nlaw specifically states it is exclusive.\n− Implied Preemption – occurs when:\n(a) __BLANK_2__ state law;\n(b) __BLANK_3__ (appears from the law itself or legislative\nhistory); **OR**\n(c) state __BLANK_4__ with the objective of the federal law.",
     "blanks": [
       {
         "idx": 1,
@@ -5194,11 +5206,11 @@
       },
       {
         "idx": 2,
-        "answer": "(a) direct conflict with"
+        "answer": "direct conflict with"
       },
       {
         "idx": 3,
-        "answer": "(b) field preemption"
+        "answer": "field preemption"
       },
       {
         "idx": 4,
@@ -6431,7 +6443,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "ACCEPTANCE – Offeree’s manifestation of objective\nassent to the terms of the offer.\n− **By Words/Conduct** – express words or conduct\nmanifesting acceptance.\n− **By Performance**:\n▪ Bilateral Contracts __BLANK_1__ acceptance.\n▪ Unilateral Contracts – only makes the\n__BLANK_2__ (acceptance only when\ncompleted).\n− **By Silence** – NOT acceptance, unless an\nImplied-in-Fact contract.\n− **By Shipment of Goods** – is acceptance if (a)\n__BLANK_3__ or __BLANK_4__ it’s an accommodation shipment).\n*Note: Offeror is the master of the offer & may always\ndirect how the offer is accepted.",
+    "context": "ACCEPTANCE – Offeree's manifestation of objective\nassent to the terms of the offer.\n− **By Words/Conduct** – express words or conduct\nmanifesting acceptance.\n− **By Performance**:\n▪ Bilateral Contracts __BLANK_1__ acceptance.\n▪ Unilateral Contracts – only makes the\n__BLANK_2__ (acceptance only when\ncompleted).\n− **By Silence** – NOT acceptance, unless an\nImplied-in-Fact contract.\n− **By Shipment of Goods** – is acceptance if\n(a) __BLANK_3__\nor\n(b) __BLANK_4__ it's an accommodation shipment).\n*Note: Offeror is the master of the offer & may always\ndirect how the offer is accepted.",
     "blanks": [
       {
         "idx": 1,
@@ -6447,7 +6459,7 @@
       },
       {
         "idx": 4,
-        "answer": "(b) prompt shipment of goods (unless"
+        "answer": "prompt shipment of goods (unless"
       }
     ]
   },
@@ -6698,7 +6710,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Modification of Contracts",
     "priority": "H",
-    "context": "**UCC** – No consideration is required for contract\nmodifications made __BLANK_1__ − BUT, must have a writing if: (a) it falls within the\n__BLANK_2__ **OR** __BLANK_3__",
+    "context": "**UCC** – No consideration is required for contract\nmodifications made __BLANK_1__\n− BUT, must have a writing if:\n(a) it falls within the __BLANK_2__ **OR**\n(b) __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -6710,7 +6722,7 @@
       },
       {
         "idx": 3,
-        "answer": "(b) original contract states that modification must be in writing."
+        "answer": "original contract states that modification must be in writing."
       }
     ]
   },
@@ -7213,7 +7225,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "Common Law SOF Exceptions:\n▪ __BLANK_1__ ▪ __BLANK_2__ – need\ntwo of the following: __BLANK_3__ land,\n__BLANK_4__ and/or (iii) made\n__BLANK_5__ land.\n▪ __BLANK_6__ party admits to\nthe contract __BLANK_7__ ▪ __BLANK_8__ jurisdictions).",
+    "context": "Common Law SOF Exceptions:\n▪ __BLANK_1__\n▪ __BLANK_2__ – need\ntwo of the following:\n(i) __BLANK_3__ land,\n(ii) __BLANK_4__ and/or\n(iii) made __BLANK_5__ land.\n▪ __BLANK_6__ party admits to\nthe contract __BLANK_7__\n▪ __BLANK_8__ jurisdictions).",
     "blanks": [
       {
         "idx": 1,
@@ -7225,11 +7237,11 @@
       },
       {
         "idx": 3,
-        "answer": "(i) made payment for"
+        "answer": "made payment for"
       },
       {
         "idx": 4,
-        "answer": "(ii) took possession of land,"
+        "answer": "took possession of land,"
       },
       {
         "idx": 5,
@@ -7580,7 +7592,7 @@
     "sectionHeader": "E. Performance, Breach, & Discharge",
     "subsectionTitle": null,
     "priority": null,
-    "context": "**Revocation of Acceptance** – A buyer may later revoke\nacceptance of goods only if:\n1) the __BLANK_1__ value of the goods; **AND**\n2) either (a) the defect was __BLANK_2__ (a latent defect), __BLANK_3__",
+    "context": "**Revocation of Acceptance** – A buyer may later revoke\nacceptance of goods only if:\n1) the __BLANK_1__ value of the goods; **AND**\n2) either\n(a) the defect was __BLANK_2__ (a latent defect),\n(b) __BLANK_3__\nor (c) __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -7592,7 +7604,11 @@
       },
       {
         "idx": 3,
-        "answer": "(b) acceptance was reasonably induced by seller’s assurances, or (c) the buyer had a reasonable assumption the defect would be cured."
+        "answer": "acceptance was reasonably induced by seller's assurances,"
+      },
+      {
+        "idx": 4,
+        "answer": "the buyer had a reasonable assumption the defect would be cured."
       }
     ]
   },
@@ -8031,7 +8047,7 @@
     "sectionHeader": "G. Third-Party Rights",
     "subsectionTitle": "Third-Party Beneficiaries",
     "priority": "M",
-    "context": "Enforcement of Rights – A third-party beneficiary may\nenforce rights under a contract ONLY __BLANK_1__ − Vesting occurs when the third-party: (a) →\n__BLANK_2__ the __BLANK_3__ **OR** __BLANK_4__ *Once vested, the contract CANNOT be changed or\nmodified without consent of the third-party.",
+    "context": "Enforcement of Rights – A third-party beneficiary may\nenforce rights under a contract ONLY __BLANK_1__\n− Vesting occurs when the third-party:\n(a) → __BLANK_2__ the __BLANK_3__\n(b) __BLANK_4__ **OR**\n(c) __BLANK_5__\n*Once vested, the contract CANNOT be changed or\nmodified without consent of the third-party.",
     "blanks": [
       {
         "idx": 1,
@@ -8043,11 +8059,15 @@
       },
       {
         "idx": 3,
-        "answer": "contract at the request of a contracting party; (b) detrimentally relied;"
+        "answer": "contract at the request of a contracting party;"
       },
       {
         "idx": 4,
-        "answer": "(c) sues to enforce."
+        "answer": "detrimentally relied;"
+      },
+      {
+        "idx": 5,
+        "answer": "sues to enforce."
       }
     ]
   },
@@ -8204,7 +8224,7 @@
     "sectionHeader": "F. Warranties (UCC Art. 2)",
     "subsectionTitle": null,
     "priority": null,
-    "context": "**If for Consideration** __BLANK_1__ prevails UNLESS __BLANK_2__\n1) __BLANK_3__ **AND**\n2) Is the first to obtain either: __BLANK_4__ (b) a\n__BLANK_5__ (c) a __BLANK_6__ **OR** (d) some indicia of ownership.",
+    "context": "**If for Consideration** __BLANK_1__ prevails UNLESS __BLANK_2__\n1) __BLANK_3__ **AND**\n2) Is the first to obtain either:\n(a) __BLANK_4__\n(b) a __BLANK_5__\n(c) a __BLANK_6__ **OR**\n(d) some indicia of ownership.",
     "blanks": [
       {
         "idx": 1,
@@ -8220,7 +8240,7 @@
       },
       {
         "idx": 4,
-        "answer": "(a) payment;"
+        "answer": "payment;"
       },
       {
         "idx": 5,
@@ -8931,7 +8951,7 @@
     "sectionHeader": "B. Homicide",
     "subsectionTitle": "Murder",
     "priority": "H",
-    "context": "**Murder**\n**Common Law & 2nd Degree Murder** – **Murder** is the\n(1) unlawful killing,\n(2) of a person,\n(3) __BLANK_1__ − **Malice** Aforethought = __BLANK_2__ **OR** __BLANK_3__",
+    "context": "**Murder**\n**Common Law & 2nd Degree Murder** – **Murder** is the\n(1) unlawful killing,\n(2) of a person,\n(3) __BLANK_1__\n**Malice** Aforethought =\n(a) __BLANK_2__\n(b) __BLANK_3__\n(c) __BLANK_4__ **OR**\n(d) __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
@@ -8939,11 +8959,19 @@
       },
       {
         "idx": 2,
-        "answer": "(a) intent to kill, (b) intent to inflict great bodily harm, (c) reckless disregard of an extreme risk to human life (depraved-heart murder),"
+        "answer": "intent to kill,"
       },
       {
         "idx": 3,
-        "answer": "(d) intent to commit an inherently dangerous felony (felony murder rule)."
+        "answer": "intent to inflict great bodily harm,"
+      },
+      {
+        "idx": 4,
+        "answer": "reckless disregard of an extreme risk to human life (depraved-heart murder),"
+      },
+      {
+        "idx": 5,
+        "answer": "intent to commit an inherently dangerous felony (felony murder rule)."
       }
     ]
   },
@@ -9600,7 +9628,7 @@
     "sectionHeader": "F. Defenses",
     "subsectionTitle": "Insanity",
     "priority": "H",
-    "context": "**Insanity** – D must have a __BLANK_1__ PLUS:\n− __BLANK_2__ D is __BLANK_3__ or __BLANK_4__ − __BLANK_5__ D was (a) __BLANK_6__ or __BLANK_7__ − **Irresistible Impulse Test** → D’s mental illness\nmade D (a) unable to control their actions, or (b)\nunable to conform their actions to the law.",
+    "context": "**Insanity** – D must have a __BLANK_1__ PLUS:\n− __BLANK_2__ D is\n(a) __BLANK_3__\nor\n(b) __BLANK_4__\n− __BLANK_5__ D was\n(a) __BLANK_6__\nor\n(b) __BLANK_7__\n− **Irresistible Impulse Test** → D's mental illness\nmade D\n(a) unable to control their actions, or\n(b) unable to conform their actions to the law.",
     "blanks": [
       {
         "idx": 1,
@@ -9608,15 +9636,15 @@
       },
       {
         "idx": 2,
-        "answer": "M’Naghten Test →"
+        "answer": "M'Naghten Test →"
       },
       {
         "idx": 3,
-        "answer": "(a) unable to know the wrongfulness of his conduct,"
+        "answer": "unable to know the wrongfulness of his conduct,"
       },
       {
         "idx": 4,
-        "answer": "(b) unable to understand the nature and quality of his acts."
+        "answer": "unable to understand the nature and quality of his acts."
       },
       {
         "idx": 5,
@@ -9628,7 +9656,7 @@
       },
       {
         "idx": 7,
-        "answer": "(b) unable to conform his actions to the law."
+        "answer": "unable to conform his actions to the law."
       }
     ]
   },
@@ -9639,11 +9667,11 @@
     "sectionHeader": "F. Defenses",
     "subsectionTitle": "Self-Defense & Defense of Others",
     "priority": "H",
-    "context": "**Self-Defense** – is a complete defense to a crime.\n**Non-Deadly Force** → justified when __BLANK_1__\n(2) __BLANK_2__ **AND** __BLANK_3__\n**Deadly Force** → justified when\n(1) D kills based on a\n__BLANK_4__\n(2) __BLANK_5__ **AND**\n(3) the\n__BLANK_6__ was necessary.\n− Minority of States → D has a __BLANK_7__ before deadly force may be used.\no BUT, D has no duty to retreat when: (a)\n__BLANK_8__ (b) __BLANK_9__ or __BLANK_10__\n− An **aggressor** may only use force in self-\ndefense if: (a) __BLANK_11__ it; OR __BLANK_12__",
+    "context": "**Self-Defense** – is a complete defense to a crime.\n**Non-Deadly Force** → justified when\n(1) __BLANK_1__\n(2) __BLANK_2__ **AND**\n(3) __BLANK_3__\n**Deadly Force** → justified when\n(1) D kills based on a __BLANK_4__\n(2) __BLANK_5__ **AND**\n(3) the __BLANK_6__ was necessary.\n− Minority of States → D has a __BLANK_7__ before deadly force may be used.\no BUT, D has no duty to retreat when:\n(a) __BLANK_8__\n(b) __BLANK_9__\nor (c) __BLANK_10__\n− An **aggressor** may only use force in self-defense if:\n(a) __BLANK_11__ it; OR\n(b) __BLANK_12__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(1) D reasonably believes,"
+        "answer": "D reasonably believes,"
       },
       {
         "idx": 2,
@@ -9651,7 +9679,7 @@
       },
       {
         "idx": 3,
-        "answer": "(3) the force used is proportional to the harm threatened."
+        "answer": "the force used is proportional to the harm threatened."
       },
       {
         "idx": 4,
@@ -9679,7 +9707,7 @@
       },
       {
         "idx": 10,
-        "answer": "(c) if attacked in his own home."
+        "answer": "if attacked in his own home."
       },
       {
         "idx": 11,
@@ -9687,7 +9715,7 @@
       },
       {
         "idx": 12,
-        "answer": "(b) the other person escalates the fight with deadly force and withdrawal is not possible."
+        "answer": "the other person escalates the fight with deadly force and withdrawal is not possible."
       }
     ]
   },
@@ -10327,7 +10355,7 @@
     "sectionHeader": "Incrimination",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "Police may reinitiate questioning if:\n1) Suspect __BLANK_1__\n2) Has provided __BLANK_2__ **AND**\n3) Either __BLANK_3__ or __BLANK_4__ passed __BLANK_5__",
+    "context": "Police may reinitiate questioning if:\n1) Suspect __BLANK_1__\n2) Has provided __BLANK_2__ **AND**\n3) Either\n(a) __BLANK_3__\n(b) __BLANK_4__\nor (c) __BLANK_5__ passed __BLANK_6__",
     "blanks": [
       {
         "idx": 1,
@@ -10339,14 +10367,18 @@
       },
       {
         "idx": 3,
-        "answer": "(a) counsel is present; (b) suspect initiates the communication;"
+        "answer": "counsel is present;"
       },
       {
         "idx": 4,
-        "answer": "(c) 14-days have"
+        "answer": "suspect initiates the communication;"
       },
       {
         "idx": 5,
+        "answer": "14-days have"
+      },
+      {
+        "idx": 6,
         "answer": "since the suspect was released from custody."
       }
     ]
@@ -10689,11 +10721,11 @@
     "sectionHeader": "M. Double Jeopardy",
     "subsectionTitle": "Double Jeopardy",
     "priority": "H",
-    "context": "**Double Jeopardy** – Prevents a D from being\n__BLANK_1__ − __BLANK_2__ two crimes are NOT\n__BLANK_3__ − A final judgment on a lesser offense bars\nprosecution of a greater offense on the same\nfacts UNLESS the greater offense: __BLANK_4__ **OR** (b) was not\n__BLANK_5__",
+    "context": "**Double Jeopardy** – Prevents a D from being\n__BLANK_1__\n− __BLANK_2__ two crimes are NOT\n__BLANK_3__\n− A final judgment on a lesser offense bars\nprosecution of a greater offense on the same\nfacts UNLESS the greater offense:\n(a) __BLANK_4__ **OR**\n(b) was not __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "prosecuted twice for the “same offense”."
+        "answer": "prosecuted twice for the \"same offense\"."
       },
       {
         "idx": 2,
@@ -10701,11 +10733,11 @@
       },
       {
         "idx": 3,
-        "answer": "the “same offense” if each crime requires proof of a fact which the other does not."
+        "answer": "the \"same offense\" if each crime requires proof of a fact which the other does not."
       },
       {
         "idx": 4,
-        "answer": "(a) did not exist at the time of trial;"
+        "answer": "did not exist at the time of trial;"
       },
       {
         "idx": 5,
@@ -11468,11 +11500,11 @@
     "sectionHeader": "D. Character Evidence & Related Concepts",
     "subsectionTitle": null,
     "priority": null,
-    "context": "Felony = a crime punishable by: __BLANK_1__ **OR** (b)\n__BLANK_2__",
+    "context": "Felony = a crime punishable by:\n(a) __BLANK_1__ **OR**\n(b) __BLANK_2__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "(a) death;"
+        "answer": "death;"
       },
       {
         "idx": 2,
@@ -11816,7 +11848,7 @@
     "sectionHeader": "F. Presentation of Evidence",
     "subsectionTitle": "Prior Statements by a Witness",
     "priority": "H",
-    "context": "__BLANK_1__ A prior statement by\na declarant-witness is deemed non-hearsay if:\n1) __BLANK_2__\n2) Declarant __BLANK_3__ **AND**\n3) The prior statement:\na) __BLANK_4__ a prior court\nproceeding or deposition;\nb) __BLANK_5__ as\n__BLANK_6__ **OR**\nc) is __BLANK_7__ prior testimony and is\noffered to either __BLANK_8__ or (ii) __BLANK_9__",
+    "context": "__BLANK_1__ A prior statement by\na declarant-witness is deemed non-hearsay if:\n1) __BLANK_2__\n2) Declarant __BLANK_3__ **AND**\n3) The prior statement:\na) __BLANK_4__ a prior court\nproceeding or deposition;\nb) __BLANK_5__ as\n__BLANK_6__ **OR**\nc) is __BLANK_7__ prior testimony and is\noffered to either\n(i) __BLANK_8__ or\n(ii) __BLANK_9__",
     "blanks": [
       {
         "idx": 1,
@@ -11848,11 +11880,11 @@
       },
       {
         "idx": 8,
-        "answer": "(i) rebut that the declarant is lying,"
+        "answer": "rebut that the declarant is lying,"
       },
       {
         "idx": 9,
-        "answer": "to rehabilitate declarant’s credibility."
+        "answer": "to rehabilitate declarant's credibility."
       }
     ]
   },
@@ -14626,7 +14658,7 @@
     "sectionHeader": "K. Zoning",
     "subsectionTitle": "Variance",
     "priority": "L",
-    "context": "__BLANK_1__ Is an exception to a zoning ordinance.\n− Two types → __BLANK_2__ and __BLANK_3__",
+    "context": "__BLANK_1__ Is an exception to a zoning ordinance.\n− Two types →\n(i) __BLANK_2__ and\n(ii) __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -14634,11 +14666,11 @@
       },
       {
         "idx": 2,
-        "answer": "(i) use variance,"
+        "answer": "use variance,"
       },
       {
         "idx": 3,
-        "answer": "(ii) area variance."
+        "answer": "area variance."
       }
     ]
   },
@@ -14948,7 +14980,7 @@
     "sectionHeader": null,
     "subsectionTitle": "Trespass to Land",
     "priority": "M",
-    "context": "**Trespass to Land** – D is liable if:\n(1) __BLANK_1__\n(2) either __BLANK_2__ remains on\nthe land) or __BLANK_3__ the land (or fails to remove an object he is\nunder a duty to remove).\n− P must be the possessor of the land at the time\nof the trespass.\n− __BLANK_4__ alone may support a claim.",
+    "context": "**Trespass to Land** – D is liable if:\n(1) __BLANK_1__\n(2) either\n(a) __BLANK_2__ remains on\nthe land) or\n(b) __BLANK_3__ the land (or fails to remove an object he is\nunder a duty to remove).\n− P must be the possessor of the land at the time\nof the trespass.\n− __BLANK_4__ alone may support a claim.",
     "blanks": [
       {
         "idx": 1,
@@ -14956,11 +14988,11 @@
       },
       {
         "idx": 2,
-        "answer": "(a) enters the land physically (or"
+        "answer": "enters the land physically (or"
       },
       {
         "idx": 3,
-        "answer": "(b) propels physical objects or a third- person onto"
+        "answer": "propels physical objects or a third- person onto"
       },
       {
         "idx": 4,
@@ -16127,7 +16159,7 @@
     "sectionHeader": "H. Economic Torts",
     "subsectionTitle": "Defamation",
     "priority": "M",
-    "context": "**Slander** (an oral defamatory statement) → need to\n__BLANK_1__ − UNLESS it’s __BLANK_2__ (b) __BLANK_3__ **OR**\n__BLANK_4__",
+    "context": "**Slander** (an oral defamatory statement) → need to\n__BLANK_1__\n− UNLESS it's __BLANK_2__\n(a) __BLANK_3__\n(b) __BLANK_4__\n(c) __BLANK_5__ **OR**\n(d) __BLANK_6__",
     "blanks": [
       {
         "idx": 1,
@@ -16135,15 +16167,23 @@
       },
       {
         "idx": 2,
-        "answer": "Slander Per Se → (a) impugning business integrity or skill;"
+        "answer": "Slander Per Se →"
       },
       {
         "idx": 3,
-        "answer": "unchastity of an unmarried woman; (c) loathsome disease;"
+        "answer": "impugning business integrity or skill;"
       },
       {
         "idx": 4,
-        "answer": "(d) crime of moral turpitude."
+        "answer": "unchastity of an unmarried woman;"
+      },
+      {
+        "idx": 5,
+        "answer": "loathsome disease;"
+      },
+      {
+        "idx": 6,
+        "answer": "crime of moral turpitude."
       }
     ]
   },
