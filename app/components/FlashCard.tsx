@@ -1,5 +1,20 @@
 "use client";
 
+// 科目ごとのアクセントカラー（strip + shadow用）
+const SUBJECT_ACCENT: Record<string, string> = {
+  "AGENCY":                    "#7c3aed",
+  "CONTRACTS":                 "#2563eb",
+  "TORTS":                     "#f97316",
+  "CONSTITUTIONAL LAW":        "#dc2626",
+  "CRIMINAL LAW & PROCEDURE":  "#be123c",
+  "CIVIL PROCEDURE":           "#0891b2",
+  "EVIDENCE":                  "#059669",
+  "REAL PROPERTY":             "#d97706",
+  "CORPORATIONS & LLC'S":      "#4f46e5",
+  "PARTNERSHIPS":              "#0d9488",
+};
+function subjectAccent(s: string) { return SUBJECT_ACCENT[s] ?? "#6366f1"; }
+
 import { useState, useEffect, useRef, useMemo } from "react";
 import { ChevronRight, ChevronLeft, CheckCircle, XCircle, Eye, Pencil, RotateCcw, Plus, NotebookPen, Check, X, RefreshCw } from "lucide-react";
 import type { Card } from "../data/questions";
@@ -652,10 +667,10 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     <div className="flex flex-col gap-4">
       {/* 進捗バー */}
       <div className="flex items-center gap-3">
-        <span className="text-xs text-gray-400 font-medium min-w-[60px]">{cardNumber} / {total}</span>
-        <div className="flex-1 h-1.5 bg-gray-200 rounded-full overflow-hidden">
-          <div className="h-full bg-indigo-500 rounded-full transition-all duration-300"
-            style={{ width: `${(cardNumber / total) * 100}%` }} />
+        <span className="text-xs text-gray-500 font-semibold min-w-[60px]">{cardNumber} / {total}</span>
+        <div className="flex-1 h-2 bg-gray-200/70 rounded-full overflow-hidden">
+          <div className="h-full rounded-full transition-all duration-500"
+            style={{ width: `${(cardNumber / total) * 100}%`, background: subjectAccent(card.subject) }} />
         </div>
       </div>
 
@@ -677,8 +692,9 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
             {isFlagged ? "フラグ済み" : "フラグ"}
           </button>
         )}
-        <span className="text-xs bg-indigo-50 text-indigo-600 font-semibold px-2.5 py-1 rounded-full">
-          {card.subject} <span className="opacity-60">#{subjectIndex}</span>
+        <span className="text-xs font-semibold px-2.5 py-1 rounded-full text-white"
+          style={{ background: subjectAccent(card.subject) }}>
+          {card.subject} <span className="opacity-70">#{subjectIndex}</span>
         </span>
         {card.sectionHeader && (
           <span className="text-xs bg-gray-800 text-white font-semibold px-2.5 py-1 rounded-full">{card.sectionHeader}</span>
@@ -697,7 +713,10 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
       {/* ── 編集モード ── */}
       {editMode ? (
         <>
-          <div className="bg-white rounded-3xl border-2 border-indigo-200 shadow-md p-5 text-[15px] leading-8 text-gray-700">
+          <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-100/80"
+            style={{ boxShadow: `0 8px 32px -4px ${subjectAccent(card.subject)}22, 0 2px 12px rgba(0,0,0,0.06)` }}>
+            <div className="h-1.5" style={{ background: subjectAccent(card.subject) }} />
+            <div className="bg-white p-5 text-[15px] leading-8 text-gray-700">
             <EditTokens
               tokens={tokens}
               override={override}
@@ -705,6 +724,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
               onToggleOriginalWord={handleToggleOriginalWord}
               onWordTap={handleWordTap}
             />
+            </div>
           </div>
 
           {/* pending selection の確定バー */}
@@ -758,12 +778,26 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
       ) : (
         <>
           {/* ── 学習モード ── */}
-          <div className={`bg-white rounded-3xl border-2 shadow-md p-5 text-[15px] leading-8 text-gray-700 transition-colors overflow-hidden ${
-            !submitted ? "border-gray-100" : allCorrect ? "border-emerald-300" : "border-red-200"
-          }`}>
+          <div className="rounded-3xl overflow-hidden transition-all"
+            style={{
+              boxShadow: submitted
+                ? allCorrect
+                  ? "0 8px 32px -4px #10b98133, 0 2px 12px rgba(0,0,0,0.06)"
+                  : "0 8px 32px -4px #f8717133, 0 2px 12px rgba(0,0,0,0.06)"
+                : `0 8px 32px -4px ${subjectAccent(card.subject)}28, 0 2px 12px rgba(0,0,0,0.06)`,
+            }}>
+            <div className="h-1.5 transition-all" style={{
+              background: submitted
+                ? allCorrect ? "#10b981" : "#f87171"
+                : subjectAccent(card.subject)
+            }} />
+            <div className={`bg-white p-5 text-[15px] leading-8 text-gray-700 border-b border-x rounded-b-3xl transition-colors ${
+              !submitted ? "border-gray-100" : allCorrect ? "border-emerald-200" : "border-red-200"
+            }`}>
             <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates}
               blankNumberMap={blankNumberMap}
               onFocusBlank={(id) => inputRefs.current.get(id)?.focus()} />
+            </div>
           </div>
 
           {!submitted ? (
@@ -787,7 +821,10 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                           setInputs(next);
                         }}
                         placeholder={`空欄 (${num}) を入力...`}
-                        className="flex-1 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-900 text-sm focus:outline-none focus:border-indigo-400 bg-white"
+                        className="flex-1 px-4 py-3 rounded-2xl border-2 border-gray-200/80 text-gray-900 text-sm focus:outline-none bg-white/90 shadow-sm transition-all"
+                        style={{ "--tw-ring-color": subjectAccent(card.subject) } as React.CSSProperties}
+                        onFocus={e => e.currentTarget.style.borderColor = subjectAccent(card.subject)}
+                        onBlur={e => e.currentTarget.style.borderColor = ""}
                       />
                     </div>
                   );
@@ -801,10 +838,9 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                 )}
                 <button type="submit" disabled={!someInput}
                   className={`flex-1 py-3.5 rounded-2xl font-bold text-base transition-all shadow-md ${
-                    someInput
-                      ? "bg-indigo-600 text-white hover:bg-indigo-700 active:scale-95"
-                      : "bg-gray-100 text-gray-400 cursor-not-allowed"
-                  }`}>採点する</button>
+                    someInput ? "text-white active:scale-95" : "bg-gray-100 text-gray-400 cursor-not-allowed"
+                  }`}
+                  style={someInput ? { background: subjectAccent(card.subject) } : {}}>採点する</button>
                 <button type="button" onClick={onNext}
                   className="flex-1 py-3.5 rounded-2xl border-2 border-gray-200 text-gray-600 font-bold text-base hover:border-indigo-300 hover:text-indigo-600 transition-colors flex items-center justify-center gap-1"
                   title="スキップして次へ">次へ <ChevronRight size={16} /></button>

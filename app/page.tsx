@@ -431,8 +431,8 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-gray-100 px-4 py-3">
+    <div className="min-h-screen" style={{ background: "linear-gradient(135deg, #f0f4ff 0%, #f8f6ff 40%, #fff7f0 100%)" }}>
+      <header className="sticky top-0 z-10 bg-white/70 backdrop-blur-md border-b border-white/60 px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center justify-between">
           <button
             onClick={() => setAppMode(studyFrom)}
