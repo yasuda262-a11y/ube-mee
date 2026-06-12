@@ -714,7 +714,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
       {editMode ? (
         <>
           <div className="rounded-3xl overflow-hidden"
-            style={{ boxShadow: "0 2px 0 #a8c8d8, 0 4px 0 #a8c8d855, 0 12px 40px -4px #8ab0c440, 0 2px 8px rgba(0,0,0,0.08)" }}>
+            style={{ boxShadow: "0 2px 0 #a8c8d8, 0 4px 0 #a8c8d855, 0 12px 40px -4px #8ab0c440, 0 2px 8px rgba(0,0,0,0.08), inset 0 0 0 1px #b8d4de, inset 0 0 0 3px #eaf5f9, inset 0 0 0 4px #c8dfe8" }}>
             <div className="h-1.5" style={{ background: "#a8c8d8" }} />
             <div className="bg-[#eaf5f9] p-5 text-[15px] leading-8 text-gray-700">
             <EditTokens
@@ -780,7 +780,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
           {/* ── 学習モード ── */}
           <div className="rounded-3xl overflow-hidden transition-all"
             style={{
-              boxShadow: "0 2px 0 #a8c8d8, 0 4px 0 #a8c8d855, 0 12px 40px -4px #8ab0c440, 0 2px 8px rgba(0,0,0,0.08)",
+              boxShadow: "0 2px 0 #a8c8d8, 0 4px 0 #a8c8d855, 0 12px 40px -4px #8ab0c440, 0 2px 8px rgba(0,0,0,0.08), inset 0 0 0 1px #b8d4de, inset 0 0 0 3px #eaf5f9, inset 0 0 0 4px #c8dfe8",
             }}>
             <div className="h-1.5 transition-all" style={{
               background: submitted
