@@ -713,8 +713,8 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
       {/* ── 編集モード ── */}
       {editMode ? (
         <>
-          <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-100/80"
-            style={{ boxShadow: `0 8px 32px -4px ${subjectAccent(card.subject)}22, 0 2px 12px rgba(0,0,0,0.06)` }}>
+          <div className="rounded-3xl overflow-hidden"
+            style={{ boxShadow: `0 2px 0 ${subjectAccent(card.subject)}, 0 4px 0 ${subjectAccent(card.subject)}55, 0 12px 40px -4px ${subjectAccent(card.subject)}35, 0 2px 8px rgba(0,0,0,0.08)` }}>
             <div className="h-1.5" style={{ background: subjectAccent(card.subject) }} />
             <div className="bg-[#fdf6e3] p-5 text-[15px] leading-8 text-gray-700">
             <EditTokens
@@ -782,9 +782,9 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
             style={{
               boxShadow: submitted
                 ? allCorrect
-                  ? "0 8px 32px -4px #10b98133, 0 2px 12px rgba(0,0,0,0.06)"
-                  : "0 8px 32px -4px #f8717133, 0 2px 12px rgba(0,0,0,0.06)"
-                : `0 8px 32px -4px ${subjectAccent(card.subject)}28, 0 2px 12px rgba(0,0,0,0.06)`,
+                  ? "0 2px 0 #059669, 0 4px 0 #05966966, 0 12px 40px -4px #10b98140, 0 2px 8px rgba(0,0,0,0.08)"
+                  : "0 2px 0 #dc2626, 0 4px 0 #dc262666, 0 12px 40px -4px #f8717150, 0 2px 8px rgba(0,0,0,0.08)"
+                : `0 2px 0 ${subjectAccent(card.subject)}, 0 4px 0 ${subjectAccent(card.subject)}55, 0 12px 40px -4px ${subjectAccent(card.subject)}35, 0 2px 8px rgba(0,0,0,0.08)`,
             }}>
             <div className="h-1.5 transition-all" style={{
               background: submitted
@@ -792,7 +792,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                 : subjectAccent(card.subject)
             }} />
             <div className={`bg-[#fdf6e3] p-5 text-[15px] leading-8 text-gray-700 border-b border-x rounded-b-3xl transition-colors ${
-              !submitted ? "border-gray-100" : allCorrect ? "border-emerald-200" : "border-red-200"
+              !submitted ? "border-gray-200" : allCorrect ? "border-emerald-300" : "border-red-300"
             }`}>
             <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates}
               blankNumberMap={blankNumberMap}
