@@ -11557,72 +11557,50 @@
     "sectionHeader": "D. Character Evidence & Related Concepts",
     "subsectionTitle": "Other Acts Evidence",
     "priority": "H",
-    "context": "**Prior Bad Acts** (Crimes, Wrongs, Acts) – Generally\nNOT ADMISSIBLE to __BLANK_1__",
+    "context": "**Prior Bad Acts** (Crimes, Wrongs, Acts) – Generally\nNOT ADMISSIBLE to __BLANK_1__\nBut, IS ADMISSIBLE for **non-propensity purposes** →\n__BLANK_2__, __BLANK_3__, __BLANK_4__, __BLANK_5__, __BLANK_6__, __BLANK_7__, or __BLANK_8__\nTo offer such evidence, the proponent MUST show that:\n1) the prior act was committed (by a\n__BLANK_9__\n2) __BLANK_10__ (FRE 403 Balancing); **AND**\n3) __BLANK_11__",
     "blanks": [
       {
         "idx": 1,
         "answer": "show propensity."
-      }
-    ]
-  },
-  {
-    "id": 512,
-    "page": 58,
-    "subject": "EVIDENCE",
-    "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": "Other Acts Evidence",
-    "priority": "H",
-    "context": "But, IS ADMISSIBLE for **non-propensity purposes** →\n__BLANK_1__, __BLANK_2__, __BLANK_3__, __BLANK_4__, __BLANK_5__, __BLANK_6__, or __BLANK_7__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 2,
         "answer": "Motive"
       },
       {
-        "idx": 2,
+        "idx": 3,
         "answer": "Identity"
       },
       {
-        "idx": 3,
+        "idx": 4,
         "answer": "Absence of Mistake/Accident"
       },
       {
-        "idx": 4,
+        "idx": 5,
         "answer": "Intent"
       },
       {
-        "idx": 5,
+        "idx": 6,
         "answer": "Common Plan or Scheme"
       },
       {
-        "idx": 6,
+        "idx": 7,
         "answer": "Opportunity"
       },
       {
-        "idx": 7,
+        "idx": 8,
         "answer": "Preparation"
-      }
-    ]
-  },
-  {
-    "id": 513,
-    "page": 58,
-    "subject": "EVIDENCE",
-    "sectionHeader": "D. Character Evidence & Related Concepts",
-    "subsectionTitle": "Other Acts Evidence",
-    "priority": "H",
-    "context": "To offer such evidence, the proponent MUST show that:\n1) the prior act was committed (by a\n__BLANK_1__\n2) __BLANK_2__ (FRE 403 Balancing); **AND**\n3) __BLANK_3__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 9,
         "answer": "preponderance of evidence);"
       },
       {
-        "idx": 2,
+        "idx": 10,
         "answer": "the probative value is not substantially outweighed by the danger of unfair prejudice"
       },
       {
-        "idx": 3,
+        "idx": 11,
         "answer": "Proper notice in criminal cases."
       }
     ]
