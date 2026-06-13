@@ -11572,15 +11572,35 @@
     "sectionHeader": "D. Character Evidence & Related Concepts",
     "subsectionTitle": "Other Acts Evidence",
     "priority": "H",
-    "context": "But, IS ADMISSIBLE for **non-propensity purposes** →\n__BLANK_1__ or __BLANK_2__",
+    "context": "But, IS ADMISSIBLE for **non-propensity purposes** →\n__BLANK_1__, __BLANK_2__, __BLANK_3__, __BLANK_4__, __BLANK_5__, __BLANK_6__, or __BLANK_7__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "Motive, Identity, Absence of Mistake/Accident, Intent, Common Plan or Scheme, Opportunity,"
+        "answer": "Motive"
       },
       {
         "idx": 2,
-        "answer": "Preparation."
+        "answer": "Identity"
+      },
+      {
+        "idx": 3,
+        "answer": "Absence of Mistake/Accident"
+      },
+      {
+        "idx": 4,
+        "answer": "Intent"
+      },
+      {
+        "idx": 5,
+        "answer": "Common Plan or Scheme"
+      },
+      {
+        "idx": 6,
+        "answer": "Opportunity"
+      },
+      {
+        "idx": 7,
+        "answer": "Preparation"
       }
     ]
   },
