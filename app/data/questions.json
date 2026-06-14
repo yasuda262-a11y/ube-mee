@@ -3366,6 +3366,16 @@
     "blanks": []
   },
   {
+    "id": 825,
+    "page": 23,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "A. Federal Subject Matter Jurisdiction (SMJ)",
+    "subsectionTitle": "Introduction",
+    "priority": "H",
+    "context": "Three Types of Subject Matter Jurisdiction:\n1) Federal Question\n2) Diversity of Citizenship\n3) Supplemental Jurisdiction\n\n*A federal court may only hear cases when it has SMJ because it's a court of limited jurisdiction.\n*The court MUST dismiss an action if it lacks SMJ.",
+    "blanks": []
+  },
+  {
     "id": 151,
     "page": 23,
     "subject": "CIVIL PROCEDURE",
@@ -3432,6 +3442,16 @@
     ]
   },
   {
+    "id": 826,
+    "page": 23,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "A. Federal Subject Matter Jurisdiction (SMJ)",
+    "subsectionTitle": "Diversity Jurisdiction of a Large Class Action",
+    "priority": "L",
+    "context": "**Diversity Jurisdiction of a Large Class Action** – exists when:\n1) Amount in controversy exceeds $5 million;\n2) At least 100 class members; **AND**\n3) Minimal diversity is present – if any member of the plaintiff class is a citizen of a State different from any defendant.\n\n**Limits on Class Action Diversity Jurisdiction:**\n− Court MAY decline to exercise jurisdiction when non-diverse members are greater than 1/3 and less than 2/3 of the total class.\n− Court MUST decline to exercise jurisdiction when non-diverse members are greater than 2/3 of the total class.\n\n**Class Action Jurisdiction DOES NOT apply:**\na) If the primary D's are States, State officials, or other govt. entities that the court is foreclosed from ordering relief;\nb) If less than 100 class members; **OR**\nc) In class actions involving securities or corporate fiduciary claims.",
+    "blanks": []
+  },
+  {
     "id": 153,
     "page": 23,
     "subject": "CIVIL PROCEDURE",
@@ -3476,6 +3496,16 @@
         "answer": "by the original Plaintiff against a third-party Defendant."
       }
     ]
+  },
+  {
+    "id": 827,
+    "page": 23,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "A. Federal Subject Matter Jurisdiction (SMJ)",
+    "subsectionTitle": "Supplemental Jurisdiction",
+    "priority": "L",
+    "context": "A court MAY decline to exercise Supp. Jurisdiction when:\na) a claim raises a novel or complex issue of State law;\nb) a claim substantially predominates over the other claims which the court has SMJ;\nc) the court dismissed all claims that had federal SMJ; **OR**\nd) in exceptional circumstances.",
+    "blanks": []
   },
   {
     "id": 155,
@@ -3758,6 +3788,16 @@
     ]
   },
   {
+    "id": 828,
+    "page": 25,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "D. Venue",
+    "subsectionTitle": "Forum Selection Clause",
+    "priority": "L",
+    "context": "**Forum Selection Clause** – Courts will enforce a forum-selection clause UNLESS special factors are present (e.g. significant/unusual hardship, inequality of bargaining power).",
+    "blanks": []
+  },
+  {
     "id": 167,
     "page": 25,
     "subject": "CIVIL PROCEDURE",
@@ -3785,6 +3825,16 @@
     ]
   },
   {
+    "id": 829,
+    "page": 25,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "E. Law Applied by Federal Courts",
+    "subsectionTitle": "Substance vs. Procedure",
+    "priority": "M",
+    "context": "**Procedural Law** = civil procedure rules and rebuttable presumptions.",
+    "blanks": []
+  },
+  {
     "id": 168,
     "page": 25,
     "subject": "CIVIL PROCEDURE",
@@ -3798,6 +3848,16 @@
         "answer": "= elements of a claim/defense, conflict or choice of law rules, statute of frauds, burden of proof (on state-law issues), irrebuttable presumptions, statute of limitations & tolling rules, and preclusion law."
       }
     ]
+  },
+  {
+    "id": 830,
+    "page": 25,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "E. Law Applied by Federal Courts",
+    "subsectionTitle": "When Substantive Federal Law Applies",
+    "priority": "M",
+    "context": "**When Substantive Federal Law Applies** – Federal law will apply for matters governed by the U.S. Constitution, laws passed by Congress, and valid federal law that preempts state law under the Supremacy Clause.",
+    "blanks": []
   },
   {
     "id": 169,
@@ -4014,6 +4074,16 @@
     ]
   },
   {
+    "id": 831,
+    "page": 26,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "G. Pleadings",
+    "subsectionTitle": "Amendments to Pleadings",
+    "priority": "M",
+    "context": "**Adding Affirmative Defenses** – A party must set forth ALL affirmative defenses to the claim alleged.\n− If a party fails to do so, the pleading MUST be amended.",
+    "blanks": []
+  },
+  {
     "id": 179,
     "page": 26,
     "subject": "CIVIL PROCEDURE",
@@ -4184,6 +4254,16 @@
         "answer": "Balance of hardships"
       }
     ]
+  },
+  {
+    "id": 832,
+    "page": 27,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "H. Rule 11",
+    "subsectionTitle": "Rule 11 – Representations to the Court",
+    "priority": "M",
+    "context": "**Rule 11 – Representations to the Court**\n\nAll papers served in a litigation MUST be signed by an attorney of record (or by the party if unrepresented).",
+    "blanks": []
   },
   {
     "id": 186,
@@ -4427,6 +4507,16 @@
     ]
   },
   {
+    "id": 833,
+    "page": 28,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "I. Joinder of Parties & Claims",
+    "subsectionTitle": "Impleader (Third-Party Actions)",
+    "priority": "M",
+    "context": "**Commencement of a Third-Party Action** – Defendant (as a third-party plaintiff) must serve a Summons & Third-Party Complaint upon the third-party.\n− Leave of the court is required if more than 14-days have passed since serving its Answer.",
+    "blanks": []
+  },
+  {
     "id": 196,
     "page": 28,
     "subject": "CIVIL PROCEDURE",
@@ -4544,6 +4634,16 @@
         "answer": "party again –"
       }
     ]
+  },
+  {
+    "id": 834,
+    "page": 28,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "J. Discovery",
+    "subsectionTitle": "Depositions",
+    "priority": "M",
+    "context": "**Objections** – Must be noted on the record, but witness MUST still answer the question(s).\n− **Instruction to Not Answer** → Only allowed to: (a) preserve privilege; (b) enforce a court-ordered limitation; **OR** (c) make a Motion to Terminate or Limit the deposition.",
+    "blanks": []
   },
   {
     "id": 202,
@@ -4703,6 +4803,26 @@
     ]
   },
   {
+    "id": 835,
+    "page": 29,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "J. Discovery",
+    "subsectionTitle": "Attorney Work Product Doctrine",
+    "priority": "L",
+    "context": "**Privilege Log** – When a party claims protection, it must disclose the existence of the material in sufficient detail to enable other parties to assess the claim of privilege.",
+    "blanks": []
+  },
+  {
+    "id": 836,
+    "page": 29,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "K. Pretrial Conference & Order",
+    "subsectionTitle": "Pretrial Conference",
+    "priority": "M",
+    "context": "**Pretrial Conference** – The court may order the attorneys (and pro-se parties) to appear for a Pre-trial Conference to control the management/scheduling of the case.\n− Attendance is MANDATORY.",
+    "blanks": []
+  },
+  {
     "id": 209,
     "page": 29,
     "subject": "CIVIL PROCEDURE",
@@ -4720,6 +4840,16 @@
         "answer": "with the judge’s consent."
       }
     ]
+  },
+  {
+    "id": 837,
+    "page": 29,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "K. Pretrial Conference & Order",
+    "subsectionTitle": "Pretrial Conference",
+    "priority": "L",
+    "context": "**Pretrial Conference Sanctions** – May be issued if a party: (a) fails to appear; (b) is substantially unprepared; (c) does not participate in good faith; **OR** (d) fails to obey a scheduling/pretrial order.\n− Sanctions include → (a) prohibiting a party from supporting/opposing certain claims or defenses; (b) striking all/part of the pleading; (c) dismissing all/part of the action; **OR** (d) a default judgment.",
+    "blanks": []
   },
   {
     "id": 210,
@@ -4778,6 +4908,16 @@
         "answer": "Failure to join a necessary party."
       }
     ]
+  },
+  {
+    "id": 838,
+    "page": 30,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "L. Motions",
+    "subsectionTitle": "Motion to Dismiss / Judgment on the Pleadings",
+    "priority": "M",
+    "context": "**Motion for Judgment on the Pleadings** – After Defendant answers, a motion on the above grounds is called a \"Motion for Judgment on the Pleadings\".",
+    "blanks": []
   },
   {
     "id": 212,
@@ -5003,6 +5143,16 @@
         "answer": "a full and fair opportunity to litigate the issue"
       }
     ]
+  },
+  {
+    "id": 839,
+    "page": 31,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "O. Appeals",
+    "subsectionTitle": "Final Judgment Rule & Exceptions",
+    "priority": "H",
+    "context": "**Final Judgment Rule** – A federal appellate court can only hear an appeal from a final judgment on the merits (unless an exception applies).\n\n**EXCEPTIONS** to Final Judgment Rule:\n1) Rule 54(b) Exception\n2) Statutory Exceptions\n3) Certified Appeal Exception\n4) Collateral Order Doctrine\n5) Writs of Mandamus & Prohibition\n6) Pendent Appellate Jurisdiction\n7) Certification of Class Action",
+    "blanks": []
   },
   {
     "id": 223,
