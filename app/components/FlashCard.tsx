@@ -1,6 +1,6 @@
 "use client";
 
-// 科目ごとのアクセントカラー（strip + shadow用）
+// 科目ごとのアクセントカラー（ボタン・バッジ用）
 const SUBJECT_ACCENT: Record<string, string> = {
   "AGENCY":                    "#7c3aed",
   "CONTRACTS":                 "#2563eb",
@@ -15,6 +15,26 @@ const SUBJECT_ACCENT: Record<string, string> = {
 };
 function subjectAccent(s: string) { return SUBJECT_ACCENT[s] ?? "#6366f1"; }
 
+// 科目ごとのカードテーマ（bg=背景, strip=上ライン, border=枠線）
+type CardTheme = { bg: string; strip: string; border: string };
+const SUBJECT_CARD_THEME: Record<string, CardTheme> = {
+  "AGENCY":                    { bg: "#f3eeff", strip: "#c4a3f5", border: "#d8c0f8" },
+  "CONTRACTS":                 { bg: "#eaf5f9", strip: "#a8c8d8", border: "#b8d4de" },
+  "TORTS":                     { bg: "#fff7ed", strip: "#f4c090", border: "#f8d4b0" },
+  "CONSTITUTIONAL LAW":        { bg: "#fff0f0", strip: "#f5a8a8", border: "#f8c0c0" },
+  "CRIMINAL LAW & PROCEDURE":  { bg: "#fff1f3", strip: "#f5a0b0", border: "#f8bcc8" },
+  "CIVIL PROCEDURE":           { bg: "#eafcff", strip: "#7fcce0", border: "#a0dce8" },
+  "EVIDENCE":                  { bg: "#edfaf4", strip: "#6ecfaa", border: "#96dfc0" },
+  "REAL PROPERTY":             { bg: "#fefbee", strip: "#e8c87a", border: "#f0d89a" },
+  "CORPORATIONS & LLC'S":      { bg: "#eef0ff", strip: "#a8aff0", border: "#c0c8f5" },
+  "PARTNERSHIPS":              { bg: "#edfaf8", strip: "#6ecfc8", border: "#96dfd8" },
+};
+const DEFAULT_CARD_THEME: CardTheme = { bg: "#eaf5f9", strip: "#a8c8d8", border: "#b8d4de" };
+function subjectCardTheme(s: string): CardTheme { return SUBJECT_CARD_THEME[s] ?? DEFAULT_CARD_THEME; }
+function cardBoxShadow({ bg, strip, border }: CardTheme): string {
+  return `0 2px 0 ${strip}, 0 4px 0 ${strip}88, 0 12px 40px -4px ${strip}55, 0 2px 8px rgba(0,0,0,0.08), inset 0 0 0 1px ${border}, inset 0 0 0 3px ${bg}, inset 0 0 0 4px ${border}`;
+}
+
 import { useState, useEffect, useRef, useMemo } from "react";
 import { ChevronRight, ChevronLeft, CheckCircle, XCircle, Eye, Pencil, RotateCcw, Plus, NotebookPen, Check, X, RefreshCw } from "lucide-react";
 import type { Card } from "../data/questions";
@@ -27,6 +47,7 @@ import {
   buildBlankMap,
   buildSkipSet,
   splitBlankIntoChunks,
+  getBlankSubTokens,
   type Token,
   type BlankOverride,
   type ActiveBlank,
@@ -122,7 +143,7 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
     }
     const standaloneListDash = DASH_BULLET_RE.test(curText);
     if (standaloneListDash) {
-      if (prev.type === "originalBlank" || prevText.endsWith(".") || prevText.endsWith(";")) {
+      if (prevText.endsWith(".") || prevText.endsWith(";")) {
         return "break";
       }
     }
@@ -133,6 +154,8 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
   if (prevText.endsWith("-")) return "none"; // ハイフン連結
   // (a)/(b)/(c) の直後は改行しない（内容を同じ行に続ける）
   if (LETTER_MARKER_RE.test(prevText)) return "space";
+  // 行頭の originalBlank は必ず改行（context の \n が意図的な区切り）
+  if (cur.type === "originalBlank") return "break";
   // リストマーカー / (N) 番号 / (a)/(b)/(c) 番号 / 太字（新概念の開始）→ 改行
   if (isListStartText(curText)) return "break";
   if (/^\(\d+\)$/.test(curText)) return "break";
@@ -152,11 +175,13 @@ function separator(prev: Token, cur: Token, key: string): React.ReactNode {
 
 // ---- Blank box renderers --------------------------------------------------
 
-function BlankBox({ answer, num, state, onClick }: {
+function BlankBox({ answer, num, state, bold, onClick, onPeek }: {
   answer: string;
   num: number;
-  state: "unanswered" | "exact" | "partial" | "incorrect";
+  state: "unanswered" | "peeked" | "exact" | "partial" | "incorrect";
+  bold?: boolean;
   onClick?: () => void;
+  onPeek?: () => void;
 }) {
   const em = Math.min(24, Math.max(4, Math.round(answer.length * 0.6)));
   const numLabel = (
@@ -164,13 +189,25 @@ function BlankBox({ answer, num, state, onClick }: {
       ({num})
     </span>
   );
+  const boldCls = bold ? " font-bold" : " font-semibold";
   if (state === "unanswered") {
     return (
       <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full"
-        onClick={onClick} style={onClick ? { cursor: "pointer" } : undefined}>
+        onClick={onPeek ?? onClick} style={{ cursor: "pointer" }}>
         {numLabel}
         <span className="inline-block bg-gray-200 text-gray-200 rounded px-1.5 select-none align-middle"
           style={{ minWidth: `${em}em`, maxWidth: "100%" }}>_</span>
+      </span>
+    );
+  }
+  if (state === "peeked") {
+    return (
+      <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full"
+        onClick={onPeek} style={{ cursor: "pointer" }}>
+        {numLabel}
+        <span className={`inline-block bg-violet-100 text-violet-700 rounded px-1.5 align-middle break-words opacity-80${boldCls}`}>
+          {answer}
+        </span>
       </span>
     );
   }
@@ -178,7 +215,7 @@ function BlankBox({ answer, num, state, onClick }: {
     return (
       <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
         {numLabel}
-        <span className="inline-block bg-emerald-100 text-emerald-800 font-semibold rounded px-1.5 align-middle break-words">
+        <span className={`inline-block bg-emerald-100 text-emerald-800 rounded px-1.5 align-middle break-words${boldCls}`}>
           {answer}
         </span>
       </span>
@@ -188,7 +225,7 @@ function BlankBox({ answer, num, state, onClick }: {
     return (
       <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
         {numLabel}
-        <span className="inline-block bg-teal-100 text-teal-800 font-semibold rounded px-1.5 align-middle break-words">
+        <span className={`inline-block bg-sky-100 text-sky-800 rounded px-1.5 align-middle break-words${boldCls}`}>
           {answer}
         </span>
       </span>
@@ -197,7 +234,7 @@ function BlankBox({ answer, num, state, onClick }: {
   return (
     <span className="inline-flex items-baseline gap-0.5 align-baseline mx-0.5 max-w-full">
       {numLabel}
-      <span className="inline-block bg-red-100 text-red-700 font-semibold rounded px-1.5 align-middle break-words">
+      <span className={`inline-block bg-red-100 text-red-700 rounded px-1.5 align-middle break-words${boldCls}`}>
         {answer}
       </span>
     </span>
@@ -206,7 +243,7 @@ function BlankBox({ answer, num, state, onClick }: {
 
 // ---- Study mode -----------------------------------------------------------
 
-type InputState = "unanswered" | "exact" | "partial" | "incorrect";
+type InputState = "unanswered" | "peeked" | "exact" | "partial" | "incorrect";
 
 function StudyTokens({
   tokens,
@@ -214,12 +251,14 @@ function StudyTokens({
   inputStates,
   blankNumberMap,
   onFocusBlank,
+  onPeekBlank,
 }: {
   tokens: Token[];
   activeBlanks: ActiveBlank[];
   inputStates: Map<string, InputState>; // blank.id or subBlank.id → state
   blankNumberMap: Map<string, number>;  // blank.id or subBlank.id → 1-based number
   onFocusBlank?: (blankId: string) => void;
+  onPeekBlank?: (blankId: string) => void;
 }) {
   const blankMap = useMemo(() => buildBlankMap(activeBlanks), [activeBlanks]);
   const skipSet = useMemo(() => buildSkipSet(activeBlanks), [activeBlanks]);
@@ -283,14 +322,17 @@ function StudyTokens({
             const state = inputStates.get(bId) ?? "unanswered";
             pushNode(
               <BlankBox key={`cb-${t.idx}-${ci}`} answer={bAnswer} num={bNum} state={state}
-                onClick={() => onFocusBlank?.(bId)} />
+                bold={t.bold}
+                onClick={() => onFocusBlank?.(bId)}
+                onPeek={() => onPeekBlank?.(bId)} />
             );
             enabledIdx++;
           }
         });
       } else {
         const state = inputStates.get(entry.blank.id) ?? "unanswered";
-        pushNode(<BlankBox key={t.idx} answer={entry.blank.answer} num={entry.number} state={state} />);
+        pushNode(<BlankBox key={t.idx} answer={entry.blank.answer} num={entry.number} state={state} bold={t.bold}
+          onPeek={() => onPeekBlank?.(entry.blank.id)} />);
       }
     } else if (disabledOrigSet.has(t.idx)) {
       pushNode(<span key={t.idx}>{t.text}</span>);
@@ -349,8 +391,12 @@ function EditTokens({
 
   for (const t of tokens) {
     if (prev !== null) {
-      const sep = separator(prev, t, `sep-${t.idx}`);
-      if (sep) nodes.push(sep);
+      // 編集モードでは句読点・括弧も独立タップできるよう、同一行は常にスペースで区切る
+      if (prev.lineIdx !== t.lineIdx) {
+        nodes.push(<br key={`sep-${t.idx}`} />);
+      } else {
+        nodes.push(<span key={`sep-${t.idx}`}> </span>);
+      }
     }
 
     if (t.type === "originalBlank") {
@@ -370,22 +416,22 @@ function EditTokens({
           </button>
         );
       } else {
-        // 単語レベルで展開して表示（スペース区切り）
-        const words = t.text.split(" ");
-        const disabledSubWords = new Set(override.partialDisabledWords[t.blankIdx!] ?? []);
-        words.forEach((word, wi) => {
-          if (wi > 0) nodes.push(<span key={`ws-${t.idx}-${wi}`}> </span>);
-          const isDisabled = disabledSubWords.has(wi);
+        // sub-token（括弧・句読点単位）に展開して表示。各トークンは独立した flat index を持つ
+        const subTokens = getBlankSubTokens(t.text);
+        const disabledIdxs = new Set(override.partialDisabledWords[t.blankIdx!] ?? []);
+        subTokens.forEach((sub, flatIdx) => {
+          if (flatIdx > 0) nodes.push(<span key={`ws-${t.idx}-${flatIdx}`}> </span>);
+          const isDisabled = disabledIdxs.has(flatIdx);
           nodes.push(
-            <button key={`w-${t.idx}-${wi}`} type="button"
-              onClick={() => onToggleOriginalWord(t.blankIdx!, wi)}
+            <button key={`w-${t.idx}-${flatIdx}`} type="button"
+              onClick={() => onToggleOriginalWord(t.blankIdx!, flatIdx)}
               title={isDisabled ? "クリックして伏字に戻す" : "クリックして伏字から除外"}
               className={`inline rounded px-1 py-0.5 text-[14px] leading-7 font-medium transition-colors cursor-pointer ${
                 isDisabled
                   ? "bg-gray-100 text-gray-400 line-through"
                   : "bg-indigo-100 text-indigo-800 border-b-2 border-indigo-400"
               }`}>
-              {word}
+              {sub}
             </button>
           );
         });
@@ -504,15 +550,15 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     setMemoEditing(false);
   }
 
-  // originalBlank の単語レベル toggle
-  function handleToggleOriginalWord(blankIdx: number, wordIdx: number) {
+  // originalBlank の sub-token レベル toggle（flat index）
+  function handleToggleOriginalWord(blankIdx: number, flatIdx: number) {
     const next = { ...override };
     const prev = new Set(next.partialDisabledWords[blankIdx] ?? []);
-    prev.has(wordIdx) ? prev.delete(wordIdx) : prev.add(wordIdx);
+    prev.has(flatIdx) ? prev.delete(flatIdx) : prev.add(flatIdx);
 
-    const words = card.blanks[blankIdx]?.answer?.split(" ") ?? [];
-    if (prev.size === words.length) {
-      // 全単語無効 → 丸ごと無効扱いに統一
+    const subTokenCount = getBlankSubTokens(card.blanks[blankIdx]?.answer ?? "").length;
+    if (prev.size === subTokenCount) {
+      // 全 sub-token 無効 → 丸ごと無効扱いに統一
       next.disabledOriginalBlanks = [...new Set([...next.disabledOriginalBlanks, blankIdx])];
       const pd = { ...next.partialDisabledWords };
       delete pd[blankIdx];
@@ -612,12 +658,24 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     for (const b of activeBlanks) {
       if (b.subBlanks && b.subBlanks.length > 1) {
         for (const sb of b.subBlanks) {
+          // ピーク済みは不正解扱い
+          if (inputStates.get(sb.id) === "peeked") {
+            newStates.set(sb.id, "incorrect");
+            results.push(false);
+            continue;
+          }
           const input = inputs.get(sb.id) ?? "";
           const result = judge(input, sb.answer);
           newStates.set(sb.id, result || "incorrect");
           results.push(!!result);
         }
       } else {
+        // ピーク済みは不正解扱い
+        if (inputStates.get(b.id) === "peeked") {
+          newStates.set(b.id, "incorrect");
+          results.push(false);
+          continue;
+        }
         const input = inputs.get(b.id) ?? "";
         const result = judge(input, b.answer);
         newStates.set(b.id, result || "incorrect");
@@ -648,6 +706,16 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     setInputStates(newStates);
     setSubmitted(true);
     onResult(activeBlanks.flatMap(b => b.subBlanks && b.subBlanks.length > 1 ? b.subBlanks.map(() => false) : [false]));
+  }
+
+  // 個別伏字ピーク：タップで表示/非表示トグル（未採点時のみ）
+  function handlePeekBlank(blankId: string) {
+    if (submitted) return;
+    setInputStates(prev => {
+      const next = new Map(prev);
+      next.set(blankId, next.get(blankId) === "peeked" ? "unanswered" : "peeked");
+      return next;
+    });
   }
 
   // 全入力 ID（subBlanks 考慮）
@@ -714,9 +782,9 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
       {editMode ? (
         <>
           <div className="rounded-3xl overflow-hidden"
-            style={{ boxShadow: "0 2px 0 #a8c8d8, 0 4px 0 #a8c8d855, 0 12px 40px -4px #8ab0c440, 0 2px 8px rgba(0,0,0,0.08), inset 0 0 0 1px #b8d4de, inset 0 0 0 3px #eaf5f9, inset 0 0 0 4px #c8dfe8" }}>
-            <div className="h-1.5" style={{ background: "#a8c8d8" }} />
-            <div className="bg-[#eaf5f9] p-5 text-[15px] leading-8 text-gray-700">
+            style={{ boxShadow: cardBoxShadow(subjectCardTheme(card.subject)) }}>
+            <div className="h-1.5" style={{ background: subjectCardTheme(card.subject).strip }} />
+            <div className="p-5 text-[15px] leading-8 text-gray-700" style={{ background: subjectCardTheme(card.subject).bg }}>
             <EditTokens
               tokens={tokens}
               override={override}
@@ -780,19 +848,20 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
           {/* ── 学習モード ── */}
           <div className="rounded-3xl overflow-hidden transition-all"
             style={{
-              boxShadow: "0 2px 0 #a8c8d8, 0 4px 0 #a8c8d855, 0 12px 40px -4px #8ab0c440, 0 2px 8px rgba(0,0,0,0.08), inset 0 0 0 1px #b8d4de, inset 0 0 0 3px #eaf5f9, inset 0 0 0 4px #c8dfe8",
+              boxShadow: cardBoxShadow(subjectCardTheme(card.subject)),
             }}>
             <div className="h-1.5 transition-all" style={{
               background: submitted
                 ? allCorrect ? "#10b981" : "#f87171"
-                : "#a8c8d8"
+                : subjectCardTheme(card.subject).strip
             }} />
-            <div className={`bg-[#eaf5f9] p-5 text-[15px] leading-8 text-gray-700 border-b border-x rounded-b-3xl transition-colors ${
+            <div className={`p-5 text-[15px] leading-8 text-gray-700 border-b border-x rounded-b-3xl transition-colors ${
               !submitted ? "border-gray-200" : allCorrect ? "border-emerald-300" : "border-red-300"
-            }`}>
+            }`} style={{ background: subjectCardTheme(card.subject).bg }}>
             <StudyTokens tokens={tokens} activeBlanks={activeBlanks} inputStates={inputStates}
               blankNumberMap={blankNumberMap}
-              onFocusBlank={(id) => inputRefs.current.get(id)?.focus()} />
+              onFocusBlank={(id) => inputRefs.current.get(id)?.focus()}
+              onPeekBlank={handlePeekBlank} />
             </div>
           </div>
 
@@ -860,13 +929,13 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                   return (
                     <div key={id} className={`flex items-start gap-3 rounded-2xl px-4 py-3 ${
                       s === "exact" ? "bg-emerald-50 border border-emerald-200"
-                      : s === "partial" ? "bg-teal-50 border border-teal-200"
+                      : s === "partial" ? "bg-sky-50 border border-sky-200"
                       : "bg-red-50 border border-red-200"
                     }`}>
                       {s === "exact"
                         ? <CheckCircle size={18} className="text-emerald-500 flex-shrink-0 mt-0.5" />
                         : s === "partial"
-                        ? <CheckCircle size={18} className="text-teal-400 flex-shrink-0 mt-0.5" />
+                        ? <CheckCircle size={18} className="text-sky-400 flex-shrink-0 mt-0.5" />
                         : <XCircle size={18} className="text-red-400 flex-shrink-0 mt-0.5" />}
                       <div className="flex-1 min-w-0">
                         <p className="text-xs text-gray-500 mb-0.5">空欄 ({num})</p>
@@ -879,10 +948,10 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                             </>
                           : s === "partial"
                           ? <>
-                              <p className="font-semibold text-teal-700 text-sm">ほぼ正解 <span className="text-[11px] font-normal text-teal-600">（部分一致）</span></p>
-                              <p className="text-xs text-teal-700 mt-0.5">正解：<span className="font-bold">{answer}</span></p>
+                              <p className="font-semibold text-sky-700 text-sm">ほぼ正解 <span className="text-[11px] font-normal text-sky-600">（部分一致）</span></p>
+                              <p className="text-xs text-sky-700 mt-0.5">正解：<span className="font-bold">{answer}</span></p>
                               {(inputs.get(id) ?? "") && (
-                                <p className="text-xs text-teal-600 mt-0.5">あなたの回答：{inputs.get(id)}</p>
+                                <p className="text-xs text-sky-600 mt-0.5">あなたの回答：{inputs.get(id)}</p>
                               )}
                             </>
                           : <>

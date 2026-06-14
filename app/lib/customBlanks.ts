@@ -21,16 +21,19 @@ export type Token = {
 /**
  * テキストセグメントを **bold** / ++underline++ マークアップ付きで単語分割する。
  * マーカーは除去し、各単語に bold/underline フラグを付与して返す。
+ * initBold/initUnder: blank を跨いで状態を引き継ぐ場合に指定する。
  */
 function parseFormattedWords(
-  text: string
-): Array<{ word: string; bold: boolean; underline: boolean }> {
+  text: string,
+  initBold = false,
+  initUnder = false,
+): { words: Array<{ word: string; bold: boolean; underline: boolean }>; finalBold: boolean; finalUnder: boolean } {
   const result: Array<{ word: string; bold: boolean; underline: boolean }> = [];
 
   // **...** と ++...++ を交互にパース
   const re = /(\*\*|\+\+)/g;
-  let isBold = false;
-  let isUnder = false;
+  let isBold = initBold;
+  let isUnder = initUnder;
   let last = 0;
 
   // (a), (b), (1), (iv), a), b), 1) などのマーカーはそのまま維持する
@@ -51,12 +54,15 @@ function parseFormattedWords(
         word = word.slice(1);
         if (!word) continue;
       }
-      // 末尾の句読点・) を分離
-      let trailing = "";
-      const pm = word.match(/^(.*\S)([,.:;)]+)$/);
-      if (pm && pm[1].length > 0) {
-        word = pm[1];
-        trailing = pm[2];
+      // 末尾の句読点・) を1文字ずつ独立トークンに分離
+      const trailingChars: string[] = [];
+      while (word.length > 0 && /[,.:;)]/.test(word[word.length - 1])) {
+        trailingChars.unshift(word[word.length - 1]);
+        word = word.slice(0, -1);
+      }
+      if (!word) {
+        for (const ch of trailingChars) result.push({ word: ch, bold: false, underline: false });
+        continue;
       }
       // アポストロフィで分離: contractor's → contractor + 's
       const apoIdx = word.indexOf("'");
@@ -66,7 +72,7 @@ function parseFormattedWords(
       } else {
         result.push({ word, bold: isBold, underline: isUnder });
       }
-      if (trailing) result.push({ word: trailing, bold: false, underline: false });
+      for (const ch of trailingChars) result.push({ word: ch, bold: false, underline: false });
     }
   };
 
@@ -79,7 +85,7 @@ function parseFormattedWords(
   }
   flushSegment(text.slice(last));
 
-  return result;
+  return { words: result, finalBold: isBold, finalUnder: isUnder };
 }
 
 export function parseTokens(
@@ -92,6 +98,8 @@ export function parseTokens(
 
   lines.forEach((line, lineIdx) => {
     const parts = line.split(/(__BLANK_\d+__)/g);
+    let curBold = false;
+    let curUnder = false;
     for (const part of parts) {
       if (!part) continue;
       const m = part.match(/^__BLANK_(\d+)__$/);
@@ -104,11 +112,15 @@ export function parseTokens(
           type: "originalBlank",
           blankIdx,
           lineIdx,
+          ...(curBold && { bold: true }),
+          ...(curUnder && { underline: true }),
         });
       } else {
         // **bold** / ++underline++ マークアップを解析しつつ単語分割・句読点分離
-        const formatted = parseFormattedWords(part);
-        for (const { word, bold, underline } of formatted) {
+        const { words, finalBold, finalUnder } = parseFormattedWords(part, curBold, curUnder);
+        curBold = finalBold;
+        curUnder = finalUnder;
+        for (const { word, bold, underline } of words) {
           tokens.push({
             idx: tokenIdx++,
             text: word,
@@ -136,7 +148,7 @@ export type BlankOverride = {
   customBlanks: number[][];
 };
 
-const OVERRIDE_KEY = "ube-blank-overrides-v3";
+const OVERRIDE_KEY = "ube-blank-overrides-v4";
 
 type OverrideStore = Record<number, BlankOverride>;
 
@@ -184,9 +196,32 @@ export function resetOverride(cardId: number) {
 
 // ---- Partial blank helpers ------------------------------------------------
 
+/** blank answer を括弧・句読点単位に分割する（表示・インデックス管理の最小単位） */
+const BLANK_KEEP_AS_ONE = /^(\([a-z]\)|\([ivxlcdm]+\)|\(\d+\)|[a-z]\)|\d+\)|[ivxlcdm]+\))$/i;
+
+function splitWordToSubTokens(word: string): string[] {
+  if (BLANK_KEEP_AS_ONE.test(word)) return [word];
+  const parts: string[] = [];
+  let w = word;
+  if (w.startsWith("(")) { parts.push("("); w = w.slice(1); }
+  const trailing: string[] = [];
+  while (w.length > 0 && /[,.:;)]/.test(w[w.length - 1])) {
+    trailing.unshift(w[w.length - 1]);
+    w = w.slice(0, -1);
+  }
+  if (w) parts.push(w);
+  parts.push(...trailing);
+  return parts.filter(p => p.length > 0);
+}
+
+/** blank answer を sub-token の flat list に展開する（インデックスは flat 通し番号） */
+export function getBlankSubTokens(answer: string): string[] {
+  return answer.split(" ").flatMap(word => splitWordToSubTokens(word));
+}
+
 /**
  * originalBlank の answer 文字列を、有効／無効チャンクに分割する。
- * 隣接する同種の単語はひとつのチャンクにまとめる。
+ * disabledIdxs は getBlankSubTokens() の flat インデックス。
  */
 export type BlankWordChunk =
   | { type: "enabled"; text: string; wordStart: number; wordEnd: number }
@@ -194,30 +229,28 @@ export type BlankWordChunk =
 
 export function splitBlankIntoChunks(
   answer: string,
-  disabledWordIdxs: Set<number>
+  disabledIdxs: Set<number>
 ): BlankWordChunk[] {
-  const words = answer.split(" ");
+  const subTokens = getBlankSubTokens(answer);
   const chunks: BlankWordChunk[] = [];
   let current: BlankWordChunk | null = null;
-  let wi = 0;
 
-  for (let i = 0; i < words.length; i++) {
-    const disabled = disabledWordIdxs.has(i);
+  for (let i = 0; i < subTokens.length; i++) {
+    const disabled = disabledIdxs.has(i);
     if (!disabled) {
       if (current?.type === "enabled") {
-        (current as { type: "enabled"; text: string; wordStart: number; wordEnd: number }).text += " " + words[i];
+        (current as { type: "enabled"; text: string; wordStart: number; wordEnd: number }).text += " " + subTokens[i];
         (current as { type: "enabled"; text: string; wordStart: number; wordEnd: number }).wordEnd = i;
       } else {
         if (current) chunks.push(current);
-        current = { type: "enabled", text: words[i], wordStart: i, wordEnd: i };
-        wi++;
+        current = { type: "enabled", text: subTokens[i], wordStart: i, wordEnd: i };
       }
     } else {
       if (current?.type === "disabled") {
-        current.text += " " + words[i];
+        current.text += " " + subTokens[i];
       } else {
         if (current) chunks.push(current);
-        current = { type: "disabled", text: words[i] };
+        current = { type: "disabled", text: subTokens[i] };
       }
     }
   }
@@ -225,12 +258,12 @@ export function splitBlankIntoChunks(
   return chunks;
 }
 
-/** originalBlank の有効単語のみを結合した answer を返す */
-export function getEnabledAnswer(answer: string, disabledWordIdxs: Set<number>): string {
-  return answer
-    .split(" ")
-    .filter((_, i) => !disabledWordIdxs.has(i))
-    .join(" ");
+/** originalBlank の有効 sub-token のみを結合した answer を返す */
+export function getEnabledAnswer(answer: string, disabledIdxs: Set<number>): string {
+  return getBlankSubTokens(answer)
+    .filter((_, i) => !disabledIdxs.has(i))
+    .join(" ")
+    .trim();
 }
 
 // ---- Active blank computation ---------------------------------------------
