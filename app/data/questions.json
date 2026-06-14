@@ -1322,6 +1322,16 @@
     ]
   },
   {
+    "id": 806,
+    "page": 14,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "A. Formation of a Corporation",
+    "subsectionTitle": "De Jure Corporation",
+    "priority": null,
+    "context": "**De Jure Corporation** = a properly formed corporation.",
+    "blanks": []
+  },
+  {
     "id": 61,
     "page": 14,
     "subject": "CORPORATIONS & LLC'S",
@@ -1356,6 +1366,33 @@
       {
         "idx": 2,
         "answer": "the internal operations of"
+      }
+    ]
+  },
+  {
+    "id": 807,
+    "page": 14,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "A. Formation of a Corporation",
+    "subsectionTitle": "Amending the Bylaws",
+    "priority": null,
+    "context": "**Amending the Bylaws**:\n__BLANK_1__ → may amend or repeal.\nBoard of Directors → may amend or repeal UNLESS:\na) __BLANK_2__ **OR**\nb) The SH's (in amending a bylaw) expressly provide that the BoD __BLANK_3__\n*If a bylaw deals with __BLANK_4__, the BoD retains power to safeguard the voting process, BUT cannot repeal a shareholder approved bylaw.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Shareholders"
+      },
+      {
+        "idx": 2,
+        "answer": "Articles of Incorporation exclusively reserve the power to SH's;"
+      },
+      {
+        "idx": 3,
+        "answer": "cannot amend or reinstate that specific bylaw."
+      },
+      {
+        "idx": 4,
+        "answer": "director nomination procedures"
       }
     ]
   },
@@ -1436,7 +1473,7 @@
     "page": 14,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "C. Pre-Formation Contract Liability",
-    "subsectionTitle": "Bylaws",
+    "subsectionTitle": "Liability of Promoter",
     "priority": "H",
     "context": "**A promoter is** personally liable **when**:\n1) __BLANK_1__ corp.;\n**AND**\n2) __BLANK_2__",
     "blanks": [
@@ -1455,7 +1492,7 @@
     "page": 14,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "C. Pre-Formation Contract Liability",
-    "subsectionTitle": "Bylaws",
+    "subsectionTitle": "Liability of Promoter",
     "priority": "H",
     "context": "A promoter remains personally liable for a pre-corp.\ncontract even if the __BLANK_1__ − BOTH the corp. and the promotor will be liable if\nadopted.",
     "blanks": [
@@ -1470,7 +1507,7 @@
     "page": 14,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "C. Pre-Formation Contract Liability",
-    "subsectionTitle": "Bylaws",
+    "subsectionTitle": "Liability of Promoter",
     "priority": "H",
     "context": "**A promoter is NOT liable if**:\na) there is __BLANK_1__ **OR**\nb) the __BLANK_2__ the promoter\nhas no personal liability.",
     "blanks": [
@@ -2136,6 +2173,29 @@
     ]
   },
   {
+    "id": 808,
+    "page": 17,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "G. Directors",
+    "subsectionTitle": "SH's Right of Expression & Proposed Resolutions",
+    "priority": null,
+    "context": "**SH's Right of Expression & Proposed Resolutions** – Submitting a \"proposed resolution\" at a SH Meeting is generally accepted, BUT a corp. may exclude __BLANK_1__.\n− __BLANK_2__ → PROPER\n− __BLANK_3__ → NOT PROPER, unless for corporate action by amending Bylaws.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "improper proposals"
+      },
+      {
+        "idx": 2,
+        "answer": "Non-Binding / Precatory Proposals"
+      },
+      {
+        "idx": 3,
+        "answer": "Binding Proposals"
+      }
+    ]
+  },
+  {
     "id": 100,
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
@@ -2597,7 +2657,7 @@
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "K. Fiduciary Duties",
-    "subsectionTitle": "Duty of Loyalty",
+    "subsectionTitle": "Restricting Fiduciary Duties – Corporations",
     "priority": "L",
     "context": "**Restricting Fiduciary Duties – Corporations**\nRMBCA → The Articles of Incorporation MAY eliminate\nor limit __BLANK_1__ actions\ntaken or not taken.\n− BUT, the following CANNOT be limited:\n(1)\nfinancial benefits improperly received;\n(2)\n__BLANK_2__ harm to the corp. or SH’s;\n__BLANK_3__ or\n(4) __BLANK_4__",
     "blanks": [
@@ -3076,6 +3136,33 @@
     ]
   },
   {
+    "id": 809,
+    "page": 21,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "N. Dissolution & Dissociation",
+    "subsectionTitle": "Judicial Dissolution of a Corp.",
+    "priority": null,
+    "context": "**Judicial Dissolution of a Corp.** – A shareholder may petition the court to dissolve the corp. if:\na) __BLANK_1__ and irreparable injury to the corp.;\nb) Directors acted in a manner that is __BLANK_2__ (violating SH's reasonable expectation or preventing minority SH's from having equal rights/opportunities);\nc) SH's are deadlocked in voting power and have failed to elect Directors for at least __BLANK_3__ consecutive annual meetings; **OR**\nd) Corp. assets have been __BLANK_4__.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Deadlock of the directors"
+      },
+      {
+        "idx": 2,
+        "answer": "illegal, oppressive, or fraudulent"
+      },
+      {
+        "idx": 3,
+        "answer": "2"
+      },
+      {
+        "idx": 4,
+        "answer": "wasted or misapplied"
+      }
+    ]
+  },
+  {
     "id": 147,
     "page": 22,
     "subject": "CORPORATIONS & LLC'S",
@@ -3148,6 +3235,37 @@
       {
         "idx": 4,
         "answer": "not reasonably practicable to carry on the business."
+      }
+    ]
+  },
+  {
+    "id": 810,
+    "page": 22,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "N. Dissolution & Dissociation",
+    "subsectionTitle": "Dissolution & Winding Up of an LLC",
+    "priority": null,
+    "context": "**Dissolution & Winding Up of an LLC**\nDissolution Events (under RULLCA) – An LLC is dissolved upon:\na) Occurrence of a dissolution event in the __BLANK_1__;\nb) Consent of __BLANK_2__;\nc) The passage of __BLANK_3__ consecutive days where the LLC has no members; **OR**\nd) Judicial dissolution.\n\n*Winding Up* – Occurs upon dissolution. Under RULLCA, assets are distributed in the following order:\n1) __BLANK_4__\n2) Members' __BLANK_5__ (not previously returned).\n3) Any remaining surplus is split among the Members (in proportion to their right to share in distributions).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Operating Agreement"
+      },
+      {
+        "idx": 2,
+        "answer": "all members"
+      },
+      {
+        "idx": 3,
+        "answer": "90"
+      },
+      {
+        "idx": 4,
+        "answer": "Creditors."
+      },
+      {
+        "idx": 5,
+        "answer": "capital contributions"
       }
     ]
   },
