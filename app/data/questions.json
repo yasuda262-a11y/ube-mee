@@ -1690,21 +1690,6 @@
     "blanks": []
   },
   {
-    "id": 76,
-    "page": 15,
-    "subject": "CORPORATIONS & LLC'S",
-    "sectionHeader": "E. Corporate Finance",
-    "subsectionTitle": "Authorized, Outstanding, & Reacquired Shares",
-    "priority": "M",
-    "context": "**Authorized Shares** → The maximum number of shares the corp. may issue.\n**Outstanding Shares** → The total number of shares issued by the corp. and held by the SH's.\n− Each share is entitled to one vote (unless otherwise specified).\n\n**Reacquired Shares** __BLANK_1__ These →\nshares are considered authorized, but are NOT\noutstanding (because the corp. owns them, not the\nSH’s).\n− Reacquired shares are NOT allowed to be\nvoted.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "(a.k.a Treasury Shares)"
-      }
-    ]
-  },
-  {
     "id": 773,
     "page": 15,
     "subject": "CORPORATIONS & LLC'S",
@@ -1720,6 +1705,21 @@
       {
         "idx": 2,
         "answer": "an asset distribution"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "page": 15,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "E. Corporate Finance",
+    "subsectionTitle": "Authorized, Outstanding, & Reacquired Shares",
+    "priority": "M",
+    "context": "**Authorized Shares** → The maximum number of shares the corp. may issue.\n**Outstanding Shares** → The total number of shares issued by the corp. and held by the SH's.\n− Each share is entitled to one vote (unless otherwise specified).\n\n**Reacquired Shares** __BLANK_1__ These →\nshares are considered authorized, but are NOT\noutstanding (because the corp. owns them, not the\nSH’s).\n− Reacquired shares are NOT allowed to be\nvoted.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "(a.k.a Treasury Shares)"
       }
     ]
   },
