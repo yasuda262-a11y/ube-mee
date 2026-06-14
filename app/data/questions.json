@@ -1669,7 +1669,7 @@
     "page": 15,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "D. Personal Liability & Piercing the Veil",
-    "subsectionTitle": null,
+    "subsectionTitle": "Personal Liability & Piercing the Veil",
     "priority": null,
     "context": "**Piercing the Veil for LLC’s** – Courts generally apply the\nsame factors to pierce the veil of an LLC to hold\nmembers or managers liable.\n− __BLANK_1__ is NOT a\nground to pierce the LLC veil.",
     "blanks": [
@@ -1981,6 +1981,16 @@
     ]
   },
   {
+    "id": 814,
+    "page": 17,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "F. Shareholders",
+    "subsectionTitle": "Election of Directors",
+    "priority": 0,
+    "context": "**Cumulative Voting** – Articles of Incorporation or Bylaws may provide for cumulative voting to elect Directors.\nUnder cumulative voting a SH's total number of votes = shares owned x director spots open.\n− Example → 100 shares owned x 3 BoD spots = 300 votes\nA SH may cast ALL of his votes for *one director nominee* (i.e. 300 votes) rather than being limited to a maximum number of votes for each nominee.\nUnder cumulative voting, a director can be removed ONLY IF the number of votes for removal are *greater than* those needed to elect him.",
+    "blanks": []
+  },
+  {
     "id": 90,
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
@@ -2070,7 +2080,7 @@
     "page": 17,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "F. Shareholders",
-    "subsectionTitle": "Election of Directors",
+    "subsectionTitle": "SH's Right of Expression & Proposed Resolutions",
     "priority": "L",
     "context": "**SH’s Right of Expression & Proposed Resolutions** –\nSubmitting a “proposed resolution” at a SH Meeting is\ngenerally accepted, BUT a corp. may __BLANK_1__ − Non-Binding / Precatory Proposals → PROPER\n− Binding Proposals → NOT PROPER, unless for\n__BLANK_2__",
     "blanks": [
@@ -2203,29 +2213,6 @@
     ]
   },
   {
-    "id": 808,
-    "page": 17,
-    "subject": "CORPORATIONS & LLC'S",
-    "sectionHeader": "G. Directors",
-    "subsectionTitle": "SH's Right of Expression & Proposed Resolutions",
-    "priority": null,
-    "context": "**SH's Right of Expression & Proposed Resolutions** – Submitting a \"proposed resolution\" at a SH Meeting is generally accepted, BUT a corp. may exclude __BLANK_1__.\n− __BLANK_2__ → PROPER\n− __BLANK_3__ → NOT PROPER, unless for corporate action by amending Bylaws.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "improper proposals"
-      },
-      {
-        "idx": 2,
-        "answer": "Non-Binding / Precatory Proposals"
-      },
-      {
-        "idx": 3,
-        "answer": "Binding Proposals"
-      }
-    ]
-  },
-  {
     "id": 100,
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
@@ -2336,7 +2323,7 @@
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "I. Members & Managers",
-    "subsectionTitle": null,
+    "subsectionTitle": "Authority of Members / Managers",
     "priority": null,
     "context": "− __BLANK_1__ may be undertaken only with the consent __BLANK_2__",
     "blanks": [
@@ -2355,7 +2342,7 @@
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "I. Members & Managers",
-    "subsectionTitle": null,
+    "subsectionTitle": "Implied Actual Authority",
     "priority": null,
     "context": "**Implied Actual Authority** – Have authority to take\nactions that __BLANK_1__ for\nthe person’s authorized duties.",
     "blanks": [
@@ -2370,9 +2357,9 @@
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "I. Members & Managers",
-    "subsectionTitle": null,
+    "subsectionTitle": "Apparent Authority",
     "priority": null,
-    "context": "**Apparent Authority** – Each member of an LLC can bind\nthe LLC if the action is made in the ordinary course of\nbusiness UNLESS:\n1) the member lacked authority; **AND**\n2) the other __BLANK_1__",
+    "context": "**Apparent Authority** – Each member of an LLC can bind\nthe LLC if the action is made in the ordinary course of\nbusiness UNLESS:\n1) the member lacked authority; **AND**\n2) the other __BLANK_1__\nManagers in a manager-managed LLC have similar authority.",
     "blanks": [
       {
         "idx": 1,
@@ -2433,8 +2420,8 @@
     "id": 111,
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
-    "sectionHeader": "K. Fiduciary Duties",
-    "subsectionTitle": null,
+    "sectionHeader": "J. Close Corporations & Control Devices",
+    "subsectionTitle": "Restrictions on Share Transfers",
     "priority": "L",
     "context": "__BLANK_1__ **OR**\n(b) the __BLANK_2__ of the\nrestriction.",
     "blanks": [
@@ -2603,7 +2590,7 @@
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "K. Fiduciary Duties",
-    "subsectionTitle": null,
+    "subsectionTitle": "Conflicting Interest Transactions",
     "priority": null,
     "context": "A **conflict occurs** when a director/officer (or their family\nmember):\na) is __BLANK_1__ the transaction;\nb) has __BLANK_2__ the transaction or is\nso closely linked to it that the director’s judgment\nmay reasonable be affected; **OR**\nc) __BLANK_3__ that\ntransaction would normally be brought before\nthe BoD.",
     "blanks": [
@@ -2748,7 +2735,7 @@
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "K. Fiduciary Duties",
-    "subsectionTitle": null,
+    "subsectionTitle": "Fiduciary Duties Owed by LLC Members/Managers",
     "priority": "M",
     "context": "**Manager-Managed LLC’s** → __BLANK_1__ fiduciary duties, not the members.",
     "blanks": [
@@ -2763,7 +2750,7 @@
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "K. Fiduciary Duties",
-    "subsectionTitle": null,
+    "subsectionTitle": "Fiduciary Duties Owed by LLC Members/Managers",
     "priority": "M",
     "context": "The duties are the same as a member-managed LLC.\n− BUT, two notable differences for the Duty of\nLoyalty:\n▪ __BLANK_1__ may authorize an act/transaction that\nwould otherwise violate the duty of\nloyalty.\n▪ Managers must refrain from competing\nwith the LLC __BLANK_2__ duty does not end upon\ndissolution).",
     "blanks": [
@@ -2812,7 +2799,7 @@
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "L. Shareholder & Member Litigation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Direct & Derivative Actions",
     "priority": null,
     "context": "**Derivative Action** – When a SH is suing __BLANK_1__",
     "blanks": [
@@ -2827,7 +2814,7 @@
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "L. Shareholder & Member Litigation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Direct & Derivative Actions",
     "priority": null,
     "context": "The RMBCA requires the SH to:\n1) Own the corp.’s __BLANK_1__ (or became a SH by operation of law from such\na SH);\n2) Be a __BLANK_2__\n3) __BLANK_3__ corp.’s\ninterests; **AND**\n4) Make __BLANK_4__ take\nsuitable action.",
     "blanks": [
@@ -2854,7 +2841,7 @@
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "L. Shareholder & Member Litigation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Direct & Derivative Actions",
     "priority": null,
     "context": "A derivative suit CANNOT be commenced __BLANK_1__ the corp.:\na) __BLANK_2__ **OR**\nb) __BLANK_3__",
     "blanks": [
@@ -2877,7 +2864,7 @@
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "L. Shareholder & Member Litigation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Direct & Derivative Actions",
     "priority": null,
     "context": "For an LLC, all of the elements are the same, except:\n1) The action may be brought within __BLANK_1__ **and**\n2) The demand requirement may __BLANK_2__",
     "blanks": [
@@ -2896,7 +2883,7 @@
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "L. Shareholder & Member Litigation",
-    "subsectionTitle": null,
+    "subsectionTitle": "Direct & Derivative Actions",
     "priority": null,
     "context": "**Damage Award** → is paid directly to the Corp./LLC, but\nthe SH/Member may __BLANK_1__",
     "blanks": [
@@ -2928,7 +2915,7 @@
     "sectionHeader": "L. Shareholder & Member Litigation",
     "subsectionTitle": "Federal Securities Law – Rule 10b-5",
     "priority": "L",
-    "context": "**Federal Securities Law – Rule 10b-5**\nIn order to prevail on a Rule 10b-5 claim, Plaintiff must\nshow that:\n1) D engaged in __BLANK_1__\n2) which was relied upon by P,\n3) in connection with the purchase/sale of\nsecurities,\n4) D acted with scienter,\n5) D used some means of interstate commerce,\n**AND**\n6) P suffered damages.",
+    "context": "**Federal Securities Law – Rule 10b-5**\nIn order to prevail on a Rule 10b-5 claim, Plaintiff must\nshow that:\n1) D engaged in __BLANK_1__\n2) which was relied upon by P,\n3) in connection with the purchase/sale of\nsecurities,\n4) D acted with scienter,\n5) D used some means of interstate commerce,\n**AND**\n6) P suffered damages.\n\nIn a Rule 10b-5 action, the plaintiff MUST be either:\na) the Securities & Exchange Commission (SEC); **OR**\nb) connected to the purchase or sale of the securities at issue.",
     "blanks": [
       {
         "idx": 1,
@@ -2943,7 +2930,7 @@
     "sectionHeader": "M. Fundamental Corporate Changes",
     "subsectionTitle": "Amending the Articles of Incorporation",
     "priority": "M",
-    "context": "**Amending the Articles of Incorporation** – May be\namended at any time by the following process:\n1) __BLANK_1__\n2) __BLANK_2__ **AND**\n3) Adoption by the SH’s __BLANK_3__ unless\na greater number is required under state law or\nthe Articles of Incorp.",
+    "context": "**Amending the Articles of Incorporation** – May be\namended at any time by the following process:\n1) __BLANK_1__\n2) __BLANK_2__ **AND**\n3) Adoption by the SH’s __BLANK_3__ unless\na greater number is required under state law or\nthe Articles of Incorp.\n**Exception #1** → The BoD has the authority to make general minor amendments without SH approval.",
     "blanks": [
       {
         "idx": 1,
@@ -2973,6 +2960,16 @@
         "answer": "corp. has not issued shares yet."
       }
     ]
+  },
+  {
+    "id": 815,
+    "page": 21,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "M. Fundamental Corporate Changes",
+    "subsectionTitle": "Mergers & Share Exchanges",
+    "priority": 0,
+    "context": "**Merger** – The BoD of both Corporations must first approve, then the SH's of both must approve with a majority vote.",
+    "blanks": []
   },
   {
     "id": 138,
@@ -3136,34 +3133,13 @@
   },
   {
     "id": 146,
-    "page": 21,
+    "page": 22,
     "subject": "CORPORATIONS & LLC'S",
-    "sectionHeader": "M. Fundamental Corporate Changes",
-    "subsectionTitle": "Share Exchange",
+    "sectionHeader": "N. Dissolution & Dissociation",
+    "subsectionTitle": "Election to Purchase Shares in Lieu of Dissolution",
     "priority": "M",
-    "context": "Judicial Dissolution of a Corp. – A shareholder may\npetition the court to dissolve the corp. if:\na) __BLANK_1__ to the corp.;\nb) Directors acted in a manner that __BLANK_2__ SH’s\nreasonable expectation or preventing minority\nSH’s from having equal rights/opportunities);\nc) __BLANK_3__ and have\nfailed __BLANK_4__\nd) Corp. assets have __BLANK_5__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "Deadlock of the directors and irreparable injury"
-      },
-      {
-        "idx": 2,
-        "answer": "is illegal, oppressive, or fraudulent (violating"
-      },
-      {
-        "idx": 3,
-        "answer": "SH’s are deadlocked in voting power"
-      },
-      {
-        "idx": 4,
-        "answer": "to elect Directors for at least 2 consecutive annual meetings; OR"
-      },
-      {
-        "idx": 5,
-        "answer": "been wasted or misapplied."
-      }
-    ]
+    "context": "**Election to Purchase Shares in Lieu of Dissolution** – The Corp. (or its shareholders) may elect to purchase all shares owned by the SH petitioning for dissolution at fair market value.\n− This election is generally irrevocable.",
+    "blanks": []
   },
   {
     "id": 809,
@@ -3246,7 +3222,7 @@
     "page": 22,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "N. Dissolution & Dissociation",
-    "subsectionTitle": "Election to Purchase Shares in Lieu of Dissolution",
+    "subsectionTitle": "Judicial Dissolution of an LLC",
     "priority": "H",
     "context": "**Judicial Dissolution** – A court may grant this upon a\nshowing of any of the following grounds:\na) Managers or controlling members acted in an\n__BLANK_1__\nb) Managers or controlling members acted in an\n__BLANK_2__ to the\nmember;\nc) The conduct of all (or substantially all) of the\nLLC’s activities is __BLANK_3__\nd) It’s __BLANK_4__",
     "blanks": [
