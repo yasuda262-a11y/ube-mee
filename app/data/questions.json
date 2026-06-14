@@ -3185,7 +3185,7 @@
     "sectionHeader": "M. Fundamental Corporate Changes",
     "subsectionTitle": "Dissenter’s Appraisal Rights",
     "priority": "H",
-    "context": "**Procedure to Enforce Appraisal Rights** – SH may\nforce the corp. to purchase his shares if:\n1) he gives notice to the corp. of his intent to assert\nappraisal rights;\n2) notice __BLANK_1__\n3) the fundamental change is __BLANK_2__ **AND**\n4) the __BLANK_3__",
+    "context": "**Procedure to Enforce Appraisal Rights** – SH may\nforce the corp. to purchase his shares if:\n1) he gives notice to the corp. of his intent to assert\nappraisal rights;\n2) notice __BLANK_1__\n3) the fundamental change is __BLANK_2__ **AND**\n4) the __BLANK_3__\n*Appraisal rights are NOT available to SH's of publicly traded companies.",
     "blanks": [
       {
         "idx": 1,
@@ -3200,16 +3200,6 @@
         "answer": "SH did not vote in favor of the change."
       }
     ]
-  },
-  {
-    "id": 146,
-    "page": 22,
-    "subject": "CORPORATIONS & LLC'S",
-    "sectionHeader": "N. Dissolution & Dissociation",
-    "subsectionTitle": "Election to Purchase Shares in Lieu of Dissolution",
-    "priority": "M",
-    "context": "**Election to Purchase Shares in Lieu of Dissolution** – The Corp. (or its shareholders) may elect to purchase all shares owned by the SH petitioning for dissolution at fair market value.\n− This election is generally irrevocable.",
-    "blanks": []
   },
   {
     "id": 809,
@@ -3237,6 +3227,16 @@
         "answer": "wasted or misapplied"
       }
     ]
+  },
+  {
+    "id": 146,
+    "page": 22,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "N. Dissolution & Dissociation",
+    "subsectionTitle": "Election to Purchase Shares in Lieu of Dissolution",
+    "priority": "M",
+    "context": "**Election to Purchase Shares in Lieu of Dissolution** – The Corp. (or its shareholders) may elect to purchase all shares owned by the SH petitioning for dissolution at fair market value.\n− This election is generally irrevocable.",
+    "blanks": []
   },
   {
     "id": 147,
@@ -3286,6 +3286,16 @@
         "answer": "still has the right to receive distributions."
       }
     ]
+  },
+  {
+    "id": 823,
+    "page": 22,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "N. Dissolution & Dissociation",
+    "subsectionTitle": "Dissolution & Winding Up of an LLC",
+    "priority": 0,
+    "context": "**Dissolution & Winding Up of an LLC**\n**Dissolution Events** (under RULLCA) – An LLC is dissolved upon:\na) Occurrence of a dissolution event in the Operating Agreement;\nb) Consent of all members;\nc) The passage of 90 consecutive days where the LLC has no members; **OR**\nd) Judicial dissolution.",
+    "blanks": []
   },
   {
     "id": 150,
@@ -3344,6 +3354,16 @@
         "answer": "capital contributions"
       }
     ]
+  },
+  {
+    "id": 824,
+    "page": 22,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "N. Dissolution & Dissociation",
+    "subsectionTitle": "Dissolution & Winding Up of an LLC",
+    "priority": 0,
+    "context": "**Winding Up** – Occurs upon dissolution, and allows time to finish old business, collect & pay debts, and distribute any remaining assets to members.\nUnder RULLCA, assets are distributed in the following order:\n1) Creditors.\n2) Members' capital contributions (not previously returned).\n3) Any remaining surplus is split among the Members (in proportion to their right to share in distributions).",
+    "blanks": []
   },
   {
     "id": 151,
