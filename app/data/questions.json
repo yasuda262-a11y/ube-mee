@@ -2289,6 +2289,25 @@
     ]
   },
   {
+    "id": 774,
+    "page": 18,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "H. Officers",
+    "subsectionTitle": "Removal of Officers",
+    "priority": "L",
+    "context": "**Removal of Officers** – Officers may be removed at any time with or without cause by:\n(a) __BLANK_1__\n(b) __BLANK_2__ (unless the bylaws or BoD provide otherwise); OR\n(c) Any other Officer authorized by the Articles, Bylaws, or BoD.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "The Board of Directors;"
+      },
+      {
+        "idx": 2,
+        "answer": "An Officer who appointed such Officer"
+      }
+    ]
+  },
+  {
     "id": 104,
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
@@ -2317,6 +2336,16 @@
         "answer": "for business purposes"
       }
     ]
+  },
+  {
+    "id": 816,
+    "page": 18,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "I. Members & Managers",
+    "subsectionTitle": "Authority of Members / Managers",
+    "priority": 0,
+    "context": "**Express Actual Authority** – Members receive such authority from the Operating Agreement or from the managing members/managers.\n− Differences among members for Acts *within* the ordinary course of business → need only be approved by a *majority* of the members.",
+    "blanks": []
   },
   {
     "id": 106,
@@ -2368,6 +2397,16 @@
     ]
   },
   {
+    "id": 817,
+    "page": 18,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "J. Close Corporations & Control Devices",
+    "subsectionTitle": "Preemptive Rights",
+    "priority": 0,
+    "context": "**Preemptive Rights** – Allows an existing SH to maintain her % of ownership by being offered the opportunity to purchase shares *issued for cash* before outsiders are permitted to purchase.",
+    "blanks": []
+  },
+  {
     "id": 109,
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
@@ -2381,6 +2420,26 @@
         "answer": "unless explicitly granted in the Articles of Incorporation."
       }
     ]
+  },
+  {
+    "id": 818,
+    "page": 18,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "J. Close Corporations & Control Devices",
+    "subsectionTitle": "Preemptive Rights",
+    "priority": 0,
+    "context": "Preemptive rights DO NOT apply to shares issued:\na) As compensation;\nb) To satisfy conversion/option rights created to provide compensation;\nc) Within 6 months of incorporation;\nd) For consideration other than cash; **OR**\ne) Without general voting rights, but with preferential rights to distributions.",
+    "blanks": []
+  },
+  {
+    "id": 819,
+    "page": 18,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "J. Close Corporations & Control Devices",
+    "subsectionTitle": "Preemptive Rights",
+    "priority": 0,
+    "context": "SH's of common stock DO NOT have preemptive rights with respect to preferred shares, *unless* the shares are convertible into common shares.",
+    "blanks": []
   },
   {
     "id": 110,
@@ -2398,36 +2457,17 @@
     ]
   },
   {
-    "id": 774,
-    "page": 18,
-    "subject": "CORPORATIONS & LLC'S",
-    "sectionHeader": "J. Close Corporations & Control Devices",
-    "subsectionTitle": "Removal of Officers",
-    "priority": "L",
-    "context": "**Removal of Officers** – Officers may be removed at any time with or without cause by:\n(a) __BLANK_1__\n(b) __BLANK_2__ (unless the bylaws or BoD provide otherwise); OR\n(c) Any other Officer authorized by the Articles, Bylaws, or BoD.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "The Board of Directors;"
-      },
-      {
-        "idx": 2,
-        "answer": "An Officer who appointed such Officer"
-      }
-    ]
-  },
-  {
     "id": 111,
     "page": 19,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "J. Close Corporations & Control Devices",
     "subsectionTitle": "Restrictions on Share Transfers",
     "priority": "L",
-    "context": "__BLANK_1__ **OR**\n(b) the __BLANK_2__ of the\nrestriction.",
+    "context": "Reasonable restrictions MAY be enforced against the transferor.\n− But, they CANNOT be enforced against the transferee unless:\n(a) __BLANK_1__ **OR**\n(b) the __BLANK_2__ of the restriction.",
     "blanks": [
       {
         "idx": 1,
-        "answer": "conspicuously noted on the stock certificate;"
+        "answer": "the restriction was conspicuously noted on the stock certificate;"
       },
       {
         "idx": 2,
