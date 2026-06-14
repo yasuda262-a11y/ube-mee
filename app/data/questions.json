@@ -4340,13 +4340,23 @@
     ]
   },
   {
+    "id": 844,
+    "page": 27,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "I. Joinder of Parties & Claims",
+    "subsectionTitle": "Permissive Joinder of Parties",
+    "priority": "L",
+    "context": "**Logical Relationship Test** → *all logically related events for a legal action are within the meaning of same transaction or occurrence.*",
+    "blanks": []
+  },
+  {
     "id": 189,
     "page": 27,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "I. Joinder of Parties & Claims",
     "subsectionTitle": "Required Joinder of Parties",
     "priority": "M",
-    "context": "**Required Joinder of Parties** – A party MUST be joined\nif:\n1) The party __BLANK_1__ **AND**\n2) Joinder __BLANK_2__ *The court must order that such a party be joined in the\naction.",
+    "context": "**Required Joinder of Parties** – A party MUST be joined\nif:\n1) The party __BLANK_1__ **AND**\n2) Joinder __BLANK_2__\n*The court must order that such a party be joined in the action.",
     "blanks": [
       {
         "idx": 1,
@@ -4426,7 +4436,7 @@
     "sectionHeader": "I. Joinder of Parties & Claims",
     "subsectionTitle": "Intervention in an Action",
     "priority": "L",
-    "context": "**Intervention as of Right** – A court MUST permit a non-\nparty to intervene in an action if it demonstrates:\n1) That the application to intervene __BLANK_1__\n2) __BLANK_2__ the action;\n3) That protection of this interest would be\n__BLANK_3__ **AND**\n4) Such interest __BLANK_4__ existing parties in the action.",
+    "context": "**Intervention as of Right** – A court MUST permit a non-\nparty to intervene in an action if it demonstrates:\n1) That the application to intervene __BLANK_1__\n2) __BLANK_2__ the action;\n3) That protection of this interest would be\n__BLANK_3__ **AND**\n4) Such interest __BLANK_4__ existing parties in the action.\n\nIf Intervention as of Right is NOT present, the court may still allow Permissive Intervention upon a timely motion.",
     "blanks": [
       {
         "idx": 1,
@@ -4676,7 +4686,7 @@
     "sectionHeader": "J. Discovery",
     "subsectionTitle": null,
     "priority": "M",
-    "context": "b) If failure to preserve __BLANK_1__\ni. presume that the lost info __BLANK_2__\nii. instruct the jury that it may or must\npresume that the lost info __BLANK_3__\niii. __BLANK_4__ or\niv. __BLANK_5__",
+    "context": "If the above test is satisfied, the court may:\na) Order measures no greater than necessary to cure any prejudice; **OR**\nb) If failure to preserve __BLANK_1__\ni. presume that the lost info __BLANK_2__\nii. instruct the jury that it may or must\npresume that the lost info __BLANK_3__\niii. __BLANK_4__ or\niv. __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
@@ -4768,6 +4778,16 @@
         "answer": "was substantially justified or harmless."
       }
     ]
+  },
+  {
+    "id": 845,
+    "page": 29,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "J. Discovery",
+    "subsectionTitle": "Rule 26(g) – Discovery Disclosures & Sanctions",
+    "priority": "M",
+    "context": "**Sanctions** – The court may issue sanctions for failure to comply with Rule 26(g). If a person violates the rule without substantial justification, the court MUST *impose an appropriate sanction* (i.e. pay reasonable expenses, incl. attorney's fees, caused by the violation).",
+    "blanks": []
   },
   {
     "id": 208,
