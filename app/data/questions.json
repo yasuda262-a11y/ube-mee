@@ -3550,6 +3550,16 @@
     ]
   },
   {
+    "id": 840,
+    "page": 24,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "A. Federal Subject Matter Jurisdiction (SMJ)",
+    "subsectionTitle": "Abstention Doctrines",
+    "priority": "M",
+    "context": "**Abstention Doctrines** – Federal courts MAY abstain from hearing a case when it would intrude upon the powers of another court. Additionally, a court may stay a case arising from ambiguous state law to await the outcome of a pending state court case.\n\nAbstention Doctrines:\n− **Pullman Doctrine** – discretion to abstain when a case arises from unsettled areas of state law, and a state court interpretation may remove the need to decide the case on federal grounds.\n− **Younger Doctrine** – court may abstain from hearing constitutional challenges to a state action when it would interfere with a state judicial proceeding.\n− **Colorado River Doctrine** – court should abstain when parallel (substantially the same) state and federal litigations are pending.\n− **Burford Doctrine** – abstaining is appropriate if federal adjudication would interfere with a state's administration of a complex regulatory scheme.",
+    "blanks": []
+  },
+  {
     "id": 157,
     "page": 24,
     "subject": "CIVIL PROCEDURE",
@@ -3563,6 +3573,16 @@
         "answer": "as the State courts where"
       }
     ]
+  },
+  {
+    "id": 841,
+    "page": 24,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "B. Personal Jurisdiction (PJ)",
+    "subsectionTitle": "Personal Jurisdiction",
+    "priority": "M",
+    "context": "Personal Jurisdiction falls into 2 categories:\n1) Traditional bases of jurisdiction; and\n2) Long-arm Jurisdiction.",
+    "blanks": []
   },
   {
     "id": 158,
@@ -3704,29 +3724,6 @@
     ]
   },
   {
-    "id": 775,
-    "page": 24,
-    "subject": "CIVIL PROCEDURE",
-    "sectionHeader": "C. Service of Process & Notice",
-    "subsectionTitle": "Abstention Doctrines",
-    "priority": "M",
-    "context": "**Abstention Doctrines** – Federal courts MAY abstain from hearing a case when it would __BLANK_1__\n**Pullman Doctrine** – discretionary abstention when a __BLANK_2__\n**Burford Doctrine** – abstention when federal review would __BLANK_3__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "intrude upon the powers of another court."
-      },
-      {
-        "idx": 2,
-        "answer": "case involves an unsettled question of state law."
-      },
-      {
-        "idx": 3,
-        "answer": "disrupt a state's effort to establish a coherent policy."
-      }
-    ]
-  },
-  {
     "id": 164,
     "page": 25,
     "subject": "CIVIL PROCEDURE",
@@ -3804,7 +3801,7 @@
     "sectionHeader": "E. Law Applied by Federal Courts",
     "subsectionTitle": "State Law in Federal Court",
     "priority": "H",
-    "context": "**Erie Doctrine** – Applies when a federal case is brought\n__BLANK_1__ jurisdiction.\n− Federal courts will __BLANK_2__ law, BUT must apply __BLANK_3__ of\n__BLANK_4__",
+    "context": "**Erie Doctrine** – Applies when a federal case is brought\n__BLANK_1__ jurisdiction.\n− Federal courts will __BLANK_2__ law, BUT must apply __BLANK_3__ of\n__BLANK_4__\n\n**Procedural Law** = civil procedure rules and rebuttable presumptions.\n**Substantive Law** __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
@@ -3821,30 +3818,9 @@
       {
         "idx": 4,
         "answer": "the forum state in which it sits."
-      }
-    ]
-  },
-  {
-    "id": 829,
-    "page": 25,
-    "subject": "CIVIL PROCEDURE",
-    "sectionHeader": "E. Law Applied by Federal Courts",
-    "subsectionTitle": "Substance vs. Procedure",
-    "priority": "M",
-    "context": "**Procedural Law** = civil procedure rules and rebuttable presumptions.",
-    "blanks": []
-  },
-  {
-    "id": 168,
-    "page": 25,
-    "subject": "CIVIL PROCEDURE",
-    "sectionHeader": "E. Law Applied by Federal Courts",
-    "subsectionTitle": null,
-    "priority": null,
-    "context": "Substantive Law __BLANK_1__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 5,
         "answer": "= elements of a claim/defense, conflict or choice of law rules, statute of frauds, burden of proof (on state-law issues), irrebuttable presumptions, statute of limitations & tolling rules, and preclusion law."
       }
     ]
@@ -3982,6 +3958,29 @@
     ]
   },
   {
+    "id": 776,
+    "page": 26,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "G. Pleadings",
+    "subsectionTitle": "Permanent Injunction",
+    "priority": "L",
+    "context": "**Permanent Injunction** – A party MUST show:\n1) __BLANK_1__\n2) Legal remedies are __BLANK_2__\n3) __BLANK_3__ favors the party seeking the injunction; AND\n4) Public interest is not harmed.\n*May be issued only after a full trial on the merits.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Irreparable injury;"
+      },
+      {
+        "idx": 2,
+        "answer": "inadequate;"
+      },
+      {
+        "idx": 3,
+        "answer": "Balance of hardships"
+      }
+    ]
+  },
+  {
     "id": 175,
     "page": 26,
     "subject": "CIVIL PROCEDURE",
@@ -4111,6 +4110,16 @@
     ]
   },
   {
+    "id": 842,
+    "page": 26,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "G. Pleadings",
+    "subsectionTitle": "Relation Back Doctrine",
+    "priority": "M",
+    "context": "**Relation Back Doctrine** – When a Complaint is amended to add a:",
+    "blanks": []
+  },
+  {
     "id": 180,
     "page": 26,
     "subject": "CIVIL PROCEDURE",
@@ -4233,46 +4242,13 @@
     ]
   },
   {
-    "id": 776,
-    "page": 26,
-    "subject": "CIVIL PROCEDURE",
-    "sectionHeader": "G. Pleadings",
-    "subsectionTitle": "Permanent Injunction",
-    "priority": "L",
-    "context": "**Permanent Injunction** – A party MUST show:\n1) __BLANK_1__\n2) Legal remedies are __BLANK_2__\n3) __BLANK_3__ favors the party seeking the injunction; AND\n4) Public interest is not harmed.\n*May be issued only after a full trial on the merits.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "Irreparable injury;"
-      },
-      {
-        "idx": 2,
-        "answer": "inadequate;"
-      },
-      {
-        "idx": 3,
-        "answer": "Balance of hardships"
-      }
-    ]
-  },
-  {
-    "id": 832,
-    "page": 27,
-    "subject": "CIVIL PROCEDURE",
-    "sectionHeader": "H. Rule 11",
-    "subsectionTitle": "Rule 11 – Representations to the Court",
-    "priority": "M",
-    "context": "**Rule 11 – Representations to the Court**\n\nAll papers served in a litigation MUST be signed by an attorney of record (or by the party if unrepresented).",
-    "blanks": []
-  },
-  {
     "id": 186,
     "page": 27,
     "subject": "CIVIL PROCEDURE",
     "sectionHeader": "H. Rule 11",
     "subsectionTitle": "Rule 11 – Representations to the Court",
     "priority": "M",
-    "context": "When presenting the papers to the court, **the party**\n**certifies** the following:\n1) It is not being presented for __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ **AND**\n4) denials of factual contentions are warranted or\nreasonably based on lack of information.",
+    "context": "**Rule 11 – Representations to the Court**\n\nAll papers served in a litigation MUST be signed by an attorney of record (or by the party if unrepresented).\n\nWhen presenting the papers to the court, **the party certifies** the following:\n1) It is not being presented for __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ **AND**\n4) denials of factual contentions are warranted or reasonably based on lack of information.\n\n*NOTE: Rule 11 does not apply to discovery or discovery motions.\n\n**Rule 11 – Sanctions Imposed** – The court may issue sanctions (by motion or on its own) for failure to comply with Rule 11.",
     "blanks": [
       {
         "idx": 1,
@@ -4285,6 +4261,39 @@
       {
         "idx": 3,
         "answer": "The factual contentions have evidentiary support or likely will after discovery;"
+      }
+    ]
+  },
+  {
+    "id": 843,
+    "page": 27,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "H. Rule 11",
+    "subsectionTitle": "Rule 11 – Sanctions Imposed",
+    "priority": "M",
+    "context": "**Rule 11 – Sanctions Imposed** – The court may issue sanctions (by motion or on its own) for failure to comply with Rule 11.\n\n**Nature of Sanctions Imposed** – are *within the discretion of the court*, and can be:\na) non-monetary directives;\nb) pay a penalty; or\nc) pay reasonable attorney's fees/expenses resulting from the violation.\n\n**Liability for Sanctions**:\n− Generally, a law firm is *jointly responsible* for a violation by its partner, associate, or employee.\n− Monetary sanctions CANNOT be issued against a client for an unwarranted claim/defense/legal contention made by their attorney.",
+    "blanks": []
+  },
+  {
+    "id": 777,
+    "page": 27,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "H. Rule 11",
+    "subsectionTitle": "Rule 11 – Sanctions Imposed",
+    "priority": "M",
+    "context": "**Rule 11 – Sanctions** – The court may issue sanctions (by motion or on its own) for failure to comply with Rule 11.\n**Nature of Sanctions:**\n(a) non-monetary directives;\n(b) pay a penalty; or\n(c) pay reasonable __BLANK_1__\n**Liability:** A law firm is __BLANK_2__ for a violation by its partner, associate, or employee.\nMonetary sanctions CANNOT be issued against a client for __BLANK_3__ made by their attorney.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "attorney's fees/expenses."
+      },
+      {
+        "idx": 2,
+        "answer": "jointly responsible"
+      },
+      {
+        "idx": 3,
+        "answer": "an unwarranted claim/defense/legal contention"
       }
     ]
   },
@@ -4434,29 +4443,6 @@
       {
         "idx": 4,
         "answer": "is not adequately represented by"
-      }
-    ]
-  },
-  {
-    "id": 777,
-    "page": 27,
-    "subject": "CIVIL PROCEDURE",
-    "sectionHeader": "I. Joinder of Parties & Claims",
-    "subsectionTitle": "Rule 11 – Sanctions",
-    "priority": "M",
-    "context": "**Rule 11 – Sanctions** – The court may issue sanctions (by motion or on its own) for failure to comply with Rule 11.\n**Nature of Sanctions:**\n(a) non-monetary directives;\n(b) pay a penalty; or\n(c) pay reasonable __BLANK_1__\n**Liability:** A law firm is __BLANK_2__ for a violation by its partner, associate, or employee.\nMonetary sanctions CANNOT be issued against a client for __BLANK_3__ made by their attorney.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "attorney's fees/expenses."
-      },
-      {
-        "idx": 2,
-        "answer": "jointly responsible"
-      },
-      {
-        "idx": 3,
-        "answer": "an unwarranted claim/defense/legal contention"
       }
     ]
   },
