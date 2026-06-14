@@ -1338,7 +1338,7 @@
     "sectionHeader": "A. Formation of a Corporation",
     "subsectionTitle": "Formation of a Corporation",
     "priority": "M",
-    "context": "**Articles of Incorporation** – are filed to form a\ncorporation, and MUST contain:\n1) corporate name;\n2) number of shares the corp. is authorized to\nissue;\n3) corp.’s address and name of __BLANK_1__ **AND**\n4) name and address of __BLANK_2__",
+    "context": "**Articles of Incorporation** – are filed to form a\ncorporation, and MUST contain:\n1) corporate name;\n2) number of shares the corp. is authorized to\nissue;\n3) corp.’s address and name of __BLANK_1__ **AND**\n4) name and address of __BLANK_2__\n**The Articles of Incorporation *control* if there is a conflict with the Bylaws.**",
     "blanks": [
       {
         "idx": 1,
@@ -1403,7 +1403,7 @@
     "sectionHeader": "A. Formation of a Corporation",
     "subsectionTitle": "Powers of a Corporation",
     "priority": "M",
-    "context": "**Powers of a Corporation** – A corp. has the power to do\n__BLANK_1__ carry out its\nbusiness and affairs.",
+    "context": "**Powers of a Corporation** – A corp. has the power to do\n__BLANK_1__ carry out its\nbusiness and affairs.\n− Includes → lawsuits, own/lease real property, contracts, incur liabilities, borrow/loan money, make investments, involvement with other businesses, fix compensation/salaries, charitable donations, pay/engage in lobbying.",
     "blanks": [
       {
         "idx": 1,
@@ -1467,6 +1467,16 @@
         "answer": "activities and affairs"
       }
     ]
+  },
+  {
+    "id": 811,
+    "page": 14,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "C. Pre-Formation Contract Liability",
+    "subsectionTitle": "Liability of Promoter",
+    "priority": 0,
+    "context": "**Liability of Promoter** – A promoter acts on behalf of a corp. that has not yet been formed.",
+    "blanks": []
   },
   {
     "id": 67,
@@ -1547,6 +1557,16 @@
         "answer": "(2) accepts some benefit of it."
       }
     ]
+  },
+  {
+    "id": 812,
+    "page": 15,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "C. Pre-Formation Contract Liability",
+    "subsectionTitle": "Defective Incorporation & Owner Liability",
+    "priority": 0,
+    "context": "**Defective Incorporation & Owner Liability** – If corp. formation is defective, the owners may be personally liable for corp. contracts and obligations.\n**EXCEPTIONS:**\n**RMBCA** → Prevents personal liability unless the person:\n1) purports to act as or on behalf of a corp., **AND**\n2) knows that no corp. was formed.",
+    "blanks": []
   },
   {
     "id": 71,
@@ -1676,7 +1696,7 @@
     "sectionHeader": "E. Corporate Finance",
     "subsectionTitle": "Authorized, Outstanding, & Reacquired Shares",
     "priority": "M",
-    "context": "**Reacquired Shares** __BLANK_1__ These →\nshares are considered authorized, but are NOT\noutstanding (because the corp. owns them, not the\nSH’s).\n− Reacquired shares are NOT allowed to be\nvoted.",
+    "context": "**Authorized Shares** → The maximum number of shares the corp. may issue.\n**Outstanding Shares** → The total number of shares issued by the corp. and held by the SH's.\n− Each share is entitled to one vote (unless otherwise specified).\n\n**Reacquired Shares** __BLANK_1__ These →\nshares are considered authorized, but are NOT\noutstanding (because the corp. owns them, not the\nSH’s).\n− Reacquired shares are NOT allowed to be\nvoted.",
     "blanks": [
       {
         "idx": 1,
@@ -1691,7 +1711,7 @@
     "sectionHeader": "E. Corporate Finance",
     "subsectionTitle": "Common & Preferred Shares",
     "priority": "L",
-    "context": "**Common Shares** → Provide SH's with __BLANK_1__\n**Preferred Shares** → Usually DO NOT have voting rights. Generally, provide a SH the preferred right to __BLANK_2__ before SH's with common shares.",
+    "context": "**Common Shares** → Provide SH's with __BLANK_1__\n**Preferred Shares** → Usually DO NOT have voting rights. Generally, provide a SH the preferred right to __BLANK_2__ before SH's with common shares.\n\nIf only **one class** of shares is authorized → all shares will have both:\na) the power to vote; **AND**\nb) the power to receive the net assets upon dissolution.\nIf **more than one class** of shares is authorized → the classes MUST be described in the Articles of Incorporation.\n− All shares within a class MUST have the same rights, privileges, and restrictions.\n− BUT, the RMBCA allows variations within a class/series if expressly set forth in the Articles of Incorporation.",
     "blanks": [
       {
         "idx": 1,
@@ -1845,7 +1865,7 @@
     "page": 16,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "F. Shareholders",
-    "subsectionTitle": "Consideration in Exchange for Shares",
+    "subsectionTitle": "Special Meetings",
     "priority": "L",
     "context": "**Special Meetings** – May be called by:\na) The BoD;\nb) Persons authorized under the Articles of\nIncorporation; **OR**\nc) SH’s holding at __BLANK_1__ all votes entitled to\nbe cast at the meeting.",
     "blanks": [
@@ -1860,7 +1880,7 @@
     "page": 16,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "F. Shareholders",
-    "subsectionTitle": "Consideration in Exchange for Shares",
+    "subsectionTitle": "Notice",
     "priority": "L",
     "context": "**Notice** – Must be given to all SH’s entitled to vote **AND**\nrequires:\n1) At __BLANK_1__ of the meeting\n(but not more __BLANK_2__\n2) The meeting’s date, time, and place; **AND**\n3) A description of the meeting’s purpose (for\n__BLANK_3__ *If the meeting involves __BLANK_4__ ALL\nshareholders (whether or __BLANK_5__ are entitled\nto notice.",
     "blanks": [
@@ -1891,7 +1911,7 @@
     "page": 16,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "F. Shareholders",
-    "subsectionTitle": "Consideration in Exchange for Shares",
+    "subsectionTitle": "Waiver of Notice",
     "priority": "L",
     "context": "**Waiver of Notice** – a SH may waive notice:\na) in a signed writing; **OR**\nb) __BLANK_1__ (or not objecting to a matter\nnot described in the notice).",
     "blanks": [
@@ -2200,7 +2220,7 @@
     "page": 18,
     "subject": "CORPORATIONS & LLC'S",
     "sectionHeader": "H. Officers",
-    "subsectionTitle": null,
+    "subsectionTitle": "Officers",
     "priority": "L",
     "context": "The BoD may elect individuals as **Officers** to manage the\n__BLANK_1__ the corp.",
     "blanks": [
