@@ -5478,6 +5478,16 @@
     ]
   },
   {
+    "id": 848,
+    "page": 32,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "B. Justiciability",
+    "subsectionTitle": "Taxpayer Standing",
+    "priority": "M",
+    "context": "**Taxpayer Standing** – P may bring a lawsuit regarding specific amounts owed under their tax bill.\n− But, a party DOES NOT have standing solely for being a taxpayer (i.e. challenging govt. expenditures).",
+    "blanks": []
+  },
+  {
     "id": 238,
     "page": 32,
     "subject": "CONSTITUTIONAL LAW",
@@ -5587,6 +5597,16 @@
         "answer": "a substantial effect on interstate commerce."
       }
     ]
+  },
+  {
+    "id": 849,
+    "page": 32,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "C. Powers of Congress",
+    "subsectionTitle": "Power to Enforce the 13th, 14th, & 15th Amendments",
+    "priority": "M",
+    "context": "**Power to Enforce the 13th, 14th, & 15th Amendments**\nCongress has the power to enforce:\n▪ **13th Amend.** – abolition of slavery.\n▪ **14th Amend.** – privileges and immunities, due process, equal protection, apportionment of representatives.\n▪ **15th Amend.** – right to vote cannot be denied because of race.",
+    "blanks": []
   },
   {
     "id": 243,
@@ -5749,6 +5769,26 @@
     ]
   },
   {
+    "id": 850,
+    "page": 33,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "E. Federal Interbranch Relationships",
+    "subsectionTitle": "Non-Delegation Doctrine",
+    "priority": "M",
+    "context": "**Non-Delegation Doctrine** – Congress CANNOT delegate powers it does not have.",
+    "blanks": []
+  },
+  {
+    "id": 851,
+    "page": 33,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "F. Intergovernmental Immunities",
+    "subsectionTitle": "State Immunity from Federal Law (10th Amendment)",
+    "priority": "M",
+    "context": "**State Immunity from Federal Law (10th Amendment)**\nAll powers not granted to the Fed Govt. are reserved to the States (unless prohibited by the Constitution).",
+    "blanks": []
+  },
+  {
     "id": 251,
     "page": 33,
     "subject": "CONSTITUTIONAL LAW",
@@ -5774,6 +5814,16 @@
         "answer": "by attaching restrictions and conditions on federal funding pursuant"
       }
     ]
+  },
+  {
+    "id": 852,
+    "page": 33,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "G. Federalism-Based Limits on State Authority",
+    "subsectionTitle": "Negative Commerce Clause",
+    "priority": "H",
+    "context": "**Negative Commerce Clause** – A state MAY regulate commerce so long as Congress has NOT enacted laws on the subject matter.\n− If such laws are enacted, then any state/local law would be pre-empted by federal law.",
+    "blanks": []
   },
   {
     "id": 252,
@@ -5876,6 +5926,16 @@
     ]
   },
   {
+    "id": 853,
+    "page": 34,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "H. Incorporation Doctrine",
+    "subsectionTitle": "Incorporation Doctrine",
+    "priority": "M",
+    "context": "**Incorporation Doctrine** – Most Amendments are applicable to the States by incorporation through the 14th Amend. Due Process Clause.\n\nThe 14th Amend. (equal protection) is incorporated into the 5th Amend. Due Process Clause, making it applicable to the Federal Govt.",
+    "blanks": []
+  },
+  {
     "id": 256,
     "page": 34,
     "subject": "CONSTITUTIONAL LAW",
@@ -5897,6 +5957,16 @@
         "answer": "– jury trial in civil cases."
       }
     ]
+  },
+  {
+    "id": 854,
+    "page": 34,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "I. Government Action (\"State Action\")",
+    "subsectionTitle": "Governmental Action",
+    "priority": "M",
+    "context": "**Governmental Action** – P must show that a violation is attributable to govt. action, which applies to all levels of local, state, and federal govt.\n− The conduct of private actors is NOT protected by the U.S. Constitution.",
+    "blanks": []
   },
   {
     "id": 257,
@@ -5939,6 +6009,16 @@
         "answer": "→ 5th Amendment"
       }
     ]
+  },
+  {
+    "id": 855,
+    "page": 34,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "J. Due Process (5th & 14th Amendments)",
+    "subsectionTitle": "Substantive Due Process",
+    "priority": "M",
+    "context": "**Substantive Due Process** – The govt.'s power to regulate certain activities.",
+    "blanks": []
   },
   {
     "id": 259,
@@ -6019,6 +6099,16 @@
         "answer": "requires notice and an unbiased hearing."
       }
     ]
+  },
+  {
+    "id": 856,
+    "page": 35,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "K. Equal Protection (5th & 14th Amendments)",
+    "subsectionTitle": "Equal Protection Analysis",
+    "priority": "H",
+    "context": "**Equal Protection Analysis** – Prohibits the govt. from denying citizens equal protection of the laws.\n− Applicable to the States → 14th Amendment\n− Applicable to Fed. Govt. → 5th Amendment",
+    "blanks": []
   },
   {
     "id": 263,
@@ -6324,6 +6414,16 @@
     ]
   },
   {
+    "id": 857,
+    "page": 36,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "M. Other Protections",
+    "subsectionTitle": "Contracts Clause",
+    "priority": "M",
+    "context": "**Public Contracts** (State is a contract party) → A heightened standard of scrutiny is used.\n− Complete deference to a legislative assessment of reasonableness & necessity is NOT appropriate (for means-end balancing) because the State's self-interest is at stake.\n− Supreme Court has not yet articulated the exact level of scrutiny to be used.",
+    "blanks": []
+  },
+  {
     "id": 275,
     "page": 36,
     "subject": "CONSTITUTIONAL LAW",
@@ -6454,6 +6554,16 @@
     ]
   },
   {
+    "id": 858,
+    "page": 36,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "O. Freedom of Speech (1st Amendment)",
+    "subsectionTitle": "Introduction",
+    "priority": "H",
+    "context": "1st Amendment protects the right to freedom of speech and expressive activities that constitute speech.\n− Applicable to govt. by incorporation through the 14th Amendment.\n\nThe right to anonymous speech and the right not to speak is protected under the 1st Amendment.\n− Conduct that has no communicative value is NOT protected.",
+    "blanks": []
+  },
+  {
     "id": 281,
     "page": 36,
     "subject": "CONSTITUTIONAL LAW",
@@ -6514,6 +6624,26 @@
         "answer": "it leaves open alternative channels of communication."
       }
     ]
+  },
+  {
+    "id": 859,
+    "page": 36,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "O. Freedom of Speech (1st Amendment)",
+    "subsectionTitle": "Content-Based vs. Content Neutral Restrictions",
+    "priority": "H",
+    "context": "**Content-Neutral Restrictions** – Govt. MAY regulate the time, place, and manner of content-neutral speech if it satisfies intermediate scrutiny.\n− **Intermediate Scrutiny** → Govt. must show that (1) the regulation is narrowly tailored, (2) to achieve a significant government interest, **AND** (3) it leaves open alternative channels of communication.",
+    "blanks": []
+  },
+  {
+    "id": 860,
+    "page": 36,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "O. Freedom of Speech (1st Amendment)",
+    "subsectionTitle": "Public Forums for Speech",
+    "priority": "H",
+    "context": "**Public Forums for Speech**\n\n**Public Forum** = Place traditionally available to the public for speech (i.e. parks, streets, public sidewalks).\n− Content-Based Restriction → Must satisfy Strict Scrutiny.\n− Content Neutral Restriction → Govt. MAY regulate time, place, and manner if it satisfies Intermediate Scrutiny.",
+    "blanks": []
   },
   {
     "id": 283,
@@ -6577,13 +6707,23 @@
     ]
   },
   {
+    "id": 861,
+    "page": 37,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "O. Freedom of Speech (1st Amendment)",
+    "subsectionTitle": "Private Property",
+    "priority": "M",
+    "context": "**Private Property** = No right to access another's private property for speech.",
+    "blanks": []
+  },
+  {
     "id": 286,
     "page": 37,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Fighting Words",
     "priority": "M",
-    "context": "Fighting words = words which by their very utterance:\na) __BLANK_1__ **OR**\nb) Tend __BLANK_2__",
+    "context": "**Fighting Words** → Not protected\nFighting words = words which by their very utterance:\na) __BLANK_1__ **OR**\nb) Tend __BLANK_2__",
     "blanks": [
       {
         "idx": 1,
@@ -6602,7 +6742,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Incitement of Imminent Lawless Action",
     "priority": "M",
-    "context": "May be outlawed if the speech:\n1) __BLANK_1__\n2) __BLANK_2__ **AND**\n3) __BLANK_3__ (there is a\nclear and present danger that a listener will act).",
+    "context": "**Incitement of Imminent Lawless Action** → Not protected\nMay be outlawed if the speech:\n1) __BLANK_1__\n2) __BLANK_2__ **AND**\n3) __BLANK_3__ (there is a\nclear and present danger that a listener will act).",
     "blanks": [
       {
         "idx": 1,
@@ -6625,7 +6765,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Obscenity",
     "priority": "L",
-    "context": "Material is obscene when it:\n1) __BLANK_1__ of\nan avg. person __BLANK_2__\n2) Is __BLANK_3__ **AND**\n3) __BLANK_4__ *Mere private possession of obscene material by an\nadult inside the home CANNOT be made criminal.\n− Exception → child pornography",
+    "context": "**Obscenity** → Not protected\nMaterial is obscene when it:\n1) __BLANK_1__ of\nan avg. person __BLANK_2__\n2) Is __BLANK_3__ **AND**\n3) __BLANK_4__ *Mere private possession of obscene material by an\nadult inside the home CANNOT be made criminal.\n− Exception → child pornography",
     "blanks": [
       {
         "idx": 1,
@@ -6652,7 +6792,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Commercial Speech",
     "priority": "L",
-    "context": "Govt. MAY regulate truthful, non-misleading commercial\nspeech if the regulation:\n1) __BLANK_1__\n2) __BLANK_2__ **AND**\n3) Is __BLANK_3__",
+    "context": "**Commercial Speech** → Given fewer protections\nGovt. MAY regulate truthful, non-misleading commercial\nspeech if the regulation:\n1) __BLANK_1__\n2) __BLANK_2__ **AND**\n3) Is __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -6694,7 +6834,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Government Employees",
     "priority": "L",
-    "context": "Two-Step Test to determine if their speech is protected:\n▪ Step 1: Did employee speak as __BLANK_1__\n○ If no → speech is not protected\n○ If yes → go to Step 2\n▪ Step 2: Did the govt. entity have __BLANK_2__ from any other member of the general public (based on the govt. interests as an employer)?\n○ The court must balance the employee's rights vs. the govt. employer's interests.",
+    "context": "**Government Employees**\nTwo-Step Test to determine if their speech is protected:\n▪ Step 1: Did employee speak as __BLANK_1__\n○ If no → speech is not protected\n○ If yes → go to Step 2\n▪ Step 2: Did the govt. entity have __BLANK_2__ from any other member of the general public (based on the govt. interests as an employer)?\n○ The court must balance the employee's rights vs. the govt. employer's interests.",
     "blanks": [
       {
         "idx": 1,
@@ -6739,6 +6879,26 @@
     "subsectionTitle": "Prior Restraint",
     "priority": "L",
     "context": "**Prior Restraint** – occurs when the govt. attempts to prohibit speech before it happens through a court order or licensing requirement.\n− Generally disfavored and unconstitutional, except in very limited circumstances (i.e. where national security is at stake).\n− Court orders preventing speech must satisfy 1st Amend. Strict Scrutiny.\n**Procedural Safeguards for Licensing** – Are permitted if:\n1) Govt. has an important reason;\n2) Specific, articulated standards to remove the discretion; **AND**\n3) Procedural safeguards are in place, including a prompt final judicial decision when a license is denied.",
+    "blanks": []
+  },
+  {
+    "id": 862,
+    "page": 37,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "O. Freedom of Speech (1st Amendment)",
+    "subsectionTitle": "Procedural Safeguards for Licensing",
+    "priority": "M",
+    "context": "**Procedural Safeguards for Licensing** – Are permitted if:\n1) Govt. has an important reason;\n2) Specific, articulated standards to remove discretion; **AND**\n3) Procedural safeguards are in place, including a prompt final judicial decision when a license is denied.",
+    "blanks": []
+  },
+  {
+    "id": 863,
+    "page": 37,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "O. Freedom of Speech (1st Amendment)",
+    "subsectionTitle": "Vague & Overbroad Laws",
+    "priority": "M",
+    "context": "**Vague & Overbroad Laws** → are unconstitutional",
     "blanks": []
   },
   {
