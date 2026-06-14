@@ -8369,7 +8369,7 @@
     "sectionHeader": "G. Third-Party Rights",
     "subsectionTitle": "Assignment",
     "priority": "M",
-    "context": "Limitations – An assignment is valid UNLESS:\na) It __BLANK_1__ (i) __BLANK_2__ changes the duty of obligor, (ii) increases the\nburden/risk imposed on obligor, (iii) materially\nimpairs obligor’s chance of obtaining return\nperformance, or (iv) materially reduces the value\nof return performance;\nb) __BLANK_3__ **OR**\nc) It’s __BLANK_4__ assignment __BLANK_5__ assignor is liable for\ndamages; __BLANK_6__ assignment is __BLANK_7__",
+    "context": "Limitations – An assignment is valid UNLESS:\na) It __BLANK_1__ → (i) changes the duty of obligor, (ii) increases the burden/risk imposed on obligor, (iii) materially impairs obligor's chance of obtaining return performance, or (iv) materially reduces the value of return performance;\nb) __BLANK_2__ **OR**\nc) It's __BLANK_3__ – (i) __BLANK_4__ → assignment __BLANK_5__ assignor is liable for damages; (ii) __BLANK_6__ → assignment is __BLANK_7__",
     "blanks": [
       {
         "idx": 1,
@@ -8377,15 +8377,15 @@
       },
       {
         "idx": 2,
-        "answer": "→"
+        "answer": "It's prohibited by law or public policy;"
       },
       {
         "idx": 3,
-        "answer": "It’s prohibited by law or public policy;"
+        "answer": "precluded by contract"
       },
       {
         "idx": 4,
-        "answer": "precluded by contract – (i) prohibitions →"
+        "answer": "prohibitions"
       },
       {
         "idx": 5,
@@ -8393,11 +8393,11 @@
       },
       {
         "idx": 6,
-        "answer": "(ii) invalidations"
+        "answer": "invalidations"
       },
       {
         "idx": 7,
-        "answer": "void. →"
+        "answer": "void."
       }
     ]
   },
