@@ -4949,6 +4949,16 @@
     ]
   },
   {
+    "id": 846,
+    "page": 30,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "L. Motions",
+    "subsectionTitle": "Motion for Judgment as a Matter of Law (JMOL)",
+    "priority": "H",
+    "context": "**Motion for Judgment as a Matter of Law (JMOL)** – May be brought at any time before the case is submitted to the jury.",
+    "blanks": []
+  },
+  {
     "id": 213,
     "page": 30,
     "subject": "CIVIL PROCEDURE",
@@ -5157,7 +5167,7 @@
     "sectionHeader": "O. Appeals",
     "subsectionTitle": "Final Judgment Rule & Exceptions",
     "priority": "H",
-    "context": "**Final Judgment Rule** – A federal appellate court can only hear an appeal from a final judgment on the merits (unless an exception applies).\n\n**EXCEPTIONS** to Final Judgment Rule:\n1) Rule 54(b) Exception\n2) Statutory Exceptions\n3) Certified Appeal Exception\n4) Collateral Order Doctrine\n5) Writs of Mandamus & Prohibition\n6) Pendent Appellate Jurisdiction\n7) Certification of Class Action",
+    "context": "**Final Judgment Rule** – A federal appellate court can only hear an appeal from a final judgment on the merits (unless an exception applies).",
     "blanks": []
   },
   {
@@ -5193,6 +5203,16 @@
         "answer": "within 30 days after"
       }
     ]
+  },
+  {
+    "id": 847,
+    "page": 31,
+    "subject": "CIVIL PROCEDURE",
+    "sectionHeader": "O. Appeals",
+    "subsectionTitle": "Final Judgment Rule & Exceptions",
+    "priority": "H",
+    "context": "**EXCEPTIONS** to Final Judgment Rule:\n1) Rule 54(b) Exception\n2) Statutory Exceptions\n3) Certified Appeal Exception\n4) Collateral Order Doctrine\n5) Writs of Mandamus & Prohibition\n6) Pendent Appellate Jurisdiction\n7) Certification of Class Action",
+    "blanks": []
   },
   {
     "id": 225,
