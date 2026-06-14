@@ -8852,33 +8852,22 @@
     "sectionHeader": "H. Remedies",
     "subsectionTitle": "Reformation",
     "priority": "M",
-    "context": "**Reformation** – Allows a contract to __BLANK_1__",
+    "context": "**Reformation** – Allows a contract to __BLANK_1__\nIs an available remedy when:\na) A valid contract exists, but there was a\n__BLANK_2__ **OR**\nb) __BLANK_3__ (a unilateral\nmistake is sufficient if the non-mistaken party\nhad reason to know of the mistake).\n***Reformation** is NOT allowed if a __BLANK_4__ applies (e.g. unclean hands, laches).",
     "blanks": [
       {
         "idx": 1,
         "answer": "be changed to conform to the parties’ original intent."
-      }
-    ]
-  },
-  {
-    "id": 405,
-    "page": 48,
-    "subject": "CONTRACTS",
-    "sectionHeader": "H. Remedies",
-    "subsectionTitle": "Reformation",
-    "priority": "M",
-    "context": "Is an available remedy when:\na) A valid contract exists, but there was a\n__BLANK_1__ **OR**\nb) __BLANK_2__ (a unilateral\nmistake is sufficient if the non-mistaken party\nhad reason to know of the mistake).\n***Reformation** is NOT allowed if a __BLANK_3__ applies (e.g. unclean hands, laches).",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "misrepresentation;"
       },
       {
         "idx": 2,
-        "answer": "Mutual mistake of a material fact"
+        "answer": "misrepresentation;"
       },
       {
         "idx": 3,
+        "answer": "Mutual mistake of a material fact"
+      },
+      {
+        "idx": 4,
         "answer": "valid equitable defense"
       }
     ]
