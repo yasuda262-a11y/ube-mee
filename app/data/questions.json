@@ -2482,7 +2482,7 @@
     "sectionHeader": "K. Fiduciary Duties",
     "subsectionTitle": "Duty of Care",
     "priority": "H",
-    "context": "This means they __BLANK_1__ duties:\n1) in __BLANK_2__\n2) with __BLANK_3__ they are acting in\n__BLANK_4__ **AND**\n3) with the care __BLANK_5__ *If the 3-part test above is met, then a Director is NOT\nliable.",
+    "context": "**Duty of Care** – Directors are fiduciaries of the corp., and as such owe a duty of care.\nThis means they __BLANK_1__ duties:\n1) in __BLANK_2__\n2) with __BLANK_3__ they are acting in\n__BLANK_4__ **AND**\n3) with the care __BLANK_5__ *If the 3-part test above is met, then a Director is NOT\nliable.",
     "blanks": [
       {
         "idx": 1,
@@ -2528,7 +2528,7 @@
     "sectionHeader": "K. Fiduciary Duties",
     "subsectionTitle": "Duty of Care",
     "priority": "H",
-    "context": "A court will NOT disturb decisions subject to the BJR\nstandard if __BLANK_1__ Directors must __BLANK_2__ the\ndecisions they make.\n− They MAY rely on __BLANK_3__\n(1) the reliance __BLANK_4__ **AND**\n(2) the advisor or committee __BLANK_5__",
+    "context": "A court will NOT disturb decisions subject to the BJR\nstandard if __BLANK_1__ Directors must __BLANK_2__ the\ndecisions they make.\n− They MAY rely on __BLANK_3__\n(1) the reliance __BLANK_4__ **AND**\n(2) the advisor or committee __BLANK_5__\nIf a director breaches the duty of care, he may be *personally liable* to the corp. for any losses that result.",
     "blanks": [
       {
         "idx": 1,
@@ -2771,6 +2771,16 @@
     ]
   },
   {
+    "id": 820,
+    "page": 20,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "K. Fiduciary Duties",
+    "subsectionTitle": "Fiduciary Duties Owed by LLC Members/Managers",
+    "priority": 0,
+    "context": "**Duty of Loyalty** → Includes the duty to:\n1) account for any property, profit, or benefit derived from the LLC's business/property;\n2) refrain from having an adverse interest when dealing with the LLC (unless the transaction was fair); **AND**\n3) refrain from competing with the LLC (before dissolution).\n*EXCEPTION → All members authorize an act/transaction after receiving full disclosure.",
+    "blanks": []
+  },
+  {
     "id": 125,
     "page": 20,
     "subject": "CORPORATIONS & LLC'S",
@@ -2955,13 +2965,33 @@
     "sectionHeader": "L. Shareholder & Member Litigation",
     "subsectionTitle": "Federal Securities Law – Rule 10b-5",
     "priority": "L",
-    "context": "**Federal Securities Law – Rule 10b-5**\nIn order to prevail on a Rule 10b-5 claim, Plaintiff must\nshow that:\n1) D engaged in __BLANK_1__\n2) which was relied upon by P,\n3) in connection with the purchase/sale of\nsecurities,\n4) D acted with scienter,\n5) D used some means of interstate commerce,\n**AND**\n6) P suffered damages.\n\nIn a Rule 10b-5 action, the plaintiff MUST be either:\na) the Securities & Exchange Commission (SEC); **OR**\nb) connected to the purchase or sale of the securities at issue.",
+    "context": "**Federal Securities Law – Rule 10b-5**\nIn order to prevail on a Rule 10b-5 claim, Plaintiff must\nshow that:\n1) D engaged in __BLANK_1__\n2) which was relied upon by P,\n3) in connection with the purchase/sale of\nsecurities,\n4) D acted with scienter,\n5) D used some means of interstate commerce,\n**AND**\n6) P suffered damages.",
     "blanks": [
       {
         "idx": 1,
         "answer": "a fraudulent scheme or device,"
       }
     ]
+  },
+  {
+    "id": 821,
+    "page": 20,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "L. Shareholder & Member Litigation",
+    "subsectionTitle": "Federal Securities Law – Rule 10b-5",
+    "priority": 0,
+    "context": "**Fraudulent Scheme or Device** includes:\na) Misrepresentation of material fact (or disseminating such information);\nb) Insider trading; **OR**\nc) Tipping – trading on material info received from an insider.",
+    "blanks": []
+  },
+  {
+    "id": 822,
+    "page": 20,
+    "subject": "CORPORATIONS & LLC'S",
+    "sectionHeader": "L. Shareholder & Member Litigation",
+    "subsectionTitle": "Federal Securities Law – Rule 10b-5",
+    "priority": 0,
+    "context": "In a Rule 10b-5 action, the plaintiff MUST be either:\na) the Securities & Exchange Commission (SEC); **OR**\nb) connected to the purchase or sale of the securities at issue.",
+    "blanks": []
   },
   {
     "id": 136,
