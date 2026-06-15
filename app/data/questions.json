@@ -15407,7 +15407,7 @@
     "sectionHeader": "H. Land Conveyances",
     "subsectionTitle": "Fixture",
     "priority": "M",
-    "context": "**Merger Doctrine** → Once the deed is delivered &\naccepted, __BLANK_1__ − Result is that __BLANK_2__ EXTINGUISHED, and a buyer may only sue\nupon the deed.",
+    "context": "**Merger Doctrine** → Once the deed is delivered &\naccepted, __BLANK_1__ − Result is that __BLANK_2__ EXTINGUISHED, and a buyer may only sue\nupon the deed.\nSome Courts → will NOT apply the merger doctrine if it doesn't carry out the *probable intent* of the parties.\n− Examples: mutual mistake, scrivener's error.",
     "blanks": [
       {
         "idx": 1,
@@ -15435,25 +15435,6 @@
     ]
   },
   {
-    "id": 784,
-    "page": 68,
-    "subject": "REAL PROPERTY",
-    "sectionHeader": "H. Land Conveyances",
-    "subsectionTitle": "Profit",
-    "priority": "M",
-    "context": "**Profit** – Gives the holder the right to __BLANK_1__ such as petroleum, minerals, timber, and wild game __BLANK_2__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "take natural resources"
-      },
-      {
-        "idx": 2,
-        "answer": "from the land of another."
-      }
-    ]
-  },
-  {
     "id": 629,
     "page": 69,
     "subject": "REAL PROPERTY",
@@ -15475,6 +15456,16 @@
         "answer": "Encumbrances →"
       }
     ]
+  },
+  {
+    "id": 907,
+    "page": 0,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "LAND SALE CONTRACTS",
+    "subsectionTitle": "Unmarketable Title – Buyer Rights",
+    "priority": 0,
+    "context": "If seller CANNOT convey marketable title at closing, the buyer may withdraw without penalty.\n− A buyer MAY waive the defect. If the buyer waives, seller cannot cancel the contract.",
+    "blanks": []
   },
   {
     "id": 630,
@@ -15597,7 +15588,7 @@
     "sectionHeader": "H. Land Conveyances",
     "subsectionTitle": "Title is Unmarketable",
     "priority": "H",
-    "context": "**Home Builder's Implied Warranty** – Protects buyers of\n__BLANK_1__ and warrants\nthat the home __BLANK_2__ at the time of sale.\n− Latent Defect = a defect that could not have\nbeen discovered __BLANK_3__\n**Breach** – allows a buyer to recover damages discovered\nwithin a reasonable time for:\na) __BLANK_4__ **OR**\nb) __BLANK_5__ accepted norms of the industry).",
+    "context": "**Home Builder's Implied Warranty** – Protects buyers of\n__BLANK_1__ and warrants\nthat the home __BLANK_2__ at the time of sale.\n− Latent Defect = a defect that could not have\nbeen discovered __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -15610,14 +15601,6 @@
       {
         "idx": 3,
         "answer": "by a reasonable inspection."
-      },
-      {
-        "idx": 4,
-        "answer": "Defective construction;"
-      },
-      {
-        "idx": 5,
-        "answer": "Construction not performed in a workmanlike manner (the"
       }
     ]
   },
@@ -15714,13 +15697,23 @@
     ]
   },
   {
+    "id": 908,
+    "page": 0,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "DEEDS",
+    "subsectionTitle": "Conditional Delivery",
+    "priority": 0,
+    "context": "When a **deed is unconditional on its face** and given to a grantee, any additional *oral conditions are NOT valid*.\n− BUT, if same deed is given to a third-party (i.e. to be held in escrow), the additional conditions create a *conditional delivery*.",
+    "blanks": []
+  },
+  {
     "id": 641,
     "page": 70,
     "subject": "REAL PROPERTY",
     "sectionHeader": "I. Title to Real Property",
     "subsectionTitle": "Types of Deeds",
     "priority": "H",
-    "context": "**General Warranty Deed** – Contains 6 covenants of title:\n__BLANK_1__ (only breached at the time of conveyance):\n1) __BLANK_2__ rightful owner;\n2) __BLANK_3__ and\n3) __BLANK_4__\n__BLANK_5__\n1) __BLANK_6__ – to __BLANK_7__\n2) __BLANK_8__ – to not be bothered by a\n__BLANK_9__ and\n3) __BLANK_10__ – to do whatever is\nreasonable __BLANK_11__ *Future covenants run with the land & also protect\nsuccessor/remote grantees.",
+    "context": "**General Warranty Deed** – Contains 6 covenants of title:\n__BLANK_1__ (only breached at the time of conveyance):\n1) __BLANK_2__ rightful owner;\n2) __BLANK_3__ and\n3) __BLANK_4__\n__BLANK_5__\n1) __BLANK_6__ – to __BLANK_7__\n2) __BLANK_8__ – to not be bothered by a\n__BLANK_9__ and\n3) __BLANK_10__ – to do whatever is\nreasonable __BLANK_11__\n*Future covenants run with the land & also protect\nsuccessor/remote grantees.",
     "blanks": [
       {
         "idx": 1,
@@ -15847,7 +15840,7 @@
     "sectionHeader": "I. Title to Real Property",
     "subsectionTitle": "Chain of Title",
     "priority": "H",
-    "context": "**Wild Deed** = A deed NOT recorded properly, and thus\n__BLANK_1__ − A wild deed DOES NOT put subsequent\npurchasers on constructive notice of a land\ntransfer.",
+    "context": "**Chain of Title** – shows all transfers for a piece of land.\n− 2 Indexes → one organized by names of *grantors*, and one organized by names of *grantees*.\n\n**Wild Deed** = A deed NOT recorded properly, and thus\n__BLANK_1__ − A wild deed DOES NOT put subsequent\npurchasers on constructive notice of a land\ntransfer.",
     "blanks": [
       {
         "idx": 1,
@@ -15905,7 +15898,7 @@
     "sectionHeader": "I. Title to Real Property",
     "subsectionTitle": "Bona Fide Purchasers & The Shelter Rule",
     "priority": "H",
-    "context": "Bona Fide Purchasers (BFP) – is a person who:\n1) __BLANK_1__ **AND**\n2) __BLANK_2__ *A person who receives land __BLANK_3__ or by\n__BLANK_4__ is NOT a Bona Fide Purchaser.",
+    "context": "Bona Fide Purchasers (BFP) – is a person who:\n1) __BLANK_1__ **AND**\n2) __BLANK_2__\n*A person who receives land __BLANK_3__ or by\n__BLANK_4__ is NOT a Bona Fide Purchaser.",
     "blanks": [
       {
         "idx": 1,
@@ -15992,6 +15985,16 @@
         "answer": "loan, including future advances."
       }
     ]
+  },
+  {
+    "id": 909,
+    "page": 0,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "MORTGAGES",
+    "subsectionTitle": "Obligatory vs. Optional Future Payments",
+    "priority": 0,
+    "context": "**Obligatory vs. Optional Future Payments**:\n− **Obligatory** → lender has a *duty* to advance funds regardless of the situation (no discretion).\n− **Optional** → lender has *discretion* whether to make future advances.",
+    "blanks": []
   },
   {
     "id": 651,
