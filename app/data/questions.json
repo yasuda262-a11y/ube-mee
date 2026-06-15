@@ -10978,7 +10978,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Arrests",
     "priority": "H",
-    "context": "**++Arrests++** – To be proper, a police officer MUST have\n**__BLANK_1__** → __BLANK_2__\n(2) sufficient to warrant __BLANK_3__\n(3) that __BLANK_4__ − Officer DOES NOT need firsthand knowledge (it\nmay be based on informant’s information).\n− An __BLANK_5__ requires a\nwarrant __BLANK_6__ or\nanother exception exists).",
+    "context": "**++Arrests++** – To be proper, a police officer MUST have\n(1) **__BLANK_1__** → __BLANK_2__\n(2) sufficient to warrant __BLANK_3__\n(3) that __BLANK_4__ − Officer DOES NOT need firsthand knowledge (it\nmay be based on informant’s information).\n− An __BLANK_5__ requires a\nwarrant __BLANK_6__ or\nanother exception exists).",
     "blanks": [
       {
         "idx": 1,
