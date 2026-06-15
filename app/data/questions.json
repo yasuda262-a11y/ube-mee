@@ -8614,6 +8614,29 @@
     ]
   },
   {
+    "id": 778,
+    "page": 44,
+    "subject": "CONTRACTS",
+    "sectionHeader": "E. Performance, Breach, & Discharge",
+    "subsectionTitle": "Obligation of Good Faith & Fair Dealing",
+    "priority": "M",
+    "context": "**Obligation of Good Faith & Fair Dealing** – Every contract contains an implied obligation of good faith and fair dealing to __BLANK_1__\n**UCC** → Requires:\n(1) __BLANK_2__ AND\n(2) observance of __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "act honestly and fairly."
+      },
+      {
+        "idx": 2,
+        "answer": "honesty in fact,"
+      },
+      {
+        "idx": 3,
+        "answer": "reasonable commercial standards of fair dealing."
+      }
+    ]
+  },
+  {
     "id": 867,
     "page": 44,
     "subject": "CONTRACTS",
@@ -8702,36 +8725,13 @@
     ]
   },
   {
-    "id": 778,
-    "page": 44,
-    "subject": "CONTRACTS",
-    "sectionHeader": "E. Performance, Breach, & Discharge",
-    "subsectionTitle": "Obligation of Good Faith & Fair Dealing",
-    "priority": "M",
-    "context": "**Obligation of Good Faith & Fair Dealing** – Every contract contains an implied obligation of good faith and fair dealing to __BLANK_1__\n**UCC** → Requires:\n(1) __BLANK_2__ AND\n(2) observance of __BLANK_3__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "act honestly and fairly."
-      },
-      {
-        "idx": 2,
-        "answer": "honesty in fact,"
-      },
-      {
-        "idx": 3,
-        "answer": "reasonable commercial standards of fair dealing."
-      }
-    ]
-  },
-  {
     "id": 365,
     "page": 45,
     "subject": "CONTRACTS",
     "sectionHeader": "E. Performance, Breach, & Discharge",
     "subsectionTitle": null,
     "priority": "M",
-    "context": "**Frustration of Purpose** – Discharges performance\nwhen the purpose of the contract no longer exists.\nOccurs when:\n1) a party's principal purpose __BLANK_1__\n2) by an __BLANK_2__ **AND**\n3) the event's non-occurrence __BLANK_3__\n\n**Anticipatory Repudiation** – Occurs when a party\n__BLANK_4__ that they are unable or\nunwilling to perform under the contract.",
+    "context": "**Frustration of Purpose** – Discharges performance\nwhen the purpose of the contract no longer exists.\nOccurs when:\n1) a party's principal purpose __BLANK_1__\n2) by an __BLANK_2__ **AND**\n3) the event's non-occurrence __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
@@ -8744,10 +8744,6 @@
       {
         "idx": 3,
         "answer": "was a basic assumption of the contract."
-      },
-      {
-        "idx": 4,
-        "answer": "unequivocally communicates"
       }
     ]
   },
@@ -8867,6 +8863,16 @@
     ]
   },
   {
+    "id": 900,
+    "page": 0,
+    "subject": "CONTRACTS",
+    "sectionHeader": "DISCHARGE OF DUTIES",
+    "subsectionTitle": "Accord & Satisfaction – Breach",
+    "priority": 0,
+    "context": "If the party fails to satisfy the accord, the other party may sue under either the:\na) original contract; **OR**\nb) accord terms.",
+    "blanks": []
+  },
+  {
     "id": 371,
     "page": 45,
     "subject": "CONTRACTS",
@@ -8892,7 +8898,7 @@
     "sectionHeader": "F. Warranties (UCC Art. 2)",
     "subsectionTitle": "Warranty of Title",
     "priority": "H",
-    "context": "**Warranty of Title** – Warrants that title:\n1) __BLANK_1__\n2) __BLANK_2__ *May be disclaimed by specific language or\ncircumstances.",
+    "context": "**Warranty of Title** – Warrants that title:\n1) __BLANK_1__\n2) __BLANK_2__\n*May be disclaimed by specific language or\ncircumstances.",
     "blanks": [
       {
         "idx": 1,
@@ -8911,29 +8917,18 @@
     "sectionHeader": "F. Warranties (UCC Art. 2)",
     "subsectionTitle": "Express Warranty",
     "priority": "H",
-    "context": "**Express Warranty** – Seller is liable for breach of an express warranty.\n− __BLANK_1__ be disclaimed by seller.\nNo intent is needed to create an express warranty, or that seller use the words \"warranty\" or \"guarantee\".\n− An opinion DOES NOT create an express warranty.",
+    "context": "**Express Warranty** – Seller is liable for breach of an express warranty.\n− __BLANK_1__ be disclaimed by seller.\nAn express warranty is created when:\n1) Seller makes __BLANK_3__\n2) Relating to the goods, **AND**\n3) That becomes __BLANK_3__\nNo intent is needed to create an express warranty, or that seller use the words \"warranty\" or \"guarantee\".\n− An opinion DOES NOT create an express warranty.",
     "blanks": [
       {
         "idx": 1,
         "answer": "CANNOT"
-      }
-    ]
-  },
-  {
-    "id": 374,
-    "page": 45,
-    "subject": "CONTRACTS",
-    "sectionHeader": "F. Warranties (UCC Art. 2)",
-    "subsectionTitle": "Express Warranty",
-    "priority": "H",
-    "context": "An express warranty is created when:\n1) Seller makes __BLANK_1__\n2) Relating to the goods, **AND**\n3) That becomes __BLANK_2__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "an affirmation of fact, promise, description, or provides a sample,"
       },
       {
         "idx": 2,
+        "answer": "an affirmation of fact, promise, description, or provides a sample,"
+      },
+      {
+        "idx": 3,
         "answer": "part of the basis of the bargain."
       }
     ]
@@ -8987,7 +8982,7 @@
     "sectionHeader": "F. Warranties (UCC Art. 2)",
     "subsectionTitle": "Disclaimer of Implied Warranty",
     "priority": "M",
-    "context": "**Disclaimer of Implied Warranty** – Must do so by:\na) a __BLANK_1__\nb) __BLANK_2__ or __BLANK_3__ type language;\nc) __BLANK_4__ the buyer – __BLANK_5__ **OR**\nd) __BLANK_6__ or\n__BLANK_7__ *Applies to **Implied Warranty of Merchantability** & Fitness\nfor a Particular Purpose.",
+    "context": "**Disclaimer of Implied Warranty** – Must do so by:\na) a __BLANK_1__\nb) __BLANK_2__ or __BLANK_3__ type language;\nc) __BLANK_4__ the buyer – __BLANK_5__ **OR**\nd) __BLANK_6__ or\n__BLANK_7__\n*Applies to **Implied Warranty of Merchantability** & Fitness\nfor a Particular Purpose.",
     "blanks": [
       {
         "idx": 1,
@@ -9593,7 +9588,7 @@
     "sectionHeader": "H. Remedies",
     "subsectionTitle": "Rescission",
     "priority": "M",
-    "context": "**Rescission** – Treats the original contract __BLANK_1__ − Available when there is a problem with contract\nformation.",
+    "context": "**Rescission** – Treats the original contract __BLANK_1__ − Available when there is a problem with contract\nformation.\nA contract will NOT be rescinded if:\na) there is a valid equitable defense; **OR**\nb) plaintiff sued for damages under the contract in a *prior* action.\n*A party may sue for both damages and rescission *at the same time*, BUT an election of remedies may bar rescission if damages are sought first.",
     "blanks": [
       {
         "idx": 1,
