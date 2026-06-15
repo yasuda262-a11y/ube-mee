@@ -100,6 +100,16 @@
     ]
   },
   {
+    "id": 914,
+    "page": 0,
+    "subject": "AGENCY",
+    "sectionHeader": "TERMINATION",
+    "subsectionTitle": "Death of Principal",
+    "priority": 0,
+    "context": "Death of Principal:\n**Common Law** → agency is terminated *regardless* of whether the third-party has notice of principal's death.\n**Some States** → NOT terminated until the third-party has notice of the death.",
+    "blanks": []
+  },
+  {
     "id": 5,
     "page": 6,
     "subject": "AGENCY",
@@ -113,6 +123,16 @@
         "answer": "liable for damages if agent is terminated prior to the expiration of a contract (unless"
       }
     ]
+  },
+  {
+    "id": 915,
+    "page": 0,
+    "subject": "AGENCY",
+    "sectionHeader": "ACTUAL AUTHORITY",
+    "subsectionTitle": "Actual Authority",
+    "priority": 0,
+    "context": "**Actual Authority** – A principal is bound to a contract entered into by its agent if the agent had *actual authority*.",
+    "blanks": []
   },
   {
     "id": 6,
@@ -222,13 +242,23 @@
     ]
   },
   {
+    "id": 916,
+    "page": 0,
+    "subject": "AGENCY",
+    "sectionHeader": "APPARENT AUTHORITY",
+    "subsectionTitle": "Disclosed vs Undisclosed Principal",
+    "priority": 0,
+    "context": "**Unidentified/Partially Disclosed Principal** → Apparent Authority CAN exist.\n**Undisclosed Principal** → Apparent Authority CANNOT exist.",
+    "blanks": []
+  },
+  {
     "id": 11,
     "page": 7,
     "subject": "AGENCY",
     "sectionHeader": "B. Contractual Liability of Principal & Agent",
     "subsectionTitle": "Inherent Agency Power",
     "priority": "M",
-    "context": "**First Group** → Subjects an employer to liability **when**:\n1) an agent acts __BLANK_1__ **AND**\n2) his __BLANK_2__",
+    "context": "**Inherent Agency Power** – Protects third-parties when dealing with agents *even if* there is no actual or apparent authority.\n\nTwo Groups of Inherent Agency Power:\n\n**First Group** → Subjects an employer to liability **when**:\n1) an agent acts __BLANK_1__ **AND**\n2) his __BLANK_2__\n**Second Group** → If an agent violates the principal’s\norders and there is no actual/apparent authority, inherent\nagency applies **when**:\n1) __BLANK_3__ exits; **AND**\n2) Agent engaged in acts that are generally of a\nkind __BLANK_4__\nThe concept of Inherent Agency Power was *eliminated* in the Restatement (Third) of Agency.",
     "blanks": [
       {
         "idx": 1,
@@ -237,24 +267,13 @@
       {
         "idx": 2,
         "answer": "conduct harms a third-party."
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "page": 7,
-    "subject": "AGENCY",
-    "sectionHeader": "B. Contractual Liability of Principal & Agent",
-    "subsectionTitle": "Inherent Agency Power",
-    "priority": "M",
-    "context": "**Second Group** → If an agent violates the principal’s\norders and there is no actual/apparent authority, inherent\nagency applies **when**:\n1) __BLANK_1__ exits; **AND**\n2) Agent engaged in acts that are generally of a\nkind __BLANK_2__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 3,
         "answer": "An agency relationship"
       },
       {
-        "idx": 2,
+        "idx": 4,
         "answer": "that would fall within his actual authority, but for the violation of principal’s instructions."
       }
     ]
