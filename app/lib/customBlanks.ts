@@ -61,7 +61,7 @@ function parseFormattedWords(
         word = word.slice(0, -1);
       }
       if (!word) {
-        for (const ch of trailingChars) result.push({ word: ch, bold: false, underline: false });
+        for (const ch of trailingChars) result.push({ word: ch, bold: isBold, underline: isUnder });
         continue;
       }
       // アポストロフィで分離: contractor's → contractor + 's
@@ -72,7 +72,7 @@ function parseFormattedWords(
       } else {
         result.push({ word, bold: isBold, underline: isUnder });
       }
-      for (const ch of trailingChars) result.push({ word: ch, bold: false, underline: false });
+      for (const ch of trailingChars) result.push({ word: ch, bold: isBold, underline: isUnder });
     }
   };
 
