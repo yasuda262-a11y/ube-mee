@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import {
   BookOpen, LayoutList, BarChart2, ChevronDown,
   RotateCcw, AlertTriangle, Shuffle, NotebookPen,
-  LogIn, LogOut, User, Flag,
+  LogIn, LogOut, User, Flag, ListOrdered,
 } from "lucide-react";
 import { ALL_CARDS, SUBJECTS, TOTAL_BLANKS, type Card } from "./data/questions";
 import FlashCard from "./components/FlashCard";
@@ -234,18 +234,32 @@ export default function Home() {
               </div>
 
               {/* 学習モード */}
-              <button
-                onClick={() => startDeck(subjectCards)}
-                className="w-full bg-amber-400 text-slate-900 rounded-2xl px-3 py-2.5 flex items-center gap-2 shadow-lg hover:bg-amber-300 active:scale-95 transition-all"
-              >
-                <div className="w-7 h-7 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
-                  <Shuffle size={14} />
-                </div>
-                <div className="text-left">
-                  <p className="text-xs font-bold leading-tight">学習モード</p>
-                  <p className="text-[10px] text-slate-700">{subjectCards.length}カード</p>
-                </div>
-              </button>
+              <div className="flex gap-1.5">
+                <button
+                  onClick={() => startDeck(subjectCards)}
+                  className="flex-1 bg-amber-400 text-slate-900 rounded-2xl px-3 py-2.5 flex items-center gap-2 shadow-lg hover:bg-amber-300 active:scale-95 transition-all"
+                >
+                  <div className="w-7 h-7 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
+                    <Shuffle size={14} />
+                  </div>
+                  <div className="text-left">
+                    <p className="text-xs font-bold leading-tight">ランダム</p>
+                    <p className="text-[10px] text-slate-700">{subjectCards.length}カード</p>
+                  </div>
+                </button>
+                <button
+                  onClick={() => startDeck(subjectCards, false)}
+                  className="flex-1 bg-sky-400 text-slate-900 rounded-2xl px-3 py-2.5 flex items-center gap-2 shadow-lg hover:bg-sky-300 active:scale-95 transition-all"
+                >
+                  <div className="w-7 h-7 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
+                    <ListOrdered size={14} />
+                  </div>
+                  <div className="text-left">
+                    <p className="text-xs font-bold leading-tight">順番通り</p>
+                    <p className="text-[10px] text-slate-700">{subjectCards.length}カード</p>
+                  </div>
+                </button>
+              </div>
 
               {/* ボタン 2×3 グリッド */}
               <div className="grid grid-cols-2 gap-1.5">
