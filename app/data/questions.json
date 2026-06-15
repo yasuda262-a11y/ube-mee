@@ -5959,6 +5959,21 @@
     ]
   },
   {
+    "id": 891,
+    "page": 30,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "Incorporation Doctrine",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "The **14th Amend.** (equal protection) is incorporated into the **5th Amend. Due Process Clause**, making it __BLANK_1__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "applicable to the Federal Govt."
+      }
+    ]
+  },
+  {
     "id": 854,
     "page": 34,
     "subject": "CONSTITUTIONAL LAW",
@@ -6742,7 +6757,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Incitement of Imminent Lawless Action",
     "priority": "M",
-    "context": "**Incitement of Imminent Lawless Action** → Not protected\nMay be outlawed if the speech:\n1) __BLANK_1__\n2) __BLANK_2__ **AND**\n3) __BLANK_3__ (there is a\nclear and present danger that a listener will act).",
+    "context": "**Incitement of Imminent Lawless Action** → Not protected\n\nMay be outlawed if the speech:\n1) __BLANK_1__\n2) __BLANK_2__ **AND**\n3) __BLANK_3__ (there is a\nclear and present danger that a listener will act).",
     "blanks": [
       {
         "idx": 1,
@@ -6805,6 +6820,21 @@
       {
         "idx": 3,
         "answer": "no more extensive than necessary (reasonably tailored) to serve that interest."
+      }
+    ]
+  },
+  {
+    "id": 892,
+    "page": 36,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "O. Freedom of Speech",
+    "subsectionTitle": "Commercial Speech",
+    "priority": "M",
+    "context": "**False/Misleading Commercial Speech** → __BLANK_1__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Not protected"
       }
     ]
   },
@@ -6878,7 +6908,7 @@
     "sectionHeader": "O. Freedom of Speech (1st Amendment)",
     "subsectionTitle": "Prior Restraint",
     "priority": "L",
-    "context": "**Prior Restraint** – occurs when the govt. attempts to prohibit speech before it happens through a court order or licensing requirement.\n− Generally disfavored and unconstitutional, except in very limited circumstances (i.e. where national security is at stake).\n− Court orders preventing speech must satisfy 1st Amend. Strict Scrutiny.\n**Procedural Safeguards for Licensing** – Are permitted if:\n1) Govt. has an important reason;\n2) Specific, articulated standards to remove the discretion; **AND**\n3) Procedural safeguards are in place, including a prompt final judicial decision when a license is denied.",
+    "context": "**Prior Restraint** – occurs when the govt. attempts to prohibit speech before it happens through a court order or licensing requirement.\n− Generally disfavored and unconstitutional, except in very limited circumstances (i.e. where national security is at stake).\n− Court orders preventing speech must satisfy 1st Amend. Strict Scrutiny.",
     "blanks": []
   },
   {
@@ -6932,6 +6962,21 @@
     ]
   },
   {
+    "id": 893,
+    "page": 37,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "P. Freedom of the Press (1st Amendment)",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Defamation & Actual Malice Standard** – The press is afforded __BLANK_1__ protection under the 1st Amendment for Defamation lawsuits depending on the type of person.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "heightened"
+      }
+    ]
+  },
+  {
     "id": 295,
     "page": 38,
     "subject": "CONSTITUTIONAL LAW",
@@ -6965,7 +7010,7 @@
     "sectionHeader": "P. Freedom of the Press (1st Amendment)",
     "subsectionTitle": "Defamation & Actual Malice Standard",
     "priority": "M",
-    "context": "__BLANK_1__ → P must also prove\n__BLANK_2__ to be successful; that Defendant spoke\nwith either:\na) __BLANK_3__ **OR**\nb) __BLANK_4__ *Proof of negligence is insufficient.",
+    "context": "__BLANK_1__ → P must also prove\n__BLANK_2__ to be successful; that Defendant spoke\nwith either:\na) __BLANK_3__ **OR**\nb) __BLANK_4__\n*Proof of negligence is insufficient.",
     "blanks": [
       {
         "idx": 1,
@@ -7020,13 +7065,32 @@
     ]
   },
   {
+    "id": 894,
+    "page": 38,
+    "subject": "CONSTITUTIONAL LAW",
+    "sectionHeader": "P. Freedom of the Press (1st Amendment)",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "1st Amend. __BLANK_1__ protect the press from liability for __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "DOES NOT"
+      },
+      {
+        "idx": 2,
+        "answer": "violating generally applicable laws."
+      }
+    ]
+  },
+  {
     "id": 299,
     "page": 38,
     "subject": "CONSTITUTIONAL LAW",
     "sectionHeader": "Q. Freedom of Association (1st Amendment)",
     "subsectionTitle": "Freedom of Association",
     "priority": "M",
-    "context": "The govt. may only regulate the **right to freely**\n**associate** in a **group** if it satisfies Strict Scrutiny.\n− Strict Scrutiny → Govt. must show\n(1) regulation\n__BLANK_1__\n(2) to __BLANK_2__ **AND**\n(3) __BLANK_3__",
+    "context": "**Freedom of Association** – Is a fundamental right under the 1st Amendment.\n\nThe govt. may only regulate the **right to freely**\n**associate** in a **group** if it satisfies Strict Scrutiny.\n− Strict Scrutiny → Govt. must show\n(1) regulation\n__BLANK_1__\n(2) to __BLANK_2__ **AND**\n(3) __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
