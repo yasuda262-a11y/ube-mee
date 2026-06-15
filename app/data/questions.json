@@ -300,7 +300,7 @@
     "sectionHeader": "B. Contractual Liability of Principal & Agent",
     "subsectionTitle": "Ratification",
     "priority": "H",
-    "context": "**Ratification** occurs **when** the Principal:\n1) Has __BLANK_1__ **AND**\n2) __BLANK_2__ *Agent also remains liable if principal was not disclosed.",
+    "context": "**Ratification** occurs **when** the Principal:\n1) Has __BLANK_1__ **AND**\n2) __BLANK_2__ *Agent also remains liable if principal was not disclosed.\nRest. 2nd → Undisclosed principal CANNOT ratify.\nRest. 3rd → Undisclosed principal CAN ratify.",
     "blanks": [
       {
         "idx": 1,
@@ -338,7 +338,7 @@
     "sectionHeader": "B. Contractual Liability of Principal & Agent",
     "subsectionTitle": "Agent’s Contractual Liability",
     "priority": "H",
-    "context": "Agent may __BLANK_1__ a principal if:\n1) agent is liable; **AND**\n2) __BLANK_2__",
+    "context": "Agent may __BLANK_1__ a principal if:\n1) agent is liable; **AND**\n2) __BLANK_2__\nAgent will be liable if both elements above are *not* met.",
     "blanks": [
       {
         "idx": 1,
@@ -357,7 +357,7 @@
     "sectionHeader": "C. Vicarious Liability for Agent’s Torts",
     "subsectionTitle": "Employee vs. Independent Contractor",
     "priority": "H",
-    "context": "**Employee vs. Independent Contractor** – Primary\nfocus is whether the principal had __BLANK_1__ which the job was performed.",
+    "context": "**Employee vs. Independent Contractor** – Primary\nfocus is whether the principal had __BLANK_1__ which the job was performed.\nFactors → courts analyze the following to determine if a person is an *employee* or *independent contractor*:\n1) type of work;\n2) pay (hourly vs. per project);\n3) who supplied the equipment/tools;\n4) degree of supervision;\n5) degree of skill required;\n6) if the work benefits the employer's business;\n7) extent of principal's control over work details;\n8) whether agent/contractor is engaged in a distinct business;\n9) length of time employed/engaged;\n10) characterization & belief of relationship; and\n11) whether agent was hired for a business purpose.",
     "blanks": [
       {
         "idx": 1,
@@ -398,6 +398,16 @@
         "answer": "employer’s control."
       }
     ]
+  },
+  {
+    "id": 917,
+    "page": 0,
+    "subject": "AGENCY",
+    "sectionHeader": "RESPONDEAT SUPERIOR",
+    "subsectionTitle": "Time, Place, & Purpose Test",
+    "priority": 0,
+    "context": "**Time, Place, & Purpose Test** – To determine the scope of employment, courts analyze whether the conduct:\ni) Is of the kind the employee is employed to perform;\nii) Occurs substantially within the authorized time and space limits; and\niii) Is motivated (in whole or part) to serve the employer.",
+    "blanks": []
   },
   {
     "id": 20,
@@ -475,7 +485,7 @@
     "sectionHeader": "C. Vicarious Liability for Agent’s Torts",
     "subsectionTitle": "Liability for Independent Contractors",
     "priority": "H",
-    "context": "Exceptions:\n1) __BLANK_1__\n2) __BLANK_2__ by principal.\n3) __BLANK_3__ the principal holds out the contractor\nas his agent, third-party reasonably relied on\ncontractor’s skill, and the third-party suffered\nharm.",
+    "context": "**Liability for Independent Contractors** – Generally, an employer/principal has NO liability for an Independent Contractor's torts.\n\nExceptions:\n1) __BLANK_1__\n2) __BLANK_2__ by principal.\n3) __BLANK_3__ the principal holds out the contractor\nas his agent, third-party reasonably relied on\ncontractor’s skill, and the third-party suffered\nharm.",
     "blanks": [
       {
         "idx": 1,
