@@ -774,6 +774,25 @@
     ]
   },
   {
+    "id": 922,
+    "page": 10,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "C. Liability of Partners",
+    "subsectionTitle": "Liability of General Partners",
+    "priority": "M",
+    "context": "**Incoming Partners** → Partners admitted into an existing partnership are __BLANK_1__ for obligations incurred prior to their admission.\n− BUT, incoming partners risk __BLANK_2__ to the Pship",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "NOT liable"
+      },
+      {
+        "idx": 2,
+        "answer": "losing their capital contributions"
+      }
+    ]
+  },
+  {
     "id": 35,
     "page": 10,
     "subject": "PARTNERSHIPS",
@@ -884,29 +903,6 @@
       {
         "idx": 5,
         "answer": "approved unanimously."
-      }
-    ]
-  },
-  {
-    "id": 768,
-    "page": 10,
-    "subject": "PARTNERSHIPS",
-    "sectionHeader": "D. Rights of Partners Among Themselves",
-    "subsectionTitle": "Authority to Bind the Partnership After Dissolution",
-    "priority": "M",
-    "context": "**Authority to Bind the Partnership After Dissolution** – A partner's authority is limited after dissolution.\n**Actual Authority** → limited only to __BLANK_1__\n**Apparent Authority** → a partner has apparent authority to bind the Pship if the:\n1) Partner's acts would have __BLANK_2__\n2) Third-party did not have __BLANK_3__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "acts appropriate for winding up the business."
-      },
-      {
-        "idx": 2,
-        "answer": "normally bound the Pship;"
-      },
-      {
-        "idx": 3,
-        "answer": "notice of dissolution."
       }
     ]
   },
@@ -1230,7 +1226,7 @@
     "id": 56,
     "page": 12,
     "subject": "PARTNERSHIPS",
-    "sectionHeader": "F. Duties Owed by Partners",
+    "sectionHeader": "G. Dissociation & Dissolution",
     "subsectionTitle": null,
     "priority": null,
     "context": "**Wrongful Dissociation** – Dissociation is deemed\nwrongful if:\na) It’s __BLANK_1__ of the\nPship agreement; **OR**\nb) __BLANK_2__ *A wrongfully dissociated partner CANNOT participate in\n__BLANK_3__",
@@ -1250,10 +1246,40 @@
     ]
   },
   {
+    "id": 923,
+    "page": 12,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "G. Dissociation & Dissolution",
+    "subsectionTitle": "Dissolution of a General Partnership",
+    "priority": "H",
+    "context": "**Dissolution of a General Partnership**\n**Dissolution Events** – Unless agreed otherwise, dissolution occurs upon:\na) __BLANK_1__;\nb) Occurrence of an agreed upon event;\nc) The business becoming unlawful; **OR**\nd) Judicial dissolution.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Notice of a partner's express will to withdraw"
+      }
+    ]
+  },
+  {
+    "id": 924,
+    "page": 12,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "G. Dissociation & Dissolution",
+    "subsectionTitle": "Dissolution of a General Partnership",
+    "priority": "M",
+    "context": "**Dissolution of a Pship for a Definite Term** occurs:\na) within __BLANK_1__ after a partner's dissociation by death or wrongful dissociation, if it's the express will of at least half of the remaining partners to wind up;\nb) upon the express will of all partners to wind up; **OR**\nc) upon the expiration of the term or completion of the Pship's purpose.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "90-days"
+      }
+    ]
+  },
+  {
     "id": 57,
     "page": 12,
     "subject": "PARTNERSHIPS",
-    "sectionHeader": "F. Duties Owed by Partners",
+    "sectionHeader": "G. Dissociation & Dissolution",
     "subsectionTitle": "Dissolution of a General Partnership",
     "priority": "H",
     "context": "Under RUPA\n(2013):\n− Dissolution may be **rescinded by the**\naffirmative vote or consent __BLANK_1__ continue the business.\n− **Buyout** → In such instance, the dissociated\npartner is entitled to a buyout of their interest\n(value of interest = greater of liquidation or going\nconcern value + interest).\n*Apply RUPA\n(2013) unless instructed otherwise.",
@@ -1268,7 +1294,7 @@
     "id": 58,
     "page": 12,
     "subject": "PARTNERSHIPS",
-    "sectionHeader": "F. Duties Owed by Partners",
+    "sectionHeader": "G. Dissociation & Dissolution",
     "subsectionTitle": "Dissolution of a General Partnership",
     "priority": "H",
     "context": "Under RUPA\n(1997):\n− **If wrongful dissociation** → ALL remaining\n**partners** may waive their right to wind-\nup/terminate the Pship, and __BLANK_1__\n− **If rightful dissociation** → The dissociated\npartner is allowed to vote on __BLANK_2__\nRegardless, the other **partners** MAY choose to\ncontinue the business for a reasonable amount\nof time.",
@@ -1322,6 +1348,25 @@
     ]
   },
   {
+    "id": 925,
+    "page": 13,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "G. Dissociation & Dissolution",
+    "subsectionTitle": "Dissolution of a General Partnership",
+    "priority": "M",
+    "context": "**Under UPA (1914)** → The Pship __BLANK_1__ (regardless if rightful or wrongful).\n− But, all partners who did not wrongfully cause dissolution may choose to __BLANK_2__ in the same name.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "MUST be wound up and terminated"
+      },
+      {
+        "idx": 2,
+        "answer": "continue the business"
+      }
+    ]
+  },
+  {
     "id": 59,
     "page": 13,
     "subject": "PARTNERSHIPS",
@@ -1368,6 +1413,29 @@
       {
         "idx": 3,
         "answer": "the winding up process is complete."
+      }
+    ]
+  },
+  {
+    "id": 926,
+    "page": 13,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "G. Dissociation & Dissolution",
+    "subsectionTitle": "Winding Up & Termination",
+    "priority": "H",
+    "context": "**Distribution of Partnership Assets** – During the winding up process, the Pship assets are converted to cash and distributed in the following order:\n1) __BLANK_1__.\n2) __BLANK_2__ (partners who loaned money to the Pship).\n3) Partner's capital contributions.\n4) Any remaining profits or surplus goes to the partners __BLANK_3__ (unless agreed otherwise).\n*If there are insufficient assets to satisfy creditors, the loss will be divided among the partners.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Outside creditors"
+      },
+      {
+        "idx": 2,
+        "answer": "Inside creditors"
+      },
+      {
+        "idx": 3,
+        "answer": "equally"
       }
     ]
   },
