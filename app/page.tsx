@@ -11,7 +11,9 @@ import FlashCard from "./components/FlashCard";
 import QuestionList from "./components/QuestionList";
 import MemoList from "./components/MemoList";
 import AuthModal from "./components/AuthModal";
+import AccuracyChart from "./components/AccuracyChart";
 import { loadStats, recordCardResult, type StatsRecord } from "./lib/stats";
+import { recordSnapshot, loadHistory, type AccuracySnapshot } from "./lib/accuracyHistory";
 import { supabase } from "./lib/supabase";
 import { fetchStats, saveStatRemote, fetchFlags, saveFlagsRemote } from "./lib/db";
 import type { User as SupabaseUser } from "@supabase/supabase-js";
@@ -75,12 +77,14 @@ export default function Home() {
   const [user, setUser] = useState<SupabaseUser | null>(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [savedSubjects, setSavedSubjects] = useState<Set<string>>(new Set());
+  const [accuracyHistory, setAccuracyHistory] = useState<AccuracySnapshot[]>([]);
 
-  // 中断データがある科目を起動時に把握
+  // 中断データがある科目を起動時に把握 & 正答率スナップショット記録
   useEffect(() => {
     const keys = Object.keys(localStorage).filter((k) => k.startsWith("ube_deck_save_"));
     const subjects = new Set(keys.map((k) => k.replace("ube_deck_save_", "")));
     setSavedSubjects(subjects);
+    setAccuracyHistory(loadHistory());
   }, []);
 
   // 認証状態の監視とデータ読み込み
@@ -98,7 +102,11 @@ export default function Home() {
 
   // ユーザー変化時にデータをリモートから再取得してlocalStorageに反映
   useEffect(() => {
-    fetchStats().then(setStats);
+    fetchStats().then((s) => {
+      setStats(s);
+      const updated = recordSnapshot(s, ALL_CARDS, SUBJECTS);
+      setAccuracyHistory(updated);
+    });
     fetchFlags().then(setFlagged);
     if (user) {
       // 伏字・メモもリモートから取得（localStorageキャッシュを更新）
@@ -243,6 +251,9 @@ export default function Home() {
               {answeredCount} / {ALL_CARDS.length} カード（全{TOTAL_BLANKS}空欄）
             </p>
           </div>
+
+          {/* 正答率推移グラフ */}
+          <AccuracyChart history={accuracyHistory} />
 
           {/* 科目選択グリッド */}
           <div>
