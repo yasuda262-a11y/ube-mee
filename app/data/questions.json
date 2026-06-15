@@ -7213,7 +7213,7 @@
     "sectionHeader": "A. Applicable Law",
     "subsectionTitle": "Sale of Goods Contracts",
     "priority": "H",
-    "context": "**Sale of Goods Contracts** – UCC Article 2 governs all\nsale of goods contracts.\n− Goods = all __BLANK_1__ at the time of\nidentification to the contract (except\nmoney/currency).\n*But, Common Law principles continue to apply, unless\nthe UCC specifically displaces them.",
+    "context": "**Sale of Goods Contracts** – UCC Article 2 governs all\nsale of goods contracts.\n− Goods = all __BLANK_1__ at the time of\nidentification to the contract (except\nmoney/currency).\n*But, Common Law principles continue to apply, unless\nthe UCC specifically displaces them.\nA sale of goods contract may be *made in any manner sufficient to show agreement.*",
     "blanks": [
       {
         "idx": 1,
@@ -7239,6 +7239,16 @@
         "answer": "consideration or a substitute"
       }
     ]
+  },
+  {
+    "id": 799,
+    "page": 40,
+    "subject": "CONTRACTS",
+    "sectionHeader": null,
+    "subsectionTitle": "Mutual Assent",
+    "priority": "H",
+    "context": "**Mutual Assent** – Requires (1) an offer by one party, AND (2) acceptance of that offer by another party.",
+    "blanks": []
   },
   {
     "id": 305,
@@ -7377,13 +7387,13 @@
     ]
   },
   {
-    "id": 799,
-    "page": 40,
+    "id": 895,
+    "page": 0,
     "subject": "CONTRACTS",
-    "sectionHeader": null,
-    "subsectionTitle": "Mutual Assent",
-    "priority": "H",
-    "context": "**Mutual Assent** – Requires (1) an offer by one party, AND (2) acceptance of that offer by another party.",
+    "sectionHeader": "ACCEPTANCE",
+    "subsectionTitle": "Rejection",
+    "priority": 0,
+    "context": "**Rejection** – Is a manifestation of intent to NOT accept an offer, communicated to offeror.\n− **Counteroffer** – is both a rejection & new offer.\n− **Conditional Acceptance** – treated same as counteroffer.\n− **Acceptance with Varying Terms** – it's either acceptance or a counteroffer (see rule below).",
     "blanks": []
   },
   {
@@ -7420,7 +7430,7 @@
     "sectionHeader": "B. Contract Formation",
     "subsectionTitle": "Acceptance with Varying / Additional Terms",
     "priority": "M",
-    "context": "**UCC** – **Acceptance** DOES NOT have to mirror the offer\nto form a contract.\n− BUT, additional or different terms are included\nonly if:\n1) __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ **AND**\n4) __BLANK_4__ *Material change = likely to __BLANK_5__ (e.g.\n__BLANK_6__",
+    "context": "**Mirror Image Rule** (CL) – Acceptance MUST *exactly mirror* the offer; any variations constitute a counteroffer.\n\n**UCC** – **Acceptance** DOES NOT have to mirror the offer\nto form a contract.\n− BUT, additional or different terms are included\nonly if:\n1) __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ **AND**\n4) __BLANK_4__\n*Material change = likely to __BLANK_5__ (e.g.\n__BLANK_6__",
     "blanks": [
       {
         "idx": 1,
@@ -7530,6 +7540,16 @@
         "answer": "is quantity."
       }
     ]
+  },
+  {
+    "id": 896,
+    "page": 0,
+    "subject": "CONTRACTS",
+    "sectionHeader": "CONSIDERATION",
+    "subsectionTitle": "Indefinite Duration",
+    "priority": 0,
+    "context": "**Indefinite Duration** – Contract is generally invalid.",
+    "blanks": []
   },
   {
     "id": 316,
@@ -7941,7 +7961,7 @@
     "sectionHeader": "C. Defenses to Formation / Enforceability",
     "subsectionTitle": "Fraud, Misrepresentation, & Nondisclosure",
     "priority": "M",
-    "context": "Non-Disclosure – There is no duty to disclose UNLESS:\na) __BLANK_1__\nb) __BLANK_2__ exists;\nc) It’s necessary to __BLANK_3__ **OR**\nd) Failure to __BLANK_4__ *Failure to disclose when required is deemed a\nmisrepresentation.",
+    "context": "Non-Disclosure – There is no duty to disclose UNLESS:\na) __BLANK_1__\nb) __BLANK_2__ exists;\nc) It’s necessary to __BLANK_3__ **OR**\nd) Failure to __BLANK_4__\n*Failure to disclose when required is deemed a\nmisrepresentation.",
     "blanks": [
       {
         "idx": 1,
@@ -7960,6 +7980,16 @@
         "answer": "correct a past statement from being misleading."
       }
     ]
+  },
+  {
+    "id": 897,
+    "page": 0,
+    "subject": "CONTRACTS",
+    "sectionHeader": "DEFENSES TO FORMATION",
+    "subsectionTitle": "Concealment",
+    "priority": 0,
+    "context": "**Concealment** = An *affirmative act* intended to keep another person from learning a fact.\n− Concealment is deemed a misrepresentation.",
+    "blanks": []
   },
   {
     "id": 336,
