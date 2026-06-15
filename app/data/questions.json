@@ -9917,7 +9917,7 @@
     "sectionHeader": "A. General Principles",
     "subsectionTitle": "Mental States",
     "priority": "H",
-    "context": "Common Law (CL):\n**Specific Intent** __BLANK_1__ engage in the conduct or __BLANK_2__\n**General Intent** __BLANK_3__ acting in a certain way.\n**Malice** __BLANK_4__ that harm may occur.\n**Strict Liability** – no mental state required; only the act is required.",
+    "context": "**Mental States** – The intent element of a crime (*mens rea*).\n\nCommon Law (CL):\n**Specific Intent** __BLANK_1__ engage in the conduct or __BLANK_2__\n**General Intent** __BLANK_3__ acting in a certain way.\n**Malice** __BLANK_4__ that harm may occur.\n**Strict Liability** – no mental state required; only the act is required.",
     "blanks": [
       {
         "idx": 1,
@@ -11006,6 +11006,16 @@
     ]
   },
   {
+    "id": 901,
+    "page": 0,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "FOURTH AMENDMENT",
+    "subsectionTitle": "Seizure",
+    "priority": 0,
+    "context": "Seizure = when a reasonable person would have believed that he was *not* free to leave.",
+    "blanks": []
+  },
+  {
     "id": 454,
     "page": 53,
     "subject": "CRIMINAL LAW & PROCEDURE",
@@ -11027,7 +11037,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Warrant Requirement",
     "priority": "H",
-    "context": "A valid search warrant requires:\n1) __BLANK_1__ – reliable info that evidence of\nillegality will be found;\n2) It must state __BLANK_2__ **AND**\n3) Be issued by __BLANK_3__",
+    "context": "A valid search warrant requires:\n1) __BLANK_1__ – reliable info that evidence of\nillegality will be found;\n2) It must state __BLANK_2__ **AND**\n3) Be issued by __BLANK_3__\nEvidence obtained *without* a valid warrant is excluded UNLESS it falls under an exception.",
     "blanks": [
       {
         "idx": 1,
@@ -11482,7 +11492,7 @@
     "sectionHeader": "H. Confessions & Privilege Against Self-Incrimination",
     "subsectionTitle": "Right to Counsel (6th Amend.)",
     "priority": "L",
-    "context": "Right to Counsel (6th Amend.) – the accused has the\nright to counsel __BLANK_1__ State misdemeanor prosecutions __BLANK_2__ − Attaches → __BLANK_3__ commenced (formal charge,\npreliminary hearing, indictment, arraignment).\n− Once rights attach, a suspect CANNOT be\n__BLANK_4__ a valid waiver occurs).\n− This right is __BLANK_5__",
+    "context": "Right to Counsel (6th Amend.) – the accused has the\nright to counsel __BLANK_1__ State misdemeanor prosecutions __BLANK_2__ − Attaches → __BLANK_3__ commenced (formal charge,\npreliminary hearing, indictment, arraignment).\n− Once rights attach, a suspect CANNOT be\n__BLANK_4__ a valid waiver occurs).\n− This right is __BLANK_5__\n**Waiver of Rights** – same as waiver under 5th Amend.",
     "blanks": [
       {
         "idx": 1,
@@ -11505,6 +11515,16 @@
         "answer": "offense-specific."
       }
     ]
+  },
+  {
+    "id": 902,
+    "page": 0,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "FIFTH AMENDMENT",
+    "subsectionTitle": "Right to Counsel (5th Amend.)",
+    "priority": 0,
+    "context": "**Right to Counsel (5th Amend.)** – SEE RULE IN ABOVE SECTION.\n− Attaches when a suspect is in a *custodial interrogation* (Miranda rights).\n− Suspect has the right to consult with an attorney and have one present during questioning.",
+    "blanks": []
   },
   {
     "id": 476,
