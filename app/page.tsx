@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import {
-  BookOpen, LayoutList, BarChart2, ChevronDown,
+  BookOpen, LayoutList, BarChart2,
   RotateCcw, AlertTriangle, Shuffle, NotebookPen,
   LogIn, LogOut, User, Flag, ListOrdered,
 } from "lucide-react";
@@ -49,7 +49,6 @@ export default function Home() {
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [deck, setDeck] = useState<Card[]>([]);
   const [deckIndex, setDeckIndex] = useState(0);
-  const [showSubjectMenu, setShowSubjectMenu] = useState(false);
   const [studyFrom, setStudyFrom] = useState<"select" | "list">("select");
   const [flagged, setFlagged] = useState<Set<number>>(new Set());
   const [user, setUser] = useState<SupabaseUser | null>(null);
@@ -183,157 +182,134 @@ export default function Home() {
         <main className="flex-1 flex flex-col items-center px-5 pb-10 gap-5 pt-2">
           <div className="w-full max-w-2xl flex flex-col gap-5">
 
-          {/* 上段: 全体進捗 + アクションボタン 横並び */}
-          <div className="flex gap-4 items-stretch">
-            {/* 全体進捗 */}
-            <div className="flex-1 bg-white/10 rounded-3xl p-5 text-white">
-              <p className="text-xs text-white/60 mb-1">全体進捗</p>
-              <div className="flex items-end gap-2 mb-2">
-                <span className="text-4xl font-bold">{progressPct}</span><span className="text-xl mb-0.5">%</span>
-              </div>
-              <div className="h-2 bg-white/20 rounded-full overflow-hidden mb-2">
-                <div className="h-full bg-amber-400 rounded-full" style={{ width: `${progressPct}%` }} />
-              </div>
-              <p className="text-xs text-white/60">
-                {answeredCount} / {ALL_CARDS.length} カード（全{TOTAL_BLANKS}空欄）
-              </p>
+          {/* 全体進捗 */}
+          <div className="bg-white/10 rounded-3xl p-5 text-white">
+            <p className="text-xs text-white/60 mb-1">全体進捗</p>
+            <div className="flex items-end gap-2 mb-2">
+              <span className="text-4xl font-bold">{progressPct}</span><span className="text-xl mb-0.5">%</span>
             </div>
-
-            {/* アクションボタン縦並び */}
-            <div className="flex flex-col gap-2 w-52 flex-shrink-0">
-              {/* 科目ドロップダウン */}
-              <div className="relative">
-                <button
-                  onClick={() => setShowSubjectMenu((v) => !v)}
-                  className="w-full flex items-center justify-between bg-white/10 text-white rounded-2xl px-3 py-2.5 text-sm font-semibold"
-                >
-                  <span className="truncate text-xs">{selectedSubject ?? "すべての科目"}</span>
-                  <ChevronDown size={14} className={`text-white/60 flex-shrink-0 ml-1 transition-transform ${showSubjectMenu ? "rotate-180" : ""}`} />
-                </button>
-                {showSubjectMenu && (
-                  <div className="absolute top-full left-0 right-0 mt-1 bg-slate-800 border border-white/10 rounded-2xl z-20 overflow-hidden shadow-xl">
-                    <button
-                      onClick={() => { setSelectedSubject(null); setShowSubjectMenu(false); }}
-                      className={`w-full text-left px-4 py-3 text-sm ${!selectedSubject ? "bg-white/10 text-white font-bold" : "text-white/70 hover:bg-white/5"}`}
-                    >
-                      すべての科目（{ALL_CARDS.length}カード）
-                    </button>
-                    {SUBJECTS.map((s) => {
-                      const cnt = ALL_CARDS.filter((c) => c.subject === s).length;
-                      return (
-                        <button key={s}
-                          onClick={() => { setSelectedSubject(s); setShowSubjectMenu(false); }}
-                          className={`w-full text-left px-4 py-3 text-sm ${selectedSubject === s ? "bg-white/10 text-white font-bold" : "text-white/70 hover:bg-white/5"}`}
-                        >
-                          {s}（{cnt}カード）
-                        </button>
-                      );
-                    })}
-                  </div>
-                )}
-              </div>
-
-              {/* 学習モード */}
-              <div className="flex gap-1.5">
-                <button
-                  onClick={() => startDeck(subjectCards)}
-                  className="flex-1 bg-amber-400 text-slate-900 rounded-2xl px-3 py-2.5 flex items-center gap-2 shadow-lg hover:bg-amber-300 active:scale-95 transition-all"
-                >
-                  <div className="w-7 h-7 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
-                    <Shuffle size={14} />
-                  </div>
-                  <div className="text-left">
-                    <p className="text-xs font-bold leading-tight">ランダム</p>
-                    <p className="text-[10px] text-slate-700">{subjectCards.length}カード</p>
-                  </div>
-                </button>
-                <button
-                  onClick={() => startDeck(subjectCards, false)}
-                  className="flex-1 bg-sky-400 text-slate-900 rounded-2xl px-3 py-2.5 flex items-center gap-2 shadow-lg hover:bg-sky-300 active:scale-95 transition-all"
-                >
-                  <div className="w-7 h-7 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
-                    <ListOrdered size={14} />
-                  </div>
-                  <div className="text-left">
-                    <p className="text-xs font-bold leading-tight">順番通り</p>
-                    <p className="text-[10px] text-slate-700">{subjectCards.length}カード</p>
-                  </div>
-                </button>
-              </div>
-
-              {/* ボタン 2×3 グリッド */}
-              <div className="grid grid-cols-2 gap-1.5">
-                <button
-                  onClick={() => weakCards.length > 0 ? startDeck(weakCards) : undefined}
-                  disabled={weakCards.length === 0}
-                  className={`rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
-                    weakCards.length > 0
-                      ? "bg-white/10 text-white border-white/10 hover:bg-white/15"
-                      : "bg-white/5 text-white/25 border-white/5 cursor-not-allowed"
-                  }`}
-                >
-                  <AlertTriangle size={14} className={weakCards.length > 0 ? "text-red-400" : "text-white/20"} />
-                  <p className="text-[10px] font-bold leading-tight">苦手のみ</p>
-                  <p className="text-[9px] text-white/50">{weakCards.length}枚</p>
-                </button>
-
-                <button
-                  onClick={() => flaggedCards.length > 0 ? startDeck(flaggedCards) : undefined}
-                  disabled={flaggedCards.length === 0}
-                  className={`rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
-                    flaggedCards.length > 0
-                      ? "bg-white/10 text-white border-white/10 hover:bg-white/15"
-                      : "bg-white/5 text-white/25 border-white/5 cursor-not-allowed"
-                  }`}
-                >
-                  <Flag size={14} className={flaggedCards.length > 0 ? "text-amber-400" : "text-white/20"} fill={flaggedCards.length > 0 ? "currentColor" : "none"} />
-                  <p className="text-[10px] font-bold leading-tight">フラグのみ</p>
-                  <p className="text-[9px] text-white/50">{flaggedCards.length}枚</p>
-                </button>
-
-                <button onClick={() => setAppMode("list")}
-                  className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
-                  <LayoutList size={14} className="text-white/70" />
-                  <p className="text-[10px] font-bold leading-tight">カード一覧</p>
-                  <p className="text-[9px] text-white/50">検索・絞込</p>
-                </button>
-
-                <button onClick={() => setAppMode("stats")}
-                  className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
-                  <BarChart2 size={14} className="text-white/70" />
-                  <p className="text-[10px] font-bold leading-tight">統計</p>
-                  <p className="text-[9px] text-white/50">科目別成績</p>
-                </button>
-
-                <button onClick={() => setAppMode("memos")}
-                  className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
-                  <NotebookPen size={14} className="text-emerald-400" />
-                  <p className="text-[10px] font-bold leading-tight">表現メモ</p>
-                  <p className="text-[9px] text-white/50">英語表現集</p>
-                </button>
-              </div>
+            <div className="h-2 bg-white/20 rounded-full overflow-hidden mb-2">
+              <div className="h-full bg-amber-400 rounded-full" style={{ width: `${progressPct}%` }} />
             </div>
+            <p className="text-xs text-white/60">
+              {answeredCount} / {ALL_CARDS.length} カード（全{TOTAL_BLANKS}空欄）
+            </p>
           </div>
 
-          {/* 科目別グリッド（4列） */}
+          {/* 科目選択グリッド */}
           <div>
-            <p className="text-xs text-white/40 mb-2 font-semibold">科目別</p>
-            <div className="grid grid-cols-4 gap-2">
+            <p className="text-xs text-white/40 mb-2 font-semibold">科目を選択</p>
+            <div className="grid grid-cols-4 gap-2 mb-2">
+              {/* すべて */}
+              <button
+                onClick={() => setSelectedSubject(null)}
+                className={`rounded-2xl p-3 text-left text-white transition-all active:scale-95 border-2 ${
+                  !selectedSubject
+                    ? "bg-white/25 border-white/60"
+                    : "bg-white/10 border-transparent hover:bg-white/15"
+                }`}
+              >
+                <p className="text-[10px] font-bold leading-tight mb-1">すべて</p>
+                <p className="text-[10px] text-white/70">{ALL_CARDS.length}枚</p>
+              </button>
               {SUBJECTS.map((s) => {
                 const qs = ALL_CARDS.filter((c) => c.subject === s);
                 const answered = qs.filter((c) => stats[c.id]?.total > 0).length;
                 const pct = Math.round((answered / qs.length) * 100);
+                const isSelected = selectedSubject === s;
                 return (
                   <button key={s}
-                    onClick={() => { setSelectedSubject(s); startDeck(ALL_CARDS.filter((c) => c.subject === s)); }}
-                    className={`${subjectColor(s)} rounded-2xl p-3 text-left text-white hover:opacity-90 active:scale-95 transition-all`}>
+                    onClick={() => setSelectedSubject(isSelected ? null : s)}
+                    className={`${subjectColor(s)} rounded-2xl p-3 text-left text-white transition-all active:scale-95 border-2 ${
+                      isSelected ? "border-white/80 brightness-110" : "border-transparent hover:opacity-90"
+                    }`}>
                     <p className="text-[10px] font-bold leading-tight mb-1">{s}</p>
-                    <p className="text-[10px] text-white/70">{qs.length}カード</p>
+                    <p className="text-[10px] text-white/70">{qs.length}枚</p>
                     <p className="text-[10px] font-bold text-white/90 mt-0.5">{pct}%</p>
                   </button>
                 );
               })}
             </div>
+          </div>
+
+          {/* スタートボタン */}
+          <div className="flex gap-2">
+            <button
+              onClick={() => startDeck(subjectCards)}
+              className="flex-1 bg-amber-400 text-slate-900 rounded-2xl px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-amber-300 active:scale-95 transition-all"
+            >
+              <div className="w-8 h-8 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
+                <Shuffle size={16} />
+              </div>
+              <div className="text-left">
+                <p className="text-sm font-bold leading-tight">ランダム</p>
+                <p className="text-[11px] text-slate-700">{selectedSubject ?? "すべての科目"} · {subjectCards.length}枚</p>
+              </div>
+            </button>
+            <button
+              onClick={() => startDeck(subjectCards, false)}
+              className="flex-1 bg-sky-400 text-slate-900 rounded-2xl px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-sky-300 active:scale-95 transition-all"
+            >
+              <div className="w-8 h-8 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
+                <ListOrdered size={16} />
+              </div>
+              <div className="text-left">
+                <p className="text-sm font-bold leading-tight">順番通り</p>
+                <p className="text-[11px] text-slate-700">{selectedSubject ?? "すべての科目"} · {subjectCards.length}枚</p>
+              </div>
+            </button>
+          </div>
+
+          {/* サブメニュー */}
+          <div className="grid grid-cols-4 gap-1.5">
+            <button
+              onClick={() => weakCards.length > 0 ? startDeck(weakCards) : undefined}
+              disabled={weakCards.length === 0}
+              className={`rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
+                weakCards.length > 0
+                  ? "bg-white/10 text-white border-white/10 hover:bg-white/15"
+                  : "bg-white/5 text-white/25 border-white/5 cursor-not-allowed"
+              }`}
+            >
+              <AlertTriangle size={14} className={weakCards.length > 0 ? "text-red-400" : "text-white/20"} />
+              <p className="text-[10px] font-bold leading-tight">苦手のみ</p>
+              <p className="text-[9px] text-white/50">{weakCards.length}枚</p>
+            </button>
+
+            <button
+              onClick={() => flaggedCards.length > 0 ? startDeck(flaggedCards) : undefined}
+              disabled={flaggedCards.length === 0}
+              className={`rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
+                flaggedCards.length > 0
+                  ? "bg-white/10 text-white border-white/10 hover:bg-white/15"
+                  : "bg-white/5 text-white/25 border-white/5 cursor-not-allowed"
+              }`}
+            >
+              <Flag size={14} className={flaggedCards.length > 0 ? "text-amber-400" : "text-white/20"} fill={flaggedCards.length > 0 ? "currentColor" : "none"} />
+              <p className="text-[10px] font-bold leading-tight">フラグのみ</p>
+              <p className="text-[9px] text-white/50">{flaggedCards.length}枚</p>
+            </button>
+
+            <button onClick={() => setAppMode("list")}
+              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              <LayoutList size={14} className="text-white/70" />
+              <p className="text-[10px] font-bold leading-tight">カード一覧</p>
+              <p className="text-[9px] text-white/50">検索・絞込</p>
+            </button>
+
+            <button onClick={() => setAppMode("stats")}
+              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              <BarChart2 size={14} className="text-white/70" />
+              <p className="text-[10px] font-bold leading-tight">統計</p>
+              <p className="text-[9px] text-white/50">科目別成績</p>
+            </button>
+
+            <button onClick={() => setAppMode("memos")}
+              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              <NotebookPen size={14} className="text-emerald-400" />
+              <p className="text-[10px] font-bold leading-tight">表現メモ</p>
+              <p className="text-[9px] text-white/50">英語表現集</p>
+            </button>
           </div>
 
           </div>{/* max-w-2xl */}
