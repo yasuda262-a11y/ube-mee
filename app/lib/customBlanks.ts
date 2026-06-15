@@ -37,7 +37,7 @@ function parseFormattedWords(
   let last = 0;
 
   // (a), (b), (1), (iv), a), b), 1) などのマーカーはそのまま維持する
-  const KEEP_AS_ONE = /^(\([a-z]\)|\([ivxlcdm]+\)|\(\d+\)|[a-z]\)|\d+\)|[ivxlcdm]+\))$/i;
+  const KEEP_AS_ONE = /^(\([a-z]\)|\([ivxlcdm]+\)|\(\d+\)|[a-z]\)|\d+\)|[ivxlcdm]+\)|[ivxlcdm]+\.)$/i;
 
   const flushSegment = (seg: string) => {
     const rawWords = seg.split(/\s+/).filter((w) => w.length > 0);
