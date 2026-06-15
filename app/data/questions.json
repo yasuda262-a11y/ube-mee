@@ -12092,7 +12092,7 @@
     "sectionHeader": "B. Policy Exclusions",
     "subsectionTitle": "Compromise/Settlement Offers & Negotiations",
     "priority": "M",
-    "context": "**Compromise/Settlement Offers & Negotiations** –\nStatements and Offers made during settlement\nnegotiations are NOT admissible to:\na) prove or disprove __BLANK_1__ **OR**\nb) __BLANK_2__ *BUT, evidence IS ALLOWED for another purpose (e.g.\nwitness bias/prejudice, negating a contention of undue\ndelay, proving obstruction of justice).",
+    "context": "**Compromise/Settlement Offers & Negotiations** –\nStatements and Offers made during settlement\nnegotiations are NOT admissible to:\na) prove or disprove __BLANK_1__ **OR**\nb) __BLANK_2__ *BUT, evidence IS ALLOWED for another purpose (e.g.\nwitness bias/prejudice, negating a contention of undue\ndelay, proving obstruction of justice).\nStatements *before* a claim was filed or threatened ARE ALLOWED.",
     "blanks": [
       {
         "idx": 1,
@@ -12433,7 +12433,7 @@
     "sectionHeader": "D. Character Evidence & Related Concepts",
     "subsectionTitle": null,
     "priority": null,
-    "context": "Methods of Proving Character – When character is\nadmissible, it may be proved by:\n− **Reputation** or **Opinion** → In all instances.\n− **Specific Acts/Instances** → Only allowed: (a) on\n__BLANK_1__ **OR**\n(b) if __BLANK_2__ *NOTE → Special rules apply to evidence of a Victim’s\nCharacter in Sex-Offense cases (see those rules above).",
+    "context": "Methods of Proving Character – When character is\nadmissible, it may be proved by:\n− **Reputation** or **Opinion** → In all instances.\n− **Specific Acts/Instances** → Only allowed: (a) on\n__BLANK_1__ **OR**\n(b) if __BLANK_2__\n*NOTE → Special rules apply to evidence of a Victim’s\nCharacter in Sex-Offense cases (see those rules above).",
     "blanks": [
       {
         "idx": 1,
@@ -12545,7 +12545,7 @@
     "sectionHeader": "D. Character Evidence & Related Concepts",
     "subsectionTitle": "Habit / Routine Practice",
     "priority": "H",
-    "context": "**Habit / Routine Practice** – Is ADMISSIBLE to show that\na person (or organization) acted in accordance with their\nhabit or routine practice.\n− Habit __BLANK_1__ *Look for behavior that’s specific, repeated, & reflexive.",
+    "context": "**Habit / Routine Practice** – Is ADMISSIBLE to show that\na person (or organization) acted in accordance with their\nhabit or routine practice.\n− Habit __BLANK_1__\n*Look for behavior that’s specific, repeated, & reflexive.",
     "blanks": [
       {
         "idx": 1,
@@ -12660,6 +12660,16 @@
     ]
   },
   {
+    "id": 903,
+    "page": 0,
+    "subject": "EVIDENCE",
+    "sectionHeader": "IMPEACHMENT",
+    "subsectionTitle": "Pardon / Annulled Exception",
+    "priority": 0,
+    "context": "**Pardon / Annulled Exception** → Evidence of a conviction is NOT admissible if it's been **pardoned or annulled** based on a *finding of innocence*.",
+    "blanks": []
+  },
+  {
     "id": 523,
     "page": 59,
     "subject": "EVIDENCE",
@@ -12755,25 +12765,6 @@
     ]
   },
   {
-    "id": 527,
-    "page": 59,
-    "subject": "EVIDENCE",
-    "sectionHeader": "F. Presentation of Evidence",
-    "subsectionTitle": "Refreshing Recollection",
-    "priority": "H",
-    "context": "**Refreshing Recollection** – Refreshing a witness’s\nrecollection using a document is permitted when the\nwitness:\n1) __BLANK_1__ but\n2) __BLANK_2__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "once had personal knowledge of the matter,"
-      },
-      {
-        "idx": 2,
-        "answer": "is unable to recall it while testifying."
-      }
-    ]
-  },
-  {
     "id": 781,
     "page": 59,
     "subject": "EVIDENCE",
@@ -12789,6 +12780,25 @@
       {
         "idx": 2,
         "answer": "when / whether declarant had an opportunity to explain or deny it."
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "page": 59,
+    "subject": "EVIDENCE",
+    "sectionHeader": "F. Presentation of Evidence",
+    "subsectionTitle": "Refreshing Recollection",
+    "priority": "H",
+    "context": "**Refreshing Recollection** – Refreshing a witness’s\nrecollection using a document is permitted when the\nwitness:\n1) __BLANK_1__ but\n2) __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "once had personal knowledge of the matter,"
+      },
+      {
+        "idx": 2,
+        "answer": "is unable to recall it while testifying."
       }
     ]
   },
@@ -12852,7 +12862,7 @@
     "sectionHeader": "F. Presentation of Evidence",
     "subsectionTitle": "Lay Witness Testimony",
     "priority": "H",
-    "context": "Testimony is admissible if the witness:\n1) __BLANK_1__ is\npresumed unless rebutted); **AND**\n2) __BLANK_2__",
+    "context": "**Lay Witness Testimony** – is any person who gives testimony in a case that is *not* called as an expert.\n\nTestimony is admissible if the witness:\n1) __BLANK_1__ is\npresumed unless rebutted); **AND**\n2) __BLANK_2__",
     "blanks": [
       {
         "idx": 1,
@@ -12971,6 +12981,26 @@
         "answer": "offered to prove the truth of the matter asserted."
       }
     ]
+  },
+  {
+    "id": 904,
+    "page": 0,
+    "subject": "EVIDENCE",
+    "sectionHeader": "HEARSAY",
+    "subsectionTitle": "Statement Definition",
+    "priority": 0,
+    "context": "Statement = a person's oral or written assertion.\n− A nonverbal act is a statement if it's intended as an assertion.",
+    "blanks": []
+  },
+  {
+    "id": 905,
+    "page": 0,
+    "subject": "EVIDENCE",
+    "sectionHeader": "HEARSAY",
+    "subsectionTitle": "Multiple Hearsay",
+    "priority": 0,
+    "context": "**Multiple Hearsay** – each level of hearsay MUST fall within an exception or exclusion to be admissible.",
+    "blanks": []
   },
   {
     "id": 536,
