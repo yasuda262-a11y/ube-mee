@@ -70,7 +70,7 @@ function renderSegments(segs: Segment[]): React.ReactNode[] {
     if (seg.type === "bold") {
       return <strong key={k} className="font-bold">{renderSegments(seg.children)}</strong>;
     }
-    return <u key={k} className="underline underline-offset-2">{renderSegments(seg.children)}</u>;
+    return <u key={k} className="underline [text-decoration-skip-ink:none]">{renderSegments(seg.children)}</u>;
   });
 }
 
