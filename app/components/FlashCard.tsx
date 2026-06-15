@@ -115,6 +115,8 @@ const BULLET_RE = /^[▪•■]$/;
 const DASH_BULLET_RE = /^[−–]$/;
 /** サブ箇条書きマーカーか判定（○ = U+25CB） */
 const SUB_BULLET_RE = /^[○]$/;
+/** ディープ箇条書きマーカーか判定（▸ = U+25B8） — level 4 */
+const DEEP_BULLET_RE = /^[▸]$/;
 
 /** 行末から取り出した最後の "表示テキスト"（blank は answer 文字列）を使う */
 function prevDisplayText(t: Token): string {
@@ -272,8 +274,8 @@ function StudyTokens({
   }, [tokens, blankMap]);
 
   // 行ベース構造でレンダリング（箇条書きを適切に表示するため）
-  type RenderLine = { isBullet: boolean; isDashBullet: boolean; isSubBullet: boolean; nodes: React.ReactNode[] };
-  const lines: RenderLine[] = [{ isBullet: false, isDashBullet: false, isSubBullet: false, nodes: [] }];
+  type RenderLine = { isBullet: boolean; isDashBullet: boolean; isSubBullet: boolean; isDeepBullet: boolean; nodes: React.ReactNode[] };
+  const lines: RenderLine[] = [{ isBullet: false, isDashBullet: false, isSubBullet: false, isDeepBullet: false, nodes: [] }];
   let prev: Token | null = null;
 
   function curLine() { return lines[lines.length - 1]; }
@@ -285,7 +287,7 @@ function StudyTokens({
     if (prev !== null) {
       const kind = lineSep(prev, t);
       if (kind === "break") {
-        lines.push({ isBullet: false, isDashBullet: false, isSubBullet: false, nodes: [] });
+        lines.push({ isBullet: false, isDashBullet: false, isSubBullet: false, isDeepBullet: false, nodes: [] });
       } else if (kind === "space") {
         // 前後のトークンが両方underlineの場合、スペースにも下線を適用して連続した下線にする
         const spaceUnderline = prev.underline && t.underline;
@@ -309,6 +311,12 @@ function StudyTokens({
     // 行頭のサブ箇条書きマーカー（○）→ isSubBullet フラグをセットしてスキップ
     if (t.type === "word" && SUB_BULLET_RE.test(t.text) && curLine().nodes.length === 0) {
       curLine().isSubBullet = true;
+      prev = t;
+      continue;
+    }
+    // 行頭のディープ箇条書きマーカー（▸）→ isDeepBullet フラグをセットしてスキップ
+    if (t.type === "word" && DEEP_BULLET_RE.test(t.text) && curLine().nodes.length === 0) {
+      curLine().isDeepBullet = true;
       prev = t;
       continue;
     }
@@ -355,7 +363,12 @@ function StudyTokens({
   return (
     <div>
       {lines.map((line, li) =>
-        line.isSubBullet ? (
+        line.isDeepBullet ? (
+          <div key={li} className="flex items-baseline gap-2 pl-10 mt-0.5">
+            <span className="text-gray-400 flex-shrink-0 leading-8 text-[11px]">▸</span>
+            <span className="flex-1 min-w-0">{line.nodes}</span>
+          </div>
+        ) : line.isSubBullet ? (
           <div key={li} className="flex items-baseline gap-2 pl-6 mt-0.5">
             <span className="text-gray-400 flex-shrink-0 leading-8 text-[11px]">○</span>
             <span className="flex-1 min-w-0">{line.nodes}</span>
