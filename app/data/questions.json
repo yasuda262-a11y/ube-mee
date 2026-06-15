@@ -1191,7 +1191,7 @@
     "sectionHeader": "F. Duties Owed by Partners",
     "subsectionTitle": "Duty of Loyalty",
     "priority": "H",
-    "context": "BUT, a partner is NOT liable if:\n1) __BLANK_1__ **AND**\n2) Either:\na) the __BLANK_2__ **OR**\nb) __BLANK_3__",
+    "context": "If a partner breaches, he may be held ***personally liable*** to the Pship for any losses.\nBUT, a partner is NOT liable if:\n1) __BLANK_1__ **AND**\n2) Either:\na) the __BLANK_2__ **OR**\nb) __BLANK_3__\nIf reasonable, the Pship agreement MAY eliminate or alter a duty of loyalty.\nFiduciary duties apply during dissolution (except the duty not to compete).",
     "blanks": [
       {
         "idx": 1,
@@ -1241,7 +1241,7 @@
     "sectionHeader": "F. Duties Owed by Partners",
     "subsectionTitle": "Duty to Provide Full Information",
     "priority": "M",
-    "context": "**Duty to Provide Full Information**\n**UPA** → Partners shall render __BLANK_1__ by any\npartner) true and full information of all things affecting\nthe Pship.\nRUPA → Partners shall disclose __BLANK_2__ full\ninformation concerning the Pship’s business and affairs.",
+    "context": "**Duty to Provide Full Information**\n**UPA** → Partners shall render __BLANK_1__ by any\npartner) true and full information of all things affecting\nthe Pship.\n\nRUPA → Partners shall disclose __BLANK_2__ full\ninformation concerning the Pship’s business and affairs.\nIf a partner breaches this duty, he may be held personally liable to the Pship for any losses.",
     "blanks": [
       {
         "idx": 1,
@@ -1250,6 +1250,44 @@
       {
         "idx": 2,
         "answer": "(without demand)"
+      }
+    ]
+  },
+  {
+    "id": 770,
+    "page": 12,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "F. Duties Owed by Partners",
+    "subsectionTitle": "Action Against a Partner for Misconduct",
+    "priority": "L",
+    "context": "The Pship can maintain an action against a partner for misconduct.\nA partner can also maintain a direct action against another partner to enforce the partner's right, including an action for __BLANK_1__\nBUT, a partner CANNOT maintain a __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "violating fiduciary duties."
+      },
+      {
+        "idx": 2,
+        "answer": "derivative action."
+      }
+    ]
+  },
+  {
+    "id": 771,
+    "page": 12,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "G. Dissociation & Dissolution",
+    "subsectionTitle": "Dissociation (Withdrawal of a Partner)",
+    "priority": "H",
+    "context": "**Dissociation (Withdrawal of a Partner)** – A partner may dissociate from the Pship at any time upon notice.\n**Dissociation Events** – A partner becomes dissociated from the Pship upon:\n(a) __BLANK_1__\n(b) The occurrence of an agreed upon event;\n(c) __BLANK_2__\n(d) Expulsion by unanimous vote of the other partners.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "The partner providing notice of their express will to withdraw;"
+      },
+      {
+        "idx": 2,
+        "answer": "Expulsion pursuant to the Pship agreement;"
       }
     ]
   },
@@ -1337,44 +1375,6 @@
       {
         "idx": 2,
         "answer": "whether to waive winding-up and termination of the Pship."
-      }
-    ]
-  },
-  {
-    "id": 770,
-    "page": 12,
-    "subject": "PARTNERSHIPS",
-    "sectionHeader": "F. Duties Owed by Partners",
-    "subsectionTitle": "Action Against a Partner for Misconduct",
-    "priority": "L",
-    "context": "The Pship can maintain an action against a partner for misconduct.\nA partner can also maintain a direct action against another partner to enforce the partner's right, including an action for __BLANK_1__\nBUT, a partner CANNOT maintain a __BLANK_2__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "violating fiduciary duties."
-      },
-      {
-        "idx": 2,
-        "answer": "derivative action."
-      }
-    ]
-  },
-  {
-    "id": 771,
-    "page": 12,
-    "subject": "PARTNERSHIPS",
-    "sectionHeader": "G. Dissociation & Dissolution",
-    "subsectionTitle": "Dissociation (Withdrawal of a Partner)",
-    "priority": "H",
-    "context": "**Dissociation (Withdrawal of a Partner)** – A partner may dissociate from the Pship at any time upon notice.\n**Dissociation Events** – A partner becomes dissociated from the Pship upon:\n(a) __BLANK_1__\n(b) The occurrence of an agreed upon event;\n(c) __BLANK_2__\n(d) Expulsion by unanimous vote of the other partners.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "The partner providing notice of their express will to withdraw;"
-      },
-      {
-        "idx": 2,
-        "answer": "Expulsion pursuant to the Pship agreement;"
       }
     ]
   },
