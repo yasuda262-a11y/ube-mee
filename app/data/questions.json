@@ -765,7 +765,7 @@
     "sectionHeader": "C. Liability of Partners",
     "subsectionTitle": "Liability of General Partners",
     "priority": "H",
-    "context": "**Personal Liability** → General partners __BLANK_1__ ALL obligations of the Pship UNLESS: (a)\notherwise agreed by claimant; or (b) provided by law.\n− UPA\n(1997) → partners are jointly and severally\nliable.\n− UPA\n(1914) → partners are jointly liable.",
+    "context": "**Personal Liability** → General partners __BLANK_1__ ALL obligations of the Pship UNLESS: (a)\notherwise agreed by claimant; or (b) provided by law.\n− UPA (1997) → partners are jointly and severally\nliable.\n− UPA (1914) → partners are jointly liable.",
     "blanks": [
       {
         "idx": 1,
@@ -793,6 +793,21 @@
     ]
   },
   {
+    "id": 927,
+    "page": 10,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "C. Liability of Partners",
+    "subsectionTitle": "Liability of General Partners",
+    "priority": "M",
+    "context": "**Judgment Enforcement Against a Partner's Personal Assets** – A judgment against the Pship is __BLANK_1__ a judgment against the individual partner(s).\n− **BUT**, a judgment may be sought against the Pship and individual partners in the *same action*.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "NOT"
+      }
+    ]
+  },
+  {
     "id": 35,
     "page": 10,
     "subject": "PARTNERSHIPS",
@@ -814,14 +829,18 @@
     "sectionHeader": "C. Liability of Partners",
     "subsectionTitle": "Liability of Limited Partners",
     "priority": "M",
-    "context": "Exceptions:\na) Liable __BLANK_1__\nb) At risk of losing their capital contribution to the\nPship; **OR**\nc) May become personally liable if the partner\n__BLANK_2__ on the\njurisdiction).",
+    "context": "**Liability of Limited Partners** – Limited partners are __BLANK_1__ personally liable for obligations of the LP.\nExceptions:\na) Liable __BLANK_2__\nb) At risk of losing their capital contribution to the\nPship; **OR**\nc) May become personally liable if the partner\n__BLANK_3__ on the\njurisdiction).",
     "blanks": [
       {
         "idx": 1,
-        "answer": "for their own misconduct;"
+        "answer": "NOT"
       },
       {
         "idx": 2,
+        "answer": "for their own misconduct;"
+      },
+      {
+        "idx": 3,
         "answer": "participates in management (depends"
       }
     ]
@@ -848,14 +867,18 @@
     "sectionHeader": "C. Liability of Partners",
     "subsectionTitle": "Liability of Limited Liability Partners",
     "priority": "M",
-    "context": "But a partner in an LLP is liable:\na) __BLANK_1__\nb) when the partner signs a personal guarantee for\nan obligation; **OR**\nc) for obligations __BLANK_2__",
+    "context": "**Liability of Limited Liability Partners** – Under RUPA, a partner in an LLP is __BLANK_1__ for partnership obligations.\nBut a partner in an LLP is liable:\na) __BLANK_2__\nb) when the partner signs a personal guarantee for\nan obligation; **OR**\nc) for obligations __BLANK_3__",
     "blanks": [
       {
         "idx": 1,
-        "answer": "for their own misconduct;"
+        "answer": "NOT liable"
       },
       {
         "idx": 2,
+        "answer": "for their own misconduct;"
+      },
+      {
+        "idx": 3,
         "answer": "incurred before the Pship became an LLP."
       }
     ]
@@ -913,7 +936,7 @@
     "sectionHeader": "D. Rights of Partners Among Themselves",
     "subsectionTitle": "Transfer of Partnership Ownership",
     "priority": "H",
-    "context": "**Transfer of Partnership Ownership** – A partner can only transfer:\n1) his interest in __BLANK_1__\n2) the right to __BLANK_2__\nAny other rights CANNOT be transferred, unless the partnership agreement provides otherwise.\nALL partners __BLANK_3__ for an assignee of a partnership interest to become a partner.",
+    "context": "**Transfer of Partnership Ownership** – A partner can only transfer:\n1) his interest in __BLANK_1__\n2) the right to __BLANK_2__\n\nAny other rights CANNOT be transferred, unless the partnership agreement provides otherwise.\nALL partners __BLANK_3__ for an assignee of a partnership interest to become a partner.",
     "blanks": [
       {
         "idx": 1,
@@ -949,6 +972,21 @@
       {
         "idx": 3,
         "answer": "consent of the other partners."
+      }
+    ]
+  },
+  {
+    "id": 928,
+    "page": 11,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "D. Rights of Partners Among Themselves",
+    "subsectionTitle": "Right to Partnership Property",
+    "priority": "M",
+    "context": "**Property acquired in the name of the partner** is *presumed* to be **separate property** as long as:\n1) __BLANK_1__ are used to acquire it; **AND**\n2) title to the property *does not* reference the Pship.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "no Pship assets"
       }
     ]
   },
@@ -1035,48 +1073,26 @@
     "sectionHeader": "E. Special Rules for Limited Partnerships",
     "subsectionTitle": "Limited Partner’s Right to Inspect Records",
     "priority": "M",
-    "context": "**Limited Partner’s Right to Inspect Records**\nRULPA → Limited partners have the right to inspect and\ncopy records the LP __BLANK_1__",
+    "context": "**Limited Partner’s Right to Inspect Records**\nRULPA → Limited partners have the right to inspect and\ncopy records the LP __BLANK_1__\nUpon reasonable demand, a limited partner may obtain:\n1) True and full info regarding the __BLANK_2__\n2) __BLANK_3__ and\n3) Any info __BLANK_4__ *These rights may be exercised __BLANK_5__",
     "blanks": [
       {
         "idx": 1,
         "answer": "is legally required to keep."
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "page": 11,
-    "subject": "PARTNERSHIPS",
-    "sectionHeader": "E. Special Rules for Limited Partnerships",
-    "subsectionTitle": "Limited Partner’s Right to Inspect Records",
-    "priority": "M",
-    "context": "Upon reasonable demand, a limited partner may obtain:\n1) True and full info regarding the __BLANK_1__\n2) __BLANK_2__ and",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 2,
         "answer": "state of the business and financial condition;"
       },
       {
-        "idx": 2,
+        "idx": 3,
         "answer": "LP’s tax returns;"
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "page": 11,
-    "subject": "PARTNERSHIPS",
-    "sectionHeader": "E. Special Rules for Limited Partnerships",
-    "subsectionTitle": null,
-    "priority": null,
-    "context": "3) Any info __BLANK_1__ *These rights may be exercised __BLANK_2__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 4,
         "answer": "that’s just and reasonable."
       },
       {
-        "idx": 2,
+        "idx": 5,
         "answer": "for any purpose."
       }
     ]
@@ -1103,7 +1119,7 @@
     "sectionHeader": "F. Duties Owed by Partners",
     "subsectionTitle": "Duty of Care",
     "priority": "H",
-    "context": "Under RUPA, **a partner only breaches the duty of**\n**care if he engages in**:\na) __BLANK_1__\nb) __BLANK_2__ **OR**\nc) __BLANK_3__ ***If a partner breaches, he may be held** personally liable\n**to the Pship for any losses**.",
+    "context": "Under RUPA, **a partner only breaches the duty of**\n**care if he engages in**:\na) __BLANK_1__\nb) __BLANK_2__ **OR**\nc) __BLANK_3__\n*If a partner breaches, he may be held** personally liable\n**to the Pship for any losses**.",
     "blanks": [
       {
         "idx": 1,
@@ -1116,6 +1132,21 @@
       {
         "idx": 3,
         "answer": "A knowing violation of law."
+      }
+    ]
+  },
+  {
+    "id": 929,
+    "page": 11,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "F. Duties Owed by Partners",
+    "subsectionTitle": "Duty of Care",
+    "priority": "M",
+    "context": "A breach of the duty has been found in the following situations:\n▪ __BLANK_1__\n▪ Failing to thoroughly investigate facts before entering into contracts (if it's gross negligence).\n▪ Acting outside the scope of Pship business without the consent of the other partners.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Violating an agreement or policy of the Pship"
       }
     ]
   },
