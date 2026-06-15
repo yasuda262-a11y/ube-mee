@@ -43,6 +43,27 @@ const SUBJECT_INDEX: Map<number, number> = (() => {
   return m;
 })();
 
+type DeckSave = { cardIds: number[]; index: number };
+
+function saveDeckState(subject: string | null, deck: Card[], index: number) {
+  if (deck.length === 0) return;
+  const key = `ube_deck_save_${subject ?? "ALL"}`;
+  const save: DeckSave = { cardIds: deck.map((c) => c.id), index };
+  localStorage.setItem(key, JSON.stringify(save));
+}
+
+function loadDeckState(subject: string | null): DeckSave | null {
+  try {
+    const key = `ube_deck_save_${subject ?? "ALL"}`;
+    const raw = localStorage.getItem(key);
+    return raw ? (JSON.parse(raw) as DeckSave) : null;
+  } catch { return null; }
+}
+
+function clearDeckState(subject: string | null) {
+  localStorage.removeItem(`ube_deck_save_${subject ?? "ALL"}`);
+}
+
 export default function Home() {
   const [appMode, setAppMode] = useState<AppMode>("select");
   const [stats, setStats] = useState<StatsRecord>({});
@@ -53,6 +74,14 @@ export default function Home() {
   const [flagged, setFlagged] = useState<Set<number>>(new Set());
   const [user, setUser] = useState<SupabaseUser | null>(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
+  const [savedSubjects, setSavedSubjects] = useState<Set<string>>(new Set());
+
+  // 中断データがある科目を起動時に把握
+  useEffect(() => {
+    const keys = Object.keys(localStorage).filter((k) => k.startsWith("ube_deck_save_"));
+    const subjects = new Set(keys.map((k) => k.replace("ube_deck_save_", "")));
+    setSavedSubjects(subjects);
+  }, []);
 
   // 認証状態の監視とデータ読み込み
   useEffect(() => {
@@ -114,6 +143,20 @@ export default function Home() {
     setDeckIndex(0);
     setStudyFrom("select");
     setAppMode("study");
+    clearDeckState(selectedSubject);
+    setSavedSubjects((prev) => { const n = new Set(prev); n.delete(selectedSubject ?? "ALL"); return n; });
+  }
+
+  function resumeDeck() {
+    const save = loadDeckState(selectedSubject);
+    if (!save) return;
+    const idMap = new Map(ALL_CARDS.map((c) => [c.id, c]));
+    const qs = save.cardIds.map((id) => idMap.get(id)).filter(Boolean) as Card[];
+    if (qs.length === 0) return;
+    setDeck(qs);
+    setDeckIndex(save.index);
+    setStudyFrom("select");
+    setAppMode("study");
   }
 
   function startFrom(card: Card) {
@@ -139,8 +182,13 @@ export default function Home() {
   }
 
   function handleNext() {
-    if (deckIndex + 1 >= deck.length) setAppMode("select");
-    else setDeckIndex((i) => i + 1);
+    if (deckIndex + 1 >= deck.length) {
+      clearDeckState(selectedSubject);
+      setSavedSubjects((prev) => { const n = new Set(prev); n.delete(selectedSubject ?? "ALL"); return n; });
+      setAppMode("select");
+    } else {
+      setDeckIndex((i) => i + 1);
+    }
   }
 
   function handlePrev() {
@@ -233,32 +281,66 @@ export default function Home() {
           </div>
 
           {/* スタートボタン */}
-          <div className="flex gap-2">
-            <button
-              onClick={() => startDeck(subjectCards)}
-              className="flex-1 bg-amber-400 text-slate-900 rounded-2xl px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-amber-300 active:scale-95 transition-all"
-            >
-              <div className="w-8 h-8 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
-                <Shuffle size={16} />
+          {(() => {
+            const saveKey = selectedSubject ?? "ALL";
+            const hasSave = savedSubjects.has(saveKey);
+            const save = hasSave ? loadDeckState(selectedSubject) : null;
+            const remaining = save ? save.cardIds.length - save.index : 0;
+            return (
+              <div className="flex flex-col gap-2">
+                {hasSave && save && (
+                  <button
+                    onClick={resumeDeck}
+                    className="w-full bg-emerald-500 text-white rounded-2xl px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-emerald-400 active:scale-95 transition-all"
+                  >
+                    <div className="w-8 h-8 rounded-xl bg-white/20 flex items-center justify-center flex-shrink-0">
+                      <RotateCcw size={16} />
+                    </div>
+                    <div className="text-left flex-1">
+                      <p className="text-sm font-bold leading-tight">続きから再開</p>
+                      <p className="text-[11px] text-white/80">{selectedSubject ?? "すべての科目"} · 残り{remaining}枚</p>
+                    </div>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        clearDeckState(selectedSubject);
+                        setSavedSubjects((prev) => { const n = new Set(prev); n.delete(saveKey); return n; });
+                      }}
+                      className="text-white/60 hover:text-white text-xs px-2 py-1 rounded-lg hover:bg-white/10"
+                    >
+                      削除
+                    </button>
+                  </button>
+                )}
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => startDeck(subjectCards)}
+                    className="flex-1 bg-amber-400 text-slate-900 rounded-2xl px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-amber-300 active:scale-95 transition-all"
+                  >
+                    <div className="w-8 h-8 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
+                      <Shuffle size={16} />
+                    </div>
+                    <div className="text-left">
+                      <p className="text-sm font-bold leading-tight">ランダム</p>
+                      <p className="text-[11px] text-slate-700">{selectedSubject ?? "すべての科目"} · {subjectCards.length}枚</p>
+                    </div>
+                  </button>
+                  <button
+                    onClick={() => startDeck(subjectCards, false)}
+                    className="flex-1 bg-sky-400 text-slate-900 rounded-2xl px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-sky-300 active:scale-95 transition-all"
+                  >
+                    <div className="w-8 h-8 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
+                      <ListOrdered size={16} />
+                    </div>
+                    <div className="text-left">
+                      <p className="text-sm font-bold leading-tight">順番通り</p>
+                      <p className="text-[11px] text-slate-700">{selectedSubject ?? "すべての科目"} · {subjectCards.length}枚</p>
+                    </div>
+                  </button>
+                </div>
               </div>
-              <div className="text-left">
-                <p className="text-sm font-bold leading-tight">ランダム</p>
-                <p className="text-[11px] text-slate-700">{selectedSubject ?? "すべての科目"} · {subjectCards.length}枚</p>
-              </div>
-            </button>
-            <button
-              onClick={() => startDeck(subjectCards, false)}
-              className="flex-1 bg-sky-400 text-slate-900 rounded-2xl px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-sky-300 active:scale-95 transition-all"
-            >
-              <div className="w-8 h-8 rounded-xl bg-slate-900/20 flex items-center justify-center flex-shrink-0">
-                <ListOrdered size={16} />
-              </div>
-              <div className="text-left">
-                <p className="text-sm font-bold leading-tight">順番通り</p>
-                <p className="text-[11px] text-slate-700">{selectedSubject ?? "すべての科目"} · {subjectCards.length}枚</p>
-              </div>
-            </button>
-          </div>
+            );
+          })()}
 
           {/* サブメニュー */}
           <div className="grid grid-cols-4 gap-1.5">
@@ -425,7 +507,13 @@ export default function Home() {
       <header className="sticky top-0 z-10 bg-white/70 backdrop-blur-md border-b border-white/60 px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center justify-between">
           <button
-            onClick={() => setAppMode(studyFrom)}
+            onClick={() => {
+              if (studyFrom === "select" && deck.length > 0 && deckIndex + 1 < deck.length) {
+                saveDeckState(selectedSubject, deck, deckIndex);
+                setSavedSubjects((prev) => new Set(prev).add(selectedSubject ?? "ALL"));
+              }
+              setAppMode(studyFrom);
+            }}
             className="text-indigo-600 font-semibold text-sm"
           >
             {studyFrom === "list" ? "← 一覧" : "← ホーム"}
