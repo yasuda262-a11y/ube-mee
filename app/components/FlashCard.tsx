@@ -130,6 +130,8 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
 
   // (a)/(b)/(c) スタイルマーカーか判定
   const LETTER_MARKER_RE = /^\([a-z]\)$/;
+  // i)/ii)/iii) ローマ数字マーカーか判定
+  const ROMAN_MARKER_RE = /^[ivxlcdm]+\)$/i;
 
   if (prev.lineIdx === cur.lineIdx) {
     // 句読点トークン（, . ; : など）の前にはスペースを入れない
@@ -154,14 +156,16 @@ function lineSep(prev: Token, cur: Token): "break" | "space" | "none" {
 
   // 行をまたぐ場合
   if (prevText.endsWith("-")) return "none"; // ハイフン連結
-  // (a)/(b)/(c) の直後は改行しない（内容を同じ行に続ける）
+  // (a)/(b)/(c) / i)/ii) の直後は改行しない（内容を同じ行に続ける）
   if (LETTER_MARKER_RE.test(prevText)) return "space";
+  if (ROMAN_MARKER_RE.test(prevText)) return "space";
   // 行頭の originalBlank は必ず改行（context の \n が意図的な区切り）
   if (cur.type === "originalBlank") return "break";
-  // リストマーカー / (N) 番号 / (a)/(b)/(c) 番号 / 太字（新概念の開始）→ 改行
+  // リストマーカー / (N) 番号 / (a)/(b)/(c) 番号 / i)/ii) / 太字（新概念の開始）→ 改行
   if (isListStartText(curText)) return "break";
   if (/^\(\d+\)$/.test(curText)) return "break";
   if (LETTER_MARKER_RE.test(curText)) return "break";
+  if (ROMAN_MARKER_RE.test(curText)) return "break";
   if (cur.type === "word" && cur.bold) return "break";
   // それ以外（PDFの折り返し等）→ スペースとして扱う
   return "space";
