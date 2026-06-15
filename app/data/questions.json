@@ -544,19 +544,49 @@
     ]
   },
   {
+    "id": 918,
+    "page": 0,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "GENERAL PARTNERSHIP",
+    "subsectionTitle": "Joint Venture Note",
+    "priority": 0,
+    "context": "A joint venture or sharing in gross profits DOES NOT automatically create a partnership.",
+    "blanks": []
+  },
+  {
+    "id": 919,
+    "page": 0,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "GENERAL PARTNERSHIP",
+    "subsectionTitle": "Creditor vs. Partner",
+    "priority": 0,
+    "context": "**Creditor vs. Partner** – A person who receives a share of the profits is *presumed* to be a partner UNLESS the payment is received in payment:\na) of a debt;\nb) for wages as an employee or independent contractor;\nc) of rent;\nd) of an annuity or retirement benefit;\ne) of interest/loan charges; **OR**\nf) for the sale of goodwill of a business.",
+    "blanks": []
+  },
+  {
     "id": 26,
     "page": 9,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "A. Creation of Partnerships",
     "subsectionTitle": "Limited Partnership (LP)",
     "priority": "M",
-    "context": "**Formation** – An LP is formed __BLANK_1__ the Secretary of State, which\nmust include:\n1) name of Pship;\n2) address of Pship’s principal office;\n3) name & address of Pship’s registered agent;\n4) name & address of each general partner;\n5) whether the Pship is an LLLP; **AND**\n6) signed by all general partners.",
+    "context": "**Limited Partnership (LP)** – is composed of limited partner(s) **AND** *at least* one general partner.\n\n**Formation** – An LP is formed __BLANK_1__ the Secretary of State, which\nmust include:\n1) name of Pship;\n2) address of Pship’s principal office;\n3) name & address of Pship’s registered agent;\n4) name & address of each general partner;\n5) whether the Pship is an LLLP; **AND**\n6) signed by all general partners.",
     "blanks": [
       {
         "idx": 1,
         "answer": "upon filing a Certificate of Limited Partnership with"
       }
     ]
+  },
+  {
+    "id": 920,
+    "page": 0,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "LIMITED LIABILITY PARTNERSHIP",
+    "subsectionTitle": "LLP Formation & Filing",
+    "priority": 0,
+    "context": "**Limited Liability Partnership (LLP)** – In an LLP, all partners have *limited personal liability*.\n\nTo Become an LLP:\n1) It must be approved by the same vote necessary to amend the Pship Agreement; **AND**\n2) A Statement of Qualification must be filed with the Secretary of State containing:\ni. name and address of Pship;\nii. statement that the Pship elects to become an LLP; *and*\niii. a deferred effective date (if any).\n\nFiling DOES NOT create a new partnership (if a GP or LP existed prior to filing).\n− The Pship remains liable for any obligations *before* it became an LLP.",
+    "blanks": []
   },
   {
     "id": 27,
@@ -683,7 +713,7 @@
     "sectionHeader": "B. Power & Authority of Partners",
     "subsectionTitle": "Authority to Bind the Partnership",
     "priority": "H",
-    "context": "BUT, a partner’s act will NOT bind the Pship when the:\n1) __BLANK_1__ **AND**\n2) __BLANK_2__ *For acts outside the scope of business → need a\nmanifestation by Pship that partner had authority in order\nto be binding.",
+    "context": "BUT, a partner’s act will NOT bind the Pship when the:\n1) __BLANK_1__ **AND**\n2) __BLANK_2__\n*For acts outside the scope of business → need a\nmanifestation by Pship that partner had authority in order\nto be binding.",
     "blanks": [
       {
         "idx": 1,
@@ -694,6 +724,16 @@
         "answer": "Third-party knew (or received notice) of a lack of authority."
       }
     ]
+  },
+  {
+    "id": 921,
+    "page": 0,
+    "subject": "PARTNERSHIPS",
+    "sectionHeader": "DISSOLUTION",
+    "subsectionTitle": "Authority to Bind After Dissolution",
+    "priority": 0,
+    "context": "**Authority to Bind the Partnership After Dissolution** – A partner's authority is limited *after* dissolution.\n\n**Actual Authority** → limited only to *acts appropriate for winding up* the business.\n\n**Apparent Authority** → a partner has apparent authority to bind the Pship if the:\n1) Partner's acts would have normally bound the Pship; **AND**\n2) Third-party *did not* have notice of dissolution.",
+    "blanks": []
   },
   {
     "id": 767,
