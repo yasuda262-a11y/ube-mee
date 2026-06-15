@@ -10415,7 +10415,7 @@
     "sectionHeader": "C. Other Crimes",
     "subsectionTitle": "Kidnapping & False Imprisonment",
     "priority": "L",
-    "context": "**Kidnapping & False Imprisonment**\n**++Kidnapping++** – is the __BLANK_1__ of a person,\n(2) __BLANK_2__ − **++MPC++** → abducting another person:\n(a) for\n__BLANK_3__\n(b) __BLANK_4__\n(c) __BLANK_5__ **OR**\n(d) __BLANK_6__\n**++False imprisonment++** – is the\n(1) __BLANK_7__\n(2)\n__BLANK_8__\n(3)\n__BLANK_9__\n(4) with\n__BLANK_10__ − **++MPC++** → when D knowingly restrains a person\nunlawfully so as to substantially interfere with\nthe person's liberty.",
+    "context": "**Kidnapping & False Imprisonment**\n**++Kidnapping++** – is the __BLANK_1__ of a person,\n(2) __BLANK_2__ − **++MPC++** → abducting another person:\n(a) for\n__BLANK_3__\n(b) __BLANK_4__\n(c) __BLANK_5__ **OR**\n(d) __BLANK_6__",
     "blanks": [
       {
         "idx": 1,
@@ -10440,21 +10440,32 @@
       {
         "idx": 6,
         "answer": "to interfere with a government/political function."
-      },
+      }
+    ]
+  },
+  {
+    "id": 931,
+    "page": 50,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "C. Other Crimes Kidnapping & False Imprisonment",
+    "subsectionTitle": "",
+    "priority": "L",
+    "context": "**++False imprisonment++** – is the\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__\n(4) with\n__BLANK_4__ − **++MPC++** → when D knowingly restrains a person\nunlawfully so as to substantially interfere with\nthe person's liberty.",
+    "blanks": [
       {
-        "idx": 7,
+        "idx": 1,
         "answer": "unlawful,"
       },
       {
-        "idx": 8,
+        "idx": 2,
         "answer": "confinement of a person,"
       },
       {
-        "idx": 9,
+        "idx": 3,
         "answer": "against their will,"
       },
       {
-        "idx": 10,
+        "idx": 4,
         "answer": "knowledge that the restriction is unlawful."
       }
     ]
