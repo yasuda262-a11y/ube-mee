@@ -7066,6 +7066,16 @@
     ]
   },
   {
+    "id": 864,
+    "page": 39,
+    "subject": "CONTRACTS",
+    "sectionHeader": "Definitions",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**CL** = Common Law\n**UCC** = Uniform Commercial Code\n**Offeror** = Person that makes an offer\n**Offeree** = Person to whom an offer is made\n**Merchant** = Person who deals in goods of the kind",
+    "blanks": []
+  },
+  {
     "id": 301,
     "page": 39,
     "subject": "CONTRACTS",
@@ -7144,6 +7154,25 @@
       {
         "idx": 1,
         "answer": "things movable"
+      }
+    ]
+  },
+  {
+    "id": 865,
+    "page": 39,
+    "subject": "CONTRACTS",
+    "sectionHeader": "B. Contract Formation",
+    "subsectionTitle": "Requirements to Form a Valid Contract",
+    "priority": "H",
+    "context": "**Requirements to Form a Valid Contract**\nElements:\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) no defenses to formation.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "mutual assent (offer and acceptance)"
+      },
+      {
+        "idx": 2,
+        "answer": "consideration or a substitute"
       }
     ]
   },
@@ -8356,6 +8385,25 @@
     ]
   },
   {
+    "id": 866,
+    "page": 44,
+    "subject": "CONTRACTS",
+    "sectionHeader": "E. Performance, Breach, & Discharge",
+    "subsectionTitle": "UCC Perfect Tender Rule & Exceptions",
+    "priority": "H",
+    "context": "**UCC Perfect Tender Rule**\n**Perfect Tender Rule** → Seller must __BLANK_1__\n− The smallest non-conformity is a breach, and buyer may __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "deliver conforming goods."
+      },
+      {
+        "idx": 2,
+        "answer": "reject all or a portion of the goods."
+      }
+    ]
+  },
+  {
     "id": 357,
     "page": 44,
     "subject": "CONTRACTS",
@@ -8459,6 +8507,21 @@
       {
         "idx": 2,
         "answer": "there is any substantial change in the goods (not"
+      }
+    ]
+  },
+  {
+    "id": 867,
+    "page": 44,
+    "subject": "CONTRACTS",
+    "sectionHeader": "E. Performance, Breach, & Discharge",
+    "subsectionTitle": "Conditions",
+    "priority": "M",
+    "context": "**Conditions** – Makes performance __BLANK_1__ the occurrence or completion of the condition.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "contingent upon"
       }
     ]
   },
@@ -8581,6 +8644,21 @@
       },
       {
         "idx": 4,
+        "answer": "unequivocally communicates"
+      }
+    ]
+  },
+  {
+    "id": 868,
+    "page": 45,
+    "subject": "CONTRACTS",
+    "sectionHeader": "E. Performance, Breach, & Discharge",
+    "subsectionTitle": "Anticipatory Repudiation",
+    "priority": "M",
+    "context": "**Anticipatory Repudiation** – Occurs when a party __BLANK_1__ that they are unable or unwilling to perform under the contract.",
+    "blanks": [
+      {
+        "idx": 1,
         "answer": "unequivocally communicates"
       }
     ]
@@ -8720,6 +8798,21 @@
       {
         "idx": 2,
         "answer": "Is free from any security interests, liens, or encumbrances."
+      }
+    ]
+  },
+  {
+    "id": 869,
+    "page": 45,
+    "subject": "CONTRACTS",
+    "sectionHeader": "F. Warranties (UCC Art. 2)",
+    "subsectionTitle": "Express Warranty",
+    "priority": "H",
+    "context": "**Express Warranty** – Seller is liable for breach of an express warranty.\n− __BLANK_1__ be disclaimed by seller.\nNo intent is needed to create an express warranty, or that seller use the words \"warranty\" or \"guarantee\".\n− An opinion DOES NOT create an express warranty.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "CANNOT"
       }
     ]
   },
@@ -9590,6 +9683,33 @@
     ]
   },
   {
+    "id": 779,
+    "page": 49,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "A. General Principles",
+    "subsectionTitle": "Elements of a Crime",
+    "priority": "H",
+    "context": "**Elements of a Crime** – Prosecution must prove all elements beyond a reasonable doubt:\n1) __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ (both actual and proximate cause); AND\n4) __BLANK_4__ (mental state and physical act occur at the same time).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Physical Act (actus reus);"
+      },
+      {
+        "idx": 2,
+        "answer": "Mental State (mens rea);"
+      },
+      {
+        "idx": 3,
+        "answer": "Causation"
+      },
+      {
+        "idx": 4,
+        "answer": "Concurrence"
+      }
+    ]
+  },
+  {
     "id": 413,
     "page": 49,
     "subject": "CRIMINAL LAW & PROCEDURE",
@@ -9812,6 +9932,29 @@
     ]
   },
   {
+    "id": 870,
+    "page": 49,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "B. Homicide",
+    "subsectionTitle": "Murder",
+    "priority": "H",
+    "context": "**MPC Murder** – Killing of a person committed:\n(a) __BLANK_1__; **OR**\n(b) __BLANK_2__ manifesting an extreme indifference to the value of human life.\n− **Felony Murder Rule** → recklessness is presumed for __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "purposefully or knowingly"
+      },
+      {
+        "idx": 2,
+        "answer": "recklessly under circumstances"
+      },
+      {
+        "idx": 3,
+        "answer": "robbery, rape, arson, burglary, & kidnapping."
+      }
+    ]
+  },
+  {
     "id": 423,
     "page": 49,
     "subject": "CRIMINAL LAW & PROCEDURE",
@@ -9843,33 +9986,6 @@
     ]
   },
   {
-    "id": 779,
-    "page": 49,
-    "subject": "CRIMINAL LAW & PROCEDURE",
-    "sectionHeader": "B. Homicide",
-    "subsectionTitle": "Elements of a Crime",
-    "priority": "H",
-    "context": "**Elements of a Crime** – Prosecution must prove all elements beyond a reasonable doubt:\n1) __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ (both actual and proximate cause); AND\n4) __BLANK_4__ (mental state and physical act occur at the same time).",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "Physical Act (actus reus);"
-      },
-      {
-        "idx": 2,
-        "answer": "Mental State (mens rea);"
-      },
-      {
-        "idx": 3,
-        "answer": "Causation"
-      },
-      {
-        "idx": 4,
-        "answer": "Concurrence"
-      }
-    ]
-  },
-  {
     "id": 425,
     "page": 50,
     "subject": "CRIMINAL LAW & PROCEDURE",
@@ -9893,6 +10009,25 @@
       {
         "idx": 4,
         "answer": "with criminal negligence"
+      }
+    ]
+  },
+  {
+    "id": 871,
+    "page": 50,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "B. Homicide",
+    "subsectionTitle": "Manslaughter",
+    "priority": "M",
+    "context": "**MPC Manslaughter** – Killing of a person committed:\na) __BLANK_1__; **OR**\nb) under the influence of __BLANK_2__ for which there is a reasonable explanation or excuse.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "recklessly"
+      },
+      {
+        "idx": 2,
+        "answer": "extreme mental or emotional disturbance"
       }
     ]
   },
@@ -11397,6 +11532,25 @@
     ]
   },
   {
+    "id": 872,
+    "page": 55,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "J. Police-Arranged Identification Procedures",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Miranda Rights (5th Amend.)** → pre-trial identifications (line-ups, photo identifications), blood tests, fingerprints, and voice identifications are __BLANK_1__ by the 5th Amendment.\n− A suspect in custody __BLANK_2__ to participate in a line-up.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "NOT protected"
+      },
+      {
+        "idx": 2,
+        "answer": "CANNOT refuse"
+      }
+    ]
+  },
+  {
     "id": 481,
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
@@ -11540,6 +11694,25 @@
     ]
   },
   {
+    "id": 780,
+    "page": 55,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "L. Fair Trial & Guilty Pleas",
+    "subsectionTitle": "Competence to Stand Trial",
+    "priority": "M",
+    "context": "**Competence to Stand Trial** – D is competent to stand trial if they have:\n1) a sufficient present ability to __BLANK_1__\n2) a __BLANK_2__ understanding of proceedings.\n*D cannot be tried if deemed incompetent (but competence can be reassessed at a later date).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "consult with their lawyer (able to assist in preparing a defense);"
+      },
+      {
+        "idx": 2,
+        "answer": "rational and factual"
+      }
+    ]
+  },
+  {
     "id": 486,
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
@@ -11590,21 +11763,44 @@
     ]
   },
   {
-    "id": 780,
+    "id": 873,
     "page": 55,
     "subject": "CRIMINAL LAW & PROCEDURE",
-    "sectionHeader": "N. Burden of Proof & Persuasion",
-    "subsectionTitle": "Competence to Stand Trial",
+    "sectionHeader": "M. Double Jeopardy",
+    "subsectionTitle": null,
     "priority": "M",
-    "context": "**Competence to Stand Trial** – D is competent to stand trial if they have:\n1) a sufficient present ability to __BLANK_1__\n2) a __BLANK_2__ understanding of proceedings.\n*D cannot be tried if deemed incompetent (but competence can be reassessed at a later date).",
+    "context": "**Exceptions to Double Jeopardy:**\n▪ __BLANK_1__\n▪ Manifest Necessity\n▪ D's Request & It's Not an Acquittal on the Merits\n▪ D Seeks/Consents to Sever Charges\n▪ __BLANK_2__\n▪ Retrial After a Successful Appeal (that's not reversed for Insufficient Evidence)",
     "blanks": [
       {
         "idx": 1,
-        "answer": "consult with their lawyer (able to assist in preparing a defense);"
+        "answer": "Hung Jury"
       },
       {
         "idx": 2,
-        "answer": "rational and factual"
+        "answer": "Breach of Plea Bargain"
+      }
+    ]
+  },
+  {
+    "id": 874,
+    "page": 56,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "sectionHeader": "M. Double Jeopardy",
+    "subsectionTitle": null,
+    "priority": "H",
+    "context": "**Dual Sovereignty Doctrine** – Double Jeopardy Clause DOES NOT bar prosecutions from \"separate sovereigns\".\n− State & Federal Govt. → __BLANK_1__ separate sovereigns.\n− Different States → __BLANK_2__ separate sovereigns.\n− State & Same State Local Govt. → __BLANK_3__ separate sovereigns.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "ARE"
+      },
+      {
+        "idx": 2,
+        "answer": "ARE"
+      },
+      {
+        "idx": 3,
+        "answer": "NOT"
       }
     ]
   },
@@ -11699,6 +11895,16 @@
         "answer": "that the error was harmless"
       }
     ]
+  },
+  {
+    "id": 875,
+    "page": 57,
+    "subject": "EVIDENCE",
+    "sectionHeader": "Definitions",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**FRE** = Federal Rules of Evidence\n**Admissible** = Allowed to be Presented at Trial",
+    "blanks": []
   },
   {
     "id": 492,
@@ -12374,6 +12580,29 @@
       {
         "idx": 3,
         "answer": "Extrinsic evidence is"
+      }
+    ]
+  },
+  {
+    "id": 876,
+    "page": 59,
+    "subject": "EVIDENCE",
+    "sectionHeader": "E. Impeachment",
+    "subsectionTitle": null,
+    "priority": "H",
+    "context": "**Character for Truthfulness** – A witness's credibility may be attacked or supported by:\na) __BLANK_1__ about the witness's character for truthfulness / untruthfulness; **OR**\nb) __BLANK_2__\nBUT, evidence of the witness's truthful character is admissible __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Reputation testimony"
+      },
+      {
+        "idx": 2,
+        "answer": "Opinion testimony."
+      },
+      {
+        "idx": 3,
+        "answer": "ONLY AFTER ATTACKED."
       }
     ]
   },
@@ -13178,6 +13407,25 @@
     ]
   },
   {
+    "id": 877,
+    "page": 62,
+    "subject": "EVIDENCE",
+    "sectionHeader": "G. Hearsay",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Ancient Documents** – Statements in ancient documents are admissible if:\n1) It was prepared before __BLANK_1__; **AND**\n2) Its __BLANK_2__ is established.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "January 1, 1998"
+      },
+      {
+        "idx": 2,
+        "answer": "authenticity"
+      }
+    ]
+  },
+  {
     "id": 553,
     "page": 62,
     "subject": "EVIDENCE",
@@ -13496,6 +13744,21 @@
     ]
   },
   {
+    "id": 878,
+    "page": 63,
+    "subject": "EVIDENCE",
+    "sectionHeader": "H. Privileges",
+    "subsectionTitle": "Psychotherapist-Patient Privilege",
+    "priority": "M",
+    "context": "**Psychotherapist-Patient Privilege Exceptions** – include:\n▪ Court-ordered examinations.\n▪ Civil commitment proceedings to determine if hospitalization is required.\n▪ When the condition is placed \"in issue\" by the patient.\n▪ The __BLANK_1__ – the therapist has a duty to warn when he knows (or should know) that the patient poses a serious threat of violence to foreseeable victims.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "dangerous-patient exception"
+      }
+    ]
+  },
+  {
     "id": 566,
     "page": 64,
     "subject": "REAL PROPERTY",
@@ -13610,6 +13873,21 @@
     ]
   },
   {
+    "id": 879,
+    "page": 64,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "A. Present Estates & Future Interests",
+    "subsectionTitle": "Statute of Limitations",
+    "priority": "M",
+    "context": "**Statute of Limitations**\n− Interest in __BLANK_1__ lasts through the applicable statute of limitations (SOL) period.\n− An action for possession may be brought anytime within the SOL period (a set number of years after the action accrued).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Fee Simple Determinable/Subject to Condition Subsequent"
+      }
+    ]
+  },
+  {
     "id": 572,
     "page": 64,
     "subject": "REAL PROPERTY",
@@ -13667,6 +13945,21 @@
     "priority": "H",
     "context": "**Contingent Remainder** – is a future interest in land conditioned upon the occurrence or non-occurrence of a specific event.",
     "blanks": []
+  },
+  {
+    "id": 880,
+    "page": 64,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "A. Present Estates & Future Interests",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Life Estate (Remainderman)** – upon the life-tenant's death, ownership of the property transfers to a specified person.\n− **Remainderman** = person(s) who __BLANK_1__ upon the life-tenant's death.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "receive the property"
+      }
+    ]
   },
   {
     "id": 575,
@@ -14253,6 +14546,25 @@
       {
         "idx": 4,
         "answer": "→ maintenance obligation runs"
+      }
+    ]
+  },
+  {
+    "id": 881,
+    "page": 66,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "C. Landlord & Tenant Issues",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Landlord's Consent for Assignment** → If the lease requires landlord's consent, consent MUST be obtained.\n− Landlord __BLANK_1__ the right to enforce a provision prohibiting assignment if he __BLANK_2__ from the assignee.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "waives"
+      },
+      {
+        "idx": 2,
+        "answer": "accepts rent"
       }
     ]
   },
@@ -14914,6 +15226,25 @@
     ]
   },
   {
+    "id": 882,
+    "page": 68,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "G. Adverse Possession",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Title Acquired** – Is the same title that the original owner possessed.\n**Constructive Adverse Possession** – If a person takes possession of a portion of land under __BLANK_1__ (invalid deed), the adverse possession extends to __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "color of title"
+      },
+      {
+        "idx": 2,
+        "answer": "the entire portion of land described in the deed/title."
+      }
+    ]
+  },
+  {
     "id": 626,
     "page": 68,
     "subject": "REAL PROPERTY",
@@ -15166,6 +15497,29 @@
     ]
   },
   {
+    "id": 883,
+    "page": 69,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "H. Land Conveyances",
+    "subsectionTitle": "Home Builder's Implied Warranty",
+    "priority": "M",
+    "context": "**Breach** – allows a buyer to recover damages discovered within a __BLANK_1__ for:\na) __BLANK_2__; **OR**\nb) Construction not performed in a __BLANK_3__ (the accepted norms of the industry).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "reasonable time"
+      },
+      {
+        "idx": 2,
+        "answer": "Defective construction"
+      },
+      {
+        "idx": 3,
+        "answer": "workmanlike manner"
+      }
+    ]
+  },
+  {
     "id": 638,
     "page": 69,
     "subject": "REAL PROPERTY",
@@ -15286,6 +15640,44 @@
       {
         "idx": 11,
         "answer": "to perfect title ."
+      }
+    ]
+  },
+  {
+    "id": 884,
+    "page": 70,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "I. Title to Real Property",
+    "subsectionTitle": "Types of Deeds",
+    "priority": "M",
+    "context": "**Special Warranty Deed** – Warrants that seller has not breached the covenants of title during the ownership:\n1) Seller has __BLANK_1__; **AND**\n2) No __BLANK_2__ made by seller.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "not previously conveyed the property"
+      },
+      {
+        "idx": 2,
+        "answer": "encumbrances against title"
+      }
+    ]
+  },
+  {
+    "id": 885,
+    "page": 70,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "I. Title to Real Property",
+    "subsectionTitle": "Types of Deeds",
+    "priority": "M",
+    "context": "**Enforcement of Present Covenants**:\n− Common Law & Majority View → present covenants are __BLANK_1__ enforceable by remote grantees.\n− Some States → will enforce the covenant against encumbrances if the remote grantee __BLANK_2__ of the encumbrance.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "NOT"
+      },
+      {
+        "idx": 2,
+        "answer": "did not have notice"
       }
     ]
   },
@@ -15606,6 +15998,25 @@
     ]
   },
   {
+    "id": 886,
+    "page": 71,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "J. Mortgages / Security Devices",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Transfer of a Mortgage Note**\n− Some States → require that the mortgage note be __BLANK_1__ along with the mortgage.\n− Other States → the note automatically follows the mortgage when it's properly assigned (even without notice to the mortgagor).\nA mortgagor is NOT liable to an assignee of the mortgage note (for payments made to the assignor) if:\n1) mortgagor pays assignor, **AND**\n2) never received __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "assigned"
+      },
+      {
+        "idx": 2,
+        "answer": "notice of assignment."
+      }
+    ]
+  },
+  {
     "id": 658,
     "page": 71,
     "subject": "REAL PROPERTY",
@@ -15754,6 +16165,33 @@
     ]
   },
   {
+    "id": 887,
+    "page": 72,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "M. Fair Housing / Discrimination",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**FHA Exemptions** → The FHA does not apply to:\na) __BLANK_1__\nb) __BLANK_2__ that limit occupancy to members;\nc) Owner-occupied buildings with no more than __BLANK_3__ occupied by persons living independently of each other; **OR**\nd) Single-family houses sold or rented by the owner (without the use of an agent) as long as the private landlord/owner __BLANK_4__\n**Discriminatory Advertisements** → are prohibited.\n− A discriminatory ad violates the FHA even if the property falls under an exemption.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Religious organizations;"
+      },
+      {
+        "idx": 2,
+        "answer": "Private clubs"
+      },
+      {
+        "idx": 3,
+        "answer": "4 units"
+      },
+      {
+        "idx": 4,
+        "answer": "doesn't own more than three homes at the time."
+      }
+    ]
+  },
+  {
     "id": 665,
     "page": 72,
     "subject": "REAL PROPERTY",
@@ -15811,6 +16249,21 @@
       {
         "idx": 2,
         "answer": "Future Interests Retained by the Grantor (Reverter or Right of Re-entry),"
+      }
+    ]
+  },
+  {
+    "id": 888,
+    "page": 72,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "N. Rule Against Perpetuities",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Modern Modifications to RAP:**\n− **Wait and See Approach** (Some States) → A non-vested property interest is valid if it actually vests within 21 years after the death of a life in being at the time the interest was created.\n− **Reduction of Age Contingencies** (Some States) → By statute, any age contingency that violates the rule is reduced to __BLANK_1__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "21 years."
       }
     ]
   },
@@ -16101,6 +16554,16 @@
         "answer": "be withdrawn at any time."
       }
     ]
+  },
+  {
+    "id": 889,
+    "page": 74,
+    "subject": "TORTS",
+    "sectionHeader": "B. Intentional Tort Defenses",
+    "subsectionTitle": null,
+    "priority": "M",
+    "context": "**Apparent Consent** → words/conduct are reasonably understood to be consent (i.e. customary practice, failure to object).",
+    "blanks": []
   },
   {
     "id": 679,
@@ -16907,6 +17370,29 @@
       {
         "idx": 1,
         "answer": "in a course of conduct subject to the employer’s control."
+      }
+    ]
+  },
+  {
+    "id": 890,
+    "page": 76,
+    "subject": "TORTS",
+    "sectionHeader": "F. Liability for Acts of Others",
+    "subsectionTitle": null,
+    "priority": "H",
+    "context": "**Time, Place, & Purpose Test** – To determine the scope of employment, courts analyze whether the conduct:\ni) __BLANK_1__\nii) __BLANK_2__; and\niii) Is motivated (in whole or part) to __BLANK_3__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Is of the kind the employee is employed to perform;"
+      },
+      {
+        "idx": 2,
+        "answer": "Occurs substantially within the authorized time and space limits"
+      },
+      {
+        "idx": 3,
+        "answer": "serve the employer."
       }
     ]
   },
