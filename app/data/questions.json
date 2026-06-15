@@ -1279,15 +1279,11 @@
     "sectionHeader": "G. Dissociation & Dissolution",
     "subsectionTitle": "Dissociation (Withdrawal of a Partner)",
     "priority": "H",
-    "context": "**Dissociation (Withdrawal of a Partner)** – A partner may dissociate from the Pship at any time upon notice.\n**Dissociation Events** – A partner becomes dissociated from the Pship upon:\n(a) __BLANK_1__\n(b) The occurrence of an agreed upon event;\n(c) __BLANK_2__\n(d) Expulsion by unanimous vote of the other partners.",
+    "context": "**Dissociation (Withdrawal of a Partner)** – A partner may dissociate from the Pship at *any time* upon notice.\n**Dissociation Events** – A partner becomes dissociated from the Pship upon:\na) __BLANK_1__\nb) The occurrence of an agreed upon event;\nc) Expulsion pursuant to the Pship agreement;\nd) Expulsion by unanimous vote if it's (i) unlawful to carry on the business with that partner *or* (ii) he transferred all of his Pship interest (other than for security purposes);\ne) Judicial expulsion;\nf) Bankruptcy;\ng) Incapacity or death;\nh) Appointment of a personal representative or receiver; **OR**\ni) Termination of an entity partner (who is not an individual, pship, corporation, trust, or estate).",
     "blanks": [
       {
         "idx": 1,
         "answer": "The partner providing notice of their express will to withdraw;"
-      },
-      {
-        "idx": 2,
-        "answer": "Expulsion pursuant to the Pship agreement;"
       }
     ]
   },
@@ -1298,7 +1294,7 @@
     "sectionHeader": "G. Dissociation & Dissolution",
     "subsectionTitle": null,
     "priority": null,
-    "context": "**Wrongful Dissociation** – Dissociation is deemed\nwrongful if:\na) It’s __BLANK_1__ of the\nPship agreement; **OR**\nb) __BLANK_2__ *A wrongfully dissociated partner CANNOT participate in\n__BLANK_3__",
+    "context": "**Wrongful Dissociation** – Dissociation is deemed\nwrongful if:\na) It’s __BLANK_1__ of the\nPship agreement; **OR**\nb) __BLANK_2__ *A wrongfully dissociated partner CANNOT participate in\n__BLANK_3__\nA partner may be liable to the Pship (and other partners) for damages caused by his wrongful dissociation.",
     "blanks": [
       {
         "idx": 1,
@@ -1315,31 +1311,20 @@
     ]
   },
   {
-    "id": 923,
+    "id": 930,
     "page": 12,
     "subject": "PARTNERSHIPS",
     "sectionHeader": "G. Dissociation & Dissolution",
     "subsectionTitle": "Dissolution of a General Partnership",
     "priority": "H",
-    "context": "**Dissolution of a General Partnership**\n**Dissolution Events** – Unless agreed otherwise, dissolution occurs upon:\na) __BLANK_1__;\nb) Occurrence of an agreed upon event;\nc) The business becoming unlawful; **OR**\nd) Judicial dissolution.",
+    "context": "**Dissolution of a General Partnership**\n**Dissolution Events** – Unless agreed otherwise, dissolution occurs upon:\na) __BLANK_1__;\nb) Occurrence of an agreed upon event;\nc) The business becoming unlawful; **OR**\nd) Judicial dissolution.\n**Dissolution of a Pship for a Definite Term occurs**:\na) within __BLANK_2__ after a partner's dissociation by death or wrongful dissociation, if it's the express will of at least half of the remaining partners to wind up (rightful dissociation constitutes the expression of the partner's will to wind-up);\nb) upon the express will of all partners to wind up; **OR**\nc) upon the expiration of the term *or* completion of the Pship's purpose.",
     "blanks": [
       {
         "idx": 1,
         "answer": "Notice of a partner's express will to withdraw"
-      }
-    ]
-  },
-  {
-    "id": 924,
-    "page": 12,
-    "subject": "PARTNERSHIPS",
-    "sectionHeader": "G. Dissociation & Dissolution",
-    "subsectionTitle": "Dissolution of a General Partnership",
-    "priority": "M",
-    "context": "**Dissolution of a Pship for a Definite Term** occurs:\na) within __BLANK_1__ after a partner's dissociation by death or wrongful dissociation, if it's the express will of at least half of the remaining partners to wind up;\nb) upon the express will of all partners to wind up; **OR**\nc) upon the expiration of the term or completion of the Pship's purpose.",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 2,
         "answer": "90-days"
       }
     ]
@@ -1351,7 +1336,7 @@
     "sectionHeader": "G. Dissociation & Dissolution",
     "subsectionTitle": "Dissolution of a General Partnership",
     "priority": "H",
-    "context": "Under RUPA\n(2013):\n− Dissolution may be **rescinded by the**\naffirmative vote or consent __BLANK_1__ continue the business.\n− **Buyout** → In such instance, the dissociated\npartner is entitled to a buyout of their interest\n(value of interest = greater of liquidation or going\nconcern value + interest).\n*Apply RUPA\n(2013) unless instructed otherwise.",
+    "context": "Under RUPA (2013):\n− Dissolution may be **rescinded by the**\naffirmative vote or consent __BLANK_1__ continue the business.\n− **Buyout** → In such instance, the dissociated\npartner is entitled to a buyout of their interest\n(value of interest = greater of liquidation or going\nconcern value + interest).\n*Apply RUPA (2013) unless instructed otherwise.",
     "blanks": [
       {
         "idx": 1,
