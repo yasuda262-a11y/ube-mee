@@ -16016,6 +16016,25 @@
     ]
   },
   {
+    "id": 785,
+    "page": 71,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "K. Zoning",
+    "subsectionTitle": "Deed of Trust",
+    "priority": "M",
+    "context": "**Deed of Trust** – Similar to a mortgage, but involves 3 parties:\n1) __BLANK_1__\n2) Lender; and\n3) Trustee.\nThe mortgage automatically follows the note when it is __BLANK_2__ (even without notice to the mortgagor).",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Borrower (the purchaser of the property);"
+      },
+      {
+        "idx": 2,
+        "answer": "properly assigned"
+      }
+    ]
+  },
+  {
     "id": 652,
     "page": 71,
     "subject": "REAL PROPERTY",
@@ -16236,25 +16255,6 @@
       {
         "idx": 1,
         "answer": "Insubstantial changes and reasonable alterations to repair the property →"
-      }
-    ]
-  },
-  {
-    "id": 785,
-    "page": 71,
-    "subject": "REAL PROPERTY",
-    "sectionHeader": "K. Zoning",
-    "subsectionTitle": "Deed of Trust",
-    "priority": "M",
-    "context": "**Deed of Trust** – Similar to a mortgage, but involves 3 parties:\n1) __BLANK_1__\n2) Lender; and\n3) Trustee.\nThe mortgage automatically follows the note when it is __BLANK_2__ (even without notice to the mortgagor).",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "Borrower (the purchaser of the property);"
-      },
-      {
-        "idx": 2,
-        "answer": "properly assigned"
       }
     ]
   },
