@@ -11228,7 +11228,7 @@
     "sectionHeader": "G. Arrest, Search, & Seizure (4th Amendment)",
     "subsectionTitle": "Consent",
     "priority": "M",
-    "context": "**++Consent++** – must be __BLANK_1__ − A third-person with authority MAY consent.\n− If 2 or more people share authority __BLANK_2__ consent, but police cannot search\n__BLANK_3__ only the non-consenting\nperson has authority to give [i.e. private\nbedroom]).",
+    "context": "**++Consent++** – must be __BLANK_1__ − A third-person with authority MAY consent.\n− If 2 or more people share authority __BLANK_2__ consent, but police cannot search __BLANK_3__ only the non-consenting\nperson has authority to give [i.e. private\nbedroom]).",
     "blanks": [
       {
         "idx": 1,
