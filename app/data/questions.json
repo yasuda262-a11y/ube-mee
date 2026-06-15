@@ -2429,7 +2429,7 @@
     "sectionHeader": "H. Officers",
     "subsectionTitle": "Authority of Officers",
     "priority": "M",
-    "context": "President → Generally, has authority for matters within\n__BLANK_1__ (but not extraordinary\nacts).\nSecretary → Generally, has authority to __BLANK_2__ the company.",
+    "context": "President → Generally, has authority for matters within\n__BLANK_1__ (but not extraordinary\nacts).\n**Secretary** → Generally, has authority to __BLANK_2__ the company.",
     "blanks": [
       {
         "idx": 1,
