@@ -8015,6 +8015,16 @@
     ]
   },
   {
+    "id": 898,
+    "page": 0,
+    "subject": "CONTRACTS",
+    "sectionHeader": "DEFENSES TO FORMATION",
+    "subsectionTitle": "Public Policy",
+    "priority": 0,
+    "context": "**Public Policy** – Courts will NOT enforce contracts that are contrary to public policy.",
+    "blanks": []
+  },
+  {
     "id": 337,
     "page": 42,
     "subject": "CONTRACTS",
@@ -8044,7 +8054,7 @@
     "sectionHeader": "C. Defenses to Formation / Enforceability",
     "subsectionTitle": "Misunderstanding (Ambiguity as to Contract Term)",
     "priority": "M",
-    "context": "Usually need BOTH:\n− **Procedural Unconscionability** → Unfair\nBargaining – one party has __BLANK_1__ uses that power to their advantage.\n− **Substantive Unconscionability** → Unfair\nTerms – contract contains terms that are\nobviously __BLANK_2__ favor of the\nparty with the superior bargaining power.",
+    "context": "**Unconscionability** – Occurs when the contract/term *shocks the conscience of the court.*\n\nUsually need BOTH:\n− **Procedural Unconscionability** → Unfair\nBargaining – one party has __BLANK_1__ uses that power to their advantage.\n− **Substantive Unconscionability** → Unfair\nTerms – contract contains terms that are\nobviously __BLANK_2__ favor of the\nparty with the superior bargaining power.",
     "blanks": [
       {
         "idx": 1,
@@ -8057,13 +8067,23 @@
     ]
   },
   {
+    "id": 899,
+    "page": 0,
+    "subject": "CONTRACTS",
+    "sectionHeader": "DEFENSES TO FORMATION",
+    "subsectionTitle": "Unconscionability – Court Remedies",
+    "priority": 0,
+    "context": "If unconscionable, the court MAY:\na) Refuse to enforce the contract;\nb) Enforce the contract without the unconscionable term; **OR**\nc) Limit the application of the term.",
+    "blanks": []
+  },
+  {
     "id": 339,
     "page": 42,
     "subject": "CONTRACTS",
     "sectionHeader": "C. Defenses to Formation / Enforceability",
     "subsectionTitle": "Statute of Frauds (SOF)",
     "priority": "H",
-    "context": "Writing Requirement – Writing must\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__ AND\n(4) __BLANK_4__",
+    "context": "**Statute of Frauds (SOF)** – Contracts subject to SOF are *not valid* UNLESS in writing.\n\nWriting Requirement – Writing must\n(1) __BLANK_1__\n(2) __BLANK_2__\n(3) __BLANK_3__ AND\n(4) __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -8129,7 +8149,7 @@
     "sectionHeader": "C. Defenses to Formation / Enforceability",
     "subsectionTitle": "Statute of Frauds (SOF)",
     "priority": "H",
-    "context": "UCC SOF Exceptions:\n▪ __BLANK_1__ –\ncontract between two merchants, a writing\nsigned only by the party enforcing it, __BLANK_2__\n▪ __BLANK_3__ but only applies\nfor those goods, not the whole contract.\n▪ __BLANK_4__ seller made substantial\nstart and the goods are not suitable for sale in\nthe ordinary course of seller’s business.",
+    "context": "UCC SOF Exceptions:\n▪ __BLANK_1__ –\ncontract between two merchants, a writing\nsigned only by the party enforcing it, __BLANK_2__\n▪ __BLANK_3__ but only applies\nfor those goods, not the whole contract.\n▪ __BLANK_4__ seller made substantial\nstart and the goods are not suitable for sale in\nthe ordinary course of seller’s business.\n▪ __BLANK_5__ an\nadmission during a judicial proceeding.",
     "blanks": [
       {
         "idx": 1,
@@ -8146,20 +8166,9 @@
       {
         "idx": 4,
         "answer": "Custom Made Goods –"
-      }
-    ]
-  },
-  {
-    "id": 342,
-    "page": 43,
-    "subject": "CONTRACTS",
-    "sectionHeader": "C. Defenses to Formation / Enforceability",
-    "subsectionTitle": null,
-    "priority": "H",
-    "context": "▪ __BLANK_1__ an\nadmission during a judicial proceeding.",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 5,
         "answer": "Judicial Admission/Acknowledgment –"
       }
     ]
@@ -8233,7 +8242,7 @@
     "sectionHeader": "D. Contract Content & Meaning",
     "subsectionTitle": "Parol Evidence Rule",
     "priority": "H",
-    "context": "Exceptions:\n1) To __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ courts will interpret using the __BLANK_4__\n4) To __BLANK_5__ *Note: The **Parol Evidence Rule** DOES NOT apply to\nsubsequent agreements.",
+    "context": "Exceptions:\n1) To __BLANK_1__\n2) __BLANK_2__\n3) __BLANK_3__ courts will interpret using the __BLANK_4__\n4) To __BLANK_5__ \n*Note: The **Parol Evidence Rule** DOES NOT apply to\nsubsequent agreements.",
     "blanks": [
       {
         "idx": 1,
@@ -8289,7 +8298,7 @@
     "sectionHeader": "D. Contract Content & Meaning",
     "subsectionTitle": "UCC Omitted & Implied Terms",
     "priority": "M",
-    "context": "**UCC Omitted & Implied Terms** – If not agreed upon,\nthe court will fill in default contract terms __BLANK_1__\nUCC Gap Fillers:\n− **Price** → __BLANK_2__\n− **Time for Payment** __BLANK_3__\n− **Time for Shipment/Delivery** → within a\n__BLANK_4__ at a reasonable hour\n− **Place for Delivery** __BLANK_5__ o Seller's residence (if no place of\nbusiness).\no If identified goods **are** known by parties\nto be at some other place, that is the\nplace of delivery.\n*Note: Contract terms may be established by __BLANK_6__ and/or __BLANK_7__",
+    "context": "**UCC Omitted & Implied Terms** – If not agreed upon,\nthe court will fill in default contract terms __BLANK_1__\n\nUCC Gap Fillers:\n− **Price** → __BLANK_2__\n− **Time for Payment** __BLANK_3__\n− **Time for Shipment/Delivery** → within a\n__BLANK_4__ at a reasonable hour\n− **Place for Delivery** __BLANK_5__ o Seller's residence (if no place of\nbusiness).\no If identified goods **are** known by parties\nto be at some other place, that is the\nplace of delivery.\n*Note: Contract terms may be established by __BLANK_6__ and/or __BLANK_7__",
     "blanks": [
       {
         "idx": 1,
@@ -8546,7 +8555,7 @@
     "sectionHeader": "E. Performance, Breach, & Discharge",
     "subsectionTitle": "UCC Acceptance & Revocation of Acceptance",
     "priority": "H",
-    "context": "**Acceptance of Goods** – Occurs when:\na) After reasonable opportunity to inspect, buyer\nsignifies to seller that goods are conforming\nor that it will retain them despite a non-\nconformity;\nb) __BLANK_1__ a reasonable\nopportunity to inspect; **OR**\nc) Does __BLANK_2__ the goods.",
+    "context": "**Acceptance of Goods** – Occurs when:\na) After reasonable opportunity to inspect, buyer\nsignifies to seller that goods are conforming\nor that it will retain them despite a non-\nconformity;\nb) __BLANK_1__ a reasonable\nopportunity to inspect; **OR**\nc) Does __BLANK_2__ the goods.\nBuyer is obligated to pay for goods once *accepted* UNLESS Revocation of Acceptance is allowed.",
     "blanks": [
       {
         "idx": 1,
