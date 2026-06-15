@@ -13922,6 +13922,25 @@
     ]
   },
   {
+    "id": 783,
+    "page": 64,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "B. Co-Tenancy",
+    "subsectionTitle": "Fee Tail",
+    "priority": "M",
+    "context": "**Fee Tail** – A conveyance of real property to a person AND their lineal heirs.\n__BLANK_1__ in most jurisdictions; is treated as a __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "Abolished"
+      },
+      {
+        "idx": 2,
+        "answer": "fee simple absolute."
+      }
+    ]
+  },
+  {
     "id": 567,
     "page": 64,
     "subject": "REAL PROPERTY",
@@ -14183,25 +14202,6 @@
     ]
   },
   {
-    "id": 783,
-    "page": 64,
-    "subject": "REAL PROPERTY",
-    "sectionHeader": "B. Co-Tenancy",
-    "subsectionTitle": "Fee Tail",
-    "priority": "M",
-    "context": "**Fee Tail** – A conveyance of real property to a person AND their lineal heirs.\n__BLANK_1__ in most jurisdictions; is treated as a __BLANK_2__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "Abolished"
-      },
-      {
-        "idx": 2,
-        "answer": "fee simple absolute."
-      }
-    ]
-  },
-  {
     "id": 578,
     "page": 65,
     "subject": "REAL PROPERTY",
@@ -14344,7 +14344,7 @@
     "sectionHeader": "C. Landlord & Tenant Issues",
     "subsectionTitle": "Types of Leasehold Interests",
     "priority": "H",
-    "context": "3 Types:\n**__BLANK_1__** lasts for __BLANK_2__ automatically terminated after the period ends.",
+    "context": "3 Types:\n**__BLANK_1__** lasts for __BLANK_2__ automatically terminated after the period ends.\n**__BLANK_3__** – lasts for initial period, then\n__BLANK_4__ (weekly/monthly) until terminated __BLANK_5__\n− Is created by:\n(a) express agreement;\n(b) __BLANK_6__ if rent is paid at specific periods; **OR**\n(c) law (when a tenant-for-years remains after\ntermination of the period or lease is invalid).\n− Termination __BLANK_7__ (if yearly, 6 months' notice is required).\n__BLANK_8__ continues until either party\nterminates it; usually created by express agreement.\n− Termination __BLANK_9__ some states, no notice is\nrequired).",
     "blanks": [
       {
         "idx": 1,
@@ -14353,55 +14353,33 @@
       {
         "idx": 2,
         "answer": "a fixed period of time;"
-      }
-    ]
-  },
-  {
-    "id": 791,
-    "page": 65,
-    "subject": "REAL PROPERTY",
-    "sectionHeader": "C. Landlord & Tenant Issues",
-    "subsectionTitle": "Types of Leasehold Interests",
-    "priority": "H",
-    "context": "**__BLANK_1__** – lasts for initial period, then\n__BLANK_2__ (weekly/monthly) until terminated __BLANK_3__\n− Is created by:\n(a) express agreement;\n(b) __BLANK_4__ if rent is paid at specific periods; **OR**\n(c) law (when a tenant-for-years remains after\ntermination of the period or lease is invalid).\n− Termination __BLANK_5__ (if yearly, 6 months' notice is required).",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "(2) Periodic Tenancy"
-      },
-      {
-        "idx": 2,
-        "answer": "automatically continues for additional equal periods"
       },
       {
         "idx": 3,
-        "answer": "by proper notice."
+        "answer": "(2) Periodic Tenancy"
       },
       {
         "idx": 4,
-        "answer": "implication"
+        "answer": "automatically continues for additional equal periods"
       },
       {
         "idx": 5,
-        "answer": "→ written notice at least a full period in advance"
-      }
-    ]
-  },
-  {
-    "id": 587,
-    "page": 65,
-    "subject": "REAL PROPERTY",
-    "sectionHeader": "C. Landlord & Tenant Issues",
-    "subsectionTitle": null,
-    "priority": null,
-    "context": "__BLANK_1__ continues until either party\nterminates it; usually created by express agreement.\n− Termination __BLANK_2__ some states, no notice is\nrequired).",
-    "blanks": [
+        "answer": "by proper notice."
+      },
       {
-        "idx": 1,
+        "idx": 6,
+        "answer": "implication"
+      },
+      {
+        "idx": 7,
+        "answer": "→ written notice at least a full period in advance"
+      },
+      {
+        "idx": 8,
         "answer": "(3) Tenancy at Will –"
       },
       {
-        "idx": 2,
+        "idx": 9,
         "answer": "→ notice + reasonable time to quit the premises (in"
       }
     ]
@@ -14478,7 +14456,7 @@
     "sectionHeader": "C. Landlord & Tenant Issues",
     "subsectionTitle": "Rent from Co-Tenant",
     "priority": "M",
-    "context": "When a hold-over occurs, __BLANK_1__ created __BLANK_2__ the original\nlease.\n− If tenant is informed __BLANK_3__ the\nend of the __BLANK_4__",
+    "context": "When a hold-over occurs, __BLANK_1__ created __BLANK_2__ the original\nlease.\n− If tenant is informed __BLANK_3__ the\nend of the __BLANK_4__\n**Duration**:\n− Modern View → month-to-month tenancy is created.\n− Common Law → term is equal to original tenancy period.",
     "blanks": [
       {
         "idx": 1,
@@ -14738,7 +14716,7 @@
     "sectionHeader": "C. Landlord & Tenant Issues",
     "subsectionTitle": "Subleases",
     "priority": "L",
-    "context": "**Subleases** – when a tenant (sublessor) __BLANK_1__ − Tenant may freely sublet UNLESS a provision in\nthe lease states otherwise.\n− A sublease CANNOT be for a longer period than\nthe remaining lease term.",
+    "context": "**Subleases** – when a tenant (sublessor) __BLANK_1__ − Tenant may freely sublet UNLESS a provision in\nthe lease states otherwise.\n− A sublease CANNOT be for a longer period than\nthe remaining lease term.\nSublessee is NOT liable to the landlord for rent or other covenants (there is no privity of estate).\n− Sublessor (original tenant) remains liable to landlord for rent (privity of contract).",
     "blanks": [
       {
         "idx": 1,
@@ -14753,7 +14731,7 @@
     "sectionHeader": "C. Landlord & Tenant Issues",
     "subsectionTitle": "Surrender of a Lease",
     "priority": "H",
-    "context": "__BLANK_1__ of a Lease – an agreement to end a lease\nearly.\n− **Landlord** __BLANK_2__ the\nlease (unless otherwise agreed).\n− An attempt to end the lease early (such as\nleaving the keys) DOES NOT constitute a\nsurrender __BLANK_3__",
+    "context": "__BLANK_1__ of a Lease – an agreement to end a lease\nearly.\n− **Landlord** __BLANK_2__ the\nlease (unless otherwise agreed).\n− An attempt to end the lease early (such as\nleaving the keys) DOES NOT constitute a\nsurrender __BLANK_3__\nIf landlord:\n− ACCEPTS the surrender → tenant’s duty to\npay rent (after the acceptance) ends.\n− DOES NOT accept the surrender → tenant is\ndeemed __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
@@ -14766,20 +14744,9 @@
       {
         "idx": 3,
         "answer": "unless landlord clearly accepts."
-      }
-    ]
-  },
-  {
-    "id": 604,
-    "page": 66,
-    "subject": "REAL PROPERTY",
-    "sectionHeader": "C. Landlord & Tenant Issues",
-    "subsectionTitle": "Surrender of a Lease",
-    "priority": "H",
-    "context": "If landlord:\n− ACCEPTS the surrender → tenant’s duty to\npay rent (after the acceptance) ends.\n− DOES NOT accept the surrender → tenant is\ndeemed __BLANK_1__",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 4,
         "answer": "to have abandoned and is liable for damages."
       }
     ]
@@ -14975,7 +14942,7 @@
     "sectionHeader": "D. Covenants & Equitable Servitudes",
     "subsectionTitle": "Common Scheme or Plan Doctrine",
     "priority": "L",
-    "context": "**Common Scheme or Plan Doctrine** – courts will imply\n__BLANK_1__ on land parcels in a\nsubdivision sold by a developer ONLY IF:\n1) Developer had __BLANK_2__ ALL parcels would be subject __BLANK_3__ **AND**\n2) Land owner __BLANK_4__ the restriction – (a)\nactual, (b) constructive/record, or (c) inquiry –\nobvious from looking at the subdivision.",
+    "context": "**Common Scheme or Plan Doctrine** – courts will imply\n__BLANK_1__ on land parcels in a\nsubdivision sold by a developer ONLY IF:\n1) Developer had __BLANK_2__ ALL parcels would be subject __BLANK_3__ **AND**\n2) Land owner __BLANK_4__ the restriction – (a)\nactual, (b) constructive/record, or (c) inquiry –\nobvious from looking at the subdivision.\nReciprocal negative servitudes *only apply* to negative covenants and equitable servitudes.",
     "blanks": [
       {
         "idx": 1,
@@ -15247,6 +15214,16 @@
     ]
   },
   {
+    "id": 906,
+    "page": 0,
+    "subject": "REAL PROPERTY",
+    "sectionHeader": "EASEMENTS & OTHER NON-POSSESSORY INTERESTS",
+    "subsectionTitle": "Profit",
+    "priority": 0,
+    "context": "**Profit** – gives the holder the right to take natural resources such as petroleum, minerals, timber, and wild game from the land of another.",
+    "blanks": []
+  },
+  {
     "id": 621,
     "page": 68,
     "subject": "REAL PROPERTY",
@@ -15330,7 +15307,7 @@
     "sectionHeader": "G. Adverse Possession",
     "subsectionTitle": "Adverse Possession",
     "priority": "H",
-    "context": "**Elements** – The possession must be:\n1) __BLANK_1__ the statutory period;\n2) __BLANK_2__ use that would put a true\nowner on notice;\n3) __BLANK_3__\n4) __BLANK_4__ possess the land as a true owner\nwould; **AND**\n5) __BLANK_5__ (without the\ntrue owner’s consent).",
+    "context": "**Adverse Possession** – Allows a possessor of land to acquire title to that land.\n\n**Elements** – The possession must be:\n1) __BLANK_1__ the statutory period;\n2) __BLANK_2__ use that would put a true\nowner on notice;\n3) __BLANK_3__\n4) __BLANK_4__ possess the land as a true owner\nwould; **AND**\n5) __BLANK_5__ (without the\ntrue owner’s consent).",
     "blanks": [
       {
         "idx": 1,
