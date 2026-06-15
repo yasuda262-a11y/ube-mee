@@ -17265,48 +17265,26 @@
     "sectionHeader": "C. Negligence",
     "subsectionTitle": "Causation",
     "priority": "H",
-    "context": "**Causation** – P must show that D’s conduct was BOTH\n__BLANK_1__ the injury.",
+    "context": "**Causation** – P must show that D’s conduct was BOTH\n__BLANK_1__ the injury.\n**Actual Cause** → the __BLANK_2__ cause.\n− Substantial Factor Test – deemed an actual\ncause if it’s __BLANK_3__ bringing\nabout the injury (even if __BLANK_4__\n**Proximate Cause** → injury must have been a\n__BLANK_5__ of the breach.\n− D is NOT liable for remote harms caused.",
     "blanks": [
       {
         "idx": 1,
         "answer": "the actual and proximate cause of"
-      }
-    ]
-  },
-  {
-    "id": 703,
-    "page": 75,
-    "subject": "TORTS",
-    "sectionHeader": "C. Negligence",
-    "subsectionTitle": "Causation",
-    "priority": "H",
-    "context": "**Actual Cause** → the __BLANK_1__ cause.\n− Substantial Factor Test – deemed an actual\ncause if it’s __BLANK_2__ bringing\nabout the injury (even if __BLANK_3__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "“but for”"
       },
       {
         "idx": 2,
-        "answer": "a substantial factor in"
+        "answer": "“but for”"
       },
       {
         "idx": 3,
-        "answer": "there are multiple causes)."
-      }
-    ]
-  },
-  {
-    "id": 704,
-    "page": 75,
-    "subject": "TORTS",
-    "sectionHeader": "C. Negligence",
-    "subsectionTitle": "Causation",
-    "priority": "H",
-    "context": "**Proximate Cause** → injury must have been a\n__BLANK_1__ of the breach.\n− D is NOT liable for remote harms caused.",
-    "blanks": [
+        "answer": "a substantial factor in"
+      },
       {
-        "idx": 1,
+        "idx": 4,
+        "answer": "there are multiple causes)."
+      },
+      {
+        "idx": 5,
         "answer": "foreseeable result"
       }
     ]
@@ -17345,7 +17323,7 @@
     "sectionHeader": "C. Negligence",
     "subsectionTitle": null,
     "priority": "H",
-    "context": "**Criminal Acts** → usually NOT foreseeable UNLESS:\na) D __BLANK_1__ **OR**\nb) D’s __BLANK_2__",
+    "context": "**Medical Malpractice** → is ALWAYS deemed foreseeable.\n\n**Criminal Acts** → usually NOT foreseeable UNLESS:\na) D __BLANK_1__ **OR**\nb) D’s __BLANK_2__",
     "blanks": [
       {
         "idx": 1,
@@ -17735,6 +17713,67 @@
     ]
   },
   {
+    "id": 786,
+    "page": 77,
+    "subject": "TORTS",
+    "sectionHeader": "H. Economic Torts",
+    "subsectionTitle": "Indemnification",
+    "priority": "M",
+    "context": "**Indemnification** – A __BLANK_1__ tortfeasor can assert its claim against an __BLANK_2__ tortfeasor to recover the __BLANK_3__ it paid (or may have to pay) to P.",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "passive"
+      },
+      {
+        "idx": 2,
+        "answer": "active"
+      },
+      {
+        "idx": 3,
+        "answer": "FULL amount"
+      }
+    ]
+  },
+  {
+    "id": 787,
+    "page": 77,
+    "subject": "TORTS",
+    "sectionHeader": "H. Economic Torts",
+    "subsectionTitle": "Contribution",
+    "priority": "M",
+    "context": "**Contribution** – D may seek contribution from other Ds if he pays __BLANK_1__\nThe amount recoverable from each D is based on __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "more than his share of the liability."
+      },
+      {
+        "idx": 2,
+        "answer": "each's percentage share of fault."
+      }
+    ]
+  },
+  {
+    "id": 788,
+    "page": 77,
+    "subject": "TORTS",
+    "sectionHeader": "H. Economic Torts",
+    "subsectionTitle": "Doctrine of Alternative Liability",
+    "priority": "H",
+    "context": "**Doctrine of Alternative Liability** – Allows a jury to find ALL Ds liable if:\n1) __BLANK_1__\n2) but it's unclear __BLANK_2__",
+    "blanks": [
+      {
+        "idx": 1,
+        "answer": "multiple Ds are negligent,"
+      },
+      {
+        "idx": 2,
+        "answer": "which one caused P's injuries."
+      }
+    ]
+  },
+  {
     "id": 722,
     "page": 77,
     "subject": "TORTS",
@@ -17764,7 +17803,7 @@
     "sectionHeader": "G. Liability of Multiple Defendants",
     "subsectionTitle": "Doctrine of Market Share Liability",
     "priority": "H",
-    "context": "Doctrine __BLANK_1__ – If applicable, all\nmanufacturers (of products identical to the one that\nharmed P) are __BLANK_2__",
+    "context": "Doctrine __BLANK_1__ – If applicable, all\nmanufacturers (of products identical to the one that\nharmed P) are __BLANK_2__\nMarket Share Liability is appropriate if:\n1) All Ds __BLANK_3__\n2) Products __BLANK_4__ (or were “fungible”);\n3) P is __BLANK_5__ through no fault of his own; **AND**\n4) __BLANK_6__",
     "blanks": [
       {
         "idx": 1,
@@ -17773,32 +17812,21 @@
       {
         "idx": 2,
         "answer": "liable in proportion to their share of the market."
-      }
-    ]
-  },
-  {
-    "id": 724,
-    "page": 77,
-    "subject": "TORTS",
-    "sectionHeader": "G. Liability of Multiple Defendants",
-    "subsectionTitle": "Doctrine of Market Share Liability",
-    "priority": "H",
-    "context": "Market Share Liability is appropriate if:\n1) All Ds __BLANK_1__\n2) Products __BLANK_2__ (or were “fungible”);\n3) P is __BLANK_3__ through no fault of his own; **AND**\n4) __BLANK_4__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "are potential tortfeasors;"
-      },
-      {
-        "idx": 2,
-        "answer": "are identical and share the same defective qualities"
       },
       {
         "idx": 3,
-        "answer": "unable to identify which D caused his injury"
+        "answer": "are potential tortfeasors;"
       },
       {
         "idx": 4,
+        "answer": "are identical and share the same defective qualities"
+      },
+      {
+        "idx": 5,
+        "answer": "unable to identify which D caused his injury"
+      },
+      {
+        "idx": 6,
         "answer": "Substantially all of the manufacturers of the product are named as Ds."
       }
     ]
@@ -17915,90 +17943,6 @@
       {
         "idx": 1,
         "answer": "negligence."
-      }
-    ]
-  },
-  {
-    "id": 786,
-    "page": 77,
-    "subject": "TORTS",
-    "sectionHeader": "H. Economic Torts",
-    "subsectionTitle": "Indemnification",
-    "priority": "M",
-    "context": "**Indemnification** – A __BLANK_1__ tortfeasor can assert its claim against an __BLANK_2__ tortfeasor to recover the __BLANK_3__ it paid (or may have to pay) to P.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "passive"
-      },
-      {
-        "idx": 2,
-        "answer": "active"
-      },
-      {
-        "idx": 3,
-        "answer": "FULL amount"
-      }
-    ]
-  },
-  {
-    "id": 787,
-    "page": 77,
-    "subject": "TORTS",
-    "sectionHeader": "H. Economic Torts",
-    "subsectionTitle": "Contribution",
-    "priority": "M",
-    "context": "**Contribution** – D may seek contribution from other Ds if he pays __BLANK_1__\nThe amount recoverable from each D is based on __BLANK_2__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "more than his share of the liability."
-      },
-      {
-        "idx": 2,
-        "answer": "each's percentage share of fault."
-      }
-    ]
-  },
-  {
-    "id": 788,
-    "page": 77,
-    "subject": "TORTS",
-    "sectionHeader": "H. Economic Torts",
-    "subsectionTitle": "Doctrine of Alternative Liability",
-    "priority": "H",
-    "context": "**Doctrine of Alternative Liability** – Allows a jury to find ALL Ds liable if:\n1) __BLANK_1__\n2) but it's unclear __BLANK_2__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "multiple Ds are negligent,"
-      },
-      {
-        "idx": 2,
-        "answer": "which one caused P's injuries."
-      }
-    ]
-  },
-  {
-    "id": 789,
-    "page": 77,
-    "subject": "TORTS",
-    "sectionHeader": "H. Economic Torts",
-    "subsectionTitle": "Doctrine of Joint Enterprise",
-    "priority": "H",
-    "context": "**Doctrine of Joint Enterprise** – Allows the negligence of one D to be __BLANK_1__ other Ds if:\n1) Multiple Ds are engaged in __BLANK_2__\n2) All Ds have made an __BLANK_3__ to engage in tortious conduct.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "imputed to"
-      },
-      {
-        "idx": 2,
-        "answer": "a common project or enterprise;"
-      },
-      {
-        "idx": 3,
-        "answer": "explicit/implied agreement"
       }
     ]
   },
@@ -18580,7 +18524,7 @@
     "sectionHeader": "J. Products Liability",
     "subsectionTitle": "strictly liable",
     "priority": "M",
-    "context": "**Duty Owed** → Product suppliers owe a duty __BLANK_1__ and MUST act as __BLANK_2__ would for the type of product.",
+    "context": "**Duty Owed** → Product suppliers owe a duty __BLANK_1__ and MUST act as __BLANK_2__ would for the type of product.\n− **Breach** → will be found if a **supplier's negligence results in a defective product**.\n− Suppliers are also liable for all *foreseeable misuses* of the product.\n*Negligence MUST be shown.",
     "blanks": [
       {
         "idx": 1,
@@ -18591,6 +18535,16 @@
         "answer": "a reasonably prudent supplier"
       }
     ]
+  },
+  {
+    "id": 912,
+    "page": 0,
+    "subject": "TORTS",
+    "sectionHeader": "PRODUCTS LIABILITY",
+    "subsectionTitle": "Liability for Breach of Warranty",
+    "priority": 0,
+    "context": "**Liability for Breach of Warranty** – may be based on a breach of an express or implied warranty.\n− Damages for Breach → personal injury, property damage, and economic loss.\n− Disclaimer of Warranties → usually NOT effective for a personal injury action.",
+    "blanks": []
   },
   {
     "id": 755,
@@ -18625,5 +18579,15 @@
         "answer": "buyer’s particular purpose"
       }
     ]
+  },
+  {
+    "id": 913,
+    "page": 0,
+    "subject": "TORTS",
+    "sectionHeader": "PRODUCTS LIABILITY",
+    "subsectionTitle": "Express Warranty",
+    "priority": 0,
+    "context": "**Express Warranty** → created when (1) a seller makes an affirmation of fact, promise, description, or provides a sample, (2) which relates to the goods, **AND** (3) it becomes part of the basis of the bargain.",
+    "blanks": []
   }
 ]
