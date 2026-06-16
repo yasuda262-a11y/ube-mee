@@ -863,8 +863,8 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
           </div>
 
           <div className="flex gap-2">
-            <button type="button" onClick={handleReset}
-              className="flex items-center gap-1.5 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-400 hover:text-gray-600 text-sm transition-colors">
+            <button type="button" disabled
+              className="flex items-center gap-1.5 px-4 py-3 rounded-2xl border-2 border-gray-200 text-gray-300 text-sm cursor-not-allowed opacity-40">
               <RotateCcw size={15} />リセット
             </button>
             <button type="button" onClick={() => setEditMode(false)}
