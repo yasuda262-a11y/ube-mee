@@ -16015,39 +16015,18 @@
     "sectionHeader": "J. Mortgages / Security Devices",
     "subsectionTitle": "Future-Advance Mortgage",
     "priority": "H",
-    "context": "**++Future-Advance Mortgage++** – Is a loan by which the\nlender may provide future payments under the original\nloan.\n− Lender secures the mortgage for the ENTIRE\namount the __BLANK_1__",
+    "context": "**++Future-Advance Mortgage++** – Is a loan by which the\nlender may provide future payments under the original\nloan.\n− Lender secures the mortgage for the ENTIRE\namount the __BLANK_1__\n\n**++Obligatory vs. Optional Future Payments++**:\n− **++Obligatory++** → lender has a duty to advance funds regardless of the situation (no discretion).\n− **++Optional++** → lender has discretion whether to make future advances.\n\nPriority Over Other Creditors:\n− Future payments are **++obligatory++** → ALL\npayments __BLANK_2__ and have\npriority over later liens.\n− Future payments are **++optional++** → the future\npayment(s) __BLANK_3__ liens\nrecorded before the payment is made.",
     "blanks": [
       {
         "idx": 1,
         "answer": "loan, including future advances."
-      }
-    ]
-  },
-  {
-    "id": 909,
-    "page": 0,
-    "subject": "REAL PROPERTY",
-    "sectionHeader": "MORTGAGES",
-    "subsectionTitle": "Obligatory vs. Optional Future Payments",
-    "priority": 0,
-    "context": "**++Obligatory vs. Optional Future Payments++**:\n− **++Obligatory++** → lender has a duty to advance funds regardless of the situation (no discretion).\n− **++Optional++** → lender has discretion whether to make future advances.",
-    "blanks": []
-  },
-  {
-    "id": 651,
-    "page": 71,
-    "subject": "REAL PROPERTY",
-    "sectionHeader": "J. Mortgages / Security Devices",
-    "subsectionTitle": null,
-    "priority": "H",
-    "context": "Priority Over Other Creditors:\n− Future payments are **++obligatory++** → ALL\npayments __BLANK_1__ and have\npriority over later liens.\n− Future payments are **++optional++** → the future\npayment(s) __BLANK_2__ liens\nrecorded before the payment is made.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "are part of the original loan"
       },
       {
         "idx": 2,
+        "answer": "are part of the original loan"
+      },
+      {
+        "idx": 3,
         "answer": "DO NOT have priority over"
       }
     ]
