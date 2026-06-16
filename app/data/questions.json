@@ -11360,37 +11360,26 @@
     "sectionHeader": "H. Confessions & Privilege Against Self-Incrimination",
     "subsectionTitle": "Privilege Against Self-Incrimination (5th Amend.)",
     "priority": "H",
-    "context": "**++Miranda Rights++** – attach when a suspect is in a\n**__BLANK_1__**",
+    "context": "**++Miranda Rights++** – attach when a suspect is in a\n**__BLANK_1__**\n− Police must give Miranda warnings →\n(1) right to __BLANK_2__\n(2) __BLANK_3__\n(3) right to __BLANK_4__\n(4) __BLANK_5__\n− Statements made in violation of a suspect's Miranda\nrights are subject to the Exclusionary Rule.",
     "blanks": [
       {
         "idx": 1,
         "answer": "custodial interrogation."
-      }
-    ]
-  },
-  {
-    "id": 468,
-    "page": 54,
-    "subject": "CRIMINAL LAW & PROCEDURE",
-    "sectionHeader": "H. Confessions & Privilege Against Self-Incrimination",
-    "subsectionTitle": null,
-    "priority": "H",
-    "context": "− Police must give Miranda warnings →\n(1) right to __BLANK_1__\n(2) __BLANK_2__\n(3) right to __BLANK_3__\n(4) __BLANK_4__\n*Statements made in violation of a suspect's Miranda\nrights are subject to the Exclusionary Rule.",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "remain silent,"
       },
       {
         "idx": 2,
-        "answer": "anything said can be used against suspect in court,"
+        "answer": "remain silent,"
       },
       {
         "idx": 3,
-        "answer": "talk to an attorney and have one present when they are questioned,"
+        "answer": "anything said can be used against suspect in court,"
       },
       {
         "idx": 4,
+        "answer": "talk to an attorney and have one present when they are questioned,"
+      },
+      {
+        "idx": 5,
         "answer": "if cannot afford an attorney, one will be provided."
       }
     ]
