@@ -10142,38 +10142,26 @@
     "sectionHeader": "H. Remedies",
     "subsectionTitle": "Waste Doctrine",
     "priority": "H",
-    "context": "**++Waste Doctrine++** – When an award for cost of completion\nis wasteful, a court may award damages __BLANK_1__ difference in value of the property/land).\n− This may be awarded instead of expectation\ndamages.",
+    "context": "**++Waste Doctrine++** – When an award for cost of completion\nis wasteful, a court may award damages __BLANK_1__ difference in value of the property/land).\n− This may be awarded instead of expectation damages.\n\nWaste doctrine applies if:\n1) __BLANK_2__ but defects exist; **AND**\n2) Remedying the defects would entail economic waste (the cost of __BLANK_3__ the value of the completed work).\n*Normally seen in __BLANK_4__",
     "blanks": [
       {
         "idx": 1,
         "answer": "for diminution in value (the"
-      }
-    ],
-    "translation": "浪費原則 – 完成費用の賠償が浪費的である場合、裁判所は「価値減少分（当該財産／土地の価値の差）」に対する損害賠償を認容することができる。\n− これは期待利益の損害賠償に代わって認容される場合がある。"
-  },
-  {
-    "id": 407,
-    "page": 48,
-    "subject": "CONTRACTS",
-    "sectionHeader": "H. Remedies",
-    "subsectionTitle": "Waste Doctrine",
-    "priority": "H",
-    "context": "Waste doctrine applies if:\n1) __BLANK_1__ but defects\nexist; **AND**\n2) Remedying the defects would entail economic\nwaste (the cost of __BLANK_2__ the value of the completed work).\n*Normally seen in __BLANK_3__",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "Contractor performs in good faith,"
       },
       {
         "idx": 2,
-        "answer": "completion greatly exceeds"
+        "answer": "Contractor performs in good faith,"
       },
       {
         "idx": 3,
+        "answer": "completion greatly exceeds"
+      },
+      {
+        "idx": 4,
         "answer": "the construction contract context."
       }
     ],
-    "translation": "瑕疵担保法理は以下の場合に適用される：\n1)「請負人が誠実に履行」したが、瑕疵が存在する、かつ\n2)瑕疵の修補に経済的浪費が伴う（「完成の費用が」完成した仕事の価値を「大きく超える」場合）。\n*通常、「建設請負契約の文脈」で見られる。"
+    "translation": "浪費原則 – 完成費用の賠償が浪費的である場合、裁判所は「価値減少分（当該財産／土地の価値の差）」に対する損害賠償を認容することができる。\n− これは期待利益の損害賠償に代わって認容される場合がある。"
   },
   {
     "id": 408,
