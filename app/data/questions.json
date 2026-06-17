@@ -12701,7 +12701,7 @@
     "sectionHeader": null,
     "subsectionTitle": "Pleas & Plea Negotiations",
     "priority": "M",
-    "context": "**Pleas & Plea Negotiations**\nThe following are NOT admissible (against a D) in a\n__BLANK_1__ or criminal case:\na) statements made __BLANK_2__\nb) a __BLANK_3__ doesn’t admit or\ndispute the charge);\nc) __BLANK_4__ **OR**\nd) statements made during an above\n(b) or\n(c)\nproceeding.",
+    "context": "**Pleas & Plea Negotiations**\nThe following are NOT admissible (against a D) in a\n__BLANK_1__ or criminal case:\na) statements made __BLANK_2__\nb) a __BLANK_3__ doesn’t admit or\ndispute the charge);\nc) __BLANK_4__ **OR**\nd) statements made during an above (b) or (c) proceeding.",
     "blanks": [
       {
         "idx": 1,
