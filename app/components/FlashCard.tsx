@@ -387,6 +387,8 @@ function StudyTokens({
             <span className="text-gray-400 flex-shrink-0 leading-8 text-[13px]">▪</span>
             <span className="flex-1 min-w-0">{line.nodes}</span>
           </div>
+        ) : line.nodes.length === 0 ? (
+          <span key={li} className="block h-3" />
         ) : (
           <span key={li} className={li > 0 ? "block" : undefined}>{line.nodes}</span>
         )
