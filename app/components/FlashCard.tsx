@@ -1024,9 +1024,9 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                     <span>{showTranslation ? "▲ 閉じる" : "▼ 表示"}</span>
                   </button>
                   {showTranslation && (
-                    <p className="px-3 pb-3 text-sm text-gray-700 leading-relaxed whitespace-pre-wrap border-t border-sky-100">
-                      {card.translation}
-                    </p>
+                    <div className="px-3 pb-3 text-sm text-gray-700 leading-relaxed border-t border-sky-100">
+                      {renderRichText(card.translation)}
+                    </div>
                   )}
                 </div>
               )}
