@@ -10246,7 +10246,7 @@
     "sectionHeader": "H. Remedies",
     "subsectionTitle": "UCC Buyer’s Remedies & Damages",
     "priority": "H",
-    "context": "A buyer who never received the goods, rightfully\nrejected, or justifiably revoked acceptance MAY:\n1) **__BLANK_1__** contract;\n2) __BLANK_2__ – even if\nbuyer doesn’t cancel;\n3) __BLANK_3__ **AND**/**OR**\n4) Recover either:\na. **__BLANK_4__** difference between\ncontract price and price of substitute\ngoods (if purchased in good faith).\nb. **__BLANK_5__** difference between\nmarket price and contract price (if not in\ngood faith or no cover at all).",
+    "context": "A buyer who never received the goods, rightfully\nrejected, or justifiably revoked acceptance MAY:\n1) **__BLANK_1__** contract;\n2) __BLANK_2__ – even if buyer does not cancel;\n3) __BLANK_3__ **AND**/**OR**\n4) Recover either:\na. **__BLANK_4__** difference between contract price and price of substitute goods (if purchased in good faith).\nb. **__BLANK_5__** difference between market price and contract price (if not in good faith or no cover at all).\n\nIf buyer keeps the non-conforming goods, then buyer is\nentitled __BLANK_6__ difference between the value as promised and the value of the non-conforming goods.",
     "blanks": [
       {
         "idx": 1,
@@ -10267,25 +10267,13 @@
       {
         "idx": 5,
         "answer": "Market Damages –"
-      }
-    ],
-    "translation": "商品を受け取らなかった、正当に拒絶した、または正当に受領を撤回した買主は、以下のことができる：\n\n1) 「契約を解除する」こと\n2) 「支払った金額の回収（返金）」– 買主が契約を解除しなくても可能\n3) 「付随的損害賠償および結果的損害賠償を回収する」こと；および/または\n4) 以下のいずれかを回復する：\na. 「代替品損害賠償」– 契約価格と代替品の価格の差（善意で購入した場合）\nb. 「市場価格損害賠償」– 市場価格と契約価格の差（善意でない場合または代替がない場合）"
-  },
-  {
-    "id": 412,
-    "page": 48,
-    "subject": "CONTRACTS",
-    "sectionHeader": "H. Remedies",
-    "subsectionTitle": "UCC Buyer’s Remedies & Damages",
-    "priority": "H",
-    "context": "If buyer keeps the non-conforming goods, then buyer is\nentitled __BLANK_1__ difference\nbetween the value as promised and the value of the non-\nconforming goods.",
-    "blanks": [
+      },
       {
-        "idx": 1,
+        "idx": 6,
         "answer": "to Loss-in-Value Damages –"
       }
     ],
-    "translation": "買い手が適合しない商品を保有し続ける場合、買い手は「価値低下損害賠償請求権を有する。」これは約束された価値と適合しない商品の価値との差額である。"
+    "translation": "商品を受け取らなかった、正当に拒絶した、または正当に承認を取り消した買主は以下の事項をすることができます：\n\n1) 契約を「解除する」\n2) 支払済み金額を「回収する（払戻し）」– 買主が契約を解除しない場合でも\n3) 付随的損害賠償及び結果的損害賠償を「回収する」；そして/または\n4) 以下のいずれかを回収する：\na. 「カバー損害賠償 –」 契約価格と代替商品の価格の差（善意で購入した場合）\nb. 「市場損害賠償 –」 市場価格と契約価格の差（善意でない場合または全くカバーしない場合）\n\n買主が不適合商品を保持する場合、買主は\n「価値低下損害賠償を」請求する権利があります –約束された価値と不適合商品の価値の差。"
   },
   {
     "id": 779,
