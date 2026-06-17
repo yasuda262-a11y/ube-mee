@@ -516,6 +516,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
   const [submitted, setSubmitted] = useState(false);
   const [editMode, setEditMode] = useState(false);
   const [pendingSelection, setPendingSelection] = useState<Set<number>>(new Set());
+  const [showTranslation, setShowTranslation] = useState(false);
   const inputRefs = useRef<Map<string, HTMLInputElement | null>>(new Map());
 
   // ---- カードメモ ----
@@ -1009,6 +1010,25 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
                 <div className={`text-center text-sm font-bold rounded-2xl py-2 ${
                   allCorrect ? "text-emerald-600 bg-emerald-50" : "text-indigo-600 bg-indigo-50"
                 }`}>{correctCount} / {allInputIds.length} 正解</div>
+              )}
+
+              {/* 和訳 */}
+              {card.translation && (
+                <div className="rounded-2xl border border-sky-200 bg-sky-50 overflow-hidden">
+                  <button
+                    type="button"
+                    onClick={() => setShowTranslation(v => !v)}
+                    className="w-full flex items-center justify-between px-3 py-2 text-[11px] font-semibold text-sky-600"
+                  >
+                    <span>🇯🇵 和訳</span>
+                    <span>{showTranslation ? "▲ 閉じる" : "▼ 表示"}</span>
+                  </button>
+                  {showTranslation && (
+                    <p className="px-3 pb-3 text-sm text-gray-700 leading-relaxed whitespace-pre-wrap border-t border-sky-100">
+                      {card.translation}
+                    </p>
+                  )}
+                </div>
               )}
 
               {/* カードメモ */}

@@ -14,6 +14,7 @@ export interface Card {
   priority: "H" | "M" | "L" | null;
   context: string;
   blanks: Blank[];
+  translation?: string;
 }
 
 export const ALL_CARDS: Card[] = rawData as Card[];
