@@ -290,6 +290,10 @@ function StudyTokens({
 
     if (prev !== null) {
       const kind = lineSep(prev, t);
+      // 空行（\n\n）を検出：lineIdx が2以上離れている場合は空行エントリを挿入
+      if (t.lineIdx - prev.lineIdx > 1) {
+        lines.push({ isBullet: false, isDashBullet: false, isSubBullet: false, isDeepBullet: false, nodes: [] });
+      }
       if (kind === "break") {
         lines.push({ isBullet: false, isDashBullet: false, isSubBullet: false, isDeepBullet: false, nodes: [] });
       } else if (kind === "space") {
