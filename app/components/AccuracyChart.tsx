@@ -49,6 +49,18 @@ export default function AccuracyChart({ history }: Props) {
     });
   };
 
+  const n = history.length;
+
+  // X axis labels: show first, last, and a few in between
+  const xLabelIndices = useMemo(() => {
+    if (n <= 7) return history.map((_, i) => i);
+    const step = Math.ceil((n - 1) / 4);
+    const idx = new Set<number>([0]);
+    for (let i = step; i < n - 1; i += step) idx.add(i);
+    idx.add(n - 1);
+    return Array.from(idx).sort((a, b) => a - b);
+  }, [n, history]);
+
   if (history.length < 2) {
     return (
       <div className="bg-white/10 rounded-3xl p-5 text-white">
@@ -63,7 +75,6 @@ export default function AccuracyChart({ history }: Props) {
   const cw = W - PL - PR;
   const ch = H - PT - PB;
 
-  const n = history.length;
   const xOf = (i: number) => PL + (i / (n - 1)) * cw;
   const yOf = (v: number) => PT + ch - (v / 100) * ch;
 
@@ -71,16 +82,6 @@ export default function AccuracyChart({ history }: Props) {
     vals.map((v, i) => `${xOf(i)},${yOf(v)}`).join(" ");
 
   const yTicks = [0, 25, 50, 75, 100];
-
-  // X axis labels: show first, last, and a few in between
-  const xLabelIndices = useMemo(() => {
-    if (n <= 7) return history.map((_, i) => i);
-    const step = Math.ceil((n - 1) / 4);
-    const idx = new Set<number>([0]);
-    for (let i = step; i < n - 1; i += step) idx.add(i);
-    idx.add(n - 1);
-    return Array.from(idx).sort((a, b) => a - b);
-  }, [n, history]);
 
   const formatDate = (d: string) => {
     const parts = d.split("-");
