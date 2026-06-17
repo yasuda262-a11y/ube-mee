@@ -8749,7 +8749,7 @@
     "sectionHeader": "D. Contract Content & Meaning",
     "subsectionTitle": "UCC Omitted & Implied Terms",
     "priority": "M",
-    "context": "**++UCC Omitted & Implied Terms++** – If not agreed upon,\nthe court will fill in default contract terms __BLANK_1__\n\nUCC Gap Fillers:\n− **++Price++** → **__BLANK_2__**\n− **Time for Payment** __BLANK_3__\n− **++Time for Shipment/Delivery++** → within a\n**__BLANK_4__** at a reasonable hour\n− **Place for Delivery** __BLANK_5__ o Seller's residence (if no place of\nbusiness).\no If identified goods **are** known by parties\nto be at some other place, that is the\nplace of delivery.\n*Note: Contract terms may be established by __BLANK_6__ and/or __BLANK_7__",
+    "context": "**++UCC Omitted & Implied Terms++** – If not agreed upon,\nthe court will fill in default contract terms __BLANK_1__\n\nUCC Gap Fillers:\n− **++Price++** → **__BLANK_2__**\n− **Time for Payment** → __BLANK_3__\n− **++Time for Shipment/Delivery++** → within a __BLANK_4__ at a reasonable hour\n− **Place for Delivery** __BLANK_5__\n○ Seller's residence (if no place of business).\n○ If identified goods **are** known by parties to be at some other place, that is the place of delivery.\n*Note: Contract terms may be established by __BLANK_6__ and/or __BLANK_7__",
     "blanks": [
       {
         "idx": 1,
