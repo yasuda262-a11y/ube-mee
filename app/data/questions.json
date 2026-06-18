@@ -3584,38 +3584,6 @@
     "translation": "**司法解散** – 裁判所は、以下のいずれかの事由が示された場合に、これを認めることができる。\na) 経営者または支配的社員が、**違法または詐欺的な方法**で行動したこと。\nb) 経営者または支配的社員が、社員に対し、**抑圧的かつ直接的に有害な方法**で行動したこと。\nc) LLCの活動の全て（または実質的に全て）の遂行が**違法であること。または**\nd) **事業を継続することが合理的に実行不可能であること。**"
   },
   {
-    "id": 810,
-    "page": 22,
-    "subject": "CORPORATIONS & LLC'S",
-    "sectionHeader": "N. Dissolution & Dissociation",
-    "subsectionTitle": "Dissolution & Winding Up of an LLC",
-    "priority": null,
-    "context": "**Dissolution & Winding Up of an LLC**\nDissolution Events (under RULLCA) – An LLC is dissolved upon:\na) Occurrence of a dissolution event in the **__BLANK_1__**;\nb) Consent of __BLANK_2__;\nc) The passage of __BLANK_3__ consecutive days where the LLC has no members; **OR**\nd) Judicial dissolution.\n\nWinding Up – Occurs upon dissolution. Under RULLCA, assets are distributed in the following order:\n1) __BLANK_4__\n2) Members' __BLANK_5__ (not previously returned).\n3) Any remaining surplus is split among the Members (in proportion to their right to share in distributions).",
-    "blanks": [
-      {
-        "idx": 1,
-        "answer": "Operating Agreement"
-      },
-      {
-        "idx": 2,
-        "answer": "all members"
-      },
-      {
-        "idx": 3,
-        "answer": "90"
-      },
-      {
-        "idx": 4,
-        "answer": "Creditors."
-      },
-      {
-        "idx": 5,
-        "answer": "capital contributions"
-      }
-    ],
-    "translation": "**有限責任会社の解散と清算**\n解散事由（RULLCAに基づく）– 有限責任会社は、以下の事由により解散する：\na) **運営契約**に定められた解散事由が発生した場合。\nb) 全社員の同意。\nc) 有限責任会社に社員が存在しない状態が90日連続で経過した場合。**または**\nd) 裁判上の解散。\n\n清算 – 解散時に開始する。RULLCAに基づき、資産は以下の順序で分配される：\n1) 債権者。\n2) 社員の出資金（未だに返還されていないもの）。\n3) 残余の剰余金は、社員の間で分割される（分配を受ける権利の割合に応じて）。"
-  },
-  {
     "id": 824,
     "page": 22,
     "subject": "CORPORATIONS & LLC'S",
