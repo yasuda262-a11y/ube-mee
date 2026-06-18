@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import {
   BookOpen, LayoutList, BarChart2,
   RotateCcw, AlertTriangle, Shuffle, NotebookPen,
-  LogIn, LogOut, User, Flag, ListOrdered,
+  LogIn, LogOut, User, Flag, ListOrdered, BookMarked,
 } from "lucide-react";
 import { ALL_CARDS, SUBJECTS, TOTAL_BLANKS, type Card } from "./data/questions";
 import FlashCard from "./components/FlashCard";
@@ -12,13 +12,14 @@ import QuestionList from "./components/QuestionList";
 import MemoList from "./components/MemoList";
 import AuthModal from "./components/AuthModal";
 import AccuracyChart from "./components/AccuracyChart";
+import BrowseMode from "./components/BrowseMode";
 import { loadStats, recordCardResult, type StatsRecord } from "./lib/stats";
 import { recordSnapshot, loadHistory, type AccuracySnapshot } from "./lib/accuracyHistory";
 import { supabase } from "./lib/supabase";
 import { fetchStats, saveStatRemote, fetchFlags, saveFlagsRemote } from "./lib/db";
 import type { User as SupabaseUser } from "@supabase/supabase-js";
 
-type AppMode = "select" | "study" | "list" | "stats" | "memos";
+type AppMode = "select" | "study" | "list" | "stats" | "memos" | "browse";
 
 const SUBJECT_COLORS: Record<string, string> = {
   "AGENCY": "bg-violet-600",
@@ -403,6 +404,13 @@ export default function Home() {
               <p className="text-[10px] font-bold leading-tight">表現メモ</p>
               <p className="text-[9px] text-white/50">英語表現集</p>
             </button>
+
+            <button onClick={() => setAppMode("browse")}
+              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              <BookMarked size={14} className="text-sky-400" />
+              <p className="text-[10px] font-bold leading-tight">閲覧</p>
+              <p className="text-[9px] text-white/50">全文表示</p>
+            </button>
           </div>
 
           </div>{/* max-w-2xl */}
@@ -477,6 +485,30 @@ export default function Home() {
   }
 
   // ===== カード一覧 =====
+  // ===== 閲覧モード =====
+  if (appMode === "browse") {
+    return (
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-gray-100 px-4 py-3">
+          <div className="max-w-lg mx-auto flex items-center justify-between">
+            <button onClick={() => setAppMode("select")} className="text-indigo-600 font-semibold text-sm">← ホーム</button>
+            <span className="font-bold text-gray-800 text-sm">
+              {selectedSubject ?? "全科目"} · 閲覧
+            </span>
+            <div className="w-16" />
+          </div>
+        </header>
+        <div className="max-w-2xl mx-auto px-4 pt-4 pb-10">
+          <BrowseMode
+            cards={subjectCards}
+            subjectIndex={SUBJECT_INDEX}
+            selectedSubject={selectedSubject}
+          />
+        </div>
+      </div>
+    );
+  }
+
   if (appMode === "list") {
     return (
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
