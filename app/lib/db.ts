@@ -241,18 +241,20 @@ const EXPR_MEMO_LS = "ube-expression-memos";
 
 export async function fetchExpressionMemos(): Promise<Memo[]> {
   const uid = await getUserId();
-  if (!uid) {
+  const localData: Memo[] = (() => {
     try { return JSON.parse(localStorage.getItem(EXPR_MEMO_LS) ?? "[]"); } catch { return []; }
-  }
+  })();
+
+  if (!uid) return localData;
+
   const { data, error } = await supabase
     .from("expression_memos")
     .select("memo_id, word, content, examples, tags, created_at")
     .eq("user_id", uid)
     .order("created_at", { ascending: true });
-  if (error) {
-    try { return JSON.parse(localStorage.getItem(EXPR_MEMO_LS) ?? "[]"); } catch { return []; }
-  }
-  const result: Memo[] = (data ?? []).map(r => ({
+  if (error) return localData;
+
+  const remoteData: Memo[] = (data ?? []).map(r => ({
     id: r.memo_id,
     word: r.word,
     content: r.content,
@@ -260,8 +262,28 @@ export async function fetchExpressionMemos(): Promise<Memo[]> {
     tags: r.tags ?? [],
     createdAt: r.created_at,
   }));
-  localStorage.setItem(EXPR_MEMO_LS, JSON.stringify(result));
-  return result;
+
+  // ローカルにあってリモートにないデータをアップロード（初回ログイン時の移行）
+  const remoteIds = new Set(remoteData.map(m => m.id));
+  const localOnly = localData.filter(m => !remoteIds.has(m.id));
+  if (localOnly.length > 0) {
+    await supabase.from("expression_memos").upsert(
+      localOnly.map(m => ({
+        user_id: uid,
+        memo_id: m.id,
+        word: m.word,
+        content: m.content,
+        examples: m.examples,
+        tags: m.tags,
+        updated_at: new Date().toISOString(),
+      })),
+      { onConflict: "user_id,memo_id" }
+    );
+    remoteData.push(...localOnly);
+  }
+
+  localStorage.setItem(EXPR_MEMO_LS, JSON.stringify(remoteData));
+  return remoteData;
 }
 
 export async function saveExpressionMemosRemote(memos: Memo[]): Promise<void> {
