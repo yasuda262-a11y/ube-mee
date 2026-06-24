@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
+import { createPortal } from "react-dom";
 import { ChevronLeft, ChevronRight, Calendar, Flag, StickyNote } from "lucide-react";
 import type { MeeCard } from "../data/mee-outline";
 import { renderRichText, renderRichTextWithHighlights, getPlainText } from "../lib/richText";
@@ -256,10 +257,10 @@ export default function OutlineCard({ card, index, total, subjectTotal, onPrev, 
       {/* カラーバー */}
       <div className="h-1.5" style={{ background: t.accent }} />
 
-      {/* 選択ポップアップ */}
-      {popup && (
+      {/* 選択ポップアップ — overflow-hidden の外側にPortalでレンダリング */}
+      {popup && typeof document !== "undefined" && createPortal(
         <div
-          className="fixed z-50 -translate-x-1/2 -translate-y-full flex gap-1 bg-gray-900 rounded-xl px-2 py-1.5 shadow-xl"
+          className="fixed z-[9999] -translate-x-1/2 -translate-y-full flex gap-1 bg-gray-900 rounded-xl px-2 py-1.5 shadow-xl"
           style={{ left: popup.x, top: popup.y }}
         >
           <button
@@ -271,7 +272,8 @@ export default function OutlineCard({ card, index, total, subjectTotal, onPrev, 
           >
             {popup.already ? "✕ 解除" : "🖊 ハイライト"}
           </button>
-        </div>
+        </div>,
+        document.body
       )}
 
       <div ref={cardRef} className="p-4 flex flex-col select-text">
