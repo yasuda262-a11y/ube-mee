@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Plus, Trash2, Pencil, Check, X, Tag, ChevronRight, BookText, Quote, Search } from "lucide-react";
-import { getMemos, addMemo, updateMemo, deleteMemo, getAllTags, type Memo } from "../lib/memos";
+import { addMemo, updateMemo, deleteMemo, getAllTags, type Memo } from "../lib/memos";
+import { fetchExpressionMemos, saveExpressionMemosRemote } from "../lib/db";
 import { renderRichText, makeFormatKeyHandler } from "../lib/richText";
 import FormatToolbar from "./FormatToolbar";
 
@@ -394,7 +395,17 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
   const [query, setQuery] = useState("");
   const sectionRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
-  function reload() { setMemos(getMemos()); }
+  async function reload() {
+    const latest = await fetchExpressionMemos();
+    setMemos([...latest].sort((a, b) => {
+      const aw = (a.word ?? "").toLowerCase();
+      const bw = (b.word ?? "").toLowerCase();
+      if (!aw && !bw) return b.id - a.id;
+      if (!aw) return 1;
+      if (!bw) return -1;
+      return aw < bw ? -1 : aw > bw ? 1 : 0;
+    }));
+  }
   useEffect(() => { reload(); }, []);
 
   // 検索 + タグフィルター
@@ -489,9 +500,11 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
       {/* 追加フォーム */}
       {adding ? (
         <MemoForm
-          onSave={(word, content, examples, tags) => {
+          onSave={async (word, content, examples, tags) => {
             addMemo(word, content, examples, tags);
-            reload();
+            const updated = await fetchExpressionMemos();
+            await saveExpressionMemosRemote(updated);
+            await reload();
             setAdding(false);
           }}
           onCancel={() => setAdding(false)}
@@ -540,9 +553,11 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
                     <MemoForm
                       key={memo.id}
                       initial={{ word: memo.word ?? "", content: memo.content, examples: memo.examples ?? "", tags: memo.tags }}
-                      onSave={(word, content, examples, tags) => {
+                      onSave={async (word, content, examples, tags) => {
                         updateMemo(memo.id, word, content, examples, tags);
-                        reload();
+                        const updated = await fetchExpressionMemos();
+                        await saveExpressionMemosRemote(updated);
+                        await reload();
                         setEditingId(null);
                       }}
                       onCancel={() => setEditingId(null)}
@@ -552,7 +567,12 @@ export default function MemoList({ onBack }: { onBack: () => void }) {
                       key={memo.id}
                       memo={memo}
                       onEdit={() => setEditingId(memo.id)}
-                      onDelete={() => { deleteMemo(memo.id); reload(); }}
+                      onDelete={async () => {
+                        deleteMemo(memo.id);
+                        const updated = await fetchExpressionMemos();
+                        await saveExpressionMemosRemote(updated);
+                        await reload();
+                      }}
                     />
                   )
                 )}
