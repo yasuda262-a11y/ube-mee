@@ -7,22 +7,23 @@
     "ruleTitle": "Creation of Agency Relationship",
     "priority": "HIGH",
     "frequency": "7 of 65 Exams",
-    "body": "• An agent is a***person or entity that acts on behalf of another***\n***– the principal***. Agency is a fiduciary relationship, and exists if there is:** (1) assent**(a formal or informal agreement between the principal and the agent);** (2) benefit**(the agent’s conduct on behalf of the principal primarily benefits the principal);** AND (3) control**(the principal has the right to control the agent by being able to supervise the agent’s performance – the degree of control_does not_need to be significant). “Assent” is manifested by written words, spoken words, or other conduct.\n• Whether an agency relationship exists depends upon the existence of the required elements above (the characterization of the relationship by the parties is_irrelevant_). The parties realizing that a principal-agent relationship is formed or the agent receiving compensation is NOT REQUIRED to create an agency relationship. A writing is NOT required to form an agency relationship (even if the transaction the agent enters into requires a writing under the Statute of Frauds).",
+    "body": "• An agent is a ***person or entity that acts on behalf of another – the principal***. Agency is a fiduciary relationship, and exists if there is: **(1) assent** (a formal or informal agreement between the principal and the agent); **(2) benefit** (the agent’s conduct on behalf of the principal primarily benefits the principal); **AND (3) control** (the principal has the right to control the agent by being able to supervise the agent’s performance – the degree of control _does not_ need to be significant). “Assent” is manifested by written words, spoken words, or other conduct.\n• Whether an agency relationship exists depends upon the existence of the required elements above (the characterization of the relationship by the parties is _irrelevant_). The parties realizing that a principal-agent relationship is formed or the agent receiving compensation is NOT REQUIRED to create an agency relationship. A writing is NOT required to form an agency relationship (even if the transaction the agent enters into requires a writing under the Statute of Frauds).",
     "meeTips": [
       "The subjects of Agency and Partnerships are normally tested together on essay questions.",
       "The rule for Creation of an Agency Relationship is normally tested along with such topics as authority, undisclosed principal, or employee vs. independent contractor."
     ],
     "examHistory": [
-      "Feb 1996, Essay 5",
-      "Feb 2006, Essay 2",
-      "Feb 2009, Essay 1",
       "Feb 2025, Essay 1",
-      "July 2004, Essay 5",
       "July 2022, Essay 3",
-      "Sept 2020, Essay 5"
+      "Sept 2020, Essay 5",
+      "Feb 2009, Essay 1",
+      "Feb 2006, Essay 2",
+      "July 2004, Essay 5",
+      "Feb 1996, Essay 5"
     ],
-    "translation": "• 代理人とは、***他者（本人）に代わって行為する者または法人***である。代理は忠実義務関係であり、以下の要件がある場合に存在する：(1) **同意**（本人と代理人の間の正式または非公式の合意）；(2) **利益**（本人に代わる代理人の行為が主として本人に利益をもたらすこと）；**および** (3) **支配**（本人が代理人の履行を監督できることによって代理人を支配する権利を有すること。支配の程度は_重要である必要はない_）。「同意」は、書面による言葉、口頭による言葉、またはその他の行為によって表明される。\n• 代理関係が存在するか否かは、上記の必須要素の存在に依存する（当事者による関係の性格付けは_無関係である_）。当事者が本人・代理人関係が形成されたと認識すること、または代理人が報酬を受け取ることは、代理関係を形成するために**必要ではない**。代理関係を形成するために書面は**必要ではない**（たとえ代理人が締結する取引が詐欺防止法に基づき書面を要するものであっても）。",
-    "meeTipTranslation": null
+    "translation": "• 代理人とは、***他者（本人）のために行為する個人または法人***である。代理は忠実義務（Duty of Loyalty）関係であり、以下の要素が存在する場合に成立する。すなわち、**(1) 同意**（本人と代理人との間の正式または非公式な合意）、**(2) 利益**（本人のための代理人の行為が主に本人に利益をもたらすこと）、**および (3) 支配**（本人が代理人の職務遂行を監督できることによって代理人を支配する権利を有すること。支配の程度は_重要である必要はない_）。「同意」は、書面による言葉、口頭による言葉、またはその他の行為によって表明される。\n• 代理関係が存在するか否かは、上記の要件要素の存在に依存する（当事者による関係の性格付けは_無関係_である）。当事者が本人-代理人関係が形成されたと認識していること、または代理人が報酬を受け取っていることは、代理関係を創設するために**必要ではない**。代理関係を形成するために書面は**必要ではない**（たとえ代理人が締結する取引が詐欺防止法に基づき書面を要求する場合であっても）。",
+    "meeTipTranslation": "代理法とパートナーシップは、通常、論文問題で一緒に出題される。\n代理関係の成立に関するルールは、通常、代理権、非開示本人（Undisclosed Principal）、または従業員 vs. 独立契約者（Independent Contractor）などのトピックと合わせて出題される。",
+    "ruleTitleJa": "代理関係の成立"
   },
   {
     "id": 2,
@@ -32,14 +33,15 @@
     "ruleTitle": "Types of Agency Relationships",
     "priority": "MED",
     "frequency": "2 of 65 Exams",
-    "body": "• There are three types of agency relationships. A**universal**\n**agent**has***broad authority***to act on behalf of the principal, and is***authorized to perform*****ALL*****acts***the principal is allowed to perform. A**general agent**normally has authority to conduct a***series of transactions over a period of time***for a particular purpose, business, or operation (i.e. a manager of a restaurant). A**special agent**has limited authority to conduct: (a) a***specific act/transaction***; OR (b) certain actions over a***specified period of time***.",
+    "body": "• There are three types of agency relationships. A **universal agent** has ***broad authority*** to act on behalf of the principal, and is ***authorized to perform* ALL *acts*** the principal is allowed to perform. A **general agent** normally has authority to conduct a ***series of transactions over a period of time*** for a particular purpose, business, or operation (i.e. a manager of a restaurant). A **special agent** has limited authority to conduct: (a) a ***specific act/transaction***; OR (b) certain actions over a ***specified period of time***.",
     "meeTips": [],
     "examHistory": [
-      "Feb 2005, Essay 7",
-      "Sept 2020, Essay 5"
+      "Sept 2020, Essay 5",
+      "Feb 2005, Essay 7"
     ],
-    "translation": "• 代理関係には3つの種類がある。**包括代理人**は、本人に代わって行為する***広範な権限***を有し、本人が行うことを許されている*****全ての**行為***を行う権限を与えられている。**一般代理人**は、通常、特定の目的、事業、または業務のために***一定期間にわたる一連の取引***を行う権限を有する（例：レストランの支配人）。**特定代理人**は、以下の行為を行う限られた権限を有する：(a) ***特定の行為／取引***；**または** (b) ***特定の期間にわたる***特定の行為。",
-    "meeTipTranslation": null
+    "translation": "• 代理関係には3つの種類がある。**包括代理人（Universal Agent）**は、本人に代わって行為する***広範な権限***を有し、本人が行うことを許されている**全ての行為**を***行う権限を与えられている***。**一般代理人（General Agent）**は、通常、特定の目的、事業、または業務のために、***一定期間にわたる一連の取引***を行う権限を有する（例：レストランの支配人）。**特定代理人（Special Agent）**は、以下の行為を行う限定された権限を有する。(a) ***特定の行為/取引***、**または** (b) ***特定の期間***にわたる特定の行為。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "代理関係の種類"
   },
   {
     "id": 3,
@@ -49,15 +51,16 @@
     "ruleTitle": "Termination of Agency Relationship",
     "priority": "MED",
     "frequency": "3 of 65 Exams",
-    "body": "• An agency relationship terminates and the agent no longer has authority to act if:** (a)**the principal or the agent manifests to the other***that the relationship is terminated***;** (b)**a specified term of the agent’s authority***expired***;** (c)**upon operation of law by the***death of the principal or agent***;** OR (d)**upon operation of law by the***incapacity of the principal or agent*** (except where a durable power of attorney exists).\n*",
+    "body": "• An agency relationship terminates and the agent no longer has authority to act if: **(a)** the principal or the agent manifests to the other ***that the relationship is terminated***; **(b)** a specified term of the agent’s authority ***expired***; **(c)** upon operation of law by the ***death of the principal or agent***; **OR (d)** upon operation of law by the ***incapacity of the principal or agent*** (except where a durable power of attorney exists).\n  ○ Under the common law, an agent’s authority is not revoked upon death, regardless of whether the third party has notice of the death. In some states, the authority is _not_ revoked until the third party is notified of the principal’s death.\n• Apparent authority continues until the principal communicates the termination to third parties (even if the agency relationship was actually terminated). A principal may communicate termination by notifying third parties directly, making a public announcement, or by recovering from the agent any items indicating authority.\n• Termination of an Agency Contract: When an agency relationship is governed by an agency contract (i.e. employment agreement), the principal can still ***terminate the agent at any time***. However, the principal may be liable for damages if the agency is terminated prior to the expiration of the contract term (_unless_ the agent _materially breached_ the contract).",
     "meeTips": [],
     "examHistory": [
-      "July 1996, Essay 2",
+      "July 2002, Essay 6",
       "July 2001, Essay 6",
-      "July 2002, Essay 6"
+      "July 1996, Essay 2"
     ],
-    "translation": "• 代理関係は終了し、代理人は以下のいずれかの場合には行為する権限を失う：(a) 本人または代理人が相手方に対し、***関係が終了したこと***を表明した場合；(b) 代理人の権限の特定期間が***満了した場合***；(c) ***本人または代理人の死亡***により法律の作用によって；**または** (d) ***本人または代理人の無能力***により法律の作用によって（ただし、永続的委任状が存在する場合を除く）。",
-    "meeTipTranslation": null
+    "translation": "• 代理関係は、以下のいずれかの場合に終了し、代理人はもはや行為する権限を有しない。**(a)** 本人または代理人が相手方に対し、***関係が終了したこと***を表明した場合、**(b)** 代理人の権限の特定期間が***満了した***場合、**(c)** ***本人または代理人の死亡***により法の作用によって、**または (d)** ***本人または代理人の行為能力喪失***により法の作用によって（任意後見契約（Durable Power of Attorney）が存在する場合を除く）。\n  ○ コモンローの下では、代理人の権限は、第三者が死亡の通知を受けているか否かにかかわらず、死亡によって取り消されることはない。一部の州では、第三者が本人の死亡を通知されるまで、権限は_取り消されない_。\n• 表見代理（Apparent Authority）は、本人が第三者に終了を伝達するまで継続する（たとえ代理関係が実際に終了していたとしても）。本人は、第三者に直接通知すること、公衆に発表すること、または代理人から権限を示す物品を回収することによって、終了を伝達することができる。\n• 代理契約の終了：代理関係が代理契約（すなわち雇用契約）によって規律されている場合でも、本人は***いつでも代理人を解約する***ことができる。しかし、契約期間の満了前に代理が終了した場合、本人は損害賠償責任を負う可能性がある（_ただし_、代理人が契約を_重大に違反した場合を除く_）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "代理関係の終了"
   },
   {
     "id": 4,
@@ -67,30 +70,31 @@
     "ruleTitle": "Actual Authority",
     "priority": "HIGH",
     "frequency": "16 of 65 Exams",
-    "body": "• A principal is bound to contracts entered into by its agent if the agent has_actual or apparent authority_.** Actual authority** may be express or implied. Express authority occurs when the principal has***explicitly told the agent***(either orally or in writing) that he is entitled to act. Implied authority occurs when either:** (a)**the agent believes he is entitled to act because the***action is necessary***to carry out his express authorized duties;** (b)**the agent has***acted similarly in prior***\n***dealings***between the principal and agent;** OR (c)**it is\n***customary***for agents in that position to act in that way.\n• An agent has actual authority to act in accordance with his***reasonable understanding***of his authority, _even if_the principal later establishes that the agent was mistaken. Silence or prior acquiescence by the principal may give rise to the agent’s reasonable belief that he has authority to perform similar acts in the future.\n• If an agent acts within his scope of authority, the principal will be liable to a third-party on the contract,_even if_the principal is undisclosed, partially disclosed, or unidentified.\n*",
+    "body": "• A principal is bound to contracts entered into by its agent if the agent has _actual or apparent authority_. **Actual authority** may be express or implied. Express authority occurs when the principal has ***explicitly told the agent*** (either orally or in writing) that he is entitled to act. Implied authority occurs when either: **(a)** the agent believes he is entitled to act because the ***action is necessary*** to carry out his express authorized duties; **(b)** the agent has ***acted similarly in prior dealings*** between the principal and agent; **OR (c)** it is ***customary*** for agents in that position to act in that way.\n• An agent has actual authority to act in accordance with his ***reasonable understanding*** of his authority, _even if_ the principal later establishes that the agent was mistaken. Silence or prior acquiescence by the principal may give rise to the agent’s reasonable belief that he has authority to perform similar acts in the future.\n• If an agent acts within his scope of authority, the principal will be liable to a third-party on the contract, _even if_ the principal is undisclosed, partially disclosed, or unidentified.",
     "meeTips": [
-      "If the essay question generally asks “Did the agent have authority?” or “Is the principal liable for the contract entered into by the agent?”, then apply the rules for_both_Actual Authority _and_Apparent Authority."
+      "If the essay question generally asks “Did the agent have authority?” or “Is the principal liable for the contract entered into by the agent?”, then apply the rules for _both_ Actual Authority _and_ Apparent Authority."
     ],
     "examHistory": [
-      "Feb 1996, Essay 5",
-      "Feb 1997, Essay 4",
-      "Feb 2005, Essay 7",
-      "Feb 2009, Essay 1",
-      "Feb 2013, Essay 6",
-      "Feb 2017, Essay 5",
-      "Feb 2020, Essay 5",
-      "Feb 2022, Essay 4",
       "Feb 2025, Essay 1",
-      "July 1996, Essay 2",
-      "July 2001, Essay 1",
-      "July 2002, Essay 6",
-      "July 2004, Essay 5",
-      "July 2022, Essay 3",
       "July 2023, Essay 2",
-      "Sept 2020, Essay 5"
+      "July 2022, Essay 3",
+      "Feb 2022, Essay 4",
+      "Sept 2020, Essay 5",
+      "Feb 2020, Essay 5",
+      "Feb 2017, Essay 5",
+      "Feb 2013, Essay 6",
+      "Feb 2009, Essay 1",
+      "Feb 2005, Essay 7",
+      "July 2004, Essay 5",
+      "July 2002, Essay 6",
+      "July 2001, Essay 1",
+      "Feb 1997, Essay 4",
+      "July 1996, Essay 2",
+      "Feb 1996, Essay 5"
     ],
-    "translation": "• 本人は、代理人が_現実の代理権または表見代理権_を有する場合、その代理人が締結した契約に拘束される。**現実の代理権**は、明示的または黙示的である場合がある。明示的代理権は、本人が代理人に対し（口頭または書面で）彼が行動する権限を有することを***明示的に伝えた***場合に生じる。黙示的代理権は、以下のいずれかの場合に生じる。** (a)**代理人が、その***行為が明示的に授権された職務を遂行するために必要である***と信じる場合。** (b)**代理人が、本人と代理人との間の***以前の取引において同様に行動した***場合。** または (c)**その地位にある代理人がそのように行動することが***慣習的である***場合。\n• 代理人は、その代理権に対する***合理的な理解***に従って行動する現実の代理権を有する。_たとえ_本人が後に代理人が誤っていたことを立証したとしても、である。本人の沈黙または事前の黙認は、代理人が将来同様の行為を行う権限を有するという合理的な信頼を生じさせることがある。\n• 代理人がその代理権の範囲内で行動した場合、本人が非開示、一部開示、または未特定である_場合であっても_、本人は契約に関して第三者に対し責任を負う。\n*",
-    "meeTipTranslation": "論文形式の設問が「代理人は代理権を有していたか？」または「本人は代理人が締結した契約について責任を負うか？」と一般的に問う場合、_現実の代理権_と_表見代理権_の_両方_のルールを適用すること。"
+    "translation": "• 本人は、代理人が_現実的権限（Actual Authority）または表見的権限（Apparent Authority）_を有する場合、その代理人が締結した契約に拘束される。**現実的権限（Actual Authority）**は、明示的または黙示的であり得る。明示的権限（Express Authority）は、本人が代理人に対し（口頭または書面で）彼が行動する権限を有することを***明示的に伝えた***場合に生じる。黙示的権限（Implied Authority）は、以下のいずれかの場合に生じる。**(a)** 代理人が、その***行為が***明示的に授権された職務を遂行するために***必要である***と信じるため、行動する権限を有すると信じる場合、**(b)** 本人と代理人との間の***過去の取引において代理人が同様に行動した***場合、**または (c)** その地位にある代理人がそのように行動することが***慣習である***場合。\n• 代理人は、本人が後に代理人が誤っていたことを立証した_としても_、自身の権限に対する***合理的な理解***に従って行動する現実的権限（Actual Authority）を有する。本人の沈黙または事前の黙認は、代理人が将来同様の行為を行う権限を有するという合理的な信念を生じさせることがある。\n• 代理人がその権限の範囲内で行動する場合、本人が非開示、一部開示、または未特定である_としても_、本人は契約に関して第三者に対し責任を負う。",
+    "meeTipTranslation": "論文問題が一般的に「代理人に権限があったか？」または「代理人が締結した契約について本人は責任を負うか？」と問うている場合、_実際権限（Actual Authority）_と_表見権限（Apparent Authority）_の_両方_の規則を適用しなさい。",
+    "ruleTitleJa": "現実の権限（Actual Authority）"
   },
   {
     "id": 5,
@@ -100,28 +104,29 @@
     "ruleTitle": "Apparent Authority",
     "priority": "HIGH",
     "frequency": "16 of 65 Exams",
-    "body": "• A principal is bound to contracts entered into by its agent if the agent has_actual or apparent authority_.** Apparent**\n**authority**exists when:** (1)**a***third-party reasonably believes*** that the person/entity has authority to act on behalf of the principal;** AND (2)**that***belief is traceable to the principal’s***\n***manifestations***(the principal holds the agent out as having authority). A principal holds an agent out as having authority o when he: (a) gives the agent a position or title indicating certain authority; (b) has previously held the agent out as having authority and has not published a revocation of said authority; OR (c) has cloaked the agent with the appearance of such authority.\n• If apparent authority exists, a principal will be bound to a contract***even if***the agent acted on his own behalf or in violation of specific instructions UNLESS (a) the third party had notice the agent was exceeding his authority, or (b) the contract/transaction was not within the ordinary usages of business (ordinary usage includes purchase of goods at a reasonable price).** Apparent authority is NOT**\n**APPLICABLE if the third-party has*****actual knowledge***\n**that the agent*****did not*****have authority**. Additionally, a third- party has a duty to make further inquiry when the situation suggests that it may be unreasonable to believe that the agent has authority.\n• Unidentified/Partially Disclosed Principal: Apparent authority MAY exist when the principal is**partially disclosed or**\n**unidentified**(when the third-party knows the agent is acting on behalf of a principal but_does not_know the identity of the principal).\n• Undisclosed Principal: Apparent authority CANNOT exist when there is an**undisclosed principal**(when the third-party _does not_know an agent is acting on behalf of a principal).",
+    "body": "• A principal is bound to contracts entered into by its agent if the agent has _actual or apparent authority_. **Apparent authority** exists when: **(1)** a ***third-party reasonably believes*** that the person/entity has authority to act on behalf of the principal; **AND (2)** that ***belief is traceable to the principal’s manifestations*** (the principal holds the agent out as having authority).\n  ○ A principal holds an agent out as having authority when he: (a) gives the agent a position or title indicating certain authority; (b) has previously held the agent out as having authority and has not published a revocation of said authority; OR (c) has cloaked the agent with the appearance of such authority.\n• If apparent authority exists, a principal will be bound to a contract ***even if*** the agent acted on his own behalf or in violation of specific instructions UNLESS (a) the third party had notice the agent was exceeding his authority, or (b) the contract/transaction was not within the ordinary usages of business (ordinary usage includes purchase of goods at a reasonable price). **Apparent authority is NOT APPLICABLE if the third party has *actual knowledge* that the agent *did not* have authority**. Additionally, a third-party has a duty to make further inquiry when the situation suggests that it may be unreasonable to believe that the agent has authority.\n• Unidentified/Partially Disclosed Principal: Apparent authority MAY exist when the principal is **partially disclosed or unidentified** (when the third-party knows the agent is acting on behalf of a principal but _does not_ know the identity of the principal).\n• Undisclosed Principal: Apparent authority CANNOT exist when there is an **undisclosed principal** (when the third-party _does not_ know an agent is acting on behalf of a principal).",
     "meeTips": [],
     "examHistory": [
-      "Feb 1996, Essay 5",
-      "Feb 1997, Essay 4",
-      "Feb 2005, Essay 7",
-      "Feb 2009, Essay 1",
-      "Feb 2013, Essay 6",
-      "Feb 2017, Essay 5",
-      "Feb 2020, Essay 5",
-      "Feb 2022, Essay 4",
       "Feb 2025, Essay 1",
-      "July 1996, Essay 2",
-      "July 2001, Essay 1",
-      "July 2002, Essay 6",
-      "July 2004, Essay 5",
-      "July 2022, Essay 3",
       "July 2023, Essay 2",
-      "Sept 2020, Essay 5"
+      "July 2022, Essay 3",
+      "Feb 2022, Essay 4",
+      "Sept 2020, Essay 5",
+      "Feb 2020, Essay 5",
+      "Feb 2017, Essay 5",
+      "Feb 2013, Essay 6",
+      "Feb 2009, Essay 1",
+      "Feb 2005, Essay 7",
+      "July 2004, Essay 5",
+      "July 2002, Essay 6",
+      "July 2001, Essay 1",
+      "Feb 1997, Essay 4",
+      "July 1996, Essay 2",
+      "Feb 1996, Essay 5"
     ],
-    "translation": "• 本人は、代理人が_現実の代理権または表見代理権_を有する場合、その代理人が締結した契約に拘束される。**表見代理権**は、以下の** (1)*****第三者が、その人物/団体が本人のために行動する代理権を有すると合理的に信じる***場合、**かつ (2)**その***信頼が本人の表明に帰属する***（本人が代理人に代理権があるかのように見せかける）場合に存在する。本人は、以下のいずれかの場合に代理人に代理権があるかのように見せかける。 (a) 代理人に特定の代理権を示す地位または肩書を与える場合。(b) 以前に代理人に代理権があるかのように見せかけ、その代理権の撤回を公表していない場合。または (c) 代理人にそのような代理権の外観を与えている場合。\n• 表見代理権が存在する場合、***たとえ***代理人が自己のために、または特定の指示に違反して行動したとしても、本人は契約に拘束される。ただし、(a) 第三者が代理人がその代理権を超過していることを知っていた場合、または (b) 契約/取引が通常の商慣習の範囲内ではなかった場合（通常の商慣習には合理的な価格での商品の購入が含まれる）を除く。**第三者が代理人に代理権が*****ない*****ことを*****現実に知っている*****場合、表見代理権は適用されない**。加えて、状況が代理人が代理権を有すると信じることが不合理である可能性を示唆する場合、第三者はさらなる調査を行う義務を負う。\n• 未特定/一部開示の本人：本人が**一部開示または未特定**である場合（第三者が代理人が本人のために行動していることを知っているが、_本人の身元を知らない_場合）、表見代理権は存在し得る。\n• 非開示の本人：**非開示の本人**である場合（第三者が_代理人が本人のために行動していることを知らない_場合）、表見代理権は存在し得ない。",
-    "meeTipTranslation": null
+    "translation": "• 本人は、代理人が_現実的権限（Actual Authority）または表見的権限（Apparent Authority）_を有する場合、その代理人が締結した契約に拘束される。**表見的権限（Apparent Authority）**は、以下のいずれかの場合に存在する。**(1)** ***第三者が***その人物/団体が本人のために行動する権限を有すると***合理的に信じる***場合、**かつ (2)** その***信念が本人の表明に帰属する***場合（本人が代理人に権限があるかのように表明する場合）。\n  ○ 本人は、以下のいずれかの場合に、代理人に権限があるかのように表明する。(a) 代理人に特定の権限を示す地位または肩書を与える場合、(b) 以前に代理人に権限があるかのように表明し、当該権限の撤回を公表していない場合、または (c) 代理人にそのような権限の外観を与えた場合。\n• 表見的権限（Apparent Authority）が存在する場合、本人は、代理人が自己のために行動したか、または特定の指示に違反した***としても***、契約に拘束される。ただし、(a) 第三者が代理人がその権限を超えていることを知っていた場合、または (b) 契約/取引が通常の商慣習の範囲内ではなかった場合（通常の商慣習には合理的な価格での商品の購入が含まれる）を除く。**表見的権限（Apparent Authority）は、第三者が代理人が権限を*持っていなかった*という*現実の知識*を有している場合には適用されない**。さらに、状況が代理人が権限を有すると信じることが不合理である可能性を示唆する場合、第三者はさらなる調査を行う義務を負う。\n• 未特定/一部開示の本人：表見的権限（Apparent Authority）は、本人が**一部開示または未特定**である場合（第三者が代理人が本人のために行動していることを知っているが、本人の身元を_知らない_場合）に存在する_ことがある_。\n• 非開示の本人：表見的権限（Apparent Authority）は、**非開示の本人**が存在する場合（第三者が代理人が本人のために行動していることを_知らない_場合）には存在_し得ない_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "表見代理（Apparent Authority）"
   },
   {
     "id": 6,
@@ -131,15 +136,18 @@
     "ruleTitle": "Inherent Agency Power",
     "priority": "MED",
     "frequency": "3 of 65 Exams",
-    "body": "• Under the Restatement (Second) of Agency, the Inherent Agency Power (also known as inherent authority) protects third-parties in certain situations when dealing with agents _even if_there is NO actual or apparent authority. The Inherent Agency Power is***derived solely from*** o\n***the agency relation***(it is_not_derived from actual authority, apparent authority, or estoppel), and***exists***\n***for the protection of persons harmed***by or dealing with an agent.\n*",
-    "meeTips": [],
-    "examHistory": [
-      "Feb 1996, Essay 5",
-      "Feb 2005, Essay 7",
-      "July 2001, Essay 1"
+    "body": "• Under the Restatement (Second) of Agency, the Inherent Agency Power (also known as inherent authority) protects third-parties in certain situations when dealing with agents _even if_ there is NO actual or apparent authority.\n  ○ The Inherent Agency Power is ***derived solely from the agency relation*** (it is _not_ derived from actual authority, apparent authority, or estoppel), and ***exists for the protection of persons harmed*** by or dealing with an agent.\n• Inherent Agency Power falls into two groups:\n  ○ The **first group** subjects an employer to liability when: **(1)** the agent ***acts in furtherance of his employer’s business***; **AND (2)** his conduct ***harms a third-party***.\n  ○ The **second group** subjects the principal to contractual liability when: **(1)** an ***agency relationship exists*** between the principal and agent; **AND (2)** the agent engages in ***acts that would normally be authorized***, ***but are not*** because he (a) ***violated the principal’s instructions*** _or_ (b) ***acted in his own interests***.\n• The concept of Inherent Agency Power was ***eliminated*** in the Restatement (Third) of Agency.",
+    "meeTips": [
+      "On the exam, DO NOT focus on **Inherent Agency Power**, _unless_ the question specifically asks you to or it’s obvious from the fact pattern that the rule applies. Why? First, because the concept was _removed_ from the Restatement (Third) of Agency. Secondly, the rule has been _explicitly ignored_ on the MEE since 2005. For example, the “Note” section of Feb. 2009 MEE (Essay 1, Point Three) stated “Applicants should not receive any credit for discussing inherent authority as that doctrine is not applicable generally nor on the facts.” Further, on Feb. 2013 MEE (Essay 6, Point Three), the concept was _not_ listed in the official part of the answer and was again mentioned in the “Note” section, which stated that the concept “may” be discussed, but that it was inapplicable and “Only minimal credit should be given for discussion of inherent agency power.”"
     ],
-    "translation": "• 代理法リステイトメント（第二次）の下では、固有の代理権（固有の権限とも呼ばれる）は、_たとえ現実の代理権または表見代理権が_**ない**_場合であっても_、代理人と取引する特定の状況において第三者を保護する。固有の代理権は、***代理関係のみから派生する***（_現実の代理権、表見代理権、または禁反言から派生するものではない_）ものであり、***代理人によって損害を受けた者または代理人と取引する者を保護するために存在する***。\n*",
-    "meeTipTranslation": null
+    "examHistory": [
+      "Feb 2005, Essay 7",
+      "July 2001, Essay 1",
+      "Feb 1996, Essay 5"
+    ],
+    "translation": "• 代理法リステイトメント（第二次）の下では、固有の代理権（固有権限とも呼ばれる）は、現実的権限（Actual Authority）または表見的権限（Apparent Authority）が_ない_場合でも、代理人と取引する特定の状況において第三者を保護する。\n  ○ 固有の代理権（Inherent Agency Power）は、***代理関係のみから派生する***ものであり（現実的権限（Actual Authority）、表見的権限（Apparent Authority）、または禁反言（Estoppel）から派生するものでは_ない_）、***代理人によって損害を受けた者または代理人と取引する者の保護のために存在する***。\n• 固有の代理権（Inherent Agency Power）は二つのグループに分類される。\n  ○ **第一のグループ**は、以下のいずれかの場合に雇用主に責任を負わせる。**(1)** 代理人が***雇用主の事業を推進するために行動する***場合、**かつ (2)** その行為が***第三者に損害を与える***場合。\n  ○ **第二のグループ**は、以下のいずれかの場合に本人に契約上の責任を負わせる。**(1)** 本人と代理人との間に***代理関係が存在する***場合、**かつ (2)** 代理人が***通常は授権されるであろう行為に従事するが、そうではない***場合。なぜなら、彼が (a) ***本人の指示に違反した***_か_ (b) ***自己の利益のために行動した***からである。\n• 固有の代理権（Inherent Agency Power）の概念は、代理法リステイトメント（第三次）において***廃止された***。",
+    "meeTipTranslation": "試験では、**固有の代理権（Inherent Agency Power）**に焦点を当てないでください。_ただし_、質問が具体的にそう求めている場合、または事実関係からその規則が適用されることが明白な場合は除きます。なぜか？第一に、その概念が代理法リステイトメント（第三版）から_削除された_からです。第二に、その規則は2005年以降、MEEで_明確に無視されてきました_。例えば、2009年2月のMEE（論文1、論点3）の「注記」セクションには、「受験者は、固有の権限について議論しても点数を与えられるべきではありません。なぜなら、その法理は一般的に、また事実関係においても適用されないからです。」と述べられていました。さらに、2013年2月のMEE（論文6、論点3）では、その概念は回答の公式部分には_記載されておらず_、再び「注記」セクションで言及されました。そこには、その概念は議論「してもよい」が、それは適用されず、「**固有の代理権（Inherent Agency Power）**の議論には、最小限の点数のみが与えられるべきです。」と述べられていました。",
+    "ruleTitleJa": "固有の代理権限（Inherent Agency Power）"
   },
   {
     "id": 7,
@@ -149,16 +157,19 @@
     "ruleTitle": "Ratification of Agent’s Contracts",
     "priority": "HIGH",
     "frequency": "4 of 65 Exams",
-    "body": "• A principal’s ratification of an agent’s conduct will make the principal liable for those contracts entered into by an agent without authority. Ratification occurs when the principal:\n**(1)**has***knowledge of all material facts or contract***\n***terms***;** AND (2)**thereafter***manifests assent (approves)*** of the same through words or conduct.\n*",
-    "meeTips": [],
-    "examHistory": [
-      "Feb 2013, Essay 6",
-      "Feb 2017, Essay 5",
-      "Feb 2022, Essay 4",
-      "July 2022, Essay 3"
+    "body": "• A principal’s ratification of an agent’s conduct will make the principal liable for those contracts entered into by an agent without authority. Ratification occurs when the principal: **(1)** has ***knowledge of all material facts or contract terms***; **AND (2)** thereafter ***manifests assent (approves)*** of the same through words or conduct.\n  ○ Despite ratification by the principal, an agent also remains liable for any acts or contracts entered into if the principal was not disclosed to the third party.\n• Under the Restatement (Second) of Agency, an **undisclosed principal** generally CANNOT ratify an agent’s unauthorized act because ratification requires that the agent ***purported to act*** on the principal’s behalf. However, under the Restatement (Third) of Agency, an undisclosed principal MAY ratify an agent’s unauthorized act.",
+    "meeTips": [
+      "Unless directed otherwise, you may apply _either_ Restatement approach when an undisclosed principal ratifies an agent’s contract. In the Feb. 2022 MEE (Essay 4, Point Two, Note Section), the official analysis stated: “Examinees may receive full credit for using either of the two contrary approaches.\""
     ],
-    "translation": "• 本人が代理人の行為を**追認**した場合、本人は代理人が無権限で締結した契約について責任を負うことになる。追認は、本人が以下の条件を満たしたときに発生する。\n**(1)**すべての***重要事実または契約条件***を**認識していること**。**かつ (2)**その後、言動によって当該行為に対する***承諾（承認）を表明***すること。",
-    "meeTipTranslation": null
+    "examHistory": [
+      "July 2022, Essay 3",
+      "Feb 2022, Essay 4",
+      "Feb 2017, Essay 5",
+      "Feb 2013, Essay 6"
+    ],
+    "translation": "• 本人が代理人の行為を追認（Ratification）した場合、本人は代理人が無権限で締結した契約について責任を負うことになる。追認（Ratification）は、本人が：**(1)** ***すべての重要事実または契約条件を知っており***、**かつ (2)** その後、言葉または行為によってそれらに対する***同意を表明（承認）***した場合に生じる。\n  ○ 本人による追認（Ratification）にもかかわらず、本人が第三者に開示されていなかった場合、代理人は締結されたいかなる行為または契約についても引き続き責任を負う。\n• 代理法リステイトメント（第2版）によれば、**顕名されていない本人（Undisclosed Principal）**は、追認（Ratification）には代理人が本人のために***行為を意図した***ことが必要であるため、通常、代理人の無権限行為を追認（Ratification）することはできない。しかし、代理法リステイトメント（第3版）によれば、顕名されていない本人（Undisclosed Principal）は代理人の無権限行為を追認（Ratification）することができる。",
+    "meeTipTranslation": "別段の指示がない限り、顕名されていない本人（Undisclosed Principal）が代理人の契約を追認（Ratification）する場合、_いずれか_のリステイトメントのアプローチを適用してよい。2022年2月のMEE（論文試験4、論点2、注記セクション）において、公式分析は「受験者は、2つの相反するアプローチのいずれかを使用した場合でも満点を得ることができる」と述べている。",
+    "ruleTitleJa": "代理人の契約の追認（Ratification）"
   },
   {
     "id": 8,
@@ -168,21 +179,20 @@
     "ruleTitle": "Agent’s Contractual Liability",
     "priority": "HIGH",
     "frequency": "8 of 65 Exams",
-    "body": "• Generally, an agent has NO contractual liability to a third- party for a contract entered into with that party if he:** (1)*****fully***\n***discloses the principal***he is acting on behalf of (he provides the name of the principal to the third-party);** AND (2)**the agent had (a)***actual authority***or (b)***apparent authority***(_even_ _if_no actual authority present). Conversely, an agent**will be**\n**liable**on the contract if both elements above are not met.\n• An authorized agent***will be liable***to the third-party on a contract when the**principal is undisclosed**(when the third-party_does not_know the agent is acting on behalf of a principal). Moreover, an undisclosed principal’s ratification DOES NOT eliminate the agent’s liability to the third-party on the contract.\n• Unless otherwise agreed, an authorized agent***will be liable***to the third-party on a contract when the**principal is partially**\n**disclosed or unidentified**(when the third-party knows the agent is acting on behalf of a principal but_does not_know the identity of the principal).\n• Where an agent is liable on a contract AND his conduct was authorized, he may seek indemnification from the principal on any payments he made to the third-party.",
-    "meeTips": [
-      "Unless directed otherwise, you may apply_either_Restatement approach when an undisclosed principal ratifies an agent’s contract. In the Feb. 2022 MEE (Essay 4, Point Two, Note Section), the official analysis stated: “Examinees may receive full credit for using either of the two contrary approaches."
-    ],
+    "body": "• Generally, an agent has NO contractual liability to a third-party for a contract entered into with that party if he: **(1) *fully discloses the principal*** he is acting on behalf of (he provides the name of the principal to the third-party); **AND (2)** the agent had (a) ***actual authority*** or (b) ***apparent authority*** (_even if_ no actual authority present). Conversely, an agent **will be liable** on the contract if both elements above are not met.\n• An authorized agent ***will be liable*** to the third-party on a contract when the **principal is undisclosed** (when the third-party _does not_ know the agent is acting on behalf of a principal). Moreover, an undisclosed principal’s ratification DOES NOT eliminate the agent’s liability to the third-party on the contract.\n• Unless otherwise agreed, an authorized agent ***will be liable*** to the third-party on a contract when the **principal is partially disclosed or unidentified** (when the third-party knows the agent is acting on behalf of a principal but _does not_ know the identity of the principal).\n• Where an agent is liable on a contract AND his conduct was authorized, he may seek indemnification from the principal on any payments he made to the third-party.",
+    "meeTips": [],
     "examHistory": [
-      "Feb 1996, Essay 5",
-      "Feb 1997, Essay 4",
-      "Feb 2013, Essay 6",
-      "Feb 2017, Essay 5",
-      "Feb 2020, Essay 5",
       "Feb 2022, Essay 4",
-      "July 2006, Essay 2"
+      "Feb 2020, Essay 5",
+      "Feb 2017, Essay 5",
+      "Feb 2013, Essay 6",
+      "July 2006, Essay 2",
+      "Feb 1997, Essay 4",
+      "Feb 1996, Essay 5"
     ],
-    "translation": "• 一般に、代理人が第三者と契約を締結した場合、以下の条件を満たしていれば、当該第三者に対して契約上の責任を負わない。**(1)代理人が、自己が代理する***本人を完全に開示***していること（第三者に本人の名称を提供していること）。**かつ (2)代理人が(a)***現実的権限***または(b)***表見代理権***を有していたこと（_たとえ_現実的権限が存在しなかったとしても）。逆に、上記のいずれの要素も満たされない場合、代理人は当該契約について**責任を負う**ことになる。\n• 権限のある代理人は、**本人が顕名されていない**場合（第三者が代理人が本人を代理して行為していることを_知らない_場合）、当該契約について第三者に対して***責任を負う***。さらに、顕名されていない本人の追認は、当該契約における代理人の第三者に対する責任を消滅させない。\n• 別段の合意がない限り、権限のある代理人は、**本人が部分的に開示されているか、または未特定である**場合（第三者が代理人が本人を代理して行為していることを知っているが、本人の身元を_知らない_場合）、当該契約について第三者に対して***責任を負う***。\n• 代理人が契約上の責任を負い、かつその行為が権限を与えられていた場合、代理人は第三者に対して行った支払いについて、本人に償還を求めることができる。\n\n[MEEのヒント]\n別段の指示がない限り、顕名されていない本人が代理人の契約を追認する場合、_いずれかの_リステイトメントのアプローチを適用してよい。2022年2月のMEE（エッセイ4、ポイント2、注釈セクション）において、公式分析は「受験者は、2つの相反するアプローチのいずれかを使用した場合でも満点を得ることができる」と述べている。",
-    "meeTipTranslation": null
+    "translation": "• 一般に、代理人は、第三者との間で締結された契約について、以下の条件を満たす場合、第三者に対して契約責任を負わない：**(1) ***本人を完全に開示している***（第三者に本人の名前を伝えている）**、**かつ (2)** 代理人が (a) ***実際権限（Actual Authority）*** または (b) ***表見権限（Apparent Authority）*** を有していた（_たとえ_実際権限（Actual Authority）がなかったとしても）。逆に、上記のいずれかの要素が満たされない場合、代理人はその契約について**責任を負う**。\n• 権限のある代理人は、**本人が顕名されていない**場合（第三者が代理人が本人のために行為していることを_知らない_場合）、契約について第三者に対して***責任を負う***。さらに、顕名されていない本人（Undisclosed Principal）による追認（Ratification）は、契約に関する代理人の第三者に対する責任を排除しない。\n• 別段の合意がない限り、権限のある代理人は、**本人が部分的に開示されているか、または未特定である**場合（第三者が代理人が本人のために行為していることを知っているが、本人の身元を_知らない_場合）、契約について第三者に対して***責任を負う***。\n• 代理人が契約について責任を負い、かつその行為が権限を与えられていた場合、代理人は第三者に対して行った支払いについて本人に補償を求めることができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "代理人の契約責任"
   },
   {
     "id": 9,
@@ -192,20 +202,23 @@
     "ruleTitle": "Employee vs. Independent Contractor",
     "priority": "HIGH",
     "frequency": "8 of 65 Exams",
-    "body": "• An employer is vicariously liable for an**employee’s** negligent acts if the employee was acting within the scope of employment. However, a principal/employer is generally\n**NOT**vicariously liable for the torts of an**independent**\n**contractor**. An employee is an agent whom the employer***controls*** o (or has the right to control) the manner and means of the agent’s performance of work. An independent contractor is a person who contracts o with another to do something for him, but who is***not***\n***controlled***nor subject to the other’s right to control with respect to his performance. The contractor may or may not be an agent.\n• The determination of whether a person is an employee or an independent contractor centers on whether the principal***had***\n***the right to control the manner and method in which the job***\n***is performed***.\n*",
-    "meeTips": [],
-    "examHistory": [
-      "Feb 2003, Essay 4",
-      "Feb 2006, Essay 2",
-      "Feb 2015, Essay 1",
-      "Feb 2020, Essay 5",
-      "Feb 2021, Essay 1",
-      "July 2004, Essay 5",
-      "July 2017, Essay 1",
-      "July 2025, Essay 6"
+    "body": "• An employer is vicariously liable for an **employee’s** negligent acts if the employee was acting within the scope of employment. However, a principal/employer is generally **NOT** vicariously liable for the torts of an **independent contractor**.\n  ○ An employee is an agent whom the employer ***controls*** (or has the right to control) the manner and means of the agent’s performance of work.\n  ○ An independent contractor is a person who contracts with another to do something for him, but who is ***not controlled*** nor subject to the other’s right to control with respect to his performance. The contractor may or may not be an agent.\n• The determination of whether a person is an employee or an independent contractor centers on whether the principal ***had the right to control the manner and method in which the job is performed***.\n  ○ Generally, if the principal has **substantial control** in dictating the manner and method in which the job is performed, then the person **is deemed to be an employee** of the principal. In contrast, a person subject to ***less extensive control*** is considered an **independent contractor**.\n  ○ Whether an employer-employee relationship exists is a factual determination (the characterization of the relationship by the parties is _not_ determinative).\n• The factors used to determine whether an agent is an employee are: (1) the extent of control the principal may exercise over the details of the work; (2) if the agent is engaged in a distinct occupation or business; (3) the type of work; (4) how the agent is paid (hourly or per project); (5) who supplied the equipment or tools; (6) the degree of supervision; (7) the degree of skill required; (8) whether the job was part of the principal’s regular business; (9) the length of time the agent is engaged by the principal; (10) whether the principal and the agent believe that they are creating an employment relationship; and (11) whether the person was hired for a business purpose.",
+    "meeTips": [
+      "On the exam, use this checklist for solving a question concerning an employer’s vicarious liability:\n• Step 1: Is the person who committed the tort an employee?\n  ○ If the question states that the person is an employee, you can skip this step.\n  ○ If it’s unclear if the person is an employee or independent contractor, apply the “Employee vs. Independent Contractor” rule.\n• Step 2: If the person is an employee, determine if the tortious act was committed _within_ the scope of employment.\n  ○ See “Vicarious Liability of Employer: Doctrine of Respondeat Superior” rule.\n    • If the act was _within_ scope of employment, then employer is liable.\n    • If the act was _not_ within scope of employment, then the employer is generally not liable (but see exceptions in Step 3 below).\n• Step 3: Do any exceptions apply to hold an employer liable when the tort was _not_ committed with the scope of employment?\n  ○ See the “Vicarious Liability of Employer: Liability Where Respondeat Superior Doctrine Inapplicable” rule.\n• Step 4: Is the principal liable for acts of the Independent Contractor?\n  ○ See “Vicarious Liability for Acts of Independent Contractors” rule.\n  ○ Generally, a principal is _not_ liable.\n  ○ But, check if any exceptions apply."
     ],
-    "translation": "• 雇用主は、**従業員**が職務範囲内で行為した場合、その過失行為について転嫁責任を負う。しかし、本人／雇用主は、一般に**独立請負人**の不法行為に対しては転嫁責任を**負わない**。従業員とは、雇用主がその職務遂行の方法および手段を***支配する***（または支配する権利を有する）代理人である。独立請負人とは、他者のために何かを行う契約を締結する者であるが、その職務遂行に関して他者によって***支配されず***、また他者の支配権に服さない者である。請負人は代理人である場合もあれば、そうでない場合もある。\n• ある者が従業員であるか独立請負人であるかの判断は、本人が***職務遂行の方法および手段を支配する権利を有していたか***どうかに焦点を当てる。",
-    "meeTipTranslation": null
+    "examHistory": [
+      "July 2025, Essay 6",
+      "Feb 2021, Essay 1",
+      "Feb 2020, Essay 5",
+      "July 2017, Essay 1",
+      "Feb 2015, Essay 1",
+      "Feb 2006, Essay 2",
+      "July 2004, Essay 5",
+      "Feb 2003, Essay 4"
+    ],
+    "translation": "• 雇用主は、**従業員**が職務範囲内（Scope of Employment）で行為していた場合、その従業員の過失行為について転嫁責任（Vicarious Liability）を負う。しかし、本人/雇用主は、一般に**独立請負人（Independent Contractor）**の不法行為について転嫁責任（Vicarious Liability）を負わない。\n  ○ 従業員とは、雇用主が代理人の業務遂行の方法と手段を***支配する***（または支配する権利を有する）代理人である。\n  ○ 独立請負人（Independent Contractor）とは、他者のために何かを行う契約を締結する者であるが、その業務遂行に関して他者によって***支配されず***、また他者の支配権に服さない者である。請負人は代理人である場合もあれば、そうでない場合もある。\n• 人が従業員であるか独立請負人（Independent Contractor）であるかの判断は、本人が***業務が遂行される方法および手段を支配する権利を有していたか***どうかに焦点を当てる。\n  ○ 一般に、本人が業務の遂行方法および手段を指示する上で**実質的な支配**を有する場合、その者は本人の**従業員であるとみなされる**。対照的に、***より限定的な支配***に服する者は**独立請負人（Independent Contractor）**とみなされる。\n  ○ 雇用主と従業員の関係が存在するか否かは事実認定である（当事者による関係の性格付けは_決定的ではない_）。\n• 代理人が従業員であるか否かを判断するために用いられる要素は以下の通りである：(1) 本人が業務の詳細に対して行使しうる支配の程度；(2) 代理人が独立した職業または事業に従事しているか否か；(3) 業務の種類；(4) 代理人への支払い方法（時給制かプロジェクト単位か）；(5) 設備または道具を供給したのは誰か；(6) 監督の程度；(7) 要求される技能の程度；(8) その業務が本人の通常の事業の一部であったか否か；(9) 代理人が本人に雇用されている期間；(10) 本人と代理人が雇用関係を創出していると信じているか否か；および (11) その者が事業目的で雇用されたか否か。",
+    "meeTipTranslation": "試験では、雇用主の転嫁責任（Vicarious Liability）に関する問題を解決するために、このチェックリストを使用すること：\n• ステップ1：不法行為を行った者は従業員であるか？\n  ○ 問題文がその者が従業員であると述べている場合、このステップはスキップできる。\n  ○ その者が従業員であるか独立請負人（Independent Contractor）であるかが不明確な場合、「従業員対独立請負人（Independent Contractor）」のルールを適用すること。\n• ステップ2：その者が従業員である場合、不法行為が職務範囲_内_でなされたか否かを判断すること。\n  ○ 「雇用主の転嫁責任（Vicarious Liability）：使用者責任（Respondeat Superior）の法理」のルールを参照すること。\n• その行為が職務範囲_内_であった場合、雇用主は責任を負う。\n  ○ その行為が職務範囲_外_であった場合、雇用主は一般に責任を負わない（ただし、下記のステップ3の例外を参照すること）。\n• ステップ3：不法行為が職務範囲_外_でなされた場合でも、雇用主を責任を負わせる例外が適用されるか？\n  ○ 「雇用主の転嫁責任（Vicarious Liability）：使用者責任（Respondeat Superior）の法理が適用されない場合の責任」のルールを参照すること。\n• ステップ4：本人は独立請負人（Independent Contractor）の行為について責任を負うか？\n  ○ 「独立請負人（Independent Contractor）の行為に対する転嫁責任（Vicarious Liability）」のルールを参照すること。\n  ○ 一般に、本人は_責任を負わない_。\n  ○ しかし、例外が適用されるか否かを確認すること。",
+    "ruleTitleJa": "従業員対独立請負人（Independent Contractor）"
   },
   {
     "id": 10,
@@ -215,19 +228,22 @@
     "ruleTitle": "Vicarious Liability of Employer: Doctrine of Respondeat Superior",
     "priority": "HIGH",
     "frequency": "7 of 65 Exams",
-    "body": "• Under the doctrine of respondeat superior, an employer is vicariously liable for an***employee’s***negligent acts if the employee was acting***within the scope of employment***.\n• An employee acts**within the scope of employment** when:** (a)*****performing work assigned by the employer***;** OR**\n**(b)**engaging in a course of***conduct subject to the employer’s***\n***control***. Factors to determine if conduct is within the scope of employment include whether: (i) it’s the kind the employee is employed to perform; (ii) it occurs substantially within the authorized time and space limits; and (iii) it is motivated (in whole or part) by a purpose to serve the employer. Additionally, conduct is within the scope of employment if it’s of the same general nature (or incidental) as the conduct authorized. Conduct is NOT outside the scope of employment_merely_because an employee disregards the employer’s instructions. An employee driving between work sites (or between the office/workplace and a work site) is typically considered within the scope of employment_even_ _if_there is a minor or incidental deviation from work for personal reasons (a “detour”).\n*",
-    "meeTips": [],
-    "examHistory": [
-      "Feb 2003, Essay 4",
-      "Feb 2006, Essay 2",
-      "Feb 2010, Essay 4",
-      "Feb 2015, Essay 1",
-      "Feb 2021, Essay 1",
-      "July 2013, Essay 2",
-      "July 2025, Essay 6"
+    "body": "• Under the doctrine of respondeat superior, an employer is vicariously liable for an ***employee’s*** negligent acts if the employee was acting ***within the scope of employment***.\n• An employee acts **within the scope of employment** when: **(a) *performing work assigned by the employer***; **OR (b)** engaging in a course of ***conduct subject to the employer’s control***. Factors to determine if conduct is within the scope of employment include whether: (i) it’s the kind the employee is employed to perform; (ii) it occurs substantially within the authorized time and space limits; and (iii) it is motivated (in whole or part) by a purpose to serve the employer. Additionally, conduct is within the scope of employment if it’s of the same general nature (or incidental) as the conduct authorized. Conduct is NOT outside the scope of employment _merely_ because an employee disregards the employer’s instructions. An employee driving between work sites (or between the office/workplace and a work site) is typically considered within the scope of employment _even if_ there is a minor or incidental deviation from work for personal reasons (a “detour”).\n• An employee’s act is **NOT within the scope of employment** when: **(1)** it occurs within an ***independent course of conduct***; **AND (2)** it is ***not intended*** by the employee ***to serve any purpose of the employer***. Under the “Going and Coming Rule,” an employee traveling/commuting to and from the workplace is typically not considered within the scope of employment (UNLESS the “Special Errand Rule” applies, which provides that an employee is within the scope of employment while performing an errand either as part of their regular duties or at the specific order or request of their employer). Additionally, a **substantial departure** for purely personal purposes that is not reasonably incidental to the job (a “frolic”) is _not_ considered within the scope of employment.\n• An employee’s **intentional torts** are generally NOT within the scope of employment UNLESS the act: **(a)** was specifically ***authorized*** by the employer; **(b)** was ***driven by a desire to serve the employer***; **OR (c)** was the result of ***naturally occurring friction*** from the type of employment.",
+    "meeTips": [
+      "This is a cross-over rule with Torts, and has been listed in both the Torts and Agency subjects because it has appeared on both Agency and Torts essays. In recent years when the rule was tested, the essay was designated as an \"Agency & Torts\" cross-over question."
     ],
-    "translation": "• 使用者責任の法理に基づき、雇用主は、***従業員***が***職務範囲内***で行動していた場合、その***従業員***の過失行為に対して使用者責任を負う。\n• 従業員が**職務範囲内**で行動するのは、以下のいずれかの場合である。** (a)*****雇用主から割り当てられた業務を遂行している***場合。**または**\n**(b)***雇用主の管理下にある行為***に従事している場合。行為が職務範囲内であるか否かを判断する要素には、以下の点が含まれる。(i) 従業員が遂行するために雇用されている種類の行為であるか。(ii) 許可された時間的・空間的制限内で実質的に発生しているか。(iii) 雇用主に奉仕する目的によって（全部または一部）動機付けられているか。さらに、行為が許可された行為と同一の一般的な性質（または付随的）である場合、職務範囲内である。従業員が雇用主の指示を無視したという_理由のみ_で、行為が職務範囲外となるわけではない。従業員が作業現場間（またはオフィス/職場と作業現場間）を運転している場合、個人的な理由による軽微または付随的な業務からの逸脱（「寄り道」）があった_としても_、通常は職務範囲内とみなされる。",
-    "meeTipTranslation": null
+    "examHistory": [
+      "July 2025, Essay 6",
+      "Feb 2021, Essay 1",
+      "Feb 2015, Essay 1",
+      "July 2013, Essay 2",
+      "Feb 2010, Essay 4",
+      "Feb 2006, Essay 2",
+      "Feb 2003, Essay 4"
+    ],
+    "translation": "• 使用者責任（Respondeat Superior）の法理（doctrine of respondeat superior）に基づき、使用者は、***被用者***が***職務遂行の範囲内（Scope of Employment）***で行為していた場合、その過失行為について使用者責任（Respondeat Superior）を負う。\n• 被用者は、以下のいずれかの場合に**職務遂行の範囲内（Scope of Employment）**で行為するものである。すなわち、**(a) *使用者によって割り当てられた業務を遂行している場合***、**または(b)** ***使用者の管理下にある行為***に従事している場合である。行為が職務遂行の範囲内（Scope of Employment）であるか否かを判断する要素には、以下の点が含まれる。(i) 被用者が遂行するために雇用されている種類の行為であるか、(ii) 許可された時間的・空間的制限内で実質的に発生しているか、および (iii) 使用者に奉仕する目的によって（全部または一部が）動機付けられているか、である。さらに、行為が許可された行為と同一の一般的な性質（または付随的）である場合、職務遂行の範囲内（Scope of Employment）である。被用者が使用者の指示を無視したからといって、行為が職務遂行の範囲外となるわけでは_ない_。被用者が作業現場間（または事務所／職場と作業現場間）を運転している場合、個人的な理由による業務からの軽微または付随的な逸脱（「寄り道（detour）」）があったとしても、通常は職務遂行の範囲内（Scope of Employment）とみなされる。\n• 被用者の行為は、以下のいずれかの場合に**職務遂行の範囲内（Scope of Employment）ではない**。すなわち、**(1)** ***独立した行為の過程***で発生した場合、**かつ(2)** 被用者によって***使用者のいかなる目的にも奉仕する意図がない***場合である。「通勤途上ルール（Going and Coming Rule）」に基づき、被用者が職場への往復のために移動／通勤している場合、通常は職務遂行の範囲内（Scope of Employment）とはみなされない（ただし、「特別用務ルール（Special Errand Rule）」が適用される場合を除く。このルールは、被用者が通常の職務の一部として、または使用者の特定の命令もしくは要請により用務を遂行している間は、職務遂行の範囲内（Scope of Employment）であると定めるものである）。さらに、職務に合理的に付随しない純粋に個人的な目的のための**大幅な逸脱**（「私用逸脱（frolic）」）は、職務遂行の範囲内（Scope of Employment）とは_みなされない_。\n• 被用者の**故意の不法行為**は、一般的に職務遂行の範囲内（Scope of Employment）ではない。ただし、その行為が以下のいずれかである場合を除く。**(a)** 使用者によって具体的に***許可されていた***場合、**(b)** ***使用者に奉仕したいという欲求によって動機付けられていた***場合、**または(c)** その雇用形態から***自然に生じる摩擦***の結果であった場合である。",
+    "meeTipTranslation": "これは不法行為法とのクロスオーバールールであり、エージェンシーと不法行為法の両方のエッセイに出題されてきたため、両科目に掲載されている。近年このルールが出題された際には、そのエッセイは「エージェンシー＆不法行為法」のクロスオーバー問題として指定されていた。",
+    "ruleTitleJa": "使用者責任（Respondeat Superior）：レポンデアット・スペリアーの原則"
   },
   {
     "id": 11,
@@ -237,16 +253,17 @@
     "ruleTitle": "Vicarious Liability: Liability Where Respondeat Superior Doctrine Inapplicable",
     "priority": "HIGH",
     "frequency": "4 of 65 Exams",
-    "body": "• In certain situations, a principal (or employer) may still be liable_even if_the doctrine of respondeat superior is inapplicable. Such situations include when:** (a)**the principal\n***intended the conduct or consequences***;** (b)**the principal was***negligent or reckless in selecting, training, retaining,***\n***supervising, or controlling***the agent;** (c)**the conduct involved a principal’s***non-delegable duty***to an injured person that it had a special relationship with;** OR (d)**when (i) the agent had***apparent authority***, (ii) the agent’s***actions***\n***taken with apparent authority constitute the tort***or enable the agent to conceal its commission, and (iii) the third-party\n***relied on that authority***. Apparent authority is created when the employer holds the agent out as having authority_and_the third-party reasonably believes the agent has authority to act.",
+    "body": "• In certain situations, a principal (or employer) may still be liable _even if_ the doctrine of respondeat superior is inapplicable. Such situations include when: **(a)** the principal ***intended the conduct or consequences***; **(b)** the principal was ***negligent or reckless in selecting, training, retaining, supervising, or controlling*** the agent; **(c)** the conduct involved a principal’s ***non-delegable duty*** to an injured person that it had a special relationship with; **OR (d)** when (i) the agent had ***apparent authority***, (ii) the agent’s ***actions taken with apparent authority constitute the tort*** or enable the agent to conceal its commission, and (iii) the third-party ***relied on that authority***. Apparent authority is created when the employer holds the agent out as having authority _and_ the third-party reasonably believes the agent has authority to act.",
     "meeTips": [],
     "examHistory": [
-      "Feb 2003, Essay 4",
+      "July 2025, Essay 6",
       "Feb 2020, Essay 5",
       "July 2013, Essay 2",
-      "July 2025, Essay 6"
+      "Feb 2003, Essay 4"
     ],
-    "translation": "• 特定の状況では、使用者責任の",
-    "meeTipTranslation": null
+    "translation": "• 特定の状況において、本人（または使用者）は、使用者責任（Respondeat Superior）の法理が適用されない場合であっても、なお責任を負うことがある。そのような状況には、以下のいずれかの場合が含まれる。**(a)** 本人が***その行為または結果を意図していた***場合、**(b)** 本人が代理人の***選任、訓練、維持、監督、または管理において過失または無謀であった***場合、**(c)** その行為が、本人と特別な関係にあった被傷害者に対する本人の***非委任義務（Non-delegable Duty）***に関わるものであった場合、**または(d)** (i) 代理人が***表見代理（Apparent Authority）***を有しており、(ii) 代理人の***表見代理（Apparent Authority）をもって行われた行為が不法行為を構成する***か、または代理人がその実行を隠蔽することを可能にし、かつ (iii) 第三者が***その権限に依拠した***場合である。表見代理（Apparent Authority）は、使用者が代理人に権限があるかのように示し、_かつ_第三者が代理人に行為する権限があると合理的に信じた場合に発生する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "転嫁責任（Vicarious Liability）：使用者責任（Respondeat Superior）の法理が適用されない場合の責任"
   },
   {
     "id": 12,
@@ -256,17 +273,18 @@
     "ruleTitle": "Vicarious Liability for Acts of Independent Contractors",
     "priority": "HIGH",
     "frequency": "5 of 65 Exams",
-    "body": "• Generally, a principal is**NOT**vicariously liable for the torts\nof an independent contractor.\n• However, several exceptions exist, and a principal**will be**\n**liable**for torts committed by an independent contractor if:** (a)**the independent contractor is engaged in an***inherently***\n***hazardous activity***;** (b)**the***duty***owed by the principal is***non-***\n*",
+    "body": "• Generally, a principal is **NOT** vicariously liable for the torts of an independent contractor.\n• However, several exceptions exist, and a principal **will be liable** for torts committed by an independent contractor if: **(a)** the independent contractor is engaged in an ***inherently hazardous activity***; **(b)** the ***duty*** owed by the principal is ***non-delegable*** (i.e. the duty of care owed to an invitee); **OR (c)** through the doctrine of estoppel when (i) the ***principal holds the independent contractor out as his agent*** to a third-party, (ii) the third-party ***reasonably relied*** on the care and skill of the agent, _and_ (iii) the third-party ***suffered harm*** as a result of the agent’s lack of care or skill.",
     "meeTips": [],
     "examHistory": [
-      "Feb 2020, Essay 5",
+      "July 2025, Essay 6",
       "Feb 2021, Essay 1",
-      "July 2004, Essay 5",
+      "Feb 2020, Essay 5",
       "July 2017, Essay 1",
-      "July 2025, Essay 6"
+      "July 2004, Essay 5"
     ],
-    "translation": null,
-    "meeTipTranslation": null
+    "translation": "• 一般的に、本人は独立請負人（Independent Contractor）の不法行為について**使用者責任（Respondeat Superior）を負わない**。\n• しかしながら、いくつかの例外が存在し、本人は、独立請負人（Independent Contractor）によって犯された不法行為について**責任を負う**。それは、以下のいずれかの場合である。**(a)** 独立請負人（Independent Contractor）が***超危険行為（Ultra-Hazardous Activities）***に従事している場合、**(b)** 本人が負う***義務***が***非委任的***である場合（すなわち、招待客に対して負う注意義務（Duty of Care）など）、**または(c)** 禁反言（Estoppel）の法理を通じて、(i) ***本人が独立請負人（Independent Contractor）を第三者に対して自己の代理人であるかのように示し***、(ii) 第三者が代理人の注意と技能に***合理的に依拠し***、_かつ_ (iii) 第三者が代理人の注意または技能の欠如の結果として***損害を被った***場合である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "独立請負人（Independent Contractor）の行為に対する転嫁責任（Vicarious Liability）"
   },
   {
     "id": 13,
@@ -276,13 +294,14 @@
     "ruleTitle": "Knowledge of Agent Imputed to Principal",
     "priority": "LOW",
     "frequency": "1 of 65 Exams",
-    "body": "• When determining a principal’s legal relations with a third-party, a principal may be deemed to know or receive information that is known or received by an agent.\n• An agent’s knowledge of a fact is IMPUTED to the principal if knowledge of the fact is***material to the agent’s duties to***\n***the principal***.\n• A notification given to an agent is EFFECTIVE as notice to the principal if the agent has***actual or apparent authority to***\n***receive the notification***.",
+    "body": "• When determining a principal’s legal relations with a third-party, a principal may be deemed to know or receive information that is known or received by an agent.\n• An agent’s knowledge of a fact is IMPUTED to the principal if knowledge of the fact is ***material to the agent’s duties to the principal***.\n• A notification given to an agent is EFFECTIVE as notice to the principal if the agent has ***actual or apparent authority to receive the notification***.",
     "meeTips": [],
     "examHistory": [
       "Sept 2020, Essay 5"
     ],
-    "translation": "• 本人が第三者との法的関係を決定する際、本人は代理人が知っている、または受領した情報を知っている、または受領したとみなされうる。\n• 代理人の事実の認識は、その事実の認識が***代理人の本人に対する職務にとって重要である***場合、本人に帰責される。\n• 代理人になされた通知は、代理人が***通知を受領する現実的権限または表見的権限を有する***場合、本人に対する通知として有効である。",
-    "meeTipTranslation": null
+    "translation": "• 本人の第三者との法的関係を判断する際、本人は代理人が知っているまたは受領した情報を知っているまたは受領したとみなされ得る。\n• ある事実に関する代理人の知識は、その事実の知識が***代理人の本人に対する職務にとって重要である***場合、本人に**帰属する**。\n• 代理人に与えられた通知は、代理人が***通知を受領する実際の権限または表見代理（Apparent Authority）***を有する場合、本人への通知として**有効である**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "代理人の知識の本人への帰属"
   },
   {
     "id": 14,
@@ -292,15 +311,16 @@
     "ruleTitle": "Fiduciary Duties Owed by the Agent to the Principal",
     "priority": "HIGH",
     "frequency": "4 of 65 Exams",
-    "body": "• An agent owes the principal the following fiduciary duties concerning matters within the scope of agency:** (1) Duty of**\n**Care**– to use***reasonable care***when performing the agent’s duties;** (2) Duty of Loyalty**– to act***solely and loyally for***\n***the principal’s benefit***;** AND (3) Duty of Obedience**– to\n***obey all reasonable directions***given by the principal and to act in accordance with the express or implied terms of the relationship.\n• The principal has a claim against the agent when an agent breaches any fiduciary duty owed. For example, an agent will be liable to the principal for any payments the principal made to a third-party when the agent breached his duty to follow directions or acted outside the scope of his authority. Additionally, the agent will be liable and must account for any profit made in violation of the duty of loyalty.\n• Conversely, an agent has NO liability to the principal when the agent fulfills his fiduciary obligations and he acts within the scope of his authority.\n*",
+    "body": "• An agent owes the principal the following fiduciary duties concerning matters within the scope of agency: **(1) Duty of Care** – to use ***reasonable care*** when performing the agent’s duties; **(2) Duty of Loyalty** – to act ***solely and loyally for the principal’s benefit***; **AND (3) Duty of Obedience** – to ***obey all reasonable directions*** given by the principal and to act in accordance with the express or implied terms of the relationship.\n• The principal has a claim against the agent when an agent breaches any fiduciary duty owed. For example, an agent will be liable to the principal for any payments the principal made to a third-party when the agent breached his duty to follow directions or acted outside the scope of his authority. Additionally, the agent will be liable and must account for any profit made in violation of the duty of loyalty.\n• Conversely, an agent has NO liability to the principal when the agent fulfills his fiduciary obligations and he acts within the scope of his authority.",
     "meeTips": [],
     "examHistory": [
-      "Feb 1997, Essay 4",
       "Feb 2006, Essay 2",
+      "July 2002, Essay 6",
       "July 2001, Essay 1",
-      "July 2002, Essay 6"
+      "Feb 1997, Essay 4"
     ],
-    "translation": "• 代理人は、代理の範囲内の事項に関して、本人に対し以下の忠実義務を負う。** (1) 注意義務** – 代理人の職務を遂行する際に***合理的な注意***を用いること。** (2) 忠実義務** – ***本人の利益のために専ら忠実に***行動すること。** および (3) 服従義務** – 本人から与えられた***すべての合理的な指示に従い***、関係の明示的または黙示的な条件に従って行動すること。\n• 代理人が負っている忠実義務のいずれかに違反した場合、本人は代理人に対して請求権を有する。例えば、代理人が指示に従う義務に違反した場合、またはその権限の範囲外で行動した場合、本人が第三者に対して行ったいかなる支払いについても、代理人は本人に対して責任を負う。さらに、代理人は責任を負い、忠実義務に違反して得た利益について説明責任を負わなければならない。\n• 逆に、代理人がその忠実義務を履行し、その権限の範囲内で行動する場合、代理人は本人に対して責任を負わない。",
-    "meeTipTranslation": null
+    "translation": "• 代理人は、代理の範囲内の事項に関して、本人に対し以下の受託者義務（Fiduciary Duty）を負う。**(1) 注意義務（Duty of Care）** – 代理人の職務を遂行する際に***相当な注意***を用いること。**(2) 忠実義務（Duty of Loyalty）** – ***本人の利益のために専ら忠実に***行動すること。**及び (3) 服従義務（Duty of Obedience）** – 本人から与えられた***全ての合理的な指示に従い***、関係の明示的または黙示的な条件に従って行動すること。\n• 代理人が負っている受託者義務（Fiduciary Duty）のいずれかに違反した場合、本人は代理人に対して請求権を有する。例えば、代理人が指示に従う義務に違反した場合、またはその権限の範囲外で行動した場合、本人が第三者に行った支払いについて、代理人は本人に対して責任を負う。加えて、代理人は忠実義務（Duty of Loyalty）に違反して得た利益について責任を負い、説明しなければならない。\n• 逆に、代理人がその受託者義務（Fiduciary Duty）を履行し、その権限の範囲内で行動した場合、代理人は本人に対して**責任を負わない**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "代理人が本人に対して負う受託者義務（Fiduciary Duty）"
   }
 ]

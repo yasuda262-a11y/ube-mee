@@ -1,0 +1,814 @@
+[
+  {
+    "id": 1,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "A. General Principles",
+    "ruleTitle": "Elements of a Crime: Acts and Omissions",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• The **Physical Act** (the _actus reus_) of the defendant must be ***voluntary***. Generally, an **omission** (a failure to act) is NOT criminal UNLESS: **(1)** the defendant had a ***legal duty to act***; **(2)** the defendant had ***knowledge of facts concerning the duty*** to act; **AND (3)** it was ***reasonably possible*** for the defendant to act. A duty to act arises by: a contractual duty; parent-child relationship; a duty taken on voluntarily (including police officers or official duties); a statute that creates a duty; or where the defendant creates the danger.",
+    "meeTips": [
+      "Pay attention to the essay question to see if the examiners direct which law to apply. On past exams, the examiners have provided the applicable law of the jurisdiction (i.e. Model Penal Code, the M'Naghten Test, or have even provided the statutory elements of burglary and theft). If you are _not_ directed which law to use, then apply general principles of criminal law and procedure."
+    ],
+    "examHistory": [],
+    "translation": "• 被告人の**物理的行為**（_実行行為（Actus Reus）_）は***自発的***でなければならない。一般に、**不作為（Omission）**（行為の不履行）は、以下のいずれかに該当しない限り、犯罪とはならない。** (1)** 被告人が***法的行為義務（Legal Duty to Act）***を負っていたこと。** (2)** 被告人が行為義務に関する***事実を認識していたこと***。**かつ (3)** 被告人が行為することが***合理的に可能であったこと***。行為義務は、契約上の義務、親子関係、自発的に引き受けた義務（警察官や公務を含む）、義務を創設する制定法、または被告人が危険を創出した場合に生じる。",
+    "meeTipTranslation": "適用すべき法律を試験官が指示しているかどうか、論文問題に注意すること。過去の試験では、試験官が適用すべき管轄法（モデル刑事法典（Model Penal Code）、マクノートンテスト、または窃盗罪（Larceny）・侵入罪の法定要件を提示したケース）を提供したことがある。適用法が_指示されていない_場合は、刑事法および手続の一般原則を適用すること。出題数：0回。",
+    "ruleTitleJa": "犯罪の構成要件：作為と不作為（Omission）"
+  },
+  {
+    "id": 2,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "A. General Principles",
+    "ruleTitle": "Elements of a Crime: Causation",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• **Causation** requires both: **(1) *actual causation*** (also called cause-in-fact or “but for” causation); **AND (2) *proximate cause***. Actual causation is present when the result (i.e. injury) would not have occurred “but-for” the defendant’s conduct. Proximate cause requires asking if it was ***foreseeable*** that the injury would have resulted from the defendant’s physical act (was it a ***natural and probable consequence***).\n• A **Superseding Intervening Cause** is a third party’s act that _breaks the chain of causation_, which normally cuts off the defendant’s liability. However, a third party’s act will only break the chain if the intervening force was: **(1) *independent*** of the defendant’s wrongful conduct; **AND (2) *not foreseeable*** (it was so out-of-the-ordinary that it is not fair to hold the defendant criminally responsible).\n• Under the **Simultaneous Acts Rule**, a person’s act will _still be the proximate cause_ of a resulting injury if his wrongful conduct created a condition of peril, _even if_ later negligent events combined to cause the injury (so long as the later events are foreseeable). Similarly, a defendant’s **wrongful act that *accelerates death is still the legal cause of death***, even if the person was going to die eventually.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2012, Essay 2",
+      "July 2007, Essay 5"
+    ],
+    "translation": "• **因果関係（Causation）**には、以下の両方が必要である。** (1) *事実的因果関係（Actual Causation）***（原因事実または「もし～でなければ」の因果関係（But-For Causation）とも呼ばれる）。**かつ (2) *法的因果関係（Proximate Cause）***。事実的因果関係（Actual Causation）は、被告人の行為がなければ結果（すなわち傷害）が生じなかったであろう場合に存在する。法的因果関係（Proximate Cause）は、被告人の物理的行為から傷害が生じることが***予見可能であったか***（それは***自然かつ蓋然的な結果（natural and probable consequence）***であったか）を問うことを必要とする。\n• **介入的競合原因（Intervening Superseding Cause）**とは、第三者の行為が_因果関係（Causation）の連鎖を断ち切る_ものであり、通常、被告人の責任を遮断する。しかし、第三者の行為が因果関係（Causation）の連鎖を断ち切るのは、その介入力が以下の条件を満たす場合に限られる。** (1) 被告人の不法行為から*独立していたこと***。**かつ (2) *予見不可能であったこと***（それはあまりにも異常であり、被告人に刑事責任を負わせることが不公平であるほどであったこと）。\n• **同時行為の原則（Concurrent Cause Rule）**の下では、ある者の不法行為が危険な状態を作り出した場合、その行為は、その後の過失行為が結合して傷害を引き起こした_としても_、結果として生じた傷害の_法的因果関係（Proximate Cause）は依然として存在する_（その後の出来事が予見可能である限り）。同様に、被告人の**死を*早める不法行為は、その者がいずれ死ぬ運命にあったとしても、依然として死の法的原因となる***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "犯罪の構成要件：因果関係（Causation）"
+  },
+  {
+    "id": 3,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "A. General Principles",
+    "ruleTitle": "Elements of a Crime: Mental States",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• The **Mental State** (the _mens rea_ or intent element) is explicitly stated in the statute for the specific crime the defendant is charged with.\n• Under the Common Law four mental state categories were used: ***Specific Intent*** (intent or desire to engage in the conduct or cause a certain result); ***General Intent*** (awareness of acting a certain way); ***Malice*** (reckless disregard of a known risk that harm may occur); and ***Strict Liability*** (no mental state is required, only that the act occurs). A mistake of fact is generally NOT a defense to strict liability crimes.\n• The Model Penal Code (MPC) applies the following categories of intent to crimes:\n  ○ A person acts **purposefully** if it’s his ***conscious object*** to engage in the conduct or cause a certain result.\n  ○ A person acts **knowingly** if he is ***aware*** that his conduct is of a particular nature or will cause a certain result to occur.\n  ○ A person acts **recklessly** if: **(1)** he ***consciously disregards a substantial and unjustifiable risk*** that a certain result would occur; **AND (2)** the action is a ***gross deviation*** from how a reasonable law-abiding person would act. A person who creates such a risk, but is unaware of it solely because of **voluntary intoxication**, ***also acts recklessly***.\n  ○ A person acts with **criminal negligence** if: **(1)** he ***should have been aware of a substantial and unjustifiable risk***; **AND (2)** that failure to perceive the risk is a ***gross deviation*** from what a reasonable prudent person would observe in similar circumstances.\n• A majority of states use the **Willful Blindness Standard**, wherein a person can be deemed to act ***knowingly*** when he: **(a)** is ***aware that certain facts are highly probable***; **OR (b)** is ***intentionally ignorant*** to certain facts. A minority of jurisdictions reject the willful blindness standard, and require actual knowledge. In such a jurisdiction, knowledge may be proved by circumstantial evidence.",
+    "meeTips": [
+      "Apply the appropriate mental state(s), depending on the fact pattern and the call of the essay question."
+    ],
+    "examHistory": [
+      "Feb 2022, Essay 2",
+      "July 2012, Essay 2",
+      "July 2010, Essay 8"
+    ],
+    "translation": "• **精神状態（Mens Rea）**（_故意_または意図の要素）は、被告人が起訴された特定の犯罪に関する制定法に明示されている。\n• コモン・ローの下では、以下の4つの精神状態（Mens Rea）のカテゴリーが用いられた。***特定故意（Specific Intent）***（行為に従事することまたは特定の結果を引き起こすことへの意図または欲求）。***一般故意（General Intent）***（特定の方法で行為していることの認識）。***悪意（Malice）***（損害が発生する可能性のある既知のリスクに対する無謀な無視）。そして***厳格責任（Strict Liability）***（精神状態（Mens Rea）は要求されず、行為が発生したことのみが要求される）。事実の錯誤（Mistake of Fact）は、一般に厳格責任（Strict Liability）犯罪に対する抗弁とはならない。\n• 模範刑法典（MPC）は、犯罪に以下の意図のカテゴリーを適用する。\n  ○ ある者は、行為に従事することまたは特定の結果を引き起こすことが、その者の***意識的な目的（conscious purpose）***である場合、**意図的**に行為する。\n  ○ ある者は、その行為が特定の性質のものであること、または特定の結果を引き起こすであろうことを***認識している***場合、**認識的**に行為する。\n  ○ ある者は、以下の条件を満たす場合、**無謀**に行為する。** (1)** ある特定の結果が生じるという***実質的かつ正当化できないリスク（substantial and unjustifiable risk）を意識的に無視した***こと。**かつ (2)** その行為が、合理的な法を遵守する者が行動する方法から***著しく逸脱している（gross deviation）***こと。そのようなリスクを作り出すが、**自発的酩酊（Voluntary Intoxication）**のみを理由にそれを認識していない者は、***同様に無謀に行為する***。\n  ○ ある者は、以下の条件を満たす場合、**過失**により行為する。** (1)** その者が***実質的かつ正当化できないリスク（substantial and unjustifiable risk）を認識すべきであった***こと。**かつ (2)** そのリスクを認識しなかったことが、同様の状況で合理的な慎重な者が観察するであろうことから***著しく逸脱している（gross deviation）***こと。\n• ほとんどの州は**故意の盲目基準（Willful Blindness）**を採用しており、ある者は以下の条件を満たす場合、***認識的***に行為したとみなされ得る。** (a)** ***特定の事実が高度に蓋然的であることを認識している***こと。**または (b)** 特定の事実に対して***意図的に無知である（deliberately ignorant）***こと。少数派の法域は故意の盲目基準（Willful Blindness）を拒否し、実際の認識を要求する。そのような法域では、認識は状況証拠によって証明され得る。",
+    "meeTipTranslation": "事実関係および論文問題の設問に応じて、適切な精神状態（複数可）を適用すること。",
+    "ruleTitleJa": "犯罪の構成要件：主観的要素"
+  },
+  {
+    "id": 4,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "B. Homicide",
+    "ruleTitle": "Murder",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under the **Common Law**, murder is the unlawful killing of a person with ***malice aforethought***. **Malice aforethought** is established upon a showing of: **(a)** an ***intent to kill***; **(b)** an ***intent to inflict great bodily injury***; **(c)** a ***reckless disregard of an extreme risk*** to human life (depraved-heart murder), such as shooting a gun in a crowded room; **OR (d)** an ***intent to commit an inherently dangerous felony*** under the Felony Murder Rule (e.g. murder, manslaughter, rape, robbery, arson, kidnapping, battery). Murder may be reduced to Voluntary Manslaughter if there was adequate provocation.\n• Under the Felony Murder Rule, jurisdictions use two main approaches to determine if the crime was an inherently dangerous felony: (a) **Facts-of-the-Case Rule** – Most jurisdictions examine the particular facts of the case; or (b) **In-the-Abstract Rule** – Some jurisdictions consider only the elements of the underlying crime in the abstract (ignoring the specific facts of the case).\n• Some jurisdictions divide murder into degrees. In these jurisdictions, second-degree murder is the (1) unlawful ***killing***, (2) of a ***person***, (3) with ***malice aforethought***. First degree murder occurs when the killing was: **(1) *willful*** – a specific intent to kill; **(2) *deliberate*** – acting with a cool mind that is capable of reflection; **AND (3) *premeditated*** – to think about beforehand (most jurisdictions require a period of time for prior consideration, while other jurisdictions only require a brief moment of thought).\n• Under the **Model Penal Code (MPC)**, murder is a **killing** of a person, committed: **(a) *purposely or knowingly***; **OR (b) *recklessly*** under circumstances manifesting an ***extreme indifference to the value of human life***. Under the **Felony Murder Rule**, such recklessness and indifference are _presumed_ if the killing occurred during the commission of or attempt to commit a dangerous felony (robbery, rape, arson, burglary, kidnapping) or felony escape.\n• Reckless driving alone usually DOES NOT constitute a depraved-heart murder, unless it was combined with other aggravating factors (i.e. intoxication).",
+    "meeTips": [
+      "Depraved-Heart Murder was mentioned and analyzed in the model essay answer to the July 2015 MEE (Essay 5, Point Two), but the primary rule tested was Manslaughter."
+    ],
+    "examHistory": [
+      "Sept 2020, Essay 1",
+      "July 2015, Essay 5",
+      "July 2007, Essay 5"
+    ],
+    "translation": "• **コモン・ロー**の下では、殺人は***事前悪意（Malice Aforethought）***をもって行われる人の不法な殺害である。**事前悪意（Malice Aforethought）**は、以下のいずれかが示された場合に成立する。**(a)** ***殺意***、**(b)** ***重大な身体的傷害（Serious Bodily Harm）を与える意図***、**(c)** 人命に対する***極度の危険の無謀な無視***（悪意（Malice）の殺人。例えば、混雑した部屋で銃を撃つ行為など）、**または (d)** 重罪殺人ルール（Felony Murder Rule）に基づく***本質的に危険な重罪（inherently dangerous felony）を犯す意図***（例：殺人、故殺（Manslaughter）、強姦（Rape）、強盗（Robbery）、放火（Arson）、誘拐（Kidnapping）、暴行）。適切な挑発（Adequate Provocation）があった場合、殺人は任意故殺（Voluntary Manslaughter）に軽減されうる。\n• 重罪殺人ルール（Felony Murder Rule）の下では、管轄区域は、その犯罪が本質的に危険な重罪（inherently dangerous felony）であったかを判断するために主に2つのアプローチを用いる。(a) **事実に基づくルール** – ほとんどの管轄区域は、事件の特定の事実を検討する。(b) **抽象的ルール** – 一部の管轄区域は、基礎となる犯罪の構成要件のみを抽象的に（事件の特定の事実を無視して）考慮する。\n• 一部の管轄区域では、殺人を段階に分けている。これらの管轄区域では、第二級殺人（Second-Degree Murder）は、(1) 不法な***殺害***、(2) ***人***の、(3) ***事前悪意（Malice Aforethought）***をもって行われるものである。第一級殺人（First-Degree Murder）は、殺害が以下の条件を満たす場合に発生する。**(1) *故意の（willful）*** – 特定の殺意、**(2) *熟慮した（deliberate）*** – 反省可能な冷静な精神をもって行動すること、**かつ (3) *計画的な（premeditated）*** – 事前に考えること（ほとんどの管轄区域では事前の検討のための期間を要するが、他の管轄区域では短い思考の瞬間のみを要する）。\n• **模範刑法典（MPC）**の下では、殺人は、**(a) *故意にまたは認識して***、**または (b) *無謀に***、***人命の価値に対する極度の無関心（extreme indifference to the value of human life）***を示す状況下で犯された人の**殺害**である。**重罪殺人ルール（Felony Murder Rule）**の下では、危険な重罪（強盗（Robbery）、強姦（Rape）、放火（Arson）、住居侵入、誘拐（Kidnapping））または重罪逃走の実行中または実行の試み中に殺害が発生した場合、そのような無謀さおよび無関心は_推定される_。\n• 無謀運転単独では、通常、悪意（Malice）の殺人には当たらない。ただし、他の加重因子（すなわち酩酊（Intoxication））と組み合わされた場合はこの限りではない。",
+    "meeTipTranslation": "デプレイブド・ハート・マーダー（Depraved Heart Murder）（極度の危険無視による殺人）は、2015年7月MEE（論文5、論点2）の模範解答で言及・分析されたが、主に試験された規則は故殺（マンスローター）であった。",
+    "ruleTitleJa": "殺人"
+  },
+  {
+    "id": 5,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "B. Homicide",
+    "ruleTitle": "Manslaughter",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Voluntary manslaughter is an ***intentional killing*** of a person ***without malice aforethought*** (there was an **adequate provocation**). An adequate provocation reduces the murder charge to manslaughter.\n  ○ **Adequate provocation** is established if: **(1)** the defendant was ***provoked*** (a sudden and intense passion caused him to lose control); **(2)** a ***reasonable person*** would have been provoked; **(3)** there was ***not enough time to cool off*** before the killing; **AND (4)** the defendant ***did not cool off*** before the killing.\n  ○ In most jurisdictions, the adequacy of provocation is based on the _defendant’s reasonable beliefs_.\n  ○ Adequate provocation has been found in the following situations: (i) spousal adultery, (ii) mutual combat, (iii) serious assault or injury to a friend/ relative, and (iv) unlawful arrest. The Defendant must observe or be in the vicinity of the act. Words alone are typically insufficient.\n• Involuntary manslaughter is an ***unintentional killing*** of a person committed: **(a) *recklessly*** (conscious disregard of an unreasonable risk of death or serious bodily injury); **(b)** under the ***misdemeanor-murder rule*** (a killing that results during the commission of a misdemeanor); **OR (c)** during a ***non-dangerous felony*** (a felony not included under the felony murder rule). In some jurisdictions, involuntary manslaughter may result from **criminal negligence**: (1) the defendant knew or should have known that his conduct had a _high or unreasonable risk of death_, and (2) his actions were a _gross deviation_ from how a reasonable person would have acted.\n• Under the Model Penal Code (MPC), manslaughter is a ***killing of a person***: **(a)** committed ***recklessly*** (conscious disregard of a substantial and unjustifiable risk of death or great bodily injury); **OR (b)** which would otherwise be murder, but is committed under the influence of ***extreme mental or emotional disturbance*** for which there is reasonable explanation or excuse. The MPC _does not_ distinguish between voluntary and involuntary manslaughter.",
+    "meeTips": [],
+    "examHistory": [
+      "Sept 2020, Essay 1",
+      "July 2015, Essay 5",
+      "July 2012, Essay 2"
+    ],
+    "translation": "• 任意故殺（Voluntary Manslaughter）は、***事前悪意（Malice Aforethought）なしに***行われる人の***意図的な殺害***である（**適切な挑発（Adequate Provocation）**があった場合）。適切な挑発（Adequate Provocation）は、殺人罪を故殺（Manslaughter）罪に軽減する。\n  ○ **適切な挑発（Adequate Provocation）**は、以下のいずれかが示された場合に成立する。**(1)** 被告人が***挑発（Provocation）された***（突然の激しい感情が彼に制御を失わせた）、**(2)** ***合理的な人***であれば挑発（Provocation）されたであろう、**(3)** 殺害前に***冷静になるのに十分な時間がなかった***、**かつ (4)** 被告人が殺害前に***冷静にならなかった***。\n  ○ ほとんどの管轄区域では、挑発（Provocation）の適切性は_被告人の合理的な信念_に基づいている。\n  ○ 適切な挑発（Adequate Provocation）は、以下の状況で認められている。(i) 配偶者の不貞、(ii) 相互の戦闘、(iii) 友人/親族への重大な暴行または傷害、および (iv) 不法逮捕。被告人は、その行為を目撃するか、その付近にいる必要がある。言葉だけでは通常不十分である。\n• 非任意故殺（Involuntary Manslaughter）は、以下のいずれかによって犯される人の***意図的でない殺害***である。**(a) *無謀に***（死亡または重大な身体的傷害（Serious Bodily Harm）の不合理なリスクに対する意識的な無視）、**(b)** ***軽罪殺人ルール（Misdemeanor Manslaughter Rule）***の下で（軽罪の実行中に生じる殺害）、**または (c)** ***非危険重罪***の実行中に（重罪殺人ルール（Felony Murder Rule）に含まれない重罪）。一部の管轄区域では、非任意故殺（Involuntary Manslaughter）は**犯罪的過失（Criminal Negligence）**から生じることがある。(1) 被告人が自身の行為が_死亡の高度または不合理なリスク_を伴うことを知っていたか、知るべきであった、かつ (2) その行為が合理的な人の行動とは_重大な逸脱_であった。\n• 模範刑法典（MPC）の下では、故殺（Manslaughter）は、**(a) *無謀に***（死亡または重大な身体的傷害（Serious Bodily Harm）の重大かつ不当なリスクに対する意識的な無視）犯された***人の殺害***、**または (b)** それがなければ殺人となるであろうが、合理的な説明または弁解のある***極度の精神的または感情的動揺（Extreme Mental or Emotional Disturbance）***の影響下で犯されたものである。MPCは、任意故殺（Voluntary Manslaughter）と非任意故殺（Involuntary Manslaughter）を_区別しない_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "故殺（Manslaughter）"
+  },
+  {
+    "id": 6,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "C. Other Crimes",
+    "ruleTitle": "Theft Crimes & Receiving Stolen Property",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• **Theft crimes** include the common law crimes of larceny, false pretenses, and embezzlement.\n  ○ Larceny is the (1) ***trespassory taking*** – taking with no belief of a legal right, (2) and ***carrying away***, (3) of the ***personal property of another***, (4) with the ***intent to permanently deprive*** the owner of the property. The intent to permanently deprive MUST ***exist at the time of the taking***. **Larceny by trick** occurs when one ***obtains possession*** (_not_ title) of the personal property of another by trick or deception.\n  ○ False Pretenses occurs when one (1) obtains ***title***, (2) to ***personal property of another***, (3) through a ***known false statement of material fact***, (4) with ***intent to defraud***. An opinion or commercial puffery is generally NOT considered to be false pretenses.\n  ○ Embezzlement is (1) the ***fraudulent*** or wrongful, (2) ***conversion***, (3) of ***personal property of another***, (4) by a person ***with lawful possession*** of the property.\n  Intent to permanently deprive the lawful owner of the property is required.\n• **Receiving Stolen Property** is a crime when a person **(1) *receives possession of stolen property***, **(2)** who ***knows the property is stolen*** at the time of receiving it, **(3)** with the ***intent to permanently deprive*** the owner of the property.\n• **Criminal Possession of Stolen Property** occurs when a person: **(1) *possesses property***; **(2)** that they ***know or reasonably should know is stolen***; **(3)** with ***intent*** to either **(a) *benefit*** that person (or a person other than an owner of the property), or **(b) *impede the recovery*** by an owner.\n• Under the modern view, knowledge that the property is stolen can be inferred from _all surrounding circumstances_. In some jurisdictions, proof of _actual subjective knowledge_ is required.",
+    "meeTips": [
+      "Theft was analyzed in the Feb. 2014 MEE (Essay 5, Point One) model essay answer, but the statute for theft was provided in the essay question. The primary issue tested was Double Jeopardy. Theft & Criminal Possession of Stolen Property were tested on the Feb. 2022 MEE (Essay 2), but statutes were provided in the essay question for each."
+    ],
+    "examHistory": [
+      "Feb 2022, Essay 2",
+      "Feb 2019, Essay 6",
+      "Feb 2014, Essay 5",
+      "July 2010, Essay 8"
+    ],
+    "translation": "• **窃盗罪（Larceny）**には、コモン・ロー上の窃盗（Larceny）、詐欺的横領（False Pretenses）、および業務上横領（Embezzlement）の犯罪が含まれる。\n  ○ 窃盗（Larceny）は、(1) 法的権利があると信じずに奪取する***不法な奪取（Trespassory Taking）***、(2) および***持ち去り***、(3) ***他人の動産***の、(4) 所有者から財産を***永久に奪う意図（intent to permanently deprive）***をもって行われるものである。永久に奪う意図（intent to permanently deprive）は、***奪取時に存在しなければならない***。**詐欺による窃盗（Larceny by Trick）**は、詐欺または欺瞞によって他人の動産の***占有***（所有権_ではない_）を***取得する***場合に発生する。\n  ○ 詐欺的横領（False Pretenses）は、(1) ***所有権***を、(2) ***他人の動産***の、(3) ***既知の重要な事実の虚偽の陳述***を通じて、(4) ***詐欺の意図***をもって取得する場合に発生する。意見または商業的誇張は、一般的に詐欺的横領（False Pretenses）とは見なされない。\n  ○ 業務上横領（Embezzlement）は、(1) ***詐欺的***または不法な、(2) ***横領***、(3) ***他人の動産***の、(4) その財産の***合法的な占有を有する***者によるものである。合法的な所有者から財産を永久に奪う意図（intent to permanently deprive）が必要である。\n• **盗品等収受罪（Receiving Stolen Property）**は、ある者が**(1) *盗品の占有を受け取り***、**(2)** 受領時に***その財産が盗品であることを知っており***、**(3)** 所有者から財産を***永久に奪う意図（intent to permanently deprive）***をもって行う場合に犯罪となる。\n• **盗品等所持罪（Criminal Possession of Stolen Property）**は、ある者が以下の条件を満たす場合に発生する。**(1) *財産を所持し***、**(2)** それが***盗品であることを知っているか、合理的に知るべきであり***、**(3)** 以下のいずれかの***意図***をもって行う。**(a) *その者（または財産の所有者以外の者）に利益をもたらす***、**または (b) *所有者による回収を妨げる***。\n• 現代の見解では、財産が盗品であるという知識は、_あらゆる状況_から推測されうる。一部の管轄区域では、_実際の主観的知識_の証明が要求される。",
+    "meeTipTranslation": "窃盗（Larceny）はFeb. 2014 MEE（Essay 5, Point One）の模範解答で分析されたが、問題文に窃盗（Larceny）の制定法が提供されていた。主に問われた論点は二重危険禁止原則であった。窃盗（Larceny）および盗品の刑事的占有はFeb. 2022 MEE（Essay 2）で出題されたが、各犯罪の制定法が問題文に提供されていた。",
+    "ruleTitleJa": "窃盗罪（Larceny）および盗品受領罪（Receiving Stolen Property）"
+  },
+  {
+    "id": 7,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "C. Other Crimes",
+    "ruleTitle": "Robbery",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Robbery is the **(1) *trespassory taking*** and carrying away, **(2)** of the ***personal property*** of another person, **(3) *in their presence***, **(4)** by the ***use of force or threat of immediate physical harm***, **(5)** with the ***intent to permanently deprive*** the owner of the property. **Armed robbery** requires the elements above _plus_ the use of a ***dangerous weapon*** (i.e. gun, knife).",
+    "meeTips": [
+      "The crime of armed robbery was mentioned in the July 2009 MEE (Essay 7, Point Two), but was _not_ the issue tested. Armed Robbery was tested on the Feb. 2022 MEE (Essay 2), but a statute was provided in the essay question."
+    ],
+    "examHistory": [
+      "Feb 2022, Essay 2",
+      "July 2021, Essay 4"
+    ],
+    "translation": "• 強盗（Robbery）とは、**(1) *不法な奪取（Trespassory Taking）***および持ち去り、**(2)** 他人の***動産***を、**(3) *その者の面前で***、**(4)** ***暴力の使用または差し迫った身体的危害の脅迫***により、**(5)** 所有者からその財産を***永久に奪う意図（intent to permanently deprive）***をもって行うことである。**武装強盗（Armed Robbery）**は、上記の要件_に加え_、***凶器（deadly weapon）***（例：銃、ナイフ）の使用を要する。",
+    "meeTipTranslation": "武装強盗（Armed Robbery）の犯罪はJuly 2009 MEE（Essay 7, Point Two）で言及されたが、_問われた論点ではなかった_。武装強盗（Armed Robbery）はFeb. 2022 MEE（Essay 2）で出題されたが、問題文に制定法が提供されていた。",
+    "ruleTitleJa": "強盗（Robbery）"
+  },
+  {
+    "id": 8,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "C. Other Crimes",
+    "ruleTitle": "Burglary",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Burglary is **(1)** the ***breaking and entering*** (entry without consent, through an unlocked door/window, or even partial entry is sufficient), **(2)** of a ***dwelling***, **(3)** of ***another***, **(4)** at ***night***, **(5)** for the ***purpose of committing a felony*** inside. Most jurisdictions have extended burglary to include _any structure_ at _any time._",
+    "meeTips": [
+      "Burglary was analyzed in the Feb. 2014 MEE (Essay 5, Point One) model essay answer, but the statute for burglary was provided in the essay question. The primary issue tested was Double Jeopardy."
+    ],
+    "examHistory": [
+      "Feb 2019, Essay 6",
+      "Feb 2014, Essay 5"
+    ],
+    "translation": "• 住居侵入罪（Burglary）とは、**(1)** ***侵入***（同意のない侵入、鍵のかかっていないドア/窓からの侵入、または部分的な侵入でも十分である）、**(2)** ***住居***への、**(3)** ***他人の***、**(4)** ***夜間に***、**(5)** 内部で***重罪を犯す目的***をもって行うことである。ほとんどの法域では、住居侵入罪（Burglary）を_あらゆる建造物_への_いかなる時間_の侵入にまで拡張している。",
+    "meeTipTranslation": "不法侵入罪は2014年2月MEE（論文5、論点1）の模範解答で分析されたが、不法侵入罪の法令は論文問題に提供されていた。主に試験された規則は二重危険の禁止であった。",
+    "ruleTitleJa": "不法目的侵入罪（Burglary）"
+  },
+  {
+    "id": 9,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "C. Other Crimes",
+    "ruleTitle": "Rape & Statutory Rape",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• **Rape**: Under the Common Law, rape is **(1)** the ***unlawful sexual intercourse***, **(2) *of a woman by a man*** (not her husband), **(3) *without her consent***. Under the common law, a husband could NOT be convicted of raping his wife. Today, the modern definition of rape now includes marital rape (in most states) and makes gender irrelevant (of both the perpetrator and the victim). Rape is a general intent crime, and the slightest penetration completes the crime.\n  ○ A lack of effective consent exists when: (1) ***actual force*** is used; (2) ***threats of immediate great bodily harm*** are used; (3) the victim is ***incapable of consenting*** (i.e. drunk, unconscious, or medical condition); (4) the defendant ***fraudulently caused the victim to believe that the act is not intercourse*** (fraudulent inducement or promises are NOT sufficient).\n• Under the Model Penal Code (MPC), a male who has sexual intercourse with a female (not his wife) is guilty of rape if: (a) he compels her to submit ***by force or by threat of imminent death, serious bodily injury, extreme pain, or kidnapping*** (to be inflicted on anyone); (b) he has substantially impaired her power to consent by ***secretly drugging her***; (c) the female is ***unconscious***; OR (d) the female is ***less than 10 years old***. Under the MPC, **Deviate Sexual Intercourse** has the same elements as above, but is gender neutral.\n• **Statutory rape** is **(1)** the ***unlawful sexual intercourse***, **(2) *with a person***, **(3) *under the age of consent*** (as defined by statute), regardless of whether it is against that person’s will. Statutory rape is a **strict liability crime** (no intent is required), and a mistake of fact as to the person’s age is NOT a defense.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• **強姦（Rape）**: コモン・ローの下では、強姦（Rape）とは、**(1)** ***不法な性交***、**(2) *男性による女性への***（夫ではない）、**(3) *彼女の同意なしに***行うことである。コモン・ローの下では、夫は妻を強姦（Rape）したとして有罪判決を受けることはできなかった。今日、強姦（Rape）の現代的定義は、夫婦間強姦（Marital Rape）（ほとんどの州で）を含み、性別（加害者と被害者の両方）を問わないものとなっている。強姦（Rape）は一般故意（General Intent）犯であり、わずかな挿入で犯罪は成立する。\n  ○ 有効な同意の欠如は以下の場合に存在する：(1) ***実際の暴力***が用いられた場合；(2) ***差し迫った重大な身体的危害の脅迫***が用いられた場合；(3) 被害者が***同意する能力がない***場合（例：泥酔、意識不明、または病状）；(4) 被告人が***詐欺的に被害者に当該行為が性交ではないと信じさせた***場合（詐欺的な誘引や約束は不十分）。\n• 模範刑法典（MPC）の下では、女性（妻ではない）と性交した男性は、以下の場合に強姦（Rape）罪で有罪となる：(a) 彼女を***暴力または差し迫った死、重大な身体的傷害（Serious Bodily Harm）、激しい苦痛、もしくは誘拐（Kidnapping）の脅迫***（誰に対しても加えられる）によって服従させた場合；(b) ***密かに薬物を投与する***ことによって、彼女の同意能力を著しく損なった場合；c) 女性が***意識不明***である場合；または (d) 女性が***10歳未満***である場合。MPCの下では、**逸脱性交（Deviate Sexual Intercourse）**は上記と同じ要件を有するが、性別中立である。\n• **児童強姦（Rape）**とは、**(1)** ***不法な性交***、**(2) *同意年齢未満の者***（法令で定義されている）との、**(3)** その者の意思に反するかどうかにかかわらず行うことである。児童強姦（Rape）は**厳格責任（Strict Liability）犯罪**であり（故意は不要）、その者の年齢に関する事実の錯誤（Mistake of Fact）は抗弁とならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "強姦（Rape）および法定強姦（Statutory Rape）"
+  },
+  {
+    "id": 10,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "C. Other Crimes",
+    "ruleTitle": "Assault and Battery",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Battery is the **(1) *unlawful application of force***, **(2)** directly or indirectly upon ***another person***, their clothes, or close personal belongings, **(3)** that results in ***injury or offensive contact***. Battery is a **general intent crime**, meaning the prosecution need only prove that the unlawful act itself was intended; intent to cause injury is NOT required.\n• Assault is either: **(a)** an ***attempted battery***; **OR (b)** the ***intentional creation of a reasonable apprehension of imminent bodily harm*** to a person.",
+    "meeTips": [
+      "The Feb. 2024 MEE (Essay 5) involved Assault & Hate Crimes, but the statutes were provided in the essay question and only the rule for \"Double Jeopardy\" was tested."
+    ],
+    "examHistory": [],
+    "translation": "• 暴行（Battery）は、**(1) *違法な有形力の行使***であり、**(2)** ***他者***、その衣服、または身近な所持品に***直接または間接に***加えられ、**(3) *傷害または不快な接触（harmful or offensive contact）***をもたらすものである。暴行は**一般意図犯罪**であり、検察は違法行為自体が意図されたことのみを証明すればよく、傷害を与える意図は不要である。\n• 暴行（Assault）は、**(a)** ***暴行の未遂（Attempt）***；**または (b)** 人に対する***差し迫った身体的危害の合理的な恐怖を意図的に引き起こす***こと。",
+    "meeTipTranslation": "2024年2月MEE（論文5）では暴行罪とヘイトクライムが出題されたが、法令は論文問題に提供されており、試験された規則は「二重危険の禁止」のみであった。",
+    "ruleTitleJa": "暴行および傷害"
+  },
+  {
+    "id": 11,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "C. Other Crimes",
+    "ruleTitle": "Kidnapping & False Imprisonment",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• **Kidnapping**: Under the Common Law, kidnapping is the (1) ***confining, restraining, or moving*** of a person, (2) ***without authority of law***. Under the Model Penal Code (MPC), a person is guilty of kidnapping when he ***abducts another person*** for one of the following purposes: (a) his intent is to compel a third person to pay ransom; (b) to facilitate the commission of a felony; (c) to inflict bodily injury or terrorize the victim; OR (d) to interfere with the performance of any governmental or political function.\n• **False imprisonment** involves the (1) unlawful, (2) confinement of a person, (3) against their will, (4) with knowledge that the restriction is unlawful. Under the MPC, a person commits false imprisonment if he knowingly restrains another person unlawfully so as to ***substantially interfere*** with the person’s liberty.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• **誘拐（Kidnapping）**：コモンローの下では、誘拐（Kidnapping）とは (1) 人を***監禁、拘束、または移動させる***こと、(2) ***法律上の権限なしに***行うことである。模範刑事法典（MPC）の下では、以下のいずれかの目的で***他者を拉致する***場合に誘拐（Kidnapping）の罪を犯す：(a) 第三者に身代金（ransom）を支払わせる意図；(b) 重罪の実行を容易にするため；(c) 被害者に身体的傷害を与えまたは恐怖を与えるため；**または** (d) 政府または政治的機能の遂行を妨害するため。\n• **不法監禁（False Imprisonment）**は、(1) 違法な、(2) 人の監禁、(3) 本人の意思に反して、(4) 制限が違法であることを知りながら行うことを含む。MPCの下では、他者の自由を***実質的に妨害する***態様で違法に拘束する場合に不法監禁（False Imprisonment）の罪を犯す。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "誘拐（Kidnapping）および不法監禁（False Imprisonment）"
+  },
+  {
+    "id": 12,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "C. Other Crimes",
+    "ruleTitle": "Arson",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Arson is the (1) ***malicious*** (intentional or reckless), (2) ***burning***, (3) of a ***dwelling***, (4) ***of another***. A majority of states have included damage caused by explosives, and have also expanded the types of structures destroyed to include other types of buildings and vehicles. Under the Common Law, a person could NOT be convicted of arson when burning their own home (and instead would be guilty of misdemeanor house burning).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 放火（Arson）は、(1) ***悪意（Malice）をもって***（故意または無謀に）、(2) ***燃焼させる***こと、(3) ***他者の***、(4) ***住居***に対して行うことである。多数の州は爆発物による損害を含め、建物や車両などの他の構造物に対象を拡大している。コモンローの下では、自己の住居を燃焼させた場合、放火（Arson）罪で有罪とされることはなかった（代わりに軽罪の住居燃焼罪が適用された）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "放火（Arson）"
+  },
+  {
+    "id": 13,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "C. Other Crimes",
+    "ruleTitle": "Criminal Possession Offenses",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A criminal possession charge normally involves the ***unlawful possession of an item*** (i.e. weapon or controlled substance) according to the jurisdiction’s applicable statute. To be found guilty, usually the person must have BOTH: **(1) *knowledge of the possession*** (that he is possessing the item); **AND (2) *knowledge of what the item is*** (i.e. that the item is a weapon). For drug offenses, knowledge usually DOES NOT extend to the amount or weight of the substance.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 刑事上の所持罪は、通常、当該法域の適用法規に従い、***物品の不法所持***（すなわち、武器または規制薬物（controlled substance））を伴う。有罪と認定されるには、通常、その者は以下の両方を有していなければならない。**(1) *所持の認識（knowledge of possession）***（その物品を所持していることの認識）、**および (2) *物品が何であるかの認識***（すなわち、その物品が武器であることの認識）。薬物犯罪の場合、認識は通常、物質の量や重量には及ばない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "違法所持罪"
+  },
+  {
+    "id": 14,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "D. Inchoate Offenses",
+    "ruleTitle": "Attempt",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams o",
+    "body": "• In most states, a person is guilty of attempt if the person: **(1)** had the ***specific intent*** to commit a crime; **AND (2)** took an ***overt act*** sufficiently ***beyond mere preparation***.\n  ○ Most states and the Model Penal Code require that the **overt act** be a “***substantial step***” toward the completion of that crime.\n  ○ A minority of states require that the overt act be “proximate” or “dangerously proximate” to the crime.\n• The attempt **merges with the underlying crime**. Thus, a person CANNOT be convicted for attempting to commit a crime and the crime itself. Legal impossibility is a defense to an attempt crime, but factual impossibility is NOT a defense.\n• Abandonment/Withdrawal Defense: In most jurisdictions, abandonment or withdrawal is NOT a defense to attempt once the person ***has taken a substantial step*** (conduct beyond mere preparation) toward the completion of the crime. In a minority of jurisdictions and the Model Penal Code, abandonment ***before* the completion of the crime** is an affirmative defense to attempt if: **(1)** the defendant ***voluntarily renounces*** his criminal purpose (abandonment resulting from any extrinsic factor is _not_ deemed voluntary); **AND (2) *completely abandons*** the effort to commit the crime or otherwise ***prevents its commission***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2009, Essay 7"
+    ],
+    "translation": "• ほとんどの州において、以下のいずれかの要件を満たす場合、その者は未遂罪（Attempt）で有罪となる。**(1)** 犯罪を犯す***特定の意図***を有していたこと、**および (2)** ***単なる準備を超えた（beyond mere preparation）***十分な***公然たる行為（Overt Act）***を行ったこと。\n  ○ ほとんどの州および模範刑法典（Model Penal Code）は、その**公然たる行為（Overt Act）**が当該犯罪の完成に向けた「***実質的な一歩***」であることを要求する。\n  ○ 一部の州では、公然たる行為（Overt Act）が犯罪に「近接した」または「危険なほど近接した」ものであることを要求する。\n• 未遂（Attempt）は**基礎となる犯罪と融合する**。したがって、ある者は犯罪の未遂（Attempt）と当該犯罪そのものの両方で有罪判決を受けることはできない。法律上の不能（Legal Impossibility）は未遂罪（Attempt）に対する抗弁となるが、事実上の不能（Factual Impossibility）は抗弁とはならない。\n• 断念（Abandonment）／撤回（Withdrawal）抗弁：ほとんどの法域において、ある者が犯罪の完成に向けた***実質的な一歩***（単なる準備を超えた（beyond mere preparation）行為）を踏み出した後は、断念（Abandonment）または撤回（Withdrawal）は未遂（Attempt）に対する抗弁とはならない。一部の法域および模範刑法典（Model Penal Code）においては、***犯罪の完成前***の断念（Abandonment）は、以下の要件を満たす場合に未遂（Attempt）に対する積極的抗弁（Affirmative Defense）となる。**(1)** 被告人がその犯罪目的を***自発的に放棄***すること（外部要因に起因する断念（Abandonment）は自発的とはみなされない）、**および (2) *完全に断念（Abandonment）***して犯罪を犯す努力を中止するか、またはその***実行を阻止***すること。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "未遂（Attempt）"
+  },
+  {
+    "id": 15,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "D. Inchoate Offenses",
+    "ruleTitle": "Conspiracy",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Conspiracy is a **specific intent crime**, and requires: **(1)** an express or implied ***agreement between two or more people***; **(2) *intent*** to enter into the agreement; **(3) *intent to pursue*** an unlawful objective (at common law this element would be required to be met by ALL parties of the agreement, while the modern trend & MPC only require it to be met by ONE party); **AND (4)** the commission of an ***overt act*** in furtherance of the _unlawful objective_ (under common law no overt act was required). The **overt act** DOES NOT need to be criminal in nature; any act (including preparation) taken by a co-conspirator in furtherance of the unlawful objective is sufficient.\n• Co-conspirators are liable for BOTH the ***conspiracy*** itself **AND *all foreseeable crimes*** committed by other co-conspirators _in furtherance_ of the unlawful objective. Conspiracy DOES NOT merge with the completed crime, and therefore a defendant can be charged with the conspiracy to commit the crime _and_ the crime itself. **Withdrawal** is NOT defense to the conspiracy, but is a defense for crimes committed by co-conspirators _after_ the withdrawal.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 共謀罪（Conspiracy）は**特定の意図を要する犯罪**であり、以下の要件を必要とする。**(1)** ***二人以上の間の明示的または黙示的な合意***、**(2)** 合意に入る***意図***、**(3)** 不法な目的を***追求する意図***（コモンローではこの要件は合意の全ての当事者によって満たされる必要があったが、現代の傾向および模範刑法典（Model Penal Code）では一当事者によって満たされるだけでよい）、**および (4)** _不法な目的_を促進するための***公然たる行為（Overt Act）***の実行（コモンローでは公然たる行為（Overt Act）は不要であった）。**公然たる行為（Overt Act）**は犯罪的性質である必要はない。不法な目的を促進するために共同謀議者によって行われたいかなる行為（準備を含む）も十分である。\n• 共同謀議者は、***共謀（Conspiracy）***そのもの**および**他の共同謀議者によって_不法な目的_を促進するために犯された***全ての予見可能な犯罪***の両方について責任を負う。共謀（Conspiracy）は既遂犯と融合しないため、被告人は犯罪の共謀（Conspiracy）と当該犯罪そのものの両方で訴追され得る。**撤回（Withdrawal）**は共謀（Conspiracy）に対する抗弁とはならないが、撤回（Withdrawal）_後_に共同謀議者によって犯された犯罪に対する抗弁とはなる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "共謀（Conspiracy）"
+  },
+  {
+    "id": 16,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "D. Inchoate Offenses",
+    "ruleTitle": "Solicitation",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A person is guilty of solicitation if: **(1)** he ***requests another person to commit a crime*** (or join in the commission of a crime); **(2)** with the ***specific intent*** that the crime be committed; **AND (3)** the ***other person receives the request***. Solicitation **merges** with the substantive offense.\n• Generally, there are NO defenses once the solicitation is complete. However, some states and the Model Penal Code recognize **Renunciation** as an affirmative defense to solicitation, which requires the defendant: **(1)** to ***voluntarily*** and ***completely renounce***; **AND (2) *prevent*** the commission of the crime.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 人は、以下の条件を満たす場合に教唆（Solicitation）の罪を犯す：**(1)** 他者に***犯罪の実行を要請し***（または犯罪の実行に加わるよう要請し）、**(2)** その犯罪が実行されるという***特定の意図***をもって、**かつ (3)** ***他者がその要請を受け取る***。教唆（Solicitation）は実体犯に**吸収される**。\n• 一般に、教唆（Solicitation）が完了した後は抗弁は**存在しない**。しかし、一部の州および模範刑法典（Model Penal Code）は、教唆（Solicitation）に対する積極的抗弁（Affirmative Defense）として**断念（Abandonment）**を認めており、これには被告人が：**(1)** ***自発的***かつ***完全に断念（Abandonment）し***、**かつ (2)** 犯罪の実行を***阻止する***ことが必要である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "教唆（Solicitation）"
+  },
+  {
+    "id": 17,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "E. Parties to a Crime",
+    "ruleTitle": "Accomplice Liability",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• An accomplice is one who: **(1) *aids, abets, or facilitates*** the commission of a crime; **AND (2)** has ***dual intent*** (intent to _assist_ the primary party, and intent that the crime is _committed_). If the substantive crime involves recklessness or negligence, the intent requirement will be satisfied if the defendant acted with the requisite intent for the underlying crime.\n• An accomplice is liable for ALL crimes he committed/ assisted AND all foreseeable crimes committed by the principal (the person who actually committed the crime). **It is irrelevant whether the accomplice actually committed the crime**. The accomplice can be convicted, _even if_ the primary actor is acquitted.\n• However, **certain limitations exist** to accomplice liability. **First**, merely being present when a crime is committed (or knowing that a crime might result) will NOT create accomplice liability. **Second**, a person cannot be convicted if: (a) the person is a member of the class of persons protected by the criminal statute; OR (b) the crime inherently involves several types of participants and the person is not criminally liable under the statute. **Third**, a _minority_ of jurisdictions DO NOT allow accomplice liability for involuntary manslaughter as a matter of law; although most jurisdictions do allow it.\n• **Withdrawal** is a defense to liability and is valid ONLY IF the accomplice withdraws his involvement ***before*** the crime becomes unstoppable. Withdrawal can be accomplished by either **(a) *repudiating*** the encouragement given; or **(b) *neutralizing*** the assistance (if more than encouragement was given).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2012, Essay 2"
+    ],
+    "translation": "• 共犯者（Accomplice）とは、以下の者である：**(1)** 犯罪の実行を***幇助（Aiding and Abetting）し、教唆（Solicitation）し、または促進し***、**かつ (2)** ***二重の意図（Dual Intent）***（主犯者を_幇助（Aiding and Abetting）する_意図と、犯罪が_実行される_意図）を有する。実体犯が無謀または過失を伴う場合、被告人が基礎となる犯罪に必要な意図をもって行為した場合、意図要件は満たされる。\n• 共犯者（Accomplice）は、自らが犯した／幇助（Aiding and Abetting）した**全ての**犯罪、および主犯者（Principal）（実際に犯罪を犯した者）によって犯された**全ての**予見可能な犯罪について責任を負う。**共犯者（Accomplice）が実際に犯罪を犯したかどうかは関係ない**。共犯者（Accomplice）は、主犯者が無罪となった_場合でも_、有罪判決を受けることがある。\n• しかし、共犯責任（Accomplice Liability）には**特定の制限が存在する**。**第一に**、犯罪が犯された際に単にその場にいること（または犯罪が発生する可能性があることを知っていること）だけでは、共犯責任（Accomplice Liability）は生じない。**第二に**、以下のいずれかの場合、人は有罪判決を受けることはできない：(a) その者が刑法によって保護される者の類型に属する場合、または (b) その犯罪が本質的に複数の種類の参加者を伴い、その者が当該法規の下で刑事責任を負わない場合。**第三に**、_一部の_法域では、過失致死に対する共犯責任（Accomplice Liability）を法的に認めていないが、ほとんどの法域では認めている。\n• **離脱（Withdrawal）**は責任に対する抗弁であり、共犯者（Accomplice）が犯罪が阻止不能となる***前***にその関与を撤回（Withdrawal）した場合にのみ有効である。離脱（Withdrawal）は、**(a) 与えられた教唆（Solicitation）を***否認する***こと、または (b) 幇助（Aiding and Abetting）を***無効にする***こと（教唆（Solicitation）以上の幇助（Aiding and Abetting）が与えられた場合）のいずれかによって達成できる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "共犯責任（Accomplice Liability）"
+  },
+  {
+    "id": 18,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "F. Defenses",
+    "ruleTitle": "Duress",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The affirmative defense of duress excuses a defendant’s conduct if it was the result of **(1)** a ***threat of imminent death or serious bodily injury***, **(2)** to the ***defendant or another***, **AND (3)** the defendant ***reasonably believed he was unable to avoid the harm by non-criminal conduct***. The defendant MUST _reasonably believe_ that the only way to avoid imminent death or serious bodily injury to himself or to another is to engage in the criminal conduct. In most jurisdictions, this defense is NOT available for intentional killings.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2015, Essay 5"
+    ],
+    "translation": "• 強迫（Duress）の積極的抗弁（Affirmative Defense）は、被告人の行為が以下の結果である場合に免責する：**(1)** ***差し迫った死または重大な身体的傷害（Serious Bodily Harm）の脅威***、**(2)** ***被告人または他者に対する***、**かつ (3)** 被告人が***非犯罪的行為によって危害を回避できないと合理的に信じていた***。被告人は、自身または他者に対する差し迫った死または重大な身体的傷害（Serious Bodily Harm）を回避する唯一の方法が犯罪行為に従事することであると_合理的に信じていなければならない_。ほとんどの法域では、この抗弁は故意の殺人には適用されない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "強迫（Duress）"
+  },
+  {
+    "id": 19,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "F. Defenses",
+    "ruleTitle": "Insanity",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams o",
+    "body": "• A defense of insanity for a _severe mental defect or disease_ will be analyzed under one of four tests, all of which consider the defendant’s mental state _at the time of the offense_:\n  ○ The ***M’Naghten* Test**: **(1)** A **mental disease or defect** that **(2)** resulted in the defendant being: (a) ***unable to know the wrongfulness*** of his conduct; OR (b) ***unable to understand the nature and quality*** of his acts. Some states have defined **wrongful** as a _legal_ wrong (that the act was criminal), while other states define wrongful as _morally_ wrong (an act condemned by society).\n  ○ The **Model Penal Code Test**: As a result of a mental disease or defect, the defendant was: (a) ***unable to appreciate the criminality*** of his conduct; OR (b) ***unable to conform*** his actions to the law.\n  ○ The **Irresistible Impulse Test**: The defendant’s mental illness made him: (a) ***unable to control*** his actions; OR (b) ***unable to conform*** his actions to the law.\n  ○ The ***Durham* Test**: The defendant must show that his unlawful conduct was the ***product of mental illness***.\n• A defendant will be acquitted of the crime if he meets the applicable insanity test of the jurisdiction. Most states use either the _M’Naghten_ or the Model Penal Code test.\n• Most states require the defendant to prove insanity by the preponderance of the evidence (or by clear and convincing evidence in federal court). However, some states require the prosecution to prove that the defendant was _not_ insane beyond a reasonable doubt.",
+    "meeTips": [
+      "Pay attention if the bar examiners tell you which insanity test to apply. On both the Feb 2018 MEE (Essay 2) and July 2015 MEE (Essay 5), the examiners instructed that the jurisdiction in the fact pattern followed the M’Naghten test."
+    ],
+    "examHistory": [
+      "Feb 2018, Essay 2",
+      "July 2015, Essay 5"
+    ],
+    "translation": "• _重度の精神的欠陥または疾患_による心神喪失（Insanity）の抗弁は、以下の4つのテストのいずれかに基づいて分析され、そのすべてが_犯行時_の被告人の精神状態（Mens Rea）を考慮するものである。\n  ○ ***マクノートン・テスト（M'Naghten Test）***：**(1)** **精神疾患または欠陥**が**(2)**被告人が以下の状態にある結果をもたらしたこと。(a)自己の行為の***違法性を認識できない***こと、または(b)自己の行為の***性質および品質を理解できない***こと。一部の州では「**違法な**」を_法的_違法（行為が犯罪であったこと）と定義しているが、他の州では_道徳的_違法（社会によって非難される行為）と定義している。\n  ○ **模範刑法典（Model Penal Code）テスト**：精神疾患または欠陥の結果として、被告人が以下の状態にあったこと。(a)自己の行為の***犯罪性を認識できない***こと、または(b)自己の行為を法に***適合させることができない***こと。\n  ○ **抗しがたい衝動テスト（Irresistible Impulse Test）**：被告人の精神疾患により、彼が以下の状態にあったこと。(a)自己の行為を***制御できない***こと、または(b)自己の行為を法に***適合させることができない***こと。\n  ○ ***ダーラム・テスト***：被告人は、自己の違法行為が***精神疾患の産物（product of mental disease）***であったことを示さなければならない。\n• 被告人は、当該法域の適用される心神喪失（Insanity）テストを満たした場合、その罪について無罪とされる。ほとんどの州は_マクノートン・テスト（M'Naghten Test）_または模範刑法典（Model Penal Code）テストのいずれかを採用している。\n• ほとんどの州では、被告人が証拠の優越（Preponderance of the Evidence）（連邦裁判所では明白かつ説得力のある証拠（Clear and Convincing Evidence））によって心神喪失（Insanity）を証明することを要求している。しかし、一部の州では、検察が被告人が合理的な疑い（Reasonable Suspicion）を超えて（Beyond a Reasonable Doubt）_心神喪失（Insanity）ではなかった_ことを証明することを要求している。",
+    "meeTipTranslation": "司法試験委員会がどの心神喪失（Insanity）テストを適用すべきかを指示している場合は注意すること。2018年2月のMEE（エッセイ2）と2015年7月のMEE（エッセイ5）の両方で、試験官は事実関係における法域がマクノートン・テスト（M'Naghten Test）に従うよう指示した。",
+    "ruleTitleJa": "心神喪失（Insanity）"
+  },
+  {
+    "id": 20,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "F. Defenses",
+    "ruleTitle": "Justification: Self-Defense & Defense of Others",
+    "priority": null,
+    "frequency": "2 of 40 Exams",
+    "body": "• **Self-defense** is a complete defense to a crime.\n  ○ The use of non-deadly force is justified when **(1)** the defendant ***reasonably believes***, **(2)** that he is in ***imminent danger of being harmed***, **AND (3)** the ***amount of force used is proportional*** to the physical harm threatened (the force used must be reasonably related to the threatened harm which defendant seeks to avoid).\n  ○ The use of deadly force is justified when **(1)** the defendant kills another based on a ***reasonable belief***, **(2)** that he was in ***imminent danger of being killed*** or suffering great bodily injury, **AND (3)** the use of ***deadly force was necessary*** to defend against the danger.\n• In a minority of jurisdictions, there is a **duty to retreat** before deadly force may be used. In those jurisdictions, the defendant must show that: (a) there was ***no opportunity to retreat***; OR (b) retreat ***could not have been accomplished safely***. There is NO duty to retreat if the defendant was attacked in her own home.\n• An **aggressor** (the person who starts the altercation) may _only_ use force in self-defense if: (a) he withdraws from the altercation and communicates such intent; OR (b) the other person suddenly escalates the fight with deadly force and withdrawal is not possible.\n• The same rules for self-defense apply to the **defense of others**. Most jurisdictions use two rules to evaluate a defense of others.\n  ○ Steps-into-the-Shoes Rule – Defendant steps into the shoes of the person being attacked, and MAY use force if the person being attacked could have acted in self-defense.\n  ○ Reasonable-Appearance Rule – Defendant can use force if he reasonably (but _mistakenly_) believed the person being attacked had the right to act in self-defense.\n• **Imperfect self-defense** is a ***mitigating defense to murder*** that can reduce a murder charge to voluntary manslaughter. Imperfect self-defense is applicable when the defendant kills another based on a ***good faith belief*** that **(1)** she was in ***imminent danger of being killed*** or suffering great bodily injury; **AND (2)** the use of ***deadly force was necessary*** to defend against the danger; **BUT (3)** at least one of those beliefs was ***unreasonable***. Only some courts allow imperfect self-defense to be applied to situations where the defendant was defending another person.",
+    "meeTips": [],
+    "examHistory": [
+      "Sept 2020, Essay 1",
+      "Feb 2020, Essay 6"
+    ],
+    "translation": "• **正当防衛（Self-Defense）**は犯罪に対する完全な抗弁である。\n  ○ 非致死的な力（Non-Deadly Force）の使用は、**(1)**被告人が***合理的に信じ***、**(2)**自己が***差し迫った危害の危険***にあり、**かつ(3)*****使用された力の量が脅かされた身体的危害に比例している***（使用された力は、被告人が避けようとする脅かされた危害に合理的に関連していなければならない）場合に正当化される。\n  ○ 致死的な力（Deadly Force）の使用は、**(1)**被告人が***合理的な信念***に基づき他人を殺害し、**(2)**自己が***殺害される、または重大な身体的傷害（Serious Bodily Harm）を負う差し迫った危険***にあり、**かつ(3)**その危険から身を守るために***致死的な力（Deadly Force）が必要であった***場合に正当化される。\n• 少数派の法域では、致死的な力（Deadly Force）を使用する前に**退避義務（Duty to Retreat）**がある。これらの法域では、被告人は以下のことを示さなければならない。(a)***退避の機会がなかった***こと、または(b)***安全に退避できなかった***こと。被告人が自己の家で攻撃された場合、退避義務（Duty to Retreat）はない。\n• **攻撃者（Aggressor）**（争いを始めた者）は、以下のいずれかの場合に_のみ_正当防衛（Self-Defense）として力を行使できる。(a)争いから撤退し、その意図を伝えた場合、または(b)相手が致死的な力（Deadly Force）で急激に争いをエスカレートさせ、撤退が不可能な場合。\n• 正当防衛（Self-Defense）と同じ規則が**第三者防衛**にも適用される。ほとんどの法域では、第三者防衛を評価するために2つの規則を使用する。\n  ○ 他者の立場に立つ原則（Alter Ego Rule） – 被告人は攻撃されている者の立場に立ち、攻撃されている者が正当防衛（Self-Defense）として行動できた場合に力を行使できる。\n  ○ 合理的外観原則（Reasonable Appearance Standard） – 被告人は、攻撃されている者が正当防衛（Self-Defense）として行動する権利があると合理的に（しかし_誤って_）信じた場合に力を行使できる。\n• **不完全正当防衛（Imperfect Self-Defense）**は、殺人罪を故殺（Manslaughter）罪に減軽できる***殺人の減軽抗弁***である。不完全正当防衛（Imperfect Self-Defense）は、被告人が以下の***誠実な信念***に基づき他人を殺害した場合に適用される。(1)自己が***殺害される、または重大な身体的傷害（Serious Bodily Harm）を負う差し迫った危険***にあり、**かつ(2)**その危険から身を守るために***致死的な力（Deadly Force）が必要であった***が、**(3)**これらの信念の少なくとも1つが***不合理であった***場合。一部の裁判所のみが、被告人が他人を守っていた状況に不完全正当防衛（Imperfect Self-Defense）を適用することを認めている。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "正当化事由：正当防衛（Self-Defense）および他者防衛（Defense of Others）"
+  },
+  {
+    "id": 21,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "F. Defenses",
+    "ruleTitle": "Intoxication",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Voluntary intoxication (the ingestion of an intoxicating substance by the defendant’s own free will) is ONLY a ***defense to specific intent crimes*** if it ***negates the state of mind*** required to commit the offense.\n• Involuntary intoxication (the ingestion of an intoxicating substance by force or without knowledge of its nature/effect) is a ***defense to all crimes*** if the defendant is deemed ***insane*** at the time of the offense. This defense is analyzed under the insanity test of the particular jurisdiction.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 自発的酩酊（Voluntary Intoxication）（被告人自身の自由意思による酩酊（Intoxication）物質の摂取）は、犯罪を犯すために必要な***精神状態（Mens Rea）を否定する***場合に_のみ_***特定故意（Specific Intent）犯に対する抗弁***となる。\n• 非自発的酩酊（Involuntary Intoxication）（強制的に、またはその性質/効果を知らずに酩酊（Intoxication）物質を摂取すること）は、被告人が犯行時に***心神喪失（Insanity）とみなされる***場合、***すべての犯罪に対する抗弁***となる。この抗弁は、当該法域の心神喪失（Insanity）テストに基づいて分析される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "酩酊（Intoxication）"
+  },
+  {
+    "id": 22,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "F. Defenses",
+    "ruleTitle": "Mistake of Fact or Law",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A mistake of fact is a defense to a crime if it ***negates the state of mind*** required for the offense. For specific intent crimes, the mistake of fact may be _unreasonable_. For general intent, negligent, or reckless crimes, the mistake must be _reasonable_.\n• A mistake of law (not knowing the activity was illegal) is ***generally* NOT *a defense*** to a crime.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 事実の錯誤（Mistake of Fact）は、当該犯罪に要求される***意思状態を否定する***場合、犯罪の抗弁となる。特定故意（Specific Intent）犯の場合、事実の錯誤（Mistake of Fact）は_不合理_であってもよい。一般故意（General Intent）犯、過失犯、または無謀犯の場合、錯誤は_合理的_でなければならない。\n• 法律の錯誤（Mistake of Law）（当該行為が違法であることを知らなかったこと）は、犯罪に対する***一般的に*抗弁とはならない***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "事実の錯誤（Mistake of Fact）または法律の錯誤（Mistake of Law）"
+  },
+  {
+    "id": 23,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Fourth Amendment Right – Government Action & Standing",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under the 4th Amendment of the U.S. Constitution, a person is granted ***protection from unlawful government searches and seizures***. Acts by private individuals are NOT protected by the 4th Amendment.\n• In order to challenge a search or seizure, the challenging party MUST have **standing** – he or she must have _personally_ been subject to a purported search or seizure. A person CANNOT vicariously assert the rights of another.\n• To have standing, the challenger must have a ***reasonable expectation of privacy*** regarding the item or place searched. **Courts have held that individuals have a *reasonable expectation of privacy in that of which they own or possess***. The U.S. Supreme Court has extended this doctrine to permit an overnight guest to challenge a warrantless search in a home in which he was staying. A person DOES NOT have a reasonable expectation of privacy for items in plain view where the police have a legal authority to be (e.g. valid warrant or a warrant exception).\n  ○ However, courts have held that people **DO NOT** have a reasonable expectation of privacy in the following: (1) a paint scrapping taken from one’s car; (2) a person’s bank account records; (3) anything visible from public airspace; (4) garbage left on the curb; (5) the sound of one’s voice; (6) odors coming from one’s property; (7) one’s handwriting; and (8) anything that can be seen in or across areas outside one’s home.",
+    "meeTips": [
+      "Use the following framework to analyze 4th Amendment search and seizure issues on the exam:\n\n**Step 1**: Does the contesting person have a 4th Amendment right?\n  • If so, then apply the \"Fourth Amendment Right – Government Action & Standing\" rule.\n    • Need both:\n      ○ Government Action, *and*\n      ○ Standing\n**Step 2**: Is the person contesting an arrest?\n  • If so, then apply the \"Arrests\" rule.\n**Step 3**: Is the person contesting his temporary seizure (and resulting search of his person)?\n  • If so, then apply the \"Request for Information, Stop and Inquire, & Stop and Frisk\" rule.\n**Step 4**: Is the person contesting a search?\n  • If so, then apply the \"Warrant Requirement for All Searches, Unless an Exception Applies\" and Warrant Exception rules.\n    • Generally, analyze the following:\n      ○ Was the search conducted pursuant to a valid warrant?\n        ▪ If so, then search is valid.\n      ○ If no valid search warrant, does an exception apply?\n        ▪ If so, search is valid.\n        ▪ If not, then the evidence is generally excluded at trial."
+    ],
+    "examHistory": [
+      "July 2025, Essay 5",
+      "Feb 2023, Essay 2",
+      "July 2009, Essay 7"
+    ],
+    "translation": "• 合衆国憲法修正第4条に基づき、個人は***不法な政府による捜索および押収（Search and Seizure）からの保護***を与えられている。私人の行為は修正第4条によって保護されない。\n• 捜索または押収に異議を申し立てるためには、異議申立当事者は**訴権（Standing）**を有していなければならない。すなわち、その者は、_個人的に_、申し立てられた捜索または押収の対象となっていなければならない。個人は他者の権利を代位して主張することはできない。\n• 訴権（Standing）を有するためには、異議申立人は、捜索された物または場所に関して***合理的なプライバシーの期待（Reasonable Expectation of Privacy）***を有していなければならない。**裁判所は、個人は*自己が所有または占有する*場所または物において*合理的なプライバシーの期待（Reasonable Expectation of Privacy）*を有すると判示している**。合衆国最高裁判所は、この法理を拡張し、宿泊客が滞在していた家における令状なしの捜索に異議を申し立てることを許可した。警察が合法的に存在する権限を有する場所（例：有効な令状または令状の例外）において明白な視界にある物に対しては、個人は合理的なプライバシーの期待（Reasonable Expectation of Privacy）を有しない。\n  ○ しかしながら、裁判所は、人々は以下のものにおいて合理的なプライバシーの期待（Reasonable Expectation of Privacy）を**有しない**と判示している。(1) 自己の車から採取された塗料の削りかす、(2) 個人の銀行口座記録、(3) 公共空域から視認できるあらゆるもの、(4) 縁石に置かれたゴミ、(5) 自己の声、(6) 自己の財産から発する臭気、(7) 自己の筆跡、および (8) 自己の家の外の区域内または区域を越えて視認できるあらゆるもの。",
+    "meeTipTranslation": "試験における修正第4条の捜索・押収の問題を分析するために、以下のフレームワークを使用する：\n\n**ステップ1**：争っている者は修正第4条上の権利を有するか？\n  • 有する場合は、「修正第4条の権利 – 政府行為および訴権（Standing）」のルールを適用する。\n    • 以下の両方が必要：\n      ○ 政府行為、*かつ*\n      ○ 訴権（Standing）\n**ステップ2**：その者は逮捕に異議を申し立てているか？\n  • そうであれば、「逮捕」のルールを適用する。\n**ステップ3**：その者は一時的な拘束（およびそれに伴う身体捜索）に異議を申し立てているか？\n  • そうであれば、「情報の要求、停止と尋問、および停止と身体検査（Stop and Frisk）」のルールを適用する。\n**ステップ4**：その者は捜索に異議を申し立てているか？\n  • そうであれば、「すべての捜索に対する令状要件（例外がない限り）」および令状の例外のルールを適用する。\n    • 一般的に、以下を分析する：\n      ○ 捜索は有効な令状に基づいて行われたか？\n        ▪ そうであれば、捜索は有効である。\n      ○ 有効な捜索令状（Search Warrant）がない場合、例外が適用されるか？\n        ▪ 適用される場合、捜索は有効である。\n        ▪ 適用されない場合、証拠は一般的に裁判で排除される。",
+    "ruleTitleJa": "合衆国憲法修正第4条の権利 – 政府の行為および訴訟当事者適格（Standing）"
+  },
+  {
+    "id": 24,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Fourth Amendment Right – Public School Students",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the 4th Amendment of the U.S. Constitution, a person is granted protection from unlawful government searches and seizures. This 4th Amendment right **applies to *public school students***, and it extends to searches by public school officials/employees because public school officials are state actors for these purposes. However, the standard for a permissible search in a public school _is lower than_ the standard for police searches outside of a school. In public schools, a warrant or probable cause is _not_ required.\n• In public schools, a search or seizure by school officials IS ALLOWED without a warrant if: **(1)** it is ***based on reasonable suspicion*** at its inception – there are reasonable grounds for suspecting that the search will turn up evidence that the student has violated or is violating either the law or the rules of the school; **AND (2)** it is ***conducted in a reasonable manner*** related to its purpose and not excessively intrusive given the circumstances (e.g. the student’s age/sex and the nature of the suspected infraction).\n• Limited searches (such as pockets, backpack, or locker) are generally permissible with reasonable suspicion tied to the suspected violation. Highly intrusive searches (such as searching underwear or strip searches) are rarely justified and require a strong, particularized suspicion that dangerous contraband is hidden there.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 5"
+    ],
+    "translation": "• 合衆国憲法修正第4条に基づき、個人は不法な政府による捜索および押収（Search and Seizure）からの保護を与えられている。この修正第4条の権利は、***公立学校の生徒***に**適用され**、公立学校の職員はこれらの目的において国家行為者であるため、公立学校の職員／従業員による捜索にも及ぶ。しかしながら、公立学校における許容される捜索の基準は、学校外における警察の捜索の基準_よりも低い_。公立学校においては、令状または相当な理由（Probable Cause）は_要求されない_。\n• 公立学校において、学校職員による捜索または押収は、以下の条件を満たす場合、令状なしで許可される。**(1)** その開始時において***合理的な疑い（Reasonable Suspicion）に基づいている***こと、すなわち、その捜索が、生徒が法律または学校の規則のいずれかに違反した、または違反しているという証拠を発見するであろうと疑うに足る合理的な根拠があること、**かつ (2)** その目的に関連して***合理的な方法で実施される***こと、そして、状況（例：生徒の年齢／性別および疑われる違反の性質）を考慮して過度に侵害的でないこと。\n• 限定的な捜索（ポケット、バックパック、またはロッカーなど）は、疑われる違反に関連する合理的な疑い（Reasonable Suspicion）があれば、一般的に許容される。高度に侵害的な捜索（下着の捜索や身体検査など）は正当化されることは稀であり、危険な禁制品（Contraband）がそこに隠されているという強力で特定の疑いを必要とする。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "合衆国憲法修正第4条の権利 – 公立学校の生徒"
+  },
+  {
+    "id": 25,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Arrests",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under the 4th Amendment of the U.S. Constitution, a person has the right to be free from unlawful searches and seizures by the government. Seizure under the 4th Amendment includes arrests.\n• For an arrest to be proper, the police officer **MUST** have ***probable cause***. **Probable cause** arises when the police officer **(1)** has ***trustworthy facts or knowledge***, **(2)** sufficient to ***warrant a reasonable person to believe***, **(3)** that the ***person committed a crime***. If a police officer has probable cause to believe that a person has committed even a _very minor_ criminal offense in his presence, he may arrest that person _without_ violating the 4th Amendment. A police officer DOES NOT need firsthand knowledge to have probable cause; it may be based on the firsthand knowledge of another (i.e. an informant).\n• If an arrest is conducted in a public place, probable cause is all that is required. However, a ***warrant is required*** if a police officer arrests someone in or at their **home** (_unless_ exigent circumstances or another exception exists).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 4",
+      "July 2011, Essay 2"
+    ],
+    "translation": "• 合衆国憲法修正第4条に基づき、人は政府による不法な捜索および押収（Search and Seizure）から自由である権利を有する。修正第4条における押収には逮捕が含まれる。\n• 逮捕が適法であるためには、警察官は***相当な理由（Probable Cause）***を**有さなければならない**。**相当な理由（Probable Cause）**は、警察官が**(1)** ***信頼できる事実または知識***を有し、**(2)** ***合理的な人物が信じるに足る***十分なものであり、**(3)** その***人物が犯罪を犯した***と認められる場合に生じる。警察官が、その者の面前で_非常に軽微な_犯罪行為を犯したと信じるに足る相当な理由（Probable Cause）を有する場合、修正第4条に違反すること_なく_その者を逮捕することができる。警察官は相当な理由（Probable Cause）を持つために直接の知識を必要としない。それは他者（すなわち情報提供者）の直接の知識に基づくものであってもよい。\n• 公共の場所で逮捕が行われる場合、相当な理由（Probable Cause）のみが必要とされる。しかし、警察官が誰かをその**住居**内またはその場所で逮捕する場合、***令状が必要とされる***（_ただし_、緊急状況（Exigent Circumstances）または他の例外が存在する場合を除く）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "逮捕"
+  },
+  {
+    "id": 26,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Request for Information, Stop and Inquire, & Stop and Frisk",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under the 4th Amendment of the U.S. Constitution, a person is granted protection from unlawful government searches and seizures. A **seizure** occurs when ***a reasonable person would have believed that he was not free to leave***.\n• The police may make a **request for information *anytime*** except on **\"whim or caprice.\"**\n• A police officer may **stop and inquire** if the police officer **(1)** has ***reasonable articulable suspicion***, **(2)** that ***criminal activity is afoot***. A stop and inquire allows only a brief detention for questioning, after which the suspect must be released.\n• A police officer may only **stop and frisk** a person if the police officer **(1)** has ***reasonable articulable suspicion***, **(2)** that ***criminal activity is afoot***, **AND (3)** that the person ***has a weapon***. Under the **plain feel doctrine**, a police officer ***may only seize items he or she reasonably believes is contraband or a weapon*** during the frisk.\n• Reasonable suspicion is defined as the quantum of knowledge sufficient to induce an ordinarily prudent and cautious person under the circumstances to believe that criminal activity is at hand. Courts use a sliding scale based on the particular factual circumstances to determine whether reasonable suspicion was present.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2023, Essay 6",
+      "Feb 2023, Essay 2",
+      "Feb 2008, Essay 8"
+    ],
+    "translation": "• 合衆国憲法修正第4条に基づき、人は政府による不法な捜索および押収（Search and Seizure）からの保護を付与される。**押収**は、***合理的な人物が、自分が立ち去る自由がないと信じたであろう***場合に発生する。\n• 警察は**情報提供の要請を***いつでも***行うことができる**。ただし、「**気まぐれや思いつきによる場合（mere whim or caprice）**」を除く。\n• 警察官は、**(1)** ***合理的に説明可能な疑い***を有し、**(2)** ***犯罪活動が進行中である***と認められる場合、**停止して質問（Stop and Inquire）**することができる。停止して質問（Stop and Inquire）は、尋問のための短時間の拘束のみを許可し、その後、被疑者は釈放されなければならない。\n• 警察官は、**(1)** ***合理的に説明可能な疑い***を有し、**(2)** ***犯罪活動が進行中である***と認められ、**かつ(3)** その人物が***武器を所持している***と認められる場合にのみ、**停止して身体検査**を行うことができる。**プレイン・フィール・ドクトリン**に基づき、警察官は身体検査中に***合理的に密輸品または武器であると信じる物品のみを押収***することができる。\n• 合理的な疑い（Reasonable Suspicion）とは、状況下において通常の慎重かつ注意深い人物が犯罪活動が差し迫っていると信じるに足る知識の量と定義される。裁判所は、合理的な疑い（Reasonable Suspicion）があったかどうかを判断するために、特定の事実状況に基づいたスライディング・スケールを用いる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "情報照会、職務質問、および停止と身体検査（Stop and Frisk）"
+  },
+  {
+    "id": 27,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Warrant Requirement for All Searches, Unless an Exception",
+    "priority": "HIGH",
+    "frequency": "5 of 40 Exams",
+    "body": "• The 4th Amendment of the U.S. Constitution provides that everyone should be free from unreasonable searches and seizures. Thus, a police officer will need a warrant to conduct a search and to seize items, unless a valid exception applies.\n• In order for a search warrant to be valid: **(1)** there must have been ***probable cause*** (reliable information that it is likely that evidence of illegality will be found at a particular location); **(2)** the warrant must state with ***particularity*** the _place_ to be searched and the _items_ to be seized; **AND (3)** it must be issued by a ***neutral and detached magistrate***.\n• Evidence obtained _without_ a valid warrant should be ***excluded*** unless it falls under the exceptions that permit a warrantless search and seizure. **The warrant exceptions are**: (1) plain view doctrine; (2) exigent circumstances; (3) the automobile exception; (4) a search incident to an arrest; (5) consent; (6) inventory searches; (7) stop and frisk; and (8) where the U.S Supreme Court has concluded there is a special need.",
+    "meeTips": [
+      "For search and seizure questions, _also_ apply any relevant warrant exception rules based upon the fact pattern and the call of the essay question."
+    ],
+    "examHistory": [
+      "July 2025, Essay 5",
+      "Feb 2023, Essay 2",
+      "July 2021, Essay 4",
+      "July 2011, Essay 2",
+      "July 2009, Essay 7"
+    ],
+    "translation": "• 合衆国憲法修正第4条は、誰もが不合理な捜索および押収（Search and Seizure）から自由であるべきと規定する。したがって、有効な例外が適用されない限り、警察官は捜索を行い物品を押収するために令状を必要とする。\n• 捜索令状（Search Warrant）が有効であるためには、**(1)** ***相当な理由（Probable Cause）***（特定の場所で違法行為の証拠が発見される可能性が高いという信頼できる情報）が存在しなければならず、**(2)** 令状は捜索される_場所_および押収される_物品_を***特定して***記載しなければならず、**かつ(3)** ***中立かつ独立した治安判事（neutral and detached magistrate）***によって発布されなければならない。\n• 有効な令状_なしに_得られた証拠は、令状なしの捜索および押収（Search and Seizure）を許可する例外に該当しない限り、***排除されるべきである***。**令状の例外は**：(1) プレイン・ビュー・ドクトリン（明白な視認の原則（Plain View Doctrine））；(2) 緊急状況（Exigent Circumstances）；(3) 自動車の例外；(4) 逮捕に付随する捜索；(5) 同意；(6) 在庫捜索；(7) 停止および身体検査；および(8) 合衆国最高裁判所が特別な必要性があると結論付けた場合、である。",
+    "meeTipTranslation": "捜索および押収（Search and Seizure）に関する問題では、事実関係および論文問題の要求に基づき、関連する令状例外規則も_適用しなさい_。",
+    "ruleTitleJa": "例外がない限り、全ての捜索に対する令状主義"
+  },
+  {
+    "id": 28,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Exception to Warrant Requirement: Plain View Doctrine",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under the Plain View Doctrine, the police may seize evidence _without_ a warrant if **(1)** it is ***observed in plain view*** (with any of the five senses), **(2)** from a place the officer is ***lawfully permitted to be*** (e.g. valid warrant or a warrant exception applies), **AND (3) *probable cause*** exists to believe that the items are evidence of a crime or contraband (it must be immediately apparent).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2023, Essay 2",
+      "July 2021, Essay 4",
+      "July 2011, Essay 2"
+    ],
+    "translation": "• プレインビュー原則（Plain View Doctrine）に基づき、警察は、**(1)** それが***明白に視認され***（五感のいずれかによって）、**(2)** 警察官が***合法的に存在を許されている***場所から（例：有効な令状がある場合、または令状例外が適用される場合）、**かつ (3)** その物品が犯罪の証拠または禁制品（Contraband）であると信じるに足る***相当な理由（Probable Cause）***が存在する場合（直ちに明白でなければならない）には、令状_なしに_証拠を押収することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "令状主義の例外：明白な視認の原則（Plain View Doctrine）"
+  },
+  {
+    "id": 29,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Exception to Warrant Requirement: Exigent Circumstances",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Exigent circumstances exist if: **(a)** the evidence is ***evanescent*** (the evidence would **dissipate or disappear** in the time it would take to obtain a warrant); **(b)** it’s necessary to prevent the ***imminent destruction of evidence***; **(c)** the police are in ***hot pursuit of a felon*** and the evidence is in plain view; **OR (d)** the ***emergency aid exception*** applies – to render emergency assistance to an injured person or to protect a person from imminent injury.\n• “Hot Pursuit” occurs when an officer engages in ***immediate or continuous pursuit*** of a suspect ***from the scene of a crime***.\n• Entry into a dwelling based on exigent circumstances **requires a *serious offense***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 5",
+      "July 2021, Essay 4"
+    ],
+    "translation": "• 緊急状況（Exigent Circumstances）は以下の場合に存在する：**(a)** 証拠が***消滅しやすい（evanescent）***場合（令状を取得するのにかかる時間で証拠が**消散または消失**するであろう場合）、**(b)** ***証拠の差し迫った破壊***を防ぐために必要な場合、**(c)** 警察が***重罪犯を追跡中***であり、証拠が明白に視認される場合、**または (d)** ***緊急援助例外（Emergency Aid Exception）***が適用される場合 – 負傷者に対し緊急援助を行うため、または差し迫った傷害から人を保護するため。\n• 「現行犯追跡（Hot Pursuit）」は、警察官が***犯罪現場から***容疑者を***即時または継続的に追跡***する場合に発生する。\n• 緊急状況（Exigent Circumstances）に基づく住居への立ち入りは、***重大な犯罪***を**要する**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "令状主義の例外：緊急状況（Exigent Circumstances）"
+  },
+  {
+    "id": 30,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Exception to Warrant Requirement: Automobile Exception",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The automobile exception allows a warrantless search of a car where the police have ***probable cause*** that either ***contraband* OR *evidence of a crime*** will be found in the vehicle. If there is probable cause, the police can search the ***entire vehicle* AND** any packages, luggage, or containers **that may *reasonably* contain** the items for which there is probable cause. In order to search a vehicle after a traffic stop, the police officer would need to acquire probable cause ***prior*** to searching the vehicle. A police officer DOES NOT need firsthand knowledge to have probable cause; it may be based on the first-hand knowledge of another.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2011, Essay 2"
+    ],
+    "translation": "• 自動車例外（Automobile Exception）は、警察が車両内に***禁制品（Contraband）***または***犯罪の証拠***が見つかるという***相当な理由（Probable Cause）***を有する場合に、自動車の令状なし捜索を許可する。相当な理由（Probable Cause）がある場合、警察は***車両全体***、**および**相当な理由（Probable Cause）がある物品を***合理的に***含む可能性のあるあらゆる小包、荷物、または容器を捜索することができる。交通検問後に車両を捜索するためには、警察官は車両を捜索する***前に***相当な理由（Probable Cause）を取得する必要がある。警察官は相当な理由（Probable Cause）を持つために直接の知識を必要としない。それは他者の直接の知識に基づくものでもよい。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "令状主義の例外：自動車の例外"
+  },
+  {
+    "id": 31,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Exception to Warrant Requirement: Search Incident to Arrest",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the 4th Amendment of the U.S. Constitution, a police officer who makes a lawful arrest MAY CONDUCT a _contemporaneous_ warrantless search of: **(1)** the ***suspect’s person***; and **(2)** the ***area within the suspect’s immediate control*** (also known as the person’s “immediate effects”, “wingspan”, or “reaching distance”).\n• If the arrest occurs in a home, the police MAY ALSO search ***closets and other spaces immediately adjoining*** the place of arrest from where an attack may be launched.\n• If the suspect is arrested in an automobile, the police MAY ALSO search the **entire interior or passenger compartment of the vehicle** if: **(a)** the officer has reason to believe that ***evidence relevant to the offense/crime arrested for*** might be discovered; **OR (a)** the arrested person is ***unsecured and could gain access to the vehicle*** at the time of the search.\n• Search of a Cell Phone: A police search of the contents of a cell phone (e.g. text messages) incident to an arrest is NOT ALLOWED unless: **(a)** the police have a **warrant**; **OR (b) *another exception to the warrant requirement applies*** to the situation (e.g. exigent circumstances). This rule applies whether or not the cell phone is locked or unlocked.",
+    "meeTips": [
+      "Only apply the Search Incident to Arrest rule _after_ there has been an arrest. Also apply any specific rules depending on the _place_ of arrest (e.g. home, automobile)."
+    ],
+    "examHistory": [
+      "July 2025, Essay 5"
+    ],
+    "translation": "• 合衆国憲法修正第4条に基づき、適法な逮捕を行う警察官は、逮捕に_付随する_令状なし捜索を以下のものに対して**行うことができる**。**(1)** ***被疑者の身体***、および**(2)** ***被疑者の直近の支配領域（area within immediate control）***（「直近の所持品」、「リーチの範囲」、または「手の届く範囲」としても知られる）。\n• 逮捕が住居内で行われる場合、警察は、攻撃が開始される可能性のある逮捕場所の***直ちに隣接するクローゼットその他の空間***も**捜索することができる**。\n• 被疑者が自動車内で逮捕された場合、警察は、以下のいずれかの場合に、**車両の内部全体または乗員室**も**捜索することができる**。**(a)** 警察官が、***逮捕された罪状に関連する証拠***が発見される可能性があると信じるに足る理由を有している場合、**または(a)** 捜索時に逮捕された者が***確保されておらず、車両にアクセスできる状態***である場合。\n• 携帯電話の捜索：逮捕に付随する携帯電話の内容物（例：テキストメッセージ）の警察による捜索は、以下のいずれかの場合を除き、**許されない**。**(a)** 警察が**令状**を有している場合、**または(b)** ***令状主義の別の例外***が当該状況に適用される場合（例：緊急状況（Exigent Circumstances））。この規則は、携帯電話がロックされているか否かにかかわらず適用される。",
+    "meeTipTranslation": "逮捕に付随する捜索の原則は、逮捕が行われた_後_にのみ適用すること。また、逮捕の_場所_（例：住居、自動車）に応じて特定の規則も適用すること。",
+    "ruleTitleJa": "令状主義の例外：逮捕に付随する捜索"
+  },
+  {
+    "id": 32,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Exception to Warrant Requirement: Consent",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Consent is an exception to the warrant requirement if it is ***given freely, voluntarily, and intelligently***. A third person with possessory rights of the property may consent to a search, but that ***person must have authority***. If the police have reason to know that the person consenting might _not_ have authority, and they continue the search, the search is unlawful.\n• When two or more people share common authority over the residence or premises, any one of them may consent to a lawful search. However, a police officer may only search common areas of the residence and private areas of the person providing the consent. A warrantless search of private areas (i.e. bedrooms and locked areas) of persons that did _not_ provide consent is generally unlawful.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 同意は、それが***自由意思に基づき、自発的かつ知的に与えられた***場合、令状主義の例外となる。当該財産の占有権を有する第三者は捜索に同意することができるが、その***者は権限を有していなければならない***。警察が、同意を与えている者が権限を_有していない_可能性があると知るべき理由があり、かつ捜索を継続した場合、その捜索は違法である。\n• 2人以上の者が住居または敷地に対する共通の権限を共有している場合、彼らのいずれか一人が適法な捜索に同意することができる。ただし、警察官は、住居の共有部分および同意を与えた者の私的領域のみ捜索することができる。同意を_与えなかった_者の私的領域（すなわち、寝室および施錠された場所）に対する令状なし捜索は、一般的に違法である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "令状主義の例外：同意"
+  },
+  {
+    "id": 33,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Exception to Warrant Requirement: Inventory Search",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• An inventory search and seizure (either of a defendant’s possessions during incarceration or of a vehicle impounded following the lawful arrest of the driver) is an exception to the warrant requirement of the 4th Amendment of the U.S. Constitution. To be valid, an inventory search must be both: **(1) *reasonable***; **AND (2) *conducted pursuant to established police agency procedures*** (that are designed to meet the legitimate objectives of the search while limiting the discretion of the officer in the field).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 目録捜索（Inventory Search）および押収（収監中の被告人の所持品、または運転者の適法な逮捕に続いて差し押さえられた車両のいずれか）は、合衆国憲法修正第4条の令状主義の例外である。有効であるためには、目録捜索（Inventory Search）は以下の両方でなければならない。**(1)** ***合理的である***こと、**および(2)** （捜索の正当な目的を達成しつつ、現場の警察官の裁量を制限するように設計された）***確立された警察機関の手続きに従って実施される***こと。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "令状主義の例外：目録捜索（Inventory Search）"
+  },
+  {
+    "id": 34,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "",
+    "ruleTitle": "Execution of a Warrant – Knock & Announce Rule",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Knock-and-Announce Rule: The Fourth Amendment incorporates the common law requirement that **police officers entering a dwelling** to execute a search warrant MUST **(1) *knock on the door***, **AND (2) *announce their identity and purpose*** before attempting forcible entry. This is commonly known as the “Knock-and-Announce Rule,” and the Supreme Court has held that this principle forms a part of the reasonableness inquiry under the Fourth Amendment.\n• Exceptions & “No Knock” Entry Standard:\n  ○ **In order to justify a “no-knock” entry**, ***exigent circumstances* must exist**. Specifically, the police MUST have a **reasonable suspicion** that knocking and announcing their presence (under the particular circumstances) would **(a)** be ***dangerous or futile***, **OR (b)** that it would ***inhibit the effective investigation of the crime*** (such as allowing the destruction of evidence). In applying whether a “no knock” entry is allowed, a case-by-case analysis is required.\n  ○ The Supreme Court has set forth several exceptions to the Knock-and-Announce rule where a “no knock” entry is allowed, including: **(a)** under circumstances presenting a ***threat of physical violence***; **(b)** a ***hot-pursuit*** case – such as where a prisoner escapes and retreats to their dwelling; **(c)** where police officers have reason to believe that ***evidence would likely be destroyed*** if advance notice were given; **OR (d)** a ***“no knock” warrant*** issued by the court where exigent circumstances exist to justify entry without knocking or announcing.\n• Application of Exclusionary Rule: The Supreme Court has held that the Exclusionary Rule DOES NOT apply to violations of the Knock-and-Announce Rule (as long as the search was authorized by a valid search warrant). As such, a violation does not trigger the suppression of seized evidence.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2023, Essay 2"
+    ],
+    "translation": "• ノック・アンド・アナウンス・ルール（Knock and Announce Rule）：合衆国憲法修正第4条は、捜索令状（Search Warrant）を執行するために**住居に立ち入る警察官**が、強制的な立ち入りを試みる前に、**(1) *ドアをノックし***、**かつ(2) *自身の身元と目的を告げる***というコモンロー上の要件を組み込んでいる。これは一般に「ノック・アンド・アナウンス・ルール（Knock and Announce Rule）」として知られており、最高裁判所はこの原則が合衆国憲法修正第4条に基づく合理性審査の一部を形成すると判示している。\n• 例外と「ノーノック」立ち入り基準：\n  ○ **「ノーノック」立ち入りを正当化するためには**、***緊急状況（Exigent Circumstances）*が存在しなければならない**。具体的には、警察は、ノックして存在を告げること（特定の状況下で）が**(a)** ***危険または無益***である、**または(b)** ***犯罪の効果的な捜査を妨げる***（例えば、証拠の破棄を許すなど）という**合理的な疑い（Reasonable Suspicion）**を持っていなければならない。ノーノック立ち入りが許されるかどうかの適用においては、事案ごとの分析が必要とされる。\n  ○ 最高裁判所は、ノーノック立ち入りが許されるノック・アンド・アナウンス・ルール（Knock and Announce Rule）に対するいくつかの例外を提示しており、これには以下が含まれる：**(a)** ***身体的暴力の脅威***を呈する状況下；**(b)** ***追跡中の事案*** – 例えば、囚人が脱走して住居に逃げ込む場合；**(c)** 警察官が、事前の通知があれば***証拠が破棄される可能性が高い***と信じるに足る理由がある場合；**または(d)** ノックまたは告知なしの立ち入りを正当化する緊急状況（Exigent Circumstances）が存在する場合に裁判所によって発行された***「ノーノック」令状***。\n• 証拠排除法則（Exclusionary Rule）の適用：最高裁判所は、ノック・アンド・アナウンス・ルール（Knock and Announce Rule）の違反には証拠排除法則（Exclusionary Rule）は適用されない（捜索が有効な捜索令状（Search Warrant）によって許可されていた限り）と判示している。したがって、違反は押収された証拠の排除を引き起こさない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "令状の執行 – ノック・アンド・アナウンス・ルール（Knock and Announce Rule）"
+  },
+  {
+    "id": 35,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "H. Confessions, Privilege Against Self-Incrimination, and Right to Counsel",
+    "ruleTitle": "Confessions: 14th Amendment Due Process Clause",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A defendant’s confession may be excluded at trial under the 5th, 6th, or 14th Amendments of the U.S. Constitution. Under the **14th Amendment Due Process Clause**, if a confession is the product of ***police coercion that overbears the suspect’s free will***, then the confession is inadmissible. The police may use coercive conduct (i.e. lying) UNLESS the coercion overcomes the defendant’s free will.\n• When determining whether a confession overcame a person’s free will, courts consider: **(1)** the ***characteristics of the interrogation*** (i.e. length of the interrogation and police tactics used); **AND (2)** the ***characteristics of the individual*** (i.e. age and experience).",
+    "meeTips": [
+      "For confessions ***prior*** to the defendant being charged with a crime, analyze the problem under the 5th and 14th Amendments. For confessions that occur ***after*** a defendant is charged with a crime, then _also_ apply the 6th Amendment."
+    ],
+    "examHistory": [
+      "Feb 2008, Essay 8"
+    ],
+    "translation": "• 被告人の自白は、合衆国憲法修正第5条、第6条、または第14条に基づき、裁判で排除され得る。**合衆国憲法修正第14条デュー・プロセス条項**に基づき、自白が***容疑者の自由意思を圧倒する警察の強要（police coercion）***の産物である場合、その自白は証拠として不適格である。警察は、強要が被告人の自由意思を圧倒しない限り、強要行為（すなわち嘘）を使用し得る。\n• 自白が個人の自由意思を圧倒したかどうかを判断する際、裁判所は以下を考慮する：**(1)** ***尋問の特性***（すなわち、尋問の長さと使用された警察の戦術）；**および(2)** ***個人の特性***（すなわち、年齢と経験）。",
+    "meeTipTranslation": "被告人が犯罪で起訴される***前の***自白については、修正第5条および第14条に基づいて問題を分析すること。被告人が犯罪で起訴された***後に***発生する自白については、_さらに_修正第6条も適用すること。",
+    "ruleTitleJa": "自白：合衆国憲法修正第14条デュー・プロセス条項"
+  },
+  {
+    "id": 36,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "H. Confessions, Privilege Against Self-Incrimination, and Right to Counsel",
+    "ruleTitle": "Confessions: 5th Amendment Privilege Against Self-",
+    "priority": "HIGH",
+    "frequency": "7 of 40 Exams",
+    "body": "• A defendant’s confession may be excluded at trial under the 5th, 6th, or 14th Amendments of the U.S. Constitution. Under the **5th Amendment Privilege Against Self-Incrimination**, a person has a right to not incriminate oneself and MUST be given _Miranda_ warnings during a custodial interrogation.\n• _Miranda_ warnings inform suspects that: (1) they have the right to remain silent; (2) anything they say can be used against them in court; (3) they have the right to talk to an attorney and have one present when they are questioned; AND (4) if they cannot afford an attorney, an attorney will be provided to them. The police need only _reasonably convey_ these rights to a suspect.\n• _Miranda_ rights attach when there is a **custodial interrogation** of a suspect. If a person is _not_ subject to a custodial interrogation, no _Miranda_ warnings need to be given. The Supreme Court has held that the release of an incarcerated person from questioning back to their “normal” prison life ends the custodial interrogation. The Supreme Court has held that Miranda rights DO NOT apply to confessions to fellow inmates or to inmate informants (_unless_ compulsion or coercion occurs).\n  ○ A person is in custody when they ***reasonably believe they are not free to leave***.\n  ○ A person is subject to interrogation when the police _knew or should have known_ that their conduct was ***likely to elicit an incriminating response***.\n• ***Miranda* rights only protect statements or acts that are *communicative or testimonial* in nature**. In order to be testimonial, an accused’s communication must (explicitly or implicitly) relate to a factual assertion or disclose information. Crying is **NOT** considered a testimonial communication. Additionally, _Miranda_ rights DO NOT apply to any spontaneous statements made by a person.\n• Under the Public Safety Exception, limited interrogation _without_ Miranda warnings IS ALLOWED when police officers ask questions reasonably prompted by a ***concern for public safety*** OR the ***safety of the officer*** (i.e. to secure a weapon).\n• When invoking a Miranda right, it MUST be ***clear and unambiguous***. For example, merely stating “I think I need a lawyer” or “maybe I should talk to a lawyer” is insufficient. The police have no obligation to stop questioning a suspect if the request is not clear and unambiguous.\n  ○ Once the **right to remain silent is invoked**, the police may later question the suspect if they first ***scrupulously honor*** his right to remain silent. Additionally, if the right is invoked, the defendant’s silence CANNOT be commented on by the prosecution or be used to incriminate him at trial.\n  ○ Once the **right to counsel is invoked**, the police must ***stop questioning*** the suspect on ANY crime until the suspect has spoken with an attorney. However, a custodial interrogation may be reinitiated if: **(1)** the suspect has been ***re-advised of his Miranda rights***; **(2)** has provided a knowing and voluntary ***waiver***; **AND (3)** either **(a) *counsel is present***, **(b)** the suspect ***initiates the communication***, _or_ **(c) *at least 14 days have passed*** since the suspect was released from custody. A suspect’s statement that clearly indicates a willingness to speak about matters relating to the investigation is treated as an initiation of communication, but questions or comments relating to routine incidents of being in custody do not.\n• A suspect may waive his _Miranda_ rights. A valid waiver must be made: **(1) *voluntarily*** (it is the product of the defendant’s free will); **AND (2) *knowingly and intelligently*** (the defendant must understand the nature of the right being waived and the consequences for waiving it).\n  ○ When determining whether a confession overcame a person’s free will, courts consider (1) the _characteristics of the interrogation_ (i.e. length of the interrogation and police tactics used); AND (2) the _characteristics of the individual_ (i.e. age and experience).\n  ○ The **police may use coercive conduct** (i.e. lying) UNLESS the coercion overcomes the defendant’s free will. Police failure to provide the defendant with outside information (such as efforts by his attorney to reach him) DOES NOT invalidate a waiver UNLESS the information withheld was essential to the defendant’s ability to make a valid waiver.\n• A defendant/suspect’s statements made in violation of his _Miranda_ rights are subject to the ***Exclusionary Rule***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2023, Essay 6",
+      "July 2019, Essay 2",
+      "July 2017, Essay 5",
+      "July 2016, Essay 2",
+      "July 2014, Essay 1",
+      "July 2011, Essay 2",
+      "Feb 2008, Essay 8"
+    ],
+    "translation": "• 被告人の自白は、合衆国憲法修正第5条、第6条、または第14条に基づき、裁判で排除され得る。**合衆国憲法修正第5条自己負罪拒否特権（Privilege Against Self-Incrimination）**に基づき、個人は自己を罪に陥れない権利を有し、拘束下での尋問（Custodial Interrogation）中に_ミランダ_警告を与えられなければならない。\n• _ミランダ_警告は、容疑者に以下のことを知らせる：(1)彼らは黙秘権（Right to Remain Silent）を有する；(2)彼らが話すことはすべて法廷で彼らに不利に用いられ得る；(3)彼らは弁護士と話す権利を有し、尋問時に弁護士を同席させる権利を有する；および(4)弁護士を雇う余裕がない場合、弁護士が彼らに提供される。警察はこれらの権利を容疑者に_合理的に伝える_だけでよい。\n• _ミランダ_権は、容疑者の**拘束下での尋問（Custodial Interrogation）**がある場合に発生する。個人が拘束下での尋問（Custodial Interrogation）を受けていない場合、_ミランダ_警告を与える必要はない。最高裁判所は、収監された者が尋問から「通常の」刑務所生活に戻されることで拘束下での尋問（Custodial Interrogation）は終了すると判示している。最高裁判所は、ミランダ権は同房者または受刑者情報提供者への自白には適用されない（強制または強要が発生しない限り）と判示している。\n  ○ 個人は、***自由に立ち去ることができないと合理的に信じる***場合に拘束下にある。\n  ○ 個人は、警察が、その行為が***有罪となる供述を引き出す可能性が高い***ことを知っていた、または知るべきであった場合に尋問を受けている。\n• ***ミランダ*権は、本質的に*伝達的または証言的*な供述または行為のみを保護する**。証言的であるためには、被告人の伝達は（明示的または黙示的に）事実の主張に関連するか、または情報を開示しなければならない。泣くことは**証言的伝達とは見なされない**。さらに、_ミランダ_権は、個人によってなされた自発的な供述には適用されない。\n• 公共の安全例外（Public Safety Exception）に基づき、警察官が***公共の安全***または***警察官の安全***への懸念によって合理的に促された質問（すなわち、武器を確保するため）をする場合、_ミランダ_警告なしの限定的な尋問が許される。\n• ミランダ権を行使する際、それは***明確かつ曖昧でない***ものでなければならない。例えば、「弁護士が必要だと思う」または「弁護士と話すべきかもしれない」と述べるだけでは不十分である。要求が明確かつ曖昧でない場合、警察は容疑者への尋問を停止する義務はない。\n  ○ **黙秘権（Right to Remain Silent）が行使された**場合、警察は、まず容疑者の黙秘権（Right to Remain Silent）を***厳格に尊重する***ならば、後で容疑者を尋問し得る。さらに、権利が行使された場合、被告人の沈黙は検察によって言及されたり、裁判で彼を罪に陥れるために使用されたりすることはできない。\n  ○ **弁護権（Right to Counsel）が行使された**場合、警察は、容疑者が弁護士と話すまで、***いかなる犯罪に関する尋問も停止しなければならない***。ただし、拘束下での尋問（Custodial Interrogation）は、以下のいずれかの場合に再開され得る：**(1)** 容疑者が***ミランダ権について再告知されている***；**(2)** 認識があり自発的な***権利放棄***を提供している；**および(3)** **(a) *弁護士が同席している***、**(b)** 容疑者が***コミュニケーションを開始する***、_または_**(c) *容疑者が拘束から解放されてから少なくとも14日が経過している***。捜査に関連する事項について話す意思を明確に示す容疑者の供述は、コミュニケーションの開始として扱われるが、拘束中の日常的な出来事に関する質問やコメントはそうではない。\n• 容疑者は_ミランダ_権を放棄し得る。有効な権利放棄は、以下のようになされなければならない：**(1) *自発的に***（被告人の自由意思の産物であること）；**および(2) *認識がありかつ知的に***（被告人は放棄される権利の性質と、それを放棄することの結果を理解しなければならない）。\n  ○ 自白が個人の自由意思を圧倒したかどうかを判断する際、裁判所は(1) _尋問の特性_（すなわち、尋問の長さと使用された警察の戦術）；および(2) _個人の特性_（すなわち、年齢と経験）を考慮する。\n  ○ 警察は、強要が被告人の自由意思を圧倒しない限り、**強要行為**（すなわち嘘）を使用し得る。警察が被告人に外部情報（例えば、弁護士が彼に連絡を取ろうとした努力など）を提供しなかったとしても、その情報が被告人が有効な権利放棄を行う能力にとって不可欠であった場合を除き、権利放棄を無効にしない。\n• 被告人/容疑者の_ミランダ_権の侵害によりなされた供述は、***証拠排除法則（Exclusionary Rule）***の対象となる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "自白：合衆国憲法修正第5条自己負罪拒否特権（Privilege Against Self-Incrimination）"
+  },
+  {
+    "id": 37,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "H. Confessions, Privilege Against Self-Incrimination, and Right to Counsel",
+    "ruleTitle": "Confessions: 6th Amendment Right to Counsel",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A defendant’s confession may be excluded at trial under the 5th, 6th, or 14th Amendments of the U.S. Constitution. Under the **6th Amendment of the U.S. Constitution**, the accused has the **right to counsel in all criminal prosecutions** (except State misdemeanor prosecutions that _do not_ carry a risk of jail time). The right to counsel attaches once formal ***adversarial judicial proceedings*** have been commenced (i.e. formal charge, preliminary hearing, indictment, or arraignment).\n• The 6th Amendment right to counsel is ***offense-specific***. Thus, it only applies to the offenses the defendant has formally been charged with, and DOES NOT prevent the police from questioning the defendant about unrelated offenses without an attorney. Once a suspect’s right to counsel has attached, any attempts to deliberately elicit statements from him in the absence of his attorney violate the 6th Amendment.\n• The right to counsel may be waived. A valid waiver must be made: **(1) *voluntarily*** (it is the product of the defendant’s free will); **AND (2) *knowingly and intelligently*** (the defendant must understand the nature of the right being waived and the consequences for waiving it).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2014, Essay 1"
+    ],
+    "translation": "• 被告人の自白は、合衆国憲法修正第5条、第6条、または第14条に基づき、公判で排除される場合がある。**合衆国憲法修正第6条**に基づき、被疑者は**すべての刑事訴追において弁護権（Right to Counsel）を有する**（禁錮刑のリスクを伴わない州の軽罪訴追を除く）。弁護権（Right to Counsel）は、正式な***対審的司法手続（Adversarial Proceedings）***が開始された時点（すなわち、正式な起訴、予備審問（Preliminary Hearing）、大陪審（Grand Jury）による起訴、または罪状認否（Arraignment））で発生する。\n• 修正第6条の弁護権（Right to Counsel）は***罪種固有（offense-specific）***である。したがって、それは被告人が正式に起訴された罪種にのみ適用され、弁護人なしで無関係の罪種について被告人を尋問することを警察が妨げるものではない。被疑者の弁護権（Right to Counsel）が発生した後、弁護人不在の状況で彼から供述を意図的に引き出そうとするいかなる試みも、修正第6条に違反する。\n• 弁護権（Right to Counsel）は放棄される場合がある。有効な放棄は、以下の要件を満たさなければならない。**(1) *自発的に***行われること（被告人の自由意思の産物であること）、**かつ (2) *故意かつ知的に（knowingly and intelligently）***行われること（被告人は放棄される権利の性質と、それを放棄することによる結果を理解しなければならない）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "自白：合衆国憲法修正第6条弁護権（Right to Counsel）"
+  },
+  {
+    "id": 38,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "H. Confessions, Privilege Against Self-Incrimination, and Right to Counsel",
+    "ruleTitle": "Right to Counsel & Effective Assistance of Counsel at Trial",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the 6th Amendment of the U.S. Constitution, the accused has the **right to counsel in all criminal prosecutions that carry a substantial risk of jail time** (more than 1 year), including at trial. The right to counsel attaches once formal ***adversarial judicial proceedings*** have been commenced (i.e. formal charge, preliminary hearing, indictment, or arraignment).\n• The 6th Amendment also includes the **right to have *effective assistance of counsel***, which includes the effective aid in the preparation and trial of the case. In order to prove ineffective assistance of counsel in violation of the Sixth Amendment, the defendant must show that: **(1)** his ***counsel’s performance was deficient***; **AND (2)** but for the counsel’s errors, the ***result of the trial would have been different***. If ineffective assistance of counsel is shown at trial, then the verdict must be reversed and the defendant is entitled to a new trial.\n• Plea-Bargaining, Entry of Guilty Plea, & Sentencing: The following are all critical stages of a criminal proceeding where a defendant **HAS the *right to an attorney*** (including the effective assistance of counsel) under the 6th Amendment: (i) **plea-bargaining**, including plea negotiations, communication of plea offers, and the decision to accept or reject a plea; (ii) **entering a guilty plea**; and (iii) **sentencing**. A **guilty plea** entered without counsel is ***invalid***, UNLESS the defendant validly waived counsel. Similarly, counsel for the defendant is required at **sentencing**, UNLESS the defendant validly waives the right to counsel.\n• Waiver of 6th Amendment Right to Counsel: The 6th Amendment right to counsel may be waived. A **valid waiver** must be: **(1) *voluntary*** (it is the product of the defendant’s free will); **AND (2) *knowing and intelligent*** (the defendant must understand the nature of the right being waived and the consequences for waiving it).\n• Waiving the Right to Counsel when Entering a Guilty Plea: A guilty plea entered without an attorney present is _invalid_, UNLESS the defendant validly waived their 6th Amendment right to counsel. If a defendant enters a guilty plea _after_ a purported waiver of their right to counsel, courts are particularly skeptical of whether the waiver was actually “knowing and intelligent” (see waiver element # 2 above). In such instance, the Supreme Court has stated that the **judge MUST apprise the defendant** of the following: **(1)** the ***nature of the charges***; **(2)** the ***statutory offenses*** included within them; **(3)** the ***range of allowable punishments*** thereunder; **(4) *possible defenses*** to the charges ***and circumstances in mitigation*** thereof; **AND (5) *all other facts essential*** to a broad understanding of the whole matter. This is commonly called a _Faretta_ hearing, and the above factors are known as the _Von Moltke_ factors.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 合衆国憲法修正第6条に基づき、被疑者は、公判を含め、実質的な禁錮刑のリスク（1年超）を伴うすべての刑事訴追において**弁護権（Right to Counsel）を有する**。弁護権（Right to Counsel）は、正式な***対審的司法手続（Adversarial Proceedings）***が開始された時点（すなわち、正式な起訴、予備審問（Preliminary Hearing）、大陪審（Grand Jury）による起訴、または罪状認否（Arraignment））で発生する。\n• 修正第6条には、***効果的な弁護人援助（Effective Assistance of Counsel）***を受ける権利も含まれており、これには事件の準備および公判における効果的な援助が含まれる。修正第6条に違反する弁護人の不十分な援助を証明するためには、被告人は以下のことを示さなければならない。**(1)** 弁護人の***弁護活動が不十分であった***こと、**かつ (2)** 弁護人の過誤がなければ、***公判の結果は異なっていたであろう***こと。公判で弁護人の不十分な援助が示された場合、評決は破棄され、被告人は再審を受ける権利を有する。\n• 司法取引（Plea Bargain）、有罪答弁（Guilty Plea）の提出、および量刑（Sentencing）：以下のすべては、修正第6条に基づき被告人が***弁護人を選任する権利を有する***（効果的な弁護人援助（Effective Assistance of Counsel）を含む）刑事手続の重要な段階である。(i) **司法取引（Plea Bargain）**（司法取引（Plea Bargain）交渉、司法取引（Plea Bargain）の申し出の伝達、および司法取引（Plea Bargain）を受諾または拒否する決定を含む）、(ii) **有罪答弁（Guilty Plea）の提出**、および (iii) **量刑（Sentencing）**。弁護人なしで提出された**有罪答弁（Guilty Plea）**は、被告人が有効に弁護人を放棄しない限り、***無効***である。同様に、被告人が有効に弁護権（Right to Counsel）を放棄しない限り、**量刑（Sentencing）**においては被告人の弁護人が必要とされる。\n• 修正第6条の弁護権（Right to Counsel）の放棄：修正第6条の弁護権（Right to Counsel）は放棄される場合がある。**有効な放棄**は、以下の要件を満たさなければならない。**(1) *自発的***であること（被告人の自由意思の産物であること）、**かつ (2) *故意かつ知的***であること（被告人は放棄される権利の性質と、それを放棄することによる結果を理解しなければならない）。\n• 有罪答弁（Guilty Plea）提出時の弁護権（Right to Counsel）放棄：弁護人不在で提出された有罪答弁（Guilty Plea）は、被告人が修正第6条の弁護権（Right to Counsel）を有効に放棄しない限り、_無効_である。被告人が弁護権（Right to Counsel）の放棄と称されるものの_後_に有罪答弁（Guilty Plea）を提出した場合、裁判所は、その放棄が実際に「故意かつ知的」であったか（上記の放棄の要素#2を参照）について特に懐疑的である。そのような場合、最高裁判所は、**裁判官は被告人に以下の事項を告知しなければならない**と述べている。**(1)** ***訴因の性質***、**(2)** それらに含まれる***法定犯罪***、**(3)** それらに基づく***許容される刑罰の範囲***、**(4)** 訴因に対する***可能な弁護***およびその***情状酌量の事情***、**かつ (5)** 全体的な事項を広く理解するために***不可欠なその他すべての事実***。これは一般にファレッタ審問（Faretta Hearing）と呼ばれ、上記の要素はフォン・モルトケ要素（Von Moltke factors）として知られている。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弁護権（Right to Counsel）および裁判における効果的な弁護人援助（Effective Assistance of Counsel）"
+  },
+  {
+    "id": 39,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "I. Line-ups & Police-Arranged Identification Procedures",
+    "ruleTitle": "Line-Ups & Police-Arranged Identification Procedures",
+    "priority": null,
+    "frequency": "1 of 40 Exams",
+    "body": "• Due Process Clause: The Due Process Clause of the 14th Amendment is violated when a line-up is ***unnecessarily suggestive*** resulting in a ***substantial likelihood of misidentification***. If there is a violation, the identification is inadmissible at trial. Absent improper police influence, an out-of-court identification IS ADMISSIBLE (even if it’s suggestive or conducive to misidentification).\n• If an Out-of-Court Identification is not admissible, then an In-Court Identification is ***barred*** (unless the prosecution proves that the out-of-court procedure _did not_ create a very substantial likelihood of irreparable identification).\n• Under the **Independent Source Rule**, an in-court identification is admissible at trial (_even if_ a line-up identification is tainted) when **(1)** the witness identified the defendant in-court based on the witness’ ***previous knowledge***, **(2)** which is ***trustworthy***, **AND (3)** was obtained by the witness in a ***previous transaction*** (***usually during the crime***).\n• Right to Counsel: Under the 6th Amendment, a person has a right to counsel after being formally charged with a crime that carries a substantial risk of jail time (more than 1 year), which includes a ***post-charge lineup***. However, the attorney cannot dictate how the line-up proceeds, and is instead merely a spectator to observe any deficiencies or due process violations to be addressed at trial. A person DOES NOT have a 6th Amendment right to counsel at a ***pre-charge lineup*** because the right has not yet attached, as the person has not been formally charged with a crime. Likewise, there is no right to counsel for a photo-identification.\n• Pre-Trial Identifications & the 5th Amendment: Courts have held that pre-trial identifications (lineups, photo identifications), blood tests, fingerprints, and voice identifications are **NOT** testimonial in nature and fall outside 5th Amendment protection. As such, a suspect in custody after an arrest CANNOT refuse participation in a lineup.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 4"
+    ],
+    "translation": "• 適正手続条項（Due Process Clause）：修正第14条の適正手続条項（Due Process Clause）は、ラインアップが***不必要に示唆的（Unnecessarily Suggestive）***であり、その結果として***誤認の相当な可能性（Substantial Likelihood of Misidentification）***が生じる場合に違反となる。違反がある場合、その識別は公判で証拠として許容されない。不適切な警察の影響がない限り、法廷外識別は（たとえそれが示唆的であったり、誤認を招きやすかったりしても）証拠として許容される。\n• 法廷外識別が証拠として許容されない場合、法廷内識別は***禁止される***（検察が、法廷外手続が回復不能な識別の非常に相当な可能性を生じさせなかったことを証明しない限り）。\n• **独立源の原則（Independent Source Doctrine）**に基づき、法廷内識別は、（たとえラインアップ識別が汚染されていても）以下の要件を満たす場合に公判で証拠として許容される。**(1)** 証人が***以前の知識***に基づいて法廷で被告人を識別したこと、**(2)** それが***信頼できる***こと、**かつ (3)** 証人が***以前の取引***（***通常は犯罪時***）においてそれを取得したこと。\n• 弁護権（Right to Counsel）：修正第6条に基づき、実質的な禁錮刑のリスク（1年超）を伴う犯罪で正式に起訴された者は弁護権（Right to Counsel）を有し、これには***起訴後ラインアップ（Post-Indictment Lineup）***が含まれる。しかし、弁護人はラインアップの進行方法を指示することはできず、公判で対処されるべき欠陥や適正手続（Due Process）違反を観察する単なる傍聴人である。被疑者はまだ正式に犯罪で起訴されていないため、権利がまだ発生しておらず、***起訴前ラインアップ（Pre-Indictment Lineup）***においては修正第6条に基づく弁護権（Right to Counsel）を有しない。同様に、写真識別（Photo Identification）には弁護権（Right to Counsel）がない。\n• 公判前識別と修正第5条：裁判所は、公判前識別（ラインアップ、写真識別（Photo Identification））、血液検査、指紋、および声紋識別は、本質的に**供述的**ではなく、修正第5条の保護の範囲外であると判断している。そのため、逮捕後に拘留されている被疑者は、ラインアップへの参加を拒否することはできない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "対面手続（ラインナップ）および警察が手配した身元確認手続（Identification Procedures）"
+  },
+  {
+    "id": 40,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "J. Exclusionary Rule & the Fruit of the Poisonous Tree Doctrine",
+    "ruleTitle": "Exclusionary Rule & the Fruit of the Poisonous Tree Doctrine",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under the Exclusionary Rule, evidence obtained in violation of a defendant’s 4th, 5th, or 6th Amendment rights is **inadmissible** in a criminal case. Additionally, all ***derivative evidence*** is **inadmissible** under the **fruit of the poisonous tree doctrine**.\n• However, the exclusionary rule **DOES NOT apply if**: **(a)** it is shown that the police had an ***independent source*** for the secondary evidence (where there is a source for discovery and seizure of the evidence that is distinct from the original illegal source); **(b)** the discovery of evidence would have been ***inevitable*** regardless of the illegality; **(c)** through the ***attenuation doctrine*** (which admits evidence where a defendant’s free will has been restored through the passage of time and/or intervening events); **(d)** the police ***relied in good faith*** on a defective search warrant; **OR (e)** it’s a violation of the ***Knock-and-Announce Rule*** (if the search was authorized by a valid search warrant). If an exception applies, the evidence MAY be used in a criminal prosecution against a defendant.\n• In addition, there are **limitations on the Exclusionary Rule as applied to Miranda violations**.\n  ○ Limitation #1: Failure to give Miranda warnings **DOES NOT require suppression of the *physical evidence*** found because of the statements (as long as the statements are voluntary).\n  ○ Limitation #2: **Subsequent statements made after Miranda warnings are admissible**, UNLESS a non-Mirandized previous statement was obtained through the use of inherently coercive police tactics offensive to due process.\n  ○ Limitation #3: Statements obtained in violation of a suspect’s Miranda rights are ***inadmissible in the Prosecution’s case-in-chief***. **BUT**, they may be used to ***impeach*** a defendant on cross examination. However, such statements CANNOT be used to impeach the testimony of third-party witnesses.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2023, Essay 2",
+      "July 2011, Essay 2",
+      "Feb 2008, Essay 8"
+    ],
+    "translation": "• 排除法則（Exclusionary Rule）の下では、被告人の合衆国憲法修正第4条、第5条、または第6条の権利を侵害して得られた証拠は、刑事事件において**証拠として不適格**である。加えて、すべての***派生証拠（Derivative Evidence）***は、**毒樹の果実の法理（Fruit of the Poisonous Tree Doctrine）**の下で**証拠として不適格**である。\n• しかしながら、排除法則（Exclusionary Rule）は以下の場合は**適用されない**。**(a)** 警察が二次的証拠について***独立した情報源（Independent Source）***を有していたことが示される場合（証拠の発見および押収の源が、元の違法な源とは異なる場合）。**(b)** 違法性にかかわらず、証拠の発見が***不可避***であった場合。**(c)** ***希釈の法理（Attenuation Doctrine）***による場合（時間の経過および／または介在する事象を通じて被告人の自由意思が回復された場合に証拠を許容する）。**(d)** 警察が欠陥のある捜索令状（Search Warrant）に***善意で依拠した***場合。**または (e)** ***ノック・アンド・アナウンス規則***の違反である場合（捜索が有効な捜索令状（Search Warrant）によって許可されていた場合）。例外が適用される場合、その証拠は被告人に対する刑事訴追において使用され得る。\n• さらに、**ミランダ違反に適用される排除法則（Exclusionary Rule）には制限**がある。\n  ○ 制限1：ミランダ警告（Miranda Warnings）の不履行は、供述によって発見された***物的証拠の抑制を要求しない***（供述が任意である限り）。\n  ○ 制限2：**ミランダ警告（Miranda Warnings）後にされたその後の供述は許容される**。ただし、ミランダ警告（Miranda Warnings）なしの以前の供述が、適正手続（Due Process）に反する本質的に強圧的な警察の戦術を用いて得られた場合はこの限りではない。\n  ○ 制限3：被疑者のミランダ権を侵害して得られた供述は、***検察官の主尋問において証拠として不適格***である。**しかし**、それらは反対尋問において被告人を***弾劾する***ために使用され得る。ただし、そのような供述は第三者証人の証言を弾劾するために使用することはできない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "証拠排除法則（Exclusionary Rule）および毒樹の果実の法理（Fruit of the Poisonous Tree Doctrine）"
+  },
+  {
+    "id": 41,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "K. Fair Trial and Guilty Pleas",
+    "ruleTitle": "Right to a Jury Trial",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The 6th Amendment, as applied to the states through the 14th Amendment, guarantees a _criminal defendant_ the right to a jury trial for ***serious offenses*** (where imprisonment may be _greater than six months_). Any fact (other than a prior conviction) that increases the maximum penalty for a crime MUST be submitted to a jury, and proven beyond a reasonable doubt by the prosecution. A minimum of six jurors are required, and the verdict MUST be ***unanimous***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2014, Essay 5"
+    ],
+    "translation": "• 合衆国憲法修正第6条は、合衆国憲法修正第14条を通じて各州に適用され、***重罪***（6ヶ月を超える懲役刑が科される可能性がある場合）に対する_刑事被告人_の陪審裁判（Jury Trial）を受ける権利を保障する。犯罪の最高刑を増加させるいかなる事実（前科を除く）も、陪審に提出され、検察によって合理的疑いを超えて（Beyond a Reasonable Doubt）証明されなければならない。最低6人の陪審員が必要であり、評決は***全員一致***でなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "陪審裁判（Jury Trial）を受ける権利"
+  },
+  {
+    "id": 42,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "K. Fair Trial and Guilty Pleas",
+    "ruleTitle": "Competence to Stand Trial",
+    "priority": null,
+    "frequency": "1 of 40 Exams",
+    "body": "• A defendant is competent to stand trial if he: **(1)** has ***sufficient present ability to consult with his lawyer*** with a reasonable degree of rational understanding (he must be able to **assist in preparing his defense**); **AND (2)** has a ***rational and factual understanding of the proceedings*** against him.\n• Due process REQUIRES a trial court to conduct a competency hearing, either on motion or _sua sponte_, if there is sufficient doubt about a defendant’s competence. This obligation exists throughout the trial. After sufficient doubt as to competency arises, the burden of evaluating competency is placed upon the court and court-appointed experts.\n• A criminal defendant _cannot_ be tried if he is deemed incompetent, but competence may be reassessed at a later date if his mental condition improves.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 2"
+    ],
+    "translation": "• 被告人は、以下の条件を満たす場合、裁判を受ける能力がある。**(1)** 合理的な理解の程度をもって**弁護士と協議する十分な現在の能力**を有していること（**弁護の準備を支援**できること）。**および (2)** 自身に対する***訴訟手続に対する合理的かつ事実的な理解***を有していること。\n• 適正手続（Due Process）は、被告人の能力に関して十分な疑いがある場合、裁判所が申立てにより、または_職権で_、能力審問（Competency Hearing）を実施することを要求する。この義務は裁判全体を通じて存在する。能力に関する十分な疑いが生じた後、能力を評価する負担は裁判所および裁判所が任命した専門家に課される\n• 刑事被告人は、無能力と判断された場合、裁判を受けることはできないが、精神状態（Mens Rea）が改善すれば、能力は後日再評価され得る。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "裁判能力（Competence to Stand Trial）"
+  },
+  {
+    "id": 43,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "K. Fair Trial and Guilty Pleas",
+    "ruleTitle": "Guilty Plea Requirements",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A guilty plea operates as a waiver of defendant’s important rights and is valid ONLY IF it is: **(1)** made ***voluntarily***; **AND (2)** made ***knowingly and intelligently*** by the defendant of the relevant circumstances and likely consequences, which **requires that the judge (in open court and on the record) make sure that the defendant knows and understands** the following: **(i)** the ***nature of the charge*** to which they are pleading and the ***critical elements*** of the offense; **(ii)** the ***maximum*** possible sentence; **(iii)** the ***mandatory minimum*** sentence; **(iv)** the ***nature of the rights being waived***, such as the right to a _jury trial_ (and not plead guilty), to _confront accusers_, and to be protected _against self-incrimination_; **and (v)** that ***those rights will be waived***.\n• When a defendant is represented by competent counsel, the court usually may rely on that counsel’s assurance that the defendant has been properly informed of the nature and elements of the charge to which they are pleading guilty.\n• Enforceability of Plea Agreement & Sentencing: A plea bargain agreement is enforceable against only the **Prosecutor and the Defendant**. A plea bargain agreement is NOT enforceable against the **Judge**. The judge DOES NOT have to accept the plea agreement and may impose a ***greater sentence*** than the recommended sentence by the prosecution under the plea agreement.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 有罪答弁（Guilty Plea）は被告人の重要な権利の放棄として機能し、以下の条件を満たす場合にのみ有効である。**(1)** ***自発的に***行われること。**かつ (2)** 関連する状況と起こりうる結果について、被告人により***故意かつ知的に（knowingly and intelligently）***行われること。これには、**裁判官が（公開法廷かつ記録上）被告人が以下の事項を知りかつ理解していることを確認することが求められる**。**(i)** 答弁する***訴因の性質***と犯罪の***重要な構成要件***。**(ii)** ***最大***刑期。**(iii)** ***法定最低***刑。**(iv)** _陪審裁判（Jury Trial）_を受ける権利（および有罪答弁（Guilty Plea）しない権利）、_告発者と対峙する_権利、_自己負罪拒否権（Privilege Against Self-Incrimination）_など、***放棄される権利の性質***。**および (v)** ***それらの権利が放棄される***こと。\n• 被告人が有能な弁護人によって代理されている場合、裁判所は通常、被告人が答弁する訴因の性質と構成要件について適切に知らされているという当該弁護人の保証に依拠することができる。\n• 司法取引（Plea Bargain）合意の強制力と量刑（Sentencing）：司法取引（Plea Bargain）合意は、**検察官と被告人**に対してのみ強制力がある。司法取引（Plea Bargain）合意は**裁判官**に対しては強制力がない。裁判官は司法取引（Plea Bargain）合意を受け入れる義務はなく、司法取引（Plea Bargain）合意に基づく検察による勧告刑よりも***重い刑***を科すことができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "有罪答弁（Guilty Plea）の要件"
+  },
+  {
+    "id": 44,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "L. Double Jeopardy",
+    "ruleTitle": "Double Jeopardy",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• The Double Jeopardy Clause of the 5th Amendment **prevents a defendant from being prosecuted *twice* for the same offense**. In a jury trial, jeopardy _attaches_ once the jury is impaneled and sworn. In a bench trial, jeopardy attaches when the first witness is sworn. Jeopardy DOES NOT attach in civil proceedings. The Double Jeopardy Clause applies to the Federal Government, as well as to the States.\n• Double jeopardy will **bar separate prosecutions of a defendant arising out of the “same offense”**. Under the _Blockburger_ test, two distinct crimes **DO NOT** constitute the “same offense” for double jeopardy purposes if ***each crime requires proof of a fact which the other does not***. But, if either crime would be fully established by proof of the elements of the other crime, then the offenses ARE the “same offense” for double jeopardy purposes.\n• However, the following exceptions exist where a defendant can be retried: **(a) hung jury** – when the first trial ends in a hung jury; **(b) manifest necessity** – a mistrial when manifest necessity exists to end the original trial; **(c) defendant’s request** – when the original trial is terminated at the defendant’s request and it’s not for an acquittal on the merits; **(d) consent to sever charges** – when a defendant seeks to have the charges against them severed into separate trials; **(e) breach of a plea bargain** – when a defendant breaches a plea bargain agreement, then they may be tried for those offenses; **OR (f) retrial after a successful appeal** – a defendant whose conviction was reversed on appeal may be retried (unless the reversal was based upon _insufficient evidence_ to support a guilty verdict).\n• A final judgment on a lesser included offense bars prosecution of a greater offense on the same facts UNLESS the greater offense: (a) did not exist at the time of trial; OR (b) was not discovered despite due diligence.\n• Dual Sovereignty Doctrine: **The Double Jeopardy Clause DOES NOT bar prosecutions from “separate sovereigns”**, as a crime under one sovereign’s laws is not the “same offense” as a crime under the laws of another sovereign (even if the elements of the two crimes are the same).\n  ○ The **Federal Government** and a **State** ARE ***deemed separate sovereigns*** from each other. **Different States** ARE also ***deemed separate sovereigns*** from each other. As such, a defendant MAY be subjected to separate prosecutions for the same conduct in both Federal and State court. Similarly, a defendant MAY be subject to separate prosecutions for the same conduct in two different States (when the elements of the offense occur in two or more States).\n  ○ However, **political subdivisions of a State** (such as, counties, cities, local governments) are **NOT *considered as sovereign entities***. Instead, they are treated the same as a State for double jeopardy purposes, as they have been traditionally regarded as subordinate governmental instrumentalities created by the State to assist in the carrying out of state governmental functions. As such, a defendant CANNOT be subjected to separate prosecutions for the same offense by a State or different political subdivisions within a State.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 5",
+      "Feb 2014, Essay 5"
+    ],
+    "translation": "• 合衆国憲法修正第5条の二重処罰禁止条項（Double Jeopardy Clause）は、**被告人が同一の犯罪について*二度*訴追されることを防止する**。陪審裁判（Jury Trial）では、陪審が選任され宣誓した時点で危険が開始する。裁判官のみの裁判では、最初の証人が宣誓した時点で危険が開始する。民事訴訟手続では危険は開始しない。二重処罰禁止条項（Double Jeopardy Clause）は、連邦政府および各州に適用される。\n• 二重処罰（Double Jeopardy）は、「同一の犯罪」から生じる被告人の**別個の訴追を禁止する**。_ブロックバーガー・テスト（Blockburger Test）_によれば、二つの異なる犯罪は、***それぞれが他方には不要な事実の立証を要求する***場合、二重処罰（Double Jeopardy）禁止の目的上、「同一の犯罪」を**構成しない**。しかし、いずれかの犯罪が他方の犯罪の構成要件の立証によって完全に立証される場合、それらの犯罪は二重処罰（Double Jeopardy）禁止の目的上、「同一の犯罪」である。\n• しかし、被告人が再審理されうる以下の例外が存在する。**(a) 評決不能陪審（Hung Jury）** – 最初の審理が評決不能陪審（Hung Jury）で終了した場合。**(b) 明白な必要性（Manifest Necessity）** – 元の審理を終了させる明白な必要性（Manifest Necessity）が存在する場合の無効審理（Mistrial）。**(c) 被告人の要求** – 元の審理が被告人の要求により終了し、それが本案に基づく無罪判決のためではない場合。**(d) 訴因分離への同意** – 被告人が自身に対する訴因を別個の審理に分離することを求める場合。**(e) 司法取引（Plea Bargain）の違反** – 被告人が司法取引（Plea Bargain）合意に違反した場合、それらの犯罪で審理されることがある。**または (f) 控訴成功後の再審理** – 控訴審で有罪判決が破棄された被告人は再審理されることがある（ただし、破棄が有罪評決を支持するに足る_証拠不十分_に基づく場合を除く）。\n• より軽微な包含犯罪（lesser included offense）に対する最終判決は、同一の事実に基づくより重い犯罪の訴追を禁止する。ただし、より重い犯罪が、(a) 審理時に存在しなかった場合、または (b) 相当な注意を払ったにもかかわらず発見されなかった場合を除く。\n• 二重主権の原則（Dual Sovereignty Doctrine）：**二重処罰禁止条項（Double Jeopardy Clause）は「別個の主権者」による訴追を禁止しない**。ある主権者の法の下での犯罪は、別の主権者の法の下での犯罪と「同一の犯罪」ではないからである（たとえ二つの犯罪の構成要件が同一であっても）。\n  ○ **連邦政府**と**州**は、互いに***別個の主権者とみなされる***。**異なる州**もまた、互いに***別個の主権者とみなされる***。そのため、被告人は連邦裁判所と州裁判所の双方で同一の行為に対して別個の訴追を受けることがある。同様に、被告人は二つの異なる州で同一の行為に対して別個の訴追を受けることがある（犯罪の構成要件が二つ以上の州で発生する場合）。\n  ○ しかし、**州の政治的下部組織**（例えば、郡、市、地方政府）は、**主権を有する実体とはみなされない**。むしろ、それらは二重処罰（Double Jeopardy）禁止の目的上、州と同一に扱われる。なぜなら、それらは伝統的に、州の政府機能の遂行を補助するために州によって創設された下位の政府機関とみなされてきたからである。そのため、被告人は州または州内の異なる政治的下部組織による同一の犯罪に対する別個の訴追を受けることはできない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "二重処罰（Double Jeopardy）の禁止"
+  },
+  {
+    "id": 45,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "M. Burden of Proof and Persuasion",
+    "ruleTitle": "Burden of Proof, Presumptions, & Sufficiency of Evidence",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• The _prosecution_ must prove every element of a crime ***beyond a reasonable doubt***. The burden of proof CANNOT be shifted to the defendant under the Due Process Clause. However, a state may impose that **affirmative defenses** be proved by the _defendant_ (i.e. insanity or self-defense).\n• A jury instruction that creates a rebuttable presumption for an element of the crime (one that may be disputed or overcome by additional evidence) **violates Due Process Clause if it shifts the burden of proof to the *defendant***. A jury instruction that creates an irrebuttable presumption for an element of the crime (one that _cannot_ be disputed or overcome by additional evidence) is a ***per se* violation of the Due Process Clause**.\n• After the prosecution closes its case in chief or after the close of all the evidence, the defendant may move for a Judgment of Acquittal. If the ***evidence is insufficient to sustain a conviction*** for a crime (when a reasonable jury would not find that each element was proven beyond a reasonable doubt), the court MUST enter Judgment of Acquittal.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2014, Essay 5",
+      "July 2009, Essay 7"
+    ],
+    "translation": "• _検察_は、犯罪のあらゆる構成要件を***合理的疑いを超えて（Beyond a Reasonable Doubt）***立証しなければならない。適正手続条項（Due Process Clause）の下では、立証責任（Burden of Proof）を被告人に転嫁することはできない。しかし、州は、**積極的抗弁（Affirmative Defense）**が_被告人_によって立証されることを課すことができる（すなわち、心神喪失（Insanity）または正当防衛（Self-Defense））。\n• 犯罪の構成要件について反証可能な推定（Rebuttable Presumption）（追加の証拠によって争われたり覆されたりしうるもの）を生じさせる陪審への指示は、***被告人***に立証責任（Burden of Proof）を転嫁する場合、**適正手続条項（Due Process Clause）に違反する**。犯罪の構成要件について反証不能な推定（Irrebuttable Presumption）（追加の証拠によって争われたり覆されたりしえないもの）を生じさせる陪審への指示は、***適正手続条項（Due Process Clause）のそれ自体違反***である。\n• 検察が主尋問を終えた後、または全ての証拠の提出が終了した後、被告人は無罪判決の申立て（Motion for Acquittal）を行うことができる。犯罪に対する***有罪判決を維持するに足る証拠が不十分である***場合（合理的な陪審が各構成要件が合理的疑いを超えて（Beyond a Reasonable Doubt）立証されたとは認めないであろう場合）、裁判所は無罪判決を下さなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "立証責任（Burden of Proof）、推定、および証拠の十分性"
+  },
+  {
+    "id": 46,
+    "subject": "CRIMINAL LAW & PROCEDURE",
+    "subjectNumber": "07",
+    "section": "N. Appeal and Error",
+    "ruleTitle": "Harmless Error Rule",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the Harmless Error Rule, _even if_ evidence in violation of the defendant’s constitutional rights was improperly admitted at trial, a guilty verdict **will stand on appeal** if the prosecution can prove that the ***error was harmless*** because the defendant would have been convicted even without the tainted evidence.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 無害な誤謬（Harmless Error）の原則に基づき、_たとえ_被告人の憲法上の権利を侵害する証拠が公判で不適切に採用されたとしても、検察が、違法収集証拠がなくても被告人が有罪判決を受けていたであろうため、***誤謬が無害であった***ことを証明できるならば、有罪評決は**控訴審で維持される**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "無害な誤りの原則"
+  }
+]

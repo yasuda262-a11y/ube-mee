@@ -1,0 +1,648 @@
+[
+  {
+    "id": 1,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "A. Constitutional Limits on Federal Court Jurisdiction",
+    "ruleTitle": "State Sovereign Immunity (11th Amendment)",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• The Eleventh Amendment **prohibits a party from suing a state or a state agency** in federal court UNLESS: **(a)** the state ***explicitly consents to waive*** its Eleventh Amendment protections (e.g. by a state statute or removing a lawsuit to federal court); **(b)** the suit pertains to federal laws adopted under ***Section 5 of the Fourteenth Amendment***; **(c)** the suit seeks only ***injunctive relief against a state official*** for conduct that violates the Constitution or federal law; **OR (d)** the suit seeks ***money damages from a state official***.\n• The Eleventh Amendment **DOES NOT apply** to: (a) local governments (counties, cities, towns); (b) federal suits brought by one state against another state; (c) a suit by the federal government against a state; and (d) a lawsuit brought against a state under certain federal powers/laws (under federal bankruptcy law, the federal eminent domain power, or the federal war power).\n• The Supreme Court has held that **Congress CANNOT abrogate state sovereign immunity EXCEPT** for federal laws adopted under Section 5 of the Fourteenth Amendment. To determine whether Congress validly abrogated State immunity, two issues must be resolved: **(1)** whether Congress unequivocally expressed its intent to abrogate the immunity; **AND (2)** if it did, whether Congress acted pursuant to a valid grant of constitutional authority.",
+    "meeTips": [
+      "On the exam, the terms “Constitution,” “constitutional,” and “unconstitutional” refer to the federal U.S. Constitution (unless otherwise indicated)."
+    ],
+    "examHistory": [
+      "July 2025, Essay 4",
+      "July 2017, Essay 2",
+      "July 2012, Essay 3"
+    ],
+    "translation": "• 第11修正条項は、**当事者が連邦裁判所において州または州機関を訴えることを禁止する**。ただし、以下の場合は除く。**(a)** 州がその第11修正条項による保護を***明示的に放棄することに同意する（Explicitly Consents to Waive）***場合（例：州法による、または訴訟を連邦裁判所に移送することによる）。**(b)** 訴訟が***第14修正条項第5節（Section 5 of the 14th Amendment）***に基づいて採択された連邦法に関するものである場合。**(c)** 訴訟が憲法または連邦法に違反する行為に対して***州公務員に対する差止命令による救済のみ（Only Injunctive Relief against State Officials）***を求めるものである場合。**または (d)** 訴訟が***州公務員からの金銭的損害賠償（Money Damages from a State Official）***を求めるものである場合。\n• 第11修正条項は、以下には**適用されない**。(a) 地方政府（郡、市、町）。(b) ある州が別の州に対して提起する連邦訴訟。(c) 連邦政府が州に対して提起する訴訟。および (d) 特定の連邦権限/法（連邦破産法、連邦の土地収用権（Eminent Domain Power）、または連邦の戦時権限）の下で州に対して提起される訴訟。\n• 最高裁判所は、**議会は州の主権免除を廃止できない**と判示している。ただし、第14修正条項第5節（Section 5 of the 14th Amendment）に基づいて採択された連邦法の場合を除く。議会が州の免除を有効に廃止したかどうかを判断するには、2つの問題を解決しなければならない。**(1)** 議会が免除を廃止する意図を明確に表明したか。**および (2)** もし表明したとすれば、議会が憲法上の権限の有効な付与に従って行動したか。",
+    "meeTipTranslation": "試験では、「Constitution（憲法）」、「constitutional（合憲の）」、「unconstitutional（違憲の）」という用語は、連邦米国憲法を指す（別途指示がない限り）。",
+    "ruleTitleJa": "州の主権免除（合衆国憲法修正第11条）"
+  },
+  {
+    "id": 2,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "B. Justiciability",
+    "ruleTitle": "Standing",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Article III of the Constitution limits federal courts to deciding ***actual cases or controversies***. As such, a plaintiff MUST have standing to sue in federal court.\n• **Standing** exists when the plaintiff: **(1)** personally suffered ***an injury in fact*** (a _concrete and particularized injury_); **(2)** the injury was ***caused*** by the defendant (a reasonable connection is sufficient); **AND (3)** the injury is ***redressable*** by a court order.\n• An **intangible injury** (no monetary harm) may be a concrete injury. Courts have held that the **invasion of privacy** alone constitutes a concrete injury, and the Supreme Court has recognized an injury in fact where the plaintiff’s **Constitutional rights** have been violated. However, the ***mere violation of a statute is insufficient*** if plaintiff did not actually suffer a concrete injury.\n• **Standing & Injunctive Relief**: When a plaintiff is seeking injunctive or declaratory relief, he must show that there is a ***concrete, imminent threat of future injury*** that is neither conjectural nor speculative.\n• **Organizational & Third-Party Standing**:\n  ○ Generally, third-party standing is NOT permitted. However, an exception is made when: **(a)** there is a ***close relationship*** between the plaintiff and the third-party (i.e. doctor/patient); **(b)** it would be ***difficult or unlikely for the third-party to assert their rights*** on their own; **OR (c)** the third-party is an ***organization***.\n  ○ An organization has standing to sue on behalf of its members if: **(1)** the suit is related to an ***issue that is germane*** to the organization’s purpose; **(2)** the organization’s ***members would have standing*** to sue (injury in fact to the members); **AND (3)** the members’ ***participation is not necessary***.\n• **Taxpayer Standing**: A plaintiff may always bring a suit regarding the specific amounts owed under their tax bill. BUT, a plaintiff DOES NOT have standing to sue ***solely*** based on being a taxpayer, except in the following instance: When the taxpayer is challenging government expenditures in violation of the Establishment Clause of the Constitution.",
+    "meeTips": [
+      "Apply any specific standing rules concerning injunction relief or organizational/third-party/ taxpayer standing, depending on the fact pattern of the essay question – i.e. whether plaintiff is an organization, third-party, taxpayer, or is seeking injunctive relief."
+    ],
+    "examHistory": [
+      "July 2019, Essay 6"
+    ],
+    "translation": "• 憲法第3条は、連邦裁判所が***実際の事件または争訟（Actual Case or Controversy）***を決定することに限定している。そのため、原告は連邦裁判所に訴訟を提起する当事者適格を有さなければならない。\n• **当事者適格**は、原告が以下の条件を満たす場合に存在する。**(1)** 個人的に***事実上の損害（Injury in Fact）***（_具体的かつ個別的な損害_）を被った。**(2)** その損害が被告によって***引き起こされた（Causation）***（合理的な関連性で十分である）。**および (3)** その損害が裁判所の命令によって***救済可能である（Redressability）***。\n• **無形の損害**（金銭的損害がない）も具体的な損害となり得る。裁判所は、**プライバシーの侵害**それ自体が具体的な損害を構成すると判示しており、最高裁判所は、原告の**憲法上の権利**が侵害された場合に事実上の損害（Injury in Fact）を認めている。しかし、原告が実際に具体的な損害を被らなかった場合、***単なる法規違反では不十分である***。\n• **当事者適格と差止命令による救済**: 原告が差止命令または宣言的救済を求めている場合、彼は推測的でも投機的でもない、***具体的で差し迫った将来の損害の脅威（Concrete and Imminent Threat of Future Injury）***があることを示さなければならない。\n• **組織的および第三者当事者適格**:\n  ○ 一般的に、第三者当事者適格は許可されない。しかし、以下の場合には例外が認められる。**(a)** 原告と第三者との間に***密接な関係（Close Relationship）***がある場合（例：医師/患者）。**(b)** 第三者が自らの権利を主張することが***困難またはありそうもない***場合。**または (c)** 第三者が***組織***である場合。\n  ○ 組織は、その構成員に代わって訴訟を提起する当事者適格を有する。ただし、以下の条件を満たす場合。**(1)** 訴訟が組織の目的に***関連する問題***に関するものである。**(2)** 組織の***構成員が当事者適格を有する***（構成員に対する事実上の損害（Injury in Fact））。**および (3)** 構成員の***参加は必要ではない***。\n• **納税者当事者適格（Taxpayer Standing）**: 原告は、自身の納税額請求書に基づいて支払うべき特定の金額に関する訴訟を常に提起することができる。しかし、原告は納税者であること***のみ***に基づいて訴訟を提起する当事者適格を有しない。ただし、以下の場合は除く。納税者が憲法の設立条項（Establishment Clause）に違反する政府支出に異議を唱える場合。",
+    "meeTipTranslation": "論文問題の事実関係に応じて、差止命令による救済、または組織的/第三者/納税者訴訟適格に関する特定の訴訟適格規則を適用すること。すなわち、原告が組織、第三者、納税者であるか、または差止命令による救済を求めているかによる。",
+    "ruleTitleJa": "当事者適格（Standing）"
+  },
+  {
+    "id": 3,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "B. Justiciability",
+    "ruleTitle": "Advisory Opinions, Ripeness, & Mootness",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Article III of the Constitution limits federal courts to deciding ***actual cases or controversies***. As such, a court CANNOT give advisory opinions or address hypothetical disputes.\n• **Ripeness** refers to whether the case is ready to be litigated. A case is ripe for review by a court when there is ***actual harm or an immediate threat of harm*** to the plaintiff.\n  ○ A court may grant pre-enforcement review of a statute or law after considering: **(1)** the ***hardship of the parties*** if the court withholds review; **AND (2)** the ***fitness of the record*** for review.\n• **Mootness** refers to instances when the dispute has ended or was resolved before review. **However**, a court may hear a case that has ended or was resolved when: **(a)** the wrong alleged is capable of being ***repeated and escaping review***; **(b)** the defendant voluntarily stops an offending practice, but can ***resume it at any time***; **OR (c)** in a ***class action***, where at least one member of the class has an ongoing injury.",
+    "meeTips": [
+      "If the essay involves a case _not_ _being ready for review_ (i.e. no injury or immediate threat of injury), then apply the Ripeness rule. If the fact pattern involves a case where the _dispute has_ _ended or resolved_, then apply the Mootness rule."
+    ],
+    "examHistory": [],
+    "translation": "• 憲法第3条は、連邦裁判所が***実際の事件または争訟（Actual Case or Controversy）***を決定することに限定している。そのため、裁判所は助言的意見を与えたり、仮説的な紛争に対処したりすることはできない。\n• **成熟性（Ripeness）**とは、事件が訴訟の準備ができているかどうかを指す。事件は、原告に***実際の損害または差し迫った損害の脅威（Actual or Imminent Threat of Harm）***がある場合に、裁判所による審査の成熟性（Ripeness）を有する。\n  ○ 裁判所は、法規または法律の事前執行審査を、以下の点を考慮した上で許可することができる。**(1)** 裁判所が審査を差し控える場合の***当事者の困難***。**および (2)** 審査のための***記録の適合性***。\n• **ムートネス（Mootness）**とは、紛争が審査前に終了したか解決された場合を指す。**しかし**、裁判所は、終了したか解決された事件を、以下の場合に審理することができる。**(a)** 主張された違法行為が***繰り返され、審査を免れる（Capable of Repetition Yet Evading Review）***可能性がある場合。**(b)** 被告が自発的に違反行為を中止したが、***いつでも再開できる***場合。**または (c)** ***集団訴訟（Class Action）***において、クラスの少なくとも1人のメンバーが継続的な損害を被っている場合。",
+    "meeTipTranslation": "論文が_審査の準備ができていない_事件（すなわち、損害または差し迫った損害の脅威がない）に関するものである場合、成熟性（Ripeness）規則を適用すること。事実関係が_紛争が終了または解決された_事件に関するものである場合、ムートネス（Mootness）規則を適用すること。",
+    "ruleTitleJa": "助言的意見（Advisory Opinions）、成熟性（Ripeness）、およびムートネス（Mootness）"
+  },
+  {
+    "id": 4,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "C. Powers of Congress",
+    "ruleTitle": "Commerce Clause",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• The Commerce Clause of the Constitution grants Congress the authority to regulate commerce between the States (interstate commerce), foreign nations, and Indian tribes. **Congress may regulate**: **(1)** the ***channels*** of interstate commerce (i.e. highways and phone lines); **(2)** the ***people and instrumentalities*** that work and travel in interstate commerce (i.e. cars, airplanes, airplane pilots, flight attendants); **AND (3)** economic or commercial activities that have a ***substantial effect on interstate commerce***.\n• Federal regulations regarding **intrastate activities** will be upheld if **(1)** there is a ***rational basis***, **(2)** to conclude that the ***cumulative national impact of the activities (aggregation)***, **(3) *have a substantial effect on interstate commerce***.\n  ○ However, aggregation CANNOT be used when the activities regulated are NOT commercial or economic in nature, thus making the substantial effect standard difficult to meet. The Supreme Court has held that the following activities DO NOT have a substantial economic effect: possessing a firearm in a school zone; and general acts of violence.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 4",
+      "July 2012, Essay 3"
+    ],
+    "translation": "• 憲法の通商条項（Commerce Clause）は、州間（州際通商）、外国、およびインディアン部族間の通商を規制する権限を議会に付与する。**議会は以下を規制できる**：**(1)** 州際通商の***経路***（すなわち、高速道路および電話回線）；**(2)** 州際通商において活動し移動する***人々および手段***（すなわち、自動車、航空機、航空機パイロット、客室乗務員）；**および (3)** ***州際通商に実質的な影響（Substantial Effect on Interstate Commerce）***を与える経済的または商業的活動。\n• **州内活動**に関する連邦規制は、**(1)** ***合理的な根拠（Rational Basis）***があり、**(2)** ***活動の累積的な全国的影響（Aggregation / 集積）***が、**(3) ***州際通商に実質的な影響（Substantial Effect on Interstate Commerce）を与える***と結論付けることができる場合に支持される。\n  ○ しかし、規制される活動が商業的または経済的性質のものではない場合、集積は使用できず、その結果、実質的影響基準を満たすことが困難となる。最高裁判所は、以下の活動は実質的な経済的影響（Economic Impact）を持たないと判断している：学校区域内での銃器所持；および一般的な暴力行為。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "通商条項（Commerce Clause）"
+  },
+  {
+    "id": 5,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "C. Powers of Congress",
+    "ruleTitle": "Power to Enforce the 13th, 14th, and 15th Amendments",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Congress has the ***power to enforce*** the provisions of the following Amendments through appropriate legislation: **13th Amendment** (abolition of slavery); **14th Amendment** (privileges and immunities, due process, equal protection, apportionment of representatives); and **15th Amendment** (right to vote cannot be denied because of race).\n• Legislation which deters/remedies a constitutional violation under these Amendments is within Congress’s enforcement power _even if_ in the process it prohibits conduct which is not unconstitutional. However, Congress may ***only* prohibit** behavior that is ***likely*** to involve a constitutional violation. **Congress CANNOT define constitutional rights or change substantive law**. There must be ***congruence and proportionality*** between the constitutional injury to be prevented or remedied, and the legislative means that are adopted by Congress.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2015, Essay 2"
+    ],
+    "translation": "• 議会は、以下の修正条項の規定を適切な立法を通じて***執行する権限（Enforcement Power）***を有する：**修正第13条**（奴隷制度の廃止）；**修正第14条**（特権および免除、適正手続、平等保護、代表者の配分）；および**修正第15条**（人種を理由に投票権を否定できない）。\n• これらの修正条項に基づく憲法違反を抑止／是正する立法は、_たとえ_その過程で合憲的ではない行為を禁止するとしても、議会の執行権限の範囲内である。しかし、議会は、憲法違反を***伴う可能性が高い***行為を***のみ禁止***できる。**議会は憲法上の権利を定義したり、実体法を変更したりすることはできない**。防止または是正されるべき憲法上の侵害と、議会が採用する立法的手段との間に、***合致性および均衡性（Congruence and Proportionality）***がなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "合衆国憲法修正第13条、第14条、第15条を執行する権限（Enforcement Power）"
+  },
+  {
+    "id": 6,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "C. Powers of Congress",
+    "ruleTitle": "Taxing Power",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Congress has the power to ***lay and collect taxes***, duties, imposts and excises. All duties, imposts, and excises MUST be geographically uniform throughout the United States.\n• Under the 16th Amendment, Congress has the **power to collect taxes on income** that are _derived from any source_. Congress may also prescribe what shall be taxed and the application of a uniform percentage when computing the tax.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 議会は、***租税、関税、輸入税および消費税を課し徴収する***権限を有する。すべての関税、輸入税および消費税は、合衆国全土で地理的に統一的でなければならない。\n• 修正第16条に基づき、議会は_いかなる源泉から生じる_**所得に対する租税を徴収する権限**を有する。議会はまた、課税対象を規定し、租税を計算する際に統一的な割合を適用することもできる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "課税権限（Taxing Power）"
+  },
+  {
+    "id": 7,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "C. Powers of Congress",
+    "ruleTitle": "Spending Power",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Congress has the power to spend for the ***common defense*** and ***general welfare*** of the United States. This power is interpreted broadly and **allows Congress to attach conditions on States receiving federal funds** upon compliance with federal statutory and administrative directives (essentially allowing Congress to regulate areas even when it wouldn’t otherwise have the power to do so).\n• However, the spending power is NOT unlimited. **Congress must satisfy five restrictions** when placing conditions on States receiving federal funds: **(1)** the spending must be for the ***general welfare*** – but courts should defer substantially to the judgment of Congress; **(2)** the condition must be ***imposed unambiguously***, enabling the States to exercise their choice knowingly; **(3)** the condition must be ***related to the federal interest*** in particular national projects or programs; **(4)** the condition ***cannot induce activities that would be unconstitutional*** for the States to engage in themselves; **AND (5)** the condition ***cannot be so coercive as to turn pressure into compulsion*** – compulsion is when States have no real option but to acquiesce (i.e. where threatened funding was over 10% of State budgets).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2018, Essay 1"
+    ],
+    "translation": "• 議会は、合衆国の***共同防衛***および***公共の福祉（General Welfare）***のために支出する権限を有する。この権限は広範に解釈され、**連邦資金を受け取る州に対し、連邦制定法および行政上の指令の遵守を条件として付すことを議会に許容する**（本質的に、議会が本来権限を持たない分野であっても規制することを可能にする）。\n• しかし、支出権限（Spending Power）は無制限ではない。連邦資金を受け取る州に条件を付す場合、**議会は5つの制限を満たさなければならない**。**(1)** 支出は***公共の福祉（General Welfare）***のためでなければならないが、裁判所は議会の判断に実質的に従うべきである。**(2)** 条件は***曖昧さなく課され***、州が自らの選択を認識して行使できるようにしなければならない。**(3)** 条件は、特定の国家プロジェクトまたはプログラムにおける***連邦の利益に関連していなければならない***。**(4)** 条件は、州が自ら関与すれば***違憲となる活動を誘発してはならない***。**そして(5)** 条件は、***圧力を強制に変えるほど強制的であってはならない（Not So Coercive as to Turn Pressure into Compulsion）***。強制とは、州が同意する以外の真の選択肢を持たない場合である（すなわち、脅かされた資金が州予算の10%を超えていた場合など）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "支出権限（Spending Power）"
+  },
+  {
+    "id": 8,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "D. Powers of the President",
+    "ruleTitle": "Executive Powers: Domestic Powers",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• The President has the power to: **(1) *faithfully execute the law*** (under the “take care” clause) as Chief Executive of the United States; **(2) *appoint ambassadors, public ministers, other officers*** of the United States (with Senate advice and consent); **(3) *appoint inferior officers*** when such power is given to the President by Congress (note: while Congress itself cannot exercise the power to make appointments, they may vest this power in other branches); **(4) *remove*** cabinet level appointees (without cause) and independent regulatory agency appointees (without cause unless Congress passes a law requiring good cause); **(5) *pardon*** federal crimes (except for crimes that lead to impeachment by the House of Representatives); **AND (6)** act as Commander in Chief of the military (the power to ***control troops***).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 大統領は以下の権限を有する。**(1)** 合衆国の最高行政官として（「忠実執行条項」に基づき）***法律を忠実に執行する（Faithfully Execute the Law）***。**(2)** 大使、公使、その他の合衆国官吏を任命する（上院の助言と同意を得て）。**(3)** 議会によって大統領に付与された場合、***下級官吏を任命する（Appoint Inferior Officers）***（注：議会自体は任命権を行使できないが、この権限を他の府に付与することはできる）。**(4)** 閣僚級の被任命者を（理由なく）解任し、独立規制機関の被任命者を（議会が正当な理由を要求する法律を可決しない限り、理由なく）解任する。**(5)** 連邦犯罪を***恩赦する（Pardon）***（下院による弾劾（Impeachment）につながる犯罪を除く）。**そして(6)** 軍の最高司令官として行動する（***軍隊を統制する***権限）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "行政府の権限：国内権限"
+  },
+  {
+    "id": 9,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "D. Powers of the President",
+    "ruleTitle": "Executive Powers: Treaty and Foreign Affairs Powers",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• The President ***shares treaty powers*** with Congress. Treaties may be negotiated by the President, but must be ratified by a two-thirds vote of the Senate. However, the President may enter into **Executive Agreements** (agreements between the President and a head of a foreign country) ***without*** Senate approval.\n• The President has broad power to ***control and deploy U.S. troops*** in foreign countries.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 大統領は議会と***条約権限（Treaty Powers）を共有する***。条約は大統領によって交渉されるが、上院の3分の2の票によって批准されなければならない。しかし、大統領は上院の承認***なしに*****行政協定（Executive Agreements）**（大統領と外国の元首との間の協定）を締結することができる。\n• 大統領は、外国における***米軍を統制し展開する***広範な権限を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "行政府の権限：条約および外交権限"
+  },
+  {
+    "id": 10,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "E. Federal Interbranch Relationships",
+    "ruleTitle": "Delegation of Congressional Powers & Non-Delegation Doctrine",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Congress has broad authority to delegate legislative powers so long as: **(1)** the powers are ***delegable under the Constitution*** (Congress _cannot_ delegate the power to impeach or declare war); **AND (2)** Congress provides ***reasonably intelligible standards*** to guide the delegation. Congress can delegate its powers to the Executive or Judicial branches of the federal government.\n• Under the Non-Delegation Doctrine, **Congress CANNOT delegate powers it *does not* have** (i.e. executive or judicial powers) to itself or its officers.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 議会は、以下の条件を満たす限り、立法権を委任する広範な権限を有する。**(1)** その権限が***憲法上委任可能である***こと（議会は弾劾権（Power to Impeach）や宣戦布告権（Power to Declare War）を委任_できない_）。**かつ (2)** 議会が委任を導くための***合理的に理解可能な基準（Intelligible Principle）***を提供すること。議会は、その権限を連邦政府の行政府または司法府に委任することができる。\n• 非委任原則（Non-Delegation Doctrine）の下、**議会は、自らが*有しない*権限**（すなわち、行政権または司法権）を、議会自身またはその職員に委任することは_できない_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "議会権限の委任と非委任原則（Non-Delegation Doctrine）"
+  },
+  {
+    "id": 11,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "F. Intergovernmental Immunities",
+    "ruleTitle": "State Immunity from Federal Law (10th Amendment)",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under the 10th Amendment, all powers NOT granted to the Federal government are ***reserved to the States*** (unless such powers are expressly prohibited by the Constitution).\n• Congress **CANNOT *compel*** state governments to implement legislation, BUT Congress ***may induce*** state government action by attaching restrictions and conditions on federal funding grants pursuant to its federal taxing and spending powers (Congress has the broad power to tax and spend for the ***general welfare***).\n• The Supreme Court has held that the **Federal Government may regulate state activities on the same terms as private actors** so long as it does not seek to control or influence (commandeering) the manner in which States regulate private parties. Under the Anti-Commandeering Doctrine, a federal regulation CANNOT require the States in their sovereign capacity to regulate their own citizens, require the state legislature to enact any laws or regulations, or require state officials to assist in the enforcement of federal statutes regulating private individuals. The Supreme Court has extended the anti-commandeering doctrine to political subdivisions of a state (e.g. local governments, counties, cities, towns), and as such the federal government CANNOT commandeer a state or local government to administer federal law. A federal mandate requiring state personnel to alter their own activities is ***not*** an unconstitutional commandeering.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 4",
+      "July 2018, Essay 1",
+      "July 2012, Essay 3"
+    ],
+    "translation": "• 修正第10条の下、連邦政府に付与されていないすべての権限は、***州に留保される（Reserved to the States）***（ただし、そのような権限が憲法によって明示的に禁止されている場合を除く）。\n• 議会は州政府に立法を_強制_することは_できない_が、連邦の課税権および支出権に基づき、連邦資金援助に制限および条件を付すことにより、州政府の行動を_誘発_することは_できる_（議会は***公共の福祉（General Welfare）***のために課税し支出する広範な権限を有する）。\n• 最高裁判所は、**連邦政府は、州が私人を規制する方法を統制または影響を与えようとしない（コマンダリングしない）限り、私人と同じ条件で州の活動を規制することができる**と判示している。アンチ・コマンダリング原則（Anti-Commandeering Doctrine）の下、連邦の規制は、州がその主権的地位において自らの市民を規制すること、州議会にいかなる法律または規制を制定すること、または州当局者に私人を規制する連邦法規の執行を支援することを_要求することはできない_。最高裁判所は、アンチ・コマンダリング原則（Anti-Commandeering Doctrine）を州の政治的下位区分（例：地方政府、郡、市、町）にまで拡大しており、そのため連邦政府は州または地方政府に連邦法の執行を_強制することはできない_。州職員に自身の活動を変更することを要求する連邦の義務付けは、違憲のコマンダリング_ではない_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "連邦法からの州の免除（合衆国憲法修正第10条）"
+  },
+  {
+    "id": 12,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "G. Federalism-Based Limits on State Authority",
+    "ruleTitle": "Negative Commerce Clause",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A state or local government ***may*** regulate intrastate commerce, as long as Congress ***has not*** enacted laws on the subject matter. If Congress has enacted laws on a particular matter, any state or local laws would be ***pre-empted*** by federal law.\n• Notwithstanding the above, state and local governments generally CANNOT pass laws that: **(a) *discriminate*** against out-of-state commerce; **OR (b)** place an ***undue burden*** on interstate commerce.\n  ○ **Discriminatory Regulations**: A law is deemed discriminatory when it is either (a) ***facially discriminatory***, OR (b) the law has a ***discriminatory impact*** because it favors in-state commerce over out-of-state commerce. State and local laws that **discriminate against out-of-state commerce** are **UNCONSTITUTIONAL**, UNLESS: **(a)** the burden on interstate commerce is ***narrowly tailored*** to achieve a ***legitimate, non-protectionist state objective*** (there are ***no less-discriminatory alternatives*** available); **OR (b)** the state or local government is a ***“market participant”*** rather than a regulator of economic activity (a state may favor its own citizens regarding state programs, state businesses, or when it is the entity buying or selling goods). The Supreme Court has held that states CANNOT use discriminatory means to accomplish even a legitimate environmental purpose (i.e. prohibiting the disposal of out-of-state waste in-state).\n  ○ **Unduly Burdensome Regulations**: State and local laws that are not discriminatory, but still place an **undue burden on interstate commerce** are **UNCONSTITUTIONAL** when (1) the ***burden*** on interstate commerce, (2) is ***clearly excessive to the putative benefits*** to the state/local government. Courts apply this balancing test on a case-by-case basis.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2017, Essay 2",
+      "Feb 2016, Essay 4"
+    ],
+    "translation": "• 州または地方政府は、議会が当該主題について法律を_制定していない_限り、州内通商を_規制することができる_。議会が特定の事項について法律を制定している場合、いかなる州または地方の法律も連邦法によって_専占される_。\n• 上記にかかわらず、州および地方政府は、一般的に以下の法律を制定することは_できない_。**(a)** 州外通商を_差別する_もの。**または (b)** 州際通商に_不当な負担（Undue Burden）_を課すもの。\n  ○ **差別的規制（Discriminatory Regulation）**: 法律は、(a) _文面上差別的である（Facially Discriminatory）_か、または (b) 州内通商を州外通商よりも優遇するため_差別的影響_を有するかのいずれかである場合に、差別的であるとみなされる。**州外通商を差別する**州および地方の法律は、以下のいずれかの場合を除き、**違憲である**。**(a)** 州際通商への負担が、_正当で保護主義的ではない州の目的（Legitimate Non-Protectionist State Interest）_を達成するために_厳密に調整されている（Narrowly Tailored）_場合（_より差別的でない代替手段が存在しない_場合）。**または (b)** 州または地方政府が、経済活動の規制者ではなく、_「市場参加者（Market Participant）」_である場合（州は、州のプログラム、州の事業、または物品の売買を行う主体である場合に、自らの市民を優遇することができる）。最高裁判所は、州が正当な環境目的（すなわち、州外廃棄物の州内処分を禁止すること）を達成するためであっても、差別的な手段を用いることは_できない_と判示している。\n  ○ **不当に負担を課す規制（Unduly Burdensome Regulation）**: 差別的ではないが、依然として**州際通商に不当な負担（Undue Burden）を課す**州および地方の法律は、(1) 州際通商への_負担_が、(2) 州/地方政府への_想定される利益に対して明らかに過剰である_場合に、**違憲である**。裁判所は、この均衡考量テストをケースバイケースで適用する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "眠れる通商条項（Dormant Commerce Clause）"
+  },
+  {
+    "id": 13,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "G. Federalism-Based Limits on State Authority",
+    "ruleTitle": "Supremacy Clause & Preemption",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the Supremacy Clause of the U.S. Constitution, validly enacted **federal law will always trump (preempt) conflicting state law**. State law may be preempted either expressly or impliedly.\n• Express preemption occurs when federal legislation ***specifically states*** that the federal law is exclusive. Implied preemption occurs through: **(a) *direct conflict with state law***; **(b) *field preemption*** (when it appears from the law itself or its legislative history that the federal government intended to exclusively occupy a given field); **OR (c)** when the ***state law substantially interferes*** with the objective of the federal law.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 合衆国憲法の優越条項に基づき、有効に制定された**連邦法は、常に抵触する州法に優越する（専占する）**。州法は、明示的または黙示的に専占され得る。\n• 明示的専占は、連邦法が排他的であると連邦立法が***明確に規定している（Explicitly States）***場合に生じる。黙示的専占は、以下のいずれかによって生じる。(a) ***州法との直接の抵触（Direct Conflict with State Law）***、(b) ***分野専占（Field Preemption）***（法律自体またはその立法経緯から、連邦政府が特定の分野を排他的に占有する意図があったと認められる場合）、**または (c)** ***州法が連邦法の目的に実質的に干渉する（Substantially Interferes with Federal Law's Objective）***場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "優越条項（Supremacy Clause）と専占（Preemption）"
+  },
+  {
+    "id": 14,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "H. Governmental Action",
+    "ruleTitle": "Governmental Action (“State Action”)",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• When alleging a constitutional violation, a plaintiff MUST show that the violation is attributable to ***government action*** (also known as “state action”), which applies to ALL levels of local, state, and federal government. **Generally, the conduct of private individuals or entities DO NOT constitute state action and is NOT protected by the U.S. Constitution**. The Supreme Court has held that running a private school or college is not “state action,” even when said school is funded primarily by government funds.\n• Courts will find “state action” for private conduct when the conduct involves either: **(a)** a ***traditional public function*** – ***powers traditionally and exclusively*** reserved to the government; **OR (b)** when ***significant government involvement exists*** to **authorize, encourage, or facilitate private conduct that is unconstitutional** (i.e. government enforcement of certain private contracts, entanglement or joint action between a state and private actor, and encouragement of private discrimination). Examples of a traditional “public function” include holding elections and where a corporation operates a privately owned “company town” that provides typical services of the government.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2020, Essay 2",
+      "Feb 2013, Essay 3",
+      "July 2011, Essay 8"
+    ],
+    "translation": "• 憲法違反を主張する場合、原告は、その違反が***政府の行為***（「ステート・アクション」とも呼ばれる）に起因するものであり、これは地方、州、連邦政府のあらゆるレベルに適用されることを示さなければならない。**一般に、私人または私的団体の行為はステート・アクションを構成せず、合衆国憲法によって保護されない**。最高裁判所は、私立学校や大学の運営は、当該学校が主に政府資金によって賄われている場合であっても、「ステート・アクション」ではないと判示している。\n• 裁判所は、私的行為が以下のいずれかを含む場合に、その私的行為について「ステート・アクション」を認定する。(a) ***伝統的な公共機能（Traditional Public Function）*** – ***伝統的にかつ排他的に政府に留保されている権限（Traditionally and Exclusively Reserved to the Government）***、**または (b)** **違憲な私的行為を承認、奨励、または促進するために***相当な政府の関与が存在する（Significant Government Involvement）***場合（すなわち、特定の私的契約の政府による執行、州と私的行為者との間の絡み合いまたは共同行為、私的差別への奨励）。伝統的な「公共機能」の例には、選挙の実施や、企業が政府の典型的なサービスを提供する私有の「企業城下町」を運営する場合が含まれる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "政府行為（「州行為」）"
+  },
+  {
+    "id": 15,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "I. Due Process (5th & 14th Amendments)",
+    "ruleTitle": "Substantive Due Process",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Substantive Due Process **pertains to the government’s power to regulate certain activities** under the Due Process Clause of the 14th Amendment (applicable to the states) and the 5th Amendment (applicable to the federal government).\n• **Fundamental Rights Test**: When the government attempts to regulate fundamental rights, it must satisfy **strict scrutiny** (the **government** must show that the law is ***necessary to serve a compelling government interest***).\n  ○ Fundamental rights include: (1) the right to vote; (2) the right to interstate travel; and (3) the right to privacy, which encompasses the right to marry, procreate, use contraceptives, raise one’s children, keep the family together, and maintain custody over one’s children (but a State can create a rebuttable presumption that a married woman’s husband is the father of a child born during wedlock). Abortion is no longer deemed a fundamental right.\n• **Non-Fundamental Rights Test**: The government may regulate activities that DO NOT constitute fundamental rights so long as it meets the **rational basis test** (**plaintiff** must show that the law is ***not rationally related to a legitimate government interest***).",
+    "meeTips": [
+      "State the general rule concerning the government’s power to regulate certain activities for a Substantive Due Process question, and then apply either the Fundamental Rights Test _or_ Non-Fundamental Rights Test depending on the activity regulated."
+    ],
+    "examHistory": [
+      "July 2024, Essay 3"
+    ],
+    "translation": "• 実体的デュー・プロセスは、修正第14条（州に適用）および修正第5条（連邦政府に適用）のデュー・プロセス条項（Due Process Clause）に基づき、**特定の活動を規制する政府の権限に関する**。\n• **基本権（Fundamental Right）テスト（Fundamental Rights Test）**: 政府が基本権（Fundamental Right）を規制しようとする場合、**厳格審査（Strict Scrutiny）**を満たさなければならない（**政府**は、その法律が***やむにやまれぬ政府の利益（Compelling Government Interest）に資するために必要である***ことを示さなければならない）。\n  ○ 基本権（Fundamental Right）には、(1) 投票権、(2) 州間移動の権利、(3) プライバシー権が含まれ、プライバシー権は、結婚する権利、生殖する権利、避妊具を使用する権利、子を養育する権利、家族を一緒に保つ権利、子の監護権を維持する権利を包含する（ただし、州は、既婚女性の夫が婚姻中に生まれた子の父親であるという反証可能な推定を設けることができる）。堕胎はもはや基本権（Fundamental Right）とはみなされない。\n• **非基本権（Fundamental Right）テスト（Fundamental Rights Test）**: 政府は、基本権（Fundamental Right）を構成しない活動を規制することができる。ただし、**合理性審査（Rational Basis）**を満たす限りにおいてである（**原告**は、その法律が***正当な政府の利益と合理的に関連していない（Not Rationally Related to a Legitimate Government Interest）***ことを示さなければならない）。",
+    "meeTipTranslation": "実体的デュー・プロセスに関する問題では、特定の活動を規制する政府の権限に関する一般原則を述べ、その後、規制される活動に応じて基本権（Fundamental Right）テスト（Fundamental Rights Test）_または_非基本権（Fundamental Right）テスト（Fundamental Rights Test）のいずれかを適用すること。",
+    "ruleTitleJa": "実体的デュー・プロセス（Substantive Due Process）"
+  },
+  {
+    "id": 16,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "I. Due Process (5th & 14th Amendments)",
+    "ruleTitle": "Procedural Due Process",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• The Due Process Clause of the 14th Amendment (applicable to the States) and the 5th Amendment (applicable to the federal government) **guarantees that no person shall be denied *life, liberty, or property* without due process of law**. Thus, certain procedures are required when the government deprives an individual of such rights.\n  ○ Deprivation of liberty occurs when the government ***deprives an individual of a freedom*** provided by the Constitution or statute.\n  ○ Deprivation of property occurs when an individual has ***an entitlement that is not fulfilled*** (i.e. welfare or social security benefits).\n• In analyzing a procedural due process claim, the court first determines whether a person’s life, liberty, or property has been taken from her. Then, the court determines what process, if any, was due before or after depriving such rights.\n  ○ To determine what procedures are required, the court will **balance the three *Mathews v. Eldridge* factors**: **(1)** the importance of the ***private interests*** being affected; **(2)** the ***risk of error*** under current procedures and the ***value of additional*** procedures; **AND (3)** the importance of ***state interests*** and the burdens on the government that would arise from the additional safeguards. Normally, procedural due process requires notice and an unbiased hearing.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 修正第14条の適正手続条項（Due Process Clause）（州に適用される）および修正第5条（連邦政府に適用される）は、いかなる者も法の手続きなしに生命、自由、または財産を奪われることがないことを**保証する**。したがって、政府が個人のそのような権利を奪う場合には、特定の手続が要求される。\n  ○ 自由の剥奪は、政府が憲法または制定法によって与えられた***個人の自由を奪う（Deprivation of Individual Liberty）***場合に発生する。\n  ○ 財産の剥奪は、個人が***満たされない法的資格（Entitlement）***（すなわち、福祉または社会保障給付）を有する場合に発生する。\n• 手続的適正手続の主張を分析する際、裁判所はまず、個人の生命、自由、または財産が奪われたかどうかを判断する。次に、そのような権利を奪う前または後に、どのような手続が、もしあれば、必要であったかを判断する。\n  ○ どのような手続が要求されるかを判断するために、裁判所は**3つの***マシューズ対エルドリッジ（Mathews v. Eldridge）***判決の要素を**比較衡量する**。すなわち、**(1)** 影響を受ける***私的利益（Private Interest）***の重要性、**(2)** 現在の手続における***誤りの危険性（Risk of Erroneous Deprivation）***および***追加の手続の価値***、**および (3)** ***州の利益（Government Interest）***の重要性および追加の保護措置から生じる政府への負担である。通常、手続的適正手続は告知と公平な審理を要求する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "手続的デュー・プロセス（Procedural Due Process）"
+  },
+  {
+    "id": 17,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "J. Equal Protection (5th & 14th Amendments)",
+    "ruleTitle": "Equal Protection Analysis",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• The Equal Protection Clause of the 14th Amendment (applicable to the States) and the 5th Amendment (applicable to the federal government) **prohibits the government from denying citizens *equal protection of the laws***.\n• To determine if a discriminatory classification against a group of people exists, one of the following must be shown: (a) the law is ***discriminatory on its face***; (b) the law is facially neutral, but is ***applied in a discriminatory manner***; OR (c) a ***discriminatory motive***, when the law is facially neutral but creates a disparate impact.\n• When the government makes laws that classify people into groups, the constitutionality of the law will be considered using one of three different levels of scrutiny: (a) Rational Basis; (b) Intermediate Scrutiny; OR (c) Strict Scrutiny.\n  ○ **Strict Scrutiny**: The court will apply **strict scrutiny** when: **(a)** a classification is based on a ***suspect class*** (race, national origin, or alienage in some instances); **OR (b)** when the law infringes on a ***fundamental right*** for a class of people (i.e. right to vote, exercise of religion, have access to the courts, and interstate travel). **Alienage** (legal non-citizen status) is generally a suspect class ***only when*** a State is involved (as Congress has power over aliens under the Constitution). A State may limit a non-citizen’s participation in a function of the government, which is subject to rational basis review.\n    Under strict scrutiny, the ***government must show*** that the classification is ***necessary to serve a compelling*** government interest.\n  ○ **Intermediate Scrutiny**: When a classification is not based on a ***quasi-suspect class*** (gender/sex, nonmarital children, and _most likely_ sexual orientation/ gender identity), the court will apply ***intermediate scrutiny***.\n    Under intermediate scrutiny, the ***government must show*** that the classification is ***substantially related to an important*** government interest (the interest MUST be the government’s _actual_ interest in passing the law).\n    The Supreme Court has held that a State may treat men and women differently and provide separate facilities (bathroom facilities, separate sports teams), BUT the State must demonstrate: (1) an exceedingly persuasive justification for separate treatment; AND (2) that the facilities are substantially equivalent. In addition, a State can use a compensatory purpose to justify an otherwise discriminatory classification but _only if_ members of the gender benefited by the classification ***actually suffer a disadvantage*** related to it.\n    The standard to use for a classification based upon a person’s sexual orientation or gender identity is unresolved. In past cases, the Supreme Court has used a rational basis standard. However, recently in _Bostock v. Clayton County_ (2020), the Supreme Court ruled that the Title VII of the Civil Rights Act prohibition of employment discrimination “because of sex” _protects_ gay, lesbian, and transgender individuals. This decision likely means that discrimination based upon sexual orientation or gender identity is subject to Intermediate Scrutiny, as the Supreme Court has used Intermediate Scrutiny in past cases for “sex” classifications.\n  ○ **Rational Basis**: For all other classes (age, disability, wealth, undocumented aliens), the court will apply the ***rational basis*** test.\n    Under rational basis, the ***plaintiff must show*** that the classification is **NOT *rationally related to any legitimate*** government interest. Any _conceivable_ interest is sufficient (other than bias or animus), even if it is not the government’s actual interest in passing the law.",
+    "meeTips": [
+      "On the exam, determine the applicable level of scrutiny depending on the classification, and then state and apply the applicable rule (strict scrutiny, intermediate scrutiny, or rational basis)."
+    ],
+    "examHistory": [
+      "July 2024, Essay 3",
+      "Feb 2015, Essay 2",
+      "July 2011, Essay 8"
+    ],
+    "translation": "• 修正第14条の平等保護条項（Equal Protection Clause）（州に適用される）および修正第5条（連邦政府に適用される）は、政府が市民に***法の平等な保護（Equal Protection of the Laws）***を拒否することを**禁止する**。\n• 特定の集団に対する差別的分類が存在するかどうかを判断するためには、以下のいずれかを示す必要がある。(a) 法律が***文面上差別的である（Facially Discriminatory）***こと、(b) 法律が文面上は中立だが、***差別的な方法で適用される（Applied in a Discriminatory Manner）***こと、または (c) 法律が文面上は中立だが、不均衡な影響を生み出す場合に、***差別的意図（Discriminatory Intent）***があること。\n• 政府が人々を分類する法律を制定する場合、その法律の合憲性は、以下の3つの異なる審査基準のいずれかを用いて検討される。(a) 合理性審査（Rational Basis）、(b) 中間審査（Intermediate Scrutiny）、または (c) 厳格審査（Strict Scrutiny）。\n  ○ **厳格審査（Strict Scrutiny）**: 裁判所は、**(a)** 分類が***疑わしい分類（Suspect Class）***（人種、国籍、または場合によっては外国人身分）に基づく場合、**または (b)** 法律が特定の集団の***基本権（Fundamental Right）***（すなわち、投票権、信教の自由の行使、裁判所へのアクセス権、州間移動の権利）を侵害する場合に、**厳格審査（Strict Scrutiny）**を適用する。**外国人身分**（合法的な非市民身分）は、一般的に州が関与する場合に***のみ***疑わしい分類（Suspect Class）である（連邦議会は憲法に基づき外国人に対する権限を有するからである）。州は非市民の政府機能への参加を制限することができ、これは合理性審査（Rational Basis）の対象となる。\n    厳格審査（Strict Scrutiny）の下では、***政府は***、その分類が***やむにやまれぬ***政府の利益に**資するために必要である**ことを***示さなければならない***。\n  ○ **中間審査（Intermediate Scrutiny）**: 分類が***準疑わしい分類（Quasi-Suspect Class）***（性別、非嫡出子、および_おそらく_性的指向／性自認）に基づかない場合、裁判所は***中間審査（Intermediate Scrutiny）***を適用する。\n    中間審査（Intermediate Scrutiny）の下では、***政府は***、その分類が**重要な**政府の利益に**実質的に関連している**ことを***示さなければならない***（その利益は、法律を制定する上での政府の_実際の_利益でなければならない）。\n    最高裁判所は、州が男性と女性を異なる扱いとし、別々の施設（浴室施設、別々のスポーツチーム）を提供することを認めているが、州は以下のことを示さなければならない。(1) 分離した取り扱いに対する極めて説得力のある正当化、**および (2)** 施設が実質的に同等であること。さらに、州は、補償目的を、それ以外の点では差別的な分類を正当化するために使用できるが、その分類によって利益を受ける性別の構成員が、それに関連して***実際に不利益を被っている***場合に_限る_。\n    個人の性的指向または性自認に基づく分類に適用される基準は未解決である。過去の判例では、最高裁判所は合理性審査（Rational Basis）基準を用いてきた。しかし、最近の_ボストック対クレイトン郡_事件（2020年）において、最高裁判所は、公民権法第7編の「性別による」雇用差別禁止規定が、ゲイ、レズビアン、トランスジェンダーの個人を_保護する_と判示した。この判決は、性的指向または性自認に基づく差別が中間審査（Intermediate Scrutiny）の対象となる可能性が高いことを意味する。なぜなら、最高裁判所は過去の「性別」分類の判例で中間審査（Intermediate Scrutiny）を用いてきたからである。\n  ○ **合理性審査（Rational Basis）**: その他のすべての分類（年齢、障害、富、不法滞在外国人）については、裁判所は***合理性審査（Rational Basis）***基準を適用する。\n    合理性審査（Rational Basis）の下では、**原告は**、その分類が**いかなる***正当な***政府の利益にも**合理的に関連していない**ことを***示さなければならない***。いかなる_考えられる_利益も十分である（偏見や敵意を除く）。たとえそれが法律を制定する上での政府の実際の利益でなかったとしてもである。",
+    "meeTipTranslation": "試験では、分類に応じて適用される審査基準を判断し、その後、適用される規則（厳格審査（Strict Scrutiny）、中間審査（Intermediate Scrutiny）、または合理性審査（Rational Basis））を述べ、適用すること。",
+    "ruleTitleJa": "平等保護分析"
+  },
+  {
+    "id": 18,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "K. Takings (5th Amendment)",
+    "ruleTitle": "Takings (5th Amendment)",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under the Takings Clause of the 5th Amendment, the government may **take private property for public use if it provides just compensation**.\n  A taking is deemed for **public use** when it is ***rationally related to a conceivable public purpose*** (public-purpose test). The right to compensation is triggered even when a third-party (not the government) is given the right to occupy the property by the government taking. The Supreme Court has held that the government MAY transfer property from one private party to another if it’s for _future public us_e and that’s the purpose of the taking. Public purposes may include public safety, public health, morality, peace and quiet, law and order, economic interests, or aesthetic values.\n  ○ **Just compensation** is measured by the ***fair market value of the property to the owner AT THE TIME OF the taking*** (relocation/moving costs are _not_ included).\n• Two types of takings exist:\n• Possessory (per se) takings occur when the government ***physically takes or occupies the property***, even if it’s just a small portion of the property. The physical invasion or appropriation must be _permanent_.\n• Regulatory takings occur when the regulation (e.g. zoning ordinance) goes “too far.” The Supreme Court has divided regulatory takings into three categories.\n  ○ **Depriving Owner of All Economically Viable Use (a per se taking)**: A regulation that completely deprives an owner of ***all economically beneficial use*** of her property is a _per se_ taking. The government MUST pay just compensation for such “total regulatory takings,” UNLESS nuisance and property law _independently restrict_ the owner’s intended use of the property.\n  ○ **Penn-Central Taking**: Courts will determine whether a regulatory taking occurred by balancing private and community interests under the **three *Penn Central* factors**: **(1)** the ***economic impact*** of the regulation on the claimant; **(2)** the ***extent of interference*** with distinct investment-backed expectations (the owner’s primary expectation of use for the property); **AND (3)** the ***character*** of the governmental action\n    The Supreme Court in _Penn Central_ recognized that the government may execute laws and programs that adversely affect recognized economic values in a wide variety of contexts. The Court has upheld land-use regulations (i.e. zoning laws) that destroyed or adversely affected recognized real property interests in instances where the government ***reasonably concluded that the health, safety, morals, or general welfare would be promoted*** by prohibiting particular contemplated uses of land.\n  ○ **Conditions on Approval of a Permit (a.k.a. Land-Use Exaction)**: Conditions placed on the approval of permits DO NOT constitute an uncompensated taking under the 5th Amendment if: **(1)** there is an ***essential nexus*** between the state interest and the permit condition – the exaction (easement demanded) would substantially advance the same government interest that would furnish a valid ground for denial of the permit; **AND (2)** the government makes an ***individualized determination*** that the condition is ***roughly proportional*** (in nature and extent) to advancing that state interest.\n    The Supreme Court has found the required nexus between a conditioned easement (bike path) and a city’s attempt to reduce traffic congestion by providing for alternative means for transportation.",
+    "meeTips": [],
+    "examHistory": [
+      "Sept 2020, Essay 4",
+      "Feb 2014, Essay 1"
+    ],
+    "translation": "• 修正第5条の収用条項（Takings Clause）の下では、政府は**正当な補償（Just Compensation）を提供すれば、私有財産を公共の用に供するために収用する**ことができる。\n  収用は、**公共の目的（Public Purpose）**のためである場合に**公共の用**とみなされる（公共目的テスト）。補償を受ける権利は、政府の収用によって第三者（政府ではない）に財産を占有する権利が与えられる場合でも発生する。最高裁判所は、_将来の公共の用_のためであり、それが収用の目的であるならば、政府がある私的当事者から別の私的当事者へ財産を移転することを**認める**と判示している。公共の目的（Public Purpose）には、公共の安全、公衆衛生、道徳、平穏、法と秩序、経済的利益、または美的価値が含まれ得る。\n  ○ **正当な補償（Just Compensation）**は、***収用時における所有者の財産の公正市場価格（Fair Market Value at the Time of Taking）***によって測定される（移転費用／引越し費用は_含まれない_）。\n• 収用には2つの種類が存在する。\n• 占有（それ自体）収用は、政府が***物理的に財産を収用または占有する（Physically Takes or Occupies Property）***場合に発生する。たとえそれが財産のごく一部であってもである。物理的な侵入または収用は_恒久的_でなければならない。\n• 規制収用（Regulatory Takings）は、規制（例：ゾーニング条例）が「行き過ぎる」場合に発生する。最高裁判所は規制収用（Regulatory Takings）を3つのカテゴリーに分類している。\n  ○ **（それ自体収用）**: 所有者からその財産の***すべての経済的に有益な利用（All Economically Beneficial Use）***を完全に奪う規制は、_それ自体_収用である。政府は、そのような「完全な規制収用（Regulatory Takings）」に対して正当な補償（Just Compensation）を支払わなければならない。ただし、迷惑行為法および財産法が、所有者の意図する財産利用を_独立して制限する_場合は除く。\n  ○ **ペン・セントラル（Penn Central）収用**: 裁判所は、**3つの***ペン・セントラル（Penn Central）***判決の要素**に基づき、私的利益（Private Interest）と共同体利益を比較衡量することによって、規制収用（Regulatory Takings）が発生したかどうかを判断する。すなわち、**(1)** 請求者に対する規制の***経済的影響（Economic Impact）***、**(2)** 明確な投資に裏打ちされた期待（所有者の財産利用に関する主要な期待）への***干渉の程度（Extent of Interference）***、**および (3)** 政府の行為の***性質（Character of Governmental Action）***である。\n    _ペン・セントラル（Penn Central）_判決において最高裁判所は、政府が、さまざまな文脈において、認識された経済的価値に悪影響を与える法律やプログラムを実行し得ることを認めた。裁判所は、政府が、特定の意図された土地利用を禁止することによって、***公共の福祉（General Welfare）が促進されると合理的に結論付けた***事例において、認識された不動産権益を破壊または悪影響を与えた土地利用規制（すなわち、ゾーニング法）を支持してきた。\n  ○ **（利用賦課）**: 許可の承認に付された条件は、以下の場合は修正第5条に基づく無補償収用を構成しない。**(1)** 州の利益と許可条件との間に***本質的な関連性（Essential Nexus）***があること、すなわち、賦課（要求される地役権）が、許可拒否の有効な根拠となるであろう同じ政府の利益を実質的に促進すること、**および (2)** 政府が、その条件がその州の利益を促進することに（性質および程度において）***おおよそ比例している（Roughly Proportional）***という***個別的な決定***を行うこと。\n    最高裁判所は、条件付き地役権（自転車道）と、代替交通手段を提供することによって交通渋滞を緩和しようとする市の試みとの間に、必要な関連性を見出している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "収用（合衆国憲法修正第5条）"
+  },
+  {
+    "id": 19,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "L. Other Protections",
+    "ruleTitle": "Privileges and Immunities Clause of Article IV (Section 2)",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the Privileges and Immunities Clause of Article IV (Section 2) of the Constitution, **States may not *intentionally* discriminate against non-residents concerning**: **(a) *civil liberties*** (right to vote, right to travel interstate); **OR (b) *important economic activities*** (ability to earn a livelihood).\n• HOWEVER, laws that discriminate against non-residents will be **upheld** if the State is **justified for the discrimination** – when: **(1)** there is a ***substantial reason*** for the difference in treatment; **AND (2)** the discriminatory law has a ***substantial relationship to that reason***.\n• The Privileges and Immunities Clause **DOES NOT protect aliens or corporations from discrimination**.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 憲法第4条（第2節）の特権免除条項（Privileges and Immunities Clause）に基づき、**州は非居住者に対し、以下の事項に関して*意図的に*差別してはならない**：**(a) *市民的自由（Civil Liberties）***（投票権、州間移動の権利）；**または (b) *重要な経済活動（Important Economic Activities）***（生計を立てる能力）。\n• しかしながら、非居住者を差別する法律は、州が**その差別について正当化される**場合に**支持される**。それは、**(1)** 待遇の相違に***実質的な理由（Substantial Reason）***がある場合；**かつ (2)** その差別的な法律が***その理由と実質的な関係***を有する場合である。\n• 特権免除条項（Privileges and Immunities Clause）は、**外国人や法人を差別から保護しない**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "合衆国憲法第4条（第2節）の特権・免除条項（Privileges and Immunities Clause）"
+  },
+  {
+    "id": 20,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "L. Other Protections",
+    "ruleTitle": "Privileges or Immunities Clause of the 14th Amendment",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• The Privileges or Immunities Clause of the Fourteenth Amendment provides that “No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States.”\n• The Supreme Court has construed this clause _very narrowly_ to protect only **(1) *United States citizens*** (it does not apply to non-citizens or corporations), **(2)** from ***State action or laws***, **(3)** concerning their ***rights of national citizenship***, such as: (i) the right to **interstate travel**, including a citizen’s right to be treated equally in her new State of residence as other citizens of the State; (ii) the right to **vote in national elections**; and (iii) the right to contact, travel to, or organize to **petition Congress**.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 合衆国憲法修正第14条の特権または免除条項（Privileges or Immunities Clause）は、「いかなる州も、合衆国市民の特権または免除を侵害するいかなる法律も制定または執行してはならない」と規定している。\n• 最高裁判所は、この条項を_非常に狭く_解釈し、以下の者のみを保護するとした：**(1) *合衆国市民***（非市民や法人には適用されない）、**(2)** ***州の行為または法律***から、**(3)** ***国民的市民権の権利***に関して、例えば：(i) **州間移動**の権利（市民が新たな居住州においてその州の他の市民と同等に扱われる権利を含む）；(ii) **国政選挙**における投票権；および (iii) **議会に請願**するために連絡し、移動し、または組織する権利。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "合衆国憲法修正第14条の特権免除条項（Privileges and Immunities Clause）"
+  },
+  {
+    "id": 21,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "L. Other Protections",
+    "ruleTitle": "Contracts Clause",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• **Scope & Applicability**: The Contracts Clause of the U.S. Constitution provides that no State shall pass any law impairing the obligation of contracts, and it **restricts States with *existing* contractual agreements**.\n• **Interference with Private Contracts**: The Supreme Court has developed a multi-part test to determine if a state law violates the Contract Clause. A state law that **(1) *substantially impairs*** a contractual relationship is **unconstitutional**, UNLESS: **(2)** there is a ***significant and legitimate purpose*** for the law; **AND (3)** the law is ***reasonable and appropriate*** for its intended purpose.\n  ○ Element 1 – Substantial Impairment:\n    This is a threshold issue where the court must analyze: (i) whether there is a _contractual relationship_; (ii) whether a change in a law has _impaired_ that contractual relationship; and (iii) whether the impairment is _substantial_.\n    Typically, the first two items are unproblematic, and the court need only address whether “substantial impairment” exists. In answering that question, the court considers the extent to which the law undermines the contractual bargain, interferes with a party’s reasonable expectations, and prevents the party from safeguarding or reinstating their rights.\n    The Supreme Court has held that a state law **DOES substantially impair** the obligation of a private contract if it ***negates a contract term*** that **(a)** was ***important*** to the parties’ bargain, **OR (b) *substantially induced*** a party to enter into the agreement.\n    In contrast, **substantial impairment DOES NOT exist if**: **(a)** the law merely burdens an ***ancillary aspect*** of the contract; **(b)** it’s a ***heavily regulated industry*** by the State (as future regulation that impacts a party’s contracts in that industry is foreseeable); **(c)** it merely ***tracks the contracting parties’ likely intent or expectation***; **OR (d)** it allows a contracting party to ***easily override the law***. For example, the Supreme Court found that a law which voided an ex-spouse as a life-insurance beneficiary _did not_ substantially impair a life insurance contract since the policy holder could have re-designated the former spouse as a beneficiary after divorce.\n  ○ Elements 2 & 3 – Means-End Balancing Test:\n    If a state’s law substantially impairs a contract, then courts apply a **means-end balancing test** to determine if the law is constitutional, which asks whether the state law is ***appropriate and reasonable*** to advance a ***significant and legitimate public purpose***.\n    When the challenged law only impairs private contracts (and not public contracts – those where the state is a party), **courts MUST give *substantial deference* to the State's conclusion that its approach reasonably promotes the public purposes** for which it was enacted. As such, States typically can infringe upon private contractual rights when they do so in the public interest.\n    The Supreme Court has found a significant and legitimate public purpose in the following instances: (i) a law that imposed a temporary moratorium on mortgage payments to protect homeowners from the economic devastation brought on by the Great Depression; and (ii) a law that protected consumers from escalation of gas prices due to deregulation of the gas industry.\n    In contrast, the Supreme Court found that a State DID NOT have a sufficient public purpose to support a law that substantially increased an employer’s contractual obligation to fund employee pensions. In that case, the Court noted three hallmarks that led to invalidation of the law: (i) the law did not address a general societal problem, but instead targeted specific conduct by a set of private actors; (ii) the state law targeted only a small and narrow number of businesses, not all businesses in the given category regulated; and (iii) the law was not a temporary measure limited to the duration of a crisis.\n    It’s important to note, that the Supreme Court has indicated that the public purpose NEED NOT be for an emergency or temporary situation.\n• **Interference with Public Contracts**: For public contracts (when the state or local government is a party to the agreement), the test used is similar to private contracts, BUT **a *heightened standard* of scrutiny is used**.\n  ○ The Supreme Court has _not_ articulated the exact level of scrutiny to be used for public contracts, but the court has stated that when the State is a party to the contract, **complete deference to a legislative assessment of reasonableness and necessity is NOT appropriate** (for means-end balancing) because the State’s self-interest is at stake.\n• **Exceptions to Contract Clause:**\n  ○ **Federal Government**: The Contracts Clause DOES NOT apply to the Federal Government.\n  ○ **Future Contracts**: The Contracts Clause DOES NOT apply to laws that regulate _future_ contracts. It only applies to contracts _existing_ at the time the law is enacted.\n  ○ **Judicial Decisions**: The Contracts Clause DOES NOT apply to judicial decisions. It only applies to legislative action (laws or regulations that are enacted).\n  ○ **Police Power**: The Contracts Clause DOES NOT trump the police power of a State to protect the general welfare of its citizens. Specifically, it does not prevent a State from exercising its police power to protect the lives, health, morals, comfort, and general welfare of the people, even though contracts previously entered into may be affected.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 3"
+    ],
+    "translation": "• **範囲と適用可能性**：合衆国憲法の契約条項（Contracts Clause）は、いかなる州も契約の義務を侵害する法律を制定してはならないと規定しており、**既存の契約上の合意を有する州を制限する**。\n• **私的契約への干渉**：最高裁判所は、州法が契約条項（Contracts Clause）に違反するかどうかを判断するために、多段階のテストを開発した。**(1) *実質的に契約関係を侵害する***州法は**違憲**である。ただし、以下の場合は除く：**(2)** その法律に***重要かつ正当な目的（Significant and Legitimate Purpose）***がある場合；**かつ (3)** その法律が意図された目的に対して***合理的かつ適切（Reasonable and Appropriate）***である場合。\n  ○ 要素1 – 実質的な侵害：\n    これは、裁判所が以下の点を分析しなければならない閾値の問題である：(i) _契約関係_が存在するかどうか；(ii) 法律の変更がその契約関係を_侵害した_かどうか；および (iii) その侵害が_実質的_であるかどうか。\n    通常、最初の2つの項目は問題がなく、裁判所は「実質的な侵害」が存在するかどうかのみを検討すればよい。その問いに答えるにあたり、裁判所は、法律が契約上の合意をどの程度損ない、当事者の合理的な期待を妨げ、当事者がその権利を保護または回復するのを妨げるかを考慮する。\n    最高裁判所は、州法が、**(a)** 当事者の合意にとって***重要***であった、**または (b) 当事者を合意に***実質的に誘引***した、契約条項（Contracts Clause）を***無効にする***場合、私的契約の義務を**実質的に侵害する（Substantially Impairs）**と判示した。\n    対照的に、**実質的な侵害は以下の場合は存在しない**：**(a)** 法律が契約の***付随的な側面***を単に負担するに過ぎない場合；**(b)** それが州によって***厳しく規制されている産業***である場合（その産業における当事者の契約に影響を与える将来の規制は予見可能であるため）；**(c)** それが***契約当事者の可能性のある意図または期待***を単に追跡するに過ぎない場合；**または (d)** それが契約当事者に***法律を容易に覆す***ことを許容する場合。例えば、最高裁判所は、元配偶者を生命保険受取人から除外する法律は、保険契約者が離婚後に元配偶者を受取人として再指定できたため、生命保険契約を_実質的に侵害しない_と判断した。\n  ○ 要素2および3 – 目的手段均衡テスト（Means-End Balancing Test）：\n    州法が契約を実質的に侵害する（Substantially Impairs）場合、裁判所は、その州法が***重要かつ正当な公共目的***を推進するために***適切かつ合理的***であるかどうかを問う**目的手段均衡テスト（Means-End Balancing Test）**を適用し、その法律が合憲であるかを判断する。\n    争われている法律が私的契約のみを侵害する場合（州が当事者である公的契約ではない場合）、**裁判所は、その法律が制定された目的に対して州のアプローチが合理的に公共目的を促進するとの州の結論に***実質的な敬意***を払わなければならない**。したがって、州は公共の利益のために行動する場合、通常、私的契約上の権利を侵害することができる。\n    最高裁判所は、以下の事例において、重要かつ正当な公共目的を認めた：(i) 大恐慌によってもたらされた経済的破滅から住宅所有者を保護するために住宅ローン支払いに一時的な猶予を課した法律；および (ii) ガス産業の規制緩和によるガス価格の高騰から消費者を保護した法律。\n    対照的に、最高裁判所は、雇用主の従業員年金資金拠出義務を実質的に増加させる法律を支持するに足る十分な公共目的が州にはないと判断した。この事例において、裁判所は、その法律の無効化につながった3つの特徴を指摘した：(i) その法律は一般的な社会問題を扱っておらず、特定の私的行為者による特定の行為を対象としていた；(ii) その州法は、規制対象の特定のカテゴリー内のすべての事業ではなく、少数かつ限定された数の事業のみを対象としていた；および (iii) その法律は、危機の期間に限定された一時的な措置ではなかった。\n    最高裁判所は、公共目的が緊急または一時的な状況である必要はないと示唆していることに留意することが重要である。\n• **公的契約への干渉**：公的契約（州または地方政府が合意の当事者である場合）については、私的契約と同様のテストが用いられるが、**より*厳格な審査基準*が適用される**。\n  ○ 最高裁判所は、公的契約に用いられるべき審査の正確なレベルを_明確に示してはいない_が、州が契約の当事者である場合、州の自己利益が関わっているため、**立法府による合理性と必要性の評価への完全な敬意は適切ではない**（目的手段均衡のために）は払われないと述べている。\n• **契約条項（Contracts Clause）の例外**：\n  ○ **連邦政府**：契約条項（Contracts Clause）は連邦政府には適用されない。\n  ○ **将来の契約**：契約条項（Contracts Clause）は_将来の_契約を規制する法律には適用されない。それは、法律が制定された時点で_既存の_契約にのみ適用される。\n  ○ **司法判断**：契約条項（Contracts Clause）は司法判断には適用されない。それは立法行為（制定された法律または規制）にのみ適用される。\n  ○ **警察権（Police Power）**：契約条項（Contracts Clause）は、市民の一般福祉を保護するための州の警察権（Police Power）を凌駕しない。具体的には、たとえ以前に締結された契約が影響を受けるとしても、人々の生命、健康、道徳、快適さ、および一般福祉を保護するために州が警察権（Police Power）を行使することを妨げない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "契約条項（Contracts Clause）"
+  },
+  {
+    "id": 22,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "M. Freedom of Religion",
+    "ruleTitle": "Freedom of Religion: Establishment Clause",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• The Establishment Clause in the 1st Amendment is applicable to the federal government, as well as States and local governments (through incorporation in the 14th Amendment). The Establishment Clause **prohibits the government from *establishing* a religion or *endorsing/supporting* religion**.\n• Laws that **discriminate** against a religion MUST satisfy **strict scrutiny** (the **government** must show that the law is ***narrowly tailored*** to achieve a ***compelling government interest***, and that the ***least restrictive means*** was used).\n• When a law or policy is **facially neutral** (it _does not_ discriminate against a particular type of religion), then a 1st Amendment violation occurs when ***“historical practices and understandings\" of the Establishment Clause are violated***. The Supreme Court has said that ***coercion*** (to support or participate in religious activity) is one of the historical hallmarks to be prohibited under the 1st Amendment. Note: In _Kennedy v. Bremerton_ (2022), the Supreme Court officially abandoned the _Lemon_ test.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 修正第1条の設立条項は、連邦政府、ならびに州および地方政府（修正第14条による組み込みを通じて）に適用される。設立条項は**政府が宗教を*確立*したり、宗教を*支持/支援*したりすることを禁止する**。\n• 宗教を**差別する**法は、**厳格審査（Strict Scrutiny）**を満たさなければならない（**政府**は、当該法が***やむにやまれぬ政府の利益（Compelling Government Interest）***を達成するために***厳密に調整されており（Narrowly Tailored）***、かつ***最も制限的でない手段（Least Restrictive Means）***が用いられたことを示さなければならない）。\n• 法または政策が**文面上中立**である（特定の種類の宗教を_差別しない_）場合、修正第1条違反は「***「歴史的慣行および理解（Historical Practices and Understandings）が設立条項に違反した」***ときに発生する。最高裁判所は、***強制（Coercion）***（宗教活動の支援または参加）が修正第1条の下で禁止されるべき歴史的特徴の一つであると述べている。注：_Kennedy v. Bremerton_（2022年）において、最高裁判所は_Lemon_テストを公式に放棄した。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "信教の自由：設立条項（Establishment Clause）"
+  },
+  {
+    "id": 23,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "M. Freedom of Religion",
+    "ruleTitle": "Freedom of Religion: Free Exercise Clause",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• The Free Exercise Clause in the 1st Amendment is applicable to the federal government, as well as States and local governments (through incorporation in the 14th Amendment). The Free Exercise Clause **prohibits the government from interfering with the exercise of religion**.\n• Laws designed to interfere with religion must meet **strict scrutiny** (the **government** must show that the law is ***narrowly tailored*** to achieve a ***compelling government interest***, and that the ***least restrictive means*** was used). Religious beliefs are protected if they are genuine, sincere, and hold a place in one’s life similar to a traditional religion.\n• HOWEVER, laws of general applicability that cause unintentional burdens on religion ARE CONSTITUTIONAL and ***do not*** offend the Free Exercise Clause (i.e. prohibiting illegal drug use or human/animal sacrifice).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 修正第1条の自由行使条項は、連邦政府、ならびに州および地方政府（修正第14条による組み込みを通じて）に適用される。自由行使条項は**政府が宗教の行使を妨害することを禁止する**。\n• 宗教を妨害するよう意図された法は**厳格審査（Strict Scrutiny）**を満たさなければならない（**政府**は、当該法が***やむにやまれぬ政府の利益（Compelling Government Interest）***を達成するために***厳密に調整されており（Narrowly Tailored）***、かつ***最も制限的でない手段（Least Restrictive Means）***が用いられたことを示さなければならない）。宗教的信念は、それが真正かつ誠実であり、伝統的な宗教と同様に個人の生活において位置を占める場合に保護される。\n• しかしながら、宗教に意図せぬ負担をもたらす一般適用法（Neutral and Generally Applicable Law）は**合憲**であり、自由行使条項に***違反しない***（例：違法薬物の使用や人身/動物の生贄の禁止）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "信教の自由：自由行使条項（Free Exercise Clause）"
+  },
+  {
+    "id": 24,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Content-Based vs. Content-Neutral",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• The 1st Amendment protects the right to ***freedom of speech*** and ***expressive activities that constitute speech***, and is applicable to the federal government and state/ local governments (by incorporation through the 14th Amendment). The right to anonymous speech and the right not to speak is included within the 1st Amendment protections. However, conduct that has ***no communicative value*** DOES NOT fall within the protection of the 1st Amendment, and thus can be regulated.\n• **Content-Based Restrictions**: Government regulations regarding the **content** of protected speech must satisfy **strict scrutiny**. A law is **content-based** if it applies to particular speech because of ***subject matter or viewpoint*** (the topic discussed or the idea or message expressed). The Supreme Court has explained that a law may be deemed content-based in two ways: (a) the law facially regulates speech based on the subject matter, topic, or idea discussed; OR (b) there is evidence that an impermissible purpose or justification underpins a facially content-neutral restriction.\n  ○ Under strict scrutiny, the **government** must show: **(1)** that the regulation is ***narrowly tailored*** to achieve a ***compelling*** government interest; **AND (2)** it ***used the least restrictive means*** to accomplish its purpose. Traffic safety has _not_ been held by the Supreme Court as of yet to be a compelling government interest.\n• **Content-Neutral Restrictions**: Generally, the government MAY regulate the time, place, and manner of **content-neutral speech** if the regulation satisfies **intermediate scrutiny**.\n  ○ Under intermediate scrutiny, the **government** must show that the regulation: **(1)** is ***narrowly tailored*** to achieve a ***significant*** government interest; **AND (2) *leaves open alternative channels*** of communication. The regulation DOES NOT need to be the least restrictive means, and the narrowly tailored element is satisfied if the law/ regulation promotes a substantial government interest that would be achieved less effectively absent the regulation. Aesthetic preservation and traffic safety have been deemed to be substantial government interests.",
+    "meeTips": [
+      "**Checklist of When to Use Each Freedom of Speech Rule**\n\nTo best prepare you for an essay question we have put together a checklist of when to apply certain Free Speech rules on the MEE. Note, we wanted each rule to be complete and free standing when applying the same to an essay question, so you may see some repetitive statements in each rule as many of the freedom of speech concepts are interrelated.\n\n**Issue #1: Is the class of speech *unprotected* or subject to *limited protection*?**\n  ○ See the following rules:\n    ▪ Unprotected Speech: Obscenity\n    ▪ Unprotected Speech: Incitement of Imminent Lawless Action\n    ▪ Unprotected Speech: Fighting Words\n    ▪ Freedom of Speech: Regulation of Commercial Speech\n\n**Issue #2: Is the government regulating *speech generally* or regulating speech in a *public space*?**\n  ○ See the following rules:\n    ▪ Freedom of Speech: Content-Based vs. Content-Neutral Restrictions\n    ▪ Freedom of Speech: Regulation of Expressive Conduct\n    ▪ Freedom of Speech: Vague & Overbroad Laws\n    ▪ Freedom of Speech: Public Forum, Limited Public Forum, & Non-Public Forum\n  ○ When to use each rule:\n    ▪ If the regulation DOES NOT involve restricting speech in a public space (public forum, limited public forum, non-public forum), then apply the general rule of \"Freedom of Speech: Content-Based vs. Content-Neutral Restrictions\".\n    ▪ If the regulation DOES involve restricting speech in a public space, then apply the \"Freedom of Speech: Public Forum, Limited Public Forum, & Non-Public Forum\" rule.\n    ▪ If the regulation regulates expressive conduct, then apply the \"Freedom of Speech: Regulation of Expressive Conduct\" rule.\n    ▪ If a law restricts protected speech, apply the \"Freedom of Speech: Vague & Overbroad Laws\" rule.\n\n**Issue #3: Is a regulation/law stopping speech before it occurs (a prior restraint)?**\n  ○ See the following rules:\n    ▪ Freedom of Speech: Prior Restraint\n\n**Issue #4: Does the fact pattern involve public school students or government employees?**\n  ○ See the following rules:\n    ▪ Freedom of Speech: Public School Students\n    ▪ Freedom of Speech: Government Employees"
+    ],
+    "examHistory": [
+      "Feb 2025, Essay 2",
+      "Oct 2020, Essay 5"
+    ],
+    "translation": "• 修正第1条は、***言論の自由***および***言論を構成する表現活動***の権利を保護し、連邦政府および州/地方政府（修正第14条を通じて組み込まれることにより）に適用される。匿名言論の権利および発言しない権利は、修正第1条の保護に含まれる。しかしながら、***伝達的価値のない（No Communicative Value）***行為は、修正第1条の保護の範囲に**含まれない**ため、規制され得る。\n• **内容に基づく規制（Content-Based Restriction）**：保護された言論の**内容**に関する政府の規制は、**厳格審査（Strict Scrutiny）**を満たさなければならない。法は、***主題または視点（Subject Matter or Viewpoint）***（議論されるトピックまたは表現される思想やメッセージ）のために特定の言論に適用される場合、**内容に基づく**ものとなる。最高裁判所は、法が2つの方法で内容に基づくものと見なされ得ると説明している。(a)当該法が文面上、議論される主題、トピック、または思想に基づいて言論を規制する場合、または(b)文面上内容中立な規制（Content-Neutral Restriction）の根底に許容されない目的または正当化があるという証拠がある場合。\n  ○ 厳格審査（Strict Scrutiny）の下では、**政府**は以下を示さなければならない：**(1)**当該規制が***やむにやまれぬ***政府の利益を達成するために***厳密に調整されており（Narrowly Tailored）***、**かつ(2)**それが***最も制限的でない手段（Least Restrictive Means）を用いた***こと。交通安全は、最高裁判所によって現時点ではやむにやまれぬ政府の利益（Compelling Government Interest）とは_認められていない_。\n• **内容中立な規制（Content-Neutral Restriction）**：一般的に、政府は、規制が**中間審査（Intermediate Scrutiny）**を満たす場合、**内容中立な言論**の時間、場所、および方法を規制し得る。\n  ○ 中間審査（Intermediate Scrutiny）の下では、**政府**は当該規制が：**(1)*****重要な***政府の利益を達成するために***厳密に調整されており（Narrowly Tailored）***、**かつ(2)**コミュニケーションの***代替手段を残している（Leaves Open Alternative Channels）***ことを示さなければならない。当該規制は最も制限的でない手段（Least Restrictive Means）である必要は**なく**、厳密に調整されている（Narrowly Tailored）という要素は、当該法/規制が、規制がなければ効果的に達成されないであろう実質的な政府の利益（Substantial Government Interest）を促進する場合に満たされる。景観の保全および交通安全は、実質的な政府の利益（Substantial Government Interest）と見なされている。",
+    "meeTipTranslation": "**各言論の自由のルールの適用時期チェックリスト**\n\n論文問題の対策として、MEEにおける言論の自由の各ルールをいつ適用するかのチェックリストをまとめた。なお、各ルールは論文問題に適用する際に完結して独立したものとなるよう意図しているため、言論の自由の概念は相互に関連していることから、各ルールに重複する記述が見られることがある。\n\n**論点#1：その言論のカテゴリーは*保護されない*か、または*限定的な保護*の対象か？**\n  ○ 以下のルールを参照：\n    ▪ 保護されない言論：わいせつ表現\n    ▪ 保護されない言論：切迫した無法行為の煽動\n    ▪ 保護されない言論：喧嘩言葉（Fighting Words）\n    ▪ 言論の自由：商業的言論の規制\n\n**論点#2：政府は*言論一般*を規制しているか、それとも*公共の場*における言論を規制しているか？**\n  ○ 以下のルールを参照：\n    ▪ 言論の自由：内容に基づく規制（Content-Based Restriction）対内容中立な規制（Content-Neutral Restriction）\n    ▪ 言論の自由：表現行為（Expressive Conduct）の規制\n    ▪ 言論の自由：曖昧かつ広範な法\n    ▪ 言論の自由：公共フォーラム（Public Forum）、限定公共フォーラム（Limited Public Forum）、および非公共フォーラム（Non-Public Forum）\n  ○ 各ルールの適用時期：\n    ▪ 規制が公共の場（公共フォーラム（Public Forum）、限定公共フォーラム（Limited Public Forum）、非公共フォーラム（Non-Public Forum））での言論の制限を**伴わない**場合、「言論の自由：内容に基づく規制（Content-Based Restriction）対内容中立な規制（Content-Neutral Restriction）」の一般原則を適用する。\n    ▪ 規制が公共の場での言論の制限を**伴う**場合、「言論の自由：公共フォーラム（Public Forum）、限定公共フォーラム（Limited Public Forum）、および非公共フォーラム（Non-Public Forum）」の原則を適用する。\n    ▪ 規制が表現行為（Expressive Conduct）を規制する場合、「言論の自由：表現行為（Expressive Conduct）の規制」の原則を適用する。\n    ▪ 法が保護された言論を制限する場合、「言論の自由：曖昧かつ広範な法」の原則を適用する。\n\n**論点#3：規制または法が言論を発生前に停止させるものか（事前抑制（Prior Restraint））？**\n  ○ 以下のルールを参照：\n    ▪ 言論の自由：事前抑制（Prior Restraint）\n\n**論点#4：その事実関係は公立学校の生徒または政府職員に関わるか？**\n  ○ 以下のルールを参照：\n    ▪ 言論の自由：公立学校の生徒\n    ▪ 言論の自由：政府職員",
+    "ruleTitleJa": "言論の自由：内容に基づく規制（Content-Based Restriction）と内容中立の規制"
+  },
+  {
+    "id": 25,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Public Forum, Limited Public Forum, & Non-Public Forum",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• The 1st Amendment protects the right to ***freedom of speech*** and ***expressive activities that constitute speech***, and is applicable to _both_ state/local governments (by incorporation through the 14th Amendment) and the federal government. However, conduct that has ***no communicative value*** (i.e. trespass) DOES NOT fall within the protection of the 1st Amendment, and thus can be regulated by the government.\n• The conduct of speech and assembly in public spaces CAN be regulated by the government in certain instances depending on the type of forum.\n• A **public forum** is one that has ***traditionally been available*** to the public for free speech (i.e. public sidewalks, parks, and streets).\n  ○ Content-Based Restrictions: The government **CANNOT** regulate speech in public forums ***based on content*** UNLESS it satisfies **strict scrutiny**. A law is **content-based** if it applies to particular speech because of ***subject matter or viewpoint*** (the topic discussed or the idea or message expressed). The Supreme Court has explained that a law may be deemed content-based in two ways: (a) the law facially regulates speech based on the subject matter, topic, or idea discussed; OR (b) there is evidence that an impermissible purpose or justification underpins a facially content-neutral restriction.\n    Under strict scrutiny, the ***government*** must show: **(1)** that the regulation is ***narrowly tailored*** to achieve a ***compelling*** government interest; **AND (2)** it ***used the least restrictive means*** to accomplish its purpose. Traffic safety has _not_ been held by the Supreme Court as of yet to be a compelling government interest.\n  ○ Content-Neutral Restrictions: However, the government MAY regulate the ***time, place, and manner*** of **content-neutral speech** in public forums if the regulation satisfies **intermediate scrutiny**.\n    Under intermediate scrutiny, the **government** must show the regulation: **(1)** is ***narrowly tailored*** to achieve a ***significant*** government interest; **AND (2) *leaves open alternative channels*** of communication. The regulation DOES NOT need to be the least restrictive means, and the narrowly tailored element is satisfied if the law/regulation promotes a substantial government interest that would be achieved less effectively absent the regulation. Aesthetic preservation and traffic safety have been deemed to be substantial government interests.\n  ○ The Supreme Court has held that a government interest in keeping streets clean and of good appearance is _insufficient_ when striking down an anti-leafletting ordinance that restricted speech. Thus, anti-littering laws that suppress speech are likely unconstitutional.\n• A **designated public forum** is one that has ***not traditionally been available*** to the public for free speech, but that the ***government chooses to make available*** (i.e. where a school makes classrooms available for club meetings). **Designated public forums are treated the same as public forums.** The government MAY remove the designation, in which the place would become a non-public forum.\n• **Limited public forums** are non-public forums that have been specifically designated by the government as open to certain groups or topics (i.e. municipal meeting rooms). Limited public forums are treated the same as non-public forums.\n• **Non-public forums** are other public places that have ***traditionally been limited*** for free speech (i.e. schools, military bases, jails, inside of courthouses, and airports). The government may regulate speech in non-public forums if the regulation is: **(1) *reasonable***; **AND (2) *viewpoint neutral***.\n• **Private property**: Generally, a person DOES NOT have the right to access another’s private property (i.e. a shopping center) to deliver the speech or expressive conduct.\n• Religious Speech & Public Forums:\n  ○ If a school opens itself as a limited public forum, then it CANNOT deny access based upon the religious content of speech (i.e. a religious club). The Supreme Court has held that in a public forum, religious speech is treated equal to non-religious speech, and content-neutral access rules _do not_ violate the Establishment Clause.\n• Licensing Requirements:\n  ○ Licensing requirements are permitted if: **(1)** the government has an ***important reason*** for licensing; **(2) *specific, articulated standards*** are used to grant the licenses to remove discretion of the licensing body; **AND (3) *procedural safeguards*** are in place, including assuring a prompt final judicial decision when a license is denied.",
+    "meeTips": [
+      "Depending on the essay question, apply the rule(s) for the type of forum at issue.",
+      "Apply the Religious Speech & Public Forums rule if the fact pattern concerns limiting _religious_ speech in a public forum.",
+      "Apply the Licensing Requirements rule if the essay concerns licensing requirements (or similar restrictions) that limit free speech in public spaces."
+    ],
+    "examHistory": [
+      "Feb 2025, Essay 2",
+      "Feb 2013, Essay 3",
+      "July 2010, Essay 4"
+    ],
+    "translation": "• 合衆国憲法修正第1条は、***言論の自由***および***言論を構成する表現活動***の権利を保護し、修正第14条による取り込みにより州政府および地方政府の_双方_、ならびに連邦政府に適用される。しかし、***伝達的価値のない（No Communicative Value）***行為（すなわち不法侵入）は修正第1条の保護範囲には含まれず、したがって政府によって規制され得る。\n• 公共空間における言論および集会の行為は、フォーラムの種類に応じて、特定の状況において政府によって規制され得る。\n• **公共フォーラム（Public Forum）**とは、***伝統的に***言論の自由のために一般に利用可能であった場所（すなわち公共の歩道、公園、道路）である。\n  ○ 内容に基づく規制（Content-Based Restriction）：政府は、**厳格審査（Strict Scrutiny）**を満たさない限り、公共フォーラム（Public Forum）における言論を***内容に基づいて***規制することは**できない**。法律が**内容に基づく**とは、***主題または視点（Subject Matter or Viewpoint）***（議論されるトピックまたは表現されるアイデアやメッセージ）のために特定の言論に適用される場合をいう。最高裁判所は、法律が内容に基づくものと見なされる二つの方法を説明している。(a) 法律が主題、トピック、または議論されるアイデアに基づいて文面上言論を規制する場合、または (b) 文面上内容中立的な規制（Content-Neutral Restriction）の根底に許容されない目的または正当化がある証拠がある場合である。\n    厳格審査（Strict Scrutiny）の下では、***政府***は、**(1)** その規制が***強制的な***政府の利益を達成するために***厳密に調整されている（Narrowly Tailored）***こと、**かつ (2)** その目的を達成するために***最も制限的でない手段（Least Restrictive Means）を用いた***ことを示さなければならない。交通安全は、最高裁判所によって現時点ではやむにやまれぬ政府の利益（Compelling Government Interest）とは認められていない。\n  ○ 内容中立的な規制（Content-Neutral Restriction）：しかし、政府は、規制が**中間審査（Intermediate Scrutiny）**を満たす場合、公共フォーラム（Public Forum）における**内容中立的な言論**の***時間、場所、および方法***を規制することができる。\n    中間審査（Intermediate Scrutiny）の下では、**政府**は、規制が**(1)** ***重要な***政府の利益を達成するために***厳密に調整されている（Narrowly Tailored）***こと、**かつ (2)** コミュニケーションの***代替手段を残している（Leaves Open Alternative Channels）***ことを示さなければならない。規制は最も制限的でない手段（Least Restrictive Means）である必要はなく、厳密に調整されている（Narrowly Tailored）という要素は、法律/規制が、規制がなければ効果が低下するような実質的な政府の利益（Substantial Government Interest）を促進する場合に満たされる。美観の維持および交通安全は、実質的な政府の利益（Substantial Government Interest）と見なされている。\n  ○ 最高裁判所は、言論を制限するチラシ配布禁止条例を無効にする際、道路を清潔で良好な外観に保つという政府の利益は_不十分_であると判断した。したがって、言論を抑圧するポイ捨て禁止法は違憲である可能性が高い。\n• **指定公共フォーラム（Designated Public Forum）**とは、***伝統的に***言論の自由のために一般に利用可能ではなかったが、***政府が利用可能にすることを選択した***場所（すなわち学校が教室をクラブ活動のために利用可能にする場合）である。**指定公共フォーラム（Designated Public Forum）は公共フォーラム（Public Forum）と同様に扱われる。**政府はその指定を解除することができ、その場合、その場所は非公共フォーラム（Non-Public Forum）となる。\n• **限定公共フォーラム（Limited Public Forum）**とは、政府によって特定のグループまたはトピックに開放されると特別に指定された非公共フォーラム（すなわち市町村の会議室）である。限定公共フォーラム（Limited Public Forum）は非公共フォーラム（Non-Public Forum）と同様に扱われる。\n• **非公共フォーラム（Non-Public Forum）**とは、***伝統的に***言論の自由が制限されてきたその他の公共の場所（すなわち学校、軍事基地、刑務所、裁判所の内部、空港）である。政府は、規制が**(1) ***合理的***であり、**かつ (2) ***視点中立的（Viewpoint Neutral）***である場合、非公共フォーラム（Non-Public Forum）における言論を規制することができる。\n• **私有地**：一般に、個人は、言論または表現行為（Expressive Conduct）を行うために他者の私有地（すなわちショッピングセンター）にアクセスする権利を**持たない**。\n• 宗教的言論と公共フォーラム（Public Forum）：\n  ○ 学校が自らを限定公共フォーラム（Limited Public Forum）として開放する場合、言論の宗教的内容に基づいてアクセスを拒否することは**できない**（すなわち宗教クラブ）。最高裁判所は、公共フォーラム（Public Forum）において、宗教的言論は非宗教的言論と平等に扱われ、内容中立的なアクセス規則は政教分離条項（Establishment Clause）に_違反しない_と判断している。\n• 許認可要件：\n  ○ 許認可要件は、**(1)** 政府が許認可を行う***重要な理由（Important Reason）***を有すること、**(2)** 許認可機関の裁量を排除するために***特定の、明確に述べられた基準（Specific and Articulated Standards）***が許認可の付与に用いられること、**かつ (3)** 許認可が拒否された場合に迅速な最終司法判断を保証することを含む***手続き上の保護措置***が講じられている場合に許可される。",
+    "meeTipTranslation": "論文問題によって、争点となっているフォーラムの種類に応じたルールを適用すること。\n事実関係が公共フォーラム（Public Forum）での_宗教的_言論の制限に関するものであれば、宗教的言論と公共フォーラム（Public Forum）のルールを適用すること。\n論文がライセンス要件（または同様の制限）が公共の場における言論の自由を制限することに関するものであれば、ライセンス要件のルールを適用すること。",
+    "ruleTitleJa": "言論の自由：公共フォーラム（Public Forum）、限定公共フォーラム（Limited Public Forum）、および非公共フォーラム（Non-Public Forum）"
+  },
+  {
+    "id": 26,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Unprotected Speech: Fighting Words",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The freedom of speech is protected by the 1st Amendment of the U.S. Constitution. However, certain categories of speech are afforded NO protection under the Constitution. **The 1st Amendment DOES NOT protect fighting words or true threats**. Fighting words are words, which by their very utterance: (a) ***inflict injury***; OR (b) ***tend to incite an immediate breach of the peace***. Thus, such words must be likely to cause a violent reaction from others.\n• A defendant CANNOT be convicted under a law that is ***deemed overbroad or vague*** (where the law applies to constitutionally protected speech), ***even if*** the speech falls within an unprotected category. Laws that punish ***merely offensive, rude, annoying, or abusive*** speech have been deemed UNCONSTITUTIONAL as overbroad or vague because such laws reach protected speech. Commentary on matters of public concern are afforded greater 1st Amendment protection, and even extend to vehement, caustic, and unpleasant sharp attacks on government and public officials.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2009, Essay 2"
+    ],
+    "translation": "• 言論の自由は合衆国憲法修正第1条によって保護されている。しかし、特定のカテゴリーの言論は憲法上いかなる保護も与えられていない。**修正第1条は喧嘩言葉（Fighting Words）または真の脅威を保護しない**。喧嘩言葉（Fighting Words）とは、それ自体が発せられることによって、(a) ***傷害を与える（Inflict Injury）***、または (b) ***即座の治安妨害を扇動する（Incite an Immediate Breach of the Peace）傾向がある***言葉である。したがって、そのような言葉は他者からの暴力的な反応を引き起こす可能性が高いものでなければならない。\n• 被告人は、言論が保護されないカテゴリーに該当する***場合であっても***、***過度に広範（Overbroad）または曖昧と見なされる***（法律が憲法上保護された言論に適用される）法律の下で有罪判決を受けることは**できない**。***単に不快、無礼、迷惑、または侮辱的な***言論を罰する法律は、保護された言論に及ぶため、過度に広範（Overbroad）または曖昧として違憲と見なされてきた。公共の関心事（Matter of Public Concern）に関する論評は、修正第1条によるより大きな保護が与えられ、政府および公務員に対する激しい、辛辣な、不快な鋭い攻撃にさえ及ぶ。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "保護されない言論：喧嘩言葉（Fighting Words）"
+  },
+  {
+    "id": 27,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Unprotected Speech: Incitement of Imminent Lawless Action",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The freedom of speech is protected by the 1st Amendment of the U.S. Constitution. However, certain categories of speech are afforded NO protection under the Constitution.\n• **Speech which incites *imminent lawless action* is one type of unprotected speech.** Such speech may be outlawed if the speech: **(1) *advocates the use of force or illegality***; **(2)** directed to inciting or producing ***imminent lawless action*** (intent); **AND (3) *likely to incite or produce such action*** (there is a clear and present danger that the person listening will act on the speech).\n• A defendant CANNOT be convicted under a law that is ***deemed overbroad or vague*** (where the law applies to constitutionally protected speech), ***even if*** the speech falls within an unprotected category. Where a court has previously deemed a law applicable to ***only*** unprotected speech (i.e. imminent lawless action), then overbreadth/vagueness will ***not*** bar a conviction.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2009, Essay 2"
+    ],
+    "translation": "• 言論の自由は合衆国憲法修正第1条によって保護されている。しかし、特定のカテゴリーの言論は憲法上いかなる保護も与えられていない。\n• *****差し迫った違法行為（Imminent Lawless Action）***を扇動する言論は、保護されない言論の一種である。**そのような言論は、**(1) ***武力行使または違法行為を主張する（Advocates the Use of Force or Illegality）***、**(2)** ***差し迫った違法行為（Imminent Lawless Action）***を扇動または引き起こすことを意図している（意図）、**かつ (3)** ***そのような行為を扇動または引き起こす可能性が高い***（聞き手がその言論に基づいて行動する明白かつ現在の危険がある）場合に、違法とされ得る。\n• 被告人は、言論が保護されないカテゴリーに該当する***場合であっても***、***過度に広範（Overbroad）または曖昧と見なされる***（法律が憲法上保護された言論に適用される）法律の下で有罪判決を受けることは**できない**。裁判所が以前に、法律が***保護されない言論にのみ***（すなわち差し迫った違法行為（Imminent Lawless Action）に）適用されると判断した場合、過度な広範性/曖昧性は有罪判決を***妨げない***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "保護されない言論：差し迫った違法行為（Imminent Lawless Action）の扇動"
+  },
+  {
+    "id": 28,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Unprotected Speech: Obscenity",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• The freedom of speech is protected by the 1st Amendment of the U.S. Constitution. However, certain categories of speech are afforded NO protection under the Constitution.\n• **Obscenity is NOT protected under the 1st Amendment**, and therefore may be regulated. Material is obscene when: **(1)** it appeals to the ***prurient interest*** (i.e. sexual interest) of an average person applying today’s community standards; **(2)** it is ***patently offensive*** under the law prohibiting obscenity; **AND (3)** it ***lacks any serious artistic, literary, or scientific value*** based on a national standard.\n• The mere ***private possession*** of obscene material (except for child pornography) by an adult ***inside the home*** CANNOT be made criminal.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 言論の自由は合衆国憲法修正第1条によって保護されている。しかし、特定の種類の言論は憲法上いかなる保護も与えられない。\n• **わいせつ物は修正第1条の下では保護されず**、したがって規制され得る。資料がわいせつであるのは、以下の条件を満たす場合である：**(1)** それが今日の地域社会の基準を適用する平均的な人物の***わいせつな興味（Prurient Interest）***（すなわち性的興味）に訴えること；**(2)** わいせつを禁止する法律の下で***明白に不快（Patently Offensive）***であること；**かつ (3)** 全国的な基準に基づき***いかなる真剣な芸術的、文学的、または科学的価値も欠いている（Lacks Serious Artistic, Literary, or Scientific Value）***こと。\n• 成人によるわいせつ物（児童ポルノを除く）の***自宅内での***単なる***私的所持***は、犯罪とされ得ない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "保護されない言論：わいせつ"
+  },
+  {
+    "id": 29,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Regulation of Commercial Speech",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• The freedom of speech is protected by the 1st Amendment of the U.S. Constitution, as applied to the States through the 14th Amendment. However, commercial speech (i.e. advertisements) is given ***fewer protections*** under the 1st Amendment.\n• The government **MAY regulate truthful, non-misleading commercial speech** if the regulation: **(1) *directly advances***; **(2)** a ***substantial government interest***; **AND (3)** it is ***no more extensive than necessary*** (reasonably tailored) to serve that interest.\n• **False or misleading commercial speech is NOT protected**. The government may also prohibit professionals from advertising or practicing under a trade name.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 言論の自由は、修正第14条を通じて各州に適用される合衆国憲法修正第1条によって保護されている。しかし、商業的言論（すなわち広告）は修正第1条の下で***より少ない保護***しか与えられない。\n• 政府は、真実で誤解を招かない商業的言論を規制し得る。もしその規制が：**(1) *直接促進し（Directly Advances）***；**(2)** ***実質的な政府の利益（Substantial Government Interest）***を；**かつ (3)** その利益に資するために***必要以上に広範でない（No More Extensive Than Necessary）***（合理的に調整されている）場合である。\n• **虚偽または誤解を招く商業的言論は保護されない**。政府はまた、専門家が商号で広告したり業務を行ったりすることを禁止し得る。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "言論の自由：商業的言論の規制"
+  },
+  {
+    "id": 30,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Public School Students",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The Supreme Court has held that public school students DO NOT lose their 1st Amendment rights to freedom of speech when they step onto school property, BUT ***schools are given a greater latitude to regulate speech*** by a student or teacher.\n• In order to justify the suppression of speech, school officials MUST prove that the conduct in question would ***materially and substantially interfere with the operation of the school***. However, in certain instances the Supreme Court has held the above test is _not_ applicable. For instance, a student’s right to free speech DOES NOT extend to pro-drug messages.\n• Schools CANNOT force students to participate in a flag salute when it offends religious/political beliefs, and any punishment for failing to participate violates the 1st and 14th Amendments.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2013, Essay 3"
+    ],
+    "translation": "• 最高裁判所は、公立学校の生徒が学校敷地内に入ったからといって、修正第1条の言論の自由の権利を失うことはないと判示しているが、***学校は生徒または教師による言論を規制するためにより大きな裁量を与えられている***。\n• 言論の抑圧を正当化するためには、学校当局は、問題の行為が***学校の運営に重大かつ実質的な支障をきたす***ことを証明しなければならない。しかし、特定の事例において、最高裁判所は上記のテストが_適用されない_と判示している。例えば、生徒の言論の自由の権利は、薬物推進メッセージには及ばない。\n• 学校は、宗教的または政治的信念に反する場合、生徒に国旗敬礼への参加を強制することはできず、参加しなかったことに対するいかなる罰も修正第1条および第14条に違反する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "言論の自由：公立学校の生徒"
+  },
+  {
+    "id": 31,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Government Employees",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• For a government employee’s speech to be constitutionally protected under the 1st Amendment, an employee must have spoken: **(1) *as a citizen***; **AND (2)** on a ***matter of public concern***. An employee’s statements made pursuant to their official duties are NOT protected.\n• The Supreme Court has set forth a two-step inquiry to determine whether the speech of a government employee is constitutionally protected under the 1st Amendment:\n  ○ Step 1: Did the employee speak as a ***citizen on a matter of public concern***? If the answer is no, the employee has no 1st Amendment claim based on her employer’s reaction to the speech. If the answer is yes, then the possibility of a 1st Amendment claim arises.\n  ○ Step 2: If the possibility of a 1st Amendment claim arises, then the question becomes whether the relevant ***government entity had an adequate justification for treating the employee differently*** from any other member of the general public based on the government’s interests as an employer.\n• As to the “**citizen**” requirement, the Supreme Court has held that when public employees make statements pursuant to their official duties, the employees are _not_ speaking as citizens for 1st Amendment purposes, and the Constitution _does not_ insulate their communications from employer discipline. To fall within the realm of “**public concern**” an employee’s speech must ***relate to any matter of political, social, or other concern to the community***.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 公務員の言論が合衆国憲法修正第1条の下で憲法上保護されるためには、当該公務員は、**(1) ***市民として*** 発言し、**かつ** (2) ***公共の関心事（Matter of Public Concern）*** について発言した**ものでなければならない。職務遂行上なされた公務員の発言は保護されない。\n• 最高裁判所は、公務員の言論が合衆国憲法修正第1条の下で憲法上保護されるか否かを判断するために、二段階の審査基準を提示している。\n  ○ ステップ1：当該公務員は***公共の関心事（Matter of Public Concern）について市民として***発言したか？ 答えが「否」であれば、当該公務員は雇用主の当該言論に対する反応に基づく修正第1条上の請求権を有しない。答えが「是」であれば、修正第1条上の請求権の可能性が生じる。\n  ○ ステップ2：修正第1条上の請求権の可能性が生じる場合、問題は、雇用主としての政府の利益に基づき、***関連する政府機関が、雇用主としての政府の利益に基づき、当該公務員を一般市民の他の構成員と異なる扱いをするための十分な正当化事由を有していた***か否かとなる。\n• 「**市民**」要件に関して、最高裁判所は、公務員が職務遂行上発言を行う場合、当該公務員は修正第1条の目的上、市民として発言している_わけではなく_、憲法は彼らのコミュニケーションを雇用主による懲戒から_保護しない_と判示している。「**公共の関心事（Matter of Public Concern）**」の領域に該当するためには、公務員の言論は、***政治的、社会的、またはその他の共同体にとっての関心事のいずれかに関連***しなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "言論の自由：公務員"
+  },
+  {
+    "id": 32,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Regulation of Expressive Conduct",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Expressive conduct or symbolic speech (the expression of ideas through non-verbal actions) is treated the same as verbal speech.\n• See, the rules for “Freedom of Speech: Content-Based vs. Content-Neutral Restrictions” and “Freedom of Speech: Public Forum, Limited Public Forum, & Non-Public Forum”.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 表現行為（Expressive Conduct）または象徴的言論（非言語的行動による思想の表現）は、言語的言論と同様に扱われる。\n• 「言論の自由：内容に基づく規制（Content-Based Restriction）対内容中立的規制」および「言論の自由：公共フォーラム（Public Forum）、限定的公共フォーラム（Public Forum）、および非公共フォーラム（Non-Public Forum）」の規則を参照のこと。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "言論の自由：表現行為（Expressive Conduct）の規制"
+  },
+  {
+    "id": 33,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Prior Restraint",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Prior restraints on speech occur when the government attempts to prohibit speech _before it happens_ through a court order or licensing requirement. ***Prior restraints are generally disfavored and unconstitutional***, except in extremely limited circumstances (i.e. when national security is at stake). **Court Orders** preventing speech must satisfy ***strict scrutiny*** (compelling governmental interest, narrowly tailored, and least restrictive means).\n• Procedural Safeguards for Licensing are permitted if: **(1)** the government has an ***important reason*** for licensing; **(2) *specific, articulated standards*** are used to grant the licenses to remove discretion of the licensing body; **AND (3) *procedural safeguards*** are in place, including assuring prompt final judicial decision when a license is denied.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 言論に対する事前抑制（Prior Restraint）は、政府が裁判所命令または許認可要件を通じて、言論が_発生する前に_それを禁止しようとする場合に生じる。***事前抑制（Prior Restraint）は一般的に好まれず、違憲である***。ただし、極めて限定的な状況（すなわち、国家安全保障が危機に瀕している場合）を除く。言論を妨げる**裁判所命令**は、***厳格審査（Strict Scrutiny）***（やむにやまれぬ政府の利益（Compelling Government Interest）、厳密な適合性、および最も制限的でない手段（Least Restrictive Means））を満たさなければならない。\n• 許認可のための手続的保障（Procedural Safeguards）は、以下の条件を満たす場合に許容される。**(1)** 政府が許認可を行う***重要な理由（Important Reason）***を有すること、**(2) *具体的かつ明確な基準（Specific and Articulated Standards）***が、許認可機関の裁量を排除するために許認可を付与する際に使用されること、**かつ (3) *手続的保障（Procedural Safeguards）***が整備されており、許認可が拒否された場合に迅速な最終司法判断を保証することを含む。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "言論の自由：事前抑制（Prior Restraint）"
+  },
+  {
+    "id": 34,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Vague & Overbroad Laws",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Laws that are unduly vague or overbroad are UNCONSTITUTIONAL because they apply to constitutionally protected speech. A statute is **unduly vague** if it does not put the public on ***reasonable notice*** as to what is prohibited. A statute is **overbroad** if it ***regulates more speech*** than is constitutionally permitted.\n• A defendant CANNOT be convicted under a law that is ***deemed overbroad or vague*** (where the law applies to constitutionally protected speech), ***even if*** the speech falls within an unprotected category. However, where a court has previously deemed a law applicable to ***only*** unprotected speech (i.e. imminent lawless action, fighting words), then any alleged overbreadth/vagueness will NOT bar a conviction.",
+    "meeTips": [
+      "Vagueness/overbreadth was a minor topic tested in the July 2009 MEE (Essay 2) which primarily tested incitement of imminent lawless action (in Point One) and fighting words (in Point Two)."
+    ],
+    "examHistory": [
+      "July 2009, Essay 2"
+    ],
+    "translation": "• 過度に曖昧（Unduly Vague）または広範な法律は、憲法上保護された言論に適用されるため、**違憲**である。ある法規が禁止されている内容について公衆に***合理的な告知（Reasonable Notice）***を与えない場合、それは**過度に曖昧（Unduly Vague）**である。ある法規が憲法上許容される以上の言論を***規制する***場合、それは**広範すぎる（Overbroad）**。\n• 被告は、***たとえ***その言論が保護されないカテゴリーに属する場合であっても、***広範すぎる（Overbroad）または曖昧であると見なされる***（その法律が憲法上保護された言論に適用される場合）法律の下で有罪判決を受けることはできない。しかし、裁判所が以前に、ある法律が***保護されない言論のみ***（すなわち、差し迫った違法行為（Imminent Lawless Action）、喧嘩言葉（Fighting Words））に適用されると見なした場合、申し立てられた広範性/曖昧性は有罪判決を妨げない。",
+    "meeTipTranslation": "曖昧さ・過度な広範性は、2009年7月MEE（論文2）で副次的なトピックとして出題された。同論文では主として、直前の違法行為の扇動（第1点）および喧嘩言葉（第2点）が試された。",
+    "ruleTitleJa": "言論の自由：曖昧かつ広範すぎる（Overbroad）法律"
+  },
+  {
+    "id": 35,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "N. Freedom of Speech",
+    "ruleTitle": "Freedom of Speech: Corporate & Union Political Expenditures",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Political speech is a _fundamental right_, to which Corporations and Unions are entitled. The Supreme Court has held that **Corporations and Unions have a right to engage in *political expenditures* under the 1st Amendment**. As such, the government CANNOT suppress political speech based on the speaker’s corporate identity. This applies to unions, forprofit corporations, and non-profit corporations.\n• Although the government cannot prohibit corporate political expenditures, the shareholders MAY regulate such expenditures through the procedures of “corporate democracy” (such as shareholder rights).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2020, Essay 2"
+    ],
+    "translation": "• 政治的言論は_基本的権利_であり、企業および労働組合に与えられる。最高裁判所は、**企業および労働組合は修正第1条の下で*政治的支出（Political Expenditures）*に従事する権利を有する**と判示している。そのため、政府は発言者の企業としての同一性に基づいて政治的言論を抑圧することはできない。これは労働組合、営利法人、および非営利法人に適用される。\n• 政府は企業の政治的支出（Political Expenditures）を禁止することはできないが、株主は「企業民主主義」（株主権など）の手続きを通じてかかる支出を規制することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "言論の自由：企業および労働組合の政治的支出（Political Expenditures）"
+  },
+  {
+    "id": 36,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "O. Freedom of the Press",
+    "ruleTitle": "Freedom of the Press: Defamation & Actual Malice Standard",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The elements required to prove a prima facie case of **defamation** are **(1)** a ***false defamatory statement*** (a statement that tends to harm the reputation of another), **(2) *of and concerning the plaintiff*** made by the defendant, **(3) *publication*** by the defendant to a third party, **AND (4) *damages***.\n• If the plaintiff is a **public official *or* public figure** (a person who injected themselves into a public controversy or having achieved widespread notoriety), then there is a heightened standard to prove defamation. This requires the plaintiff to prove **actual malice**: that the defendant spoke with either (a) ***recklessness*** as to the truth of the statement, _or_ (b) with ***knowledge of its falsity***. Proof of negligence is insufficient.\n• Private citizens are allowed more protection from defamatory statements than individuals in the public eye. If the plaintiff is a **private figure speaking about a matter of public concern**, the plaintiff must also prove that the ***speaker was negligent***.",
+    "meeTips": [
+      "If an essay question involves 1st Amendment implications concerning defamation, apply the applicable rule depending on the type of person involved (i.e. public or private figure)."
+    ],
+    "examHistory": [
+      "July 2008, Essay 2"
+    ],
+    "translation": "• **名誉毀損（Defamation）**の第一義的証拠を立証するために必要な要素は、**(1)** ***虚偽の名誉毀損（Defamation）的声明（False Defamatory Statement）***（他者の名誉を傷つける傾向のある声明）、**(2)** 被告によってなされた***原告に関する***声明、**(3)** 被告による第三者への***公表***、**および (4)** ***損害***である。\n• 原告が**公務員（Public Official）または公人（Public Figure）**（公衆の論争に自ら関与した者、または広く知られるようになった者）である場合、名誉毀損（Defamation）を立証するためのより高い基準が要求される。これは、原告が**現実の悪意（Actual Malice）**を立証することを要求する。すなわち、被告が(a)声明の真実性に対する***無謀な無視（Recklessness as to the Truth）***をもって、_または_ (b)その***虚偽性についての認識（Knowledge of Its Falsity）***をもって発言したことである。過失の立証では不十分である。\n• 私人は、公衆の目に触れる個人よりも名誉毀損（Defamation）的声明からのより多くの保護を許容される。原告が**公益に関する事柄について発言する私人**である場合、原告は***発言者が過失であった***ことも立証しなければならない。",
+    "meeTipTranslation": "名誉毀損（Defamation）に関する修正第1条の示唆を含む論文問題の場合、関与する人物の種類（すなわち、公人（Public Figure）または私人）に応じて適用される規則を適用すること。",
+    "ruleTitleJa": "出版の自由：名誉毀損（Defamation）と現実の悪意（Actual Malice）の基準"
+  },
+  {
+    "id": 37,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "O. Freedom of the Press",
+    "ruleTitle": "Freedom of the Press: Disclosure of Private Facts & Generally",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The 1st Amendment (as applied to state/local governments through the 14th Amendment) protects the press from liability when publishing: **(1) *truthful private facts***; **(2)** on a ***matter of public concern***; **(3)** where such information is ***legally obtained***; **AND (4)** there is ***no knowledge*** that any information was obtained illegally (if illegally obtained information was published). A photo taken in a public place is likely NOT a private fact.\n• The 1st Amendment DOES NOT protect the press from liability for violating ***generally applicable laws*** (not aimed at suppression of free speech), _even if_ such laws indirectly affect the ability to gather and report news on a matter of public concern.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2008, Essay 2"
+    ],
+    "translation": "• 修正第1条（修正第14条を通じて州政府および地方政府に適用される）は、報道機関が以下の情報を公表する際に、責任から保護するものである。**(1) ***真実の私的事実（Truthful Private Facts）***、**(2)** ***公共の関心事（Matter of Public Concern）***に関するものであり、**(3)** その情報が***合法的に取得された***ものであり、**かつ (4)** （違法に取得された情報が公表された場合でも）その情報が違法に取得されたという***知見がない***こと。公共の場所で撮影された写真は、私的事実ではない可能性が高い。\n• 修正第1条は、報道機関が***一般的に適用される法律***（言論の自由の抑圧を目的としないもの）に違反した場合の責任から保護するものではない。たとえそのような法律が、公共の関心事（Matter of Public Concern）に関するニュースを収集し報道する能力に間接的に影響を与えるとしても、保護しない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "出版の自由：私的事実の開示と一般的に"
+  },
+  {
+    "id": 38,
+    "subject": "CONSTITUTIONAL LAW",
+    "subjectNumber": "05",
+    "section": "P. Freedom of Association",
+    "ruleTitle": "Freedom of Association",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• The Supreme Court has held that the freedom of association is a ***fundamental right*** under the 1st Amendment (as applied to state/local governments through the 14th Amendment). Thus, the government may only regulate the right to freely associate in a group (including the group’s expressive activities or compel disclosure of group membership) if it satisfies **strict scrutiny**: The government must show that the regulation is **(1) *necessary*** to achieve a ***compelling government interest***; **AND (2)** that the ***least restrictive means*** was used).\n• **The government MAY punish a person’s membership** in a group if it proves that: **(1)** the group is ***actively engaged in illegal activity*** or incites imminent lawless action; **(2)** the person has ***knowledge*** of the group’s illegal activities; **AND (3)** the person has the ***specific intent*** of furthering those illegal activities.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 最高裁判所は、結社の自由（Freedom of Association）が修正第1条（修正第14条を通じて州政府および地方政府に適用される）に基づく***基本権（Fundamental Right）***であると判示している。したがって、政府は、集団内での自由に結社する権利（集団の表現活動を含む、または集団の構成員情報の開示を強制すること）を規制する場合、**厳格審査（Strict Scrutiny）**を満たす場合にのみ許される。すなわち、政府は、その規制が**(1) ***やむにやまれぬ政府の利益（Compelling Government Interest）***を達成するために***必要不可欠である***こと、**かつ (2)** ***最も制限的でない手段（Least Restrictive Means）***が用いられたことを示さなければならない。\n• **政府は、個人の集団への構成員資格を処罰することができる**。ただし、以下のことを証明した場合に限る。**(1)** その集団が***積極的に違法活動に従事している（Actively Engaged in Illegal Activity）***、または差し迫った不法行為を扇動していること、**(2)** その個人がその集団の違法活動を***知っている***こと、**かつ (3)** その個人がそれらの違法活動を助長する***特定の意図***を有していること。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "結社の自由（Freedom of Association）"
+  }
+]

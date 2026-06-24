@@ -1,0 +1,861 @@
+[
+  {
+    "id": 1,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "UCC Article 2 Governs Contracts for the Sale of Goods",
+    "priority": "HIGH",
+    "frequency": "12 of 40 Exams",
+    "body": "• Article 2 of the Uniform Commercial Code (UCC) governs all contracts for the ***sale of goods***. Goods are defined as ***all things that are movable*** at the time of identification to the contract (other than money/currency), including crops and the unborn young of animals. Under the UCC, Common Law principles continue to apply, unless the UCC specifically displaces them.\n• A contract for the sale of goods **may be made in any manner sufficient to show agreement**, including conduct by both parties which recognizes the existence of such a contract.",
+    "meeTips": [
+      "State this rule at the beginning of your essay answer for any question concerning a sale of goods contract."
+    ],
+    "examHistory": [
+      "July 2024, Essay 4",
+      "Feb 2024, Essay 2",
+      "Feb 2022, Essay 6",
+      "Feb 2021, Essay 6",
+      "Sept 2020, Essay 6",
+      "July 2018, Essay 2",
+      "Feb 2017, Essay 1",
+      "July 2015, Essay 3",
+      "July 2014, Essay 2",
+      "July 2013, Essay 7",
+      "Feb 2013, Essay 2",
+      "July 2010, Essay 2"
+    ],
+    "translation": "• 統一商事法典（UCC）第2編は、***物品の売買***に関する全ての契約を規律する。物品とは、契約に特定される時点で***動産である全ての物***（金銭／通貨を除く）と定義され、これには農作物や動物の胎児が含まれる。UCCの下では、UCCが明示的にそれらを排除しない限り、コモンローの原則が引き続き適用される。\n• 物品売買契約は、かかる契約の存在を認識する両当事者の行為を含め、**合意を示すに足るいかなる方法によっても締結され得る**。",
+    "meeTipTranslation": "物品の売買契約に関する論文問題では、まず冒頭にこのルールを述べること。",
+    "ruleTitleJa": "統一商事法典第2編は物品売買契約を規律する"
+  },
+  {
+    "id": 2,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Applicable Law: UCC Article 2 vs. Common Law",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Article 2 of the **Uniform Commercial Code (UCC)** governs all contracts for the ***sale of goods*** (goods are _all things that are movable_ at the time of identification to the contract, other than money/currency). The **Common Law** governs all other contracts (i.e. service or construction contracts).\n• For **mixed contracts**, the ***predominant purpose*** of the contract determines which law governs. If the predominant purpose is the sale of goods, the UCC will apply. If the predominant purpose of the contract is for services, the common law will apply. In some states, when a contract divides payment between services and goods, the UCC is applied to the goods section and the common law is applied to the services section.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2020, Essay 1",
+      "Feb 2018, Essay 3"
+    ],
+    "translation": "• **統一商事法典（UCC）**第2編は、***物品の売買***に関する全ての契約を規律する（物品とは、契約に特定される時点で_動産である全ての物_であり、金銭／通貨を除く）。**コモンロー**は、その他の全ての契約（すなわち、役務契約または建設契約）を規律する。\n• **混合契約**の場合、契約の***主要な目的***が適用される法を決定する。主要な目的が物品の売買である場合、UCCが適用される。契約の主要な目的が役務である場合、コモンローが適用される。一部の州では、契約が役務と物品の間で支払いを分割する場合、物品部分にはUCCが適用され、役務部分にはコモンローが適用される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "準拠法：統一商事法典第2編対コモン・ロー"
+  },
+  {
+    "id": 3,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Mutual Assent: Offer & Acceptance",
+    "priority": "HIGH",
+    "frequency": "5 of 40 Exams",
+    "body": "• **Mutual assent** to enter into a contract requires: **(1)** an ***offer*** by one party; **AND (2) *acceptance*** of that offer by the other party.\n  ○ An **offer** is **(1)** a _manifestation of present intent to contract_ by one party, **(2)** with _definite and reasonably certain terms_, **(3)** that is _communicated_ to an identified offeree.\n  ○ **Acceptance** is a ***manifestation of assent*** to the terms of the offer, which indicates a commitment to be bound. Silence generally DOES NOT manifest acceptance, but performance may be adequate. For **bilateral contracts**, the ***start of performance*** manifests acceptance. For **unilateral contracts**, the start of performance only makes an offer irrevocable, and the offer is accepted ***only*** when ***performance is complete***.\n• **Offers can be terminated** before acceptance by: **(a) *revocation*** by the offeror; **(b) *rejection*** or counter-offer by the offeree; **(c) *lapse of time*** – the time for acceptance expires after the _time limit stated_ or a _reasonable time_ (if no time limit was stated); **(d) *death or incapacity*** of either party; **OR (e) *supervening illegality*** – when the proposed contract becomes illegal after the offer is made.\n• Most **offers may be revoked** at any time ***before acceptance*** through ***unambiguous words or conduct*** by the offeror ***to the offeree*** indicating an unwillingness or inability to contract. A revocation of an offer is ***effective when received***. An offer can also be **terminated when communicated indirectly** – when **(1)** the offeror takes definite action inconsistent with an intention to enter into the proposed contract; AND **(2)** the offeree acquires reliable information to that effect.\n• However, some offers are ***irrevocable*** including: **(1) Option contracts** (when consideration is given for a promise to keep an offer open); **(2)** a **Merchant’s firm offer**; **(3)** Offers that were **relied on to the offeree’s detriment** (commonly called Detrimental Reliance or Promissory Estoppel), which occurs when (i) a party reasonably and substantially relied to their detriment on the promise of the other party, (ii) the promisor should have reasonably expected a change in position in reliance of the promise, and (iii) enforcement of the promise is necessary to avoid injustice; **AND (4)** the **start of performance on a unilateral contract**, which makes the offer irrevocable for a reasonable time to complete performance (mere preparation is insufficient).\n  ○ A Merchant’s Firm Offer is: **(1) *an offer*** to buy or sell goods; **(2) *by a merchant*** (a person who deals in goods of the kind); **(3)** in a ***signed writing***; **(4)** which ***states that the offer will be held open and is not revocable*** during the time stated (or if no time is stated for a reasonable time), but not to exceed three months; **AND (5)** that the assurance to keep the offer open must be ***separately signed by the offeror*** if the form is supplied by the offeree (such as initialing the specific paragraph). A merchant’s firm offer is enforceable _without_ consideration.\n• A **rejection** of an offer is the ***manifestation of intent to not accept*** an offer (through words or conduct), which thereby terminates the offer. A rejection is ***effective upon receipt*** by the offeror (when it comes into the possession of the person). Unless there is an agreement to the contrary or a renewal of the offer, an offer CANNOT be accepted ***after*** it is rejected.\n• A **counteroffer** (an offer with new terms) constitutes **BOTH *a rejection*** that terminates the original offer AND a ***new offer***. A question or request for unspecified changed terms (when no substitute terms are offered) is NOT a counteroffer, and still allows for acceptance of the offer.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 2",
+      "July 2018, Essay 2",
+      "Feb 2017, Essay 1",
+      "Feb 2011, Essay 6",
+      "July 2007, Essay 1"
+    ],
+    "translation": "• 契約を締結するための**相互の合意（Mutual Assent）**には、**(1)** 一方当事者による***申込み（Offer）***；**及び (2)** 他方当事者によるその申込み（Offer）の***承諾（Acceptance）***が必要である。\n  ○ **申込み（Offer）**とは、**(1)** 一方当事者による_契約を締結する現在の意思の表明_であり、**(2)** _明確かつ合理的に確実な条件_を有し、**(3)** 特定された被申込者（Offeror）に_伝達_されるものである。\n  ○ **承諾（Acceptance）**とは、申込み（Offer）の条件に対する***合意の表明***であり、拘束される意思を示すものである。沈黙は一般に承諾（Acceptance）を表明しないが、履行は十分な場合がある。**双務契約（Bilateral Contract）**の場合、***履行の開始***が承諾（Acceptance）を表明する。**片務契約（Unilateral Contract）**の場合、履行の開始は申込み（Offer）を撤回（Revocation）不能にするに過ぎず、申込み（Offer）は***履行が完了した***ときに***のみ***承諾（Acceptance）される。\n• **申込み（Offer）は**承諾（Acceptance）前に以下の事由により**終了し得る**：**(a) 申込者（Offeror）による***撤回（Revocation）***；**(b) 被申込者（Offeror）による***拒絶***または反対申込み（Offer）；**(c) ***期間の経過*** – 承諾（Acceptance）期間は_明示された期限_または_合理的な期間_（期限が明示されていない場合）の経過後に満了する；**(d) いずれかの当事者の***死亡または行為能力の喪失***；**または (e) ***後発的違法性*** – 申込み（Offer）がなされた後に提案された契約が違法となる場合。\n• ほとんどの**申込み（Offer）は**、申込者（Offeror）が***被申込者（Offeror）に対し***契約する意思がない、または契約できないことを示す***明確な言葉または行為***を通じて、***承諾（Acceptance）前***のいかなる時点でも**撤回（Revocation）され得る**。申込み（Offer）の撤回（Revocation）は、***受領時に効力を生じる***。申込み（Offer）は、**間接的に伝達された場合にも終了し得る** – すなわち、**(1)** 申込者（Offeror）が提案された契約を締結する意思と矛盾する明確な行動をとり；**かつ (2)** 被申込者（Offeror）がその旨の信頼できる情報を取得した場合である。\n• しかしながら、一部の申込み（Offer）は***撤回（Revocation）不能***であり、これには以下が含まれる：**(1) オプション契約**（申込み（Offer）を維持する約束に対して約因（Consideration）が与えられた場合）；**(2) 商人の確定的申込み（Offer）**；**(3) 被申込者（Offeror）の不利益となる信頼がなされた申込み（Offer）**（一般に不利益な信頼または約束的禁反言（Promissory Estoppel）と呼ばれる）であり、これは(i) 当事者が相手方当事者の約束に合理的にかつ実質的に不利益となる信頼をし、(ii) 約束者がその約束への信頼による立場の変更を合理的に予期すべきであり、かつ (iii) 不公正を回避するために約束の履行が必要である場合に生じる；**及び (4) 片務契約（Unilateral Contract）における履行の開始**であり、これは履行を完了するための合理的な期間、申込み（Offer）を撤回（Revocation）不能にする（単なる準備では不十分である）。\n  ○ 商人の確定的申込み（Offer）とは：**(1) 物品を売買する***申込み（Offer）***；**(2) ***商人***（当該種類の物品を扱う者）によるもの；**(3) ***署名された書面***によるもの；**(4) 記載された期間（または期間が記載されていない場合は合理的な期間）中、***申込み（Offer）が維持され、撤回（Revocation）不能である旨を明記***しているもの（ただし3ヶ月を超えない）；**及び (5)** 被申込者（Offeror）によって書式が提供された場合（特定の段落にイニシャルを付すなど）、申込み（Offer）を維持する保証が***申込者（Offeror）によって別途署名されている***こと、である。商人の確定的申込み（Offer）は、約因（Consideration）_なしに_強制可能である。\n• 申込み（Offer）の**拒絶**とは、申込み（Offer）を***承諾（Acceptance）しない意思の表明***（言葉または行為による）であり、それによって申込み（Offer）を終了させるものである。拒絶は、申込者（Offeror）による***受領時に効力を生じる***（その者の占有に入ったとき）。反対の合意があるか、または申込み（Offer）が更新されない限り、申込み（Offer）は拒絶された***後には***承諾（Acceptance）され得ない。\n• **反対申込み（Offer）**（新たな条件を伴う申込み（Offer））は、元の申込み（Offer）を終了させる***拒絶***と、***新たな申込み（Offer）***の**両方**を構成する。不特定の変更条件に関する質問または要求（代替条件が提示されていない場合）は、反対申込み（Offer）ではなく、依然として申込み（Offer）の承諾（Acceptance）を可能にする。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "相互の合意（Mutual Assent）：申込み（Offer）と承諾（Acceptance）"
+  },
+  {
+    "id": 4,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Mutual Assent: Timing of Acceptance/Revocation & the Mailbox Rule",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Unless the offeror states otherwise, **acceptance** of an offer is deemed accepted once the acceptance is ***sent or communicated*** (i.e. placed in the mail). However, **revocation** of an offer is deemed effective ***when received*** by the offeree. A communication is received when it comes into the ***possession*** of that person. An offer CANNOT be accepted _after_ it is revoked (unless there is an agreement to the contrary). However, once a valid contract has been created by acceptance of the offer, revocation is no longer possible.\n• Under the **Mailbox Rule**, if the offeror mails a letter to the offeree revoking the offer, _but_ the offeree sends a letter to the offeror accepting the offer before receiving the revocation letter, a valid contract has been created. This is because the acceptance was effective before the revocation became effective. This rule DOES NOT apply to option deadlines (when an offer is only open until a certain date or time).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2017, Essay 1",
+      "July 2007, Essay 1"
+    ],
+    "translation": "• 申込者（Offeror）が別途定めない限り、申込み（Offer）の**承諾（Acceptance）**は、承諾（Acceptance）が***送付または伝達された***（すなわち、郵便に投函された）時点で承諾（Acceptance）されたものとみなされる。しかし、申込み（Offer）の**撤回（Revocation）**は、被申込者（Offeror）によって***受領された***ときに効力を生じるものとみなされる。伝達は、その者の***占有***に入ったときに受領されたものとなる。申込み（Offer）は、撤回（Revocation）された_後_には承諾（Acceptance）できない（反対の合意がある場合を除く）。しかし、申込み（Offer）の承諾（Acceptance）によって有効な契約が成立した後は、撤回（Revocation）はもはや不可能である。\n• **郵便箱主義**の下では、申込者（Offeror）が被申込者（Offeror）に対し申込み（Offer）を撤回（Revocation）する書簡を郵送したが、_しかし_被申込者（Offeror）がその撤回（Revocation）書簡を受領する前に申込者（Offeror）に対し申込み（Offer）を承諾（Acceptance）する書簡を送付した場合、有効な契約が成立する。これは、承諾（Acceptance）が撤回（Revocation）が効力を生じる前に有効であったためである。この規則は、オプションの期限（申込み（Offer）が特定の期日または時刻までのみ有効である場合）には適用されない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "相互の合意（Mutual Assent）：承諾（Acceptance）/撤回（Revocation）の時期とメールボックス・ルール（Mailbox Rule）"
+  },
+  {
+    "id": 5,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Mutual Assent: Battle of the Forms (Mirror Image Rule and UCC Exception)",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The common law **mirror image rule** holds that an ***acceptance must exactly mirror the offer***. Acceptance with any additional terms or variations constitutes a counter-offer, which revokes the initial offer.\n• Under Article 2 of the UCC (which governs contracts for the sale of goods) the mirror image rule DOES NOT apply. The **UCC states that acceptance _does not_ have to mirror the offer and the acceptance may include different or additional terms**, without revocation of the offer and thus constituting a valid contract. However, the offeree's **different or additional terms are deemed included in the contract ONLY IF: (1)** both parties are merchants; **(2)** the term is not a material change; **(3)** the offer does not expressly limit acceptance to the exact terms of the offer; **AND (4)** no objection was made within a reasonable time. A material change is any change that is likely to cause hardship or surprise to the offeror (i.e. a disclaimer of warranties, an arbitration clause, payment of shipping/handling charges).",
+    "meeTips": [],
+    "examHistory": [
+      "July 1998, Essay 4"
+    ],
+    "translation": "• コモンローの**ミラーイメージの原則（Mirror Image Rule）**は、***承諾（Acceptance）は申込み（Offer）と完全に一致しなければならない***と規定している。追加の条項または変更を伴う承諾（Acceptance）は、反申込み（Offer）を構成し、最初の申込み（Offer）を撤回（Revocation）する。\n• 統一商事法典（UCC）第2条（物品の売買契約を規律する）の下では、ミラーイメージの原則（Mirror Image Rule）は適用されない。**UCCは、承諾（Acceptance）が_申込み（Offer）と一致する必要はなく_、承諾（Acceptance）には異なる条項または追加の条項が含まれ得る**と規定しており、申込み（Offer）を撤回（Revocation）することなく有効な契約を成立させる。ただし、申込受諾者の**異なる条項または追加の条項が契約に含まれると見なされるのは、以下の場合に限られる：(1)** 両当事者が商人であること；**(2)** その条項が重要な変更でないこと；**(3)** 申込み（Offer）が承諾（Acceptance）を申込み（Offer）の正確な条項に限定することを明示していないこと；**かつ (4)** 合理的な期間内に異議が申し立てられなかった場合。**重要な変更**とは、申込人に困難または驚きをもたらす可能性が高い変更（例：保証の免責、仲裁条項、送料・手数料の支払い）をいう。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "相互の合意（Mutual Assent）：フォームの戦い（ミラーイメージ・ルールとUCC例外）"
+  },
+  {
+    "id": 6,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Mutual Assent: Implied-in-Fact Contracts",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Contracts may be created by the _conduct of the parties_, without spoken or written words. Conduct by both parties will create a contract if: **(1)** the conduct is ***intentional***; **AND (2)** each party ***knows (or has reason to know)*** that the other party will ***interpret the conduct as an agreement to enter into a contract***.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 契約は、話し言葉や書面なしに、_当事者の行為_によって成立し得る。両当事者の行為が契約を成立させるのは、**(1)** その行為が***意図的***である場合；**かつ (2)** 各当事者が相手方が***その行為を契約締結の合意と解釈すること***を***知っている（または知るべき理由がある）***場合である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "相互の合意（Mutual Assent）：事実上の黙示契約"
+  },
+  {
+    "id": 7,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Indefiniteness or Absence of Terms",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• In order for a contract to be valid, the agreement of the parties must be certain and explicit so that their full intention may be ascertained to a reasonable degree of certainty. **If the terms of the agreement are NOT certain (they cannot be ascertained to a reasonable degree of certainty), the agreement is indefinite and is _not_ enforceable**. A contract that is ***indefinite as to duration*** is generally invalid and unenforceable.\n• In a contract for the sale of goods, the only essential term to a contract is the ***quantity*** term. A valid contract may exist _even if_ there is no agreement on price, because a ***reasonable price*** term (determined at the time the goods are delivered) will be supplied under the UCC.\n• Absence of Specified Place for Delivery of Goods.\n  ○ Unless otherwise agreed, the **place for delivery** of goods is the ***seller's place of business*** (or his residence if he has none). In a contract for sale of identified goods **known by the parties to be in some other place** (at the time of contracting), that place is the place for their delivery. HOWEVER, the parties' course of performance, course of dealing, or usage of trade may alter the default rules above.\n• UCC Course of Performance, Course of Dealing, & Usage of Trade:\n  ○ The parties' course of performance, course of dealing, or usage of trade may ***supplement the terms of their agreement***, and must be construed (whenever reasonable consistent) with the express terms of the agreement.\n  ○ \"Course of Dealing\" is a sequence of conduct concerning _previous transactions_ between the parties.\n  ○ \"Course of Performance\" is a sequence of conduct between the parties to a _particular transaction_ that exists if: (1) the transaction involves repeated occasions for performance by a party; AND (2) the other party (with knowledge of the nature of the performance and opportunity to object), accepts the performance or acquiesces in it without objection.\n  ○ \"Usage of Trade\" is any _practice/method of dealing_ having such regularity of observance in a place, vocation, or trade as to justify an expectation that it will be observed with respect to the transaction in question.\n• Note, even if a contract is unenforceable as indefinite, a party may still bring an action for _quantum meruit_ (under a quasicontract theory), and recover the reasonable value of the benefit conferred to the other party.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2022, Essay 6"
+    ],
+    "translation": "• 契約が有効であるためには、当事者の合意は、その完全な意思が合理的な程度の確実性をもって確認できるよう、明確かつ明示的でなければならない。**合意の条項が確実でない場合（合理的な程度の確実性をもって確認できない場合）、合意は不明確であり、_執行可能ではない_**。***期間が不明確な***契約は、一般的に無効であり、執行不能である。\n• 物品売買契約において、契約の唯一の必須条項は***数量***条項である。価格に関する合意がない場合で_あっても_有効な契約は存在しうる。なぜなら、UCC（統一商事法典）の下では、***合理的な価格***条項（物品が引き渡される時点で決定される）が補充されるためである。\n• 物品の引渡場所の指定がない場合。\n  ○ 別段の合意がない限り、物品の**引渡場所**は***売主の営業所***（または営業所がない場合はその住居）である。当事者が**他の場所にあると知っている**（契約締結時において）特定物品の売買契約においては、その場所が引渡場所となる。しかしながら、当事者の履行の過程、取引の過程、または取引慣習は、上記の既定の規則を変更しうる。\n• UCCにおける履行の過程、取引の過程、および取引慣習：\n  ○ 当事者の履行の過程、取引の過程、または取引慣習は、***合意の条項を補充しうる***ものであり、合意の明示的な条項と（合理的に矛盾しない限り）解釈されなければならない。\n  ○ 「取引の過程」とは、当事者間の_過去の取引_に関する一連の行為である。\n  ○ 「履行の過程」とは、_特定の取引_における当事者間の一連の行為であり、以下のいずれかの条件が満たされる場合に存在する：(1)当該取引が一方当事者による履行の反復的な機会を伴う場合；かつ(2)他方当事者が（履行の性質を知り、異議を唱える機会があるにもかかわらず）、その履行を受諾するか、または異議なくそれに黙認する場合。\n  ○ 「取引慣習」とは、ある場所、職業、または取引において、当該取引に関してそれが遵守されるという期待を正当化する程度の規則性をもって遵守される_慣行または取引方法_である。\n• なお、契約が不明確であるために執行不能である場合でも、当事者は_不当利得（Unjust Enrichment）返還（Restitution）請求_（準契約理論に基づく）を提起し、相手方に与えられた利益の合理的な価値を回復しうる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "条項の不明確性または欠如"
+  },
+  {
+    "id": 8,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Consideration: Bargained for Exchange & Substitutes",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Contracts are NOT enforceable without consideration by BOTH parties. Consideration is a ***bargained for exchange*** of a promise for a return promise or performance that benefits the promisor or causes detriment to the promisee. For example, the money paid for goods is consideration for the seller, and the goods sold is consideration for the buyer. Generally, **past or moral consideration** is NOT sufficient to support a contract.\n• An illusory contract is invalid, and occurs where _one party_ has ***no obligation to perform*** (thus adequate consideration is not given by both parties).\n• The Restatement (Second) of Contracts recognizes three exceptions when a contract will be enforced _even if_ it lacks consideration:\n  ○ The **Material Benefit Rule**, which provides that a ***promise made in recognition of a benefit previously received*** by the promisor from the promisee is binding (even without consideration) to the extent necessary ***to prevent injustice***. Examples include a promise to correct a mistake or providing emergency services or necessities. BUT, the material benefit rule **DOES NOT apply when**: **(a)** the benefit was conferred as a ***gift***; **OR (b)** the value of the promise is ***disproportional*** to the benefit conferred.\n  ○ **Promissory Estoppel/Detrimental Reliance**: Contracts that lack consideration may be enforced to avoid injustice under the doctrine of promissory estoppel. Promissory estoppel applies when: **(1)** a party ***reasonably and foreseeably relied to his detriment*** on the promise of the other party; **(2)** the promisor should have ***reasonably expected a change in position*** in reliance of the promise; **AND (3)** enforcement of the promise is ***necessary to avoid injustice***.\n  ○ **A Promise to Pay a Non-Legally Enforceable Past Debt** is binding without new consideration (most states require a _signed writing_, but the Restatement Second does not have a writing requirement).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2014, Essay 2",
+      "July 2009, Essay 5",
+      "Feb 1995, Essay 7"
+    ],
+    "translation": "• 契約は、双方当事者による約因（Consideration）がなければ執行可能では*ない*。約因（Consideration）とは、約束者にとって利益となるか、または被約束者にとって不利益となる、反対の約束または履行に対する約束の***交渉された交換***である。例えば、物品に対して支払われた金銭は売主にとっての約因（Consideration）であり、売却された物品は買主にとっての約因（Consideration）である。一般に、**過去の約因（Consideration）または道義的約因（Consideration）**は、契約を支持するのに十分では*ない*。\n• 幻想的な契約は無効であり、_一方当事者_が***履行義務を負わない***（したがって、双方当事者から十分な約因（Consideration）が与えられていない）場合に生じる。\n• 契約法リステイトメント（第二次）は、約因（Consideration）を欠く場合で_あっても_契約が執行される3つの例外を認めている：\n  ○ **実質的利益の原則**。これは、被約束者から約束者によって***過去に受け取った利益に基づく約束***は、（約因（Consideration）がなくても）***不公正を防止するために***必要な範囲で拘束力を持つと定めるものである。例としては、誤りを訂正する約束や、緊急サービスまたは必需品の提供が挙げられる。しかし、実質的利益の原則は、以下の場合は**適用され*ない***：**(a)**当該利益が***贈与***として与えられた場合；**または(b)**約束の価値が与えられた利益に対して***不均衡***である場合。\n  ○ **約束的禁反言（Promissory Estoppel）/不利益信頼**：約因（Consideration）を欠く契約は、約束的禁反言（Promissory Estoppel）の法理の下で不公正を回避するために執行されうる。約束的禁反言（Promissory Estoppel）は、以下の条件が満たされる場合に適用される：**(1)**一方当事者が、他方当事者の約束に***合理的にかつ予見可能に自己に不利益な形で信頼した***場合；**(2)**約束者が、当該約束への信頼に基づく***状況の変化を合理的に予期すべきであった***場合；**かつ(3)**当該約束の執行が***不公正を回避するために必要である***場合。\n  ○ **非法的強制可能な既存債務の支払約束**は、新たな約因（Consideration）なしに拘束力を持つ（ほとんどの州では_署名された書面_を要求するが、リステイトメント第二次には書面要件はない）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "約因（Consideration）：交渉された交換と代替物"
+  },
+  {
+    "id": 9,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Consideration: Settlement/Release of Legal Claims",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A settlement or release of legal claims is the voluntary relinquishment or surrender of some known right or privilege, and ***constitutes valid consideration***. A settlement is governed by principles of contract law, and is enforceable if the agreement constitutes a valid contract. A valid settlement or release prevents the party that signed the agreement from pursuing specific legal claims as outlined by the terms of the agreement.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 法的主張の和解または免除とは、既知の権利または特権の自発的な放棄または譲渡であり、***有効な約因（Consideration）を構成する***。和解は契約法の原則に準拠し、合意が有効な契約を構成する場合には執行可能である。有効な和解または免除は、合意に署名した当事者が、合意の条項に定められた特定の法的主張を追及することを妨げる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "約因（Consideration）：法的主張の和解または免除"
+  },
+  {
+    "id": 10,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "A. Formation of Contracts",
+    "ruleTitle": "Modification of Contracts: Pre-Existing Duty Rule & Exceptions",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• Under **Common Law**, contract modifications MUST be ***supported by consideration***. When modifying an agreement, ***past performance or performance of a preexisting duty*** owed to a party is **NOT** treated as adequate consideration. However, several exceptions exist: **(1)** an **addition or change** in the performance or promise; **(2) unforeseen circumstances** – a ***fair and equitable modification*** due to ***unanticipated changed circumstances*** _and_ the contract is **NOT *yet fully performed by either party*** (usually the unanticipated circumstances must be severe or far beyond what was foreseen); **OR (3)** a **third-party promise** – when the duty was owed to a third-person, not the promisor.\n• Under the **UCC**, there is NO consideration requirement for contract modifications made in ***good faith***. However, modifications must be in writing if: **(a)** they fall within the Statute of Frauds; **OR (b)** the original contract states that modifications must be made in writing. Good faith means honesty in fact and the observance of reasonable commercial standards of fair dealing.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 3",
+      "July 2014, Essay 2",
+      "Feb 2011, Essay 6",
+      "Feb 1995, Essay 7"
+    ],
+    "translation": "• **コモン・ロー**の下では、契約変更は***約因（Consideration）によって裏付けられなければならない***。合意を変更する際、当事者に対して負う***過去の履行または既存の義務（Pre-Existing Duty）の履行***は、十分な約因（Consideration）とは**みなされない**。しかし、いくつかの例外が存在する。**（1）**履行または約束における**追加または変更**、**（2）予見不可能な事情** – ***予期せぬ状況変化***による***公正かつ衡平な変更***であり、_かつ_契約が**いずれの当事者によってもまだ***完全に履行されていない***場合（通常、予期せぬ事情は深刻であるか、予見されたものをはるかに超えるものでなければならない）、**または（3）第三者による約束** – 義務が約束者ではなく第三者に対して負われていた場合。\n• **統一商事法典（UCC）**の下では、***善意***で行われた契約変更には約因（Consideration）の要件は**ない**。ただし、変更は以下のいずれかの場合に書面で行われなければならない。**（a）**詐欺防止法（Statute of Frauds）に該当する場合、**または（b）**元の契約が変更を書面で行うべき旨を規定している場合。善意とは、事実上の誠実さおよび公正な取引の合理的な商業的基準の遵守を意味する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "契約の変更：既存の義務（Pre-Existing Duty）の原則（Pre-Existing Duty Rule）と例外"
+  },
+  {
+    "id": 11,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Incapacity",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A party MUST have capacity in order to enter into a contract. Contracts entered into by a person who DOES NOT have capacity are ***voidable*** by the person who lacked capacity. **Minors** (persons under 18 years old) _and_ those who **lack mental capacity** (persons who cannot understand the meaning and effect of the contract) generally ***lack capacity*** to enter into a contract. However, minors may be bound for contracts for necessities (i.e. food, shelter, clothing).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 当事者は契約を締結するために行為能力を**有さなければならない**。行為能力を**有さない**者によって締結された契約は、行為能力を欠いた者によって***取り消し可能（Voidable）***である。**未成年者**（18歳未満の者）_および_**精神能力を欠く者**（契約の意味と効果を理解できない者）は、一般に契約を締結する***行為能力を欠く***。ただし、未成年者は生活必需品（すなわち、食料、住居、衣類）に関する契約については拘束される場合がある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "無能力"
+  },
+  {
+    "id": 12,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Duress",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Duress takes two forms: physical compulsion and economic duress.\n• Physical Compulsion: If a person ***physically compels*** a person to agree to a contract, then the contract is ***void*** (the conduct is not effective to create a contract). Examples include physically forcing someone to sign a contract or making someone agree to a contract via gun-point.\n• Economic Duress: A contract is ***voidable*** on the ground of economic duress when **(1)** a person makes an ***improper threat***, **(2)** that ***induces*** a party, **(3)** who has ***no reasonable alternative*** but to enter into the contract. A mere threat to breach a contract, without more, is generally insufficient. A threat, even if improper, does not amount to duress if the victim fails to take advantage of a reasonable alternative.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2014, Essay 2"
+    ],
+    "translation": "• 強迫には、身体的強制と経済的強迫の二つの形態がある。\n• 身体的強制：ある者が他者を***身体的に強制して***契約に同意させた場合、その契約は***無効***である（その行為は契約を成立させる効力がない）。例としては、物理的に誰かに契約書への署名を強制することや、銃を突きつけて誰かに契約に同意させることなどが挙げられる。\n• 経済的強迫：経済的強迫を理由として契約が***取り消し可能（Voidable）***となるのは、**（1）**ある者が***不当な脅迫***を行い、**（2）**それが当事者を***強いて***、**（3）**その当事者が契約を締結する以外に***合理的な代替手段がない***場合である。単なる契約違反の脅迫は、それだけでは一般に不十分である。脅迫が不当であったとしても、被害者が合理的な代替手段を利用しなかった場合、それは強迫には当たらない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "強迫"
+  },
+  {
+    "id": 13,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Undue Influence",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Undue influence involves **(1)** the ***unfair persuasion*** of a person, **(2)** who is either **(a) *under the domination*** of the person exercising the influence _or_ **(b) *justified*** in assuming that the person will not act in a manner inconsistent with his welfare ***because of the relationship between them*** (i.e. parent and child, husband and wife, clergyman and parishioner, physician and patient).\n• If the contract is induced by undue influence by the other contracting party, the contract is ***voidable*** by the victim. If the contract is induced by a non-party to the contract, the contract is ***voidable*** by the victim UNLESS the other party to the contract (1) gives value or materially relies, (2) in good faith, and (3) without reason to know of the undue influence on the transaction.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 不当な影響（Undue Influence）とは、**(1)** ある者に対する***不当な説得***であり、**(2)** その者は**(a) 影響を行使する者の***支配下にある***か、_または_ **(b) ***当事者間の関係***（すなわち、親子、夫婦、聖職者と教区民、医師と患者）により、その者が自身の福祉に反する行動をとらないと仮定することが***正当である***かのいずれかである場合をいう。\n• 契約が相手方当事者による不当な影響（Undue Influence）によって誘発された場合、その契約は被害者によって***取り消し可能（Voidable）***である。契約が契約の非当事者によって誘発された場合、その契約は、契約の相手方当事者が(1) 対価を供与しまたは重要な信頼を置き、(2) 善意であり、かつ (3) その取引における不当な影響（Undue Influence）を知る理由がなかった場合を***除き***、被害者によって***取り消し可能（Voidable）***である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "不当な影響（Undue Influence）"
+  },
+  {
+    "id": 14,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Mutual Mistake & Unilateral Mistake",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A contract is ***voidable*** (it may be rescinded or reformed) when there is a **mutual mistake**. Mutual mistake occurs when: **(1) *both parties are mistaken as to a basic assumption*** on which the contract is made; **(2) *the mistake is material*** to the contract; **AND (3)** the person asserting the mistake ***did not bear the risk of the mistake*** (by agreement, negligence, or by a party treating their limited knowledge as sufficient).\n• A **unilateral mistake** is (1) a mistake made by one party, (2) that is unknown to the other party, (3) concerning a basic assumption, (4) that has a material effect. **A unilateral mistake is generally NOT a valid defense to formation of a contract**. However, if one party ***knew or had reason to believe*** that the other party was mistaken OR the mistake would make enforcement of the contract ***unconscionable***, the contract is ***voidable*** by the mistaken party. When the mistake involves price or value, the equitable remedy of rescission or reformation will NOT be allowed because ***price/value is* NOT *considered material***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 2"
+    ],
+    "translation": "• **共通錯誤（Mutual Mistake）**がある場合、契約は***取り消し可能（Voidable）***である（解除または修正され得る）。共通錯誤（Mutual Mistake）は、以下の条件が満たされた場合に発生する。**(1) 契約が締結された***基礎となる前提について両当事者が錯誤している***こと、**(2) その***錯誤が契約にとって重要である***こと、**かつ (3)** 錯誤を主張する者が***その錯誤のリスクを負っていなかった***こと（合意、過失、または当事者が自身の限定的な知識を十分であるとみなすことによる）。\n• **片方錯誤（Unilateral Mistake）**とは、(1) 一方の当事者によってなされた錯誤であり、(2) 相手方当事者に知られておらず、(3) 基礎となる前提に関するものであり、(4) 重要な影響を有するものである。**片方錯誤（Unilateral Mistake）は、一般的に契約の成立に対する有効な抗弁とはならない**。しかし、一方の当事者が相手方当事者が錯誤していることを***知っていたか、知るべき理由があった***場合、_または_ その錯誤が契約の履行を***不当にする***場合、その契約は錯誤した当事者によって***取り消し可能（Voidable）***である。錯誤が価格または価値に関わる場合、***価格／価値は重要とは*みなされない***ため、解除または修正という衡平法上の救済は認められない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "相互錯誤と片方錯誤（Unilateral Mistake）"
+  },
+  {
+    "id": 15,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Misrepresentation",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A **fraudulent misrepresentation** occurs when one party **(1) *knowingly***, **(2)** makes a ***false representation***, **(3)** of a ***fact***, **AND (4)** the other party ***reasonably relies*** on the misrepresentation to their detriment. A contract induced by a fraudulent misrepresentation is ***voidable*** (may be rescinded) by the injured party.\n• A **non-fraudulent misrepresentation** occurs when there is **(1)** a ***statement of material fact***, **(2)** by a ***party or agent***, **(3)** that is ***false*** (no requirement of wrongdoing), **(4) *inducing*** the contract, **AND (5)** the other party ***reasonable relies*** on the misrepresentation to his detriment. A contract induced by **material misrepresentation** is ***voidable*** (may be rescinded) by the injured party, UNLESS there was ***no justifiable reliance*** on the misrepresented fact. A misrepresentation is material if it would likely induce a reasonable person to agree.\n• Concealment (an affirmative act intended to keep another from learning of a fact) is equivalent to a misrepresentation (a false statement of fact). Generally, there is no duty to disclose information, UNLESS: (a) active concealment of a material fact occurs; (b) a fiduciary relationship exists; (c) it is necessary to correct an earlier mistake; OR (d) it is necessary to correct a past statement from being misleading.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2010, Essay 2"
+    ],
+    "translation": "• **詐欺的誤表示（Fraudulent Misrepresentation）**は、一方の当事者が**(1) ***故意に***、**(2) ***虚偽の表示***を、**(3) ***事実***について行い、**かつ (4)** 相手方当事者がその誤表示に***合理的に信頼して***不利益を被った場合に発生する。詐欺的誤表示（Fraudulent Misrepresentation）によって誘発された契約は、被害当事者によって***取り消し可能（Voidable）***である（解除され得る）。\n• **非詐欺的誤表示（Fraudulent Misrepresentation）**は、**(1) ***重要な事実の陳述***が、**(2) ***当事者または代理人***によって、**(3) ***虚偽であり***（不法行為の要件なし）、**(4) 契約を***誘発し***、**かつ (5)** 相手方当事者がその誤表示に***合理的に信頼して***不利益を被った場合に発生する。**重要な誤表示**によって誘発された契約は、誤表示された事実に***正当な信頼がなかった***場合を***除き***、被害当事者によって***取り消し可能（Voidable）***である（解除され得る）。誤表示は、合理的な者が同意する可能性が高い場合、重要である。\n• 隠蔽（他の者が事実を知るのを妨げる意図を持った積極的な行為）は、誤表示（事実の虚偽の陳述）と同等である。一般に、情報開示義務はないが、以下の場合は***除く***。(a) 重要な事実の積極的な隠蔽が発生した場合、(b) 信頼関係が存在する場合、(c) 以前の錯誤を訂正する必要がある場合、_または_ (d) 過去の陳述が誤解を招くのを訂正する必要がある場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "不実表示（Misrepresentation）"
+  },
+  {
+    "id": 16,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Illegality",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Courts will **NOT enforce** contracts that are ***illegal***.\n• A contract with **illegal subject matter** is ***void*** if the illegality existed at the time of contract formation. If the contract was legal at the time of contract formation, but has **subsequently become illegal**, performance will be ***discharged***.\n• A contract with an **illegal purpose** is ***voidable*** by a party who didn’t know of the illegal purpose.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 裁判所は***違法な***契約を**執行しない**。\n• **違法な目的物**を有する契約は、契約成立時に違法性が存在した場合、***無効***である。契約成立時には合法であったが、その後**違法となった**場合、履行は***免除***される。\n• **違法な目的**を有する契約は、違法な目的を知らなかった当事者によって***取り消し可能（Voidable）***である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "違法性"
+  },
+  {
+    "id": 17,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Public Policy & Restraint of Trade",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Courts will **NOT enforce** contracts that are ***contrary to public policy***.\n• Restraint of Trade & Restrictive Covenants: A promise is unenforceable on grounds of public policy if it's an ***unreasonable restraint of trade***.\n  ○ A restraint on trade (a.k.a. a restrictive covenant or covenant to not compete) is enforceable if it's reasonable to protect a party's legitimate business interest – it must be _ancillary to an otherwise valid business transaction or relationship._ The two main situations that arise are (a) the sale of a business, or (b) in the employer-employee context. A restrictive covenant against the seller of a business is typically more favored.\n  ○ **To be enforceable, a restrictive covenant MUST BE reasonable in (1) *time***, **(2) *geographic area***, **AND (3) scope of *activity* limited**. In determining enforceability, a court must weigh the need to protect the legitimate business interests against the other party's possible loss of livelihood (the right to earn a living).\n    For the time/duration element, courts have upheld restrictions ranging from 2 to 5 years; a 10-year restriction is likely unreasonably broad.\n    For the geographic area element, courts have enforced covenants limited to the regional market or states where the company operated; a national prohibition is typically unreasonably broad.\n    For the type of activity element, the activity limited cannot be more extensive than necessary to protect those activities engaged by the business.\n  ○ Additionally, if the time, geographic area, and activity elements are met, enforcement of a restrictive covenant will be granted to the extent necessary (i) to prevent an employee's solicitation or disclosure of trade secrets, (ii) to prevent an employee's release of confidential information regarding the employer's customers, or (ii) in those cases where the employee's services to the employer are deemed special or unique.\n  ○ **When presented with restrictive covenants containing unenforceable provisions, courts have taken three approaches**: **(1)** the **“all or nothing” approach**, which would void the restrictive covenant entirely if any part is unenforceable; **(2)** the **“blue pencil” approach**, which enables the court to enforce the reasonable terms (provided the covenant remains grammatically coherent once its unreasonable provisions are removed); and **(3)** the **“partial enforcement” approach**, which reforms and enforces the restrictive covenant to the extent it is reasonable, unless the circumstances indicate bad faith or deliberate overreaching on the part of the business/employer. **Most Modern Courts and the Restatement (Second) of Contracts follow the partial enforcement approach, and will *enforce the restrictive covenant up to its reasonable limits***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 2"
+    ],
+    "translation": "• 裁判所は***公序良俗に反する***契約を**執行しない**。\n• 取引制限および制限的特約：約束が***不合理な取引制限***である場合、公序良俗を理由として執行不可能である。\n  ○ 取引制限（競業禁止特約）は、当事者の正当なビジネス上の利益を保護するために合理的である場合に執行可能である。有効な事業取引または関係に_付随するもの_でなければならない。主要な場面は (a) 事業売却、または (b) 使用者・被用者の文脈である。事業売却者に対する制限的特約は通常より支持される。\n  ○ **執行可能であるために、制限的特約は**(1) ***期間***、**(2) ***地理的範囲***、**および (3) *制限される活動*の範囲**において合理的でなければならない。裁判所は正当なビジネス上の利益を保護する必要性と、相手方の生計手段（生活する権利）を失う可能性を比較衡量しなければならない。\n    期間については、2〜5年の制限が支持されてきた；10年制限は不合理に広範である可能性が高い。\n    地理的範囲については、会社が事業展開する地域市場・州に限定された特約が執行されてきた；全国禁止は通常不合理に広範である。\n    活動の種類については、制限される活動は事業が従事する活動を保護するために必要な範囲を超えてはならない。\n  ○ さらに期間・地理的範囲・活動の要素が満たされた場合、制限的特約の執行は (i) 営業秘密の勧誘または開示の防止、(ii) 雇用者の顧客に関する機密情報の開示防止、または (iii) 従業員のサービスが特別または独自であるとみなされる場合に必要な範囲で認められる。\n  ○ **執行不可能な条項を含む制限的特約に直面した場合、裁判所は3つのアプローチを採用してきた**：**(1)** **「全か無か」アプローチ**（いずれかの部分が執行不可能であれば全体を無効）；**(2)** **「青鉛筆」アプローチ**（不合理な条項が削除されても文法的に一貫している場合、合理的な条項を執行）；および **(3)** **「部分執行」アプローチ**（合理的な範囲で制限的特約を修正・執行するが、使用者側に悪意または故意の逸脱がある場合を除く）。**現代の多くの裁判所とリステイトメント（第二次）は部分執行アプローチを採用し、*制限的特約をその合理的な限度まで執行する***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "公序良俗と取引制限"
+  },
+  {
+    "id": 18,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Unconscionability",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Unconscionability occurs when a contract or term ***shocks the conscience of the court***. The determination of unconscionability is made in light of the setting, purpose and effect of the transaction. Relevant factors a court will consider include: weaknesses in the contracting process similar to a lack of capacity, fraud, and other invalidating causes, such as public policy grounds. Inadequacy of consideration alone _does not_ invalidate a contract.\n• **Unconscionability usually occurs if the contract/term is BOTH substantively _and_ procedurally unconscionable**. Procedural unconscionability occurs when one party to the contract (usually the party who wrote the contract) has a superior bargaining position over the other party and uses that power to their advantage. An example is engaging in unfair pressure or bargaining practices to force the other party to enter into the contract. Substantive unconscionability occurs when the contract contains terms that are obviously unfair and one-sided in favor of the party with the superior bargaining power.\n• If a contract or term is found unconscionable a court may: (a) refuse to enforce the contract; (b) enforce the contract without the unconscionable term; OR (c) limit the application of any unconscionable term.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 不当条項（Unconscionability）は、契約または条項が***裁判所の良心に反する***場合に生じる。判断は取引の状況、目的および効果に照らして行われる。裁判所が考慮する要素には、意思能力の欠如・詐欺・公序良俗上の理由などに類する契約締結過程の弱点が含まれる。約因（Consideration）の不十分さのみでは契約を無効にしない。\n• **不当条項（Unconscionability）は通常、手続上の不当条項（Procedural Unconscionability）と実質上の不当条項（Substantive Unconscionability）の両方が存在する場合に認められる**。手続上の不当条項（Procedural Unconscionability）は、一方当事者が優位な交渉力を有しその力を利用した場合（例：不公正な圧力や交渉慣行）に生じる。実質上の不当条項（Substantive Unconscionability）は、契約が優位な交渉力を持つ当事者に著しく不公正かつ一方的に有利な条項を含む場合に生じる。\n• 契約または条項が不当であると認められた場合、裁判所は：(a) 契約の執行を拒否する；(b) 不当な条項を除いて契約を執行する；**または** (c) 不当な条項の適用を制限することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "不公正性"
+  },
+  {
+    "id": 19,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "B. Defenses to Enforceability",
+    "ruleTitle": "Statute of Frauds: Contracts Requiring a Signed Writing",
+    "priority": "HIGH",
+    "frequency": "6 of 40 Exams",
+    "body": "• Contracts Requiring a Signed Writing: Under the Statute of Frauds, the following contracts are ***not valid*** UNLESS they are in a ***writing signed by the party to be charged***: **(1) Marriage contracts** – a promise in consideration of marriage; **(2) Suretyships** (where a guarantor promises to take on the debt of another if that person fails to pay) ***unless*** the main purpose exception applies (the surety’s main purpose in making the promise was to benefit himself); **(3)** Contracts that **Cannot be fully performed in 1 year** from the date the contract is entered into (there must be ***no possible way*** the contract can be performed within 1 year); **(4)** Contracts for the **Sale of real property** or creating an interest in real property (e.g. easements over 1 year, leases over 1 year, mortgages, fixtures); **(5)** Promises to **pay an estate's debt from the ***personal funds*** of the Executor/Administrator**; **AND (6)** Contracts for the **Sale of goods for $500 or more**\n• UCC Contracts for the Sale of Goods & Exceptions:\n  ○ Under Article 2 of the UCC, all contracts ***for the sale of goods for $500 or more* MUST be in writing**. The writing must state the parties, the quantity and nature of the goods, and be signed by the party to be charged.\n  ○ However, four exceptions exist: **(1) Merchant’s Confirmatory Memorandum** – In a sale of goods contract between two merchants (two people dealing in goods of the kind), a writing that confirms an agreement is sufficient if it is ***signed by*** the party enforcing it (not the party whom it is enforced against), as long as the party against whom it is enforced did not promptly object within 10-days after receipt; **(2) Goods Accepted or Paid For** – A seller may enforce the contract price of any goods accepted or paid for by the buyer, but NOT the whole contract price if only a portion of the total quantity of goods to the contract are accepted; **(3) Custom Made Goods** – A seller may enforce the contract price for custom made goods, which are goods in which the seller has made a ***substantial start*** AND are ***not suitable for sale*** in the ordinary course of the seller’s business; **(4) Admission During Judicial Proceeding** – A sale of goods contract for $500 or more is enforceable without a writing when the party to be charged ***admits that there was a contract during a judicial proceeding*** (i.e. in a deposition or courtroom testimony).\n• Common Law Exceptions to Statute of Frauds: Under the Common Law, a contract that violates the statute of frauds may still be enforceable in the following situations: **(1) Full Performance**; **(2) Partial Performance in Land Contracts** – partial performance is allowed in land sale contracts if a party has done at least two of the following: (i) made a _payment_ for land; (ii) took _possession_ of land; (iii) made valuable _improvements_ to land); **(3) Judicial Acknowledgement** – the party admits to the agreement in pleadings or testimony; **(4) Estoppel** – reasonable and foreseeable detrimental reliance on a promise (only some jurisdictions allow the doctrine of estoppel to be used in order to circumvent the statute of frauds).\n• Satisfying the Writing Requirement: In order to satisfy the Statute of Frauds, a writing MUST: **(1)** be ***signed*** by (or on behalf of) the party to be charged; **(2) *reasonably identify the subject matter*** of the contract; **(3) *indicate that a contract has been made*** by the parties; **AND (4) *state the essential terms*** with reasonable certainty. The writing may be _formal or informal_, including a written contract, will, notation on a check, receipt, pleading, informal letter, or an electronic communication (i.e. email). The statute of frauds **DOES NOT** require that an agreement be contained in _one_ signed document; it ***may consist of several writings*** if (i) one of the writings is signed _and_ (ii) the writings clearly indicate that they relate to the same transaction. Signed means using any symbol with the intent to adopt or accept a writing, including: a written or typed name; initials; electronic signature; or a symbol found in a billhead or letterhead (when the UCC applies). Under the UCC, a writing is _not_ insufficient because it omits or incorrectly states a term agreed upon, BUT the **contract is not enforceable beyond the quantity of goods** shown in such writing.",
+    "meeTips": [
+      "When an essay involves a sale of goods contract for $500 of more, apply the specific rule and exceptions for such contracts."
+    ],
+    "examHistory": [
+      "July 2024, Essay 4",
+      "Feb 2022, Essay 6",
+      "Feb 2021, Essay 6",
+      "July 2015, Essay 3",
+      "July 2013, Essay 7",
+      "July 2007, Essay 1"
+    ],
+    "translation": "• 書面を要する契約：詐欺防止法（Statute of Frauds）の下では、以下の契約は***署名された書面***がない限り***有効ではない***：**(1) 婚姻契約**—婚姻を約因（Consideration）とする約束；**(2) 保証契約（Suretyship Contract）**（保証人が第三者の債務を引き受ける約束）。ただし主目的の例外が適用される場合を除く；**(3)** 契約締結日から**1年以内に完全に履行できない**契約（1年以内に履行する可能性が***全くない***ことが必要）；**(4)** 不動産の**売買**または不動産上の権利設定（1年超の地役権・賃貸借、抵当権、付合物）；**(5)** **遺産の債務を遺言執行者/管理者の***個人資産***から支払う約束**；**および (6)** **500ドル以上**の商品の**売買契約**。\n• UCCの商品売買契約と例外：\n  ○ UCC第2編の下では、***500ドル以上の商品売買契約はすべて書面によらなければならない***。書面には当事者、数量および商品の性質を記載し、訴えられる当事者が署名しなければならない。\n  ○ ただし4つの例外が存在する：**(1) 商人の確認書面**—2人の商人間の合意を確認する書面は、執行しようとする当事者が署名していれば十分であり、受領後10日以内に異議を申し立てなかった場合；**(2) 受領または支払済みの商品**—売主は買主が受領または支払った商品の代金を執行できるが、一部のみ受領の場合は全体の代金は不可；**(3) 特注品**—売主が***相当程度開始した***かつ通常の事業過程では***販売に適さない***特注品の代金を執行できる；**(4) 司法手続における自認**—訴えられる当事者が***司法手続において契約が存在したことを自認した***場合（証言録取または法廷での証言）、500ドル以上の商品売買契約は書面なしに執行可能。\n• コモンローにおける詐欺防止法（Statute of Frauds）の例外：**(1) 完全履行**；**(2) 土地契約における一部履行**—少なくとも2つを行った場合：(i) 土地の_支払い_；(ii) 土地の_占有_；(iii) 土地への価値ある_改良_；**(3) 司法上の承認**—訴答または証言で合意を認めた場合；**(4) エストッペル**—合理的かつ予見可能な不利益な依拠（一部の法域のみ）。\n• 書面要件の充足：書面は以下を満たさなければならない：**(1)** 訴えられる当事者によって***署名***されること；**(2) *契約の目的を合理的に特定する***こと；**(3) *当事者間で契約が締結されたことを示す***こと；**および (4) *本質的条件を***合理的な確実性をもって***記述する***こと。書面は正式・非公式を問わず、契約書・遺言・小切手上のメモ・領収書・答弁書・非公式の手紙・電子通信を含む。複数の文書で構成されてもよいが、(i) 少なくとも1つが署名されており、かつ (ii) 文書が同一取引に関することが明らかでなければならない。UCCの下では、条件を省略または誤って記載しても書面が不十分とはならないが、**商品の数量を超えた契約の執行はできない**。",
+    "meeTipTranslation": "論文が500ドル以上の物品売買契約に関するものである場合、そのような契約に対する特定のルールと例外を適用すること。",
+    "ruleTitleJa": "詐欺防止法（Statute of Frauds）：署名された書面を要する契約"
+  },
+  {
+    "id": 20,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "C. Contract Content & Meaning",
+    "ruleTitle": "Parol Evidence Rule",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under the **Parol Evidence Rule**, a binding integrated agreement ***discharges*** prior agreements to the extent that it is inconsistent with them. As such, a party CANNOT introduce evidence of a ***prior or contemporaneous*** agreement (either oral or written) that contradicts a later writing.\n• However, there are four exceptions where a court will permit such evidence: **(1)** to correct a ***clerical error or typo***; **(2)** to ***establish a defense against formation*** (that the contract wasn’t valid in the first instance); **(3)** to ***interpret vague or ambiguous terms***, but courts will interpret words to represent their ordinary or plain meaning (**the plain meaning rule**); and **(4)** to ***supplement a partially integrated writing***. **The Parol Evidence Rule DOES NOT apply to subsequent agreements**.\n• A partially integrated writing DOES NOT contain a complete statement of all the terms the parties agreed to. As such, **proof of additional terms is allowed if the terms DO NOT contradict the writing**. Under the UCC, ALL writings are ***presumed*** to be partial integrations, _unless_ the writing is fully integrated.\n• A fully integrated writing is a ***complete and exclusive*** statement of the terms, and discharges prior agreements to the extent that they are within its scope.\n• A **merger clause** is evidence that the writing is complete on its face (_fully integrated_) and cannot be supplemented with additional consistent terms. The absence of a merger clause is evidence that the agreement was NOT meant to be a complete/full integration of the agreement (but it’s not determinative). If a merger clause is _not_ included, an agreement will NOT be found to be completely integrated if the item or term might naturally have been omitted from the writing.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 2",
+      "Feb 2018, Essay 3"
+    ],
+    "translation": "• **口頭証拠排除法則（Parol Evidence Rule）**の下では、拘束力のある統合合意（Integrated Agreement）は、それと矛盾する限りにおいて事前の合意を***解除する***。したがって、当事者は後の書面に矛盾する***事前または同時***の合意（口頭または書面）の証拠を提出することができない。\n• ただし、裁判所が証拠提出を認める4つの例外がある：**(1)** ***事務的誤りまたは誤字***を訂正するため；**(2)** ***成立に対する抗弁を確立する***ため；**(3)** ***曖昧または多義的な条件を解釈する***ためだが、裁判所は言葉がその通常または平易な意味を表すと解釈する（**平易な意味ルール**）；および **(4)** ***部分的に統合された書面を補完する***ため。**口頭証拠排除法則（Parol Evidence Rule）は後の合意には適用されない**。\n• 部分的に統合された書面は当事者が合意したすべての条件の完全な記述を含まない。したがって、口頭証拠は書面を***矛盾しない範囲で補完できるが、矛盾する形では補完できない***。UCCの下では、すべての書面は完全に統合されていない限り、部分統合（Partial Integration）と***推定***される。\n• 完全に統合された書面は条件の***完全かつ排他的な***記述であり、その範囲内にある事前の合意を解除する。\n• **合併条項**は書面がその文面において完全である（_完全統合（Complete Integration）_）ことの証拠であり、追加的な一致する条件で補完することはできない。合併条項の欠如は合意が完全な統合として意図されていなかったことの証拠であるが（決定的ではない）、当該条件が書面から当然省略されたと考えられる場合、合意は完全に統合されているとは認められない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "口頭証拠排除原則（Parol Evidence Rule）"
+  },
+  {
+    "id": 21,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "C. Contract Content & Meaning",
+    "ruleTitle": "UCC Delivery & Risk of Loss",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams o",
+    "body": "• The terms of the parties' agreement govern the Delivery of goods and Risk of Loss. If not agreed upon, then the UCC supplies default terms.\n• Risk of Loss means which party is responsible (or must pay) for goods that are lost or damaged during delivery.\n• **If agreed upon**, then the ***contract terms govern*** Risk of Loss among the parties.\n• **If a breach occurs**, then the Risk of Loss ***typically remains with the breaching party***, _even if_ the loss or destruction of goods is unrelated to the breach.\n  ○ If the Seller breaches AND the Buyer rejects or revokes acceptance of the goods, then the ***Seller*** has the Risk of Loss until cure or acceptance.\n  ○ If the Buyer breaches (buyer repudiates or is in breach before Risk of Loss passed), then the Risk of Loss rests with the ***Buyer*** for a commercially reasonable time.\n• **For Shipments by a Common Carrier**: When goods are transported by an independent shipping company (a.k.a. a \"common carrier\"), the Risk of Loss depends on whether it's a Shipment or Destination Contract.\n  ○ Shipment Contract (e.g. \"F.O.B. Seller's Location\") – The Seller is required to arrange shipment and deliver goods to a suitable carrier ***at Seller's location***.\n    The Risk of Loss **passes to Buyer when the goods are *delivered to the Carrier***, which means that any loss or destruction of the goods while in transit is Buyer's responsibility.\n  ○ Destination Contract (e.g. \"F.O.B. Buyer's Location\") – Seller is required to ensure the goods are ***safely delivered to Buyer's location***.\n    The Risk of Loss **passes to Buyer when the goods are *delivered to Buyer***, which means that Seller is responsible for any loss or destruction of the goods while in transit or before they arrive.\n  ○ A **Shipment Contract *is presumed* if**: **(1)** the _contract does not specify_ whether it's a shipment or destination contract; **AND (2)** the shipment of goods is to be made by an _independent carrier_.\n• **For Non-Common Carrier Shipments**, the Risk of Loss depends on whether the Seller is a Merchant.\n  ○ If it's a Merchant Seller, then the Risk of Loss passes to Buyer upon ***receipt of the goods***.\n  ○ If it's a Non-Merchant Seller, then the Risk of Loss passes to Buyer upon ***tender of delivery*** (regardless of whether the buyer actually receives the goods at that time).",
+    "meeTips": [
+      "Apply the appropriate Risk of Loss rule (agreement by the parties, breach, common carrier shipment, non-common carrier shipment) depending on the fact pattern presented."
+    ],
+    "examHistory": [],
+    "translation": "• 商品の引渡しおよびリスクの移転は、当事者の合意条件によって規律される。合意がない場合、UCCがデフォルト条件を提供する。\n  リスクの移転とは、引渡し中に商品が紛失または損傷した場合にどちらの当事者が責任を負うかを意味する。\n• **合意がある場合**、***契約条件がリスクの移転を規律する***。\n• **違反が発生した場合**、リスクの移転は***通常、違反当事者に留まる***。商品の紛失または損傷が違反と無関係であっても同様。\n  ○ 売主が違反しかつ買主が商品の受領を拒否または受諾を取り消した場合、***売主***は修補または受諾まで引渡リスクを負う。\n  ○ 買主が違反した場合（リスクの移転前に解約または違反）、リスクの移転は商業的に合理的な期間***買主***に残る。\n• **運送業者による輸送の場合**：独立した運送会社（一般運送業者）によって商品が輸送される場合、リスクの移転は発送契約か到着地契約（Destination Contract）かによって異なる。\n  ○ 発送契約（例：「F.O.B. 売主の場所」）—売主は輸送を手配し、***売主の場所で***適切な運送業者に商品を引き渡すことが求められる。\n  リスクの移転は***商品が運送業者に引き渡された時***に買主に移転する。輸送中の損傷は買主の責任。\n  ○ 到着地契約（例：「F.O.B. 買主の場所」）—売主は商品が***買主の場所に安全に届けられること***を確保することが求められる。\n  リスクの移転は***商品が買主に引き渡された時***に移転する。輸送中または到着前の損傷は売主の責任。\n  ○ **発送契約は以下の場合に推定される**：**(1)** 契約が発送/到着地契約（Destination Contract）かを_指定していない_場合；**かつ (2)** _独立した運送業者_による輸送の場合。\n• **一般運送業者以外による輸送の場合**：\n  ○ 商人売主の場合、リスクの移転は買主が***商品を受領した時***に移転する。\n  ○ 非商人売主の場合、リスクの移転は***引渡しの申し出時***に移転する（その時点で買主が実際に受領したか否かを問わない）。",
+    "meeTipTranslation": "提示された事実関係に応じて、適切なリスク移転ルール（当事者間の合意、債務不履行、一般運送業者による輸送、非一般運送業者による輸送）を適用すること。",
+    "ruleTitleJa": "統一商事法典上の引渡しと危険負担（Risk of Loss）"
+  },
+  {
+    "id": 22,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "Condition Precedent",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A **condition precedent** in a contract ***makes performance conditional upon the completion of the condition***. Usually, a condition precedent is expressly stated in a contract. If a condition fails, no obligation of performance arises, and thus no breach has occurred. However, occurrence of a condition may be excused by the later action or inaction of the person who is protected by the condition. This occurs in 2 instances: **(1) A Protected Party’s Failure to Cooperate or Make a Good Faith Effort** – the protected party can lose protection of the condition if he does not make a good faith effort to satisfy the condition (this implied duty of good faith will be satisfied when reasonable steps to satisfy the condition are taken); and **(2) Waiver** – waiver occurs when a protected party ***voluntarily gives up the protection*** of the condition. The protected party can retract waiver for future conditions to the extent that the other party has not relied on the waiver.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2011, Essay 6"
+    ],
+    "translation": "• 契約における**停止条件（Condition Precedent）**は、***条件の成就を履行の条件とする***。通常、停止条件（Condition Precedent）は契約に明示的に規定される。条件が成就しない場合、履行義務は発生せず、したがって債務不履行も発生しない。しかし、条件の発生は、その条件によって保護される者のその後の作為または不作為によって免除されることがある。これは2つの場合に発生する。**(1) 保護された当事者の協力義務または誠実な努力の不履行** – 保護された当事者が条件を満たすための誠実な努力をしない場合、その者は条件による保護を失うことがある（この黙示の誠実義務は、条件を満たすための合理的な措置が取られた場合に満たされる）。そして、**(2) 権利放棄** – 権利放棄は、保護された当事者が条件による***保護を自発的に放棄する***場合に発生する。保護された当事者は、相手方がその権利放棄に依拠していない限り、将来の条件について権利放棄を撤回（Revocation）することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "停止条件（Condition Precedent）"
+  },
+  {
+    "id": 23,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "Implied Obligation of Good Faith and Fair Dealing",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Every contract contains an implied obligation of good faith and fair dealing, which requires the parties to ***act honestly and fairly***.\n• Under the UCC, an implied duty of good faith and fair dealing is imposed upon each party’s performance to a contract. **Good faith** is defined in the UCC as ***honesty in fact* AND** the ***observance of reasonable commercial standards of fair dealing***. In the case of a merchant, good faith extends even further to observance of reasonable commercial standards of fair dealing _in the trade_.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• すべての契約には、誠実公正義務が黙示的に含まれており、当事者に対し***誠実かつ公正に行動する***ことを要求する。\n• 統一商事法典（UCC）に基づき、誠実公正義務が各当事者の契約履行に課される。UCCにおいて**誠実**とは、***事実上の誠実さ*** **及び** ***公正な取引における合理的な商業基準の遵守***と定義される。商人の場合、誠実さはさらに、_当該取引における_公正な取引の合理的な商業基準の遵守にまで及ぶ。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "誠実かつ公正な取引の黙示の義務"
+  },
+  {
+    "id": 24,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "Impossibility, Impracticability, & Frustration of Purpose",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Impossibility: Performance is discharged when it is ***objectively* impossible** to perform a contract because of: **(1) death or physical incapacity** of the person ***necessary*** to effectuate the contract (if the person can easily be replaced, performance is NOT excused); **(2)** unanticipated **destruction of the subject matter necessary** to fulfill the contract; **OR (3)** a **new law or regulation** that was unanticipated makes performance ***extremely and unreasonably difficult or expensive***. The Restatement (Second) of Contracts substitutes the term “impossibility” with “impracticability”.\n• Impracticability: Performance is discharged as **impractical** when **(1)** an ***event occurs after contract formation***, **(2)** that is ***unanticipated*** by both parties at contract formation (the event’s non-occurrence was a basic assumption of the contract), **(3)** making performance ***extremely and unreasonably difficult or expensive***. This doctrine is interpreted narrowly by the courts. Generally, an increased cost to perform a contractual obligation is NOT sufficient to render the contract excused due to impracticability.\n• The Frustration of Purpose Doctrine discharges performance under a contract if the ***purpose of the contract no longer exists***. Performance is excused if: **(1)** a party’s ***principal purpose is substantially frustrated*** without his fault (the contract is virtually worthless to the party); **(2)** by an ***unforeseeable supervening event*** outside of the parties’ control (the event’s non-occurrence was a basic assumption of the contract); **AND (3) *both parties knew the purpose*** at the time of formation.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 履行不能（Impossibility）：以下の理由により契約の履行が***客観的に履行不能（Impossibility）***である場合、履行は免除される。**(1) 契約を履行するために***不可欠な***者の**死亡または身体的不能**（その者が容易に代替可能である場合、履行は免除されない）。**(2)** 契約を履行するために**不可欠な目的物の予期せぬ滅失**。**または (3)** 予期されていなかった**新しい法律または規制**により、履行が***極めて不合理に困難または高価になる***場合。契約法リステイトメント（第2版）は、「履行不能（Impossibility）」という用語を「履行困難（Impracticability）」に置き換えている。\n• 履行困難（Impracticability）：以下の条件を満たす場合、履行は**履行困難（Impracticability）**として免除される。**(1) 契約締結後に***事象が発生し***、(2) その事象が契約締結時に両当事者によって***予期されておらず***（その事象が発生しないことが契約の基本的な前提であった）、(3) 履行を***極めて不合理に困難または高価にする***場合。この法理は裁判所によって厳格に解釈される。一般に、契約上の義務を履行するための費用増加は、履行困難（Impracticability）を理由として契約が免除されるには不十分である。\n• 目的達成不能（Frustration of Purpose）の法理は、***契約の目的がもはや存在しない***場合、契約に基づく履行を免除する。以下の条件を満たす場合、履行は免除される。**(1)** 当事者の***主要な目的がその者の過失なく実質的に達成不能となり***（契約がその当事者にとって事実上無価値である）、**(2)** 当事者の支配の及ばない***予見不可能な後発事象***によって（その事象が発生しないことが契約の基本的な前提であった）、**及び (3) 契約締結時に***両当事者がその目的を知っていた***場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "履行不能（Impossibility）、履行困難（Impracticability）、および目的達成不能（Frustration of Purpose）"
+  },
+  {
+    "id": 25,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "Minor Breach (Substantial Performance Doctrine) vs. Material Breach",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under the Common Law, a **material breach** will excuse the non-breaching party’s performance. A **minor breach**, however, will NOT excuse performance, and the nonbreaching party must still perform (though he may bring a separate action for damages resulting from the breach). **A material breach occurs when a party DOES NOT render *substantial performance*** (the party did not perform major parts of the contract).\n• To determine whether a breach is material, courts will consider: **(1)** the ***extent of the benefit deprived*** to the injured party (what was the extent of performance); **(2)** the ***adequacy of compensation*** for loss to the non-breaching party; **(3)** the extent the breaching party will suffer forfeiture (***hardship***); **(4)** the ***likelihood that the breaching party will cure***; and **(5) *absence of good faith or fair dealing*** by the breaching party (was the breach intentional, negligent, or innocent).\n• Intentional Breach (a.k.a. Willful Breach): Courts are split on the effect of an intentional breach by a party. Some courts have held that substantial performance CANNOT occur if an intentional breach exists (regardless of the breach’s impact). Other courts have held that an intentional breach is just a factor to be considered and _does not_ automatically defeat recovery.\n• Unless the agreement provides otherwise, the work must be substantially performed _before_ payment can be demanded.",
+    "meeTips": [
+      "Only apply this rule for contracts governed by the Common Law (non-UCC contracts)."
+    ],
+    "examHistory": [
+      "Feb 2020, Essay 1",
+      "Feb 2012, Essay 3"
+    ],
+    "translation": "• コモン・ローの下では、**重大な違反（Material Breach）**は、違反のない当事者の履行を免除する。しかし、**軽微な違反（Minor Breach）**は履行を免除せず、違反のない当事者は依然として履行しなければならない（ただし、違反に起因する損害について別途訴訟を提起することはできる）。**重大な違反（Material Breach）は、当事者が***実質的履行（Substantial Performance）***を行わない場合に発生する**（当事者が契約の主要部分を履行しなかった）。\n• 違反が重大であるか否かを判断するために、裁判所は以下を考慮する。**(1)** 損害を受けた当事者が***奪われた利益の程度***（履行の程度がどうであったか）。**(2)** 違反のない当事者に対する損失の***補償の適切性***。**(3)** 違反当事者が没収（***困難***）を被る程度。**(4)** 違反当事者が***是正する可能性***。**(5)** 違反当事者による***誠実さまたは公正な取引の欠如***（違反が意図的であったか、過失によるものであったか、または無過失であったか）。\n• 意図的違反（別名：故意の違反）：当事者による意図的違反の効果については、裁判所の見解は分かれている。一部の裁判所は、意図的違反が存在する場合、実質的履行（Substantial Performance）は発生し得ない（違反の影響にかかわらず）と判示している。他の裁判所は、意図的違反は考慮されるべき一要素に過ぎず、自動的に回復を妨げるものでは_ない_と判示している。\n• 合意に別段の定めがない限り、支払いを要求する_前に_作業は実質的に履行されなければならない。\n\n[MEEのヒント]\nこの規則は、コモン・ロー（UCC非適用契約）に準拠する契約にのみ適用すること。",
+    "meeTipTranslation": "このルールはコモンロー（UCC非適用契約）が支配する契約にのみ適用すること。",
+    "ruleTitleJa": "軽微な契約違反（実質的履行の原則（Substantial Performance Doctrine））対 重大な契約違反（Material Breach）"
+  },
+  {
+    "id": 26,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "Divisible Performance (Part Performances as Agreed Equivalents)",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Unless otherwise agreed, a contract is divisible when: **(1)** the ***performances*** to be exchanged ***can be divided*** into corresponding pairs of part performances; **(2)** in a way that the elements of each pair will be treated ***as if the parties had agreed they were equivalents***. Both elements MUST be satisfied. In such instance, the performance of one part of the contract will obligate the other party to perform their respective part (i.e. usually payment).\n• The divisibility rule may only be applied where calculation of the parts are feasible. A purchase agreement may be divisible if the price of separate items is stated in the contract, stated on a price list (on which the contract was based), or can be reliably ascertained.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2012, Essay 3"
+    ],
+    "translation": "• 別段の合意がない限り、契約は以下の場合に可分である。**(1)** 交換されるべき***履行***が、対応する部分履行の対に***分割できる***。**(2)** 各対の要素が、***当事者がそれらを同等であると合意したかのように***扱われる方法である。両方の要素が満たされなければならない。そのような場合、契約の一部の履行は、相手方当事者にそれぞれの部分（すなわち、通常は支払い）を履行する義務を負わせる。\n• 可分性の規則は、各部分の計算が実行可能である場合にのみ適用され得る。売買契約は、個別の品目の価格が契約に明記されているか、価格表（契約の基礎となったもの）に記載されているか、または確実に確認できる場合に可分となり得る。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "可分履行（合意された等価物としての部分履行）"
+  },
+  {
+    "id": 27,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "UCC Perfect Tender Rule & Exceptions",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under Article 2 of the UCC, a seller must deliver conforming goods. The smallest non-conformity is a breach and the buyer may reject all or a portion of the goods. However, two exceptions to this rule exist under the UCC: **(1)** if the ***seller has the right to cure***; and **(2)** in the ***Installment contract context***.\n• A **seller has a right to cure in 2 situations**: **(a)** If the time for performance has NOT yet expired, the seller can cure within the contract time period remaining; **OR (b)** The seller is allowed additional reasonable time to substitute tender if it had reasonable grounds that the goods would be accepted (i.e. when the same type of non-conforming goods were accepted by the buyer in the past).\n• Special rules apply when a seller provides non-conforming goods under an installment contract. **Installment contracts** may only be cancelled ***where an installment is so defective that it substantially impairs the value of the *entire contract****. Similarly, a buyer may reject an installment ***only if*** the non-conformity substantially impairs that installment and the time to cure has past.\n• Under Article 2 of the UCC, a rejection of non-conforming goods must be made ***within a reasonable time*** after their delivery or tender.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• UCC第2編の下では、売主は適合品を引渡さなければならない。わずかな不適合も違反であり、買主は商品の全部または一部を拒否できる。ただし、UCCの下ではこの規則に2つの例外が存在する。**(1)** ***売主が是正権（Right to Cure）を有する***場合。**(2)** ***分割払契約（Installment Contract）の文脈***において。\n• **売主は2つの状況で是正権（Right to Cure）を有する**。**(a)** 履行期間がまだ満了していない場合、売主は契約期間内に是正できる。**または(b)** 売主が商品が受諾される合理的な根拠を有していた場合（すなわち、過去に買主によって同じ種類の不適合品が受諾された場合）、売主は代替の提供を行うための追加の合理的な期間を許される。\n• 売主が分割払契約（Installment Contract）の下で不適合品を提供する場合、特別な規則が適用される。**分割払契約（Installment Contract）**は、***分割払が*全体の契約*の価値を著しく損なうほど欠陥がある場合にのみ***解除され得る。同様に、買主は、不適合がその分割払を実質的に損ない、かつ是正期間が過ぎた***場合にのみ***、分割払を拒否できる。\n• UCC第2編の下では、不適合品の拒否は、その引渡しまたは提供後***合理的な期間内***に行われなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "統一商事法典の完全履行原則（Perfect Tender Rule）と例外"
+  },
+  {
+    "id": 28,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "UCC Acceptance of Goods & Revocation of Acceptance",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Acceptance of goods occurs when the buyer: **(a)** after a reasonable opportunity to inspect the goods, ***signifies to the seller that the goods are conforming or that he will take/retain them despite the non-conformity***; **(b) *fails to reject the goods*** _after_ a reasonable opportunity to inspect them; **OR (c)** does any ***act inconsistent with the seller’s ownership*** of the goods. Acceptance of a part of any commercial unit is acceptance of that entire unit.\n• The **buyer is obligated to pay for the purchase once acceptance occurs** (_unless_ a revocation of acceptance is allowed), but may still sue for breach of contract if the buyer notifies the seller of the breach within a reasonable time.\n• After the acceptance of goods, a buyer may later revoke that acceptance only if: **(1)** the nonconformity ***substantially impairs*** the value of the goods; **AND (2)** either (a) the defect was ***difficult to discover*** (a latent defect), (b) acceptance was reasonably induced by the ***seller’s assurances***, _or_ (c) the buyer accepted the goods on the reasonable ***assumption the defect would be cured***. Revocation of acceptance MUST occur within a ***reasonable time*** after the buyer discovers or should have discovered the nonconformity. The revocation is NOT effective until the buyer notifies the seller. In addition, the revocation of acceptance must occur before there is any substantial change in the goods, not caused by their own defects_._ **If a buyer successfully revokes acceptance, he is entitled to return of the purchase price**. A buyer who revokes acceptance has the same rights and duties with regard to the goods involved as if he had rejected them.",
+    "meeTips": [],
+    "examHistory": [
+      "Sept 2020, Essay 6",
+      "July 2010, Essay 2",
+      "July 2004, Essay 7"
+    ],
+    "translation": "• 買主による物品の受領は、買主が以下のいずれかの場合に生じる。**(a)** 物品を検査する合理的な機会を得た後、***物品が適合していること、または不適合にもかかわらず物品を受け取り/保持することを売主に表明した場合***、**(b)** 物品を検査する合理的な機会を得た_後_、***物品の拒絶を怠った場合***、**または (c)** 物品の***売主の所有権と矛盾する行為***を行った場合。いずれかの商業単位の一部を受領することは、当該単位全体の受領である。\n• **受領が生じた場合、買主は購入代金を支払う義務を負う**（受領の撤回（Revocation of Acceptance）が許容される場合_を除き_）が、買主が合理的な期間内に売主に違反を通知した場合は、依然として契約違反を理由に提訴することができる。\n• 物品の受領後、買主は以下のいずれかの条件を満たす場合にのみ、その受領を撤回（Revocation）することができる。**(1)** 不適合が物品の価値を***著しく損なう***こと、**かつ (2)** (a) 欠陥が***発見困難であった***（潜在的欠陥）か、(b) 受領が***売主の保証***によって合理的に誘発されたか、_または_ (c) 買主が***欠陥が是正されるという合理的な仮定***に基づいて物品を受領したかのいずれかであること。受領の撤回（Revocation of Acceptance）は、買主が不適合を発見した、または発見すべきであった後、***合理的な期間内***に行われなければならない。撤回（Revocation）は、買主が売主に通知するまで効力を生じない。さらに、受領の撤回（Revocation of Acceptance）は、物品自体の欠陥によって引き起こされたものではない、物品の実質的な変更が生じる前に行われなければならない_。_**買主が受領の撤回（Revocation of Acceptance）に成功した場合、買主は購入代金の返還を受ける権利がある**。受領を撤回（Revocation）した買主は、関連する物品に関して、それらを拒絶した場合と同様の権利と義務を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "統一商事法典上の物品の受領と受領の撤回（Revocation of Acceptance）"
+  },
+  {
+    "id": 29,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "Anticipatory Repudiation & Adequate Assurances",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Generally, a party must wait for the other party to breach before bringing an action to demand performance or for damages. However, a non-breaching party may seek damages ***before*** the time of performance is due if there is an anticipatory repudiation by the other party. An **anticipatory repudiation** occurs when a party ***unequivocally communicates*** that he is ***unable or unwilling to perform***.\n• **A party that anticipatorily breaches a contract may retract its repudiation and restore the contract UNLESS the aggrieved party has**: **(a)** cancelled; **(b)** materially changed his position; **OR (c)** indicated that he considers the repudiation final.\n• In addition, a party with ***reasonable grounds*** for being insecure about the other party’s performance may demand in writing ***adequate assurances*** from the other party that it will perform in accordance with the contract. **If a party DOES NOT give adequate assurances after it is asked to do so, the asking party may treat that as an anticipatory repudiation**.\n• When an anticipatory repudiation occurs, the non-breaching party may do _any_ of the following: **(a)** treat the contract as ***repudiated*** and sue for damages; **(b)** treat the contract as ***discharged***; **(c) *wait*** until performance is due and sue when performance does not occur; **OR (d) *urge*** the party to perform.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2015, Essay 3",
+      "Feb 2013, Essay 2"
+    ],
+    "translation": "• 一般に、当事者は、履行の請求または損害賠償を求める訴訟を提起する前に、相手方が違反するのを待たなければならない。しかし、相手方による履行拒絶（Repudiation）があった場合、違反していない当事者は、履行期が到来する***前***に損害賠償を求めることができる。**履行拒絶（Repudiation）**は、当事者が***履行不能（Impossibility）または履行意思がない***ことを***明確に伝達する***場合に生じる。\n• **先取的違反（Anticipatory Repudiation）をした当事者は、被害当事者が以下のいずれかの場合でない限り、その拒絶を撤回（Revocation）し、契約を回復することができる**: **(a)** 解除した、** (b)** その立場を実質的に変更した、**または (c)** その拒絶を最終的なものとみなすことを示した。\n• さらに、相手方の履行について不安を抱く***合理的な根拠***がある当事者は、相手方に対し、契約に従って履行することの***十分な保証***を書面で要求することができる。**十分な保証を求められた後に提供しない場合、要求した当事者はそれを先取的履行拒絶（Repudiation）として扱うことができる**。\n• 履行拒絶（Repudiation）が生じた場合、違反していない当事者は、以下の_いずれか_を行うことができる。**(a)** 契約を***拒絶されたもの***として扱い、損害賠償を求めて提訴する、**(b)** 契約を***解除されたもの***として扱う、**(c)** 履行期が到来するまで***待機し***、履行が行われない場合に提訴する、**または (d)** 当事者に履行を***促す***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "履行期前の履行拒絶（Anticipatory Repudiation）と適切な保証"
+  },
+  {
+    "id": 30,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "D. Performance, Breach, & Discharge",
+    "ruleTitle": "Accord and Satisfaction",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A party is ***excused*** from their obligations under a contract when there has been an accord and satisfaction. An **accord** is an executory contract between the parties promising to relieve a party of their contractual obligations in return for a specific act. Upon **satisfaction** of that act, that person is excused from further performance under the contract. If the party fails to satisfy the accord, the other party may sue either under: (a) the original contract; OR (b) the accord terms.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 和解と満足（Accord and Satisfaction）があった場合、当事者は契約上の義務から***免除される***。**和解**とは、特定の行為と引き換えに、一方の当事者の契約上の義務を免除することを約束する当事者間の執行契約である。当該行為の**満足**により、その者は契約に基づくさらなる履行から免除される。当事者が和解を満足させなかった場合、相手方は以下のいずれかにより提訴することができる。(a) 原契約、または (b) 和解条件。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "和解と弁済（Accord and Satisfaction）"
+  },
+  {
+    "id": 31,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "E. Warranties in Sales of Goods Contracts",
+    "ruleTitle": "Express Warranty",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under Article 2 of the UCC, a seller is liable for a breach of an express warranty she makes to a buyer. An express warranty is created when **(1)** a seller makes an ***affirmation of fact, promise, or description, or provides a sample***, **(2)** which ***relates to the goods***, and **(3)** becomes ***part of the basis of the bargain***. A seller need not intend to create an express warranty or directly use the words “warranty” or “guarantee” to create an express warranty. An **OPINION** _does not_ create an express warranty (i.e. a seller’s praise or assertion of the value of the goods). Once a buyer discovers the breach of a warranty, they may sue for breach of contract.\n• Disclaimer of Express Warranty: **An express warranty CANNOT be disclaimed by a seller**. If a seller attempts a disclaimer, the court will first attempt to construe the language of the disclaimer in a way that is consistent with the warranty. But, when the two cannot be reconciled, the attempted disclaimer is deemed ***invalid***.\n• Express Warranty & Parol Evidence Rule: If there is a ***final written agreement*** among the parties, the **parol evidence rule** MAY PROHIBIT evidence of an express warranty. A final and complete written agreement that expressly disclaims an express warranty by seller (other than those contained in the writing) may be effective to preclude evidence about the seller’s prior or contemporaneous representations that would otherwise constitute an express warranty. In such instance, the buyer will not be able to prove that an express warranty exists, as any evidence of the same would be barred. However, if the express warranty is contained in the final written agreement, then any attempted disclaimer is ineffective.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 2",
+      "July 2010, Essay 2"
+    ],
+    "translation": "• UCC第2条に基づき、売主は買主に対して行った明示の保証（Express Warranty）の違反について責任を負う。明示の保証（Express Warranty）は、**(1)** 売主が***事実の表明、約束、記述を行うか、または見本を提供する***こと、**(2)** それが***商品に関連する***こと、そして**(3)** ***取引の基礎の一部となる***ことによって創設される。売主は、明示の保証（Express Warranty）を創設する意図を持つ必要はなく、「保証」や「ギャランティ」といった言葉を直接使用する必要もない。**意見**は明示の保証（Express Warranty）を創設_しない_（すなわち、売主の商品に対する称賛や価値の主張）。買主が保証の違反を発見した場合、契約違反で訴訟を提起することができる。\n• 明示の保証（Express Warranty）の免責：**明示の保証（Express Warranty）は売主によって免責することはできない**。売主が免責を試みた場合、裁判所はまず、免責条項の文言を保証と整合する方法で解釈しようと試みる。しかし、両者が調和できない場合、試みられた免責は***無効***とみなされる。\n• 明示の保証（Express Warranty）と口頭証拠排除原則（Parol Evidence Rule）：当事者間に***最終的な書面による合意***がある場合、**口頭証拠排除原則（Parol Evidence Rule）**は明示の保証（Express Warranty）の証拠を禁止する可能性がある。売主による明示の保証（書面に含まれるものを除く）を明示的に免責する最終的かつ完全な書面による合意は、さもなければ明示の保証（Express Warranty）を構成するであろう売主の事前または同時期の表明に関する証拠を排除するのに有効である場合がある。そのような場合、買主は明示の保証（Express Warranty）が存在することを証明できない。なぜなら、それに関するいかなる証拠も排除されるからである。ただし、明示の保証（Express Warranty）が最終的な書面による合意に含まれている場合、いかなる免責の試みも無効である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "明示の保証（Express Warranty）"
+  },
+  {
+    "id": 32,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "E. Warranties in Sales of Goods Contracts",
+    "ruleTitle": "Implied Warranty of Merchantability",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under Article 2 of the UCC, the Implied Warranty of Merchantability is implied in all sales of goods contracts, and requires that **all goods sold by a *merchant* (a person dealing in goods of the kind) MUST *be fit for their ordinary purpose***. Once a buyer discovers the breach of a warranty, he may sue for breach of contract.\n• While it is possible to disclaim the implied warranty of merchantability, a merchant must do so ***expressly*** in a ***conspicuous writing***. Language of _“as is”_ or _“with all faults”_ or _language that puts the buyer on notice_ will be sufficient for a disclaimer of the implied warranty of merchantability.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• UCC第2条に基づき、商品性に関する黙示の保証（Implied Warranty of Merchantability）は全ての物品売買契約に黙示的に含まれ、***商人***（ある種の商品を扱う人物）によって販売される**全ての商品が**、***その商品が通常使用される目的***に適合していることを要求する。買主が保証の違反を発見した場合、契約違反で訴訟を提起することができる。\n• 商品性に関する黙示の保証（Implied Warranty of Merchantability）を免責することは可能であるが、商人は***明示的に***、***目立つ書面***で行わなければならない。_「現状有姿」_または_「全ての瑕疵を伴う」_という文言、あるいは_買主に通知を与える文言_は、商品性に関する黙示の保証（Implied Warranty of Merchantability）の免責に十分である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "商品性に関する黙示の保証（Implied Warranty of Merchantability）"
+  },
+  {
+    "id": 33,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "E. Warranties in Sales of Goods Contracts",
+    "ruleTitle": "Implied Warranty of Fitness for a Particular Purpose",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the UCC, an implied warranty of fitness for a particular purpose is created when: **(1)** a ***seller knows or has reason to know of the buyer’s particular purpose*** for which the goods are required; **AND (2) *the buyer relies on the seller’s skill or judgment to select or furnish suitable goods***. If the above elements are met, the goods MUST be fit for the particular purpose of the buyer, otherwise there is a breach of warranty.\n• An implied warranty of fitness may be disclaimed or excluded: **(a)** by a ***conspicuous writing*** – it is written, displayed, or presented that a reasonable person against it would operate ought to have noticed it; **(b)** by conspicuous ***“as is” type language*** – through the use of language such as “as is”, “with all faults”, or other language that calls the buyer’s attention to the exclusion of warranties; **(c)** through ***waiver*** if certain fitness defects can be reasonably discovered upon inspection by the buyer; **OR (d)** by ***course of dealing, performance, or usage of trade***. Language is sufficient to disclaim a warranty for fitness if it states that “There are no warranties which extend beyond the description on the face hereof.”\n• Conspicuous terms include: (i) a ***heading*** in capitals equal to or greater in size than the surrounding text, _or_ in contrasting type, font, or color to the surrounding text; or (ii) language in ***larger type*** than the surrounding text, in ***contrasting type, font, or color*** to the surrounding text, _or_ ***set off from surrounding text*** by symbols or other marks that call attention to the language.",
+    "meeTips": [],
+    "examHistory": [
+      "Sept 2020, Essay 6"
+    ],
+    "translation": "• UCCに基づき、特定目的適合性に関する黙示の保証（Implied Warranty of Fitness for a Particular Purpose）は、以下のときに創設される。**(1)** ***売主が商品が必要とされる買主の特定目的を知っているか、知るべき理由がある***こと、**かつ (2) ***買主が適切な商品を選択または提供するために売主の技能または判断に依拠する***こと。上記の要件が満たされた場合、商品は買主の特定目的に適合していなければならず、さもなければ保証違反（Breach of Warranty）となる。\n• 黙示の適合性保証は、以下の方法で免責または排除される場合がある。**(a)** ***目立つ書面***による場合 – それは、合理的な人物がそれに反対して行動する際に気づくべきであったように、書かれ、表示され、または提示されている；**(b)** 目立つ***「現状有姿」型の文言***による場合 – 「現状有姿」、「全ての瑕疵を伴う」といった文言、または保証の排除に買主の注意を促すその他の文言の使用を通じて；**(c)** 買主による検査によって特定の適合性に関する瑕疵が合理的に発見されうる場合の***権利放棄***を通じて；**または (d)** ***取引の過程、履行の過程、または取引慣行***によって。「本契約書表面の記述を超える保証は存在しない。」と記載されている文言は、適合性に関する保証を免責するのに十分である。\n目立つ条項には以下が含まれる。(i) 周囲のテキストと同じかそれ以上の大きさの大文字の***見出し***、_または_ 周囲のテキストと対照的な書体、フォント、または色の見出し；または (ii) 周囲のテキストよりも***より大きな活字***、周囲のテキストと***対照的な書体、フォント、または色***、_または_ その文言に注意を促す記号またはその他のマークによって***周囲のテキストから区別されている***文言。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "特定目的適合性に関する黙示の保証（Implied Warranty of Fitness for a Particular Purpose）"
+  },
+  {
+    "id": 34,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "E. Warranties in Sales of Goods Contracts",
+    "ruleTitle": "Warranty of Title",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under the UCC, warranty of title is implied in all sales of goods contracts, and includes the following warranties: **(1)** the ***title conveyed shall be good***, and its transfer rightful; **AND (2)** the goods shall be ***delivered free from any security interest or other lien or encumbrance***, unless the buyer has knowledge of the same.\n• A seller who _does not_ have title to goods generally CANNOT transfer title to a buyer. HOWEVER, if the true owner entrusts the possession of goods to a merchant (one who deals in goods of that kind), then the merchant has the power to transfer all rights the owner had to a ***buyer in the ordinary course of business***.\n• The implied warranty of title may be expressly disclaimed by specific language or by circumstances that puts the buyer on notice that the seller does not claim title.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2003, Essay 2",
+      "July 2000, Essay 6"
+    ],
+    "translation": "• 統一商事法典（UCC）の下では、権原の保証（Warranty of Title）はすべての物品売買契約において黙示され、以下の保証を含む。**(1)** ***移転される権原は有効である***こと、およびその移転は正当であること。**かつ (2)** 買主がそれらを知っている場合を除き、物品は***いかなる担保権、その他の先取特権または負担からも解放されて引き渡される***こと。\n• 物品の権原を_有しない_売主は、一般的に買主に権原を移転することはできない。しかし、真の所有者が物品の占有を商人（その種の物品を扱う者）に委託した場合、その商人は所有者が有していたすべての権利を***通常の取引過程における買主***に移転する権限を有する。\n• 黙示の権原の保証（Warranty of Title）は、特定の文言によって、または売主が権原を主張しないことを買主に通知する状況によって、明示的に否認されうる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "権原の保証（Warranty of Title）"
+  },
+  {
+    "id": 35,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "E. Warranties in Sales of Goods Contracts",
+    "ruleTitle": "Limiting Damages for Breach of Warranty",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• By agreement, a seller may limit the buyer’s remedies for breach of a warranty so long as ***the limitation is NOT unconscionable at the time the contract was formed***. However, there are two exceptions to this rule. Exception #1: Limiting a buyer’s remedy for ***personal injuries*** for ***consumer goods*** is ***presumed*** unconscionable (but a seller can rebut the presumption at trial). Exception #2: If a limited remedy ***“fails of its essential purpose,”*** the limited remedy will be set aside and the default remedy provisions of UCC Article 2 will apply.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 合意により、売主は保証違反（Breach of Warranty）に対する買主の救済を、***その制限が契約締結時に不当でない***限りにおいて制限することができる。ただし、この規則には2つの例外がある。例外1：***消費者向け物品***に対する***人身傷害***に関する買主の救済を制限することは、不公正であると***推定される***（ただし、売主は裁判でその推定を覆すことができる）。例外2：制限された救済が***「その本質的な目的を達成しない」***場合、その制限された救済は無効とされ、統一商事法典第2編の既定の救済規定が適用される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "保証違反（Breach of Warranty）に対する損害賠償の制限"
+  },
+  {
+    "id": 36,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "F. Third-Party Rights",
+    "ruleTitle": "Third-Party Beneficiaries & Enforcement of Rights",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Generally, a party who is _not_ in privity of contract with another party cannot assert a claim for breach against that party. However, when the party asserting the claim is an intended third-party beneficiary, the party has the ***same rights*** as those in privity of contract, and can assert a claim for breach.\n  ○ An **intended third-party beneficiary** is not a party to the contract, but has rights under the contract because the contracting parties contemplated that their respective performances were ***intended to benefit an identified third-party***.\n  ○ An **incidental beneficiary** is a person that just happens to benefit from the contract, but has NO legal rights because the purpose of the contract was not intended to benefit them.\n• Enforcement of an Intended Third-Party Beneficiary’s Rights: An intended third-party beneficiary may **enforce rights** under a contract ONLY IF the rights have ***vested***. Rights vest when the third-party beneficiary has: **(a) *manifests assent*** to the promise under the contract at the request of a contracting party; **(b) *detrimentally relied*** on the contract; **OR (c) *brings suit*** to enforce the contract. Once rights have vested, a contract CANNOT be changed or modified without the third-party’s consent. A claim may only be brought against the promisor (when the third-party is a creditor, a suit may also be brought against the promisee).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2016, Essay 5"
+    ],
+    "translation": "• 一般的に、他の当事者との契約関係に_ない_当事者は、その当事者に対して違反の請求を主張することはできない。しかし、請求を主張する当事者が意図された第三者受益者（Intended Third-Party Beneficiary）である場合、その当事者は契約関係にある者と***同じ権利***を有し、違反の請求を主張することができる。\n  ○ **意図された第三者受益者（Intended Third-Party Beneficiary）**は契約の当事者ではないが、契約当事者がそれぞれの履行が***特定された第三者の利益となることを意図していた***ため、契約に基づく権利を有する。\n  ○ **付随的受益者（Incidental Beneficiary）**は、たまたま契約から利益を得る者であるが、契約の目的が彼らの利益となることを意図していなかったため、法的権利を一切有しない。\n• 意図された第三者受益者（Intended Third-Party Beneficiary）の権利の執行：意図された第三者受益者（Intended Third-Party Beneficiary）は、権利が***確定***した場合に限り、契約に基づく**権利を執行**することができる。権利は、第三者受益者（Third-Party Beneficiary）が以下のいずれかを行った場合に確定する。**(a) *契約当事者の要請により、契約に基づく約束に同意を表明する***。(b) *契約に***不利益な信頼を置いた***。**または (c) *契約を執行するために***訴訟を提起する***。権利が確定した後、第三者の同意なしに契約を変更または修正することはできない。請求は約束者に対してのみ提起されうる（第三者が債権者である場合、被約束者に対しても訴訟を提起することができる）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "第三者受益者（Third-Party Beneficiary）と権利の執行"
+  },
+  {
+    "id": 37,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "F. Third-Party Rights",
+    "ruleTitle": "Assignment of Rights",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Rights and benefits under a contract may be transferred to a third-party if: **(1)** the assignor ***manifests his intent*** to transfer the rights; **AND (2)** the ***assignee assents*** to the assignment. Consideration is NOT required for an assignment, BUT if **consideration is provided**, the assignment becomes ***irrevocable***. Gratuitous assignments may subsequently be revoked (unless an exception applies).\n• Limitations: An assignment is valid UNLESS: **(a)** it ***materially alters*** what is expected under the contract; **(b)** it is ***prohibited by law or public policy***; **OR (c)** it is ***precluded by contract***. **Materially altering** what is expected under the contract occurs when the assignment: (a) materially changes the duty of the obligor; (b) materially increases the burden or risk imposed on the obligor; (c) materially impairs the obligor’s chance of obtaining return performance; OR (d) materially reduces the value of the return performance.\n• Exceptions when a Gratuitous Assignment is _Irrevocable_: A gratuitous assignment is irrevocable in the following situations: **(a) *Delivery of a Symbolic Document*** – when a document is delivered to the assignee symbolizing the right assigned (e.g. stock shares, insurance policy); **(b) *Detrimental Reliance*** – when the assignee reasonably and foreseeably relies on the assignment to their detriment; **(c) *By Obligor’s Performance*** – if the obligor performs or pays the assignee, that right to performance/payment is irrevocable; **OR (d) *Writing Delivered by Assignor*** – when the assignor puts the assignment in writing and delivers said writing to assignee.\n• Parties may attempt to prevent assignments in the original contract through either: **(a) Prohibitions**: Terms in a contract that prohibit the transfer of rights. If the rights are assigned, the assignor is liable for damages, BUT the ***assignment is still valid and enforceable*** by the assignee; **OR (b) Invalidations**: Terms in a contract that void all assignments. If the rights are assigned in this case, the ***assignment is void***.\n• Rights of Assignee and Assignor: An assignee ***may sue the obligor*** for non-performance. Any defense to enforcement that could be used against the assignor may also be used against the assignee. An assignee may also ***sue the assignor*** for wrongful revocation of an assignment or for breach of an implied warranty.\n• Multiple Assignments: Where there are multiple **gratuitous assignments**, the ***last assignee prevails*** (unless the assignment was irrevocable). Where there are multiple **assignments for consideration**, the ***first assignment prevails*** UNLESS the later assignment: (1) has ***no notice*** of the earlier assignment; AND (2) is the ***first to obtain*** either (a) ***payment***, (b) a ***judgment***, (c) a ***new contract*** from the obligor by novation, _or_ (d) some ***indicia of ownership***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2016, Essay 5"
+    ],
+    "translation": "• 契約上の権利および利益は、以下の条件を満たす場合に第三者に譲渡され得る。**（1）**譲渡人が権利を譲渡する***意思を表明する***こと、**および（2）**譲受人が譲渡に***同意する***こと。譲渡に対価は不要であるが、**対価が提供された場合**、その譲渡は***撤回（Revocation）不能***となる。無償譲渡はその後撤回（Revocation）され得る（例外が適用される場合を除く）。\n• 制限：譲渡は有効である、ただし以下のいずれかの場合を除く。**（a）**それが契約上期待されるものを***実質的に変更する***場合、**（b）**それが***法律または公序良俗により禁止されている***場合、**または（c）**それが***契約により排除されている***場合。契約上期待されるものを**実質的に変更する**とは、譲渡が以下のいずれかの場合に生じる。（a）債務者の義務を実質的に変更する、（b）債務者に課される負担またはリスクを実質的に増加させる、（c）債務者が反対給付を得る機会を実質的に損なう、または（d）反対給付の価値を実質的に減少させる。\n• 無償譲渡が_撤回（Revocation）不能_となる例外：無償譲渡は以下の状況において撤回（Revocation）不能となる。**（a）***象徴的文書の交付*** – 譲渡された権利を象徴する文書が譲受人に交付された場合（例：株式、保険証券）、**（b）***不利益な信頼*** – 譲受人が譲渡に合理的にかつ予見可能に依拠して不利益を被った場合、**（c）***債務者の履行による*** – 債務者が譲受人に対して履行または支払いを行った場合、その履行／支払いを受ける権利は撤回（Revocation）不能となる、**または（d）***譲渡人により交付された書面*** – 譲渡人が譲渡を書面化し、当該書面を譲受人に交付した場合。\n• 当事者は、原契約において以下のいずれかの方法で譲渡を阻止しようと試みることができる。**（a）禁止条項**：権利の移転を禁止する契約条項。権利が譲渡された場合、譲渡人は損害賠償責任を負うが、***譲渡は依然として有効かつ譲受人により執行可能である***。**または（b）無効化条項**：全ての譲渡を無効とする契約条項。この場合、権利が譲渡された場合、***譲渡は無効である***。\n• 譲受人および譲渡人の権利：譲受人は不履行につき***債務者を訴えることができる***。譲渡人に対して主張し得る執行に対する抗弁は、譲受人に対しても主張し得る。譲受人はまた、譲渡の不当な撤回（Revocation）または黙示の保証（Implied Warranty）の違反につき***譲渡人を訴えることができる***。\n• 複数の譲渡：複数の**無償譲渡**がある場合、***最後の譲受人が優先する***（譲渡が撤回（Revocation）不能であった場合を除く）。複数の**有償譲渡**がある場合、***最初の譲渡が優先する***、ただし後の譲渡が以下のいずれかである場合を除く。（1）先の譲渡について***通知を受けていない***、**および（2）**以下のいずれかを***最初に取得した***場合である。（a）***支払い***、（b）***判決***、（c）更改（Novation）による債務者からの***新たな契約***、_または_（d）何らかの***所有権の表示***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "権利の譲渡（Assignment of Rights）"
+  },
+  {
+    "id": 38,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "F. Third-Party Rights",
+    "ruleTitle": "Delegation of Duties",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• All contract duties are delegable **UNLESS**: **(a)** the ***contract prohibits*** delegations or assignments; **(b)** the delegation is ***against public policy***; **(c)** the contract is for personal services that calls for the exercise of ***personal skill or discretion***; **OR (d)** the delegation ***materially alters the expectancy of the obligee*** (the party to which the duty is owed). An assignment generally includes a delegation of the unperformed duties under a contract. Generally, the obligor (the delegating/ assigning party) ***remains liable*** for non-performance of the contract, UNLESS all the parties agree otherwise (known as a novation).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 4",
+      "July 2016, Essay 5"
+    ],
+    "translation": "• 全ての契約上の義務は委任可能である、ただし以下のいずれかの場合を除く。**（a）*****契約が委任または譲渡を禁止している***場合、**（b）**委任が***公序良俗に反する***場合、**（c）**契約が***個人的な技能または裁量***の行使を要する人的役務に関するものである場合、**または（d）**委任が***債権者（義務を負う相手方）の期待を実質的に変更する***場合。譲渡は一般に、契約上の未履行の義務の委任（Delegation of Duties）を含む。一般に、債務者（委任者／譲渡人）は契約の不履行につき***責任を負い続ける***、ただし全ての当事者が別途合意した場合（更改（Novation）として知られる）を除く。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "義務の委任（Delegation of Duties）"
+  },
+  {
+    "id": 39,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Common Law Expectation Damages",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• The general measure of damages for a breach of contract are expectation damages. Expectation damages arise ***directly*** from the breach, and are an attempt to put the non-breaching party in the **same position it would have been in but for the breach**. To recover, the damages must be: **(1) *caused*** by the defendant (actual cause); **(2) *foreseeable*** (proximate cause); (3) ***certain*** (damages cannot be speculative); **AND (4) *unavoidable*** (the plaintiff must take reasonable steps to mitigate his losses). An award of damages must account and deduct for any costs the injured party avoided because of the breach.\n• When awarding damages for **Detrimental Reliance / Promissory Estoppel**, courts are split on the proper measure of damages. Some courts award Expectation Damages, while other courts award Reliance Damages. Additionally, some courts have held that they may award either Expectation Damages or Reliance Damages depending on which measure of damages best fits the equities of the particular case.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 2",
+      "July 2019, Essay 4",
+      "Feb 2011, Essay 6",
+      "July 2008, Essay 8"
+    ],
+    "translation": "• 契約違反に対する損害賠償の一般的な算定基準は、期待利益損害（Expectation Damages）である。期待利益損害（Expectation Damages）は違反から***直接***生じ、違反がなければ非違反当事者が置かれていたであろう**同じ状況**に置こうとする試みである。回復するためには、損害は以下の要件を満たさなければならない。**（1）***被告によって引き起こされた***ものであること（事実的因果関係）、**（2）***予見可能である***こと（法的因果関係）、**（3）***確実である***こと（損害は推測的であってはならない）、**および（4）***回避不能である***こと（原告は損失を軽減するために合理的な措置を講じなければならない）。損害賠償の裁定は、被侵害当事者が違反のために回避した費用を考慮し、控除しなければならない。\n• **不利益な信頼／約束的禁反言（Promissory Estoppel）**に対する損害賠償を裁定する際、裁判所は適切な損害賠償の算定基準について意見が分かれている。一部の裁判所は期待利益損害（Expectation Damages）を裁定する一方、他の裁判所は信頼利益損害を裁定する。さらに、一部の裁判所は、特定の事案の衡平に最も適合する損害賠償の算定基準に応じて、期待利益損害（Expectation Damages）または信頼利益損害のいずれかを裁定し得ると判示している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "コモンロー上の期待利益損害（Expectation Damages）賠償"
+  },
+  {
+    "id": 40,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Consequential Damages",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Consequential damages arise ***indirectly*** from the breach, and are awarded because of the injured party’s special circumstances (e.g. lost profits).\n• To recover, the damages MUST be: **(1) *reasonably foreseeable*** at the time of contract formation; **(2)** arise from the plaintiff’s special circumstances that the ***defendant knew or had reason to know of***; **AND (3) *reasonably certain*** (the damages cannot be speculative). An award of damages must account for and deduct for any costs the injured party avoided because of the breach.\n• Consequential damages MAY be limited or excluded by agreement _unless_ the limitation/exclusion is ***unconscionable***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2019, Essay 4",
+      "July 2008, Essay 8"
+    ],
+    "translation": "• 結果的損害（Consequential Damages）は債務不履行から***間接的に***生じ、被侵害当事者の特別事情（例：逸失利益（Lost Profits））を理由として裁定される。\n• 回復するためには、当該損害は以下の要件を満たさなければならない：**(1) 契約締結時に***合理的に予見可能***であること；(2) ***被告が知っていたか、知るべき理由があった***原告の特別事情から生じること；**かつ**(3) ***合理的に確実***であること（損害は不確実であってはならない）。損害賠償額の算定においては、被侵害当事者が債務不履行によって回避した費用を考慮し、控除しなければならない。\n• 結果的損害（Consequential Damages）は、当該制限または排除が***不公正***でない限り、合意により制限または排除され得る。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "結果的損害（Consequential Damages）"
+  },
+  {
+    "id": 41,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Reliance Damages",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Reliance damages are generally the **expenditures or forbearance made by a party in reliance of a contract**, and are an attempt to put the non-breaching party ***in the position it would have been if the contract *never existed***.\n• Reliance damages are available when: **(1)** a plaintiff ***acted in reliance*** on the defendant’s agreement to perform under a contract; **AND (2)** the plaintiff’s reliance was ***foreseeable***. If expectation damages are too speculative, the court may award reliance damages instead.\n• When awarding damages for **Detrimental Reliance / Promissory Estoppel**, courts are split on the proper measure of damages. Some courts award Expectation Damages, while other courts award Reliance Damages. Additionally, some courts have held that they may award either Expectation Damages or Reliance Damages depending on which measure of damages best fits the equities of the particular case.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 2"
+    ],
+    "translation": "• 信頼損害（Reliance Damages）は一般的に**当事者が契約を信頼して行った支出または不作為**であり、非債務不履行当事者を***契約が存在しなかった場合にいたであろう立場***に置くものである。\n• 信頼損害（Reliance Damages）は以下の条件で認められる：**(1)** 原告が被告の契約履行合意を***信頼して行動した***こと；**かつ**(2) 原告の信頼が***予見可能***であったこと。履行利益損害が不確実すぎる場合、裁判所は代わりに信頼損害（Reliance Damages）を裁定し得る。\n• **有害な信頼 / 約束的禁反言（Promissory Estoppel）**に対する損害賠償を裁定する際、裁判所は適切な損害賠償額の算定方法について意見が分かれている。一部の裁判所は履行利益損害を裁定する一方、他の裁判所は信頼損害（Reliance Damages）を裁定する。さらに、一部の裁判所は、特定の事案の衡平に最も適合する損害賠償額の算定方法に応じて、履行利益損害または信頼損害（Reliance Damages）のいずれかを裁定し得ると判断している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "信頼利益損害賠償"
+  },
+  {
+    "id": 42,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Punitive Damages",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Punitive damages are awarded to ***punish a wrongdoing party***. Punitive damages are generally NOT available in a breach of contract action, but may be awarded in a contract action involving corresponding tort claims that allow such damages (i.e. fraud).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2011, Essay 6"
+    ],
+    "translation": "• 懲罰的損害賠償（Punitive Damages）は***不法行為当事者を罰する***ために裁定される。懲罰的損害賠償（Punitive Damages）は一般的に債務不履行訴訟では認められないが、そのような損害賠償を認める対応する不法行為請求（例：詐欺）を伴う契約訴訟において裁定され得る。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "懲罰的損害賠償（Punitive Damages）"
+  },
+  {
+    "id": 43,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Specific Performance",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Specific Performance is an equitable remedy, and is only available if ***monetary damages are inadequate*** to compensate an injured party (i.e. contracts for the sale of real property). Specific performance is NOT available for employee/personal service contracts, BUT injunctive relief may be awarded.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 特定履行（Specific Performance）は衡平法上の救済であり、***金銭的損害賠償が被害当事者への補償として不十分である***場合にのみ利用可能である（例：不動産売買契約）。特定履行（Specific Performance）は雇用/人的役務契約には利用できないが、差止命令（Injunction）による救済が認められる場合がある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "特定履行（Specific Performance）"
+  },
+  {
+    "id": 44,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "UCC Seller’s Remedies & Damages",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Seller’s Remedies: Under Article 2 of the UCC, when a buyer breaches a contract for the sale of goods, the seller has the following remedies: **(a) *withhold delivery*** of the goods; **(b) *cancel***; **(c)** recover ***cover damages*** (the difference between the resale price and the contract price of the goods), which is used if the resale was made in good faith and in a commercially reasonable manner.; **(d)** recover ***market damages*** (the difference between the market price at the time and place for tender); **(e)** recover ***lost profits*** if the seller is a lost volume seller (a seller who regularly engages in the sale of the goods at issue _and_ has unlimited inventory); **(f) *stop delivery of goods*** in the possession of a carrier or bailee when he ***discovers the buyer to be insolvent***; **(g) *stop delivery*** of carload, truckload, planeload, or larger shipments of goods when the ***buyer breaches***; **OR (h) *replevy identified goods*** in certain instances when the buyer is insolvent.\n• Incidental Damages: A seller is ***also entitled* to recover incidental damages**, which include any commercially reasonable costs incurred resulting from the breach.\n• Seller’s Right to Replevy Identified Goods: Under Article 2 of the UCC, an unpaid seller generally has no right to repossess (replevy) goods that he sent to a buyer. However, a seller of goods may repossess the goods he sent to a buyer if: **(1)** the ***buyer was insolvent*** when it received the goods; **(2)** the seller ***makes a demand within 10 days*** after the buyer received the goods; **AND (3)** the goods were ***not sold to a good faith purchaser for value***. HOWEVER, if a misrepresentation of solvency had been made to the seller in writing within three months prior to the delivery of the goods, the 10-day limitation to make a demand no longer applies.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2015, Essay 3",
+      "Feb 1995, Essay 7"
+    ],
+    "translation": "• 売主の救済：統一商事法典第2編に基づき、買主が物品売買契約に違反した場合、売主は以下の救済を有する：**(a) 物品の*引渡しを留保する***；**(b) *解除する***；**(c)** ***転売損害賠償（Resale Damages）***（転売価格と物品の契約価格との差）を回復する。これは転売が善意かつ商業的に合理的な方法で行われた場合に用いられる；**(d)** ***市場損害賠償（Market Damages）***（引渡しの時期および場所における市場価格との差）を回復する；**(e)** 売主がロストボリュームセラー（問題の物品の販売を常時行い、_かつ_無制限の在庫を有する売主）である場合、***逸失利益（Lost Profits）***を回復する；**(f)** 買主が***支払不能であることを発見した場合***、運送人または受寄者の占有下にある***物品の引渡しを停止する***；**(g)** 買主が***契約違反した場合***、車両積載量、トラック積載量、航空機積載量、またはそれ以上の物品の出荷の***引渡しを停止する***；**または (h)** 買主が支払不能である特定の状況において、***特定された物品を回復する***。\n• 付随的損害：売主は、契約違反に起因して発生した商業的に合理的な費用を含む、***付随的損害も回復する権利を有する***。\n• 売主の特定された物品を回復する権利：統一商事法典第2編に基づき、未払いの売主は、買主に送付した物品を再占有（回復）する権利を一般的に有しない。しかし、物品の売主は、以下の条件を満たす場合に買主に送付した物品を再占有することができる：**(1)** 買主が物品を受領した時点で***支払不能であった***こと；**(2)** 売主が買主が物品を受領してから***10日以内に請求を行う***こと；**かつ (3)** 物品が***善意の有償購入者に販売されていない***こと。ただし、物品の引渡し前3ヶ月以内に支払能力の虚偽表示が書面で売主に対して行われていた場合、請求を行うための10日間の制限は適用されなくなる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "UCC（統一商事法典）における売主の救済措置と損害賠償"
+  },
+  {
+    "id": 45,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "UCC Buyer’s Remedies & Damages",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• Under the UCC, a buyer who (a) _never received the goods_ – the seller repudiates or fails to make delivery, (b) _rightfully rejected_ non-conforming goods, OR (c) _justifiably revoked acceptance_ of the goods MAY:\n  ○ (1) ***cancel*** the contract; (2) recover any amount paid (a ***refund***) – _even if_ buyer doesn’t cancel the contract; (3) recover either ***Cover Damages or Market Damages***; **AND** (4) recover ***Incidental and Consequential damages***.\n• If the buyer keeps the non-conforming goods, then the buyer is entitled to **Loss-in-Value Damages** – measured by the _difference between the value as promised and the value of the non-conforming goods_.\n• **Cover Damages** are the ***difference between the contract price and the price of substitute goods***. This is used as the measure of damages if the buyer covered in good faith.\n• **Market Damages** are used if the buyer did not cover in good faith or did not cover at all, and are the ***difference between the market price (at the time when buyer learned of the breach) and the contract price***. Market price is determined as of (a) the _place for tender_, or (b) the _place of arrival_ in cases of rejection after arrival or revocation of acceptance.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2022, Essay 6",
+      "Sept 2020, Essay 6",
+      "July 2010, Essay 2",
+      "July 2004, Essay 7"
+    ],
+    "translation": "• 統一商事法典に基づき、(a) _物品を一度も受領しなかった_（売主が契約を否認するか、引渡しを怠る）、(b) 不適合物品を_正当に拒絶した_、または (c) 物品の_受諾を正当に取り消した_買主は、以下のことができる：\n  ○ (1) 契約を***解除する***；(2) 支払われた金額（***返金***）を回復する – _たとえ_買主が契約を解除しない場合でも；(3) ***カバー損害賠償または市場損害賠償（Market Damages）***のいずれかを回復する；**かつ** (4) ***付随的損害および結果的損害（Consequential Damages）***を回復する。\n• 買主が不適合物品を保持する場合、買主は**価値減損損害賠償**を受ける権利を有する – これは_約束された価値と不適合物品の価値との差_によって測定される。\n• **カバー損害賠償**は、***代替品の価格と契約価格との差***である。これは買主が善意で代替品を調達した場合の損害賠償の尺度として用いられる。\n• **市場損害賠償（Market Damages）**は、買主が善意で代替品を調達しなかった場合、または全く調達しなかった場合に用いられ、***市場価格と契約価格との差***である。市場価格は、(a) _引渡しの場所_、または (b) 到着後の拒絶または受諾の取消の場合の_到着地_において決定される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "UCC（統一商事法典）における買主の救済措置と損害賠償"
+  },
+  {
+    "id": 46,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Waste Doctrine & Diminution in Value Damages",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Where a contractor’s performance has been incomplete or defective for a construction contract, the usual measure of damages is the reasonable cost of replacement or completion (expectation damages).\n• However, when an award for the cost of completion is _wasteful_, a court may apply the **waste doctrine**, wherein the measure of damages becomes ***the difference in value of the property/land*** (diminution in value). The waste doctrine will apply if: **(1)** the contractor performs in ***good faith*** but defects nevertheless exist; **AND (2)** remedying the defects would entail ***economic waste*** (when the cost of completion greatly exceeds the value of the completed work). In such instance, ***diminution in value*** becomes the proper measure of damages.\n• If the breach is willful and only completion of the contract will enable the non-breaching party to use the land for its intended purposes, the cost of completion is considered the appropriate damage award.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2020, Essay 1",
+      "July 2008, Essay 8"
+    ],
+    "translation": "• 建設契約において請負人の履行が不完全または瑕疵がある場合、損害賠償の通常の尺度は、交換または完成の合理的な費用（期待利益損害（Expectation Damages））である。\n• しかし、完成費用の賠償が_無駄_である場合、裁判所は**無駄の法理**を適用することがあり、その場合、損害賠償の尺度は***財産/土地の価値の差額***（価値の減少（Diminution in Value））となる。無駄の法理は、以下の条件が満たされる場合に適用される。**(1)** 請負人が***誠実に***履行したが、それでも瑕疵が存在する場合。**かつ (2)** 瑕疵を是正することが***経済的無駄***を伴う場合（完成費用が完成した仕事の価値を大幅に上回る場合）。そのような場合、***価値の減少（Diminution in Value）***が適切な損害賠償の尺度となる。\n• 違反が故意であり、契約の完成のみが非違反当事者に土地をその意図された目的のために使用させることを可能にする場合、完成費用が適切な損害賠償額とみなされる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "毀損行為の法理（Waste Doctrine）と価値減少損害賠償"
+  },
+  {
+    "id": 47,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Restitution (Unjust Enrichment)",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Restitution (also referred to as unjust enrichment or quantum meruit) is awarded to prevent ***unjust enrichment***, and is available when one party confers a benefit onto another party (_even if_ there is no enforceable contract). Damages will be awarded based on the ***value of the benefit conferred*** upon the defendant. A party CANNOT recover both expectation and restitution damages.\n• Under the Restatement (Second) of Contracts, a party is entitled to restitution for any benefit that he has conferred by way of part performance in excess of the loss that he has caused by his own breach.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2012, Essay 3",
+      "July 2010, Essay 2"
+    ],
+    "translation": "• 原状回復（不当利得（Unjust Enrichment）またはクオンタム・メルイットとも呼ばれる）は、***不当利得（Unjust Enrichment）***を防止するために認められ、一方の当事者が他方の当事者に利益を供与した場合（_たとえ_強制力のある契約がなくても）に利用可能である。損害賠償は、被告に***供与された利益の価値***に基づいて認められる。当事者は、期待利益損害（Expectation Damages）と原状回復（Restitution）損害の両方を回復することはできない。\n• 契約法リステイトメント（第二次）によれば、当事者は、自己の違反によって生じさせた損失を超える、一部履行によって供与した利益について原状回復（Restitution）を受ける権利を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "不当利得返還（Restitution）（不当利得（Unjust Enrichment））"
+  },
+  {
+    "id": 48,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Rescission",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Rescission treats the original contract as ***cancelled***. It is available if there was a ***problem with the formation*** of the contract (i.e. a defense to formation, fraud, misrepresentation). A contract will NOT be rescinded if: **(a)** a ***valid equitable defense*** applies; **OR (b)** the plaintiff ***sued for damages*** under the contract in a prior action. A plaintiff may sue for both damages and rescission at the same time.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 2"
+    ],
+    "translation": "• 解除は、元の契約を***取り消されたもの***として扱う。契約の***成立に問題があった***場合（すなわち、成立に対する抗弁、詐欺、不実表示（Misrepresentation））に利用可能である。以下の場合は契約は解除されない。**(a)** ***有効な衡平法上の抗弁***が適用される場合。**または (b)** 原告が以前の訴訟で契約に基づく***損害賠償を請求した***場合。原告は、損害賠償と解除の両方を同時に請求することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "契約解除（Rescission）"
+  },
+  {
+    "id": 49,
+    "subject": "CONTRACTS",
+    "subjectNumber": "06",
+    "section": "G. Remedies",
+    "ruleTitle": "Mitigation of Damages",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A plaintiff CANNOT recover damages as a result of a breach that could have been avoided. Accordingly, a party must take ***reasonable steps to mitigate his losses***. If he fails to do so, the court will reduce the total damages by the amount that could have been avoided.\n• Once a party has reason to know that performance by the other party will not be forthcoming, he is ordinarily expected to stop his own performance to avoid further expenditure.\n• Affirmative steps to avoid loss are NOT required if they involve ***undue risk, burden, or humiliation***.\n• Suitable Substitute: Whether an available alternative transaction is a suitable substitute depends on all the circumstances, including the similarity of performance.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2019, Essay 4",
+      "July 2008, Essay 8"
+    ],
+    "translation": "• 原告は、回避できたはずの債務不履行の結果として損害賠償を請求することはできない。したがって、当事者は***損害を軽減（Mitigate）するための合理的な措置***を講じなければならない。もし彼がそうしなかった場合、裁判所は、回避できたはずの金額だけ総損害額を減額する。\n• 当事者が、相手方による履行がなされないであろうことを知るに至った場合、彼は通常、さらなる支出を避けるために自身の履行を停止することが期待される。\n• 損害を回避するための積極的な措置は、それらが***不当な危険、負担、または屈辱***を伴う場合には要求されない。\n• 適切な代替取引：利用可能な代替取引が適切な代替物であるかどうかは、履行の類似性を含むすべての状況に依存する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "損害軽減義務（Duty to Mitigate）"
+  }
+]

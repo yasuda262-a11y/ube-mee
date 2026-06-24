@@ -314,16 +314,17 @@ export default function Home() {
                       <p className="text-sm font-bold leading-tight">続きから再開</p>
                       <p className="text-[11px] text-white/80">{selectedSubject ?? "すべての科目"} · 残り{remaining}枚</p>
                     </div>
-                    <button
+                    <div
+                      role="button"
                       onClick={(e) => {
                         e.stopPropagation();
                         clearDeckState(selectedSubject);
                         setSavedSubjects((prev) => { const n = new Set(prev); n.delete(saveKey); return n; });
                       }}
-                      className="text-white/60 hover:text-white text-xs px-2 py-1 rounded-lg hover:bg-white/10"
+                      className="text-white/60 hover:text-white text-xs px-2 py-1 rounded-lg hover:bg-white/10 cursor-pointer"
                     >
                       削除
-                    </button>
+                    </div>
                   </button>
                 )}
                 <div className="flex gap-2">
@@ -510,7 +511,7 @@ export default function Home() {
             <div className="w-16" />
           </div>
         </header>
-        <div className="max-w-2xl mx-auto px-4 pt-4 pb-10">
+        <div className="max-w-4xl mx-auto px-4 pt-4 pb-10">
           <OutlineMode
             cards={outlineCards}
             subject={selectedSubject ?? "ALL"}
@@ -533,11 +534,13 @@ export default function Home() {
             <div className="w-16" />
           </div>
         </header>
-        <div className="max-w-2xl mx-auto px-4 pt-4 pb-10">
+        <div className="max-w-4xl mx-auto px-4 pt-4 pb-10">
           <BrowseMode
             cards={subjectCards}
             subjectIndex={SUBJECT_INDEX}
             selectedSubject={selectedSubject}
+            flagged={flagged}
+            onToggleFlag={handleToggleFlag}
           />
         </div>
       </div>

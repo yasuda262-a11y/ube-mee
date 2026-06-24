@@ -1,0 +1,829 @@
+[
+  {
+    "id": 1,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "A. Probative Value",
+    "ruleTitle": "Probative Value: Relevancy & Rule 403 Exclusions",
+    "priority": "HIGH",
+    "frequency": "12 of 40 Exams",
+    "body": "• Relevancy: To be admissible, evidence must be ***relevant***. Evidence is relevant if: **(1)** it has ***any tendency to make a fact more or less probable*** than it would be without the evidence; **AND (2)** the fact is ***of consequence*** in determining the action. Relevant evidence is ADMISSIBLE _unless_ another rule or exclusion provides otherwise. Irrelevant evidence is NOT admissible.\n• Rule 403 Exclusions (Balancing Test): Under FRE 403, the court may exclude relevant evidence if its ***probative value is substantially outweighed*** by a danger of: **(a)** unfair prejudice; **(b)** confusing the issues; **(c)** misleading the jury; **(d)** undue delay; **(e)** wasting time; OR **(f)** being needlessly cumulative. Probative value is the ability of the evidence to prove something important at trial. Evidence is **unfairly prejudicial** when the evidence is (1) ***unnecessary***, AND (2) might cause the jury to ***improperly sympathize or dislike*** a party. Unfair surprise is NOT a ground for exclusion. As an alternative to excluding evidence completely under Rule 403, the court could limit the unfair prejudice to a party by: (a) limiting the scope of evidence or examination to specific topics; OR (b) giving the jury a limiting instruction (e.g. directing the jurors to only consider the evidence for a specific purpose).",
+    "meeTips": [
+      "All evidence essay questions must be answered according to the Federal Rules of Evidence.",
+      "When & How to Discuss Relevance\n\nIf a question asks whether certain evidence is \"admissible\", be sure to discuss Relevance. In recent essays, relevancy has been discussed briefly for each item _even though_ relevance was not the primary rule tested. For example, on the July 2018 MEE (Essay 5), Relevance was briefly discussed at the beginning of Point One, Two, Three(a), and Four.\n\nFor this type of brief analysis: First, state \"Evidence is relevant if it has any tendency to make a fact more or less probable than it would be without the evidence.\" Then, write one sentence on why the evidence is relevant. Remember to state the rule and analysis *very briefly* (unless a greater analysis of Relevance and the Rule 403 exclusions is warranted)."
+    ],
+    "examHistory": [
+      "Feb 2026, Essay 3",
+      "Feb 2025, Essay 5",
+      "Feb 2023, Essay 6",
+      "July 2022, Essay 1",
+      "Feb 2020, Essay 6",
+      "July 2018, Essay 5",
+      "July 2017, Essay 5",
+      "Feb 2016, Essay 2",
+      "July 2014, Essay 5",
+      "Feb 2013, Essay 7",
+      "Feb 2012, Essay 1",
+      "Feb 2010, Essay 7"
+    ],
+    "translation": "• 関連性（Relevance）：証拠能力（Admissibility）があるためには、証拠は***関連性（Relevance）***を有さなければならない。証拠は、以下のいずれかの場合に、関連性（Relevance）を有する：**(1)** 証拠がない場合よりも、***事実をより蓋然的またはより蓋然的でなくする傾向***を有すること；**かつ (2)** その事実が、訴訟の決定において***争点となる***こと。関連証拠は、他の規則または排除規定が別段の定めをする場合を_除き_、許容される。関連性（Relevance）のない証拠は許容されない。\n• 規則403による排除（衡平考量）：連邦証拠規則403に基づき、裁判所は、関連証拠の***証明力（Probative Value）が***以下の危険性によって***実質的に上回られる***場合、当該証拠を排除しうる：**(a)** 不当な偏見（Unfair Prejudice）；**(b)** 争点の混乱（Confusion of Issues）；**(c)** 陪審の誤導（Misleading the Jury）；**(d)** 不当な遅延（Undue Delay）；**(e)** 時間の浪費（Waste of Time）；**または (f)** 不必要に重複すること（Needlessly Presenting Cumulative Evidence）。証明力（Probative Value）とは、裁判において重要な何かを証明する証拠の能力である。証拠が**(1)***不必要***であり、かつ (2) 陪審に当事者に対して***不適切に同情または嫌悪を抱かせる***可能性がある場合、当該証拠は**不当に偏見（Bias）を抱かせる**。不意打ち（Unfair Surprise）は排除の根拠ではない。規則403に基づき証拠を完全に排除する代替策として、裁判所は、以下のいずれかの方法により、当事者に対する不当な偏見（Unfair Prejudice）を制限しうる：(a) 証拠または尋問の範囲を特定の事項に限定すること；または (b) 陪審に限定的指示（Limiting Instruction）を与えること（例：陪審員に特定の目的のためにのみ証拠を考慮するよう指示すること）。",
+    "meeTipTranslation": "すべての証拠法の論文問題は、連邦証拠規則に従って回答しなければならない。\n\n関連性（Relevance）をいつ・どのように論じるか\n\n特定の証拠が「許容されるか」という問いには、必ず関連性（Relevance）を論じること。最近の論文では、関連性（Relevance）が主たる試験規則でなかった場合でも、各項目について簡潔に論じられている。例えば、2018年7月MEE（論文5）では、論点一、二、三(a)、四の冒頭で関連性（Relevance）が簡潔に論じられた。\n\nこの種の簡潔な分析では：まず「証拠は、それがなかった場合に比べて、ある事実をより証明しやすくするかまたは証明しにくくする傾向がある場合に関連性（Relevance）がある」と述べる。次に、なぜその証拠が関連性（Relevance）を有するかについて一文で記述する。関連性（Relevance）と規則403の除外についてより詳細な分析が必要な場合を除き、規則と分析を*非常に簡潔に*述べることを忘れずに。",
+    "ruleTitleJa": "証明力（Probative Value）：関連性（Relevance）および規則403による排除"
+  },
+  {
+    "id": 2,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "B. Policy Exclusions",
+    "ruleTitle": "Subsequent Remedial Measures",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Subsequent remedial measures are measures taken that would have made an earlier injury or harm less likely to occur. Under the FRE, evidence of subsequent remedial measures is **NOT admissible to prove**: **(a) *negligence***; **(b) *culpable conduct***; **(c)** a ***defect in a product or design***; **OR (d)** a ***need for a warning or instruction***.\n• However, the court **may admit such evidence for *other purposes***, such as: (i) impeachment; or (ii) to prove a disputed issue as to ownership, control, or feasibility of precautionary measures.\n• Types of subsequent remedial measures include changes to company rules, installation of safety devices, and post-incident discipline or termination of an employee.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2020, Essay 1",
+      "Feb 2012, Essay 1"
+    ],
+    "translation": "• 事後の改善措置（Subsequent Remedial Measures）とは、以前の傷害または損害の発生をより起こりにくくしたであろう措置をいう。連邦証拠規則に基づき、事後の改善措置（Subsequent Remedial Measures）の証拠は、以下のいずれかを**証明するために許容されない**：**(a) *過失***；**(b) *有責行為（Culpable Conduct）***；**(c) *製品または設計の欠陥（Product or Design Defect）***；**または (d) *警告または指示の必要性（Need for a Warning or Instruction）***。\n• しかしながら、裁判所は、弾劾（Impeachment）、または所有権（Ownership）、支配（Control）、もしくは予防措置の実行可能性（Feasibility of Precautionary Measures）に関する争点となっている事項を証明するためなど、***他の目的***のために当該証拠を許容しうる。\n• 事後の改善措置（Subsequent Remedial Measures）の種類には、会社規則の変更、安全装置の設置、および事故後の従業員の懲戒または解雇が含まれる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "事後の改善措置（Subsequent Remedial Measures）"
+  },
+  {
+    "id": 3,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "B. Policy Exclusions",
+    "ruleTitle": "Compromise/Settlement Offers & Negotiations",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the FRE, offers to settle claims, offers to compromise, and statements made during settlement negotiations are **NOT admissible to**: **(a) *prove or disprove the validity or amount of a disputed claim*** (the claim must be filed or threatened); **OR (b) *to impeach*** by a prior inconsistent statement or contradiction.\n• However, the court **may admit such evidence for *another purpose***, such as proving bias/prejudice of a witness, negating a contention of undue delay, or proving obstruction of justice in a criminal matter.\n• Statements made ***before*** a claim was filed or threatened ARE ALLOWED.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2012, Essay 1"
+    ],
+    "translation": "• 連邦証拠規則に基づき、請求の和解の申出（Settlement Offer）、和解の申出（Settlement Offer）、および和解交渉（Settlement Negotiation）中にされた陳述は、以下のいずれかの目的のために**許容されない**：**(a) *争点となっている請求の有効性または金額を証明または反証するため***（請求は提起されているか、または提起されると脅されている必要がある）；**または (b) *先行する矛盾陳述（Prior Inconsistent Statement）または矛盾によって弾劾（Impeachment）するため***。\n• しかしながら、裁判所は、証人の偏見（Bias）/先入観（Prejudice）を証明する、不当な遅延（Undue Delay）の主張を否定する、または刑事事件における司法妨害（Obstruction of Justice）を証明するなど、***別の目的***のために当該証拠を許容しうる。\n• 請求が提起されるか、または提起されると脅される***前***にされた陳述は許容される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "和解の申出（Settlement Offer）および交渉"
+  },
+  {
+    "id": 4,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "B. Policy Exclusions",
+    "ruleTitle": "Pleas & Plea Negotiations",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the FRE, the following are **NOT admissible** against a person in a subsequent civil or criminal case: **(a) *statements made during plea discussions***; **(b)** a ***nolo contendere plea*** (a plea where defendant neither admits or disputes a charge); **(c)** a ***defendant’s guilty plea that was later withdrawn***; **OR (d) *statements made during a proceeding for*** a (i) ***nolo contendere plea***, or (ii) ***later withdrawn guilty plea***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2023, Essay 6"
+    ],
+    "translation": "• 連邦証拠規則の下では、以下のものは、その後の民事または刑事事件において、ある者に対して**証拠として許容されない**。(a) ***司法取引協議（Plea Discussion）中にされた陳述***。(b) ***不争の答弁（Nolo Contendere Plea）***（被告人が罪状を認めず、かつ争わない旨の答弁）。(c) ***後に撤回された被告人の有罪答弁（Guilty Plea）***。**または** (d) (i) ***不争の答弁（Nolo Contendere Plea）***、もしくは (ii) ***後に撤回された有罪答弁（Guilty Plea）***のための***手続き中にされた陳述***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "答弁および答弁交渉（Plea Discussion）"
+  },
+  {
+    "id": 5,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "B. Policy Exclusions",
+    "ruleTitle": "Offers to Pay Medical Expenses",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the FRE, evidence of paying or promising/offering to pay ***medical expenses or bills*** is **NOT admissible *to prove liability*** for injury (_even if_ there is no disputed claim). However, any related statements or factual admissions (_other than the offer to pay_) ARE ADMISSIBLE.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2012, Essay 1"
+    ],
+    "translation": "• 連邦証拠規則の下では、***医療費または医療費請求書***を支払った、または支払いを約束/申し出た証拠は、傷害に対する***責任を証明するため***には**証拠として許容されない**（争われている請求がない場合でも）。しかし、関連する陳述または事実の自認（支払いの申し出を除く）は証拠として許容される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "医療費支払いの申出（Offer to Pay Medical Expenses）"
+  },
+  {
+    "id": 6,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "B. Policy Exclusions",
+    "ruleTitle": "Liability Insurance",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Evidence of liability insurance (or lack of insurance) is **NOT admissible *to prove culpability*** (that a person acted negligently or wrongfully). However, the court **may admit such evidence for *another purpose***, such as proving bias/prejudice of a witness, agency, ownership, control, or motive.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 賠償責任保険（または保険の欠如）の証拠は、**有責性（Fault）***（ある者が過失により、または不法に行為したこと）を証明するためには**証拠として許容されない**。しかし、裁判所は、証人の偏見（Bias）/先入観（Prejudice）、代理関係、所有権（Ownership）、支配（Control）、または動機（Motive）を証明するなどの***別の目的***のために、そのような証拠を**許容することができる**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "賠償責任保険（Liability Insurance）"
+  },
+  {
+    "id": 7,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "C. Physical and Documentary Evidence",
+    "ruleTitle": "Authentication of Evidence",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• All evidence MUST be ***authenticated*** before being admitted into evidence. A party must prove that the item it seeks to admit ***is actually what the party purports it to be***, UNLESS the parties stipulate otherwise. Authentication requires only a sufficiency showing, meaning that the proponent must produce ***sufficient evidence*** to support a finding that the item is what the proponent claims it to be.\n• Physical evidence may be authenticated through: **(a) *witness testimony***; **OR (b)** by evidence that shows it has been held in a ***substantially unbroken chain of custody***.\n• Voice recordings may be authenticated by anyone who has **(1) *heard the person speak*** (either first hand or electronically); **AND (2) *identified*** the recorded person as the speaker.\n• Handwriting / Handwritten Letter: Handwriting may be authenticated by a nonexpert’s opinion testimony **(1)** stating that the ***handwriting is genuine based on a familiarity*** with it, **(2)** which was ***not acquired for the current litigation***.\n• Video recordings may be authenticated by testimony from a witness with knowledge that the ***recording accurately represents the scene or activity depicted*** (i.e. the video recording is what it is claimed to be). The witness DOES NOT need to be operator of the video recording equipment.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 5",
+      "July 2020, Essay 1"
+    ],
+    "translation": "• すべての証拠は証拠として採用される前に***認証（Authentication）***されなければならない。当事者は、採用しようとする物品が***当事者が主張するものと実際に同一である***ことを証明しなければならない（当事者が別段合意した場合を除く）。認証（Authentication）は充足性の立証（prima facie showing）のみを要求し、提案者は物品が主張するものであるという判断を支持するための***十分な証拠***を提示しなければならない。\n• 物的証拠は以下によって認証（Authentication）することができる：**(a) *証人の証言***；**または (b)** ***実質的に連続した保管の連鎖（Chain of Custody）***（chain of custody）の中で保管されてきたことを示す証拠。\n• 音声録音は、**(1)** その人物が話すのを***聞いたことがある***（直接または電子的に）；**かつ (2)** 録音された人物を話者として***識別***した人物によって認証（Authentication）できる。\n• 筆跡/手書き書簡：筆跡は、**(1)** ***訴訟以前に取得した***筆跡への親しみに基づいて筆跡が本物であると述べる、**(2)** 非専門家の意見（Lay Opinion）証言によって認証（Authentication）できる。\n• 映像録画は、***録画が描写されているシーンまたは活動を正確に表している***ことを知る証人（映像録画機器のオペレーターである必要はない）の証言によって認証（Authentication）できる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "証拠の認証（Authentication）"
+  },
+  {
+    "id": 8,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "C. Physical and Documentary Evidence",
+    "ruleTitle": "Best Evidence Rule",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the FRE, the ***original* writing, recording, or photograph** is required in order to prove its content UNLESS: **(a)** it is a ***reliable duplicate*** (a photocopy is allowed, but not a handwritten copy); **(b)** all the originals are ***lost or destroyed***, and not by the proponent acting in bad faith; **(c)** an original ***cannot be obtained by any available judicial process***; **(d)** it was ***not produced after proper notice*** was given to the party in control and against whom it would be offered against; **OR (e)** it is ***not closely related to a controlling issue***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2020, Essay 1"
+    ],
+    "translation": "• 連邦証拠規則（FRE）の下では、内容を証明するために***原本（Original）***の書面、録音、または写真が必要である。ただし以下の場合を除く：**(a)** ***信頼性のある複製（Reliable Duplicate）***（コピーは許可されるが手書きのコピーは不可）；**(b)** すべての原本（Original）が***紛失または破棄された***場合であって、提案者が悪意をもって行ったのでない場合；**(c)** 原本（Original）が***利用可能なあらゆる司法手続きによっても入手できない***場合；**(d)** 原本（Original）の管理権を持ちかつそれに対抗して提出される当事者に***適切な通知を与えた後も提出されなかった***場合；**または (e)** ***支配（Control）的な争点に密接に関連しない***場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "最良証拠準則（Best Evidence Rule）"
+  },
+  {
+    "id": 9,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "D. Character Evidence & Related Concepts",
+    "ruleTitle": "Character Evidence",
+    "priority": "HIGH",
+    "frequency": "8 of 40 Exams",
+    "body": "• Generally, evidence of a person’s **character is NOT admissible to show *propensity*** (that on a particular occasion the person acted in conformity with the character trait). HOWEVER, character evidence is generally **ADMISSIBLE**: **(a)** for ***non-propensity purposes***; **OR (b)** when ***“Character in Issue”*** – it’s an essential element or ultimate issue of a charge, claim, or defense (e.g. defamation, negligent entrustment).\n• Notwithstanding the above, character evidence MAY be offered as circumstantial evidence to _prove propensity_ in certain limited circumstances:\n  ○ **In Criminal Cases**:\n    Defendant’s Character: In criminal cases, a **defendant** MAY ***always*** introduce evidence of ***their own*** character trait. The **prosecution** is NOT allowed to present evidence of the defendant’s character to prove propensity UNLESS the defendant ***first presents evidence*** of that character trait (the defendant “opens the door”).\n    NOTE: Prosecution MAY introduce defendant’s prior acts of Sexual-Assault or Child Molestation when defendant is accused of such conduct (see “Other Acts Evidence” rule).\n    Victim’s Character (non Sex-Offense case): Except in sex-offense cases, a **defendant** MAY offer evidence of the ***victim’s character*** to prove the defendant’s innocence. If the defendant presents such evidence, the **prosecution** MAY present evidence of the: (a) ***victim’s good character*** for the same trait; or (b) ***defendant’s bad character*** for the same trait.\n    Victim’s Character (Homicide case): In a criminal homicide case, a **defendant** MAY offer evidence of the victim’s character for violence in order to establish self-defense. The **prosecution** may offer evidence of the ***victim’s character for peacefulness*** ONLY IF the defendant claims the ***victim was the aggressor*** (self-defense).\n    Victim’s Character (Sex-Offense case): For criminal sex-offense cases involving alleged sexual misconduct, evidence offered to prove a ***victim’s sexual behavior or predisposition*** is generally **NOT admissible**. However, certain exceptions to this rule exist. In a criminal case, the court MAY admit specific instances evidence: **(a)** of victim’s sexual behavior if offered to prove that the defendant was not involved in the sex crime (not the source of semen, injury, or physical evidence); **(b)** of sexual relations between the defendant and victim if offered (i) by the defendant to prove consent, or (ii) by the prosecutor for any reason; **OR (c)** whose exclusion would violate the defendant’s constitutional rights. If admissible, ***only* Specific Instances *proof is allowed***; Reputation or Opinion proof is NOT allowed.\n  ○ **In Civil Cases**:\n    General Rule: Character evidence CANNOT be introduced in a civil case to prove propensity, _unless_ the exception for sex-offense cases applies (see below).\n    Victim’s Character (Sex-Offense case): For civil sex-offense cases, evidence offered to prove a ***victim’s sexual behavior or predisposition*** is generally **NOT admissible**. However, certain exceptions to this rule exist. In a civil case, the court may admit evidence offered to prove a **victim’s sexual behavior or predisposition** ONLY IF its ***probative value substantially outweighs*** the danger of (i) harm to any victim, and (ii) unfair prejudice to any party. If admissible, ***typically only* Opinion *and* Specific Instances *proof is allowed***. But, the court MAY admit evidence of a **victim’s Reputation** if the victim has ***placed it in controversy***.\n• Methods of Proving Character: Under the FRE, when character evidence is admissible, it may be proven in the following ways: **(A)** in **ALL instances** by ***Opinion*** testimony _or_ testimony of ***Reputation*** in the community; **OR (B)** by ***Specific Acts*** ONLY IF (a) on **cross-examination**, _or_ (b) **“Character in Issue”** (it’s an essential element of a charge, claim, or defense). “Community” includes groups of associates where one lives, works, or regularly socializes. NOTE: Special rules apply to evidence of a Victim’s character in Sex-Offense cases (see those rules above).",
+    "meeTips": [
+      "On an essay question involving character evidence: First, state the general rule that evidence to prove propensity is _not_ allowed (and that evidence for non-propensity purposes is allowed). Second, apply the applicable character rules for the type of case (sex crime, homicide, civil case) _and_ which party (defendant, prosecution) is offering the evidence. Third, analyze the method the offering party uses to prove character (if relevant to the essay question)."
+    ],
+    "examHistory": [
+      "Feb 2026, Essay 3",
+      "Feb 2024, Essay 3",
+      "July 2022, Essay 1",
+      "Feb 2020, Essay 6",
+      "Feb 2016, Essay 2",
+      "Feb 2012, Essay 1",
+      "Feb 2011, Essay 2",
+      "Feb 2010, Essay 7"
+    ],
+    "translation": "• 一般的に、人物の**性格の証拠は***傾向性（Propensity）***を示すために（特定の機会（Opportunity）に人物が性格的特徴に沿って行動したことを示すために）採用されない**。ただし、性格の証拠は一般的に**採用可能**である：**(a)** ***非傾向性（Non-Propensity）の目的***のため；**または (b)** ***「性格が争点」（\"Character at Issue\"）***の場合—訴因、請求または抗弁の本質的要素または究極の争点である場合（例：名誉毀損（Defamation）、不注意な委任（Negligent Entrustment））。\n• 上記にかかわらず、性格の証拠は一定の限られた状況において傾向性（Propensity）を_証明する_間接証拠として提出できる：\n  ○ **刑事事件において**：\n    被告の性格：刑事事件では、**被告**は***自己の***性格的特徴に関する証拠を***常に***提出することができる。**検察**は、被告が先に当該性格的特徴の証拠を提出した（被告が「扉を開けた」（\"Opened the Door\"））場合を除き、傾向性（Propensity）を証明するための被告の性格の証拠を提出することはできない。\n    注：検察は被告が性的暴行（Sexual Assault）または児童への猥褻行為（Child Molestation）で訴追されている場合、被告の当該行為の前歴を提出することができる（「その他の行為の証拠」ルール参照）。\n    被害者の性格（性犯罪以外）：性犯罪以外の事件では、**被告**は被告の無実を証明するために***被害者の性格***の証拠を提出することができる。被告がそのような証拠を提出した場合、**検察**は：(a) 同じ特徴に関する***被害者の良好な性格***；または (b) 同じ特徴に関する***被告の悪い性格***の証拠を提出することができる。\n    被害者の性格（殺人事件）：刑事殺人事件では、**被告**は正当防衛を確立するために被害者の暴力的性格の証拠を提出することができる。**検察**は、被告が***被害者が侵略者であった***と主張する（正当防衛）場合に限り、***被害者の平和的な性格***の証拠を提出することができる。\n    被害者の性格（性犯罪事件（Sexual Offense Case））：性的不正行為（Sexual Misconduct）が主張される刑事性犯罪事件（Sexual Offense Case）では、***被害者の性的行動または性的傾向（Sexual Behavior or Predisposition）***を証明するために提出された証拠は一般的に**採用されない**。ただし例外が存在する。刑事事件では：**(a)** 被告が性犯罪に関与していないことを証明するために提出される被害者の性的行動の特定例；**(b)** 同意を証明するために被告が提出する、または検察が何らかの理由で提出する被告と被害者の性的関係の特定例；**または (c)** 除外することが被告の憲法上の権利を侵害する特定例は採用可能。採用可能な場合、***特定の事例のみが許可***される；評判（Reputation）または意見による証明は不可。\n  ○ **民事事件において**：\n    一般原則：性犯罪事件（Sexual Offense Case）の例外が適用される場合を除き、傾向性（Propensity）を証明するために民事事件に性格の証拠を提出することはできない。\n    被害者の性格（性犯罪事件（Sexual Offense Case））：民事性犯罪事件（Sexual Offense Case）では、***被害者の性的行動または傾向***の証拠は一般的に**採用されない**。ただし、その***証明力（Probative Value）が***（i）被害者への損害および（ii）不公平な偏見（Bias）の危険を***実質的に上回る***場合に限り採用可能。採用可能な場合、通常***意見と特定の事例のみが許可***される。ただし被害者が自ら争点とした場合は**評判（Reputation）**の証拠も採用可能。\n• 性格を証明する方法：FREの下では、性格の証拠が採用可能な場合、以下の方法によって証明できる：**(A)** **すべての場合**において***意見***証言_または_コミュニティにおける***評判（Reputation）***の証言；**または (B)** ***特定の行為***により (a) **反対尋問（Cross-Examination）**で、_または_ (b) **「性格が争点」（\"Character at Issue\"）**の場合（訴因、請求または抗弁の本質的要素）のみ。「コミュニティ」には、居住・勤務・定期的に社交する仲間集団が含まれる。",
+    "meeTipTranslation": "性格証拠（Character Evidence）に関する論文問題では：第1に、傾向性（Propensity）を証明するための証拠は_認められない_という一般ルールを述べる（そして非傾向性（Non-Propensity）目的のための証拠は認められることを述べる）。第2に、事件の種類（性犯罪、殺人、民事事件）_および_証拠を提出している当事者（被告、検察）に応じた適切な性格ルールを適用する。第3に、論文問題に関連する場合、提出当事者が性格を証明するために使用する方法を分析する。",
+    "ruleTitleJa": "性格証拠（Character Evidence）"
+  },
+  {
+    "id": 10,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "D. Character Evidence & Related Concepts",
+    "ruleTitle": "Other Acts Evidence (Other Crimes, Wrongs, or Acts)",
+    "priority": "HIGH",
+    "frequency": "6 of 40 Exams",
+    "body": "• Evidence of other acts (crimes, wrongs, or acts) is **NOT admissible to show *propensity*** (that on a particular occasion the person acted in conformity with a character trait).\n• However, other acts evidence may be admissible for ***other relevant non-propensity purposes***, such as proving **Motive, Identity, Absence of Mistake or Accident, Intent, a Common Plan or Scheme, Opportunity, Preparation, or Knowledge**. In order to offer such evidence, the proponent must show: **(1)** that the ***prior act was committed*** by a preponderance of the evidence (vague references to acts are insufficient); **(2)** that its ***probative value is not substantially outweighed by the danger of unfair prejudice*** (Rule 403 Balancing); **AND (3)** proper ***notice in criminal cases***.\n• Prior Crimes of Sexual Assault / Child Molestation: If relevant, a defendant’s **prior crimes of sexual assault or child molestation *are admissible*** in a case where he is accused of similar conduct. A “child” is a person _under_ the age of 14 years old.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 3",
+      "Feb 2024, Essay 3",
+      "Feb 2023, Essay 6",
+      "July 2022, Essay 1",
+      "Feb 2020, Essay 6",
+      "Feb 2016, Essay 2"
+    ],
+    "translation": "• その他の行為（犯罪、不正行為、または行為）の証拠は、***傾向性（Propensity）を示すために***（特定の機会（Opportunity）に人物が性格的特徴に沿って行動したことを示すために）**許容されない**。\n• しかし、その他の行為の証拠は、**動機（Motive）、同一性（Identity）、錯誤または事故の不存在（Absence of Mistake or Accident）、意図（Intent）、共通の計画または策略（Common Plan or Scheme）、機会（Opportunity）、準備（Preparation）、または知識（Knowledge）**を証明するなど、***その他の関連する非傾向性（Non-Propensity）の目的***のために許容される場合がある。そのような証拠を提出するためには、提案者は以下を示さなければならない：**(1)** ***先行する行為が犯された***こと（証拠の優越（Preponderance of the Evidence）によって；行為への漠然とした言及では不十分）；**(2)** その***証明力（Probative Value）が不当な偏見（Unfair Prejudice）の危険性によって実質的に上回られない***こと（規則403の衡量）；**および (3)** ***刑事事件における適切な通知***。\n• 性的暴行（Sexual Assault）/児童への猥褻行為（Child Molestation）の前科（Prior Conviction）：関連性（Relevance）がある場合、被告の***性的暴行（Sexual Assault）または児童への猥褻行為（Child Molestation）の前科（Prior Conviction）***は、被告が同様の行為で訴追される事件において***許容される***。「子ども」とは14歳未満の者をいう。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "その他の行為の証拠（その他の犯罪、不正行為、または行為）"
+  },
+  {
+    "id": 11,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "D. Character Evidence & Related Concepts",
+    "ruleTitle": "Habit or Routine Practice",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Evidence of a person’s ***habit*** or an organization’s ***routine practice*** may be admitted to prove that on a particular occasion the party ***acted in accordance with the habit or routine practice***. The court may admit this evidence _regardless_ of whether it is corroborated or if there was an eyewitness.\n• A habit is a ***regular response to a repeated situation*** (i.e. going down a stairway two stairs at a time), and usually has **four key elements**: (1) specificity; (2) repetition; (3) duration; AND (4) is semi-automatic or reflexive. Usually, courts limit habit evidence to behaviors that are semi-automatic or reflexive.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2018, Essay 5",
+      "Feb 2010, Essay 7"
+    ],
+    "translation": "• 個人の***習慣（Habit）***または組織の***日常的慣行（Routine Practice）***の証拠は、特定の機会（Opportunity）に当事者が***その習慣（Habit）または日常的慣行（Routine Practice）に従って行動した***ことを証明するために許容される場合がある。裁判所は、それが裏付けられているか、または目撃者がいたかどうかに_かかわらず_、この証拠を許容することができる。\n• 習慣（Habit）とは、***繰り返される状況に対する規則的な反応（regular response to a repetitive situation）***（すなわち、階段を2段飛ばしで降りるなど）であり、通常、**4つの主要な要素**を持つ：(1) 特定性（Particularity）；(2) 反復性（Repetition）；(3) 継続性（Continuity）；および (4) 半自動的または反射的であること（semi-automatic or reflexive）。通常、裁判所は習慣（Habit）の証拠を半自動的または反射的な行動に限定する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "習慣（Habit）または日常的慣行（Routine Practice）"
+  },
+  {
+    "id": 12,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "E. Impeachment",
+    "ruleTitle": "Impeachment: Prior Inconsistent Statements",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Prior inconsistent statements are admissible to impeach a witness’s trial testimony. A party DOES NOT need to show or disclose the contents of the prior statement when examining a witness on it, but must (on request) show it or disclose its contents to the adverse party’s attorney.\n• Extrinsic Evidence: Unless the court orders otherwise, extrinsic evidence of a witness’s prior inconsistent statement CANNOT be admitted until after a **proper foundation** is shown, which requires that: **(1)** the witness is first given an ***opportunity to explain or deny*** the statement; **AND (2)** an ***adverse party is given an opportunity to examine the witness*** about it. The statement must be relevant to an issue in the case.\n  ○ HOWEVER, **the above limitation on extrinsic evidence is *not applicable* to statements by a party opponent**.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2011, Essay 2"
+    ],
+    "translation": "• 先行する矛盾供述（Prior Inconsistent Statement）は、証人の法廷証言を弾劾（Impeachment）するために許容される。当事者は、証人を尋問する際に先行供述の内容を示すまたは開示する必要はないが、要求があれば、それを相手方当事者の弁護士に示すまたはその内容を開示しなければならない。\n• 外来証拠（Extrinsic Evidence）：裁判所が別途命令しない限り、証人の先行する矛盾供述（Prior Inconsistent Statement）の外来証拠（Extrinsic Evidence）は、**適切な基礎（Adequate Foundation）**が示されるまで許容**されない**。これには以下が必要である：**(1)** 証人にまずその供述を***説明または否定する機会（Opportunity）***が与えられること；**AND (2)** ***相手方当事者が証人を尋問する機会（Opportunity）が与えられる***こと。その供述は事件の争点に関連していなければならない。\n  ○ しかし、**外来証拠（Extrinsic Evidence）に関する上記の制限は、当事者の相手方による供述には*適用されない***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弾劾（Impeachment）：先行する矛盾陳述（Prior Inconsistent Statement）"
+  },
+  {
+    "id": 13,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "E. Impeachment",
+    "ruleTitle": "Impeachment: Prior Convictions",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams o",
+    "body": "• Under the FRE, evidence of ***prior convictions*** may be admitted to attack a witness’s character for truthfulness in certain instances.\n  ○ Prior **felony or misdemeanor convictions *involving dishonesty (a dishonest act or false statement)*** are ALWAYS admissible to impeach a witness (the judge has no discretion to exclude it). All other misdemeanors are NOT admissible to impeach. In most jurisdictions, a theft crime (e.g. shoplifting, robbery) is NOT a crime of dishonesty, _unless_ a specific dishonest act or false statement is proven when defendant committed the crime.\n  ○ **Felonies that DO NOT involve dishonesty** are admissible in the following cases: (1) in a civil or criminal case where the ***witness is not a criminal defendant*** (subject to the FRE 403 exclusions); and (2) in a criminal case where the ***witness is a defendant***, ***but only if the probative value outweighs its prejudicial effect***. Sex crimes are generally _not_ considered relevant to credibility (especially when the danger of unfair prejudice is high), but drug convictions have been deemed relevant.\n  ○ Notwithstanding the above, if **10-years have passed** since the ***later*** of the ***witness’s conviction*** or ***release from confinement***, evidence of the conviction is admissible only if: (1) its probative value substantially outweighs its prejudicial effect; and (2) the proponent gives an adverse party reasonable written notice of the intent to use it.\n• Evidence of a conviction is NOT admissible if it has been ***pardoned or annulled*** based on a finding of innocence.\n• A felony is a crime that (in the convicting jurisdiction) was **punishable by**: **(a) *death***; **OR (b) *imprisonment for more than one year***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2020, Essay 6",
+      "July 2014, Essay 5"
+    ],
+    "translation": "• FREの下では、証人の誠実さへの性格（witness's character for truthfulness）を攻撃するために、一定の場合に***前科（Prior Conviction）***の証拠が採用される場合がある。\n  ○ ***不正直さ（不正直な行為または虚偽の陳述（dishonest act or false statement））を含む***前科（Prior Conviction）の**重罪（Felony）または軽罪（Misdemeanor）**は、証人を弾劾（Impeachment）するために**常に**採用可能である（裁判官に排除する裁量はない）。それ以外の軽罪（Misdemeanor）はすべて弾劾（Impeachment）のために採用されない。ほとんどの法域では、窃盗罪（例：万引き、強盗）は不正直さ（Dishonesty）の犯罪とはみなされない。ただし被告が犯罪を犯した際に特定の不正直な行為または虚偽の陳述（dishonest act or false statement）が証明される場合を除く。\n  ○ **不正直さ（Dishonesty）を含まない重罪（Felony）**は以下の場合に採用可能：(1) ***証人が刑事被告ではない***民事または刑事事件（FRE 403の排除に服する）；および (2) 刑事事件において***証人が刑事被告である***場合であって、その証明力（Probative Value）が不公平な偏見（Bias）の危険を上回る場合。性犯罪は一般的に信用性（Credibility）との関連性（Relevance）が低いとみなされる（不公平な偏見（Bias）の危険が高い場合は特に）が、薬物犯罪は関連性（Relevance）があるとされてきた。\n  ○ 上記にかかわらず、***証人の有罪判決***または***拘禁からの釈放***のうち***遅い方***から**10年が経過している**場合、有罪判決の証拠は以下の場合にのみ採用される：(1) その証明力（Probative Value）が不公平な偏見（Bias）の危険を実質的に上回る場合；および (2) 提案者が相手方に合理的な書面での使用予告を行った場合。\n• 有罪判決の証拠は、無実の認定に基づいて***恩赦または取り消し（Pardon or Annulment）***された場合には採用されない。\n• 重罪（Felony）とは、（有罪判決を受けた法域において）以下によって***処罰可能な***犯罪である：**(a) *死刑***；**または (b) *1年を超える拘禁刑***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弾劾（Impeachment）：先行する有罪判決"
+  },
+  {
+    "id": 14,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "E. Impeachment",
+    "ruleTitle": "Impeachment: Specific Instances of Conduct",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• A witness’s credibility may be attacked on cross-examination by _questioning_ him with **specific instances of conduct** (i.e. prior bad acts) ONLY IF the conduct is ***probative of the witness’s character for truthfulness or untruthfulness***.\n• However, extrinsic evidence is **NEVER admissible to attack or support such instances of a witness’s credibility**. Even if a witness lies or denies a specific instance of conduct, he CANNOT be contradicted by extrinsic evidence, such as documentary evidence or by testimony of another witness to show that the witness is lying.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2023, Essay 6",
+      "July 2014, Essay 5",
+      "Feb 2009, Essay 2"
+    ],
+    "translation": "• 証人の信用性（Credibility）は、その行為が***証人の誠実さまたは不誠実さへの性格（character for truthfulness or untruthfulness）の証明力（Probative Value）を有する***場合に限り、反対尋問（Cross-Examination）において**特定の行為（過去の非行）**を_尋問する_ことによって攻撃することができる。\n• ただし、外部的証拠（Extrinsic Evidence）は**そのような証人の信用性（Credibility）の事例を攻撃または支持するために採用されない**。証人が特定の行為について嘘をつくまたは否定した場合でも、証人が嘘をついていることを示すための書証または他の証人の証言などの外部的証拠（Extrinsic Evidence）によって矛盾を示すことはできない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弾劾（Impeachment）：特定の行為の事例"
+  },
+  {
+    "id": 15,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "E. Impeachment",
+    "ruleTitle": "Impeachment: Character for Truthfulness",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A witness’s credibility may be attacked or supported by: **(a) *reputation testimony*** about the witness’s character for truthfulness or untruthfulness in the community; **OR (b)** by ***opinion testimony*** about the witness’s character. HOWEVER, evidence of the witness’s ***truthful character*** is admissible only ***after*** the **witness’s character for truthfulness has been attacked**.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 証人の信用性（Credibility）は以下によって攻撃または支持することができる：**(a)** コミュニティにおける証人の誠実さまたは不誠実さへの性格（character for truthfulness or untruthfulness）に関する***評判（Reputation）証言***；**または (b)** 証人の性格に関する***意見証言（Opinion Testimony）***。ただし、証人の***誠実さへの性格（character for truthfulness）***に関する証拠は、**証人の誠実さへの性格（witness's character for truthfulness）が攻撃された後***に***のみ採用可能である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弾劾（Impeachment）：真実性に関する性格"
+  },
+  {
+    "id": 16,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "E. Impeachment",
+    "ruleTitle": "Impeachment: Ability to Observe, Remember, or Relate",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A witness’s ***ability to observe, remember, or relate facts accurately*** may be attacked on impeachment. A witness may be impeached on these issues on cross-examination or with extrinsic evidence. The cross-examiner is permitted to delve into the witness’s story to test the witness’s perceptions and memory.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2010, Essay 7"
+    ],
+    "translation": "• 証人の***事実を正確に観察し、記憶し、または陳述する能力***は、弾劾（Impeachment）において攻撃され得る。証人は、これらの問題について、反対尋問（Cross-Examination）または外部証拠によって弾劾（Impeachment）され得る。反対尋問（Cross-Examination）者は、証人の知覚（Perception）と記憶を試すために、証人の供述を深く掘り下げることが許される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弾劾（Impeachment）：観察、記憶、または陳述する能力"
+  },
+  {
+    "id": 17,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "E. Impeachment",
+    "ruleTitle": "Impeachment: Bias",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A witness’s ***bias, interest, motive, partiality, or corruption*** is ALWAYS relevant for impeachment. The U.S. Supreme Court has held that proof of bias is relevant because the finder of fact (and weigher of credibility) is entitled to assess all evidence which might bear on the accuracy and truth of a witness’s testimony.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2020, Essay 6"
+    ],
+    "translation": "• 証人の***偏見（Bias）、利害関係（Interest）、動機（Motive）、不公平、または腐敗（Corruption）***は、弾劾（Impeachment）において常に証拠能力（Admissibility）を有する。合衆国最高裁判所は、偏見（Bias）の証明が証拠能力（Admissibility）を有すると判示している。なぜなら、事実認定者（および信用性（Credibility）評価者）は、証人の証言の正確性と真実性に関わる可能性のあるすべての証拠を評価する権利を有するからである。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弾劾（Impeachment）：偏見（Bias）"
+  },
+  {
+    "id": 18,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "E. Impeachment",
+    "ruleTitle": "Impeachment: Hearsay Declarants",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• When a hearsay statement has been admitted into evidence, the declarant’s credibility may be attacked (and then supported) by ***any evidence that would be admissible if the declarant had testified as a witness***. The court may admit any evidence of the declarant’s inconsistent statement or conduct, including statements that would otherwise be hearsay. It DOES NOT matter when the statement occurred or whether the declarant had an opportunity to explain or deny it. The party against whom the statement was admitted may call the declarant as a witness, and cross-examine the declarant on the statement.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2008, Essay 4"
+    ],
+    "translation": "• 伝聞供述が証拠として採用された場合、供述者（Declarant）の信用性（Credibility）は、***供述者（Declarant）が証人として証言した場合に許容されるであろうあらゆる証拠***によって攻撃され（そしてその後支持され）得る。裁判所は、供述者（Declarant）の矛盾する供述または行為のあらゆる証拠を許容することができ、これには本来伝聞となる供述も含まれる。その供述がいつなされたか、または供述者（Declarant）がそれを説明または否定する機会（Opportunity）があったかは問題ではない。その供述が採用された相手方当事者は、供述者（Declarant）を証人として召喚し、その供述について供述者（Declarant）を反対尋問（Cross-Examination）することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弾劾（Impeachment）：伝聞供述者（Declarant）"
+  },
+  {
+    "id": 19,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "F. Presentation of Evidence",
+    "ruleTitle": "Refreshing Recollection",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under the FRE, refreshing a witness’s recollection using a document is permitted when **(1)** the witness once had ***personal knowledge*** of the matter, **(2)** but is ***unable to recall*** the matter while testifying. When refreshing recollection, the witness will be able to read the document. However, ***only the opposing party may offer the document into evidence*** if it is otherwise inadmissible (but it may be admitted by the offering party if admissible under another ground, such as a recorded recollection). The opposing party is also entitled to have the document produced at the hearing/trial, to inspect it, and to cross-examine the witness about it.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 5",
+      "July 2016, Essay 2",
+      "Feb 2009, Essay 2"
+    ],
+    "translation": "• FRE（連邦証拠規則）の下では、文書を用いて証人の記憶を喚起することは、**(1)** 証人がかつて当該事項について***個人的知識（Personal Knowledge）***を有していたが、**(2)** 証言中に当該事項を***想起できない***場合に許容される。記憶を喚起する際、証人は当該文書を読むことができる。ただし、当該文書が他に証拠として不適格である場合、***相手方のみが当該文書を証拠として提出できる***（ただし、記録された記憶など、他の根拠に基づいて許容される場合は、提出当事者によって証拠として採用され得る）。相手方はまた、公聴会/裁判で当該文書を提出させ、これを閲覧し、かつそれについて証人を反対尋問（Cross-Examination）する権利を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "記憶の喚起（Present Recollection Refreshed）"
+  },
+  {
+    "id": 20,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "F. Presentation of Evidence",
+    "ruleTitle": "Judicial Notice",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Types of Facts That May Be Judicially Noticed: A court may take judicial notice of an **indisputable fact** (a fact not subject to reasonable dispute) that either: **(a)** is ***generally known*** in the community (within the trial court’s territorial jurisdiction); **OR (b)** can be ***accurately and readily determined*** from sources that ***cannot reasonably be questioned***.\n  ○ Courts have taken judicial notice of: (i) **scientific facts** (principles of fingerprint analysis, firearm comparation, or tests determining intoxication), (ii) facts from **accurate sources** (e.g. almanacs, encyclopedias), and (iii) facts contained in **public records**, such as reports from Executive Agencies (including weather reports from the National Weather Service). However, courts have refused to take judicial notice of the weather when the reported information _did not_ eliminate reasonable dispute about the facts of the case (e.g. a fact regarding light at the time of events due to uncertain specifics as to cloud cover). The source of the fact DOES NOT need be admissible into evidence for a court to take judicial notice.\n• Taking Notice: A court MAY take judicial notice on its own. A court MUST take judicial notice if: (1) a party requests it, AND (2) the court is supplied with the necessary information.\n• Timing: A court may take judicial notice at any stage of the proceeding.\n• Opportunity to Be Heard: On timely request, a party IS ENTITLED to be heard on (1) the propriety of taking judicial notice, AND (2) the nature of the fact to be noticed. If the court takes judicial notice _before_ notifying a party, the party is still entitled to be heard if a timely request is made. Under the FRE, no formal scheme of giving notice is provided.\n• Instructing the Jury: In a **civil case**, the court must instruct the jury to accept the noticed fact as ***conclusive***. In a **criminal case**, the court must instruct the jury that it ***may or may not accept the noticed fact as conclusive***.\n• Scope of Judicial Notice: Under the FRE, judicial notice concerns only adjudicative facts, not legislative facts or judicial notice of law. **Adjudicative facts** are the facts of the particular case (the facts submitted to the jury or a judge in a bench trial).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 3"
+    ],
+    "translation": "• 裁判所による確知（Judicial Notice）が認められ得る事実の種類：裁判所は、**(a)** 地域社会（裁判所の管轄区域内）で***一般に知られている***、**または (b)** ***合理的に疑う余地のない***情報源から***正確かつ容易に確認できる***、いずれかの**争いのない事実（Adjudicative Facts）**（合理的な争いの余地がない事実）を裁判所が確知することができる。\n  ○ 裁判所は以下の事実を確知してきた：(i) **科学的事実**（指紋分析、銃器比較、または酩酊度判定試験の原理）、(ii) **正確な情報源**からの事実（例：年鑑、百科事典）、および (iii) 行政機関からの報告書（国立気象局の天気予報を含む）のような**公記録（Public Record）**に含まれる事実。ただし、報告された情報が事件の事実に関する合理的な争いを_排除しなかった_場合（例：雲量に関する不確実な詳細のために、事件発生時の明るさに関する事実）、裁判所は天候についての裁判所による確知（Judicial Notice）を拒否してきた。裁判所が裁判所による確知（Judicial Notice）を行うために、当該事実の情報源が証拠として許容される必要は**ない**。\n• 認定：裁判所は自ら裁判所による確知（Judicial Notice）を行う**ことができる**。裁判所は、(1) 当事者がこれを請求し、**かつ** (2) 裁判所が必要な情報を提供された場合には、裁判所による確知（Judicial Notice）を**しなければならない**。\n• 時期：裁判所は訴訟手続のいかなる段階においても裁判所による確知（Judicial Notice）を行うことができる。\n• 意見陳述の機会（Opportunity）：適時に請求があった場合、当事者は (1) 裁判所による確知（Judicial Notice）の適格性、**および** (2) 認定される事実の性質について意見を述べる**権利を有する**。裁判所が当事者に通知する_前に_裁判所による確知（Judicial Notice）を行った場合でも、適時に請求があれば当事者は意見を述べる権利を有する。FREの下では、通知を行うための正式な制度は規定されていない。\n• 陪審への指示：**民事事件**においては、裁判所は陪審に対し、認定された事実を***決定的なもの***として受け入れるよう指示しなければならない。**刑事事件**においては、裁判所は陪審に対し、認定された事実を***決定的なものとして受け入れることも、受け入れないこともできる***と指示しなければならない。\n• 裁判所による確知（Judicial Notice）の範囲：FREの下では、裁判所による確知（Judicial Notice）は裁定事実（Adjudicative Facts）のみに関し、立法事実（Legislative Facts）や法の裁判所が確知には関しない。**裁定事実（Adjudicative Facts）**とは、特定の事件の事実（陪審または裁判官による事実審理において陪審または裁判官に提出される事実）である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "裁判所による確知（Judicial Notice）"
+  },
+  {
+    "id": 21,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "F. Presentation of Evidence",
+    "ruleTitle": "Lay Witness Testimony & Opinions",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• A lay witness is any person who gives testimony in a case that is NOT called as an expert. A lay witness’s testimony is admissible if he is ***competent to testify***. Under the FRE, **competency** is ***presumed*** unless the FRE provides otherwise. Before testifying, the witness must take an oath to tell the truth. Additionally, a witness may only testify as to matters that he has ***personal knowledge***. Lay witness identification, based on the witness’ prior familiarity with a voice, is allowed at trial.\n• A lay witness may only **offer an opinion** if it is: **(1)** rationally based on the ***witness’s perception***; **(2) *helpful*** to clearly understand the witness’s testimony or to determine a fact in issue (legal conclusions are _not_ helpful); **AND (3) *not based on scientific, technical, or other specialized knowledge***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2018, Essay 5",
+      "Feb 2016, Essay 2",
+      "Feb 2010, Essay 7"
+    ],
+    "translation": "• 非専門家証人（Lay Witness）とは、専門家として召喚されていない、事件において証言を行うあらゆる人物である。非専門家証人（Lay Witness）の証言は、彼が***証言能力（Competency to Testify）がある***場合に許容される。FREの下では、**証言能力（Competency to Testify）**はFREが別途規定する場合を除き、***推定される***。証言する前に、証人は真実を述べる宣誓（Oath）をしなければならない。加えて、証人は彼が***個人的知識（Personal Knowledge）***を有する事項についてのみ証言することができる。証人の声に対する事前の親密さに基づく非専門家証人（Lay Witness）による識別は、裁判で許容される。\n• 非専門家証人（Lay Witness）は、意見が以下の条件を満たす場合にのみ**意見を述べることができる**：**(1)** 証人の***知覚（Perception）***に合理的に基づいていること；**(2)** 証人の証言を明確に理解するため、または争点となっている事実を判断するために***有用である***こと（法的結論は_有用ではない_（legal conclusions are not helpful））；**かつ (3)** ***科学的、技術的、またはその他の専門的知識（Knowledge）に基づかない***こと。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "一般（非専門家）証人の証言および意見（Lay Witness Testimony and Opinion）"
+  },
+  {
+    "id": 22,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "F. Presentation of Evidence",
+    "ruleTitle": "Expert Witness Testimony",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Expert testimony is permitted when: **(1)** the witness is ***qualified*** as an expert (by knowledge, skill, experience, training, or education); **(2)** the testimony is ***helpful*** to the trier of fact (if an average layperson/jury could not figure the issue out for themselves); **(3)** the testimony is ***based on sufficient facts or data*** (e.g. documentary evidence, personal knowledge, examination); **(4)** the testimony is based on ***reliable principles and methods***; **AND (5)** the expert has ***reasonably applied*** the principles and methods to the facts of the case.\n• Reliability is based on the methodology’s: (1) testability; (2) publication and peer review; (3) error rate; (4) standards and controls; AND (5) whether it is generally accepted in the field.\n• Relying Primarily on Experience: If the witness is relying _solely or primarily_ on experience, then the witness MUST explain: (1) how that experience leads to the conclusion reached; (2) why that experience is a sufficient basis for the opinion; AND (3) how that experience is reliably applied to the facts.\n• Opinion on an Ultimate Issue: Generally, an opinion is NOT objectionable just because it embraces an ultimate issue. However, in a criminal case, an expert witness CANNOT state an opinion about whether the defendant had the requisite ***mental state*** that is an element of the crime or a defense.\n• Expert Testimony on Organized Crime & Gangs: Courts have found that a layperson is NOT qualified to understand the inner workings of organized crime (e.g. gangs), and that expert testimony on the issue is helpful to the trier of fact. The more training, knowledge, and experience a detective/officer has, the more likely he or she will be qualified as an expert. Additionally, courts have found that someone with knowledge of gangs generally and knowledge of the specific gang at issue satisfies the element that testimony is based on sufficient facts or data.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 1",
+      "July 2018, Essay 5"
+    ],
+    "translation": "• 専門家証言（Expert Testimony）は、以下の条件を満たす場合に許容される。**(1)** 証人が（知識（Knowledge）、技能、経験、訓練、または教育により）専門家として***適格である***こと。**(2)** 証言が事実認定者（Trier of Fact）にとって***有用である***こと（平均的な一般人／陪審が自力で問題を解決できない場合）。**(3)** 証言が***十分な事実またはデータに基づいている***こと（例：書証、直接の知識（Knowledge）、調査）。**(4)** 証言が***信頼できる原理と方法（Reliable Principles and Methods）に基づいている***こと。**かつ (5)** 専門家が当該事件の事実に原理と方法を***合理的に適用している***こと。\n• 信頼性は、当該方法論の以下の点に基づく。(1) 検証可能性（Testability）。(2) 公表と査読（Peer Review）。(3) 誤謬率（Error Rate）。(4) 基準と管理（Standards and Controls）。かつ (5) その分野で一般的に受け入れられているか否か。\n• 主に経験に依拠する場合：証人が_もっぱらまたは主に_経験に依拠する場合、証人は以下の点を説明しなければならない。(1) その経験がどのようにして到達した結論につながるのか。(2) なぜその経験が意見の十分な根拠となるのか。かつ (3) その経験が事実にどのように信頼性をもって適用されるのか。\n• 最終的な争点（Ultimate Issue）に関する意見：一般的に、意見が最終的な争点（Ultimate Issue）を含むという理由だけで異議を唱えられることはない。しかし、刑事事件においては、専門家証人は、被告人が犯罪の構成要件または抗弁となる必要とされる***精神状態（Mental State）***を有していたか否かについて意見を述べることはできない。\n• 組織犯罪およびギャングに関する専門家証言（Expert Testimony）：裁判所は、一般人が組織犯罪（例：ギャング）の内部の仕組みを理解する資格がないこと、およびこの問題に関する専門家証言（Expert Testimony）が事実認定者（Trier of Fact）にとって有用であることを見出している。刑事／警察官がより多くの訓練、知識（Knowledge）、経験を有していればいるほど、専門家として適格である可能性が高まる。さらに、裁判所は、ギャング全般に関する知識（Knowledge）と当該特定のギャングに関する知識（Knowledge）を持つ者が、証言が十分な事実またはデータに基づいているという要件を満たすことを見出している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "専門家の意見証言（Expert Opinion Testimony）"
+  },
+  {
+    "id": 23,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay, Multiple Hearsay, & Non-Hearsay",
+    "priority": "HIGH",
+    "frequency": "13 of 40 Exams",
+    "body": "• Hearsay Definition: Hearsay is (1) an ***out-of-court statement***, (2) ***that is offered to prove the truth of the matter asserted***. Hearsay is ONLY admissible if it falls under an exception. A “statement” means a person’s oral assertion, written assertion, or nonverbal conduct, if the person ***intended it as an assertion***. However, if the act DOES NOT assert or communicate anything (i.e. crying), it is _not_ deemed a statement for hearsay purposes. The “declarant” is the person who made the statement.\n• Multiple Hearsay: When evidence contains hearsay within hearsay (multiple or double hearsay), each level of hearsay must fall within an exception to be admissible.\n• Non-Hearsay: If an out-of-court statement is **offered to prove something *other than the truth of the statement***, it is non-hearsay and is ADMISSIBLE. Common non-hearsay statements include: **(1)** verbal acts of ***independent legal significance***; **(2)** statements offered to show the ***effect on the listener***; **(3)** a ***prior inconsistent statement*** used to impeach; and **(4)** circumstantial evidence of the speaker’s ***state of mind***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 5",
+      "Feb 2023, Essay 6",
+      "Oct 2020, Essay 3",
+      "July 2020, Essay 1",
+      "Feb 2020, Essay 6",
+      "July 2018, Essay 5",
+      "July 2017, Essay 5",
+      "July 2016, Essay 2",
+      "Feb 2016, Essay 2",
+      "July 2013, Essay 4",
+      "Feb 2013, Essay 7",
+      "Feb 2011, Essay 2",
+      "Feb 2008, Essay 4"
+    ],
+    "translation": "• 伝聞の定義：伝聞とは、(1) ***法廷外供述（Out-of-Court Statement）***であり、(2) ***主張された事実の真実性を証明するために提出されるもの***である。伝聞は、例外に該当する場合にのみ許容される。「供述」とは、ある人物の口頭による主張、書面による主張、または非言語的行為（Verbal Act）であって、その人物が***主張として意図（Intent）したもの***を意味する。しかし、その行為が何も主張または伝達しない場合（例：泣くこと）は、伝聞の目的上、供述とは_みなされない_。「供述者（Declarant）」とは、その供述を行った人物である。\n• 多重伝聞（Multiple Hearsay）：証拠が伝聞の中の伝聞（多重伝聞（Multiple Hearsay）または二重伝聞（Double Hearsay））を含む場合、各段階の伝聞が許容されるためには例外に該当しなければならない。\n• 非伝聞：法廷外供述（Out-of-Court Statement）が、**その供述の真実性*以外の何かを証明するために提出される***場合、それは非伝聞であり、許容される。一般的な非伝聞供述には、以下のものが含まれる。**(1)** ***独立した法的意義（Independent Legal Significance）***を持つ言語行為。**(2)** ***聞き手への影響（Effect on Listener）***を示すために提出される供述。**(3)** 弾劾（Impeachment）のために用いられる***先行する矛盾供述（Prior Inconsistent Statement）***。および **(4)** 話し手の***精神状態（Mental State）***の間接証拠。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞、多重伝聞（Multiple Hearsay）、および非伝聞"
+  },
+  {
+    "id": 24,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exclusion: Statements by a Party Opponent",
+    "priority": "HIGH",
+    "frequency": "6 of 40 Exams",
+    "body": "• Under the FRE, statements by a party opponent are deemed to be non-hearsay. A statement by a party opponent is **(1) *any statement offered against an opposing party***, **(2) that either**: **(a)** was ***made by the party*** in an individual or representative capacity; **(b)** is ***adopted*** or believed to be true by the party (silence may be sufficient if a reasonable person would have denied the statement after hearing it); **(c)** was made by a ***person authorized*** to make a statement on the subject; **(d)** was made by the party’s ***agent or employee*** on a matter within the scope of that relationship; **(e)** was made by the party’s ***co-conspirator*** during and in furtherance of the conspiracy; **OR (f)** was made by a ***predecessor-in-interest*** of a party-opponent (where a party’s claim, defense, or potential liability is _directly derived_ from a declarant or the declarant’s principal) – this makes a hearsay statement admissible against the declarant’s successor-in-interest.",
+    "meeTips": [
+      "The rule of Statements by a Party Opponent was mentioned in the \"Note\" section of Feb 2012 MEE (Essay 1, Point Two), but it was not the primary issue tested."
+    ],
+    "examHistory": [
+      "Oct 2020, Essay 3",
+      "Feb 2020, Essay 6",
+      "July 2018, Essay 5",
+      "July 2017, Essay 5",
+      "July 2016, Essay 2",
+      "Feb 2012, Essay 1"
+    ],
+    "translation": "• 連邦証拠規則（FRE）の下では、相手方当事者の供述（Opposing Party's Statement）は非伝聞とみなされる。相手方当事者の供述（Opposing Party's Statement）とは、**(1) *相手方当事者に対して提出されるあらゆる供述***であって、**(2) 以下のいずれかに該当するもの**である。**(a)** 当事者が個人または代表者としての資格で***行ったもの***。**(b)** 当事者によって***採用された***、または真実であると信じられたもの（合理的な人物がその供述を聞いた後に否定したであろう場合、沈黙で十分な場合がある）。**(c)** その主題について供述を行う***権限を与えられた者***によって行われたもの。**(d)** 当事者の***代理人または従業員***によって、その関係の範囲内の事項について行われたもの。**(e)** 当事者の***共同謀議者（Co-Conspirator）***によって、陰謀の進行中かつその目的を促進するために（during the course of and in furtherance of the conspiracy）行われたもの。**または (f)** 相手方当事者の***前権利者（Predecessor in Interest）***によって行われたもの（当事者の請求、抗弁、または潜在的責任が、供述者（Declarant）または供述者（Declarant）の本人から_直接派生する_場合）—これは、伝聞供述を供述者（Declarant）の権利承継人（Successor in Interest）に対して許容可能とする。",
+    "meeTipTranslation": "相手方当事者の供述（Opposing Party's Statement）のルールは、2012年2月MEE（論文1、論点2）の「注記」セクションで言及されたが、主たる試験対象論点ではなかった。",
+    "ruleTitleJa": "伝聞排除：相手方当事者による陳述"
+  },
+  {
+    "id": 25,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exclusion: Prior Statements by a Witness",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under the FRE, prior statements by a declarant-witness are deemed to be non-hearsay if: **(1)** the ***declarant testifies***; **(2)** the declarant is ***subject to cross-examination*** about a prior statement; **AND (3)** the prior statement: **(a)** was ***inconsistent*** with the declarant’s testimony _and_ was ***given under penalty of perjury*** at a court proceeding or deposition; **(b) *identifies a person*** as someone the declarant perceived earlier (statements identifying a person after hearing that person’s voice typically qualify under this rule); **or (c)** is ***consistent with the declarant’s testimony*** _and_ is offered to either (i) ***rebut that the declarant is lying*** or (ii) to ***rehabilitate the declarant’s credibility*** as a witness when attacked on another ground.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2016, Essay 2",
+      "Feb 2011, Essay 2"
+    ],
+    "translation": "• 連邦証拠規則（FRE）の下では、供述者（Declarant）証人（Declarant-Witness）による事前供述は、以下の条件を満たす場合に伝聞ではないとみなされる。**(1)** ***供述者（Declarant）が証言する***こと。**(2)** 供述者（Declarant）が事前供述について***反対尋問（Cross-Examination）に服する***こと。**かつ (3)** 当該事前供述が、**(a)** 供述者（Declarant）の証言と***矛盾し***、_かつ_裁判手続または宣誓（Oath）供述において***偽証罪の罰則の下でなされた***ものであること。**(b) *供述者（Declarant）が以前に知覚（Perception）した人物として人を特定する***ものであること（その人物の声を聞いた後に人を特定する供述は、通常、本規則の要件を満たす）。**または (c)** 供述者（Declarant）の証言と***一致し***、_かつ_ (i) ***供述者（Declarant）が嘘をついているという主張を反駁する***ため、または (ii) 別の根拠で攻撃された場合に証人としての***供述者（Declarant）の信用性（Credibility）を回復する***ために提出されるものであること。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞排除：証人による先行陳述"
+  },
+  {
+    "id": 26,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exclusion: Co-Conspirator Admissions",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A co-conspirator’s statement is admissible if offered against another conspirator if: **(1)** a ***conspiracy existed*** between the declarant and defendant-conspirator; **(2)** the statement was ***made during the conspiracy***; **(3)** the statement was ***in furtherance*** of the conspiracy; **AND (4)** some ***independent evidence*** to establish the existence of the conspiracy is proven (outside of the statements themselves).",
+    "meeTips": [],
+    "examHistory": [
+      "Oct 2020, Essay 3"
+    ],
+    "translation": "• 共同謀議者（Co-Conspirator）の供述（Co-Conspirator's Statement）は、別の謀議者に対して提出される場合、以下の条件を満たせば許容される。**(1)** 供述者（Declarant）と被告人である謀議者との間に***謀議が存在した***こと。**(2)** 当該供述が***謀議の期間中（during the course of the conspiracy）になされた***こと。**(3)** 当該供述が謀議を***促進するため***になされたこと。**かつ (4)** 謀議の存在を立証するための***独立した証拠***が（供述自体とは別に）立証されること。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞排除：共同謀議者（Co-Conspirator）の自認"
+  },
+  {
+    "id": 27,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Present Sense Impression",
+    "priority": "HIGH",
+    "frequency": "5 of 40 Exams",
+    "body": "• Present sense impression is an exception to the hearsay rule. A **present sense impression** is a statement describing an event made by the declarant: **(a) *while observing the event***; **OR (b) *immediately thereafter***. A slight lapse of time (e.g. a few minutes) after the event is within the period contemplated under this hearsay exception.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 5",
+      "July 2017, Essay 5",
+      "Feb 2016, Essay 2",
+      "July 2013, Essay 4",
+      "Feb 2013, Essay 7"
+    ],
+    "translation": "• 現在の感覚印象（Present Sense Impression）は伝聞法則の例外である。**現在の感覚印象（Present Sense Impression）**とは、供述者（Declarant）が事象を記述する供述であり、**(a) *事象を観察している間***、**または (b) *その直後***になされたものである。事象後わずかな時間の経過（例：数分）は、この伝聞例外（Hearsay Exception）の下で想定される期間内である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：現在の感覚印象（Present Sense Impression）"
+  },
+  {
+    "id": 28,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Excited Utterance",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• An excited utterance is an exception to the hearsay rule. An **excited utterance** is a statement (1) relating to a ***startling event or condition***, (2) made while the declarant was ***under the stress of excitement*** that the event/condition caused. There can be a slight delay between the event and the statement. Responding to a question usually has no effect on the applicability of this hearsay exception, unless police questioning was suggestive.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 5",
+      "July 2017, Essay 5",
+      "Feb 2016, Essay 2",
+      "July 2013, Essay 4"
+    ],
+    "translation": "• 興奮した発言（Excited Utterance）は、伝聞法則の例外である。**興奮した発言（Excited Utterance）**とは、(1) ***衝撃的な出来事または状況（startling event or condition）***に関連し、(2) その出来事または状況によって引き起こされた***興奮のストレス下（under the stress of excitement）***で供述者（Declarant）が行った発言である。出来事と発言の間にわずかな遅延があってもよい。質問への応答は、通常、この伝聞例外（Hearsay Exception）の適用に影響を与えないが、警察の尋問が示唆的であった場合はこの限りではない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：興奮した発言（Excited Utterance）"
+  },
+  {
+    "id": 29,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Business Records",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Business records are an exception to the hearsay rule. A business record is admissible if it is: **(1)** a ***record*** of events, conditions, opinions, or diagnoses; **(2)** kept in the ***regular course of business***; **(3) *made at or near the time*** of the matter described; **(4) *made by a person with knowledge*** of the matter; **(5)** is the ***regular practice of the business*** to make such a record; **AND (6)** the opponent party does not show that the record was made under circumstances indicating a ***lack of trustworthiness***. The witness who lays the business records foundation DOES NOT need be the author of the record or attest to its accuracy.\n• Courts have held that law enforcement reports are _inadmissible_ against a criminal defendant under the business records exception.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2018, Essay 5",
+      "Feb 2013, Essay 7",
+      "Feb 2008, Essay 4"
+    ],
+    "translation": "• 業務記録（Business Record）は、伝聞法則の例外である。業務記録（Business Record）は、以下の条件を満たす場合に許容される：**(1)** 出来事、状況、意見、または診断の***記録***であること；**(2)** ***通常の業務過程（Regular Course of Business）***で保管されていること；**(3)** 記述された事項の***発生時またはその直後***に作成されたこと；**(4)** 当該事項を***知る者によって作成された***こと；**(5)** そのような記録を作成することが***当該業務の通常の慣行（regular practice of that business）***であること；**かつ (6)** 相手方当事者が、その記録が***信頼性の欠如***を示す状況下で作成されたことを示さないこと。業務記録（Business Record）の基礎を築く証人は、その記録の作成者である必要はなく、その正確性を証言する必要もない。\n• 裁判所は、法執行機関の報告書（Law Enforcement Report）は、業務記録（Business Record）の例外の下では、刑事被告人に対しては_許容されない_と判示している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：業務記録（Business Record）"
+  },
+  {
+    "id": 30,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Statements Made for Medical Diagnosis/Treatment",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• A statement is NOT excluded by the hearsay rule when the statement: **(1)** is ***made for and reasonably pertinent to medical diagnosis or treatment***; **AND (2) *describes medical history or symptoms*** (past or present). Statements _not_ relevant to medical diagnosis or treatment (i.e. statements of fault) generally DO NOT fall within this hearsay exception.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2018, Essay 5",
+      "July 2013, Essay 4",
+      "Feb 2008, Essay 4"
+    ],
+    "translation": "• 発言が以下の条件を満たす場合、伝聞法則によって排除されない：**(1)** ***医学的診断または治療のために（for Medical Diagnosis or Treatment）、かつそれに合理的に関連して行われた***ものであること；**かつ (2)** ***病歴または症状（Medical History or Symptoms）***（過去または現在）を記述していること。医学的診断または治療に_関連しない_発言（すなわち、過失に関する発言）は、一般にこの伝聞例外（Hearsay Exception）には該当しない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：医療診断または治療のためにされた陳述（Statement for Medical Diagnosis or Treatment）"
+  },
+  {
+    "id": 31,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Statements of Mental, Emotional, or Physical Condition",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Statements of the declarant’s ***then-existing state of mind*** (i.e. motive, intent, or plan) OR ***emotional, sensory, or physical condition*** are an exception to the hearsay rule. However, statements of memory or belief offered to prove a fact remembered/believed is NOT admissible UNLESS it relates to the validity or terms of the declarant’s will.",
+    "meeTips": [],
+    "examHistory": [
+      "Oct 2020, Essay 3",
+      "Feb 2020, Essay 6"
+    ],
+    "translation": "• 供述者（Declarant）の***その時存在していた精神状態（Mental State）***（すなわち、動機（Motive）、意図（Intent）、または計画）または***感情的、感覚的、または身体的状態***に関する陳述は、伝聞法則の例外である。ただし、記憶された／信じられた事実を証明するために提出される記憶または信念の陳述（statement of memory or belief）は、それが供述者（Declarant）の遺言の有効性または条項（validity or terms of a will）に関連する場合を除き、許容されない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：当時の精神的・感情的・身体的状態の陳述（Then-Existing Mental, Emotional, or Physical Condition）"
+  },
+  {
+    "id": 32,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Dying Declaration",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A dying declaration is an exception to the hearsay rule. Under the FRE, a dying declaration **MAY ONLY** be used in either: (a) a ***civil case***; OR (b) a ***criminal homicide case***.\n• In order to be admissible: **(1)** the declarant must be ***unavailable***; **(2)** the statement was ***made under a sense of impending death***; **AND (3)** the statement ***was about the circumstances or cause*** that put the declarant in the position of impending death.\n• A declarant is deemed unavailable as a witness if he: **(a)** is exempted from testifying due to ***privilege***; **(b) *refuses to testify*** despite a court order to do so; **(c)** testifies that he ***does not remember*** the subject matter; **(d)** cannot be present to testify because of ***death or illness***; **OR (e)** is beyond the reach of a court’s subpoena, and his attendance cannot be procured by reasonable means.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 臨終供述（Dying Declaration）は伝聞法則の例外である。連邦証拠規則（FRE）の下では、臨終供述（Dying Declaration）は以下の**いずれかにおいてのみ**使用され得る：(a) ***民事事件***；または (b) ***刑事殺人事件***。\n• 許容されるためには：**(1)** 供述者（Declarant）が***証言不能（Unavailability）***でなければならない；**(2)** その陳述が***死期が迫っているという意識（Sense of Impending Death）の下でなされた***ものであった；**かつ (3)** その陳述が、供述者（Declarant）を死期が迫った状態に置いた***状況または原因に関する***ものであった。\n• 供述者（Declarant）は、以下のいずれかの場合に証人として証言不能（Unavailability）とみなされる：**(a)** ***特権***により証言を免除されている；**(b) *裁判所の命令にもかかわらず証言を拒否する***；**(c)** その主題を***覚えていない***と証言する；**(d)** ***死亡または病気***のため証言のために出廷できない；**または (e)** 裁判所の召喚状の範囲外にあり、その出廷が合理的な手段によって確保できない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：臨終供述（Dying Declaration）"
+  },
+  {
+    "id": 33,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Statement Against Interest",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A statement against interest is an exception to the hearsay rule, and is admissible when: **(1)** it’s a ***statement against the declarant's penal, proprietary, or pecuniary interest when made*** (i.e. criminal, property, civil liability interests); **(2)** the declarant has ***firsthand knowledge***; **(3)** a reasonable person in the declarant’s position ***would have made the statement only if the person believed it to be true***; **AND (4)** the ***declarant is unavailable***.\n• Criminal Cases: If a Statement Against Interest is offered in a Criminal Case (as one that tends to expose the declarant to criminal liability), it MUST BE SUPPORTED by **(1) *corroborating circumstances***, **(2)** that ***clearly indicate its trustworthiness***, **(3) *after considering*** both (i) ***the totality of circumstances*** under which it was made, _and_ (ii) ***any evidence that supports or undermines it***.\n• A declarant is deemed unavailable as a witness if he: **(a)** is exempted from testifying due to ***privilege***; **(b) *refuses to testify*** despite a court order to do so; **(c)** testifies that he ***does not remember*** the subject matter; **(d)** cannot be present to testify because of ***death or illness***; **OR (e)** is beyond the reach of a court’s subpoena, and his attendance cannot be procured by reasonable means.",
+    "meeTips": [],
+    "examHistory": [
+      "Oct 2020, Essay 3",
+      "July 2020, Essay 1"
+    ],
+    "translation": "• 利益に反する供述（Statement Against Interest）は伝聞法則の例外であり、以下の条件を満たす場合に許容される：**(1)** それが***供述者（Declarant）にとって不利益な陳述***である（すなわち、刑事責任（Criminal Liability）、財産、民事責任（Civil Liability）に関する利益に反する）；**(2)** 供述者（Declarant）が***直接の知識（Knowledge）***を有している；**(3)** 供述者（Declarant）の立場にある合理的な人物であれば、***それが真実であると信じた場合にのみその陳述をしたであろう***；**かつ (4)** ***供述者（Declarant）が証言不能（Unavailability）である***。\n• 刑事事件：利益に反する供述（Statement Against Interest）が刑事事件において（供述者（Declarant）を刑事責任（Criminal Liability）に晒す傾向があるものとして）提出される場合、それは**(1) *補強する状況（corroborating circumstances）***、**(2)** その***信頼性を明確に示す（clearly indicate trustworthiness）***、**(3) *以下の両方を考慮した上で***：(i) その陳述がなされた***状況の全体***、_および_ (ii) ***それを支持または損なうあらゆる証拠***、によって裏付けられなければならない。\n• 供述者（Declarant）は、以下のいずれかの場合に証人として証言不能（Unavailability）とみなされる：**(a)** ***特権***により証言を免除されている；**(b) *裁判所の命令にもかかわらず証言を拒否する***；**(c)** その主題を***覚えていない***と証言する；**(d)** ***死亡または病気***のため証言のために出廷できない；**または (e)** 裁判所の召喚状の範囲外にあり、その出廷が合理的な手段によって確保できない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：利益に反する供述（Statement Against Interest）"
+  },
+  {
+    "id": 34,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Public Records",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the FRE, the following records are admissible under the **government or public records** hearsay exception: **(1)** a record describing the ***policies and practices*** of a public office; **(2) *observations*** made by someone in accordance with his duties by law (except police reports in criminal cases); and **(3) *factual findings*** from a legally authorized investigation (but are _only_ admissible in civil cases or against the government in criminal cases). HOWEVER, if the opposing party shows that the record was made under circumstances indicating a ***lack of trustworthiness***, the record will NOT be admitted.",
+    "meeTips": [
+      "The Public Records Exception was mentioned in the \"Note\" section of the July 2016 MEE (Essay 2, Point Three), but was _not_ the issue tested because it was inapplicable to the fact pattern."
+    ],
+    "examHistory": [
+      "Oct 2020, Essay 3"
+    ],
+    "translation": "• 連邦証拠規則（FRE）に基づき、以下の記録は、**政府または公記録（Public Record）**の伝聞例外（Hearsay Exception）に基づき許容される。**(1)** 公務所の***方針および慣行***を記述した記録、**(2)** 法によりその職務に従って行われた***観察***（刑事事件における警察報告を除く）、**かつ (3)** 法的に認可された調査からの***事実認定***（ただし、民事事件において、または刑事事件において政府に対して_のみ_許容される）。しかしながら、相手方当事者が、当該記録が***信頼性の欠如***を示す状況下で作成されたことを立証した場合、当該記録は許容されない。",
+    "meeTipTranslation": "公的記録の例外は、2016年7月MEE（論文2、論点3）の「注記」セクションで言及されたが、事実関係に適用できなかったため、試験対象論点では_なかった_。",
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：公記録（Public Record）"
+  },
+  {
+    "id": 35,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Past Recollection Recorded",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A past recollection recorded is a record made on a matter the witness once knew about but now cannot recall well enough to testify fully and accurately. A past recollection recorded is an exception to the hearsay rule, and is admissible if: **(1)** the witness had ***personal knowledge*** of the events at one time; **(2)** the writing was ***made or adopted by the witness***; **(3)** the writing was made while the ***events were still fresh*** in the mind of the witness; **(4)** the writing is ***accurate***; **AND (5)** the witness can ***no longer remember the event***. If admitted, the record **MAY** be ***read into evidence***. However, the record **MAY ONLY** be received as an ***exhibit*** if it is **offered by an adverse party**.",
+    "meeTips": [
+      "A witness may first have to Refresh Recollection _before_ the record is admissible as a Past Recollection Recorded (because the witness must testify that the writing accurately reflects their knowledge at the time, and this cannot be testified to if the witness does not remember)."
+    ],
+    "examHistory": [
+      "Feb 2025, Essay 5",
+      "July 2016, Essay 2"
+    ],
+    "translation": "• 過去の記録された記憶とは、証人がかつて知っていたが、現在では完全かつ正確に証言できるほどには思い出せない事項について作成された記録である。過去の記録された記憶は伝聞法則の例外であり、以下の条件を満たす場合に許容される。**(1)** 証人がかつて当該出来事について***個人的な知識（Knowledge）***を有していたこと、**(2)** 当該書面が***証人によって作成または採用された***こと、**(3)** 当該書面が、***出来事がまだ証人の記憶に新しい（event was still fresh in the witness's memory）***うちに作成されたこと、**(4)** 当該書面が***正確である***こと、**かつ (5)** 証人が***もはや当該出来事を覚えていない***こと。許容された場合、当該記録は証拠として***読み上げられる*****ことがある**。しかしながら、当該記録は、**相手方当事者によって提出された**場合に_のみ_、***証拠物（Exhibit）***として受理される**ことがある**。",
+    "meeTipTranslation": "証人は、記録が過去の記録された記憶として許容される_前に_、まず記憶を喚起する必要がある場合がある（なぜなら、証人はその書面が当時の自身の知識（Knowledge）を正確に反映していると証言しなければならず、証人が覚えていない場合はこれが証言できないためである）。",
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：記録された過去の記憶（Past Recollection Recorded）"
+  },
+  {
+    "id": 36,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Former Testimony",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Former testimony is an exception to the hearsay rule.\n• Under the FRE, former testimony is allowed if: **(1)** the ***declarant is unavailable*** as a witness; **(2)** the testimony was given as a witness at a ***trial, hearing, or lawful deposition*** (whether given during the current proceeding or a different one); **AND (3)** the testimony is ***now offered against a party who had*** (or in a civil case whose predecessor in interest had) ***an opportunity and similar motive*** to develop it by direct, cross, or redirect examination.\n• A declarant is deemed unavailable as a witness if he/she: **(a)** is exempted from testifying due to ***privilege***; **(b) *refuses to testify*** despite a court order to do so; **(c)** testifies that he/she ***does not remember*** the subject matter; **(d)** cannot be present to testify because of ***death or illness***; **OR (e)** is beyond the reach of a court’s subpoena and their attendance cannot be procured by reasonable means.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2023, Essay 6"
+    ],
+    "translation": "• 以前の証言（Former Testimony）は伝聞法則の例外である。\n• 連邦証拠規則（FRE）に基づき、以前の証言（Former Testimony）は以下の条件を満たす場合に許容される。**(1)** ***供述者（Declarant）が証人として利用不可能である***こと、**(2)** 当該証言が、***裁判、審問、または適法な宣誓（Oath）供述***において証人としてなされたこと（現在の訴訟手続中であるか、または別の訴訟手続中であるかを問わない）、**かつ (3)** 当該証言が、***現在、直接尋問（Direct Examination）、反対尋問（Cross-Examination）、または再直接尋問（Redirect Examination）によってそれを展開する機会（Opportunity）と類似の動機（Motive）を有していた当事者***（または民事事件においてはその承継人（Successor in Interest））に対して提出されること。\n• 供述者（Declarant）は、以下のいずれかの場合に証人として利用不可能であるとみなされる。**(a)** ***特権***により証言を免除されている場合、**(b)** 裁判所の命令にもかかわらず***証言を拒否する***場合、**(c)** 当該事項を***覚えていない***と証言する場合、**(d)** ***死亡または病気***のため証言のために出廷できない場合、**または (e)** 裁判所の召喚状の範囲外にあり、合理的な手段によってその出廷を確保できない場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：以前の証言（Former Testimony）"
+  },
+  {
+    "id": 37,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Learned Treatises, Periodicals, or Pamphlets",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the FRE, statements in **learned treatises, periodicals, or pamphlets** are an exception to the hearsay rule and are admissible if: **(1)** the statement is **(a)** called to the attention of an ***expert witness on cross-examination***, OR **(b)** relied on by an ***expert on direct examination***; **AND (2)** the publication is ***established as a reliable authority*** by the expert’s admission or testimony, by another expert’s testimony, or by judicial notice.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 連邦証拠規則（FRE）に基づき、**学術論文（Learned Treatise）、定期刊行物、またはパンフレット**中の陳述は伝聞法則の例外であり、以下の条件を満たす場合に許容される。**(1)** 当該陳述が**(a)** ***反対尋問（Cross-Examination）中の専門家証人***の注意を喚起されたもの、または**(b)** ***主尋問（Direct Examination）中の専門家***によって依拠されたもの、**かつ**(2) 当該出版物が、専門家の自認または証言、他の専門家の証言、または裁判所による確知（Judicial Notice）によって***信頼できる権威として確立されている（established as a reliable authority）***場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：学術論文（Learned Treatise）、定期刊行物、またはパンフレット"
+  },
+  {
+    "id": 38,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Ancient Documents",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the FRE, statements in **ancient documents** are an exception to the hearsay rule if: **(1)** the document was prepared ***before January 1, 1998***; **AND (2)** its ***authenticity is established***.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 連邦証拠規則（FRE）に基づき、**古文書（Ancient Document）**中の陳述は、以下の条件を満たす場合に伝聞法則の例外となる。**(1)** 当該文書が***1998年1月1日より前***に作成されたもの、**かつ**(2) その***真正性が立証されている（authenticity has been established）***場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：古文書（Ancient Document）"
+  },
+  {
+    "id": 39,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Hearsay Exception: Residual Exception",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the FRE, a hearsay statement is NOT excluded by the rule against hearsay (even if the statement is not specifically covered by a hearsay exception) if: **(1)** the statement is supported by ***sufficient guarantees of trustworthiness*** (after considering the totality of circumstances under which it was made and any evidence corroborating the statement); **(2)** it is ***more probative*** on the point for which it is offered than any other evidence that the proponent can obtain through reasonable efforts; **AND (3) *reasonable notice*** is given to the adverse party.\n• Notice Required: The statement is admissible ONLY IF the proponent gives an adverse party **reasonable notice** of the intent to offer the statement (including the ***statement’s substance*** _and_ ***declarant’s name***) so that the party has a fair opportunity to oppose its introduction. The notice must be provided _in writing_ before the trial or hearing (or in any form during the trial or hearing if the court, for good cause, excuses a lack of earlier notice).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 連邦証拠規則（FRE）に基づき、伝聞陳述は、以下の条件を満たす場合（特定の伝聞例外（Hearsay Exception）に明示的に該当しない場合であっても）伝聞法則によって排除されない。**(1)** 当該陳述が***十分な信頼性の保証（Guarantees of Trustworthiness）***によって裏付けられていること（作成された状況の全体および陳述を裏付ける証拠を考慮した後）、**(2)** 提案者が合理的な努力によって入手できる他のいかなる証拠よりも、それが提出される論点について***より証明力（Probative Value）がある***こと、**かつ**(3) 相手方当事者に***合理的な通知***が与えられていること。\n• 必要な通知：当該陳述は、提案者が相手方当事者に対し、その導入に異議を唱える公正な機会（Opportunity）を与えるため、陳述を提出する意図（Intent）について**合理的な通知**（***陳述の内容***_および_***供述者（Declarant）の氏名***を含む）を与えた場合に**のみ**許容される。通知は、公判または審問の前に_書面で_提供されなければならない（または、裁判所が正当な理由により事前の通知の欠如を免除する場合、公判または審問中にいかなる形式でも提供され得る）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "伝聞例外（Hearsay Exception）：その他の例外（Residual Exception）"
+  },
+  {
+    "id": 40,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "G. Hearsay",
+    "ruleTitle": "Sixth Amendment Right to Confront Witnesses",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• The Sixth Amendment’s Confrontation Clause (as applied to the states via the Fourteenth Amendment) gives a criminal defendant the right to ***confront witnesses against him***. The use of an out-of-court statement (even if it falls within a hearsay exception or exemption) violates a defendant’s Sixth Amendment rights when: **(1)** the statement is “***testimonial***”; **(2)** the ***declarant is unavailable*** to be cross-examined at trial; **AND (3)** the defendant ***did not have an opportunity to cross-examine*** the declarant before trial. This prohibition is subject to some exceptions, such as dying declarations and wrongdoing by the defendant.\n• Courts have held that the following statements are testimonial in nature: **(a)** statements **made to grand juries** (and in other similar situations); **(b)** an affidavit or certified report containing ***forensic laboratory results***; and **(c)** statements **made to the police** whose ***primary purpose* (when viewed objectively) is to collect testimony to be used at a later trial***. HOWEVER, statements made to the police where the ***primary purpose* of the questioning was to assist the police in an *ongoing emergency* are NOT considered testimonial.\n• The U.S. Supreme Court set forth the following factors to determine the existence of an ongoing emergency: (1) the nature of the dispute; (2) the scope of the potential harm to the victim; (3) the threat to additional identifiable victims; (4) the existence of a more generalized threat to the public; (5) the suspect’s type of weapon; and (6) whether the suspect remained “at large” or had been located, but not apprehended.\n• Forensic Laboratory Results: The Supreme Court has held that a forensic laboratory report CANNOT be introduced through a “surrogate” expert (someone other than the person who created the report), _unless_ that person has at least some personal knowledge that the declarant’s statements are true.",
+    "meeTips": [],
+    "examHistory": [
+      "Oct 2020, Essay 3",
+      "Feb 2016, Essay 2",
+      "July 2013, Essay 4"
+    ],
+    "translation": "• 合衆国憲法修正第6条の対面条項（Confrontation Clause）（修正第14条を通じて州に適用される）は、刑事被告人に対し、***自己に不利な証人と対面する（to Confront Witnesses）***権利を与える。法廷外供述（伝聞例外（Hearsay Exception）または免除に該当する場合であっても）の使用は、以下のいずれかの条件を満たす場合に被告人の修正第6条の権利を侵害する：**(1)** 当該供述が「***証言的（Testimonial）***」であること；**(2)** ***供述者（Declarant）が公判で反対尋問（Cross-Examination）されるために利用不能である***こと；**かつ (3)** 被告人が公判前に供述者（Declarant）を***反対尋問（Cross-Examination）する機会（Opportunity）がなかった***こと。この禁止は、臨終供述（Dying Declaration）や被告人による不正行為など、いくつかの例外の対象となる。\n• 裁判所は、以下の供述が本質的に証言的（Testimonial）であると判断している：**(a)** **大陪審（Grand Jury）に対してなされた**供述（およびその他の類似の状況における供述）；**(b)** ***法医学的検査（Forensic Testing）結果***を含む宣誓（Oath）供述書または認証（Authentication）報告書；および **(c)** **警察に対してなされた**供述で、その***主たる目的（Primary Purpose）***が（客観的に見て）後の公判で使用するために証言を収集することである供述。しかし、警察への質問の***主たる目的（Primary Purpose）***が***進行中の緊急事態（Ongoing Emergency）***において警察を支援することであった場合、その供述は***証言的（Testimonial）とはみなされない（non-testimonial）***。\n• 合衆国最高裁判所は、進行中の緊急事態（Ongoing Emergency）の存在を判断するために以下の要素を提示した：(1) 紛争の性質；(2) 被害者への潜在的危害の範囲；(3) 追加の特定可能な被害者への脅威；(4) 公衆へのより広範な脅威の存在；(5) 被疑者の武器の種類；および (6) 被疑者が「逃走中」であるか、または特定されたが逮捕されていないか。\n• 法医学的検査（Forensic Testing）結果：最高裁判所は、法医学的検査（Forensic Testing）報告書は、「代理」専門家（報告書を作成した者以外の人物）を通じて提出することはできないと判断している。_ただし_、その人物が供述者（Declarant）の供述が真実であるという個人的な知識（Knowledge）を少なくともいくらか持っている場合を除く。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "合衆国憲法修正第6条の証人対面権（Right to Confront Witnesses）"
+  },
+  {
+    "id": 41,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "H. Privileges",
+    "ruleTitle": "Spousal Privileges: Spousal Immunity & Confidential Marital Communications",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Spousal Immunity: A witness-spouse in a valid marriage may refuse to testify against his or her spouse in a ***criminal case*** (_even if_ the spouse is not a defendant). The witness-spouse alone holds the privilege, and the privilege ends after divorce. Spousal immunity DOES NOT apply in civil cases.\n• Confidential Marital Communications: Communications between a husband and wife are privileged in _both_ civil and criminal cases if: **(1)** made ***during the course of a valid marriage***; **AND (2)** were ***intended to be confidential***. The privilege is held by both spouses (either may assert it), and applies even after divorce. If a spouse divulges the content of communications to a third-party, the privilege for those disclosed communications no longer applies.\n• Both spousal immunity and the privilege for confidential marital communications DO NOT apply: (a) in cases between the spouses; OR (b) when a spouse commits a crime against the other spouse or their children.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2008, Essay 4"
+    ],
+    "translation": "• 配偶者の証言拒否特権（Spousal Testimony Privilege）：有効な婚姻関係にある証人配偶者は、***刑事事件***において自己の配偶者に対して証言を拒否することができる（_たとえ_配偶者が被告人でなくても）。証人配偶者のみが特権を保持し、特権は離婚後に消滅する。配偶者の証言拒否特権（Spousal Testimony Privilege）は民事事件には適用されない。\n• 配偶者間交信の秘匿特権（Marital Communications Privilege）：夫婦間の通信は、以下の条件を満たす場合に_民事_および_刑事_事件の双方において特権が認められる：**(1)** ***有効な婚姻関係の期間中になされた（made during the valid marriage）***こと；**かつ (2)** ***秘匿されることを意図（Intent）していた***こと。特権は両配偶者が保持し（いずれも主張できる）、離婚後も適用される。配偶者が通信の内容を第三者に漏洩した（disclosed to a third party）場合、開示された通信に対する特権はもはや適用されない。\n• 配偶者の証言拒否特権（Spousal Testimony Privilege）および配偶者間交信の秘匿特権（Marital Communications Privilege）の特権は、以下のいずれの場合にも適用されない：(a) 配偶者間の事件において；または (b) 配偶者が他の配偶者またはその子供に対して犯罪を犯した場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "夫婦間の特権：配偶者の証言拒否特権と配偶者間交信の秘匿特権（Spousal Testimony Privilege and Marital Communications Privilege）"
+  },
+  {
+    "id": 42,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "H. Privileges",
+    "ruleTitle": "Attorney-Client Privilege",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• The attorney-client privilege protects ***confidential communications*** between an attorney and client from disclosure if: **(1)** the communication was ***confidential*** (it was not knowingly made in front of third-parties); **AND (2)** the communication was ***made to facilitate legal services***. Such communications remain privileged even _after_ the client dies.\n• The **client holds the privilege** and may waive it at any time, including by disclosure to a third party. However, privilege is NOT waived through inadvertent disclosure to a third party.\n• The privilege DOES NOT apply when: **(a)** legal services are sought to ***further a crime or fraud***; **(b)** there is litigation related to a ***breach of duty between the attorney and client***; **OR (c) *jointly represented clients*** are subsequently involved in civil litigation against each other.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 弁護士・依頼者間特権（Attorney-Client Privilege）は、弁護士と依頼者との間の***秘匿される通信（Confidential Communication）***を、以下の条件を満たす場合に開示から保護する：**(1)** 当該通信が***秘匿されるもの***であった（意図（Intent）的に第三者の前でなされたものではない）こと；**かつ (2)** 当該通信が***法的サービスを促進するために（to facilitate legal services）行われた***こと。このような通信は、依頼者が死亡した_後も_特権が維持される。\n• **依頼者が特権を保持する**ものであり、第三者への開示を含め、いつでも放棄することができる。しかし、特権は、第三者への不注意な開示（Inadvertent Disclosure）によっては放棄されない。\n• 特権は、以下のいずれの場合にも適用されない：**(a)** ***犯罪または詐欺を助長（crime-fraud exception）する***ために法的サービスが求められた場合；**(b)** ***弁護士と依頼者との間の義務違反（breach of duty between attorney and client）***に関連する訴訟がある場合；**または (c)** ***共同で代理された依頼者（jointly represented clients）***がその後互いに対する民事訴訟に関与する場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弁護士・依頼者間特権（Attorney-Client Privilege）"
+  },
+  {
+    "id": 43,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "H. Privileges",
+    "ruleTitle": "Attorney Work Product Doctrine",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• The work product doctrine protects ALL materials prepared by an ***attorney or his agents in anticipation of or during litigation***. Such materials are protected from disclosure UNLESS a party can show: **(1)** a ***substantial need*** for the materials exist; **AND (2)** a substantial equivalent of the materials ***cannot be obtained without undue hardship***.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• ワークプロダクト・ドクトリン（Work Product Doctrine）は、***弁護士またはその代理人が訴訟を予期して（in anticipation of litigation）、または訴訟中に作成した*****全ての資料**を保護する。かかる資料は、当事者が以下のことを示さない限り、開示から保護される。**(1)** 資料に対する***実質的な必要性（Substantial Need）***が存在すること。**かつ (2)** 資料の実質的に同等のものが***不当な困難（Undue Hardship）なしには入手できない***こと。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "弁護士職務作成物主義（Work Product Doctrine）"
+  },
+  {
+    "id": 44,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "H. Privileges",
+    "ruleTitle": "Physician-Patient Privilege",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Most states recognize a Physician-Patient Privilege. In those States, ***confidential patient communications*** made to a physician ***for the purpose of medical diagnosis or treatment*** ARE PRIVILEGED.\n• Federal courts DO NOT recognize a Physician-Patient Privilege. However, under the FRE, state law governs privilege for civil cases regarding a claim or defense for which state law supplies the rule of decision (e.g. in a diversity action filed in federal court).\n• Waiver: The patient holds the privilege (_not_ the physician), and only the patient can invoke or waive it. The privilege may be waived by the patient when the medical condition is placed “in issue” (e.g. a personal injury lawsuit relating to the condition). Disclosure of bare facts of medical information/ history to third parties is generally _not_ considered an implied waiver. If deemed an implied waiver by the court, then court will limit the scope of evidence to only that waiver (i.e. disclosed) by the patient.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2020, Essay 1",
+      "July 2018, Essay 5"
+    ],
+    "translation": "• ほとんどの州は医者・患者間特権（Physician-Patient Privilege）を認めている。これらの州では、***医療診断または治療の目的で***医師に対して行われた***秘密の患者通信（Confidential Patient Communication）***は特権が与えられる。\n• 連邦裁判所は医者・患者間特権（Physician-Patient Privilege）を認めない。しかし、連邦証拠規則（FRE）の下では、州法が判断の規則を提供する請求または抗弁に関する民事事件（例：連邦裁判所に提起された多様性管轄（Diversity Jurisdiction）訴訟）については、特権に関して州法が適用される。\n• 権利放棄：患者が特権を保持し（医師_ではない_）、患者のみがそれを行使または放棄できる。医療状態が「争点」とされた場合（例：その状態に関連する人身傷害訴訟（Personal Injury Lawsuit））、患者によって特権は放棄され得る。医療情報/履歴の単なる事実を第三者に開示することは、一般的に黙示の権利放棄（Implied Waiver）とは_みなされない_。裁判所によって黙示の権利放棄（Implied Waiver）とみなされた場合、裁判所は証拠の範囲を患者によって放棄された（すなわち開示された）もののみに限定する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "医者・患者間特権（Physician-Patient Privilege）"
+  },
+  {
+    "id": 45,
+    "subject": "EVIDENCE",
+    "subjectNumber": "08",
+    "section": "H. Privileges",
+    "ruleTitle": "Psychotherapist-Patient Privilege",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• All states recognize a Psychotherapist-Patient Privilege, which protects **(1) *confidential patient communications***, **(2)** made to a **psychotherapist** (psychologist, psychiatrist, or social worker), **(3) *for the purpose of psychological treatment***. The patient holds the privilege (_not_ the psychotherapist), and only the patient can invoke or waive it.\n• Exceptions to the privilege are based on state and federal law, and include: (i) ***court-ordered examinations***; (ii) ***civil commitment proceedings*** to determine if hospitalization is required; (iii) when the psychological condition is ***placed “in issue” by the patient*** (i.e. a personal injury lawsuit relating to the condition); and (iv) the ***dangerous-patient exception*** – the therapist has a duty to warn when he knows (or reasonably should know) that the patient poses a serious threat of violence to foreseeable victims.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 全ての州は心理療法士・患者間特権（Psychotherapist-Patient Privilege）を認めており、これは**(1) *秘密の患者通信（Confidential Patient Communication）***、**(2)** 心理療法士（心理学者、精神科医、またはソーシャルワーカー）に対して行われたもの、**(3) *心理治療の目的で***行われたものを保護する。患者が特権を保持し（心理療法士_ではない_）、患者のみがそれを行使または放棄できる。\n• 特権の例外は州法および連邦法に基づいており、以下を含む。(i) ***裁判所命令による診察（Court-Ordered Examination）***。(ii) 入院が必要かどうかを判断するための***民事入院手続（Civil Commitment Proceeding）***。(iii) 心理状態が***患者によって「争点」とされた***場合（すなわち、その状態に関連する人身傷害訴訟（Personal Injury Lawsuit））。および (iv) ***危険な患者の例外（Dangerous Patient Exception）*** – 治療者が、患者が予見可能な被害者に対して深刻な暴力の脅威（serious threat of violence against a foreseeable victim）をもたらすことを知っている（または合理的に知るべきである）場合、警告義務（Duty to Warn）を負う。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "心理療法士・患者間特権（Psychotherapist-Patient Privilege）"
+  }
+]

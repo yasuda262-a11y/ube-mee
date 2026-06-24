@@ -1,0 +1,524 @@
+[
+  {
+    "id": 1,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "A. Creation of Partnerships",
+    "ruleTitle": "Creation of a General Partnership",
+    "priority": "HIGH",
+    "frequency": "11 of 65 Exams",
+    "body": "• A General Partnership is created when **(1) *two or more persons***, **(2)** as ***co-owners***, **(3)** carry on a ***business for profit***. No written agreement or formalities are required. A person’s intent to form a partnership or be partners is NOT required. A legal entity (e.g. corporation, limited liability company) may be a partner.\n• Part ownership or common ownership of property _alone_ is NOT enough to create a partnership. Likewise, a joint venture DOES NOT automatically create a partnership.\n• A person who receives a share of the profits of the partnership business is **presumed to be a partner** of the business UNLESS the profits were received in payment: **(a)** of a ***debt***; **(b)** for ***wages*** as an employee or independent contractor; **(c)** of ***rent***; **(d)** of an annuity or other ***retirement benefit***; **(e)** of ***interest/loan charges***; **OR (f)** for the ***sale of the goodwill of a business***.\n• Individuals may inadvertently create a general partnership despite their expressed subjective intent not to do so (i.e. when the required formalities to form a Limited Partnership or Limited Liability Partnership are _not_ followed).",
+    "meeTips": [
+      "The subjects of Partnerships and Agency are normally tested together on Essay questions."
+    ],
+    "examHistory": [
+      "Feb 2026, Essay 2",
+      "Feb 2024, Essay 1",
+      "July 2023, Essay 2",
+      "Feb 2021, Essay 1",
+      "Feb 2019, Essay 3",
+      "July 2010, Essay 1",
+      "July 2009, Essay 8",
+      "July 2007, Essay 4",
+      "July 2006, Essay 2",
+      "July 1999, Essay 2",
+      "July 1997, Essay 1"
+    ],
+    "translation": "• 一般組合（General Partnership）は、**(1) *二人以上の者***が、**(2)** ***共同所有者***として、**(3)** ***営利事業***を営む場合に設立される。書面による合意や形式的な手続きは不要である。組合を設立する、または組合員となるという個人の意図は不要である。法人（例：株式会社、有限責任会社（LLC））も組合員となり得る。\n• 財産の共有または共同所有_のみ_では、組合を設立するには不十分である。同様に、共同事業は自動的に組合を設立するものではない。\n• 組合事業の利益の分配（Sharing of Profits）を受ける者は、当該利益が以下の支払いのために受領された場合を除き、当該事業の**組合員であると推定される**：**(a)** ***債務***の支払い、**(b)** 従業員または独立請負人としての***賃金***、**(c)** ***賃料***、**(d)** 年金またはその他の***退職給付***、**(e)** ***利息／貸付手数料***、**または (f)** ***事業の営業権の売却***。\n• 個人は、そうしないという明示的な主観的意図にもかかわらず、意図せず一般組合（General Partnership）を設立することがある（すなわち、有限責任組合または有限責任事業組合を設立するための所定の手続きが_遵守されない_場合）。",
+    "meeTipTranslation": "組合と代理の主題は、通常、論文式試験で併せて出題される。",
+    "ruleTitleJa": "一般共同事業（General Partnership）の設立"
+  },
+  {
+    "id": 2,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "A. Creation of Partnerships",
+    "ruleTitle": "Formation of a Limited Partnership (LP)",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A Limited Partnership is a partnership composed of general and limited partners, and MUST have ***at least* one general partner**.\n• It is formed upon the filing of a **Certificate of Limited Partnership** with the Secretary of State that includes: **(1)** the ***name*** of the partnership; **(2)** the ***address of the partnership’s principal office***; **(3)** name and address of partnership’s ***registered agent*** – must be within the state; **(4) *name and address of each general partner***; **(5) *whether the partnership is a LLLP*** (Limited Liability Limited Partnership); **AND (6)** it must be ***signed by all general partners***.\n  ○ Name Requirements: If an **LP**, the name must contain “limited partnership” or the abbreviation “LP” or “L.P.”. If an **LLLP**, the name must contain the phrase “limited liability limited partnership” or the abbreviation “LLLP” or “L.L.L.P.”\n• If the Certificate of Limited Partnership fails to meet the above requirements, then a General Partnership is created.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2009, Essay 8",
+      "July 1999, Essay 2"
+    ],
+    "translation": "• 有限責任組合は、無限責任組合員（General Partner）と有限責任組合員（Limited Partner）で構成される組合であり、***少なくとも一人の無限責任組合員（General Partner）***を置かなければならない。\n• これは、州務長官に**有限責任組合設立証明書**を提出することにより設立され、当該証明書には以下が含まれる：**(1)** 組合の***名称***、**(2)** 組合の***主たる事務所の所在地***、**(3)** 組合の***登録代理人の氏名および住所*** – 州内に所在しなければならない、**(4) *各無限責任組合員（General Partner）の氏名および住所***、**(5) *当該組合がLLLP（有限責任有限責任組合）であるか否か***、**および (6)** ***全ての無限責任組合員（General Partner）によって署名***されなければならない。\n  ○ 名称要件：**LP**の場合、名称には「limited partnership」または略称「LP」もしくは「L.P.」を含まなければならない。**LLLP**の場合、名称には「limited liability limited partnership」または略称「LLLP」もしくは「L.L.L.P.」を含まなければならない。\n• 有限責任組合設立証明書が上記の要件を満たさない場合、一般組合（General Partnership）が設立される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "有限責任組合（LP）の設立"
+  },
+  {
+    "id": 3,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "A. Creation of Partnerships",
+    "ruleTitle": "Formation of a Limited Liability Partnership (LLP)",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A Limited Liability Partnership (LLP) is one in which all partners have limited personal liability. Any partnership may become an LLP upon: **(1) *approval by the same vote that is necessary to amend the partnership agreement***; **AND (2)** by filing a ***Statement of Qualification*** with the Secretary of State. Unless otherwise agreed, a unanimous vote is required to amend a partnership agreement.\n  ○ A Statement of Qualification must include: (i) the name and address of the partnership; (ii) a statement that the partnership elects to become an LLP; AND (iii) a deferred effective date, if any. The name of a LLP must end with “Registered Limited Liability Partnership”, “Limited Liability Partnership”, “R.L.L.P.”, “L.L.P.”, “RLLP,” or “LLP”.\n• **The filing of a Statement of Qualification DOES NOT create a new partnership**. Instead, the LLP continues to be the same partnership entity that existed prior to the filing. Thus, the LLP remains liable for any unfulfilled obligations of the partnership entity before it became an LLP.",
+    "meeTips": [
+      "Formation of an LP or LLP is usually tested in conjunction with a partner’s personal liability, especially when the LP or LLP formation requirements are _not_ followed."
+    ],
+    "examHistory": [
+      "Feb 2014, Essay 6",
+      "Feb 2012, Essay 6"
+    ],
+    "translation": "• 有限責任事業組合（LLP）とは、全ての組合員が有限の個人責任（Personal Liability）を負う組合である。いかなる組合も、以下の手続きを経てLLPとなることができる：**(1) *組合契約を修正するために必要な議決と同じ議決による承認***、**および (2)** 州務長官への***資格証明書***の提出。別段の合意がない限り、組合契約を修正するには全員一致（Unanimous Consent）の議決が必要である。\n  ○ 資格証明書には、(i) 組合の名称および住所、(ii) 組合がLLPとなることを選択する旨の声明、および (iii) 繰延べられた発効日（もしあれば）を含まなければならない。LLPの名称は、「Registered Limited Liability Partnership」、「Limited Liability Partnership」、「R.L.L.P.」、「L.L.P.」、「RLLP」、または「LLP」で終わらなければならない。\n• **資格証明書の提出は、新たな組合を設立するものではない**。むしろ、LLPは、提出前に存在していた同一の組合事業体であり続ける。したがって、LLPは、LLPとなる前の組合事業体の未履行の義務に対して引き続き責任を負う。",
+    "meeTipTranslation": "有限責任組合または有限責任事業組合の設立は、特に有限責任組合または有限責任事業組合の設立要件が_遵守されない_場合に、組合員の個人責任（Personal Liability）と併せて出題されることが多い。",
+    "ruleTitleJa": "有限責任事業組合（LLP）の設立"
+  },
+  {
+    "id": 4,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "B. Power and Liability of Partners",
+    "ruleTitle": "Authority to Bind the Partnership",
+    "priority": "HIGH",
+    "frequency": "10 of 65 Exams",
+    "body": "• Each partner is an agent of the partnership, and generally has authority to bind the partnership for the purpose of its business (including entering into contracts).\n• A partner has **express actual authority** to bind the partnership upon receiving said authority from the partners. Differences among the partners as to **acts within the ordinary course** of the partnership business need only be approved by a ***majority*** of the partners. **Acts outside the ordinary course** of business must be approved ***unanimously***. If the **partnership agreement is silent on the scope** of the partner’s authority, a partner has authority to bind the partnership to ***usual and customary matters***, UNLESS the partner _knows_ that: (a) other partners might disagree; OR (b) for some other reason consultation with fellow partners is appropriate. Hiring an employee is normally _within_ the ordinary course of partnership business, unless the partnership agreement states otherwise.\n• A partner has **implied actual authority** (also known as incidental authority) to take actions that are ***reasonably incidental or necessary*** to achieve the partner’s authorized duties.\n• A partner has **apparent authority** to bind the partnership for all acts apparently conducted ***within the ordinary course of the partnership business* OR *the kind carried on by the partnership***. However, a partner’s act will NOT bind the partnership if: (1) the partner lacked authority; AND (2) the third-party knew (actual knowledge) or had notice that the partner lacked authority. For **acts *outside* the scope of business**, there must be a manifestation by the partnership that the partner had authority in order to bind the partnership.\n• An act or transaction is within the ordinary course of business if it is ***normal and necessary for managing the business*** – a person would reasonably conclude the act is directly and necessarily embraced within the partnership business.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 1",
+      "Oct 2020, Essay 4",
+      "Feb 2019, Essay 3",
+      "Feb 2016, Essay 3",
+      "Feb 2014, Essay 6",
+      "July 2007, Essay 4",
+      "July 2006, Essay 2",
+      "July 2003, Essay 5",
+      "Feb 2001, Essay 2",
+      "July 1997, Essay 1"
+    ],
+    "translation": "• 各パートナーは組合の代理人であり、一般にその事業目的（契約締結を含む）のために組合を拘束する権限を有する。\n• パートナーは、他のパートナーから当該権限を与えられた場合、組合を拘束する**明示的現実権限**を有する。組合事業の**通常の業務範囲内の行為**に関するパートナー間の意見の相違は、パートナーの***過半数（Majority）***の承認のみを必要とする。事業の**通常の業務範囲外の行為**は、***全員一致（Unanimous Consent）***で承認されなければならない。**組合契約がパートナーの権限の範囲について沈黙している場合**、パートナーは***通常かつ慣習的な事項***について組合を拘束する権限を有する。ただし、当該パートナーが以下のいずれかを知っている場合はこの限りではない。(a) 他のパートナーが異議を唱える可能性があること、または (b) 何らかの理由で他のパートナーとの協議が適切であること。従業員の雇用は、組合契約に別段の定めがない限り、通常、組合事業の通常の業務範囲_内_である。\n• パートナーは、その承認された職務を達成するために***合理的に付随的または必要***な行為を行う**黙示的現実権限**（付随的権限とも呼ばれる）を有する。\n• パートナーは、***通常の組合事業の範囲内、または組合が行っている種類の行為***として明らかに遂行されたすべての行為について、組合を拘束する**表見代理権**を有する。ただし、パートナーの行為は、以下のいずれかの場合は組合を拘束しない。(1) パートナーに権限がなかった場合、かつ (2) 第三者がパートナーに権限がないことを知っていた（現実の知識）か、またはその通知を受けていた場合。**事業の*範囲外*の行為**については、組合を拘束するためには、当該パートナーが権限を有していたことを組合が表明している必要がある。\n• 行為または取引が通常の業務範囲内であるとは、それが***事業の運営にとって通常かつ必要***である場合を指す。すなわち、その行為が組合事業に直接的かつ必然的に含まれると合理的に結論付けられる場合である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "組合を拘束する権限"
+  },
+  {
+    "id": 5,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "B. Power and Liability of Partners",
+    "ruleTitle": "Authority to Bind a Partnership After Dissolution",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• After dissolution, a partner’s actual authority to bind the partnership is limited only to those ***acts appropriate for winding up*** the partnership business. However, a partner has apparent authority to bind the partnership _even after dissolution_ if: **(1)** the partner’s acts would have ***normally bound the partnership***; **AND (2)** the ***third-party did not have notice*** of the dissolution.\n• If the partnership is bound, then ALL partners will be jointly and severally liable for the partnership’s obligation. Any partner that pays more than their proportionate share of their obligation to a third-party may seek contribution from the other partners.\n• Under the Revised Uniform Partnership Act (RUPA), a person winding up a partnership’s business may: (1) preserve the partnership business or property as a going concern for a reasonable time; (2) prosecute and defend actions and proceedings; (3) settle and close the partnership’s business; (4) dispose of and transfer the partnership’s property; (5) discharge the partnership’s liabilities; (6) distribute the assets of the partnership; (7) settle disputes by mediation or arbitration; and (8) perform other necessary acts.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2011, Essay 9",
+      "Feb 2004, Essay 6",
+      "July 1997, Essay 1"
+    ],
+    "translation": "• 解散（Dissolution）後、パートナーが組合を拘束する現実権限は、組合事業の***清算（Winding Up）に適切な行為***にのみ限定される。ただし、パートナーは、_解散（Dissolution）後であっても_、以下のいずれかの場合は組合を拘束する表見代理権を有する。**(1)** パートナーの行為が***通常であれば組合を拘束したであろう***場合、**かつ (2)** ***第三者が解散（Dissolution）の通知を受けていなかった***場合。\n• 組合が拘束される場合、すべてのパートナーは組合の債務について連帯して責任を負う（Jointly and Severally Liable）。第三者に対する債務の自己の応分の負担額を超えて支払ったパートナーは、他のパートナーに対して求償することができる。\n• 改正統一パートナーシップ法（RUPA）に基づき、組合事業を清算（Winding Up）する者は、以下の行為を行うことができる。(1) 組合事業または財産を合理的な期間、継続事業として維持すること、(2) 訴訟および手続きを提起し、防御すること、(3) 組合事業を和解させ、閉鎖すること、(4) 組合の財産を処分し、譲渡すること、(5) 組合の債務を弁済すること、(6) 組合の資産を分配すること、(7) 調停または仲裁により紛争を解決すること、および (8) その他の必要な行為を行うこと。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "解散（Dissolution）後の組合を拘束する権限"
+  },
+  {
+    "id": 6,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "B. Power and Liability of Partners",
+    "ruleTitle": "Personal Liability of General Partners & Judgment Enforcement",
+    "priority": "HIGH",
+    "frequency": "12 of 65 Exams o",
+    "body": "• Personal Liability: General Partners are ***personally liable for ALL obligations of the partnership*** UNLESS otherwise agreed by the claimant or provided by law.\n  ○ Under the Uniform Partnership Act (1997), general partners are ***jointly and severally liable*** for partnership obligations, which means that a claimant can collect the full amount of the debt from any one of the partners. However, a partner may seek contribution from the other partners if he pays more than his proportionate share of the partnership obligation.\n  ○ Under the Uniform Partnership Act (1914), general partners are only ***jointly liable*** (_not_ jointly and severally liable), which means that a plaintiff must join all partners in an action.\n• Incoming Partners: Incoming partners admitted into an existing partnership are ***NOT liable for obligations incurred prior to their admission***, _even if_ the incoming partner has notice of a claim. Even though that partner is _not_ personally liable for the debts of the partnership, he is still at risk of losing any capital contributions he made to the partnership that are used to satisfy partnership obligations.\n• Judgment Enforcement Against a Partner’s Personal Assets: Generally, a judgment creditor CANNOT levy execution of the judgment against a partner’s personal assets for a partnership debt UNLESS: (1) a judgment has been rendered against the partner; AND (2) the partnership assets have been exhausted or are insufficient.\n  ○ Under the Uniform Partnership Act, a judgment against the partnership is NOT by itself a judgment against the individual partners. However, a judgment may be sought against the partnership and the individual partners in the same action.",
+    "meeTips": [
+      "Apply the rule for Incoming Partners if the fact pattern touches upon the personal liability of an incoming partner. Apply the rule for Judgment Enforcement when a creditor is attempting to enforce a judgment against a partner’s personal assets."
+    ],
+    "examHistory": [
+      "Feb 2026, Essay 2",
+      "July 2023, Essay 2",
+      "Feb 2021, Essay 1",
+      "Oct 2020, Essay 4",
+      "Feb 2014, Essay 6",
+      "Feb 2012, Essay 6",
+      "July 2011, Essay 9",
+      "July 2009, Essay 8",
+      "July 2007, Essay 4",
+      "July 2006, Essay 2",
+      "Feb 2001, Essay 2",
+      "July 1997, Essay 1"
+    ],
+    "translation": "• 個人的責任：無限責任パートナー（General Partner）は、債権者との間で別段の合意があるか、または法律で定められている場合を除き、***組合のすべての債務について個人的に責任を負う***。\n  ○ 統一パートナーシップ法（1997年）に基づき、無限責任パートナー（General Partner）は組合債務について***連帯して責任を負う（Jointly and Severally Liable）***。これは、債権者がいずれかのパートナーから債務の全額を回収できることを意味する。ただし、パートナーが組合債務の自己の応分の負担額を超えて支払った場合、他のパートナーに対して求償することができる。\n  ○ 統一パートナーシップ法（1914年）に基づき、無限責任パートナー（General Partner）は***共同責任***のみを負う（連帯責任_ではない_）。これは、原告が訴訟においてすべてのパートナーを共同被告としなければならないことを意味する。\n• 新加入パートナー：既存の組合に加入した新加入パートナーは、当該パートナーが請求の通知を受けている_場合であっても_、***加入前に発生した債務については責任を負わない***。当該パートナーは組合の債務について個人的に責任を負わない_としても_、組合債務の弁済に充てられた組合への出資金（Capital Contribution）を失うリスクは依然として存在する。\n• パートナーの個人資産に対する判決の執行：一般に、判決債権者は、以下のいずれかの場合は除き、組合債務のためにパートナーの個人資産に対して判決の執行をすることはできない。(1) 当該パートナーに対して判決が下されている場合、かつ (2) 組合資産が使い果たされているか、または不十分である場合。\n  ○ 統一パートナーシップ法に基づき、組合に対する判決は、それ自体では個々のパートナーに対する判決ではない。ただし、同一の訴訟において、組合および個々のパートナーに対して判決を求めることができる。",
+    "meeTipTranslation": "新加入パートナーの個人的責任に関する事実関係に触れる場合、新加入パートナーに関するルールを適用すること。債権者がパートナーの個人資産に対して判決を執行しようとしている場合、判決の執行に関するルールを適用すること。",
+    "ruleTitleJa": "無限責任組合員（General Partner）の個人責任（Personal Liability）と判決の執行"
+  },
+  {
+    "id": 7,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "B. Power and Liability of Partners",
+    "ruleTitle": "Personal Liability of Limited Partners",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• Generally, limited partners are ***NOT personally liable for obligations*** of the Limited Partnership (LP). However, certain exceptions to this rule exist.\n• **First**, limited partners are ALWAYS liable for their own misconduct or when they sign a personal guarantee for an obligation.\n• **Second**, even if a partner is _not_ personally liable for the debts of the partnership, he is at risk of losing any capital contributions he made to the partnership.\n• **Third**, a limited partner **MAY become personally liable** if that partner ***participates in the management or control of the business***. If a limited partner’s control and management activities are so extensive as to be substantially the same as those of a general partner, then some jurisdictions have held the partner to be liable in the same manner as a general partner. Whether the limited partner is liable (and the extent of the liability) depends on the applicable Act enacted in the jurisdiction.\n  ○ Under the latest Uniform Limited Partnership Act (2001), limited partners are NOT personally liable for an obligation of the LP, and ***liability is NOT created*** when the limited partner participates in the management or control of the business.\n  ○ Under earlier versions of the Uniform Limited Partnership Act, participation in the management or control of the business ***subjected the limited partner to personal liability*** for the LP’s obligations. In jurisdictions that follow the earlier versions, participating in the removal of a director is NOT considered to be participating in management and control.\n  ○ Under RULPA, a limited partner **will become liable** for the obligations of the LP if he ***participates in the control of the business***. However, that limited partner is **liable only to *persons who transact business with the LP reasonably believing that the limited partner is a general partner*** (based upon the limited partner’s conduct).\n  ○ The RULPA Safe Harbor Provision sets forth certain activities that DO NOT constitute the exercise of control and management, which include: (1) being a contractor for, or an agent, employee, general partner of the LP; (2) being an officer, director, or shareholder of a corporation that is a general partner of the LP; (3) advising or consulting with a general partner concerning the business of the LP; (4) acting as surety or guaranteeing an obligation of the limited partnership; (5) bringing a derivative action in the right of the LP; (6) requesting or attending a meeting of partners; (7) proposing, approving, or disapproving the following matters: (i) the dissolution and winding up of the LP; (ii) the sale, exchange, lease, mortgage, pledge, or other transfer of all (or substantially all) of the assets of the LP; (iii) the incurrence of indebtedness by the LP other than in the ordinary course of its business; (iv) a change in the nature of the business; (v) the admission or removal of a general partner; (vi) the admission or removal of a limited partner; (vii) a transaction involving an actual or potential conflict of interest between a general partner and the LP or the limited partners; and (viii) an amendment to the partnership agreement or certificate of limited partnership.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2007, Essay 6",
+      "Feb 2000, Essay 2",
+      "Feb 1999, Essay 2"
+    ],
+    "translation": "• 通常、有限責任組合員（Limited Partner）は、有限責任組合（LP）の***債務について個人的に責任を負わない***。ただし、この規則には特定の例外が存在する。\n• **第一に**、有限責任組合員（Limited Partner）は、自身の不正行為または債務に対する個人保証に署名した場合、常に責任を負う。\n• **第二に**、組合員が組合の債務について個人的に責任を負わない場合でも、組合に対して行った出資金（Capital Contribution）を失うリスクがある。\n• **第三に**、有限責任組合員（Limited Partner）は、当該組合員が***事業の経営または支配に参加した場合***、**個人的に責任を負う可能性がある**。有限責任組合員（Limited Partner）の支配および経営活動が、無限責任組合員（General Partner）のそれと実質的に同程度に広範である場合、一部の法域では、当該組合員を無限責任組合員（General Partner）と同様に責任を負うものと判断している。有限責任組合員（Limited Partner）が責任を負うか否か（および責任の範囲）は、当該法域で制定された適用法に依存する。\n  ○ 最新の統一有限責任組合法（2001年）の下では、有限責任組合員（Limited Partner）はLPの債務について個人的に責任を負わず、有限責任組合員（Limited Partner）が事業の経営または支配に参加しても***責任は発生しない***。\n  ○ 統一有限責任組合法の初期バージョンでは、事業の経営または支配への参加は、LPの債務について***有限責任組合員（Limited Partner）に個人的責任を負わせた***。初期バージョンに従う法域では、取締役の解任に参加することは、経営および支配への参加とは見なされない。\n  ○ RULPAの下では、有限責任組合員（Limited Partner）が***事業の支配に参加した場合***、LPの債務について**責任を負うことになる**。ただし、当該有限責任組合員（Limited Partner）は、**LPと取引を行い、当該有限責任組合員（Limited Partner）が無限責任組合員（General Partner）であると合理的に信じている者に対してのみ責任を負う**（有限責任組合員（Limited Partner）の行為に基づく）。\n  ○ RULPAのセーフハーバー規定は、支配および経営の行使を構成しない特定の活動を定めており、これには以下が含まれる：（1）LPの請負業者、代理人、従業員、または無限責任組合員（General Partner）であること；（2）LPの無限責任組合員（General Partner）である法人の役員、取締役、または株主であること；（3）LPの事業に関して無限責任組合員（General Partner）に助言または協議すること；（4）有限責任組合の債務の保証人として行動すること、または保証すること；（5）LPの権利において派生訴訟（Derivative Action）を提起すること；（6）組合員会議を要請または出席すること；（7）以下の事項を提案、承認、または不承認とすること：(i) LPの解散（Dissolution）および清算（Winding Up）；(ii) LPの資産の全部（または実質的に全部）の売却、交換、賃貸、抵当、質入れ、またはその他の譲渡；(iii) LPがその通常の事業の過程以外で負債を負担すること；(iv) 事業の性質の変更；(v) 無限責任組合員（General Partner）の加入または解任；(vi) 有限責任組合員（Limited Partner）の加入または解任；(vii) 無限責任組合員（General Partner）とLPまたは有限責任組合員（Limited Partner）との間の実際的または潜在的な利益相反（Conflict of Interest）を伴う取引；および(viii) 組合契約または有限責任組合証明書の修正。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "有限責任組合員（Limited Partner）の個人責任（Personal Liability）"
+  },
+  {
+    "id": 8,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "B. Power and Liability of Partners",
+    "ruleTitle": "Personal Liability of Limited Liability Partners",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• An obligation incurred by a Limited Liability Partnership (LLP) is ***solely*** the obligation of the LLP. Under RUPA, a **partner in an LLP is NOT liable for partnership obligations**.\n• However, certain exceptions to this rule exist. **First**, partners are **ALWAYS liable** for their ***own misconduct*** or when they sign a ***personal guarantee*** for the obligation. **Second**, even if a partner is _not_ personally liable for the debts of the partnership, he is at risk of ***losing any capital contributions*** he made to it. **Third**, obligations ***incurred before*** a partnership becomes an LLP are ***treated as obligations of the prior partnership entity*** (i.e. general partnership or limited partnership).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2016, Essay 3",
+      "Feb 2014, Essay 6",
+      "Feb 2012, Essay 6"
+    ],
+    "translation": "• 有限責任事業組合（LLP）が負った債務は、***もっぱら***LLPの債務である。RUPAの下では、**LLPの組合員は組合債務について責任を負わない**。\n• ただし、この規則には特定の例外が存在する。**第一に**、組合員は、自身の***不正行為***または債務に対する***個人保証***に署名した場合、**常に責任を負う**。**第二に**、組合員が組合の債務について個人的に責任を負わない場合でも、組合に対して行った***出資金（Capital Contribution）を失う***リスクがある。**第三に**、組合がLLPとなる***前に負った***債務は、***以前の組合事業体***（すなわち、合名組合または有限責任組合）の債務として扱われる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "有限責任事業組合員の個人責任（Personal Liability）"
+  },
+  {
+    "id": 9,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "B. Power and Liability of Partners",
+    "ruleTitle": "Partnership Liability for Wrongful Act of Partner",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A partnership IS LIABLE for _loss or injury caused to a person_ (or for a penalty incurred) because of: **(1)** the ***wrongful act***, omission, or actionable conduct of a partner, **(2) *acting in the ordinary course of partnership business***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2021, Essay 1"
+    ],
+    "translation": "• 組合は、以下の理由により_人に生じた損失または損害_（または負った罰金）について責任を負う：**(1)** 組合員の***不法行為***、不作為、または訴訟原因となる行為、**(2) *組合事業の通常の過程における行為***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "組合員の不法行為に対する組合の責任"
+  },
+  {
+    "id": 10,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "C. Rights of Partners Among Themselves",
+    "ruleTitle": "Sharing of Profits and Losses",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Unless otherwise agreed, ***profits are shared equally*** between partners, and ***losses will be shared in the same ratio as profits***. If an agreement is _only_ made to how losses are shared (no matter the ratio), then profits will be shared equally. Any partner who pays more than his fair share in partnership losses is entitled to receive a contribution from the other partner(s) for their proportional share of the losses.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2004, Essay 6"
+    ],
+    "translation": "• 別段の合意がない限り、***利益は均等に分配（Equally Distributed）され***、***損失は利益と同一の割合で分担される***。損失の分担方法について_のみ_合意がなされた場合（その割合にかかわらず）、利益は均等に分配（Equally Distributed）される。パートナーシップの損失において、自己の公正な分担額を超えて支払ったパートナーは、他のパートナーからその比例分担額の拠出を受ける権利を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "利益と損失の分配"
+  },
+  {
+    "id": 11,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "C. Rights of Partners Among Themselves",
+    "ruleTitle": "Right to Management & Control",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Unless otherwise agreed, **each partner has *equal rights* in the management and control of the partnership business**.\n• Disagreements as to ordinary partnership business need only be approved by a ***majority*** of the partners, but acts outside the ordinary course of business must be approved ***unanimously*** by the partners. Hiring an employee is normally within the ordinary course of partnership business (unless the partnership agreement states otherwise).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2019, Essay 3",
+      "Feb 1995, Essay 4"
+    ],
+    "translation": "• 別段の合意がない限り、**各パートナーは、パートナーシップ事業の経営及び管理において*平等な権利*を有する**。\n• 通常のパートナーシップ事業に関する意見の相違は、パートナーの***過半数（Majority）***による承認のみを要するが、通常の事業の範囲外の行為は、パートナーの***全員一致（Unanimous Consent）***による承認を要する。従業員の雇用は、通常、通常のパートナーシップ事業の範囲内である（パートナーシップ契約に別段の定めがある場合を除く）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "経営および支配の権利"
+  },
+  {
+    "id": 12,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "C. Rights of Partners Among Themselves",
+    "ruleTitle": "Transfer of Ownership Interest in a Partnership",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• A partner ***can only transfer***: **(1) *his interest in the share of the profits and losses***; **AND (2) *his right to receive distributions***. All other incidents of partnership ownership (such as the right to access partnership property, the right to inspect books and records, and the right to participate in management of the partnership) belong to the partnership and **CANNOT** be transferred. The partnership _does not_ need to give effect to a transferee’s rights until the partnership has proper notice of the transfer of ownership.\n• Unless a written partnership agreement states otherwise, **ALL *partners must consent*** for a transferee of a partnership interest to become a partner in the business. If the transferee becomes a partner, they may be liable for partnership obligations arising after their admittance, depending on the type of partnership entity (e.g. general partnership, limited partnership, limited liability partnership). If the other partners ***do not consent*** to making the transferee a partner, then that person is NOT ENTITLED TO participate in management, inspect or copy the partnership books and records, or access information concerning partnership transactions.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 1",
+      "July 2010, Essay 1",
+      "July 2008, Essay 3",
+      "Feb 2002, Essay 3"
+    ],
+    "translation": "• パートナーは***以下のもののみを譲渡できる***：**(1) *利益及び損失の持分におけるその者の利益***；**及び (2) *分配金を受け取る権利***。パートナーシップ所有権のその他のすべての付随的権利（パートナーシップ財産にアクセスする権利、帳簿及び記録を検査する権利、並びにパートナーシップの経営に参加する権利など）は、パートナーシップに帰属し、譲渡**できない**。パートナーシップは、所有権移転の適切な通知を受けるまで、譲受人の権利を有効にする必要_はない_。\n• 書面によるパートナーシップ契約に別段の定めがある場合を除き、パートナーシップ持分の譲受人が事業のパートナーとなるためには、**すべての*パートナーの同意を要する***。譲受人がパートナーとなった場合、パートナーシップの形態（例：ゼネラル・パートナーシップ、リミテッド・パートナーシップ、リミテッド・ライアビリティ・パートナーシップ）に応じて、その加入後に発生するパートナーシップ債務について責任を負う可能性がある。他のパートナーが譲受人をパートナーとすることに***同意しない***場合、その者は経営に参加し、パートナーシップの帳簿及び記録を検査若しくは複写し、又はパートナーシップ取引に関する情報にアクセスする権利を**有しない**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "組合における持分の譲渡"
+  },
+  {
+    "id": 13,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "C. Rights of Partners Among Themselves",
+    "ruleTitle": "Right to Partnership Property",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• A partnership is a distinct legal entity from its partners. All property ***acquired by a partnership*** OR ***with partnership assets*** is **owned by the partnership** (_not_ the partners individually). Instead, partners only have an equal right to use partnership property for partnership purposes. Any personal use of the property requires the consent of the other partners.\n• Property ***acquired in the name of a partner*** is **presumed to be separate property** (even if used for partnership purposes) as long as: **(1) *no partnership assets are used*** to acquire the property; **AND (2) *no written title instrument*** for the property references the partnership or that the person is partner.\n• Under the Uniform Partnership Act, **a judgment solely against an *individual partner* (and *not* the partnership) CANNOT be satisfied with partnership property** because an individual partner has no ownership interest in the partnership’s property. However, judgment creditors MAY seize the partner’s financial interest in the partnership.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 1",
+      "July 2010, Essay 1",
+      "July 2008, Essay 3",
+      "July 1999, Essay 2"
+    ],
+    "translation": "• パートナーシップは、そのパートナーとは異なる法的主体である。パートナーシップが***取得した***、またはパートナーシップの***資産で取得した***財産は、（パートナー個人ではなく）**パートナーシップが所有する**。パートナーは、組合目的のためにのみ組合財産を使用する平等な権利を有するにすぎない。財産の個人的な使用には他のパートナーの同意が必要である。\n• ***パートナーの名義で取得した***財産は、以下の条件を満たす限り、**独立した財産と推定される**（組合目的のために使用されている場合であっても）：**(1) *組合資産が使用されていない***こと、**かつ (2)** 財産の***書面による権原証書***がパートナーシップまたはその者がパートナーであることを参照していないこと。\n• 統一パートナーシップ法の下では、**個人パートナー（パートナーシップに対してではなく）_のみ_に対する判決は、パートナーシップ財産によって弁済することはできない**。なぜなら、個人パートナーはパートナーシップの財産に対して所有権を有しないからである。ただし、判決債権者はパートナーのパートナーシップにおける財産的利益を差し押さえることができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "組合財産に対する権利"
+  },
+  {
+    "id": 14,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "C. Rights of Partners Among Themselves",
+    "ruleTitle": "Remuneration (Payment for Partner’s Services)",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A partner is NOT entitled to remuneration (payment) for services performed for the partnership UNLESS: **(a)** there is an ***agreement*** to the contrary; **OR (b)** it is for the ***reasonable compensation of services rendered in winding up the business*** of the partnership. Some courts have permitted remuneration based on an implied agreement to compensate a partner.",
+    "meeTips": [],
+    "examHistory": [
+      "Oct 2020, Essay 4",
+      "Feb 2001, Essay 2"
+    ],
+    "translation": "• パートナーは、パートナーシップのために提供された役務に対する報酬（支払い）を受ける権利を有しない。ただし、以下のいずれかの場合を除く。**(a)** 反対の***合意***がある場合；**または**(b) それがパートナーシップの***清算（Winding Up）業務において提供されたサービスの合理的な報酬***のためである場合。一部の裁判所は、パートナーに報酬を支払うという黙示の合意に基づき、報酬を認めている。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "報酬（組合員の役務に対する支払い）"
+  },
+  {
+    "id": 15,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "C. Rights of Partners Among Themselves",
+    "ruleTitle": "Partnership Ownership of Inventions",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Unless otherwise agreed, a partner or agent **employed to do non-inventive work** is personally entitled to patents which are the result of his invention (even if the invention concerns the work in which he is employed). However, the partnership is entitled to the patent when: **(a) *partnership facilities or business time is used*** to create the invention; **OR (b)** the partner is ***employed to do inventive work***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 1998, Essay 1"
+    ],
+    "translation": "• 別段の合意がない限り、**非発明的な業務を行うために雇用された**パートナーまたは代理人は、自身の発明の結果である特許を個人的に受ける権利を有する（たとえその発明が彼が雇用されている業務に関するものであっても）。しかしながら、パートナーシップは以下のいずれかの場合に特許を受ける権利を有する。**(a) 当該発明の創作に***パートナーシップの設備または事業時間が使用された***場合；**または**(b) 当該パートナーが***発明的な業務を行うために雇用されている***場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "発明の組合所有"
+  },
+  {
+    "id": 16,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "C. Rights of Partners Among Themselves",
+    "ruleTitle": "Advance of Funds to the Partnership & Reimbursement",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A partnership shall reimburse a partner for an advance to the partnership beyond the amount of capital the partner agreed to contribute. To be entitled to reimbursement: (1) the payment must be made in the proper course of the partnership business; AND (2) the partner must comply with his fiduciary duties of care and loyalty in making such payment. If the partnership has insufficient funds to reimburse the partner, the partner has the right to be reimbursed for a portion of the contribution from the other general partners based on each’s percentage of ownership.",
+    "meeTips": [],
+    "examHistory": [
+      "Oct 2020, Essay 4",
+      "Feb 2001, Essay 2"
+    ],
+    "translation": "• 組合は、組合員が拠出を合意した出資額を超える組合への立替金について、当該組合員に償還しなければならない。償還を受ける権利を有するためには、(1) 支払いが組合事業の適切な過程で行われたこと、かつ (2) 当該組合員が、当該支払いを行うにあたり、注意義務（Duty of Care）および忠実義務（Duty of Loyalty）という受託者義務（Fiduciary Duty）を遵守したこと、が必要である。組合が当該組合員に償還するための資金が不足している場合、当該組合員は、他の無限責任組合員（General Partner）から、それぞれの持分割合に基づいて、出資の一部について償還を受ける権利を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "組合への資金の貸付と償還"
+  },
+  {
+    "id": 17,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "D. Special Rules Concerning Limited Partnerships",
+    "ruleTitle": "Management & Control in a Limited Partnership",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A Limited Partnership (LP) is composed of general and limited partners. **General partners** of a LP have ***full management rights and control*** the partnership business to the exclusion of the limited partners. **Limited partners** have NO say or control as to how the partnership is run, and they DO NOT have the right to manage or control the day-to-day business of the partnership. Limited partners are generally passive, and have voting rights only in extraordinary situations, such as the sale of the partnership (or all of its assets), amending the partnership agreement, or admitting a new partner.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2002, Essay 3",
+      "Feb 2000, Essay 2"
+    ],
+    "translation": "• 有限責任組合（LP）は、無限責任組合員（General Partner）および有限責任組合員（Limited Partner）で構成される。LPの**無限責任組合員（General Partner）**は、有限責任組合員（Limited Partner）を排除して、組合事業に対する***完全な経営権および支配権***を有する。**有限責任組合員（Limited Partner）**は、組合の運営方法について発言権や支配権を有さず、組合の日常業務を経営または支配する権利を有しない。有限責任組合員（Limited Partner）は一般的に受動的であり、組合の売却（またはその全資産の売却）、組合契約の変更、または新たな組合員の加入といった例外的な状況においてのみ議決権を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "有限責任組合（LP）における経営および支配"
+  },
+  {
+    "id": 18,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "D. Special Rules Concerning Limited Partnerships",
+    "ruleTitle": "Limited Partner’s Right to Inspect Records",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under RULPA, a limited partner has the right during normal business hours to inspect and copy any information that the Limited Partnership (LP) is legally required to keep. In addition, a limited partner may obtain ***upon a reasonable demand***: (1) true and full information regarding the state of the business and financial condition; (2) copies of the LP’s tax returns; and (3) any other information regarding the affairs of the LP that is just and reasonable.\n• These rights may be exercised for ***any purpose***. Seeking to obtain documents because of suspicion of mismanagement or self-dealing is considered a just and reasonable demand.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2007, Essay 6",
+      "Feb 2002, Essay 3"
+    ],
+    "translation": "• 統一有限責任組合法（RULPA）に基づき、有限責任組合員（Limited Partner）は、通常の営業時間中に、有限責任組合（LP）が法的に保管を義務付けられているあらゆる情報を閲覧し、複写する権利を有する。さらに、有限責任組合員（Limited Partner）は、***合理的な請求に基づき***、以下の情報を取得することができる。(1) 事業の状態および財務状況に関する真実かつ完全な情報、(2) LPの納税申告書の写し、および (3) LPの業務に関するその他公正かつ合理的な情報。\n• これらの権利は、***いかなる目的のためにも***行使され得る。経営の不手際または自己取引（Self-Dealing）の疑いがあるために文書の取得を求めることは、公正かつ合理的な請求とみなされる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "有限責任組合員（Limited Partner）の記録閲覧権"
+  },
+  {
+    "id": 19,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "E. Duties Owed by Partners",
+    "ruleTitle": "Duty of Care",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• A partner owes the fiduciary duty of care to the partnership and the other partners, but this duty is _limited_. Under the RUPA, a partner is **only in breach** of the duty of care when he engages in: **(a) *grossly negligent or reckless conduct***; **(b) *intentional misconduct***; **OR (c) *a knowing violation of law***. If a partner breaches this duty, he may be held personally liable to the partnership for any losses suffered as a result. Partners in a Limited Partnership have similar duties as partners in a General Partnership.\n• A partner has been found to breach the duty of care in the following situations: (i) violating an agreement or policy of the partnership; (ii) failing to thoroughly investigate facts before entering into a contract, if it rises to the level of gross negligence; and (iii) acting outside the scope of the partnership business without the consent of the other partners.\n• Limited liability rules for Limited Liability Partnerships and Limited Partners are NOT applicable to claims against partners for breach of their duties owed to the partnership.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2016, Essay 3",
+      "July 2003, Essay 5",
+      "Feb 2000, Essay 2",
+      "Feb 1998, Essay 1"
+    ],
+    "translation": "• パートナーは、組合および他のパートナーに対し、受託者としての注意義務（Fiduciary Duty of Care）を負うが、この義務は_限定的である_。統一パートナーシップ法改正法（RUPA）の下では、パートナーは、以下の行為を行った場合に**のみ**注意義務（Duty of Care）を**違反する**ものとされる：**(a) *重大な過失または無謀な行為***；**(b) *意図的な不正行為***；**または (c) *意図的な法規違反***。パートナーがこの義務に違反した場合、その結果生じた損失について、組合に対し個人的に責任を負うことがある。有限責任組合のパートナーは、無限責任組合のパートナーと同様の義務を負う。\n• パートナーは、以下の状況において注意義務（Duty of Care）に違反したと認定されている：(i) 組合の合意または方針に違反すること；(ii) 契約締結前に事実を徹底的に調査しなかったことが重大な過失のレベルに達する場合；および (iii) 他のパートナーの同意なしに組合事業の範囲外で行動すること。\n• 有限責任組合（LLP）および有限責任組合員（Limited Partner）に対する有限責任規則は、組合に対して負う義務の違反に関するパートナーに対する請求には適用されない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "注意義務（Duty of Care）"
+  },
+  {
+    "id": 20,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "E. Duties Owed by Partners",
+    "ruleTitle": "Duty of Loyalty",
+    "priority": "HIGH",
+    "frequency": "6 of 65 Exams",
+    "body": "• Partners owe the fiduciary duty of loyalty to the partnership and the other partners, which requires partners to ***act in the best interests of the partnership***.\n• Under RUPA, a partner must: **(1) *account*** for any property, profit, or benefit derived by the partner from the partnership property or business (this includes the obligation to refrain from appropriating partnership opportunities or assets for personal use); **(2) *not have an interest adverse (conflict of interest)*** to the partnership (i.e. partners cannot engage in unfair transactions with the partnership); **AND (3) *not compete*** with the partnership (unless the partnership agreement allows the partner to do so). The above duties still apply _after_ dissolution during the winding up process (_except_ for the duty not to compete). Partners in a Limited Partnership have similar duties as partners in a General Partnership.\n  ○ A **partnership opportunity** is one that is (1) _closely related_ to the entity’s existing or prospective line of business, (2) that would _competitively advantage_ the partnership, AND (3) that the partnership has the _financial ability, knowledge, and experience to pursue_.\n• **HOWEVER**, a partner is NOT liable for conduct that would otherwise violate the duty of loyalty if: **(1)** the partner ***fully discloses the information***; **AND (2)** either **(a)** the ***Partnership Agreement is amended*** _or_ **(b) *all partners consent*** to the transaction. Unless agreed otherwise, the Partnership Agreement may be amended at any time with a ***unanimous vote*** of the partners. An interested partner should abstain from voting to amend the Partnership Agreement to allow for conduct that would otherwise violate the duty of loyalty.\n• If a partner breaches his duty of loyalty, he may be held personally liable to the partnership for any losses suffered as a result. If reasonable, a partnership agreement may eliminate or alter a partner’s duty of loyalty.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 6",
+      "Feb 2016, Essay 3",
+      "Feb 2000, Essay 2",
+      "Feb 1999, Essay 2",
+      "Feb 1998, Essay 1",
+      "Feb 1995, Essay 4"
+    ],
+    "translation": "• パートナーは、組合および他のパートナーに対し、受託者としての忠実義務（Fiduciary Duty of Loyalty）を負い、これはパートナーが***組合の最善の利益のために行動すること***を要求する。\n• RUPAの下では、パートナーは以下のことを行わなければならない：**(1) *組合財産または事業からパートナーが得た財産、利益、または便益について説明する***こと（これには、組合の機会または資産を個人的な利用のために流用することを控える義務が含まれる）；**(2) 組合に対して*不利な利害関係（利益相反（Conflict of Interest））を持たない***こと（すなわち、パートナーは組合と不公正な取引を行うことはできない）；**および (3) 組合と*競合しない***こと（組合契約がパートナーにそうすることを許可している場合を除く）。上記の義務は、解散（Dissolution）後の清算（Winding Up）手続き中も適用される（_競合しない義務を除く_）。有限責任組合のパートナーは、無限責任組合のパートナーと同様の義務を負う。\n  ○ **組合の機会**とは、(1) 事業体の既存または将来の事業分野に_密接に関連しており_、(2) 組合に_競争上の優位性をもたらし_、かつ (3) 組合が_追求するための財務能力、知識、および経験を有する_ものである。\n• **しかしながら**、パートナーは、以下のいずれかの条件を満たす場合、忠実義務（Duty of Loyalty）に違反する可能性のある行為について責任を負わない：**(1)** パートナーが***情報を完全に開示する***こと；**および (2)** **(a)** ***組合契約が修正される***_か_、**または (b) *すべてのパートナーが取引に同意する***こと。別段の合意がない限り、組合契約は、パートナーの***全員一致（Unanimous Consent）の議決***によりいつでも修正することができる。利害関係のあるパートナーは、忠実義務（Duty of Loyalty）に違反する可能性のある行為を許可するために組合契約を修正する投票を棄権すべきである。\n• パートナーが忠実義務（Duty of Loyalty）に違反した場合、その結果生じた損失について、組合に対し個人的に責任を負うことがある。合理的な場合、組合契約はパートナーの忠実義務（Duty of Loyalty）を排除または変更することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "忠実義務（Duty of Loyalty）"
+  },
+  {
+    "id": 21,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "E. Duties Owed by Partners",
+    "ruleTitle": "Duty to Provide Full Information",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• Under the Uniform Partnership Act (UPA), partners shall render, ***on demand*** by any partner, the true and full information of all things affecting the partnership.\n• Under the Revised Uniform Partnership Act (RUPA), a partner shall disclose ***without demand*** full information concerning the partnership’s business and affairs (if access to such information would be reasonably required for other partners to properly exercise their rights and duties). This duty is encompassed within a partner’s obligation of good faith and fair dealing. If a partner breaches this duty, he may be held personally liable to the partnership for any losses suffered as a result.\n• Partners in a Limited Partnership have similar duties as partners in a general partnership.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 6",
+      "July 2003, Essay 5",
+      "Feb 2000, Essay 2"
+    ],
+    "translation": "• 統一パートナーシップ法（UPA）の下では、パートナーは、いずれかのパートナーからの***要求に応じて***、組合に影響を与えるすべての事項に関する真実かつ完全な情報を提供しなければならない。\n• 統一パートナーシップ法改正法（RUPA）の下では、パートナーは、組合の事業および業務に関する完全な情報を***要求なしに開示しなければならない***（他のパートナーがその権利および義務を適切に行使するために、そのような情報へのアクセスが合理的に必要とされる場合）。この義務は、パートナーの誠実かつ公正な取引の義務に含まれる。パートナーがこの義務に違反した場合、その結果生じた損失について、組合に対し個人的に責任を負うことがある。\n• 有限責任組合のパートナーは、無限責任組合のパートナーと同様の義務を負う。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "完全な情報提供義務"
+  },
+  {
+    "id": 22,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "E. Duties Owed by Partners",
+    "ruleTitle": "Action Against a Partner for Misconduct",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• The duty of loyalty and care are ***owed to both*** the partnership _and_ the other partners. Thus, the **partnership** can maintain an action against a partner for violating his fiduciary duties to the partnership. Additionally, a **partner** can maintain a ***direct action*** against another partner (with or without an accounting) to enforce the partner’s rights, including an action for violation of a fiduciary duty. **A partner CANNOT maintain a *derivative action*** on behalf of the partnership because they are not permitted under RUPA.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2016, Essay 3"
+    ],
+    "translation": "• 忠実義務（Duty of Loyalty）と注意義務（Duty of Care）は、パートナーシップ_および_他のパートナーの***双方に対して負う***ものである。したがって、**パートナーシップ**は、パートナーシップに対する受託者義務（Fiduciary Duty）に違反したパートナーに対して訴訟を提起することができる。さらに、**パートナー**は、受託者義務（Fiduciary Duty）違反の訴訟を含め、パートナーの権利を行使するために、他のパートナーに対して（会計処理の有無にかかわらず）***直接訴訟（Direct Action）***を提起することができる。RUPAの下では認められていないため、**パートナーはパートナーシップを代表して***派生訴訟（Derivative Action）を提起することはできない***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "組合員の不正行為に対する訴訟"
+  },
+  {
+    "id": 23,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "F. Dissociation and Dissolution",
+    "ruleTitle": "Dissociation (Withdrawal of a Partner)",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• A partner becomes dissociated from the partnership upon: **(1)** notice of the partner’s ***express will*** to withdraw; **(2) *occurrence of an agreed upon event*** in the partnership agreement; **(3) *expulsion*** pursuant to the partnership agreement; **(4) *expulsion by the unanimous vote*** of the other partners if it’s (a) unlawful to carry on the partnership business with that partner, _or_ (b) there has been a transfer of all or substantially all of that partner’s transferable interest in the partnership (other than a transfer for security purposes); **(5) *judicial expulsion***; **(6) *bankruptcy***; **(7) *incapacity or death***; **(8)** appointment of a ***personal representative or receiver***; **OR (9) *termination of an entity partner*** (who is _not_ an individual, partnership, corporation, trust, or estate).\n• A partner may dissociate (withdraw) from the partnership ***at any time*** by providing notice to the other partners. However, a dissociation will be **deemed wrongful** if: **(a)** it is in ***breach of an express provision of the partnership agreement***; **OR (b)** if the partnership is _for a definite term or particular undertaking_, AND the partner (i) withdraws, (ii) is expelled by judicial determination, or (iii) is dissociated by becoming a debtor in bankruptcy.\n• **A partner who wrongfully dissociates CANNOT *participate in management or the winding up process***. Additionally, that partner is liable to the other partners and the partnership for any damages caused by his dissociation.",
+    "meeTips": [
+      "The July 1998 MEE (Essay 2, Point Two) discusses dissolution, but RUPA changed the terminology to \"dissociation\" in this context."
+    ],
+    "examHistory": [
+      "Feb 2019, Essay 3",
+      "Feb 2018, Essay 6",
+      "July 2011, Essay 9",
+      "July 1998, Essay 2"
+    ],
+    "translation": "• パートナーは、以下のいずれかの場合にパートナーシップから脱退（Dissociation）する。**(1)** パートナーの脱退（Dissociation）の***明示の意思***の通知。**(2) *パートナーシップ契約で合意された事象の発生***。**(3) *パートナーシップ契約に基づく除名***。**(4) *他のパートナー全員の一致による除名***。ただし、(a) そのパートナーとパートナーシップ事業を継続することが違法である場合、_または_ (b) そのパートナーのパートナーシップにおける譲渡可能持分の全部または実質的に全部が譲渡された場合（担保目的の譲渡を除く）に限る。**(5) *裁判による除名***。**(6) *破産***。**(7) *無能力または死亡***。**(8)** ***個人代表者または管財人***の選任。**または (9) *事業体パートナーの終了（Termination）***（個人、パートナーシップ、法人、信託、または遺産_ではない_者）。\n• パートナーは、他のパートナーに通知することにより、***いつでも***パートナーシップから脱退（撤退）することができる。しかし、脱退（Dissociation）は以下の場合に**不当とみなされる**。**(a)** ***パートナーシップ契約の明示の規定に違反***している場合。**または (b)** パートナーシップが_確定期間または特定の事業_のために設立されており、かつパートナーが (i) 撤退する、(ii) 裁判所の決定により除名される、または (iii) 破産債務者となることにより脱退（Dissociation）する場合。\n• **不当に脱退（Dissociation）したパートナーは、***経営または清算（Winding Up）手続きに参加することができない***。さらに、そのパートナーは、自身の脱退（Dissociation）によって生じた損害について、他のパートナーおよびパートナーシップに対して責任を負う。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "脱退（組合員の脱退（Dissociation））"
+  },
+  {
+    "id": 24,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "F. Dissociation and Dissolution",
+    "ruleTitle": "Dissolution of a General Partnership",
+    "priority": "HIGH",
+    "frequency": "8 of 65 Exams",
+    "body": "• Unless there is an agreement to the contrary, dissolution occurs upon: **(a)** notice of the partner’s ***express will*** to withdraw; **(b)** an ***event agreed to in the partnership agreement***; **(c)** an event that makes it ***unlawful*** for all or substantially all of the business to continue; **(d) *judicial dissolution on application of a partner*** that (i) the economic purpose of the partnership is likely to be unreasonably frustrated, (ii) another partner has engaged in conduct making it not reasonably practicable to carry on the business with that partner, or (iii) it is not reasonably practicable to carry on the business in conformity with the partnership agreement; **OR (e) *judicial dissolution on application of a transferee*** (of a partner’s transferable interest) that it is equitable to wind up the business _and_ either (i) it is a partnership at will, or (ii) at the expiration of the term or completion of the undertaking (if the partnership was for a definite term or particular undertaking).\n• In addition to the above, dissolution of a Partnership for a Definite Term also occurs: **(a) *within 90 days after a partner’s dissociation by death or wrongful dissociation***, if it is the express will of at least half of the remaining partners to wind up the business (a partner’s rightful dissociation constitutes the expression of that partner’s will to wind up the partnership business); **(b)** upon the ***express will of all partners*** to wind up the business; **OR (c)** upon the ***expiration of the term*** or the completion of the purpose of the partnership.\n• A partner may dissociate (withdraw) from the partnership ***at any time*** by providing notice to the other partners.\n  ○ Under the Revised Uniform Partnership Act (as amended in 2013), ***dissolution may be rescinded by the affirmative vote or consent of the remaining partners***. In such instance, the business would be continued, and the dissociating partner is entitled to a buyout of their interest. The buyout price is the value of the partnership interest based on the _greater_ of the liquidation or going concern value (plus interest). If the dissociating partner makes a written demand _and_ no agreement for the purchase of the interest is made within 120 days, the partnership shall pay in money the amount it estimates to be the buyout price plus accrued interest.\n  ○ Under the Revised Uniform Partnership Act (1997), the dissociation (withdrawal) of a partner _does not_ necessarily cause a dissolution and winding up of the business of the partnership. A **wrongful dissociation** allows ALL of the remaining partners (including those who are rightfully dissociated) to ***waive winding-up and termination of the partnership***, and instead choose to continue the partnership by buying out the dissociated partner’s interest in the partnership. **If a partner’s dissociation is NOT wrongful**, then he will be ***allowed to vote on whether to waive winding-up and termination*** of the partnership. In either case, the partners MAY choose to continue the business for a ***reasonable amount of time***.\n  ○ Under the Uniform Partnership Act (1914), a partner’s withdrawal results in dissolution of the partnership, _regardless_ of whether it was rightful or wrongful. However, ALL partners who have not wrongfully caused the dissolution may choose to continue the business in the same name.\n• Upon dissolution, the partnership is NOT terminated, but continues until the winding up of partnership affairs is completed. **Winding up** is the process of settling partnership affairs after dissolution. The partners’ rights, duties, and powers continue during the winding up process. The partnership is terminated when the winding up of its business is completed.",
+    "meeTips": [
+      "On an essay question concerning Dissolution caused by the Withdrawal of a Partner, apply the RUPA (as amended in 2013) rule, *unless* the essay question states that the jurisdiction follows RUPA (1997) or UPA (1914). In such instance, apply the appropriate rule for that jurisdiction."
+    ],
+    "examHistory": [
+      "Feb 2019, Essay 3",
+      "Feb 2018, Essay 6",
+      "July 2011, Essay 9",
+      "July 2008, Essay 3",
+      "Feb 2004, Essay 6",
+      "Feb 2000, Essay 2",
+      "July 1999, Essay 2",
+      "July 1998, Essay 2"
+    ],
+    "translation": "• 別段の合意がない限り、解散（Dissolution）は以下の場合に発生する。**(a)** パートナーの脱退（Dissociation）の***明示の意思***の通知。**(b)** ***パートナーシップ契約で合意された事象***。**(c)** 事業の全部または実質的に全部を継続することが***違法***となる事象。**(d) *パートナーの申請による裁判上の解散（Dissolution）***。ただし、(i) パートナーシップの経済的目的が不合理に阻害される可能性が高い場合、(ii) 他のパートナーがそのパートナーと事業を継続することが合理的に実行不可能となる行為を行った場合、または (iii) パートナーシップ契約に従って事業を継続することが合理的に実行不可能である場合。**または (e) *譲受人（パートナーの譲渡可能持分の）の申請による裁判上の解散（Dissolution）***。ただし、事業を清算（Winding Up）することが衡平である_とともに_、(i) 任意組合である場合、または (ii) 期間の満了もしくは事業の完了時（パートナーシップが確定期間または特定の事業のために設立された場合）である場合。\n• 上記に加え、確定期間のパートナーシップの解散（Dissolution）は、以下の場合にも発生する。**(a) *パートナーの死亡または不当な脱退（Dissociation）による脱退（Dissociation）後90日以内***に、残りのパートナーの少なくとも半数が事業を清算（Winding Up）する旨の明示の意思である場合（パートナーの正当な脱退（Dissociation）は、そのパートナーのパートナーシップ事業を清算（Winding Up）する意思の表明を構成する）。**(b)** 事業を清算（Winding Up）する旨の***全パートナーの明示の意思***による場合。**または (c)** ***期間の満了***またはパートナーシップの目的の完了による場合。\n• パートナーは、他のパートナーに通知することにより、***いつでも***パートナーシップから脱退（撤退）することができる。\n  ○ 改正統一パートナーシップ法（2013年改正）の下では、***解散（Dissolution）はパートナーによって取り消されることがある***。そのような場合、事業は継続され、脱退（Dissociation）パートナーはその持分の買取りを受ける権利を有する。買取り価格は、清算（Winding Up）価値または継続事業価値の_いずれか大きい方_に基づいて算定されたパートナーシップ持分の価値（利息を加算）である。脱退（Dissociation）パートナーが書面による請求を行い_かつ_120日以内に持分の購入に関する合意が成立しない場合、パートナーシップは、買取り価格と発生利息の合計額と見積もる金額を金銭で支払うものとする。\n  ○ 改正統一パートナーシップ法（1997年）の下では、パートナーの脱退（撤退）は、必ずしもパートナーシップの事業の解散（Dissolution）および清算（Winding Up）を引き起こすものではない。**不当な脱退（Dissociation）**の場合、残りの**全**パートナー（正当に脱退（Dissociation）したパートナーを含む）は、***パートナーシップの清算（Winding Up）および終了（Termination）を放棄***し、代わりに脱退（Dissociation）パートナーのパートナーシップ持分を買い取ることによりパートナーシップを継続することを選択できる。**パートナーの脱退（Dissociation）が不当でない場合**、そのパートナーはパートナーシップの***清算（Winding Up）および終了（Termination）を放棄するかどうかについて投票を許可される***。いずれの場合も、パートナーは***合理的な期間***事業を継続することを選択できる。\n  ○ 統一パートナーシップ法（1914年）の下では、パートナーの撤退は、それが正当であるか不当であるかに_かかわらず_、パートナーシップの解散（Dissolution）をもたらす。しかし、不当に解散（Dissolution）を引き起こしていない**全**パートナーは、同じ名称で事業を継続することを選択できる。\n• 解散（Dissolution）時、パートナーシップは終了（Termination）するのではなく、パートナーシップの事務の清算（Winding Up）が完了するまで存続する。**清算（Winding Up）**とは、解散（Dissolution）後にパートナーシップの事務を処理する手続きである。パートナーの権利、義務、および権限は、清算（Winding Up）手続き中も継続する。パートナーシップは、その事業の清算（Winding Up）が完了したときに終了（Termination）する。",
+    "meeTipTranslation": "パートナーの脱退（Dissociation）による解散（Dissolution）に関する論文問題では、RUPA（2013年改正）のルールを適用すること。ただし、問題文に当該法域がRUPA（1997年）またはUPA（1914年）に従うと記載されている場合を*除く*。その場合は、その法域に適切なルールを適用すること。",
+    "ruleTitleJa": "一般共同事業（General Partnership）の解散（Dissolution）"
+  },
+  {
+    "id": 25,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "F. Dissociation and Dissolution",
+    "ruleTitle": "Dissolution of a Limited Partnership",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A non-judicial dissolution of a Limited Partnership (LP) occurs upon: **(a)** the happening of an ***event specified in the partnership agreement***; **(b)** the consent of ***all general partners*** _and_ of ***limited partners owning a majority*** of the rights to receive distributions; **(c)** after the ***dissociation of a general partner*** either (i) upon consent of partners owning a majority of the rights to receive distributions as partners (if the LP has at least one remaining general partner), or (ii) the passage of 90 days after the dissociation if the LP does not have a remaining general partner (unless the LP admits at least one general partner); **(d) *90 days after dissociation of the last limited partner***, unless the LP admits at least one limited partner; **OR (e)** the filing of a ***declaration of administrative dissolution by the Secretary of State*** for the partnership’s failure to pay fees or abide by filing requirements.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2000, Essay 2"
+    ],
+    "translation": "• 有限責任組合（LP）の非司法解散（Dissolution）は、以下のいずれかの場合に発生する。**(a)** ***組合契約に明記された事象***の発生時、**(b)** ***全ての無限責任組合員（General Partner）***_及び_***多数の分配受領権を所有する有限責任組合員（Limited Partner）***の同意時、**(c)** ***無限責任組合員（General Partner）の脱退（Dissociation）***後、(i) 組合員として多数の分配受領権を所有する組合員の同意時（LPに少なくとも1人の残存無限責任組合員（General Partner）がいる場合）、または (ii) LPに残存無限責任組合員（General Partner）がいない場合、脱退（Dissociation）後90日経過時（LPが少なくとも1人の無限責任組合員（General Partner）を加入させない限り）、**(d) *最後の有限責任組合員（Limited Partner）の脱退（Dissociation）後90日***（LPが少なくとも1人の有限責任組合員（Limited Partner）を加入させない限り）、**または (e)** 組合が手数料を支払わない、または提出要件を遵守しないことによる***州務長官による行政解散（Dissolution）宣言***の提出時。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "有限責任組合（LP）の解散（Dissolution）"
+  },
+  {
+    "id": 26,
+    "subject": "PARTNERSHIPS",
+    "subjectNumber": "02",
+    "section": "F. Dissociation and Dissolution",
+    "ruleTitle": "Winding Up & Termination of the Partnership",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Upon dissolution, the partnership is NOT terminated, but continues until the winding up of partnership affairs is completed. Winding up is the process of settling partnership affairs after dissolution. The partnership is terminated when the winding up of its business is completed.\n• During the winding up process, **partnership assets are converted to cash and then distributed in the following order**: **(1) *creditors***; **(2) *partners’ capital contributions***; and **(3) *profits*** to be distributed among the partners. Some jurisdictions require that the debts owed to non-partner creditors (outside creditors) be paid before the debts owed to partner creditors (inside creditors). If partnership assets are insufficient to pay the liabilities of the partnership, the loss will be divided among the partners.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2000, Essay 2",
+      "July 1999, Essay 2"
+    ],
+    "translation": "• 解散（Dissolution）時、組合は終了（Termination）せず、組合事務の清算（Winding Up）が完了するまで存続する。清算（Winding Up）とは、解散（Dissolution）後に組合事務を処理するプロセスである。組合は、その事業の清算（Winding Up）が完了したときに終了（Termination）する。\n• 清算（Winding Up）プロセス中、**組合資産は以下の順序に従う**。**(1) *債権者***、**(2) *組合員の出資金（Capital Contribution）***、そして**(3) *利益***が組合員間で分配される。一部の法域では、組合員以外の債権者（外部債権者）への債務が、組合員である債権者（内部債権者）への債務よりも先に支払われることを要求している。組合資産が組合の負債を支払うのに不十分な場合、その損失は組合員間で分割される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "組合の清算（Winding Up）と終了（Termination）"
+  }
+]

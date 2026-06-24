@@ -1,0 +1,1068 @@
+[
+  {
+    "id": 1,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "A. Present Estates & Future Estates",
+    "ruleTitle": "Present Estates: Fee Simple Absolute & Fee Tail",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A **fee simple absolute** is a conveyance of ***absolute ownership*** of real property (_without_ any conditions placed upon it). The property is freely ***devisable*** (leave it in a will), ***descendible*** (passed to descendants), _and_ ***alienable*** (may be transferred during the grantor’s lifetime).\n• A **fee tail** is a conveyance of real property to a ***person*** _and_ ***their heirs***. Most jurisdictions have abolished fee tail ownership, and treat such conveyances as a fee simple absolute.",
+    "meeTips": [
+      "On the exam, be sure to connect the present estate (defeasible fees, life estate) to the applicable future interest (reverter, re-entry, remainder). All present estates are connected to a future interest upon the occurrence of the condition specified (_except_ for present estates that provide for absolute ownership)."
+    ],
+    "examHistory": [],
+    "translation": "• **単純不動産権（Fee Simple）**とは、不動産の***絶対的所有権***（_いかなる条件も付されない_）の譲渡である。当該不動産は、自由に***遺贈可能（Devisable）***（遺言で残すことができる）、***相続可能（Descendible）***（子孫に引き継がれる）、_かつ_、***譲渡可能（Alienable）***（贈与者の存命中に譲渡できる）である。\n• **限嗣不動産権（Fee Tail）**とは、不動産を***特定の者*** _および_ ***その相続人***に譲渡することである。ほとんどの法域では限嗣不動産権（Fee Tail）の所有権を廃止しており、そのような譲渡を単純不動産権（Fee Simple）として扱っている。",
+    "meeTipTranslation": "試験では、現在の不動産権（解除条件付不動産権、生涯不動産権（Life Estate））を、適用される将来の権利（復帰権（Reversion）、解除権（Right of Entry）、残余権）に必ず結びつけること。すべての現在の不動産権は、指定された条件の発生時に将来の権利に結びつけられる（_絶対的所有権を規定する現在の不動産権_を除く）。",
+    "ruleTitleJa": "現在の不動産権：絶対的単純不動産権（Fee Simple）と限嗣不動産権（Fee Tail）"
+  },
+  {
+    "id": 2,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "A. Present Estates & Future Estates",
+    "ruleTitle": "Present Estates: Defeasible Fees",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A **fee simple defeasible** is a conveyance of property that has conditions placed on it. It is created when the grantor uses ***express conditional language*** to indicate that the conveyance will be ***terminated upon the occurrence (or non-occurrence) of an event or condition***. A fee simple defeasible gives the grantee a present possessory interest in the property, BUT **reserves a future interest in the property in favor of either the grantor or a third party**.\n• Three types of fee simple defeasibles exist: (1) fee simple subject to a condition subsequent (reserves a future interest in the grantor); (2) fee simple determinable (reserves a future interest in the grantor); AND (3) fee simple subject to executory limitation (reserves a future interest in a third-party).\n  ○ **Fee Simple Determinable**: A fee simple determinable is a conditional conveyance that allows the grantor to retain a **possibility of reverter**. It is created when the grantor uses ***words of duration*** (i.e. so long as, during, while, the property shall revert) in the conveyance to indicate that the interest being conveyed will ***automatically terminate if a specified condition occurs***.\n  ○ **Fee Simple on Condition Subsequent**: A fee simple subject to a condition subsequent is a conditional conveyance that allows the grantor to retain a ***right of re-entry***. It is created when the conveyance expressly states that the interest being conveyed is ***subject to the grantor's right of re-entry if a specified condition occurs***. If the condition occurs, the grantee’s present interest in the property will be lost ONLY IF the grantor ***affirmatively exercises*** his right of re-entry and re-takes possession of the land.\n  ○ **Fee Simple Subject to Executory Interest**: A fee simple subject to an executory interest is a conditional conveyance of real property, in which a ***third-party*** (_not_ the grantor or his heirs) will be entitled to the property upon the occurrence of a specified condition. It is created when the grantor uses words such as “To person X, so long as (or “but if”) … to person Y.”\n• If the deed language is ambiguous as to which defeasible fee is meant, courts construe the language in accordance with the grantor’s intentions. If it’s unclear whether a fee simple determinable or a fee simple subject to condition subsequent is intended, courts typically favor a fee simple subject to condition subsequent.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 6",
+      "July 2010, Essay 5"
+    ],
+    "translation": "• **消滅条件付単純不動産権（Defeasible Fee）**とは、条件が付された不動産の譲渡である。これは、贈与者が***明示的な条件文言***を用いて、その譲渡が***ある事象または条件の発生（または不発生）時に終了する***ことを示す場合に創設される。消滅条件付単純不動産権（Defeasible Fee）は、受贈者に不動産に対する現在の占有権を与えるが、**不動産に対する将来の権利を贈与者または第三者のいずれかのために留保する**。\n• 消滅条件付単純不動産権（Defeasible Fee）には3つの種類が存在する：（1）解除権（Right of Entry）の定めのある単純不動産権（贈与者に将来の権利を留保する）；（2）解除条件付単純不動産権（贈与者に将来の権利を留保する）；および（3）未発生将来権（Executory Interest）の定めのある単純不動産権（第三者に将来の権利を留保する）。\n  ○ **解除条件付単純不動産権（Fee Simple Determinable）**：解除条件付単純不動産権（Fee Simple Determinable）とは、贈与者が**復帰可能権（Possibility of Reverter）**を保持することを可能にする条件付譲渡である。これは、贈与者が譲渡において***期間を示す文言（Durational Language）***（すなわち、〜である限り、〜の間、〜である間、当該不動産は復帰する）を用いて、譲渡される権利が***特定の条件が発生した場合に自動的に終了する***ことを示す場合に創設される。\n  ○ **解除権（Right of Entry）の定めのある単純不動産権（Fee Simple Subject to Condition Subsequent）**：解除権（Right of Entry）の定めのある単純不動産権（Fee Simple Subject to Condition Subsequent）とは、贈与者が***解除権（Right of Entry）***を保持することを可能にする条件付譲渡である。これは、譲渡において、譲渡される権利が***贈与者の解除権（Right of Entry）に服すること（特定の条件が発生した場合）***と明示的に述べられている場合に創設される。条件が発生した場合、受贈者の不動産に対する現在の権利は、贈与者がその解除権（Right of Entry）を***積極的に行使し***、土地の占有を再取得した場合に_のみ_失われる。\n  ○ **未発生将来権（Executory Interest）の定めのある単純不動産権（Fee Simple Subject to Executory Interest）**：未発生将来権（Executory Interest）の定めのある単純不動産権（Fee Simple Subject to Executory Interest）とは、不動産の条件付譲渡であり、特定の条件の発生時に***第三者***（_贈与者またはその相続人_ではない）が当該不動産に対する権利を有することになる。これは、贈与者が「X氏に、〜である限り（または「ただし、もし〜ならば」）…Y氏に」といった文言を用いる場合に創設される。\n• 証書文言がどの消滅条件付単純不動産権（Defeasible Fee）を意図しているか曖昧な場合、裁判所は贈与者の意図に従ってその文言を解釈する。解除条件付単純不動産権（Fee Simple Determinable）と解除権（Right of Entry）の定めのある単純不動産権（Fee Simple Subject to Condition Subsequent）のどちらが意図されているか不明確な場合、裁判所は通常、解除権（Right of Entry）の定めのある単純不動産権（Fee Simple Subject to Condition Subsequent）を優先する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "現在の不動産権：消滅条件付単純不動産権（Defeasible Fee）"
+  },
+  {
+    "id": 3,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "A. Present Estates & Future Estates",
+    "ruleTitle": "Present Estates: Life Estate",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A life estate is a conveyance of real property where a specified ***life-tenant is entitled to possession of the property during their lifetime***, and upon the life-tenant’s death the property transfers outright to another party (as specified in the deed). The person who takes the property after the life-tenant’s death is known as the remainderman.\n• The life-tenant is responsible for ordinary expenses and taxes relating to the property during their lifetime, and cannot commit waste (causing the property to decrease in value).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 6"
+    ],
+    "translation": "• 生涯不動産権（Life Estate）とは、特定の***生涯権者（Life Tenant）がその存命中に不動産の占有権を有する***不動産の譲渡であり、生涯権者（Life Tenant）の死亡時に当該不動産は（証書に指定されたとおり）別の当事者に完全に譲渡される。生涯権者（Life Tenant）の死亡後に不動産を取得する者は残余権者（Remainderman）として知られる。\n• 生涯権者（Life Tenant）は、その存命中に不動産に関する通常の費用と税金に責任を負い、毀損行為（不動産の価値を減少させること）を行うことはできない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "現在の不動産権：生涯不動産権（Life Estate）"
+  },
+  {
+    "id": 4,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "A. Present Estates & Future Estates",
+    "ruleTitle": "Present Estates: Statute of Limitations",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• An interest in a fee simple determinable or fee simple subject to condition subsequent ***lasts through the applicable statute of limitations period*** for that interest. An action for possession can be brought ***anytime*** within the statute of limitations (usually a set number of years after the cause of action accrues).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2010, Essay 5"
+    ],
+    "translation": "• 解除条件付単純不動産権（Fee Simple Determinable）または解除権（Right of Entry）の定めのある単純不動産権（Fee Simple Subject to Condition Subsequent）における権益は、当該権益に適用される***時効期間を通じて存続する***。占有回復訴訟は、時効期間内（通常、訴訟原因が発生してから一定年数以内）であれば***いつでも***提起することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "現在の不動産権：時効"
+  },
+  {
+    "id": 5,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "A. Present Estates & Future Estates",
+    "ruleTitle": "Future Estates: Reverter & the Right of Re-Entry",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Reverter and the right of re-entry is connected to the occurrence of a condition for a defeasible fee conveyance.\n• A **possibility of reverter** creates a future interest of possession in the grantor if a specified condition occurs. If such condition occurs, the present possessory interest in the grantee will ***automatically terminate*** and vest in the grantor. The Restatement (Third) of Property calls the possibility of reverter a “reversion”.\n• A **right of re-entry** (also known as a power of termination) creates a future interest in the grantor, wherein the grantor has ***the right to re-enter and take the property*** if a specified condition occurs. The present interest in the property is lost ONLY IF the grantor exercises that right (the present possessory interest _does not_ automatically terminate upon the occurrence of the specified condition).\n• Reverter and Right of Re-entry interests that are in favor of the **grantor** are **NOT subject to the Common Law Rule Against Perpetuities** because such interests are immediately vested upon their creation. Additionally, such interests are NOT subject to the Uniform Statutory Rule Against Perpetuities.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 6",
+      "July 2010, Essay 5"
+    ],
+    "translation": "• 復帰権（Reversion）および解除権（Right of Entry）は、消滅条件付単純不動産権（Defeasible Fee）の譲渡における条件の発生に関連する。\n• **復帰可能権（Possibility of Reverter）**は、特定の条件が発生した場合に、譲渡人に将来の占有権益を創設する。そのような条件が発生した場合、譲受人における現在の占有権益は***自動的に消滅し***、譲渡人に帰属する。不動産法リステイトメント（第三版）は、復帰可能権（Possibility of Reverter）を「復帰権（Reversion）」と呼ぶ。\n• **解除権（Right of Entry）**（消滅権能（Power of Termination）とも呼ばれる）は、譲渡人に将来の権益を創設するものであり、特定の条件が発生した場合に、譲渡人は***再入して当該不動産を占有する権利***を有する。当該不動産における現在の権益は、譲渡人がその権利を行使した場合にのみ失われる（現在の占有権益は、特定の条件の発生時に自動的に消滅するわけではない）。\n• **譲渡人**に有利な復帰権（Reversion）および解除権（Right of Entry）の権益は、その創設時に直ちに確定するため、**コモンローの永久拘束禁止の原則の対象ではない**。さらに、そのような権益は、統一永久拘束禁止法の対象でもない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "将来の不動産権：復帰可能権（Possibility of Reverter）と解除権（Right of Entry）"
+  },
+  {
+    "id": 6,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "A. Present Estates & Future Estates",
+    "ruleTitle": "Future Estates: Vested and Contingent Remainders",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A **vested remainder** is a future interest in land that is given to an ***identifiable person with no conditions***.\n• A **contingent remainder** is a future interest in land that is ***conditioned upon the occurrence or non-occurrence of a specified event***.\n• In most jurisdictions, a future remainder interest is devisable, and passes to that person’s heirs. When the remainder is conditioned on survivorship (i.e. “my surviving or living children”), the majority view is that the person holding the remainder interest MUST ***survive the life tenant*** to be entitled to the interest, while the minority view is that the person need only to ***survive the testator***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 6",
+      "July 2010, Essay 5"
+    ],
+    "translation": "• **確定的残余権（Vested Remainder）**とは、***特定可能な者に対し、条件なしに***与えられる土地における将来権益である。\n• **未確定残余権（Contingent Remainder）**とは、***特定の事象の発生または不発生を条件とする***土地における将来権益である。\n• ほとんどの法域において、将来の残余権益は遺贈可能（Devisable）であり、その者の相続人に承継される。残余権が生存を条件とする場合（例：「私の生存するまたは生きている子ら」）、多数説では、残余権益を保持する者は、当該権益を受ける資格を得るために***生活権者より長生きしなければならない***とされ、一方、少数説では、その者は***遺言者より長生きする***だけでよいとされる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "将来の不動産権：確定的残余権（Vested Remainder）と未確定残余権（Contingent Remainder）"
+  },
+  {
+    "id": 7,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "B. Co-Tenancy",
+    "ruleTitle": "Tenancy in Common",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Tenancy in common is the ***default*** estate created by a conveyance or bequest of real property to _two or more people_, **UNLESS**: **(a)** there is express language stating that the parties have a survivorship right creating a **joint tenancy**; **OR (b)** if the conveyance of real property is stated “as husband and wife” creating a **tenancy by the entirety** (some states create a tenancy by the entirety by default if the conveyance is to a married couple). To create a tenancy in common, the grantor need _not_ use explicit language.\n• **Each tenant in common owns an *undivided interest* in the property.** There are NO survivorship rights with a tenancy in common, and upon death the tenant’s interest passes to their estate.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2009, Essay 4"
+    ],
+    "translation": "• **共有**は、不動産の_2人以上の者_への譲渡または遺贈によって創設される***既定の***財産権である。ただし、**(a)** 当事者が**合有**を創設する生存者取得権（Right of Survivorship）を有することを明示する文言がある場合、**または (b)** 不動産の譲渡が「夫婦として」と明記され**夫婦共有**を創設する場合（一部の州では、譲渡が既婚者に対して行われた場合、既定で夫婦共有を創設する）を除く。共有を創設するために、譲渡人は明示的な文言を使用する_必要はない_。\n• **各共有者は、不動産における*不可分持分（Undivided Interest）*を所有する。**共有には生存者取得権（Right of Survivorship）は存在せず、死亡時に共有者の持分はその者の遺産に帰属する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "共有"
+  },
+  {
+    "id": 8,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "B. Co-Tenancy",
+    "ruleTitle": "Joint Tenancy: Formation",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A conveyance of real property to _two or more persons_ creates a joint tenancy when the **four unities are present**: **(1)** unity of ***time*** (all interests were received at the same time); **(2)** unity of ***title*** (all interests were acquired by the same instrument); **(3)** unity of ***interest*** (all ownership interests are equal); **AND (4)** unity of ***possession*** (all interests have equal rights of possession).\n• There MUST be ***clear express intent* to create a joint tenancy**, which may be satisfied by including such terms as “joint tenants”, “right of survivorship”, “joint tenants with right of survivorship”, or even “jointly” (if intent is proven). A **right of survivorship** means that when one joint tenant dies his interest in the land is automatically transferred to the other joint tenant(s).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2009, Essay 4"
+    ],
+    "translation": "• _2人以上の者_への不動産の譲渡は、**四つの統一（Four Unities）が具備されている**場合に合有を創設する。すなわち、**(1)** ***時間の***統一（すべての持分が同時に取得されたこと）、**(2)** ***権原の***統一（すべての持分が同一の証書によって取得されたこと）、**(3)** ***持分の***統一（すべての所有持分が平等であること）、**および (4)** ***占有の***統一（すべての持分が平等な占有権を有すること）である。\n• **合有を創設する***明確な明示的意図*がなければならず**、これは「合有者」、「生存者取得権（Right of Survivorship）」、「生存者取得権（Right of Survivorship）付き合有者」、あるいは「共同で」（意図が証明されれば）といった用語を含めることによって満たされ得る。**生存者取得権（Right of Survivorship）**とは、ある合有者が死亡した場合、その者の土地における持分が他の合有者に自動的に移転されることを意味する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "合有：形成"
+  },
+  {
+    "id": 9,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "B. Co-Tenancy",
+    "ruleTitle": "Joint Tenancy: Severance",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Generally, when one joint tenant ***unilaterally transfers his ownership interest*** in the real property, the joint tenancy is severed and the tenants will then hold the property as **tenants in common**.\n• When a joint tenant ***conveys his interest in a joint tenancy*** to a third-party, that party takes the property as a **tenant in common**. If there are only two joint tenants, the joint tenancy is ***severed***. However, if there are more than two joint tenants, the joint tenancy remains, but _only_ among the other joint tenants.\n• When a joint tenant **takes out a mortgage on her interest**, the mortgage’s effect on the joint tenancy will depend on the jurisdiction. In a lien theory jurisdiction, the mortgage ***will NOT sever the joint tenancy***. However, in a title theory jurisdiction, the mortgage ***will sever the joint tenancy***, and the tenants will then hold the property as tenants in common.\n• When **one joint tenant leases the property**, the lease’s effect on the joint tenancy will depend on the jurisdiction. Most states follow the common law rule that **a lease by one joint tenant *severs* the joint tenancy**, wherein it is converted to a tenancy in common.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 1",
+      "Feb 2020, Essay 2",
+      "Feb 2009, Essay 4"
+    ],
+    "translation": "• 一般に、ある合有者が不動産における***その所有持分を一方的に譲渡する***場合、合有は解消され、当事者は**共有者**として不動産を保有することになる。\n• ある合有者が***合有におけるその持分を第三者に譲渡する***場合、その第三者は**共有者**として不動産を取得する。合有者が2人しかいない場合、合有は***解消される***。しかし、合有者が2人より多い場合、合有は他の合有者の_間でのみ_存続する。\n• ある合有者が**その持分に抵当権を設定する**場合、その抵当権が合有に与える影響は法域によって異なる。担保権（Security Interest）説法域（Lien Theory Jurisdiction）では、抵当権は***合有を解消しない***。しかし、権原説法域（Title Theory Jurisdiction）では、抵当権は***合有を解消し***、当事者は**共有者**として不動産を保有することになる。\n• **ある合有者が不動産を賃貸する**場合、その賃貸借が合有に与える影響は法域によって異なる。ほとんどの州は、**ある合有者による賃貸借が合有を*解消し***、それが共有に転換されるというコモンローの原則に従う。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "合有：分離"
+  },
+  {
+    "id": 10,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "B. Co-Tenancy",
+    "ruleTitle": "Joint Tenancy: Lease by One Joint Tenant",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• When **one joint tenant leases the property**, the lease’s effect on the joint tenancy will depend on the jurisdiction. Most states follow the common law rule that a lease by one joint tenant _severs_ the joint tenancy. Other states hold that such a lease _does not_ sever the joint tenancy. Some courts follow a middle ground approach: the joint tenancy is severed _only if_ the leasing joint tenant dies before the end of the lease term; otherwise the leasing joint tenant owns the whole property by right of survivorship if he survives the other tenants.\n• If the joint tenancy is severed, then the co-tenants will own the property as tenants in common. A ***lease by one joint tenant will still remain in effect*** and will be valid against that leasing joint tenant’s undivided interest (_even if_ the leasing joint tenant dies first). In such situation, **both the lessee *and* the non-leasing joint tenant will have the right to occupy the property**, and neither the lessee nor the non-leasing joint tenant can exclude each other.\n• If the joint tenancy is _not_ severed, then whether the lease terminates depends on which joint tenant dies first. If the **leasing joint tenant dies first**, then the ***lease terminates*** because the property passes to the non-leasing joint tenant by survivorship. If the **non-leasing joint tenant dies first**, the ***lease remains in effect*** because the property passes to the leasing joint tenant by survivorship.",
+    "meeTips": [
+      "Using only one of the three tests is sufficient when writing your essay answer on whether a lease by one joint tenant severs the joint tenancy. In the “Note” section of the Feb. 2020 MEE (Essay 2) Analysis, the examiners stated: “Examinees should receive full credit for adopting any one of these positions [on whether a lease by one joint tenant severs the joint tenancy].”"
+    ],
+    "examHistory": [
+      "Feb 2026, Essay 1",
+      "Feb 2020, Essay 2"
+    ],
+    "translation": "• **ある合有者が不動産を賃貸する**場合、合有関係に対する賃貸借の効果は法域によって異なる。_ほとんどの州_は、ある合有者による賃貸借は合有関係を_解消する_というコモンローの原則に従う。_他の州_は、そのような賃貸借は合有関係を解消_しない_と判断する。_一部の裁判所_は中間的なアプローチをとる：合有関係は、賃貸借期間終了前に賃貸合有者が死亡した場合に_のみ_解消される；そうでなければ、賃貸合有者が他の合有者より長生きした場合、生存者取得権（Right of Survivorship）によって不動産全体を所有する。\n• 合有関係が解消された場合、共同保有者は共有者として不動産を所有することになる。***ある合有者による賃貸借は引き続き効力を有し***、その賃貸合有者の不可分持分（Undivided Interest）に対して有効となる（賃貸合有者が先に死亡した_場合でも_）。そのような場合、**賃借人および非賃貸合有者の双方が当該不動産を占有する権利を有し**、賃借人も非賃貸合有者も互いを排除することはできない。\n• 合有関係が解消_されない_場合、賃貸借が終了するかどうかはどちらの合有者が先に死亡するかによる。**賃貸合有者が先に死亡する**場合、生存者取得権（Right of Survivorship）によって不動産が非賃貸合有者に移転するため、***賃貸借は終了する***。**非賃貸合有者が先に死亡する**場合、生存者取得権（Right of Survivorship）によって不動産が賃貸合有者に移転するため、***賃貸借は引き続き効力を有する***。",
+    "meeTipTranslation": "共有者の1人による賃貸借が合有不動産権（Joint Tenancy）を分割するかどうかについて、論文回答では3つのテストのうち1つのみを使用すれば十分である。2020年2月MEE（論文2）の「注記」セクションで、試験官は次のように述べた：「（共有者の1人による賃貸借が合有不動産権（Joint Tenancy）を分割するかどうかについて）これらの立場のいずれかを採用した答案は、満点とすべきである。」",
+    "ruleTitleJa": "合有：一人の合有者による賃貸借"
+  },
+  {
+    "id": 11,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "B. Co-Tenancy",
+    "ruleTitle": "Co-Tenant's Entitlement to Rent or Reimbursement for Repairs/Improvements",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Rent from Co-Tenant: An out-of-possession co-tenant **DOES NOT** have the right to receive rent from the in-possession co-tenant, UNLESS the in-possession co-tenant ***wrongfully ousted*** the out-of-possession co-tenant from the property. When one co-tenant voluntarily quits (or simply does not use) the property, the other co-tenant is ***not liable for rent*** for his use of the entire property. **Thus, a co-tenant CANNOT collect rents from another co-tenant who is in exclusive possession of the premises, *unless*: (a) there is an agreement to the contrary; OR (b) the co-tenant seeking rent was wrongfully ousted**.\n• Rent from a Third-Party: If an in-possession co-tenant rents the property to a _third-party_, the out-of-possession co-tenant is entitled to his fair share of the rent paid by the third-party.\n• Reimbursement for Repairs: A co-tenant is ***entitled to reimbursement for the costs of necessary repairs*** that the co-tenant paid for, UNLESS there has been a wrongful ouster. The amount of reimbursement is determined by the percentage share each co-tenant owns in the property (i.e. if a co-tenant owns a 50% share then the co-tenant is obligated to pay 50% of the repair costs).\n• Reimbursement for Improvements: A co-tenant who makes improvements to the property is **NOT *entitled to reimbursement*** from the other co-tenant(s), UNLESS there is a separate agreement to the contrary. At the end of the co-tenancy (i.e. a partition or sale of the property), the improving co-tenant bears all the downside risk of the improvements, but also has all of the upside gain. Thus, if the property appreciated because of the improvements, ***only the improving co-tenant*** is entitled to that increase in value.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 1",
+      "Feb 2020, Essay 2"
+    ],
+    "translation": "• 共有者からの賃料：占有していない共有者は、占有している共有者が占有していない共有者を不動産から***不法に追放した場合***を_除き_、占有している共有者から賃料を受け取る権利を**有しない**。共有者の一方が自発的に不動産を退去する（または単に利用しない）場合、他の共有者は不動産全体を利用したことに対する賃料の***責任を負わない***。**したがって、共有者は、占有している共有者から賃料を回収することができない。ただし、(a) 反対の合意がある場合、または (b) 賃料を求める共有者が不法に追放された場合を除く**。\n• 第三者からの賃料：占有している共有者が不動産を_第三者_に賃貸した場合、占有していない共有者は、第三者によって支払われた賃料の公正な持分を受け取る権利を有する。\n• 修繕費の償還：共有者は、不法な追放があった場合を_除き_、自身が支払った***必要な修繕費の償還を受ける権利を有する***。償還額は、各共有者が不動産に所有する持分割合によって決定される（すなわち、共有者が50%の持分を所有する場合、その共有者は修繕費の50%を支払う義務を負う）。\n• 改良費の償還：不動産に改良を加えた共有者は、別途の反対合意がある場合を_除き_、他の共有者から償還を***受ける権利を***有しない。共有関係の終了時（すなわち、不動産の分割または売却時）には、改良を行った共有者が改良による全ての下降リスクを負うが、全ての利益も得る。したがって、改良により不動産の価値が上昇した場合、その価値の増加分は***改良を行った共有者のみ***が受け取る権利を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "共同占有者の賃料または支出に対する償還請求権"
+  },
+  {
+    "id": 12,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Types of Leasehold Interests",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• A lease provides the tenant with a ***present possessory interest*** in the real property (subject to any terms and conditions agreed to), and gives the landlord a future interest in the property. In most states, the statute of frauds requires a lease of _more than one year_ to be writing.\n• **Three types of leaseholds exist**: (1) tenancy for years; (2) periodic tenancy; AND (3) tenancy at will.\n  ○ A Tenancy for Years lasts for a ***fixed period*** of time (there is a specified beginning and end date), as agreed by the landlord and tenant. The lease ***automatically terminates*** after the fixed period. Normally, a tenant CANNOT terminate a lease prior to the end of the term, _unless_ constructive eviction or another exception applies.\n  ○ A Periodic Tenancy lasts for an initial period and then ***automatically continues for additional equal periods*** (i.e. weekly, monthly) until it is terminated by the landlord or tenant. A periodic tenancy may be created: **(a) *expressly by agreement***; **(b)** by ***implication*** if rent is paid at specific periods (i.e. every week or month); **OR (c)** by ***law*** when a tenant-for-years remains after termination of the period _or_ when a lease agreement is invalid.\n    A periodic tenancy can only be terminated **(1)** at the ***end of a natural lease period***, **AND (2)** requires ***written notice at least a full period in advance***. For example, a periodic month-to-month tenancy requires a one-month notice of termination. An exception exists for a periodic year-to-year tenancy, in that _only 6-months’ notice_ is required.\n  ○ A Tenancy at Will ***continues until either party terminates it***, and is usually created by an express agreement. In most states termination of a tenancy at will requires giving: **(1) *notice*** of termination; **AND (2)** a ***reasonable time*** to quit the premises. In a minority of states, termination _does not_ require notice to the tenant.",
+    "meeTips": [
+      "On the exam, apply the type of tenancy based on landlord-tenant relationship described in the essay question."
+    ],
+    "examHistory": [
+      "Feb 2024, Essay 4",
+      "Feb 2013, Essay 1",
+      "July 2008, Essay 4"
+    ],
+    "translation": "• 賃貸借は、賃借人に不動産に対する***現在の占有権***（合意された条件に従う）を与え、賃貸人には不動産に対する将来権を与える。ほとんどの州では、詐欺防止法（Statute of Frauds）により_1年を超える_賃貸借契約は書面で作成することを要求される。\n• **3種類の借地権が存在する**：(1) 定期不動産賃借権（Tenancy for Years）；(2) 自動更新定期不動産賃借権（Periodic Tenancy）；及び (3) 任意終了不動産賃借権（Tenancy at Will）。\n  ○ 定期不動産賃借権（Tenancy for Years）は、賃貸人と賃借人によって合意された***固定期間***（特定の開始日と終了日がある）存続する。賃貸借は固定期間の経過後、***自動的に終了する***。通常、賃借人は、構成上の追出しまたは他の例外が適用される場合を_除き_、期間満了前に賃貸借を解除することは**できない**。\n  ○ 自動更新定期不動産賃借権（Periodic Tenancy）は、最初の期間存続し、その後、賃貸人または賃借人によって終了されるまで、***自動的に同等の追加期間継続する***（すなわち、週ごと、月ごと）。自動更新定期不動産賃借権（Periodic Tenancy）は、以下の方法で設定され得る：**(a) *合意により明示的に***；**(b)** 特定の期間で賃料が支払われる場合（すなわち、毎週または毎月）の***黙示***により；**又は (c)** 定期不動産賃借権（Tenancy for Years）の賃借人が期間終了後も残存する場合_または_賃貸借契約が無効である場合の***法律***により。\n    自動更新定期不動産賃借権（Periodic Tenancy）は、**(1)** ***自然な賃貸期間の終了時***にのみ終了させることができ、**かつ (2)** ***少なくとも完全な1期間前の書面による通知***を要する。例えば、月ごとの自動更新定期不動産賃借権（Periodic Tenancy）は、1ヶ月前の終了通知を要する。年ごとの自動更新定期不動産賃借権（Periodic Tenancy）には例外があり、_6ヶ月前の通知のみ_が要求される。\n  ○ 任意終了不動産賃借権（Tenancy at Will）は、***いずれかの当事者が終了させるまで継続する***ものであり、通常は明示の合意によって設定される。ほとんどの州では、任意終了不動産賃借権（Tenancy at Will）の終了には、**(1) 終了の***通知***；**及び (2)** 敷地を退去するための***合理的な期間***を与えることが要求される。一部の州では、終了に賃借人への通知を_要しない_。",
+    "meeTipTranslation": "試験では、論文問題で説明されている賃貸人と賃借人の関係に基づいて、借地権の種類を適用すること。",
+    "ruleTitleJa": "借地権の種類"
+  },
+  {
+    "id": 13,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Tenant Duties: Duty to Pay Rent",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A tenant’s duty to pay rent ***runs with the land***. If a tenant remains on the property and does not pay rent, the landlord may: **(a) *initiate eviction proceedings***; **OR (b)** allow the tenant to remain on the property and ***sue for damages***. If the tenant abandons the property and does not pay rent, the landlord _may_ be required to take reasonable steps to mitigate his losses (depending on the applicable state law).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 1"
+    ],
+    "translation": "• 賃借人の賃料支払義務は***土地に付随する（Run with the Land）***。賃借人が物件に留まり賃料を支払わない場合、賃貸人は以下のいずれかを行うことができる。**(a) *立ち退き手続きを開始する***。**または(b)** 賃借人が物件に留まることを許可し、***損害賠償を請求する***。賃借人が物件を放棄し賃料を支払わない場合、賃貸人は（適用される州法に応じて）損害を軽減するための合理的な措置を講じることを_要求される場合がある_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "テナントの義務：賃料支払義務"
+  },
+  {
+    "id": 14,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Landlord's Rights and Liabilities Concerning a Hold-Over Tenant",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A landlord has two options if a tenant holds-over (when the tenant retains possession after the expiration of the lease): **(a)** he may ***evict the tenant***; **OR (b)** he may ***hold the tenant over***.\n• By holding the tenant over, an implied month-to-month tenancy is created with terms identical to the original lease terms. Although, if the tenant was informed by the landlord ***before*** the end of the lease term, that renewal of the lease would involve higher rent, the higher rent would apply. At common law, the duration of the implied periodic tenancy was equal to that of the original tenancy. Due to the potential harshness of this rule, most states have modified the common law, making all holdover tenancies _implied month-to-month tenancies_ (unless otherwise agreed by the parties).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 4"
+    ],
+    "translation": "• 賃借人が占有を継続する場合（賃貸借契約期間満了後も賃借人が占有を保持する場合）、賃貸人には二つの選択肢がある。**(a)** 賃貸人は***賃借人を立ち退かせることができる***。**または(b)** 賃貸人は***賃借人の占有継続を認めることができる***。\n• 賃借人の占有継続を認めることにより、元の賃貸借契約と同一の条件で黙示の月次賃貸借が成立する。ただし、賃貸借契約の更新がより高い賃料を伴うことを、賃貸人が賃貸借期間の終了***前***に賃借人に通知していた場合、その高い賃料が適用される。コモンローでは、黙示の定期賃貸借の期間は元の賃貸借契約の期間と同一であった。このルールの潜在的な厳しさのため、ほとんどの州はコモンローを修正し、すべての占有継続賃貸借を（当事者間で別途合意がない限り）_黙示の月次賃貸借_としている。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "家主の権利と責任：ホールドオーバーに関して"
+  },
+  {
+    "id": 15,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Landlord Duties: Duty to Provide Possession of Leased Premises",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Under the Majority View (known as the “English Rule”), a landlord is obligated to deliver ***actual possession*** of the premises to the tenant when the lease term begins. This is in addition to the landlord’s obligation to provide the _legal right_ to possession. If a landlord fails to provide actual possession (e.g. if a prior tenant wrongfully stays beyond their lease term), the landlord will be in breach. In such a situation, the tenant may (but is not required to) terminate the lease.\n• Under the Minority View (known as the “American Rule”), a landlord is obligated to only deliver the ***legal right to possession*** to the tenant when the lease term begins (unless the lease provides otherwise). The landlord is not obligated to provide actual possession to the tenant, and the landlord will not be in breach for failing to do so.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 4"
+    ],
+    "translation": "• 多数説（「英国法主義」として知られる）の下では、賃貸借期間が開始する際、賃貸人は賃借人に対し物件の***現実の占有（Actual Possession）を引き渡す***義務を負う。これは、賃貸人が占有の_法的権利_を提供する義務に加えてのものである。賃貸人が現実の占有（Actual Possession）を提供できない場合（例：以前の賃借人が賃貸借期間を超えて不法に滞在する場合）、賃貸人は債務不履行となる。このような状況において、賃借人は賃貸借契約を解除することができる（ただし、解除する義務はない）。\n• 少数説（「米国法主義」として知られる）の下では、賃貸借期間が開始する際、賃貸人は賃借人に対し（賃貸借契約に別段の定めがない限り）***占有の法的権利（Legal Right to Possession）を引き渡す***義務のみを負う。賃貸人は賃借人に現実の占有（Actual Possession）を提供する義務を負わず、提供しなかったとしても債務不履行とはならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "家主の義務：賃貸物件の占有提供義務"
+  },
+  {
+    "id": 16,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Landlord Duties: Implied Warranty of Habitability",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A **warranty of habitability** is implied in every _residential lease_. The implied warranty of habitability requires that the landlord provide a place to live (apartment, home) that is ***habitable***. A property is **deemed habitable** if it’s ***reasonably suitable for human needs*** (the local housing or public safety code must be considered for specifics).\n  ○ Some courts impose the implied warranty of habitability in _commercial leases_ in limited circumstances.\n• Upon a breach of the warranty of habitability, the tenant may: **(a) *move out*** and terminate the lease; **(b) *withhold or reduce the rent***; **(c) *repair the issue and deduct*** the cost from the rent; **OR (d) *remain on the premises and sue*** for damages.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2013, Essay 1"
+    ],
+    "translation": "• **居住性保証**は、すべての_居住用賃貸借契約_に黙示的に含まれる。居住性の黙示保証（Implied Warranty of Habitability）は、賃貸人が***居住可能***な居住場所（アパート、家）を提供することを要求する。物件は、***人間のニーズに合理的に適している***場合に**居住可能とみなされる**（具体的な事項については、地域の住宅または公安条例を考慮しなければならない）。\n  ○ 一部の裁判所は、限定的な状況において_商業用賃貸借契約_にも黙示の居住性保証を課している。\n• 居住性保証の違反があった場合、賃借人は以下のいずれかを行うことができる：**(a) *退去し*、賃貸借契約を終了させる**；**(b) *賃料を留保または減額する***；**(c) *問題を修繕し、その費用を賃料から控除する***；**または (d) *物件に留まり、損害賠償を請求する***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "家主の義務：居住性の黙示保証（Implied Warranty of Habitability）"
+  },
+  {
+    "id": 17,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Landlord Duties: Constructive Eviction",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Every lease includes an **implied covenant of quiet enjoyment**, which prevents a landlord from interfering with the tenant’s quiet enjoyment and possession of the property. This covenant is breached if the tenant is constructively evicted.\n• **Constructive eviction** occurs when: **(1)** the ***landlord breached a duty*** to the tenant; **(2)** the landlord’s breach ***caused a loss of the substantial use and enjoyment of the premises***; **(3)** the tenant gave the landlord ***notice*** of the condition; **(4)** the landlord ***failed to remedy the condition within a reasonable time*** after notice was given; **AND (5)** the tenant ***vacated the premises***.\n• Upon being constructively evicted, the tenant may terminate the lease and seek damages. Additionally, a tenant can avoid rent owed during the time-frame she was constructively evicted.\n• In residential leases, the landlord has a ***duty to repair common areas***. The landlord also has a ***duty to warn*** the tenant of any _latent defects_ that create a risk of serious harm that the landlord knows of (or should know of).\n• In commercial leases, landlords generally **DO NOT *have a duty to repair*** (unless specified in the lease agreement), but public authorities may require the landlord to do so in certain instances.",
+    "meeTips": [],
+    "examHistory": [
+      "Sept 2020, Essay 2",
+      "Feb 2013, Essay 1"
+    ],
+    "translation": "• すべての賃貸借契約には**静穏享有の黙示的約款（Implied Covenant of Quiet Enjoyment）**が含まれており、家主が賃借人の物件の静穏享有および占有を妨げることを防止する。賃借人が擬制占有侵奪（Constructive Eviction）を強いられた場合、この約款は違反される。\n• **擬制占有侵奪（Constructive Eviction）**は、以下の場合に発生する。**(1)** ***家主が賃借人に対する義務に違反した***場合；**(2)** 家主の違反が***物件の実質的な使用および享有の喪失をもたらした***場合；**(3)** 賃借人が状態について家主に***通知を行った***場合；**(4)** 家主が通知後***合理的な期間内に状態を是正しなかった***場合；**および (5)** 賃借人が***物件を退去した***場合。\n• 擬制占有侵奪（Constructive Eviction）を強いられた場合、賃借人は賃貸借契約を解除し損害賠償を求めることができる。また、賃借人は擬制占有侵奪（Constructive Eviction）期間中に発生した家賃債務を免れることができる。\n• 住宅用賃貸借において、家主は***共用部分を修繕する義務***を負う。また、家主は、自身が知っている（または知るべきである）重大な危害をもたらす_潜在的欠陥_について賃借人に***警告する義務***を負う。\n• 商業用賃貸借において、家主は一般的に**修繕義務を***負わない***（賃貸借契約に定めがある場合を除く）が、公的機関が一定の場合に家主に修繕を要求することがある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "家主の義務：擬制占有侵奪（Constructive Eviction）"
+  },
+  {
+    "id": 18,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Landlord Duties: Duty to Mitigate Damages",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• At common law, a landlord had **NO *duty to mitigate his damages***. However, most states now impose a duty on a landlord to take ***reasonable steps to mitigate his losses*** (i.e. attempting to lease the property to another tenant). However, in those states, the mitigation _does not_ need to be successful in order to recover damages (only reasonable steps are required). If a landlord fails to mitigate, some jurisdictions hold that the tenant is _not_ liable for any rent or damages after the date of abandonment.\n• If the landlord leases the property to another tenant, the landlord would be able to sue for the ***difference*** between the original rent payments and the rent payments under the new lease (as well as any _incidental damages_).\n• At common law, a landlord could only recover rent that was ***past due***. Some states now permit a landlord to recover ***future payments*** under the lease, wherein the damages are measured by the value of rent for the remaining lease term less the fair market value at the time the tenant wrongfully terminated.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 1",
+      "Feb 2017, Essay 6",
+      "Feb 2013, Essay 1"
+    ],
+    "translation": "• コモンローにおいては、賃貸人は**損害を軽減する義務を負わなかった**。しかし、現在ではほとんどの州が、賃貸人に対し***損失を軽減するための合理的な措置***（すなわち、物件を別の賃借人に賃貸しようと試みること）を講じる義務を課している。しかし、これらの州では、損害賠償を回復するために軽減が成功する必要はない（合理的な措置のみが要求される）。賃貸人が軽減を怠った場合、一部の法域では、賃借人は放棄日以降の賃料または損害賠償について_責任を負わない_とされている。\n• 賃貸人が物件を別の賃借人に賃貸した場合、賃貸人は元の賃料と新しい賃貸借契約に基づく賃料との***差額***（および_付随的損害_）について訴訟を提起することができる。\n• コモンローにおいては、賃貸人は***期限を過ぎた***賃料のみを回収することができた。現在では一部の州が、賃貸人が賃貸借契約に基づく***将来の支払い***を回収することを許可しており、その損害は、賃借人が不法に契約を終了した時点での残存賃貸期間の賃料価値から公正市場価値を差し引いた額によって測定される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "家主の義務：損害軽減義務（Duty to Mitigate）"
+  },
+  {
+    "id": 19,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Assignment of a Lease",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• A lease may be ***freely assigned*** UNLESS a provision in the lease states otherwise. However, an assignment can ***never be for a longer period*** of time than the lessor’s remaining lease term.\n• An assignment occurs when a tenant (the assignor) transfers **ALL** of their remaining interest in a lease to a third-party (the assignee). The **assignee is liable** to the landlord for ***rent and all other covenants that run with the land*** because privity of estate arises between the assignee and the landlord. The **assignor also remains liable** to the landlord for any ***rent*** not paid by the assignee because privity of contract continues to exist with the landlord. **Landlord’s maintenance obligation** runs with the land (privity of estate) and is enforceable between the landlord and assignee.\n• In Most States, a lease clause that prohibits a transfer of the tenant’s interest (e.g. by allowing the landlord to terminate the lease if a transfer occurs) is generally ***enforceable***.\n• If the lease agreement requires the landlord’s consent for an assignment, then such consent MUST be obtained by tenant in order to assign the lease. When a lease is silent as the standard of consent (a **silent consent clause**), two different approaches have been adopted by state courts.\n  ○ Under the Traditional View (the majority rule still used in most jurisdictions), a silent consent clause allows the landlord to ***withhold consent for any reason***, even if it is unreasonable or arbitrary (except in violation of discrimination laws).\n  ○ Under the Modern View (the emerging view adopted in some courts), the landlord must have a ***reasonable basis for withholding consent*** (it cannot be unreasonably withheld). Examples of a reasonable basis include the inability to fulfill the terms of the lease, financial irresponsibility or instability, suitability of the premises for intended use, or intended unlawful or undesirable use of the premises.\n• Additionally, a landlord may be deemed to ***waive*** their right to enforce a provision prohibiting an assignment if they accept rent from the assignee.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2024, Essay 4",
+      "Sept 2020, Essay 2",
+      "Feb 2017, Essay 6",
+      "July 2008, Essay 4"
+    ],
+    "translation": "• 賃貸借契約は、契約に別段の定めがない限り、***自由に譲渡され得る***。ただし、譲渡は賃貸人の残存賃貸借期間よりも***長い期間となることは決してない***。\n• 譲渡は、賃借人（譲渡人）が賃貸借契約における残存する**全ての**権利を第三者（譲受人）に譲渡した場合に発生する。譲受人と賃貸人との間に物権的契約関係（Privity of Estate）が生じるため、**譲受人は**賃貸人に対し、***賃料および土地に付随する（Run with the Land）その他の全ての約定***について**責任を負う**。また、賃貸人との契約関係（Privity of Contract）が継続して存在するため、**譲渡人も**譲受人によって支払われなかった***賃料***について賃貸人に対し**責任を負い続ける**。**賃貸人の維持管理義務**は土地に付随し（物権的契約関係（Privity of Estate））、賃貸人と譲受人の間で強制可能である。\n• ほとんどの州において、賃借人の権利の移転を禁止する賃貸借条項（例：移転が発生した場合に賃貸人が賃貸借契約を終了させることを許可する条項）は、一般的に***強制可能である***。\n• 賃貸借契約が譲渡に対する賃貸人の同意を要求する場合、賃貸借契約を譲渡するためには、賃借人はその同意を**必ず**取得しなければならない。同意の基準について賃貸借契約が沈黙している場合（**沈黙の同意条項**）、州裁判所によって2つの異なるアプローチが採用されている。\n  ○ 伝統的見解（ほとんどの法域で依然として採用されている多数派の規則）の下では、沈黙の同意条項は、賃貸人が不合理または恣意的であっても（差別法違反の場合を除く）、***いかなる理由であっても同意を拒否すること***を許可する。\n  ○ 現代的見解（一部の裁判所で採用されている新たな見解）の下では、賃貸人は***同意を拒否するための合理的な根拠***を持たなければならない（不合理に拒否することはできない）。合理的な根拠の例としては、賃貸借契約の条件を履行できないこと、財務上の無責任または不安定性、意図された使用目的への物件の適合性、または物件の意図された違法または望ましくない使用などが挙げられる。\n• さらに、賃貸人が譲受人から賃料を受け入れた場合、賃貸人は譲渡を禁止する条項を強制する権利を***放棄した***とみなされ得る。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "賃貸借契約の譲渡"
+  },
+  {
+    "id": 20,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Subleases",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A lease may be ***freely sublet*** UNLESS a provision in the lease states otherwise. A sublease occurs when a tenant (the sublessor) transfers ***only some*** of his remaining interest in a lease to a third-party (the sublessee). A sublease can ***never be for a longer lease term*** than the sublessor has remaining in his lease.\n• The ***sublessee is NOT liable*** to the landlord for rent or other covenants that run with the land because there is no privity of estate with the landlord. If a lease prohibits subleases, the landlord waives the right to enforce the provision if he accepts rent from the sublessee.\n• The sublessee CANNOT enforce covenants made by the landlord under the lease, but _can_ enforce any covenants made by the sublessor.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 賃貸借契約は、契約に別段の定めがない限り、***自由に転貸され得る***。転貸借は、賃借人（転貸人）が賃貸借契約における残存する権利の***一部のみ***を第三者（転借人）に譲渡した場合に発生する。転貸借は、転貸人が自身の賃貸借契約に残存する期間よりも***長い賃貸借期間となることは決してない***。\n• 転借人と賃貸人との間に物権的契約関係（Privity of Estate）がないため、***転借人は***賃貸人に対し、賃料または土地に付随する（Run with the Land）その他の約定について***責任を負わない***。賃貸借契約が転貸借を禁止している場合、賃貸人が転借人から賃料を受け入れたならば、賃貸人はその条項を強制する権利を放棄する。\n• 転借人は、賃貸借契約に基づき賃貸人によってなされた約定を強制することはできないが、転貸人によってなされた約定は_強制することができる_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "転貸借"
+  },
+  {
+    "id": 21,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Termination of Leases: Surrender",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• **Surrender** is an agreement between the landlord and tenant to ***end a lease early***. If the landlord _accepts_ the surrender, the tenant’s duty to pay rent after the acceptance ends. If the landlord _does not accept_ the surrender, the tenant is deemed to have abandoned the lease, and is liable for damages.\n• Unless otherwise agreed, an attempt by the tenant to end the lease early DOES NOT constitute a surrender UNLESS the ***landlord accepts the surrender***. A landlord’s ***acceptance must be clear*** (solely holding onto keys left by a tenant is _not_ sufficient acceptance without other evidence showing intent to accept the surrender). Conversely, other factors can evidence surrender, such as making alterations or reletting the premises for a longer term or higher rent. A substantial reconfiguration is very strong evidence of surrender.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 1",
+      "Sept 2020, Essay 2",
+      "Feb 2017, Essay 6",
+      "Feb 2013, Essay 1"
+    ],
+    "translation": "• **解約合意**とは、賃貸人と賃借人との間で***賃貸借契約を早期に終了させる***ための合意である。賃貸人が解約合意を_承諾した場合_、承諾後の賃料支払義務は終了する。賃貸人が解約合意を_承諾しない場合_、賃借人は賃貸借契約を放棄したものとみなされ、損害賠償責任を負う。\n• 別段の合意がない限り、賃借人による賃貸借契約の早期終了の試みは、***賃貸人が解約合意を承諾しない限り***、解約合意を構成しない。賃貸人の***承諾は明確でなければならない***（賃借人が残した鍵を単に保持しているだけでは、解約合意を承諾する意図を示す他の証拠がない限り、十分な承諾とは_ならない_）。逆に、改築を行ったり、より長い期間またはより高い賃料で物件を再賃貸したりするなど、他の要因が解約合意の証拠となり得る。大幅な再構成は、解約合意の非常に強力な証拠である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "賃貸借契約の終了：返還"
+  },
+  {
+    "id": 22,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "C. Landlord & Tenant Issues",
+    "ruleTitle": "Landlord’s Options if Tenant Abandons Premises",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Abandonment occurs when the tenant: **(1)** vacates the leased premises without justification; **(2)** lacks the present intent to return; **AND (3)** defaults in paying rent.\n• Landlord Remedies: If a tenant abandons the premises during the lease term, the landlord MAY: **(a) *terminate*** the lease; **(b) *relet the premises to a new tenant*** and sue the tenant for any unpaid rent; **OR (c) *leave the premises vacant and sue*** the tenant for accrued rent (subject to any duty to mitigate damages).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 1",
+      "Sept 2020, Essay 2"
+    ],
+    "translation": "• 賃借人の放棄は、賃借人が：**(1)** 正当な理由なく賃借物件を立ち退き；**(2)** 戻る現在の意思を欠き；**かつ (3)** 賃料の支払いを怠った場合に発生する。\n• 賃貸人の救済措置：賃借人が賃貸借期間中に物件を放棄した場合、賃貸人は：**(a) *賃貸借契約を解除する***；**(b) *物件を新たな賃借人に再賃貸し***、未払い賃料について賃借人を提訴する；**または (c) *物件を空室のままにして、発生済みの賃料について賃借人を提訴する***（損害軽減義務（Duty to Mitigate）に従うことを条件として）ことができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "テナントが物件を放棄した場合の家主の選択肢"
+  },
+  {
+    "id": 23,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "D. Covenants & Equitable Servitudes",
+    "ruleTitle": "Real Covenants",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A real covenant is a ***non-possessory interest in land that obligates the holder to either do something or refrain from doing something*** to the land. It differs from equitable servitudes in that the remedy is damages (rather than injunctive relief).\n• To enforce the **benefit of a covenant** there must be: **(1)** a ***writing*** that satisfies the statute of frauds; **(2) *intent*** that the covenant runs with the land; **(3) *vertical privity*** between succeeding parties (exists when the successor holds the ***entire interest*** held by the predecessor); **AND (4)** the covenant must ***touch and concern*** the land (make the land more useful or valuable to the benefitted party).\n• To enforce the **burden of a covenant**, ALL OF THE ABOVE REQUIREMENTS MUST BE MET, PLUS: **(1)** there must be ***horizontal privity*** between the original parties (exists when the two parties shared some interest in the land independent of the covenant); **AND (2)** the new owner must have ***notice*** of the covenant. Notice may be: (a) ***actual***; (b) ***constructive*** (the covenant is recorded in previous conveyances); OR (c) by ***inquiry*** (an inspection of the land would reveal the covenant).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 不動産に関する誓約（Real Covenant）とは、***権益保有者に土地に対して何かをするまたは何かをしないことを義務付ける土地における非占有権益***である。衡平法上の地役権（Equitable Servitude）との違いは、救済手段が損害賠償（差止命令的救済ではなく）である点にある。\n• 約款の**利益**を執行するためには、次のものが必要である：**(1)** 詐欺防止法（Statute of Frauds）を満たす***書面***；**(2)** 約款が土地とともに承継されるという***意図***；**(3)** 承継当事者間の***垂直的近接関係（Vertical Privity）***（承継人が前保有者の***全権益***を保有する場合に存在する）；**および (4)** 約款が土地に***接触かつ関係（Touch and Concern）***すること（受益当事者にとって土地をより有用または価値あるものにすること）。\n• 約款の**負担**を執行するためには、上記の要件をすべて満たした上で、さらに：**(1)** 元当事者間に***水平的近接関係（Horizontal Privity）***が必要（両当事者が約款とは独立して土地に何らかの権益を共有していた場合に存在する）；**および (2)** 新所有者が約款の***通知***を受けていること。通知には次の種類がある：(a) ***実際の通知***；(b) ***擬制的通知***（約款が以前の譲渡証書に記録されている場合）；または (c) ***問い合わせによる通知***（土地を検査すれば約款が明らかになる場合）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "不動産に関する誓約（Real Covenant）"
+  },
+  {
+    "id": 24,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "D. Covenants & Equitable Servitudes",
+    "ruleTitle": "Equitable Servitudes",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Equitable servitudes are covenants (burdens on real property) that equity will enforce if the burdened estate had ***notice*** of the covenants (regardless of whether the covenants run with the land at law). It differs from real covenants in that the remedy is injunctive relief (rather than damages).\n• To enforce the **benefit of an equitable servitude** there must be: **(1)** a ***writing*** that satisfies the statute of frauds; **(2) *intent*** for the servitude to be enforceable; **AND (3)** the servitude must ***touch and concern the land*** (make the land more useful or valuable to the benefitted party).\n• To enforce the **burden of an equitable servitude**, ALL OF THE ABOVE REQUIREMENTS MUST BE MET, PLUS the new owner must have ***notice of the servitude***. Notice may be: (a) ***actual***; (b) ***constructive*** (the servitude is recorded in previous conveyances); OR (c) by ***inquiry*** (an inspection of the land would reveal the servitude).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 衡平法上の地役権（Equitable Servitude）とは、負担地が約款の***通知***を受けていた場合に衡平法が執行する約款（不動産上の負担）である（約款が法的に土地に付随する（Run with the Land）か否かに関わらず）。それは、救済措置が差止命令による救済（損害賠償ではなく）である点で、土地に関する真正約款とは異なる。\n• **衡平法上の地役権（Equitable Servitude）の利益**を執行するためには、以下の要件が満たされなければならない：**(1)** 詐欺防止法（Statute of Frauds）を満たす***書面***；**(2)** 地役権が執行可能であるという***意思***；**かつ (3)** 地役権が土地に***接触し、関連する***こと（受益当事者にとって土地をより有用または価値あるものにすること）。\n• **衡平法上の地役権（Equitable Servitude）の負担**を執行するためには、上記の要件がすべて満たされることに加え、新たな所有者が***地役権の通知***を受けていること。通知は、(a) ***現実の***；(b) ***擬制の***（地役権が以前の譲渡証書に記録されている）；または (c) ***調査による***（土地の検査によって地役権が明らかになる）ものであり得る。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "衡平法上の地役権（Equitable Servitude）"
+  },
+  {
+    "id": 25,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "D. Covenants & Equitable Servitudes",
+    "ruleTitle": "Common Scheme or Plan Doctrine (Reciprocal Negative Servitude)",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the Common Scheme or Plan Doctrine, a court will imply reciprocal restrictive covenants on parcels of land in a subdivision sold by a developer ***only if***: **(1)** the developer had a ***common scheme or plan*** that all parcels of land would be subject to the restriction at the time the parcel in the subdivision was sold; **AND (2)** the defendant land owner had ***actual, inquiry, or record notice*** of the restriction. Reciprocal negative servitudes only apply to negative covenants and equitable servitudes.\n• In showing the defendant had notice, the proponent of the suit must show either: (a) there was a common scheme or plan and that it was obvious from looking at the subdivision that a general pattern of restrictions existed (***inquiry notice***); (b) the defendant had ***actual notice*** of the restriction; OR (c) the defendant land owner had constructive notice through documents publicly recorded (***record notice***).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 共通計画または計画（Common Plan or Scheme）の法理に基づき、裁判所は、開発業者によって販売された分譲地内の土地区画に対し、以下の***場合に限り***、相互制限的約款を黙示的に適用する：**(1)** 開発業者が、当該分譲地内の区画が販売された時点で、すべての土地区画が当該制限の対象となるという***共通計画または計画（Common Plan or Scheme）***を有していたこと；**かつ (2)** 被告である土地所有者が、当該制限について***現実の、調査による、または登記上の通知***を受けていたこと。相互的消極地役権（Reciprocal Negative Easement）は、消極的約款および衡平法上の地役権（Equitable Servitude）にのみ適用される。\n• 被告が通知を受けていたことを示すには、訴訟の提唱者は以下のいずれかを示さなければならない：(a) 共通計画または計画（Common Plan or Scheme）が存在し、分譲地を見ることで制限の一般的なパターンが存在することが明白であったこと（***調査による通知（Inquiry Notice）***）；(b) 被告が当該制限について***現実の通知（Actual Notice）***を受けていたこと；または (c) 被告である土地所有者が、公的に登記された文書を通じて推定通知（***登記上の通知***）を受けていたこと。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "共通計画またはスキームの原則（相互的負の地役権）"
+  },
+  {
+    "id": 26,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "D. Covenants & Equitable Servitudes",
+    "ruleTitle": "Restrictive Covenants: Common Interest Ownership Communities & Property Owner Associations",
+    "priority": "LOW",
+    "frequency": "0 of 21 Exams",
+    "body": "• Under the Restatement (Third) of Real Property, a Common Interest Community (“CIC”) is defined as a development or neighborhood in which individually owned lots/units are burdened by a servitude that imposes an obligation to: **(a) *pay for or contribute to the maintenance*** of the property held or enjoyed in common by the individual owners; **OR (b) *pay dues or assessments to an association*** that (i) provides services or facilities to the common property or to the individually owned property _or_ (ii) that enforces other servitudes burdening the property in the development or the neighborhood.\n• **Common forms of CIC’s are condominiums, cooperatives, and home owner associations**. Cooperatives are treated as real property, _even though_ the owner does not own the premises (he only holds shares of the cooperative association and the right to occupy the space).\n• Residents in a CIC are bound to governance by a community association, and are ***subject to obligations (restrictive covenants) that have been recorded in land records and run with the land***. These covenants bind ALL successive owners of the property. The power of the association to govern, collect fees or assessments for maintenance, and to enforce rules concerning the use and appearance of individual properties is established through a recorded declaration of covenants. In addition, the board of a community association can pass specific regulations authorized by the recorded declaration. These regulations may be changed as the board sees fit.\n• Generally, courts will grant injunctions or specific performance to enforce such obligations and regulations. However, courts generally are more deferential to recorded covenants than to rules enacted by the board.",
+    "meeTips": [
+      "This topic was first testable on the Feb 2017 exam."
+    ],
+    "examHistory": [],
+    "translation": "• 不動産法リステイトメント（第三版）に基づき、共有利益共同体（「CIC」）は、個別に所有される区画/ユニットが、以下の義務を課す地役権によって負担される開発地または近隣地域と定義される：**(a) 個別所有者によって共有または共同で享受される財産の***維持管理費を支払うまたは拠出する***こと；**または (b) (i) 共有財産または個別に所有される財産にサービスまたは施設を提供する、_または_ (ii) 当該開発地または近隣地域の財産を負担する他の地役権を執行する、組合に***会費または賦課金を支払う***こと。\n• **CICの一般的な形態は、コンドミニアム、協同組合、および住宅所有者組合である**。協同組合は、所有者が敷地を所有しない（協同組合の株式と空間を占有する権利のみを保有する）_にもかかわらず_、不動産として扱われる。\n• CICの居住者は、コミュニティ組合による統治に拘束され、***土地に付随する（制限的な）義務に従う***。これらの約款は、財産のすべての承継所有者を拘束する。組合が統治し、維持管理のための費用または賦課金を徴収し、個々の財産の使用および外観に関する規則を執行する権限は、登記された約款宣言書を通じて確立される。さらに、コミュニティ組合の理事会は、登記された宣言書によって許可された特定の規則を可決することができる。これらの規則は、理事会が適切と判断する通りに変更され得る。\n• 一般に、裁判所は、かかる義務および規則を執行するために差止命令または特定履行（Specific Performance）を認める。しかし、裁判所は一般に、理事会によって制定された規則よりも登記された約款に対してより敬意を払う。",
+    "meeTipTranslation": [
+      "このトピックは2017年2月の試験で初めて出題された。"
+    ],
+    "ruleTitleJa": "制限的約定：共有持分所有権"
+  },
+  {
+    "id": 27,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "E. Easements & Licenses",
+    "ruleTitle": "Easements by Grant, Prescription, Implication, & Necessity",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams o",
+    "body": "• An easement is a ***non-possessory interest*** in the ***use of someone else’s land***, and is an encumbrance on the land. Easements are either in gross or appurtenant.\n  ○ An easement in gross benefits ***a specific owner’s*** enjoyment and use of the land and ***DOES NOT attach to the land*** (unless the easement is for commercial activity). It DOES NOT pass to subsequent landowners.\n  ○ An easement appurtenant benefits ***any owner’s*** enjoyment and use of the land and ***DOES attach to the land***. It DOES pass to subsequent landowners so long as the new owner has notice. Notice may be: (a) ***actual***; (b) ***constructive*** (the easement is recorded in previous conveyances); OR (c) by ***inquiry*** (a reasonable person would have inquired about the existence of any easements or interests in land based on the facts or circumstances of the property).\n• **Any easement may be created by**: **(1)** an ***express grant***; **(2) *prescription***; **(3) *implication***; **OR (4) *necessity***.\n  ○ An **Easement by Grant** is an express agreement by the grantor allowing the easement, and must: **(1)** be in a ***writing signed by the grantor*** that satisfies the statute of frauds (if the duration is more than one year); **(2) *identify the land and parties*** involved; **AND (3) *indicate the grantor’s intent*** to convey the easement.\n  ○ An **Easement by Prescription** is created when the possessor’s use of the land is: **(1) *open and notorious***; **(2) *continuous***; **(3) *hostile*** (without permission from the owner of the land); **AND (4) *for the statutory period***.\n  ○ An **Easement by Implication** (also known as a implied easement) is established when: **(1)** a single tract of ***land is divided by a common owner***; **(2)** a ***pre-existing use*** by the grantor that benefits the land is established prior to the division of the land; **(3)** the use is ***continuous*** (intermittent use is sufficient, but mere temporary or casual use is _not_ sufficient) ***and apparent*** (clearly visible) indicating that the use was meant to be permanent; **AND (4)** such use is ***reasonably necessary*** for the owner’s use and enjoyment of the land conveyed (the benefitted property) – this element is met when the owner of the dominant estate would be forced to spend substantial money or labor to provide a substitute for the easement.\n  ○ An **Easement by Necessity** is created if: **(1)** the original piece of land owned by one owner is subdivided; **AND (2)** the access the easement provides is essential to the use of the property because there is no other ingress or egress available (i.e. no viable road to access property).",
+    "meeTips": [
+      "On the exam, apply the type of easement based on the fact pattern in the essay question."
+    ],
+    "examHistory": [
+      "July 2024, Essay 1",
+      "Feb 2021, Essay 5",
+      "Feb 2018, Essay 4",
+      "Feb 2012, Essay 8"
+    ],
+    "translation": "• 地役権とは、***他人の土地の使用***における***非占有的な利益（Non-Possessory Interest）***であり、土地上の負担である。地役権は、人的または付従的のいずれかである。\n  ○ 人役権（Easement in Gross）は、***特定の所有者***の土地の享受および使用に利益をもたらし、***土地に付随しない***（地役権が商業活動のためのものである場合を除く）。これは承継土地所有者には承継されない。\n  ○ 付従的地役権（Easement Appurtenant）は、***いかなる所有者***の土地の享受および使用に利益をもたらし、***土地に付随する（Run with the Land）***。これは、新たな所有者が通知を受けている限り、承継土地所有者に承継される。通知は、(a) ***現実の***；(b) ***推定の***（地役権が以前の譲渡で登記されている場合）；または (c) ***調査による***（合理的な人物であれば、当該財産の事実または状況に基づいて、土地における地役権または利益の存在について調査したであろう）ものであり得る。\n• **いかなる地役権も以下の方法で設定され得る**：**(1)** ***明示の許諾（Express Grant）***；**(2) ***時効取得***；**(3) ***黙示***；**または (4) ***必要性***。\n  ○ **許諾による地役権**は、許諾者が地役権を許諾する旨の明示の合意であり、以下の要件を満たさなければならない：**(1)** 詐欺防止法（Statute of Frauds）を満たす（期間が1年を超える場合）***許諾者によって署名された書面***であること；**(2) 関連する***土地および当事者を特定する***こと；**かつ (3) 地役権を譲渡する***許諾者の意図を示す***こと。\n  ○ **時効取得による地役権**は、占有者の土地の使用が以下の要件を満たす場合に設定される：**(1) ***公然かつ明白（Open and Notorious）な***；**(2) ***継続的（Continuous）な***；**(3) ***敵対的な***（土地所有者の許可なく）；**かつ (4) ***法定期間（Statutory Period）にわたる***。\n  ○ **黙示による地役権**（黙示地役権とも呼ばれる）は、以下の要件を満たす場合に確立される：**(1)** ***共通の所有者によって単一の土地が分割される***こと；**(2)** 土地の分割前に、土地に利益をもたらす許諾者による***既存の使用***が確立されていること；**(3)** 当該使用が***継続的（Continuous）な***（断続的な使用で十分であるが、単なる一時的または偶発的な使用は_不十分_である）***かつ明白な***（明確に視認できる）ものであり、当該使用が恒久的であることを意図していたことを示すこと；**かつ (4)** 当該使用が、譲渡された土地（受益財産）の所有者の使用および享受にとって***合理的に必要である***こと – この要件は、優益地の所有者が地役権の代替を提供するために多額の金銭または労力を費やすことを余儀なくされる場合に満たされる。\n  ○ **必要性による地役権**は、以下の要件を満たす場合に設定される：**(1)** 一人の所有者が所有する元の土地が分割されること；**かつ (2)** 他の進入路または退出路が利用できない（すなわち、財産にアクセスするための実行可能な道路がない）ため、地役権が提供するアクセスが財産の使用に不可欠であること。\n",
+    "meeTipTranslation": "試験では、論文問題の事実関係に基づいて、地役権の種類を適用すること。",
+    "ruleTitleJa": "付与、時効取得、黙示、および必要による地役権（Easement by Necessity）"
+  },
+  {
+    "id": 28,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "E. Easements & Licenses",
+    "ruleTitle": "Scope of an Easement",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• The scope of an easement depends ***on how the easement was created***. An express easement by grant is limited to what was agreed to by the parties. An easement implied by prior use is limited in scope to the prior use. A prescriptive easement is limited in scope to the actual usage during the period required to create the easement. An easement by necessity is limited to remedying the necessity at issue.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 地役権の範囲は、***地役権がどのように設定されたか***に依存する。明示の許諾（Express Grant）による地役権は、当事者間で合意された内容に限定される。先行使用による黙示の地役権（Implied Easement）は、先行使用の範囲に限定される。時効取得による地役権は、地役権設定に必要な期間における実際の使用に範囲が限定される。必要による地役権（Easement by Necessity）は、当該必要性を解消する範囲に限定される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "地役権の範囲"
+  },
+  {
+    "id": 29,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "E. Easements & Licenses",
+    "ruleTitle": "Termination of an Easement",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Typically, an easement is perpetual. However, an easement may be terminated by: **(1) *estoppel*** (when the servient estate owner reasonably relies on, or materially changes his position, due to the easement holder’s assurance that the easement will no longer be enforced); **(2) *termination of the necessity*** that created the easement; **(3) *involuntary destruction*** of the servient estate; **(4) *condemnation*** of the servient estate; **(5) *written release***; **(6) *abandonment*** (easement holder demonstrates, through physical actions, an intent to never use the easement again); **(7) *merger*** (holder of the easement obtains title to the servient estate); **OR (8) *prescription***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2012, Essay 8",
+      "July 2011, Essay 4"
+    ],
+    "translation": "• 通常、地役権は永続的である。しかし、地役権は以下の事由により消滅し得る。(1) *禁反言*（地役権者が地役権がもはや行使されない旨を保証したことに承役地（Servient Tenement）所有者が合理的に依拠し、またはそのために自己の立場を実質的に変更した場合）、(2) 地役権を設定した*必要性の消滅*、(3) 承役地（Servient Tenement）の*非自発的滅失*、(4) 承役地（Servient Tenement）の*収用*、(5) *書面による放棄*、(6) *放棄*（地役権者が物理的行為を通じて、地役権を二度と使用しない意思を表明した場合）、(7) *混同*（地役権者が承役地（Servient Tenement）の所有権を取得した場合）、または(8) *時効*。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "地役権の終了"
+  },
+  {
+    "id": 30,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "E. Easements & Licenses",
+    "ruleTitle": "Licenses",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A license is NOT an interest in land, but merely a ***privilege to use another’s land in a particular way***. The licensee must act _within the scope_ of the license.\n• A license DOES NOT need to be in writing.\n• A license ***may be revoked at any time*** by the licensor. However, a licensor may be **estopped from revoking a license** if the licensee has invested a substantial amount of money and/or labor _in reasonable reliance_ on the continuation of the license.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 使用許可は土地に対する権利ではなく、単に***他人の土地を特定の態様で使用する特権***である。被許可者は使用許可の_範囲内_で行動しなければならない。\n• 使用許可は書面である必要はない。\n• 使用許可は許可者により***いつでも取り消され得る***。しかし、被許可者が使用許可の継続を_合理的に信頼_して多額の金銭および/または労力を投じた場合、許可者は**使用許可の取り消しを禁反言により妨げられる**ことがある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "ライセンス"
+  },
+  {
+    "id": 31,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "F. Fixtures",
+    "ruleTitle": "Fixtures",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under the Common Law, a fixture is **(1) *personal property***, **(2)** that is ***attached to land or a building***, and **(3) *regarded as an irremovable part of the real property***. A fixture is treated as real property, and passes with the ownership of the land (unless otherwise agreed).\n• Whether an item is a fixture is determined by the ***objective intent*** of the party who attached the item. An item is typically deemed a fixture, if a reasonable person would conclude that the item was _intended_ by the installer to be a permanent attachment to the real property.\n• To determine whether the item is a fixture, courts consider: **(1)** the ***nature*** of the item; **(2)** the ***manner*** in which it is attached; **(3)** the ***damage*** that would result if the item were removed; **and (4)** the extent to which the item is ***adapted*** to the property (i.e. an installed custom window). The more the item is incorporated into the premises, the more likely the court will find the item to be a fixture.\n• Under the **trade fixture exception**, an item that is attached to the property for use in the tenant’s trade or business is NOT a fixture UNLESS its removal would cause ***substantial damage*** to the property. An item that is _not_ a fixture may become one if it’s _not removed before_ the end of the lease term.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2020, Essay 6",
+      "July 2016, Essay 4"
+    ],
+    "translation": "• コモン・ローの下では、定着物（Fixture）とは、**(1) *動産***であり、**(2) ***土地または建物に付着しており***、かつ**(3) ***不動産から分離できない一部とみなされる***ものである。定着物（Fixture）は不動産として扱われ、土地の所有権とともに移転する（別段の合意がない限り）。\n• ある物品が定着物（Fixture）であるか否かは、その物品を付着させた当事者の***客観的意図（Objective Intent）***によって決定される。合理的な人物が、その物品が設置者によって不動産への恒久的な付着物として_意図_されたと結論付ける場合、その物品は通常、定着物（Fixture）とみなされる。\n• 物品が定着物（Fixture）であるか否かを判断するために、裁判所は以下の点を考慮する。**(1)** 物品の***性質***、**(2)** 付着の***方法***、**(3)** 物品が除去された場合に生じる***損害***、**および(4)** 物品が不動産に***適合***している程度（例：設置された特注窓）。物品が敷地に組み込まれている程度が高いほど、裁判所はその物品を定着物（Fixture）と認定する可能性が高くなる。\n• **営業用定着物（トレード・フィクスチャー）の例外**の下では、賃借人の営業または事業のために不動産に付着された物品は、その除去が不動産に***実質的な損害***を引き起こさない限り、定着物（Fixture）では_ない_。定着物（Fixture）で_ない_物品は、賃貸借期間終了_前_に除去されない場合、定着物（Fixture）となることがある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "定着物（Fixture）"
+  },
+  {
+    "id": 32,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "G. Adverse Possession",
+    "ruleTitle": "Adverse Possession",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Adverse Possession Elements: Adverse possession allows someone in possession of land owned by another to **acquire title** to that land when the possession of the property is: **(1) *continuous*** for the statutory period (usually 10 years); **(2) *open and notorious*** (to put an owner on notice of the adverse possession upon inspection of the land); **(3) *exclusive***; **(4) *actual*** (possess the property as the true owner would); **AND (5) *hostile and under a claim of right*** (without the true owner’s consent).\n  ○ Some states also require the possessor to have a ***good faith belief*** that he owned the land.\n  ○ Most states DO NOT require the possessor to pay the property taxes for the land.\n• Acquiring Title by Adverse Possession: The true landowner MUST sue the occupier _before_ the statutory period runs. Otherwise, an occupier (who satisfies all adverse possession elements) acquires superior title against all persons (including the true owner who failed to timely sue). An occupier of land ceasing possession after acquiring title by adverse possession is IRRELEVANT, as they are deemed to be the true owner of the land once all of the adverse possession elements are satisfied.\n• Aggregation/Tacking: Adverse possessors _in privity_ may ***aggregate*** their years spent possessing the property to meet the statutory period. Aggregation of the statutory period also applies to a landowner’s time to sue (the statutory period), meaning that the time to bring an action against an occupier of land may be aggregated among landowners in privity. Privity exists when the land is ***voluntarily transferred*** to another (i.e. by deed or bequest).\n• Title Acquired: An adverse possessor can only acquire title to the portion of land that he has met all the adverse possession elements (_unless_ constructive adverse possession applies). An adverse possessor **acquires the same title the original owner possessed**, and is therefore subject to any applicable easements (_unless_ the easement was terminated through prescription or other valid means).\n• Constructive Adverse Possession: Under the Doctrine of Constructive Adverse Possession, if a person takes possession of only a portion of the land covered under color of title (an invalid deed or will to the land), that ***possession extends to the entire portion of land*** described in the deed/ title for adverse possession purposes. Constructive adverse possession applies if: **(1)** the possessor enters the land under ***color of title*** (e.g. invalid deed or bequest); **(2)** the area of the additional land portion is ***reasonable in size***; **(3)** the additional land portion is ***adjacent*** to the portion of the land actually possessed; **AND (4)** the portion possessed and the portion not possessed are ***owned by the same person***. Thus, if the portion of land possessed and portion not possessed are owned by _different_ persons, then constructive adverse possession DOES NOT apply to the portion of land owned by the different owner.\n• Tolling: The time for a landowner to sue an occupier (the statutory period) MAY be tolled (paused) for various reasons, which are typically set forth by statute. Such reasons may include the landowner being a minor, disabled, mentally incompetent, or imprisoned. However, tolling ONLY APPLIES if the landowner with an applicable tolling reason had a cause of action against the occupier ***when the occupier first entered the property*** (when the cause of action accrued). For example, if a minor (with an appliable tolling statute) acquires land by a bequest _after_ the occupier has already entered the land, then statutory period is NOT tolled because the cause of previously accrued (came into existence).",
+    "meeTips": [
+      "Adverse Possession was mentioned on the July 2024 MEE (Essay 1), but was *not* a tested rule."
+    ],
+    "examHistory": [
+      "Feb 2023, Essay 5",
+      "Feb 2015, Essay 4",
+      "July 2007, Essay 6"
+    ],
+    "translation": "• 取得時効の要件：取得時効は、他人が所有する土地を占有する者が、その財産の占有が、**(1) 法定期間（通常10年）にわたり***継続的（Continuous）***であり、**(2) （土地の検査時に所有者に取得時効の通知を与えるために）***公然かつ明白（Open and Notorious）***であり、**(3) ***排他的***であり、**(4) ***現実的***であり（真の所有者であるかのように財産を占有する）、**かつ(5) （真の所有者の同意なしに）***敵対的かつ権利主張の下（Hostile and Under Claim of Right）***にある場合に、その土地の**権原を取得**することを可能にする。\n  ○ 一部の州では、占有者がその土地を所有していると***善意で信じていた***ことも要求される。\n  ○ ほとんどの州では、占有者がその土地の固定資産税を支払うことは要求されない。\n• 取得時効による権原の取得：真の土地所有者は、法定期間（Statutory Period）が満了する_前_に占有者を訴えなければならない。そうしない場合、全ての取得時効の要件を満たす占有者は、全ての者（適時に訴えを提起しなかった真の所有者を含む）に対して優越する権原を取得する。取得時効によって権原を取得した後に土地の占有を停止することは、全ての取得時効の要件が満たされた時点で、その者が土地の真の所有者とみなされるため、**無関係**である。\n• 期間の合算／連結：承継関係にある取得時効占有者は、法定期間（Statutory Period）を満たすために、財産を占有した年数を***合算***することができる。法定期間（Statutory Period）の合算は、土地所有者が訴えを提起する期間（法定期間（Statutory Period））にも適用され、これは、土地の占有者に対する訴えを提起する期間が、承継関係にある土地所有者の間で合算され得ることを意味する。承継関係は、土地が（例：証書または遺贈によって）他者に***任意に譲渡される***場合に存在する。\n• 取得される権原：取得時効占有者は、取得時効の全ての要件を満たした土地の部分についてのみ権原を取得することができる（_構成上の取得時効が適用される場合を除く_）。取得時効占有者は、**元の所有者が有していたのと同一の権原を取得する**ため、適用される地役権に従う（_地役権が時効またはその他の有効な手段によって消滅した場合を除く_）。\n• 構成上の取得時効：構成上の取得時効の法理の下では、ある人物が権原の外観（土地に対する無効な証書または遺言）の下でカバーされる土地の一部のみを占有した場合、その***占有は、取得時効の目的のために証書／権原に記載された土地の全体部分に及ぶ***。構成上の取得時効は、以下の条件が満たされる場合に適用される。**(1)** 占有者が***権原の外観***（例：無効な証書または遺贈）の下で土地に立ち入る、**(2)** 追加の土地部分の面積が***合理的な大きさ***である、**(3)** 追加の土地部分が実際に占有された土地部分に***隣接***している、**および(4)** 占有された部分と占有されていない部分が***同一人物によって所有されている***。したがって、占有された土地部分と占有されていない土地部分が_異なる_人物によって所有されている場合、構成上の取得時効は、異なる所有者によって所有されている土地部分には適用されない。\n• 期間の停止：土地所有者が占有者を訴える期間（法定期間（Statutory Period））は、様々な理由で停止（一時停止）されることがあり、これらの理由は通常、制定法によって定められている。そのような理由には、土地所有者が未成年者、障害者、精神無能力者、または投獄されている場合が含まれる。しかし、期間の停止は、適用される停止理由を持つ土地所有者が、占有者が***最初に不動産に立ち入った時***（訴訟原因が発生した時）に、占有者に対して訴訟原因を有していた場合に**のみ適用される**。例えば、占有者がすでに土地に立ち入った_後_に、未成年者（適用される停止法規を持つ）が遺贈によって土地を取得した場合、訴訟原因が以前に発生していた（存在していた）ため、法定期間（Statutory Period）は停止されない。",
+    "meeTipTranslation": [
+      "占有取得は2024年7月MEE（エッセイ1）で言及されたが、テストされたルールでは*なかった*。"
+    ],
+    "ruleTitleJa": "時効取得"
+  },
+  {
+    "id": 33,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "H. Land Conveyances",
+    "ruleTitle": "Requirements for a Valid Land Sale Contract",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A valid contract for the sale of land must satisfy the statute of frauds. The contract must: **(1)** be in a ***writing***; **(2) *describe the property***; **(3) *identify the parties*** involved; **(4)** contain the ***purchase price***; **AND (5)** be ***signed by the grantor/ grantee*** (depending on whom the contract is being enforced against).\n• Once a deed to the property is delivered and accepted, the land sale contract ***merges with the deed*** and any rights to sue under the contract are extinguished (although the buyer may sue upon the deed).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 土地売買の有効な契約は、詐欺防止法（Statute of Frauds）を満たさなければならない。契約は、**(1) ***書面***であること、**(2) ***財産を記述***すること、**(3) 関係する***当事者を特定***すること、**(4) ***購入価格***を含むこと、**および(5) （契約が誰に対して執行されるかによるが）***譲渡人／譲受人によって署名***されていること、を要する。\n• 財産に対する証書が交付され受領されると、土地売買契約は***証書と合体***し、契約に基づく訴訟権は消滅する（ただし、買主は証書に基づいて訴えることができる）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "有効な土地売買契約の要件"
+  },
+  {
+    "id": 34,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "H. Land Conveyances",
+    "ruleTitle": "Warranty of Marketable Title",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A seller has a duty to convey marketable title to a buyer. ***Marketable title is title that is free from any cloud or subject to any adverse claim***. **Title is unmarketable when it contains a *substantial defect***, such as: (1) defects in the record chain of title; and/or (2) encumbrances, such as mortgages, liens, restrictive covenants, easements, a claim of adverse possession, and zoning violations. Although zoning _violations_ make title unmarketable, zoning _restrictions_ do not.\n• If the seller CANNOT convey marketable title at the closing, the buyer may withdraw from the contract without penalty. The requirement to deliver marketable title is a condition that benefits the purchaser (not the seller), and the purchaser may choose to waive the requirement. A seller CANNOT cancel a real estate contract for failure to deliver marketable title if the buyer chooses to waive the requirement.\n• Merger Doctrine: While a seller must convey marketable title at closing, once a deed to the property is delivered and accepted, the land sale contract ***merges with the deed*** and any rights to sue under the contract are extinguished. Thus, after closing the buyer may only sue upon the deed. However, some courts will not apply the merger doctrine if it doesn’t carry out the _probable intent_ of the parties (i.e. mutual mistake, scrivener’s error).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 4"
+    ],
+    "translation": "• 売主は買主に対し、市場性のある権原（Marketable Title）を譲渡する義務を負う。***市場性のある権原（Marketable Title）とは、いかなる瑕疵からも解放され、いかなる対抗請求にも服さない権原である***。**権原は、(1) 登記上の権原連鎖における瑕疵、および/または (2) 抵当権、先取特権、制限的約款、地役権、時効取得の主張、ゾーニング違反などの負担といった、*実質的な瑕疵*を含む場合に市場性がない**。ゾーニング_違反_は権原を市場性がないものとするが、ゾーニング_制限_はそうではない。\n• 売主が決済時に市場性のある権原（Marketable Title）を譲渡できない場合、買主は違約金なしに契約を解除することができる。市場性のある権原（Marketable Title）を引き渡す要件は、買主（売主ではない）に利益をもたらす条件であり、買主はその要件を放棄することを選択できる。買主が要件を放棄することを選択した場合、売主は市場性のある権原（Marketable Title）を引き渡さなかったことを理由に不動産契約を解除することはできない。\n• 併合の法理：売主は決済時に市場性のある権原（Marketable Title）を譲渡しなければならないが、一旦不動産の証書が交付され受領されると、土地売買契約は***証書に併合され***、契約に基づく訴訟権は消滅する。したがって、決済後、買主は証書に基づいてのみ訴訟を提起することができる。しかし、一部の裁判所は、当事者の_蓋然的な意思_（すなわち、錯誤、書記の誤り）を実現しない場合には、併合の法理を適用しない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "市場性のある権原（Marketable Title）の保証"
+  },
+  {
+    "id": 35,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "H. Land Conveyances",
+    "ruleTitle": "Warranty of Marketable Title: Damages Recoverable",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Ordinarily, damages for a breach of Covenant Against Encumbrances or a breach of a Warranty of Title are **measured by the *reduced value of land*** (subtract the value of the property after the defect is discovered from its value before the defect existed).\n• Courts are divided on whether damages may be recovered when the encumbrance is known or obvious to the plaintiff (when notice exists). **Notice** may be actual, constructive, or on inquiry. A person has actual notice of information ***directly received*** (i.e. observed, expressly told, language in the contract of sale or deed). A person is on constructive notice of any information that could have been obtained from an ***inspection of public land records*** (i.e. search of the grantor-grantee index). A person is on inquiry notice of information that would be ***revealed upon a reasonable inspection of the land***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 4"
+    ],
+    "translation": "• 通常、負担不存在の約款の違反または権原保証の違反に対する損害賠償は、***土地の減価額***（瑕疵が発見された後の不動産の価値を、瑕疵が存在する前の価値から差し引いたもの）によって**測定される**。\n• 裁判所は、負担が原告に既知または明白である場合（通知が存在する場合）に損害賠償が回復され得るか否かについて意見が分かれている。**通知**は、現実の通知（Actual Notice）、推定通知、または調査通知であり得る。人は、***直接受領された***情報（すなわち、観察されたもの、明示的に伝えられたもの、売買契約書または証書中の文言）について現実の通知（Actual Notice）を有する。人は、***公の土地登記記録の調査***（すなわち、譲渡人・譲受人索引の検索）から得られた可能性のあるいかなる情報についても推定通知を受ける。人は、***土地の合理的な調査によって明らかになる***情報について調査通知を受ける。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "市場性のある権原（Marketable Title）の保証：回復可能な損害"
+  },
+  {
+    "id": 36,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "H. Land Conveyances",
+    "ruleTitle": "Doctrine of Equitable Conversion & Risk of Loss",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Once a contract for the sale of land is signed, the **doctrine of *equitable conversion* splits ownership between the buyer and the seller**. **The buyer has equitable title, while the seller has legal title** and holds the property in trust for the buyer. The buyer’s equitable ownership is considered _real property_, while the seller’s legal title is considered _personal property_.\n• In the majority of jurisdictions, the risk of loss transfers to the buyer upon the signing of the contract. In a minority of jurisdictions, the seller bears the risk of loss UNLESS the buyer has possession or title to the property at the time of loss.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2009, Essay 4"
+    ],
+    "translation": "• 土地売買契約が署名されると、**衡平法上の転換の原則（Doctrine of Equitable Conversion）により、買主と売主の間で所有権が分割される**。**買主は衡平法上の権原（Equitable Title）を有し、売主は法的権原（Legal Title）を有する**とともに、買主のために信託として不動産を保有する。買主の衡平法上の所有権は_不動産_とみなされ、売主の法的権原（Legal Title）は_動産_とみなされる。\n• ほとんどの法域では、契約書への署名時に滅失危険（Risk of Loss）が買主に移転する。少数の法域では、買主が滅失時に不動産の占有または権原を有していない限り、売主が滅失危険（Risk of Loss）を負担する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "衡平法上の転換の原則（Doctrine of Equitable Conversion）と損失のリスク"
+  },
+  {
+    "id": 37,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "H. Land Conveyances",
+    "ruleTitle": "Time of Performance for Real Estate Contracts",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Even though a land sale contract may specify a closing date, the time for performance may be changed if requested by one of the parties **UNLESS** the real estate contract contains a clause that ***“time is of the essence”***. If the contract contains a time is of the essence clause, the buyer must perform on the closing date (_unless_ agreed otherwise). If the buyer fails to perform, it will be deemed a material breach, and the seller may keep the buyer’s down payment as liquidated damages.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 土地売買契約が決済日を特定していても、当事者の一方から要求があった場合、履行期日は変更され得る。**ただし**、不動産契約に***「時間は本質的要素である」***という条項が含まれている場合はこの限りではない。契約に時間が本質的要素である条項が含まれている場合、買主は決済日に履行しなければならない（_別途合意がある場合を除く_）。買主が履行を怠った場合、それは重大な契約違反とみなされ、売主は買主の手付金を違約金として保持することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "不動産契約の履行時期"
+  },
+  {
+    "id": 38,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "H. Land Conveyances",
+    "ruleTitle": "Action for Specific Performance of Real Property",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Specific performance is an equitable remedy that is appropriate when monetary damages will _not_ fully remedy a party’s complaint. **Real property is always considered unique, and specific performance is an appropriate remedy** UNLESS the property has since been sold to a bona fide purchaser without notice.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 特定履行（Specific Performance）は、金銭的損害賠償では当事者の訴えを_完全に_救済できない場合に適切な衡平法上の救済である。**不動産は常に独自のものとみなされ、特定履行（Specific Performance）が適切な救済手段となる**。ただし、その不動産がその後、善意の無過失の買主に売却された場合はこの限りではない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "不動産の特定履行（Specific Performance）訴訟"
+  },
+  {
+    "id": 39,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "H. Land Conveyances",
+    "ruleTitle": "Home Builder’s Implied Warranty",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under the Common Law doctrine of caveat emptor, a homebuilder makes ***no warranties*** as to the quality of construction and a homebuyer takes the home “as is”.\n• However, Most States now recognize an Implied Warranty that accompanies the sale of a newly constructed home by a builder or developer. The Home Builder’s Implied Warranty **protects a purchaser of a newly constructed home against defects**, and warrants that the home is ***designed and constructed in a workmanlike manner*** AND is ***safe and fit for human habitation*** at the time of sale. Most Courts apply the warranty ONLY TO **latent defects**. A latent defect is one that could not have been discovered by reasonable inspection. Breach of the warranty allows a buyer to recover damages for defects discovered within a reasonable amount of time due to: (a) defective construction; or (b) construction not performed in a workmanlike manner (the accepted norms of the industry).\n• Whether the Home Builder’s Implied Warranty applies to **successive homeowners** is an unsettled issue. Some courts require ***privity of contract*** between the purchaser and the builder, and will NOT extend the warranty to remote grantees and subsequent purchasers. However, other courts ***will apply*** the warranty to subsequent owners of the property because they are in the same vulnerable position as the initial purchaser, and in such instances the homebuilder will be liable for a “reasonable” period.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 1",
+      "Feb 2018, Essay 4",
+      "July 2013, Essay 8"
+    ],
+    "translation": "• コモン・ローの買主危険負担の原則（caveat emptor）の下では、住宅建設業者は建設の品質に関して***いかなる保証も行わず***、住宅購入者は住宅を「現状有姿」で引き受ける。\n• しかし、現在、ほとんどの州では、建設業者または開発業者による新築住宅の販売に付随する黙示の保証を認めている。住宅建設業者の黙示の保証は**瑕疵に対するもの**であり、住宅が販売時に***職人技をもって（in a Workmanlike Manner）設計・建設されていること***、かつ***安全で居住に適していること***を保証する。ほとんどの裁判所は、この保証を**潜在的瑕疵（Latent Defect）**に_のみ_適用する。潜在的瑕疵（Latent Defect）とは、合理的な検査によっては発見できなかった瑕疵である。保証の違反は、買主が合理的な期間内に発見された瑕疵について損害賠償を回復することを可能にする。その瑕疵は、(a) 欠陥のある建設、または (b) 職人技をもって（in a Workmanlike Manner）行われなかった建設（業界の許容される規範）に起因するものである。\n• 住宅建設業者の黙示の保証が**後続の住宅所有者**に適用されるか否かは、未解決の問題である。一部の裁判所は、購入者と建設業者との間の***契約関係（Privity of Contract）***を要求し、遠隔の受贈者や後続の購入者には保証を_拡大しない_。しかし、他の裁判所は、後続の不動産所有者が最初の購入者と同じ脆弱な立場にあるため、その保証を後続の所有者に***適用する***。そのような場合、住宅建設業者は「合理的な」期間にわたり責任を負うことになる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "住宅建設業者の黙示の保証"
+  },
+  {
+    "id": 40,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "Deed Requirements",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A valid deed must: **(1)** be in a ***writing***; **(2)** be ***signed by the grantor***; **(3) *identify the grantor and grantee***; **(4) *describe the property***; **AND (5) *indicate the grantor’s present intent to convey*** the land.\n• Intent to Convey: Any words indicating the grantor’s intent to _immediately_ convey the property are sufficient (i.e. grant, convey, give, transfer).\n• When a deed is unconditional on its face and given to a grantee, additional oral conditions are NOT valid. However, if the same deed is instead given to a third-party (i.e. to be held in escrow), any additional conditions would create a _conditional delivery_.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2007, Essay 6"
+    ],
+    "translation": "• 有効な証書は、**(1)** ***書面***であること、**(2)** ***譲渡人によって署名されている***こと、**(3) *譲渡人および譲受人を特定している***こと、**(4) *不動産を記述している***こと、**および (5) *譲渡人が土地を譲渡する現在の意思を示している***こと、を要する。\n• 譲渡意思：譲渡人が不動産を_直ちに_譲渡する意思を示すいかなる言葉も十分である（例：付与する、譲渡する、与える、移転する）。\n• 証書がその表面上無条件であり、譲受人に交付された場合、追加の口頭条件は無効である。しかし、同じ証書が代わりに第三者（すなわち、エスクローで保管されるため）に交付された場合、追加の条件は_条件付き交付_を生じさせる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "証書の要件"
+  },
+  {
+    "id": 41,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "General Warranty Deed, Special Warranty Deed, & Quitclaim Deed",
+    "priority": "HIGH",
+    "frequency": "5 of 40 Exams",
+    "body": "• Upon the transfer of land, the seller may execute and deliver to the buyer one of the following three types of deeds: (1) general warranty deed; (2) a special warranty deed; or (3) a quitclaim deed. The buyer’s rights under the deed depend on the type.\n• A **general warranty deed** contains ***six covenants of title***; three present and three future.\n  ○ The **present covenants** are the covenants of: **(1) *seisin*** (the grantor is the rightful owner); **(2) *right to convey*** (the grantor has the right to make the grant); **AND (3) *against encumbrances*** (there are no encumbrances against the title). These present covenants can only be breached ***at the time of conveyance***.\n    Under the common law & majority view, **present covenants** contained in a general warranty deed (seisen, right to convey, and against encumbrances) were **NOT *enforceable by remote grantees***. However, some states will enforce such covenants against encumbrances if the remote grantee ***did not have notice of the encumbrance***.\n  ○ The **future covenants** are the covenants of: **(1) *warranty*** (grantor will defend grantee against any third party claims to title); **(2) *quiet enjoyment*** (grantee will not be bothered by a third party’s lawful claim to title); **AND (3) *further assurances*** (the grantor will do whatever is reasonable to perfect title if problems arise). These future covenants can be breached ***at any time*** upon the interference with the grantee’s possession of the property. The future covenants run with the land, and **protect successor grantees** (which are also called future or remote grantees).\n• **Exceptions to Warranties in a General Warranty Deed**:\n  ○ Exception # 1 – Land Records: A warranty deed MAY ***explicitly*** exclude items filed in county land records where the land is located, such as titles, easements, covenants, or other restrictions. These land records include county land records (maintained by the county recorder), court judgments, and probate records. In such instance, a grantee has no claim against the warrantor for such items.\n  ○ Exception # 2 – Known/Obvious Easements: Whether an easement that’s “known” or “plain and obvious” will be ***impliedly*** excluded from the warranties in a general warranty deed is an unsettled issue. Some courts hold that an easement will be impliedly excluded from the warranties in a deed if the easement is either: (a) well-known to the grantee; OR (b) plain and obvious. However, some courts DO NOT allow this implied exclusion (even when a buyer sees visible use/encumbrance of the land) because the buyer knows likely knows little or nothing about the legal status of the land use.\n• A **special warranty deed** only warrants that the seller has not breached the covenants of title during his period of ownership: (1) seller has not previously conveyed the property; and (2) there are no encumbrances against the title made by the seller.\n• A **quitclaim deed** DOES NOT contain any covenants or promises to the buyer. It is an “as is” deed, leaving the buyer with NO rights to sue the seller/grantor for any encumbrances or defects in title.",
+    "meeTips": [
+      "On the exam, apply the rule for the specific type of deed(s) noted in the fact pattern of the essay question."
+    ],
+    "examHistory": [
+      "July 2024, Essay 1",
+      "Feb 2018, Essay 4",
+      "Feb 2015, Essay 4",
+      "July 2013, Essay 8",
+      "Feb 2010, Essay 2"
+    ],
+    "translation": "• 土地の移転に際し、売主は買主に対し、以下の3種類の証書のいずれかを執行し、交付することができる。(1) 一般保証証書（General Warranty Deed）、(2) 特別保証証書（Special Warranty Deed）、または (3) 権原無保証証書（Quitclaim Deed）。証書に基づく買主の権利はその種類に依存する。\n• **一般保証証書（General Warranty Deed）**には、***6つの権原保証条項***が含まれる。3つは現在保証条項（Present Covenants）、3つは将来保証条項（Future Covenants）である。\n  ○ **現在保証条項（Present Covenants）**は、以下の保証条項である。**(1) *占有権***（譲渡人が正当な所有者であること）、**(2) *譲渡権***（譲渡人が譲渡を行う権利を有すること）、**および (3) *負担不存在***（権原に対する負担が存在しないこと）。これらの現在保証条項（Present Covenants）は、***譲渡時***にのみ違反され得る。\n    コモンローおよび多数説の下では、一般保証証書（General Warranty Deed）に含まれる**現在保証条項（Present Covenants）**（占有権、譲渡権、および負担不存在）は、**遠隔譲受人によって***強制執行可能ではなかった***。しかし、一部の州では、遠隔譲受人が***負担の通知を受けていなかった***場合、負担不存在に関するそのような保証条項を強制執行する。\n  ○ **将来保証条項（Future Covenants）**は、以下の保証条項である。**(1) *保証***（譲渡人は、権原に対する第三者のいかなる請求からも譲受人を防御すること）、**(2) *平穏占有***（譲受人は、権原に対する第三者の正当な請求によって妨げられないこと）、**および (3) *追加保証***（問題が発生した場合、譲渡人は権原を完全にするために合理的なあらゆることを行うこと）。これらの将来保証条項（Future Covenants）は、不動産に対する譲受人の占有が妨げられた場合、***いつでも***違反され得る。将来保証条項（Future Covenants）は土地に付随し、**後続の譲受人**（将来譲受人または遠隔譲受人とも呼ばれる）を保護する。\n• **一般保証証書（General Warranty Deed）における保証の例外**:\n  ○ 例外1 – 土地記録：保証証書は、土地が所在する郡の土地記録に記録された項目（権原、地役権、約款、その他の制限など）を***明示的に***除外することができる。これらの土地記録には、郡の土地記録（郡記録官によって維持される）、裁判所の判決、および検認記録が含まれる。そのような場合、譲受人は当該項目について保証人に対して請求権を有しない。\n  ○ 例外2 – 既知/明白な地役権：「既知」または「明白かつ明らか」な地役権が一般保証証書（General Warranty Deed）の保証から***黙示的に***除外されるかどうかは未解決の問題である。一部の裁判所は、地役権が (a) 譲受人に周知であるか、または (b) 明白かつ明らかである場合、証書の保証から黙示的に除外されると判断する。しかし、一部の裁判所は、買主が土地利用の法的地位についてほとんど何も知らない可能性が高いため、この黙示的な除外を（買主が土地の目に見える利用/負担を目撃した場合でも）認めない。\n• **特別保証証書（Special Warranty Deed）**は、売主がその所有期間中に権原保証条項に違反していないことのみを保証する。(1) 売主が以前に不動産を譲渡していないこと、および (2) 売主によって作成された権原に対する負担が存在しないこと。\n• **権原無保証証書（Quitclaim Deed）**は、買主に対するいかなる保証条項または約束も含まない。「現状有姿」の証書であり、買主は権原のいかなる負担または瑕疵についても売主/譲渡人を訴える権利を有しない。",
+    "meeTipTranslation": [
+      "試験では、エッセイ問題の事実パターンに記載されている特定の種類の証書に適用されるルールを適用すること。"
+    ],
+    "ruleTitleJa": "一般保証証書（General Warranty Deed）、特別保証証書（Special Warranty Deed）、および権原無保証証書（Quitclaim Deed）"
+  },
+  {
+    "id": 42,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "Estoppel by Deed",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the doctrine of estoppel by deed, if a grantor conveys title to real property by deed _before_ he owns the property, the title will ***automatically vest in the grantee*** as soon as the grantor acquires title to the property.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 証書による禁反言（Estoppel by Deed）の法理の下では、譲渡人が不動産の権原を、彼がその不動産を所有する_前_に証書によって譲渡した場合、譲渡人がその不動産の権原を取得すると同時に、その権原は***自動的に譲受人に帰属する***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "証書による禁反言（Estoppel by Deed）"
+  },
+  {
+    "id": 43,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "Chain of Title and Wild Land Records",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• The chain of title shows all transfers of title for a piece of real property. Transfers of real property are organized in public records under two indexes. One index is organized by the ***names of the grantors***, and the other index is organized by the ***names of the grantees***.\n• If a land transfer is NOT recorded properly, it is considered “wild”. A **wild deed, mortgage, or easement** is effective between the parties, BUT it will ***not put subsequent purchasers on constructive notice*** because it’s outside the chain of title (it’s not discoverable in the land records).\n• Courts are divided on whether a State’s recording act applies to an Implied Easement, but there is a strong argument that it’s _not_ applicable.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2021, Essay 5",
+      "July 2011, Essay 4",
+      "Feb 2010, Essay 2",
+      "Feb 2009, Essay 4"
+    ],
+    "translation": "• 権原連鎖は、不動産に関するすべての権原移転を示すものである。不動産の移転は、公的記録において二つの索引に整理されている。一つの索引は***譲渡人の氏名***によって整理され、もう一つの索引は***譲受人の氏名***によって整理されている。\n• 土地の移転が適切に登記されていない場合、それは「無効」とみなされる。**無効な証書、抵当権、または地役権**は当事者間では有効であるが、権原連鎖の範囲外であるため（土地記録で発見可能ではないため）、***後続の買主に擬制通知（Constructive Notice）を与えることはない***。\n• 裁判所は、州の登記法が黙示の地役権（Implied Easement）に適用されるか否かについて意見が分かれているが、適用_されない_という強力な主張が存在する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "権原の連鎖（Chain of Title）と未記録土地登記"
+  },
+  {
+    "id": 44,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "Recording Statutes & Notice",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• At common law, if real property is transferred multiple times by the same grantor, whoever rightfully received the property _first_ had valid title against the other transfers. Today, every state has enacted a recording statute altering the common law rule.\n• **Three types of recording statutes exist** to protect those who record their interests in land.\n  ○ In a notice statute jurisdiction, a ***subsequent bona fide purchaser will prevail*** over a prior grantee that failed to record.\n  ○ In a race statute jurisdiction, whomever ***records first*** prevails (notice is irrelevant).\n  ○ In a race-notice statute jurisdiction, a subsequent bona fide purchaser is protected ONLY IF he ***records before the prior grantee***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2011, Essay 4"
+    ],
+    "translation": "• コモンローにおいては、不動産が同一の譲渡人によって複数回移転された場合、最初に正当に財産を取得した者が、他の移転に対して有効な権原を有していた。今日、すべての州はコモンローの原則を変更する登記法規を制定している。\n• 土地における自己の権利を登記する者を保護するために、**三種類の登記法規が存在する**。\n  ○ 通知主義（Notice Statute）法域においては、登記を怠った先行の譲受人に対して、***後続の善意の買主（Bona Fide Purchaser）が優先する***。\n  ○ 競合主義（Race Statute）法域においては、***最初に登記した者***が優先する（通知は無関係である）。\n  ○ 競合・通知主義（Race-Notice Statute）法域においては、後続の善意の買主（Bona Fide Purchaser）は、先行の譲受人より先に***登記した場合にのみ保護される***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "登記法規と通知"
+  },
+  {
+    "id": 45,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "Bona Fide Purchasers & The Shelter Rule",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• A **bona fide purchaser (BFP)** is a person/entity who: **(1)** takes real property ***without notice*** (actual, inquiry, or constructive) of a prior conveyance; **AND (2)** pays valuable ***consideration***. A person who receives land by gift (a donee) or by bequest (an heir/devisee) is **NOT** a bona fide purchaser because he did not pay valuable consideration for the property. However, if said person sells the property, the subsequent owner _may_ be deemed a bona fide purchaser.\n  ○ **Notice** may be actual, constructive, or on inquiry. A person has actual notice of information ***directly received*** (i.e. expressly told or language in the deed). A person is on constructive notice of any information that could have been obtained from an ***inspection of public land records*** (i.e. search of the grantor-grantee index). A person is on inquiry notice of information that would be ***revealed upon a reasonable inspection of the land***.\n• Under the **shelter rule**, a person who ***purchases from a bona fide purchaser (BFP)*** receives the ***same status and rights*** as the BFP.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2011, Essay 4",
+      "Feb 2010, Essay 2",
+      "Feb 2009, Essay 4",
+      "July 2007, Essay 6"
+    ],
+    "translation": "• **善意の買主（BFP）**とは、**(1)** 先行の譲渡について***通知なく***（現実の、調査による、または擬制の）不動産を取得し、**かつ (2)** 有償の***対価***を支払った個人または法人である。贈与（受贈者）または遺贈（相続人/受遺者）によって土地を取得した者は、財産に対して有償の対価を支払っていないため、**善意の買主（Bona Fide Purchaser）ではない**。しかし、当該人物がその財産を売却した場合、後続の所有者は善意の買主（Bona Fide Purchaser）とみなされ_得る_。\n  ○ **通知**は、現実の、擬制の、または調査によるものであり得る。ある人物は、***直接受け取った***情報（すなわち、明示的に伝えられた、または証書中の文言）について現実の通知（Actual Notice）を有する。ある人物は、***公的土地記録の調査***（すなわち、譲渡人-譲受人索引の検索）から取得できたであろういかなる情報についても擬制通知（Constructive Notice）を有する。ある人物は、***土地の合理的な調査によって明らかになる***情報について調査による通知（Inquiry Notice）を有する。\n• **シェルター・ルール（Shelter Rule）**の下では、***善意の買主（BFP）から購入する***者は、BFPと***同一の地位および権利***を取得する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "善意の購入者とシェルター・ルール（Shelter Rule）"
+  },
+  {
+    "id": 46,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "Owner by Adverse Possession vs. Subsequent Bona Fide Purchasers",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Owners of property acquired through ***adverse possession*** are protected against recording statutes because they have no documents to record. Courts have held that a bona fide purchaser of a later conveyance from the prior record title owner **CANNOT *defeat title*** acquired under adverse possession, _even if_ the land was not occupied at the time of the conveyance.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2007, Essay 6"
+    ],
+    "translation": "• 時効取得により取得された不動産の所有者は、記録すべき書類を持たないため、登記法規から保護される。裁判所は、以前の登記名義人からの後の譲渡における善意の買主（Bona Fide Purchaser）は、譲渡時に土地が占有されていなかったとしても、時効取得により取得された権原を無効にすることはできないと判示している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "時効取得による所有者 対 その後の善意の買主（Bona Fide Purchaser）"
+  },
+  {
+    "id": 47,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "Deeds: Drafting, Review, and Negotiation of Closing Documents",
+    "priority": "LOW",
+    "frequency": "0 of 21 Exams",
+    "body": "• Generally, the grantor (seller) or the grantor’s real estate broker will hire an attorney to prepare the Deed to ensure that all of the requirements are met to convey title to the property. However, a party to the transaction may draft the Deed.\n• The language of the Deed may be negotiated or modified by the agreement of the parties. Such modifications may include the acceptance of certain encumbrances on the land (i.e. waiver of an encumbrance for gas or electrical companies).",
+    "meeTips": [
+      "This topic was first testable on the Feb 2017 exam."
+    ],
+    "examHistory": [],
+    "translation": "• 一般に、譲渡人（売主）または譲渡人の不動産仲介業者は、不動産の権原を移転するためのすべての要件が満たされることを確実にするため、弁護士を雇って譲渡証書を作成させる。しかし、取引の当事者が譲渡証書を作成することもできる。\n• 譲渡証書の文言は、当事者の合意により交渉または修正されることがある。かかる修正には、土地上の特定の負担の受諾（すなわち、ガス会社または電力会社のための負担の放棄）が含まれる場合がある。",
+    "meeTipTranslation": [
+      "このトピックは2017年2月の試験で初めて出題された。"
+    ],
+    "ruleTitleJa": "証書：クロージング書類の作成、審査、および交渉"
+  },
+  {
+    "id": 48,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "I. Title to Real Property",
+    "ruleTitle": "Deeds: Persons Authorized to Execute Real Estate Documents",
+    "priority": "LOW",
+    "frequency": "0 of 21 Exams",
+    "body": "• The **grantor (seller)** of the real property **MUST sign the Deed**. However, a grantor may designate an agent to sign the deed on his behalf (most states require that a power of attorney or similar writing be signed stating that the agent has the authority to sign a Deed or closing documents on behalf of the grantor). Generally, the **grantee (buyer)** is NOT required to sign the Deed.\n• If an entity or business organization is the grantor, then ***authorized persons must sign the Deed on behalf of the entity*** (such as officers of a corporation or managing members of a limited liability company). The board or members of the entity may be required to pass a resolution approving the sale of real property if the sale constitutes all or substantially all of the entity’s assets.\n• Generally, a witness or an acknowledgement (signing the Deed in front of a notary public) is NOT required for the Deed to be valid. However, an acknowledgement may be required by local law to record the Deed.",
+    "meeTips": [
+      "This topic was first testable on the Feb 2017 exam."
+    ],
+    "examHistory": [],
+    "translation": "• 不動産の**譲渡人（売主）**は**譲渡証書に署名しなければならない**。ただし、譲渡人は代理人を指名して、自己に代わって譲渡証書に署名させることができる（ほとんどの州では、代理人が譲渡人に代わって譲渡証書または決済書類に署名する権限を有することを明記した委任状または類似の書面が署名されることを要求している）。一般に、**譲受人（買主）**は譲渡証書に署名する必要はない。\n• 事業体または事業組織が譲渡人である場合、***事業体を代表して権限のある者が譲渡証書に署名しなければならない***（会社の役員または有限責任会社の業務執行社員など）。当該売却が事業体の資産の全部または実質的に全部を構成する場合、事業体の理事会または構成員は、不動産の売却を承認する決議を可決することが要求される場合がある。\n• 一般に、譲渡証書が有効であるために、証人または認証（公証人の前で譲渡証書に署名すること）は要求されない。しかし、譲渡証書を登記するために、地方の法律により認証が要求される場合がある。",
+    "meeTipTranslation": [
+      "このトピックは2017年2月の試験で初めて出題された。"
+    ],
+    "ruleTitleJa": "証書：不動産書類の執行権限を有する者"
+  },
+  {
+    "id": 49,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "J. Mortgages/Security Devices",
+    "ruleTitle": "Mortgages & Requirements for a Valid Mortgage",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A mortgage is a security interest in real property intended to be collateral for repayment of a loan. The debtor is the mortgagor, and the lender is the mortgagee.\n• To be valid, a mortgage must be: **(1) *in writing***; **(2) *signed*** by the party to be charged; **AND (3) *reasonably identify the parties and the land***.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 抵当権とは、貸付金の返済のための担保として意図された不動産に対する**担保権（Security Interest）**である。債務者は**抵当権設定者（Mortgagor）**であり、貸主は**抵当権者（Mortgagee）**である。\n• 抵当権が有効であるためには、**(1) ***書面による***こと**、**(2) 責任を負う当事者によって***署名***されていること**、**AND (3) ***当事者および土地を合理的に特定***すること**が必要である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "抵当権と有効な抵当権の要件"
+  },
+  {
+    "id": 50,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "J. Mortgages/Security Devices",
+    "ruleTitle": "Purchase Money Mortgage",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A **purchase money mortgage** is used by the buyer (the borrower) to purchase real property, and the ***seller is the lender*** who secures a mortgage on the property.\n• The holder of a purchase money mortgage has priority over: (1) all claims and mortgages against the mortgagor ***prior*** to the purchase of the property; AND (2) all ***subsequent*** claims and mortgages, _unless_ defeated by a recording statute.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• **購入資金抵当権（Purchase Money Mortgage）**とは、買主（借主）が不動産を購入するために利用するものであり、***売主が貸主***となって当該不動産に抵当権を設定する。\n• 購入資金抵当権者（Purchase Money Mortgage）は、以下のものに対して優先権を有する。(1) 不動産の購入に***先立つ***、抵当権設定者（Mortgagor）に対する全ての請求権および抵当権、AND (2) 登記法によって優先権を失わない限り、全ての***後続の***請求権および抵当権。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "購入資金抵当権（Purchase Money Mortgage）"
+  },
+  {
+    "id": 51,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "J. Mortgages/Security Devices",
+    "ruleTitle": "Future-Advance Mortgage",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A **future advance mortgage** is a loan in which the lender may provide future payments under the original loan (usually used in a construction loan context). The lender secures a mortgage on the real property for the ***entire amount of the loan, including future advances***.\n• Obligatory vs. Optional: Future advance loans are either obligatory or optional. It is **obligatory** if the lender has a ***duty to advance the funds*** regardless of the situation – there are no discretionary conditions. It is **optional** if the ***lender has discretion*** whether to make the future advances (i.e. a satisfactory-progress condition).\n• Priority Over Other Creditors:\n  ○ If the lender is **obligated** to make future payments, then ALL payments are deemed part of the original loan (whether or not disbursed yet) and have priority over subsequently filed liens.\n  ○ If future payments are **optional**, then each payment must be analyzed separately. An advance will NOT take priority when: (1) the advance is _made after another filed lien_ on the property; AND (2) the lender has _notice_ of the lien. The majority view requires actual notice, while only constructive notice is required under the minority view.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2018, Essay 3",
+      "Feb 2012, Essay 8"
+    ],
+    "translation": "• **将来追加融資抵当権（Future Advances Mortgage）**とは、貸主が原契約に基づく将来の支払いを提供しうる貸付（通常、建設融資の文脈で用いられる）である。貸主は、***将来の追加融資を含む貸付金の全額***について、当該不動産に抵当権を設定する。\n• 義務的か任意的か：将来追加融資は、義務的であるか任意的であるかのいずれかである。貸主が状況にかかわらず***資金を融資する義務***を負う場合、すなわち裁量的な条件がない場合、それは**義務的**である。***貸主が将来の追加融資を行うか否かについて裁量を有する***場合（例：満足のいく進捗状況という条件）は、**任意的**である。\n• 他の債権者に対する優先権：\n  ○ 貸主が将来の支払いを行う**義務がある**場合、全ての支払いは原契約の一部とみなされ（まだ支払われていないか否かにかかわらず）、後に登記された先取特権に対して優先権を有する。\n  ○ 将来の支払いが**任意的**である場合、各支払いは個別に分析されなければならない。追加融資が優先権を持たないのは、(1) 当該追加融資が不動産に対する_他の登記された先取特権の後に実行された_場合、AND (2) 貸主が当該先取特権の_通知を受けている_場合である。多数説は現実の通知（Actual Notice）を要求するが、少数説では推定通知のみが要求される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "将来債務担保抵当権"
+  },
+  {
+    "id": 52,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "J. Mortgages/Security Devices",
+    "ruleTitle": "Deed of Trust",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A **deed of trust** is similar to a mortgage (as it is a security interest in real property intended to be collateral for repayment of a loan), **BUT it involves three parties**: **(1)** the ***borrower*** (the purchaser of the property); **(2)** the ***lender***; **AND (3)** a ***third-party trustee*** who holds title of the property until the loan is paid off. Once the loan is fully paid, the trustee must transfer title to the purchaser of the land.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• **信託証書**は抵当権に類似する（ローンの返済のための担保となることを意図した不動産における担保権（Security Interest）であるため）が、**三当事者が関与する**：**(1)** ***借主***（不動産の買主）、**(2)** ***貸主***、**および(3)** ローンが完済されるまで不動産の所有権を保持する***第三者受託者***である。ローンが完全に完済されると、受託者は土地の買主へ所有権を移転しなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "信託証書"
+  },
+  {
+    "id": 53,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "J. Mortgages/Security Devices",
+    "ruleTitle": "Assumption & Transfer Subject to a Mortgage",
+    "priority": null,
+    "frequency": "1 of 40 Exams",
+    "body": "• A mortgage assumption may be express or implied.\n  ○ An express mortgage assumption occurs if there is an ***express agreement*** for the grantee to (1) take the real property, AND (2) continue making mortgage payments to the lender.\n  ○ An implied mortgage assumption occurs if: (1) ***no express agreement exists***; (2) the grantee ***pays the seller only the equity*** in the home; AND (3) the grantee continues to ***make payments to the lender*** on the balance of the mortgage. Only a few states allow for implied assumption (most states reject the approach).\n• If a buyer ***takes real property subject to a seller’s mortgage***, he is NOT personally liable on the mortgage. However, a duly recorded mortgage remains on the land, and the mortgagee may foreclose on the mortgage and sell the burdened property in a foreclosure sale. If a buyer ***takes real property and “assumes” the seller’s mortgage***, the buyer will be primarily _and_ personally liable on the mortgage, while the seller remains secondarily liable.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2013, Essay 8"
+    ],
+    "translation": "• 抵当権の引受（Assumption of Mortgage）は明示的または黙示的であり得る。\n  ○ 明示的な抵当権の引受（Assumption of Mortgage）は、譲受人が(1)不動産を取得し、かつ(2)貸主への抵当権支払いを継続することについて***明示的な合意***が存在する場合に発生する。\n  ○ 黙示的な抵当権の引受（Assumption of Mortgage）は、(1)***明示的な合意が存在せず***、(2)譲受人が売主に対し、その住宅の***持分のみを支払い***、かつ(3)譲受人が抵当権の残高について***貸主へ支払いを継続する***場合に発生する。少数の州のみが黙示的な引受を認めている（ほとんどの州はこのアプローチを拒否している）。\n• 買主が***売主の抵当権に服して不動産を取得する***場合、彼は抵当権について個人的な責任を負わない。しかし、正当に登記された抵当権は土地上に残存し、抵当権者（Mortgagee）は抵当権を実行し、負担のある不動産を差押競売（Foreclosure Sale）で売却することができる。買主が***不動産を取得し、売主の抵当権を「引受ける」***場合、買主は抵当権について主たる_かつ_個人的な責任を負い、売主は二次的な責任を負う。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "抵当権の引受（Assumption of Mortgage）と抵当権付き譲渡"
+  },
+  {
+    "id": 54,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "J. Mortgages/Security Devices",
+    "ruleTitle": "Mortgages: Foreclosure, Order of Preference, and Deficiency Judgments",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Foreclosure ***destroys junior mortgages***, in that any mortgage recorded ***after*** the mortgage being foreclosed on will be extinguished. However, all ***prior*** recorded mortgages are not affected.\n• Proceeds from a sale are used to pay off debts in the following order: (1) attorney fees and expenses associated with the sale; (2) debts owed to mortgagee; and (3) any amount left to the mortgagor.\n• A mortgagee (the lender) may seek a **deficiency judgment** against a mortgagor (the debtor) if the ***proceeds of the foreclosure sale are insufficient*** to satisfy the mortgage.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2012, Essay 8"
+    ],
+    "translation": "• 差押は劣後抵当権を***消滅させる***。すなわち、差押の対象となっている抵当権の***後に***登記された抵当権は消滅する。しかし、すべての***先行***登記抵当権は影響を受けない。\n• 売却による収益は以下の順序で債務の弁済に充てられる：(1)弁護士費用および売却に関連する費用、(2)抵当権者（Mortgagee）に対する債務、および(3)抵当権設定者（Mortgagor）に残る金額。\n• 抵当権者（貸主）は、***差押競売（Foreclosure Sale）の収益が抵当権を満足させるのに不十分である***場合、抵当権設定者（債務者）に対し**不足金判決（Deficiency Judgment）**を求めることができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "抵当権：差押え、優先順位、および不足額"
+  },
+  {
+    "id": 55,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "J. Mortgages/Security Devices",
+    "ruleTitle": "Transfer of a Mortgage Note",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Some states require that the promissory note be assigned along with the mortgage. Other states hold that the note automatically follows a mortgage when it is properly assigned (even without notice to the mortgagor). However, a mortgagor is NOT liable to the assignee of the note (for any payments made to the assignor) if the mortgagor _did not_ receive notice of the assignment.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 一部の州では、約束手形が抵当権とともに譲渡されることを要求する。他の州では、抵当権が適正に譲渡された場合（抵当権設定者（Mortgagor）への通知なしでも）、約束手形は自動的に抵当権に付随するとする。しかし、抵当権設定者（Mortgagor）が譲渡の通知を_受けていなかった_場合、抵当権設定者（Mortgagor）は（譲渡人に対して行われた支払いについて）約束手形の譲受人に対して責任を負わない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "抵当権付債務証書の譲渡"
+  },
+  {
+    "id": 56,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "K. Zoning",
+    "ruleTitle": "Zoning Ordinances",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Zoning ordinances and laws (land-use regulations that adversely affected real property interests) are allowed in instances when it ***reasonably protects the health, safety, morals, or general welfare*** of the community.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 用途地域条例および法律（不動産権益に悪影響を与える土地利用規制）は、地域社会の***健康、安全、道徳、または一般福祉を合理的に保護する***場合に許容される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "ゾーニング条例"
+  },
+  {
+    "id": 57,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "K. Zoning",
+    "ruleTitle": "Zoning Ordinances: Variances",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A variance is an exception to a zoning ordinance. Two types of variances exist: (i) a **use variance**; and (ii) an **area variance**.\n• An application for a variance may be granted if: (1) the property owner shows she will ***suffer hardship*** because of the ordinance; AND (2) the variance will ***not damage or harm the public welfare***.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 特例許可（バリアンス）は、用途地域条例の例外である。2種類の特例許可（Variance）が存在する。(i) **用途特例許可（Use Variance）**、および (ii) **面積特例許可（Area Variance）**。\n• 特例許可（Variance）の申請は、以下の条件を満たす場合に許可され得る。(1) 不動産所有者が、当該条例のために***困難を被る***ことを示すこと、かつ (2) 当該特例許可（Variance）が***公共の福祉を損なわない***こと。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "ゾーニング条例：特例"
+  },
+  {
+    "id": 58,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "K. Zoning",
+    "ruleTitle": "Zoning Ordinances: Previous Non-Conforming Use",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The doctrine of **previous non-conforming use** allows a landowner to continue to use his land in violation of a ***later enacted*** zoning law. Where the prior use of the land was ***originally legal***, the subsequent enactment of a zoning law will **NOT** bar the continued use of the land as it was legally used before the law’s enactment. A non-conforming use will only be “grandfathered in” if it remains in use. If the use is NOT continuous, it may no longer be protected.\n• The non-conforming use doctrine is meant to protect the _prior investment_ in real property. ***Insubstantial changes and reasonable alterations to repair the property* ARE PERMITTED**. The enlargement, alteration, or extension of a nonconforming use that constitutes a ***substantial change* IS PROHIBITED**.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2018, Essay 3"
+    ],
+    "translation": "• **既存の非適合的利用（Nonconforming Use）**の法理により、土地所有者は***後に制定された***ゾーニング法に違反する形で土地を引き続き使用することができる。土地の以前の使用が***当初は合法的***であった場合、ゾーニング法の後の制定によっても、法の制定前に合法的に使用されていた方法での土地の継続的（Continuous）使用は**禁止されない**。非適合的利用は、使用が継続されている場合にのみ「既得権として保護」される。使用が継続的（Continuous）でない場合、保護が失われることがある。\n• 非適合的利用の法理は、不動産への_以前の投資_を保護することを目的とする。***物件修繕のための実質的でない変更および合理的な改造は許可される***。非適合的利用の***実質的な変更**を構成する拡大、変更、または延長は**禁止される***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "ゾーニング条例：既存不適格利用"
+  },
+  {
+    "id": 59,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "L. Conflict of Laws",
+    "ruleTitle": "Choice of Law Rules: Real Property Cases",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• In cases involving the **title to real property** or a contract for the **sale of real property**, the laws of the state where the real property ***is located*** will generally govern (***known as the situs rule***), as states have a strong interest in actions that affect real property located within their state.\n  ○ Under the Restatement (First) approach, the laws of the state where the real property at issue ***is located (the situs)*** will ***always govern***.\n  ○ Under the Restatement (Second) approach, **it is presumed** that the state where the property ***is located*** has the most significant relationship to the action, and that law will govern the action.\n  ○ Under the Interest Analysis approach, where the real property at issue ***is located (the situs)*** will generally govern, UNLESS another state has a ***greater interest in having its law applied***.\n• However, if real property is ***merely incidental to a contract*** (i.e. real estate brokerage contracts, mortgage agreements), then the conflict of laws rules **for contracts** must be used to determine the applicable law.",
+    "meeTips": [
+      "This topic was first testable for Real Property on the Feb. 2017 exam, but was previously tested in Conflict of Laws."
+    ],
+    "examHistory": [
+      "July 1998, Essay 3"
+    ],
+    "translation": "• **不動産の所有権**または**不動産の売買**に関する契約が関係する事件においては、州は自州内に所在する不動産に影響を与える訴訟に強い利害関係を有するため、当該不動産が***所在する***州の法が一般的に適用される（***所在地法主義（Lex Situs）として知られる***）。\n  ○ リステイトメント（第一次）アプローチの下では、問題の不動産が***所在する（所在地）***州の法が***常に適用される***。\n  ○ リステイトメント（第二次）アプローチの下では、不動産が***所在する***州が当該訴訟に最も重要な関係を有すると**推定され**、その法が当該訴訟に適用される。\n  ○ 利益分析アプローチの下では、問題の不動産が***所在する（所在地）***州の法が一般的に適用されるが、他の州が***その法を適用することに、より大きな利益を有する***場合はこの限りではない。\n• しかし、不動産が***単に契約に付随するに過ぎない***場合（すなわち、不動産仲介契約、抵当権設定契約など）には、適用される法を決定するために**契約に関する**抵触法規則が用いられなければならない。",
+    "meeTipTranslation": [
+      "このトピックは不動産法として2017年2月試験で初めて出題されたが、以前は国際私法として出題されていた。"
+    ],
+    "ruleTitleJa": "準拠法規則：不動産事件"
+  },
+  {
+    "id": 60,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "M. Fair Housing/Discrimination",
+    "ruleTitle": "Discrimination: Fair Housing Act",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• The Fair Housing Act (“FHA”) ***protects people from discrimination*** when they are renting/leasing/buying a home or apartment, getting a mortgage, seeking housing assistance, or engaging in other housing-related activities.\n• Discrimination Categories: Specifically, **the FHA prohibits discrimination based on a person's**: **(a) *race or color***; **(b) *religion***; **(c) *sex***; **(d) *national origin***; **(e) *disability***; **AND/OR (f) *familial status*** (prohibits discrimination against families with children, _except_ for facilities designated as “senior housing” for adults 55+ years old).\n• FHA Exemptions: The Act DOES NOT apply to: **(a) *religious organizations***; **(b) *private clubs*** that limit occupancy to members; **(c) *owner-occupied buildings with no more than four units*** occupied by persons living independently of each other; **OR (d) *single-family houses sold or rented by the owner without the use of an agent*** _as long as_ the private landlord/owner doesn’t own more than three homes at the time.\n• Application & Enforcement: The FHA applies to and can be enforced against ***direct providers of housing*** (such as landlords and real estate companies), AND ***other entities*** (such as municipalities, banks or other lending institutions, and homeowner insurance companies).\n• Discriminatory Advertisements: The Fair Housing Act also **prohibits the making, printing, and publishing of discriminatory advertisements** that indicate a preference, limitation, or discrimination because of race, color, religion, sex, disability, familial status, or national origin. The **prohibition applies to**: **(1) *publishers*** (such as newspapers and directories); **and (2) *persons/entities who place real estate advertisements*** in newspapers and on websites. It also applies where the advertisement itself violates the Act, EVEN IF the property being advertised may be exempt from the provisions of the Act.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2020, Essay 6"
+    ],
+    "translation": "• 公正住宅法（\"FHA\"）は、住宅・アパートの賃貸・売買、住宅ローンの取得、住宅支援の申請、またはその他の住宅関連活動において、人々が***差別から保護される***ことを定める。\n• 差別カテゴリー：具体的には、**FHAは人の**：**(a) ***人種または肌の色***；**(b) ***宗教***；**(c) ***性別***；**(d) ***出身国***；**(e) ***障害***；**および/または (f) ***家族の状況***（55歳以上の成人向けに「高齢者住宅」として指定された施設を_除き_、子供がいる家族に対する差別を禁止する）に基づく差別を**禁止する**。\n• FHA免除：同法は以下には適用されない：**(a) ***宗教団体***；**(b)** 会員への入居を制限する***私的クラブ***；**(c)** それぞれ独立して生活する者によって占有される***4戸以下の所有者占有建物***；**または (d)** 3軒以上の住宅を所有しない私的家主/所有者が、代理人を使用せずに売却または賃貸する***一戸建て住宅***。\n• 適用・執行：FHAは***住宅の直接提供者***（家主や不動産会社など）および***その他の事業体***（地方自治体、銀行やその他の貸付機関、住宅所有者保険会社など）に対して適用・執行できる。\n• 差別的広告：FHAはさらに、人種、肌の色、宗教、性別、障害、家族の状況、または出身国による優遇・制限・差別を示す**差別的広告の作成・印刷・公表を禁止する**。**禁止は以下に適用される**：**(1) ***出版者***（新聞、住所録など）；**および (2) ***新聞やウェブサイトに不動産広告を掲載する者/事業体***。広告自体が同法に違反する場合は、宣伝されている不動産がFHAの規定から免除されていても適用される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "差別：公正住宅法（Fair Housing Act）"
+  },
+  {
+    "id": 61,
+    "subject": "REAL PROPERTY",
+    "subjectNumber": "09",
+    "section": "N. Rule Against Perpetuities",
+    "ruleTitle": "Rule Against Perpetuities",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the Common Law, the Rule Against Perpetuities (RAP) invalidates any future interest in a conveyance of real property that will ***not vest within 21 years of a life in being*** at the time the interest was created.\n• Under the Modern Rule Against Perpetuities, some States have modified the common law rule in two ways: (i) age contingencies are reduced; and (ii) a “wait-and-see” approach is used.\n  ○ The **“wait-and-see” approach** provides that a nonvested property interest ***is invalid* ONLY IF *it actually does not*** vest within 21 years after the death of a life in being at the time the interest was created. Rather than invalidate interests on the possibility that they will not vest, this approach **waits to see if the interest will actually not vest**.\n  ○ In addition, some States have statutorily modified the common law rule such that the courts will **reduce any age contingencies** that violate the rule ***to 21 years***.\n• Under the Uniform Statutory Rule Against Perpetuities (adopted in some States), if a future interest actually vests ***within 90 years*** of its creation, it will be deemed valid.\n• Applicability: RAP applies to contingent remainders, executory interests, and vested remainders subject to open. However, it DOES NOT apply to (a) _charitable transfers_, OR (b) future interests retained by the _grantor_ (reverter, right of re-entry) because such interests are immediately vested upon their creation.\n• If a future interest is found to violate RAP, that interest is deemed _invalid_ (but the rest of the conveyance will remain intact).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• コモン・ローの下では、永久拘束禁止則（RAP）は、権利が設定された時点で***生存中の者の生存期間から21年以内に確定しない***不動産の譲渡におけるいかなる将来権も無効とする。\n• 現代の永久拘束禁止則（Rule Against Perpetuities）の下では、一部の州はコモン・ローの規則を2つの方法で修正している。(i)年齢条件が引き下げられ、(ii)「待機観察」アプローチ（\"Wait and See\" Approach）が用いられる。\n  ○ **「待機観察」アプローチ（\"Wait and See\" Approach）**は、未確定の財産権が、権利が設定された時点における生存中の者の死亡から21年以内に***実際に確定しない*場合にのみ*無効となる***と定める。このアプローチは、権利が確定しない可能性に基づいて権利を無効にするのではなく、**その権利が実際に確定しないかどうかを待って確認する**。\n  ○ さらに、一部の州はコモン・ローの規則を法令により修正しており、裁判所は規則に違反する**いかなる年齢条件も***21年***に引き下げる**。\n• 統一永続性禁止法（一部の州で採用）の下では、将来権がその設定から***90年以内***に実際に確定した場合、それは有効とみなされる。\n• 適用範囲: RAPは、条件付残余権、執行権、および開放条件付確定的残余権（Vested Remainder）に適用される。しかし、(a)_慈善目的の譲渡_、または(b)_譲渡人_が留保する将来権（復帰権（Reversion）、解除権（Right of Entry））には適用されない。なぜなら、これらの権利は設定と同時に直ちに確定するからである。\n• 将来権がRAPに違反すると判断された場合、その権利は_無効_とみなされる（ただし、譲渡の残りの部分は影響を受けずに残る）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "永久拘束禁止則（Rule Against Perpetuities）"
+  }
+]

@@ -1,0 +1,986 @@
+[
+  {
+    "id": 1,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "A. Formation of a Corporation",
+    "ruleTitle": "Formation of a Corporation (Articles of Incorporation)",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under the RMBCA, a corporation’s existence ***begins*** on the date the Articles of Incorporation are ***filed*** with the Secretary of State, UNLESS a _delayed_ effective date is specified. The RMBCA **DOES NOT** allow for an _earlier_ effective date to be specified because a corporation CANNOT exist until the Articles of Incorporation are properly filed.\n• The Articles of Incorporation MUST contain: **(1)** the ***corporate name***; **(2)** the ***number of shares*** the corporation is authorized to issue; **(3)** the address of the corporation’s ***initial registered office*** and the ***name of its initial registered agent*** at that office; **AND (4)** the ***name and address of each incorporator***.\n• A legally formed corporation is called a **de jure corporation**.",
+    "meeTips": [
+      "If an essay question says to apply the Model Business Corporation Act (MBCA), then apply the RMBCA as it’s the most recent version of the MBCA. On the exam, MBCA and RMBCA have been used interchangeably."
+    ],
+    "examHistory": [
+      "July 2018, Essay 6",
+      "Feb 2011, Essay 7"
+    ],
+    "translation": "• 改正模範事業会社法（RMBCA）に基づき、会社の存在は、_遅延_発効日が指定されない限り、定款が州務長官に***提出された***日に***開始する***。改正模範事業会社法は、定款が適切に提出されるまで会社は存在し得ないため、_早期_発効日の指定を**認めない**。\n• 定款には以下を記載しなければならない：**(1)** ***会社名***；**(2)** 会社が発行を授権されている***株式数***；**(3)** 会社の***最初の登録事務所***の住所およびその事務所における***最初の登録代理人（Registered Agent）の氏名***；**および (4)** ***各設立者の氏名および住所***。\n• 適法に設立された会社は**法律上の法人（De Jure Corporation）**と呼ばれる。",
+    "meeTipTranslation": "論文問題で模範事業会社法（MBCA）を適用するよう指示された場合、それは模範事業会社法の最新版である改正模範事業会社法（RMBCA）を適用すること。試験では、MBCAとRMBCAは互換的に使用されてきた。",
+    "ruleTitleJa": "会社設立（定款）"
+  },
+  {
+    "id": 2,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "A. Formation of a Corporation",
+    "ruleTitle": "Bylaws",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• The Bylaws are the rules and regulations adopted by the Board of Directors that ***govern the internal operations and management*** of a corporation, including the roles and duties of directors and officers. Under the RMBCA, the **Bylaws may contain any provision** that is **NOT *inconsistent*** with: **(a)** the Articles of Incorporation; **OR (b)** the law of the jurisdiction.\n• **When there is a conflict between the Articles of Incorporation and the Bylaws, *the Articles of Incorporation control*.** In addition, the Articles of Incorporation may give certain powers ***only*** to the shareholders (and limit certain powers of the directors). The inclusion of director-nomination procedures in the Bylaws is allowed under the RMBCA and Delaware law.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2014, Essay 6",
+      "July 2010, Essay 9"
+    ],
+    "translation": "• 定款とは、取締役会によって採択される規則および規定であり、取締役および役員の役割と義務を含め、会社の***内部運営と経営を規定する***ものである。RMBCA（模範事業会社法）の下では、**定款は、**(a) 設立定款（Articles of Incorporation）、**または**(b) 管轄区域の法律と**矛盾しない**いかなる規定**をも含み得る**。\n• **設立定款（Articles of Incorporation）と定款の間に矛盾がある場合、*設立定款（Articles of Incorporation）が優先される*。**加えて、設立定款（Articles of Incorporation）は、特定の権限を株主***のみ***に与えることができる（そして、取締役の特定の権限を制限する）。定款に取締役の指名手続きを含めることは、RMBCAおよびデラウェア州法の下で許可されている。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "付属定款（Bylaws）"
+  },
+  {
+    "id": 3,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "A. Formation of a Corporation",
+    "ruleTitle": "Amending the Bylaws",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• The Bylaws ***may be amended or repealed by shareholders***. In addition, the **Board of Directors** may also amend or repeal the bylaws UNLESS: **(a)** the ***Articles of Incorporation exclusively reserves the power*** to the shareholders; **OR (b)** the ***shareholders***, in amending/adopting/repealing a bylaw, ***expressly provide that the Board of Directors cannot amend/repeal/reinstate*** that bylaw. If the bylaw deals with director-nomination procedures, the Board of Directors retain power to safeguard the voting process, but it CANNOT repeal a shareholder approved bylaw.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2014, Essay 6"
+    ],
+    "translation": "• 定款は***株主によって修正または廃止され得る***。さらに、**取締役会**も定款を修正または廃止できるが、以下の場合を除く：**(a)** ***設立定款（Articles of Incorporation）が当該権限を株主に排他的に留保している***場合；**OR (b)** ***株主が***定款を修正・採択・廃止する際に、取締役会がその定款を***修正・廃止・復活させることができないと明示的に定めた***場合。取締役の指名手続きに関する定款については、取締役会は投票プロセスを保護する権限を保持するが、株主が承認した定款を廃止することはできない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "付属定款（Bylaws）の改正"
+  },
+  {
+    "id": 4,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "A. Formation of a Corporation",
+    "ruleTitle": "Powers of a Corporation",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under the RMBCA (and most states), a ***corporation has the power to do all things necessary or convenient to carry out its business and affairs***, including: (1) to sue and be sued; (2) to own, lease, or convey real or personal property; (3) to make contracts, incur liabilities, borrow money, issue notes or bonds; (4) to lend money and make investments; (5) to own or be involved with another business entity; (6) to fix the compensation of directors, officers, and employees; (7) to lend directors, officers, employees money; (8) to make charitable donations; (9) to make payments or donations that furthers the business and affairs of the corporation; and (10) to pay or engage in lobbying to aid governmental policy.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2022, Essay 3",
+      "July 1999, Essay 7"
+    ],
+    "translation": "• RMBCA（およびほとんどの州）の下では、***会社はその事業および業務を遂行するために必要または便宜のあるすべての行為を行う権限を有し***、これには以下が含まれる。(1) 訴え、訴えられること。(2) 不動産または動産を所有、賃借、または譲渡すること。(3) 契約を締結し、債務を負い、金銭を借り入れ、手形または債券を発行すること。(4) 金銭を貸し付け、投資を行うこと。(5) 他の事業体を所有またはこれに関与すること。(6) 取締役、役員、および従業員の報酬を定めること。(7) 取締役、役員、従業員に金銭を貸し付けること。(8) 慈善寄付を行うこと。(9) 会社の事業および業務を促進する支払いまたは寄付を行うこと。(10) 政府の政策を支援するためにロビー活動を行い、またはこれに従事すること。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "会社の権限"
+  },
+  {
+    "id": 5,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "A. Formation of a Corporation",
+    "ruleTitle": "Foreign Corporation",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A Foreign Corporation is a corporation incorporated under laws of another state or jurisdiction.\n• Foreign Registration Statement: In order for a Foreign Corporation to do business in another state (a state other than it was incorporated), it MUST deliver a Foreign Registration Statement to the secretary of state for filing. The registration statement MUST be: (1) ***signed*** by the foreign corporation; **AND** (2) ***include certain information about the corporation***.\n  ○ Specifically, the registration statement must include the following: (i) corporate name; (ii) jurisdiction of formation; (iii) mailing address of its principal office; (iv) mailing address of its registered office in this state and the name of its registered agent; (v) names and business addresses of its directors and principal officers; _and_ (vi) a brief description of the nature of its business to be conducted in this state.\n• Governing Law: The law where the corporation was formed governs _both_: (1) the ***internal affairs*** of the foreign corporation (the internal affairs doctrine); and (2) the ***interest holder liability of its shareholders***. A foreign corporation is NOT precluded from registering to do business in another state because of any difference in the law of the foreign corporation’s jurisdiction of formation and the law of the other state.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 2"
+    ],
+    "translation": "• 外国会社（Foreign Corporation）とは、他の州または法域の法律に基づき設立された会社である。\n• 外国登録届出書（Statement of Foreign Qualification）：外国会社（Foreign Corporation）が他の州（設立された州以外の州）で事業を行うためには、州務長官に提出するために外国登録届出書（Statement of Foreign Qualification）を提出しなければならない。当該登録届出書は、(1) 外国会社（Foreign Corporation）によって***署名され***、**かつ** (2) ***会社に関する特定の情報を含まなければならない***。\n○ 具体的には、登録届出書には以下の情報を含まなければならない。(i) 会社名。(ii) 設立準拠法域。(iii) その主たる事務所の郵送先住所。(iv) 本州におけるその登録事務所の郵送先住所およびその登録代理人（Registered Agent）の氏名。(v) その取締役および主要役員の氏名および事業所住所、_ならびに_ (vi) 本州において遂行される事業の性質の簡潔な説明。\n• 準拠法：会社が設立された地の法律は、_以下の両方_を規律する。(1) 外国会社（Foreign Corporation）の***内部統治***（内部統治原則）、および (2) ***その株主の持分保有者責任***。外国会社（Foreign Corporation）は、その設立準拠法域の法律と他の州の法律との間にいかなる相違があるという理由によっても、他の州での事業登録を妨げられることはない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "外国会社（Foreign Corporation）"
+  },
+  {
+    "id": 6,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "B. Formation of a Limited Liability Company (LLC)",
+    "ruleTitle": "Formation of an LLC",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Generally, a Limited Liability Company (LLC) is formed when: **(1)** the ***Articles of Organization*** (a.k.a. Certificate of Formation) is properly filed with the Secretary of State; **AND (2)** the company has ***at least one member***.\n• Unless stated otherwise, the **Operating Agreement** governs: (1) the relations between the members and the LLC; (2) the rights and duties of managers; (3) the activities and affairs of the company; AND (4) any means and conditions for amending the Operating Agreement. Under RULLCA, the Operating Agreement means the agreement of all the members of an LLC for the four items mentioned above (whether or not referred to as an operating agreement), and it MAY be oral, implied, in a record/writing, or in any combination thereof. When there is no Operating Agreement covering a specific item, then default rules apply (e.g. RULLCA if adopted in the jurisdiction).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 1",
+      "Feb 2019, Essay 3"
+    ],
+    "translation": "• 一般に、有限責任会社（LLC）は、**(1)** ***組織定款（Articles of Organization）***（別名：設立証明書）が州務長官に適切に提出され、**かつ (2)** 会社に***少なくとも1名の社員***がいる場合に設立される。\n• 別段の定めがない限り、**運営契約（Operating Agreement）**は以下を規律する。(1) 社員とLLCとの関係。(2) 管理者の権利および義務。(3) 会社の活動および業務、**ならびに** (4) 運営契約（Operating Agreement）を修正するためのあらゆる手段および条件。RULLCAの下では、運営契約（Operating Agreement）とは、上記の4項目に関するLLCの全社員の合意を意味し（運営契約（Operating Agreement）と称されるか否かにかかわらず）、口頭、黙示、記録/書面、またはそれらの任意の組み合わせによるものであり得る。特定の項目をカバーする運営契約（Operating Agreement）がない場合、既定の規則が適用される（例：当該法域で採用されている場合はRULLCA）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "LLC（有限責任会社）の設立"
+  },
+  {
+    "id": 7,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "C. Pre-Formation Contract Liability",
+    "ruleTitle": "Liability of Promoter for Pre-Incorporation Contracts",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• A **promoter** is a person who acts on behalf of a corporation that has not yet been formed. Under the RMBCA, a person is _personally liable_ for any liabilities arising from their conduct when **(1)** he ***purports to act as or on behalf of a corporation***, **(2) *knowing that no corporation was formed*** (actual knowledge is required). If multiple promoters are liable, then each will be jointly and severally liable. A promoter **remains personally liable** for pre-incorporation contracts _even if_ the corporation subsequently adopts the contract. In such a situation, _both_ the corporation and the promoter are liable.\n  ○ A promoter may itself be a business entity (such as a corporation, sole proprietorship, partnership, or LLC), in which case the promoter entity may be liable on the contract. Additionally, where the liable promoter entity is a sole proprietorship or partnership, its owners will also be liable because a sole proprietor and the partners of a partnership are personally liable for the entity’s debts.\n• **However**, **a promoter will NOT be liable if**: **(a)** there is a ***subsequent novation*** (an agreement by all parties to substitute the corporation for the promoter and to relieve the promoter of the contractual obligation); **OR (b)** the ***contract explicitly provides*** that the promoter has no personal liability on the contract.\n• If the promoter is liable to a third-party, he will normally be entitled to indemnification from the corporation (_unless_ he violated a fiduciary duty in entering the contract).",
+    "meeTips": [
+      "Although the area of pre-formation contracts for LLC’s is unresolved, generally the same principles apply whether the entity to be formed is a corporation or an LLC."
+    ],
+    "examHistory": [
+      "Feb 2026, Essay 2",
+      "Feb 2011, Essay 7",
+      "July 2005, Essay 2",
+      "July 1999, Essay 7"
+    ],
+    "translation": "• **発起人（Promoter）**とは、未だ設立されていない法人に代わって行為する者である。RMBCAの下では、**（1）**その者が***法人として、または法人を代表して行為しようとし***、**（2）***法人が設立されていないことを知っている***（現実の認識が必要である）場合、その行為から生じるいかなる責任に対しても、その者は_個人責任を負う_。複数の発起人（Promoter）が責任を負う場合、各々は連帯して責任を負う。発起人（Promoter）は、法人が後に契約を承認した_としても_、設立前契約（Pre-Incorporation Contract）に対して**個人責任を負い続ける**。このような状況では、法人と発起人（Promoter）の_双方が_責任を負う。\n○ 発起人（Promoter）自体が事業体（法人、個人事業主、パートナーシップ、またはLLCなど）である場合があり、その場合、発起人（Promoter）事業体が契約上の責任を負う可能性がある。さらに、責任を負う発起人（Promoter）事業体が個人事業主またはパートナーシップである場合、個人事業主およびパートナーシップのパートナーは事業体の債務に対して個人責任を負うため、その所有者も責任を負う。 • **しかしながら**、**発起人（Promoter）は以下のいずれかの場合には責任を負わない**。**（a）***その後の更改（Novation）***（発起人（Promoter）の代わりに法人を立て、発起人（Promoter）を契約上の義務から解放することにすべての当事者が合意すること）がある場合。**または（b）**契約が、発起人（Promoter）が契約上の個人責任を負わないことを***明示的に規定している***場合。\n• 発起人（Promoter）が第三者に対して責任を負う場合、通常、法人からの補償（Indemnification）を受ける権利がある（ただし、契約締結において受託者義務（Fiduciary Duty）に違反した場合を除く）。",
+    "meeTipTranslation": "LLCの設立前契約（Pre-Incorporation Contract）の分野は未解決であるが、一般的に、設立される事業体が法人であるかLLCであるかにかかわらず、同じ原則が適用される。",
+    "ruleTitleJa": "設立前契約（Pre-Incorporation Contract）における発起人（Promoter）の責任"
+  },
+  {
+    "id": 8,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "C. Pre-Formation Contract Liability",
+    "ruleTitle": "Liability of Corporation for Pre-Incorporation Contracts",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• A **corporation is NOT liable** on pre-incorporation contracts entered into by a promoter UNLESS the corporation expressly or impliedly adopts the contract post-incorporation. A corporation may **expressly adopt** a pre-incorporation contract (i.e. by Board of Director action or by reference in the corporation’s formation documents). **Implied adoption** occurs when the corporation: **(1)** has reason to know or ***knows the material terms of the contract***; **AND (2) *accepts some benefit*** from the contract.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 2",
+      "July 2005, Essay 2",
+      "July 1999, Essay 7"
+    ],
+    "translation": "• **法人**は、発起人（Promoter）が締結した設立前契約（Pre-Incorporation Contract）について、設立後に明示的または黙示的に契約を承認しない限り、**責任を負わない**。法人は、設立前契約（Pre-Incorporation Contract）を**明示的に承認する**ことができる（すなわち、取締役会の決議によるか、または法人の設立文書における言及による）。**黙示的承認**は、法人が**（1）**契約の重要な条件を知る理由があるか、または***知っており***、**かつ（2）**契約から***何らかの利益を受け入れる***場合に生じる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "設立前契約（Pre-Incorporation Contract）における会社の責任"
+  },
+  {
+    "id": 9,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "C. Pre-Formation Contract Liability",
+    "ruleTitle": "Defective Incorporation & Owner Liability",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• If corporate formation is defective, then the owners may be subject to personal liability for contracts or obligations under general partnership principles (since the owners are _personally liable for ALL obligations of the partnership_). If there is only one owner, similar personal liability would arise under sole-proprietorship principles.\n• However, a person’s liability may be LIMITED under any of the following ways:\n  ○ Under the **RMBCA**, a person is only _personally liable_ for liabilities arising from their conduct when **(1) *he purports to act as or on behalf of a corporation***, **(2) *knowing that no corporation was formed*** (actual knowledge is required). An erroneous \"good faith\" belief that the corporation was properly formed WILL NOT subject the person to liability. If multiple persons are liable, then each will be jointly and severally liable.\n  ○ Under the **De Facto Corporation** doctrine, a defective corporation enjoys the same benefits and powers of a properly formed corporation – including limited liability. A de facto corporation exists where the entity: **(1)** made a ***good faith attempt*** to incorporate; **(2)** is otherwise ***eligible*** to incorporate; **AND (3)** took some ***action indicating that it considered itself a corporation***. HOWEVER, only a person who was ***unaware*** that the corporation was not properly formed may assert the de facto corporation doctrine.\n  ○ Under the **Incorporation by Estoppel** doctrine, any person or entity that ***treated a business as a corporation may be estopped from denying that the business is corporation***, _even if_ a valid corporation was NOT formed. The doctrine of incorporation by estoppel applies to BOTH: (a) third-parties that treated the business as a corporation; and (b) an entity that held itself out as a corporation and benefited from that claim. HOWEVER, the incorporation by estoppel doctrine **DOES NOT apply to tort actions**.\n• The defective incorporation principles above apply to both active and inactive participants of the business.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2018, Essay 6"
+    ],
+    "translation": "• 法人の設立に瑕疵がある場合、所有者は一般組合の原則（所有者は_組合のすべての義務に対して個人責任を負う_ため）に基づき、契約または義務に対して個人責任を負う可能性がある。所有者が一人である場合、同様の個人責任は個人事業主の原則に基づき生じる。\n• しかしながら、個人の責任は以下のいずれかの方法で制限される可能性がある。\n  ○ **RMBCA**の下では、**（1）***その者が法人として、または法人を代表して行為しようとし***、**（2）***法人が設立されていないことを知っている***（現実の認識が必要である）場合、その行為から生じる責任に対して、その者は_個人的にのみ責任を負う_。法人が適切に設立されたという誤った「善意の」信念は、その者に責任を負わせることはない。複数の者が責任を負う場合、各々は連帯して責任を負う。\n  ○ **事実上の法人（De Facto Corporation）**の法理の下では、瑕疵のある法人は、適切に設立された法人と同じ利益と権限（有限責任を含む）を享受する。事実上の法人（De Facto Corporation）は、事業体が**（1）**法人設立の***善意の試み***を行い、**（2）**その他法人設立の***資格があり***、**かつ（3）**自らを法人とみなしていることを示す***何らかの行動をとった***場合に存在する。しかしながら、法人が適切に設立されていないことを***知らなかった***者のみが事実上の法人（De Facto Corporation）の法理を主張できる。\n  ○ **禁反言による法人設立（Incorporation by Estoppel）**の法理の下では、有効な法人が設立されなかった_としても_、***事業を法人として扱った***いかなる者または事業体も、その事業を法人として扱ったとみなされる。禁反言による法人設立の法理は、**双方**に適用される。（a）事業を法人として扱った第三者、および（b）自らを法人であると称し、その主張から利益を得た事業体。しかしながら、禁反言による法人設立の法理は**不法行為訴訟には適用されない**。\n• 上記の瑕疵ある法人設立の原則は、事業の積極的な参加者と非積極的な参加者の双方に適用される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "設立の瑕疵と所有者の責任"
+  },
+  {
+    "id": 10,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "D. Personal Liability & Piercing the Veil",
+    "ruleTitle": "Personal Liability & Piercing the Veil",
+    "priority": "HIGH",
+    "frequency": "7 of 65 Exams",
+    "body": "• Generally, shareholders, directors, and officers are **NOT *personally liable* for the liabilities and obligations of the corporation**. However, courts may disregard the corporate form and hold individual corporate shareholders, directors, and officers personally liable for actions taken on behalf of the corporate entity. **A court will pierce the corporate veil and hold the shareholders personally liable** in the following situations: **(1)** the corporation is acting as the ***alter ego*** of the shareholders – where there is little or no separation between the shareholder and the corporation (i.e. where an individual utilizes the corporate form for personal reasons); **(2)** where the shareholders ***failed to follow corporate formalities***; **(3)** the corporation was ***inadequately capitalized*** at its inception to cover debts and prospective liabilities; **OR (4)** to ***prevent fraud***.\n• A court is more likely to pierce the corporate veil for tort actions rather than contract disputes. Normally, **passive investors** who do not participate in the business will NOT be held liable, _even if_ the court pierces the veil. The same factors are applied to hold a parent company liable for the acts of its subsidiary.\n• **Courts will generally *apply the same factors* above to pierce the veil of a Limited Liability Company and hold members or managers personally liable**, BUT the failure to follow formalities is _not_ a ground for piercing the LLC veil.\n• Even if a court does not pierce the veil, ***a person is always personally liable for their own torts*** (i.e. negligence), even while acting as an agent for a corporation or organization.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2026, Essay 2",
+      "July 2023, Essay 2",
+      "July 2013, Essay 6",
+      "July 2012, Essay 8",
+      "July 2007, Essay 9",
+      "Feb 2003, Essay 7",
+      "Feb 1998, Essay 6"
+    ],
+    "translation": "• 一般に、株主、取締役、および役員は**法人の債務および義務について個人的に責任を負わない**。しかし、裁判所は法人格を否認し、個々の法人株主、取締役、および役員に対し、法人格を代表して行われた行為について個人的責任を負わせることがある。**裁判所は法人格否認の法理（Piercing the Corporate Veil）を適用し、以下の状況において株主に個人的責任を負わせる**。(1) 法人が株主の***分身（alter ego）***として機能している場合、すなわち株主と法人の間にほとんど、または全く分離がない場合（例：個人が個人的な理由で法人格を利用している場合）。(2) 株主が***法人としての形式を遵守しなかった***場合。(3) 法人が設立当初から債務および将来の負債を賄うのに***資本が不十分であった***場合。**または (4)** ***詐欺を防止するため***。• 裁判所は、契約紛争よりも不法行為訴訟において法人格否認の法理（Piercing the Corporate Veil）を適用する可能性が高い。通常、事業に参加しない**受動的な投資家**は、裁判所が法人格否認の法理（Piercing the Corporate Veil）を適用したとしても、_責任を負わない_。親会社が子会社の行為に対して責任を負う場合にも、同じ要素が適用される。\n• **裁判所は通常、上記と*同じ要素*をメンバーまたはマネージャーの個人的責任に適用する**が、形式の不遵守はLLCの法人格否認の根拠とは_ならない_。\n• 裁判所が法人格否認の法理（Piercing the Corporate Veil）を適用しない場合でも、***個人は常に自身の不法行為***（すなわち過失）について個人的責任を負うものであり、それは法人または組織の代理人として行動している間であっても同様である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "個人的責任と法人格否認"
+  },
+  {
+    "id": 11,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "E. Corporate Finance",
+    "ruleTitle": "Common & Preferred Shares",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under the RMBCA, if the Articles of Incorporation authorize the issue of only one class of shares, it is _not_ necessary to provide a designation for said shares. It's understood that those shares will have ***both* the power to vote *and* the power to receive the net assets of the corporation upon dissolution**.\n• If more than one class or series of shares is authorized, then the terms, preferences, rights, and limitations of each class of shares MUST be described in the Articles of Incorporation. ***All shares within a class or series must have the same rights, privileges, restrictions, and responsibilities***. However, the RMBCA, allows variations within a class/series if it's expressly set forth in the Articles of Incorporation.\n• Generally, **Common Shares** provide shareholders with voting rights, although they are the last in priority to be entitled to a distribution of company assets. Shareholders with **Preferred Shares** are generally ***entitled to be paid out from company assets upon dissolution *before* shareholders with common shares***. However, Preferred Shares usually _do not_ carry voting rights. In order for the corporation to issue Preferred Shares, the same must be described in the Articles of Incorporation. A class of shares with preferential dividend rights is entitled to receive dividends or distributions before other classes.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2000, Essay 7"
+    ],
+    "translation": "• RMBCA（模範事業会社法）に基づき、定款が1種類の株式のみの発行を承認している場合、当該株式の指定を設ける必要は_ない_。これらの株式は、***議決権と解散（Dissolution）時における法人の純資産を受け取る権利の*両方***を有すると理解される。\n• 複数の種類の株式またはシリーズの株式が承認されている場合、各種類の株式の条件、優先権、権利、および制限は定款に記載されなければならない。***ある種類またはシリーズ内のすべての株式は、同一の権利、特権、制限、および責任を有しなければならない***。しかし、RMBCAは、定款に明示的に規定されている場合、種類/シリーズ内での変動を認めている。\n• 一般に、**普通株式（Common Stock）**は株主に議決権を付与するが、会社の資産分配を受ける優先順位は最後である。**優先株式（Preferred Stock）**を有する株主は、一般に***普通株式（Common Stock）の株主に*先立って*解散（Dissolution）時に会社資産から支払いを受ける権利がある***。しかし、優先株式（Preferred Stock）は通常、議決権を_有しない_。法人が優先株式（Preferred Stock）を発行するためには、その旨が定款に記載されなければならない。優先配当権を有する種類の株式は、他の種類の株式に先立って配当または分配を受ける権利がある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "普通株式（Common Stock）と優先株式（Preferred Stock）"
+  },
+  {
+    "id": 12,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "E. Corporate Finance",
+    "ruleTitle": "Authorized, Outstanding, & Reacquired Shares",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Authorized shares are the ***maximum number of shares a corporation may issue***, as set forth in the Articles of Incorporation. A corporation is NOT allowed to issue more shares than authorized. To increase the number of shares allowed to be issued: (1) the Articles of Incorporation must be amended; (2) the changes must be adopted by the Board of Directors; AND (3) the changes must be approved by a majority vote of the shareholders.\n• Outstanding shares are the ***total number of shares issued*** by the corporation and held by the shareholders. Under the RMBCA, **each outstanding share is entitled to *one vote*** (regardless of class), UNLESS otherwise provided in the Articles of Incorporation.\n• Reacquired shares by the corporation (also called treasury shares) are considered ***authorized shares, but are not outstanding shares*** of the corporation. These reacquired shares are **NOT allowed to be voted** at a shareholders meeting.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2010, Essay 9",
+      "Feb 2000, Essay 7"
+    ],
+    "translation": "• 授権株式（Authorized Shares）とは、定款に定められた、***法人が発行できる株式の最大数***である。法人は、授権株式（Authorized Shares）数を超えて株式を発行することは許されない。発行可能な株式数を増加させるには、(1) 定款を修正し、(2) 取締役会がその変更を採択し、かつ (3) 株主の過半数の議決によりその変更が承認されなければならない。\n• 発行済株式（Issued Shares）とは、法人が***発行し、株主が保有する株式の総数***である。RMBCAに基づき、定款に別段の定めがない限り、**各発行済株式（Issued Shares）は（種類にかかわらず）*1議決権*を有する**。\n• 法人により再取得された株式（自己株式（Treasury Stock）とも呼ばれる）は、法人の***授権株式（Authorized Shares）とみなされるが、発行済株式（Issued Shares）ではない***。これらの再取得された株式は、株主総会において**議決権を行使することは許されない**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "授権株式（Authorized Shares）、発行済株式（Issued Shares）、自己株式（Treasury Stock）"
+  },
+  {
+    "id": 13,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "E. Corporate Finance",
+    "ruleTitle": "Consideration in Exchange for Shares",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under the RMBCA, ***shares may be issued in exchange for almost any type of consideration***, including: money; tangible or intangible property; past performance of services to the corporation (including services in establishing the corporation); and future promises of service (i.e. stock options) or payment of money/property to the corporation.\n  ○ Some states only allow shares to be issued in exchange for cash, property, or services previously rendered.\n• The Board of Directors may determine the value of any non-monetary consideration given, and absent fraud or bad faith, their determination is ***conclusive*** on the issue. The value determined is important in the context of a corporation whose Articles of Incorporation set a par value for shares, as shares CANNOT be issued for less than par value in that instance.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2000, Essay 7"
+    ],
+    "translation": "• 修正模範事業会社法（RMBCA）に基づき、***株式はほぼあらゆる種類の対価と引き換えに発行され得る***。これには、金銭、有形または無形の財産、会社に対する過去の役務提供（会社の設立における役務を含む）、および将来の役務提供の約束（すなわち、ストックオプション）または会社への金銭/財産の支払いが含まれる。\n  ○ 一部の州では、株式は現金、財産、または以前に提供された役務との引き換えにのみ発行が許可されている。\n• 取締役会は、提供された非金銭的対価の価値を決定することができ、詐欺または悪意がない限り、その決定は当該問題に関して***最終的である***。決定された価値は、定款が株式の額面価格を定めている会社の場合において重要である。なぜなら、その場合、株式は額面価格未満で発行することはできないからである。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株式に対する対価"
+  },
+  {
+    "id": 14,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "E. Corporate Finance",
+    "ruleTitle": "Dividends & Distributions to Shareholders",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• Decisions to declare dividends or make distributions to shareholders are ***within the discretion*** of the Board of Directors, and are normally protected under the business judgment rule. However, the business judgment rule presumption may be rebutted if a shareholder shows that the directors breached their fiduciary duty of care or duty of loyalty. Only the Board of Directors have the power to issue dividends (an Officer _cannot_). Once a distribution is declared, the shareholder affected has a legal right to that distribution.\n• Generally, a shareholder **DOES NOT** have the right to compel a corporation to issue a distribution (whether in the form of a dividend or otherwise), UNLESS such right is expressly granted in the Articles of Incorporation. However, some courts will interfere with the Board’s discretion and **order a dividend/distribution** upon a showing: **(1)** of ***bad faith*** or ***dishonest purpose***; **AND (2)** that ***funds were available*** for the dividend/distribution.\n  ○ Examples of bad faith include: intense hostility to minority shareholders; exclusion of the minority from employment by the corporation; high salaries, bonuses, or corporate loans made to the officers in control; that the majority group may be subject to high personal income taxes if substantial dividends are paid; and a desire by the controlling directors to acquire the minority stock interests as cheaply as possible.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 2",
+      "July 2019, Essay 3",
+      "Feb 2010, Essay 5",
+      "Feb 2005, Essay 1"
+    ],
+    "translation": "• 配当の宣言または株主への分配の決定は、取締役会の***裁量に委ねられており***、通常、経営判断の原則（Business Judgment Rule (BJR)）によって保護される。しかし、株主が取締役が善管注意義務（Duty of Care）または忠実義務（Duty of Loyalty）に違反したことを示した場合、経営判断の原則（Business Judgment Rule (BJR)）による推定は反証され得る。配当を発行する権限は取締役会のみが有する（役員は_有しない_）。一度分配が宣言されると、影響を受ける株主はその分配に対する法的権利を有する。\n• 一般に、株主は、定款にそのような権利が明示的に付与されていない限り、会社に分配（配当の形式であるか否かを問わず）の発行を強制する権利を**有しない**。しかし、一部の裁判所は、以下のことが示された場合、取締役会の裁量に介入し、**配当/分配を命じる**ことがある。**(1)** ***悪意***または***不正な目的***の存在、**かつ (2)** 配当/分配のための***資金が利用可能であった***こと。\n○ 悪意の例としては、少数株主に対する激しい敵意、会社による少数派の雇用からの排除、支配的な役員に対する高額な給与、ボーナス、または会社からの融資、多額の配当が支払われた場合に多数派グループが高額な個人所得税の対象となる可能性があること、および支配的な取締役が少数株主の株式持分を可能な限り安価に取得しようとする意図が挙げられる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主への配当と分配"
+  },
+  {
+    "id": 15,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder Meetings: Right to Vote & Record Date",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Only shareholders that are ***registered shareholders on record date are entitled to vote*** at a shareholders meeting. Thus, the owner of shares on the record date is entitled to vote those shares at the upcoming shareholders meeting ***even if*** he sells the shares before the meeting occurs (the transferee is _not_ entitled to vote). However, if the shareholder executed an irrevocable proxy in favor of the buyer of the shares, then the buyer (_not_ the record date shareholder) will be able to vote the shares at the meeting.\n• Under the RMBCA, the Bylaws may fix or provide the method of fixing the record date, BUT the record date ***cannot be more than 70 days prior*** to the shareholder meeting. If not otherwise fixed, the record date is the ***day before the first notice is delivered*** to shareholders.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2010, Essay 9",
+      "Feb 2001, Essay 7"
+    ],
+    "translation": "• 基準日における***登録株主のみが株主総会で議決権を有する***。したがって、基準日における株式の所有者は、会議開催前に株式を売却した***としても***、来る株主総会で当該株式の議決権を行使する権利を有する（譲受人は議決権を_有しない_）。しかし、株主が株式の買主のために取消不能な委任状（Proxy）を執行した場合、買主（基準日株主_ではない_）が総会で当該株式の議決権を行使することができる。\n• 修正模範事業会社法（RMBCA）に基づき、付属定款（Bylaws）は基準日を定めるか、基準日を定める方法を規定することができるが、基準日は株主総会の***70日を超えて前倒しすることはできない***。別途定められていない場合、基準日は***最初の通知が株主に送達される日の前日***である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主総会：議決権と基準日"
+  },
+  {
+    "id": 16,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder Meetings: Proxy Voting & Revocation of a Proxy",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• Under the RMBCA, a shareholder may vote her shares at a shareholders meeting without physically attending the meeting through the use of a proxy. **A valid proxy must be *signed* on: (a) an *appointment form***; **OR (b) *an electronic transmission***. An oral proxy appointment is _invalid_. A proxy MUST be accepted if on its face there are ***no reasonable grounds*** to deny its genuineness and authenticity.\n• An individual who is granted the power to vote another’s shares by a proxy MUST act in accordance with any agreement between the parties (if the shareholder directs the proxy holder to vote a certain way, then the proxy holder must do so). A shareholder may also grant a proxy holder the ability to vote shares as the proxy holder deems appropriate. A proxy is only valid for 11 months, unless the proxy provides otherwise.\n• ***Proxy agreements are freely revocable by the shareholder, even if the proxy states that it is irrevocable*** (any action inconsistent with the grant of the proxy acts as a revocation). One **exception** to this rule is a **proxy coupled with an interest or legal right**, which is ***irrevocable*** if the proxy expressly states as such.\n• Under the RMBCA, proxy appointments coupled with an interest include: (1) a pledgee (a person who lends money and accepts a pledge for the loan); (2) a person who purchased or agreed to purchase the shares; (3) a creditor of the corporation who extended it credit; (4) an employee of the corporation whose employment contract requires the appointment; or (5) a party to a voting agreement.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2010, Essay 9",
+      "Feb 2006, Essay 5",
+      "July 2004, Essay 2",
+      "Feb 2001, Essay 7"
+    ],
+    "translation": "• RMBCAに基づき、株主は委任状（Proxy）を用いることにより、株主総会に物理的に出席することなく議決権を行使することができる。**有効な委任状（Proxy）は、(a) **委任状（Proxy）用紙**、**または** (b) ***電子的送信*** のいずれかにより***署名***されなければならない。口頭による委任状（Proxy）の委任は_無効_である。委任状（Proxy）は、その外見上、その真正性および真正性を否定する***合理的な根拠***がない限り、受理されなければならない。\n• 委任状（Proxy）により他者の株式の議決権を行使する権限を与えられた個人は、当事者間の合意に従って行動しなければならない（株主が代理人に特定の投票方法を指示した場合、代理人はそれに従わなければならない）。株主はまた、代理人が適切と判断する方法で株式の議決権を行使する能力を代理人に与えることもできる。委任状（Proxy）は、別途定めがない限り、11ヶ月間のみ有効である。\n• ***委任状（Proxy）契約は、委任状（Proxy）に取消不能である旨が記載されていても、株主によって自由に取消可能である***（委任状（Proxy）の付与と矛盾するいかなる行為も取消しとして作用する）。この規則の唯一の**例外**は、**利害または法的権利を伴う委任状（Proxy）**であり、委任状（Proxy）に明示的にその旨が記載されている場合、それは***取消不能***である。\n• RMBCAに基づき、利害を伴う委任状（Proxy）の委任には、(1) 質権者（金銭を貸し付け、その貸付に対する質権を受け入れる者）、(2) 株式を購入した者または購入に合意した者、(3) 会社に信用供与を行った会社の債権者、(4) 雇用契約により委任を義務付けられている会社の従業員、または (5) 議決権行使契約（Voting Agreement）の当事者が含まれる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主総会：委任状（Proxy）投票と委任状（Proxy）の撤回"
+  },
+  {
+    "id": 17,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder Meetings: Annual Meetings, Special Meetings, & Notice",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Annual Meetings: A corporation shall hold an annual meeting of the shareholders at a date/time stated in the bylaws. Generally, the directors are elected at the annual meeting.\n• Special Meetings: A special meeting is one held separate from the annual meeting, and may be called by: (a) the Board of Directors; (b) persons authorized under the Articles of Incorporation or Bylaws; OR (c) by the holders of at least 10% of all votes entitled to be cast at the meeting.\n  ○ A special meeting requires proper ***notice*** to the **shareholders who are entitled to vote**. Notice MUST: **(1)** be given ***at least 10 days in advance*** of the meeting (but not more than 60 days); **(2)** ***include a full description of the purpose*** of the meeting; **AND (3)** include the ***date, time, and place***. If the meeting concerns a fundamental change in the corporation (i.e. dissolution), ALL shareholders (whether or not entitled to vote) are entitled to notice of the meeting.\n• **A shareholder may waive notice by**: **(a)** delivering a ***signed writing*** to the corporation; **OR (b)** ***attending the meeting and not objecting*** at the beginning of the meeting (or by not objecting to a particular matter that is not within the purpose described in the meeting notice).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2006, Essay 5"
+    ],
+    "translation": "• 年次総会：会社は、定款に定められた日時において、株主の年次総会を開催しなければならない。通常、取締役は年次総会で選任される。\n• 臨時総会：臨時総会は、年次総会とは別に開催されるものであり、以下の者によって招集され得る。(a) 取締役会、(b) 定款または細則に基づき権限を与えられた者、または (c) 会議で投じられるべきすべての議決権の少なくとも10%を保有する者。\n  ○ 臨時総会には、**議決権を有する株主**に対する適切な***通知***が必要である。通知は、**(1)** 総会の***少なくとも10日前まで***に（ただし60日を超えない範囲で）なされ、**(2)** 総会の***目的の完全な説明を含み***、**かつ (3)** ***日付、時間、および場所***を含まなければならない。会社における根本的な変更（例：解散（Dissolution））に関する総会である場合、**すべての株主**（議決権の有無にかかわらず）は、その総会の通知を受ける権利を有する。\n• **株主は、以下の方法により通知を放棄することができる**。**(a)** 会社に***署名入りの書面***を提出する**か**、**または (b)** 会議の冒頭で***会議に出席し異議を述べない***ことによって（または会議通知に記載された目的の範囲外の特定の事項について異議を述べないことによって）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主総会：年次総会、特別総会"
+  },
+  {
+    "id": 18,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder Meetings: Quorum & Voting",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A **quorum** MUST be present in order for the shareholders to take action at a meeting. Unless the Articles of Incorporation provide a greater number, **a quorum exists when a *majority of the shares entitled to vote are present***.\n• If a quorum exists, action on a matter (other than the election of directors) is approved if a ***majority of votes*** are cast in favor of the action UNLESS the articles of incorporation require a greater number of votes. ***Each outstanding share is entitled to one vote*** on every matter voted on at a shareholders meeting (unless the Articles of Incorporation provide otherwise).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2006, Essay 5",
+      "Feb 2001, Essay 7"
+    ],
+    "translation": "• 株主が会議で行動を起こすためには、**定足数（Quorum）**が存在しなければならない。定款がより多数を定めていない限り、**議決権を有する株式の***過半数が出席***している場合に定足数（Quorum）が存在する**。\n• 定足数（Quorum）が存在する場合、事項（取締役の選任を除く）に関する行動は、定款がより多数の議決権を要求しない限り、***過半数の議決権***がその行動に賛成して投じられた場合に承認される。***各発行済株式（Issued Shares）は、株主総会で議決されるすべての事項について1議決権を有する***（定款が別途定めていない限り）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主総会：定足数（Quorum）と議決"
+  },
+  {
+    "id": 19,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder Meetings: Election of Directors",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under the RMBCA (and most states), the candidates who receive the most votes (a ***plurality vote***) will be elected as Directors at a shareholders meeting where a quorum is present, _even if_ the Director(s) do not receive a majority of the votes. In some states, a majority of the vote is necessary.\n• If the Articles of Incorporation provide for **cumulative voting**, each shareholder has a number of votes that is equal to the shares owned, multiplied by the number of director spots open for election (i.e. 100 shares owned x 3 nominees = 300 votes). A shareholder may ***cast all his votes for one director nominee*** rather than being limited to a maximum number of votes for each nominee.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2001, Essay 7"
+    ],
+    "translation": "• 改訂模範事業会社法（およびほとんどの州）の下では、定足数（Quorum）が存在する株主総会において、取締役が過半数の票を得られなかった_としても_、最も多くの票（***相対多数票（Plurality Vote）***）を得た候補者が取締役として選任される。一部の州では、過半数の票が必要である。\n• 定款に**累積投票（Cumulative Voting）**が規定されている場合、各株主は、保有株式数に選任される取締役の席数を乗じた数の票を有する（例：保有株式100株 × 候補者3名 = 300票）。株主は、各候補者に対する最大票数に制限されることなく、***一人の取締役候補者に全ての票を投じる***ことができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主総会：取締役の選任"
+  },
+  {
+    "id": 20,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder’s Right to Inspect Books and Records",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• Under the RMBCA, ***a shareholder has an unqualified right to inspect and copy*** the following records of the corporation (during regular business hours at the corporation’s principal office) by providing _at least_ 5-days written notice: (i) Articles of Incorporation; (ii) Bylaws; (iii) Resolutions by the Board of Directors concerning the classification of shares; (iv) Minutes of shareholder meetings for the past 3 years; (v) written communications sent to the shareholders within the last 3 years; (vi) names and business addresses of the current Directors and Officers; and (vii) its most recent Annual Report.\n• Additionally, a shareholder has the right to inspect and copy certain accounting records (annual financial statements prepared for the corporation for its last three fiscal years and any audit/other reports with respect to such financial statements), excerpts of the Board of Directors’ meeting minutes, and the record of shareholders ONLY IF: **(1)** the inspection is made during ***regular business hours*** at a reasonable location specified by the corporation; **(2)** the shareholder provides ***at least 5-days written notice***; **(3)** the demand is made in ***good faith and for a proper purpose***; **(4)** the ***purpose is described with particularity***; **AND (5)** the records are ***directly connected with the purpose***.\n  ○ A proper purpose is a purpose _reasonably relevant_ to the shareholder’s interest as a shareholder. The following have been deemed to be a proper purpose: (a) determination of the value of shares; (b) whether the corporation engaged in illegal conduct; (c) to investigate wrongdoing or mismanagement; and/or (d) to protect the shareholder’s financial interest in the corporation, the interest in voting or selling shares, or bringing a lawsuit to protect those interests.\n  ○ To show good faith, the shareholder must present some evidence to establish a credible basis to infer possible wrongdoing (a mere suspicion is insufficient). A good faith interest in exposing/preventing wrongdoing is sufficient.\n• The right of inspection CANNOT be abolished or limited by a corporation’s Articles of Incorporation or Bylaws.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 3",
+      "July 2020, Essay 2",
+      "Feb 2017, Essay 4",
+      "Feb 2010, Essay 5"
+    ],
+    "translation": "• 改訂模範事業会社法の下では、株主は、_少なくとも_5日前の書面による通知を行うことにより、会社の以下の記録を（会社の本店における通常の営業時間中に）***無条件に閲覧・謄写する権利を有する***：(i)定款、(ii)付属定款（Bylaws）、(iii)株式の種類に関する取締役会決議、(iv)過去3年間の株主総会議事録、(v)過去3年間に株主宛に送付された書面による通知、(vi)現在の取締役および役員の氏名と事業所住所、ならびに(vii)直近の年次報告書。\n• さらに、株主は、特定の会計帳簿（会社の直近3会計年度のために作成された年次財務諸表および当該財務諸表に関する監査報告書その他の報告書）、取締役会議事録の抜粋、および株主名簿を閲覧・謄写する権利を有するが、それは以下の条件を**全て満たす場合**に限る：**(1)**閲覧が会社が指定する***合理的な場所における通常の営業時間中***に行われること、**(2)**株主が***少なくとも5日前の書面による通知***を行うこと、**(3)**請求が***誠実かつ正当な目的***で行われること、**(4)*****目的が具体的に記述される***こと、**かつ(5)**記録が***その目的に直接関連している***こと。\n○ 正当な目的とは、株主としての株主の利益に_合理的に関連する_目的である。以下のものが正当な目的とみなされてきた：(a)株式の価値の決定、(b)会社が違法行為を行ったか否かの確認、(c)不正行為または経営上の不手際を調査するため、および／または(d)会社における株主の経済的利益、議決権行使または株式売却の利益、またはそれらの利益を保護するための訴訟提起を保護するため。\n○ 誠実を示すためには、株主は、不正行為の可能性を推測するに足る信頼できる根拠を確立するための何らかの証拠を提示しなければならない（単なる疑念では不十分である）。不正行為を暴くこと／防止することに対する誠実な利益は十分である。\n• 閲覧権は、会社の定款または付属定款（Bylaws）によって廃止または制限することはできない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主の帳簿・記録閲覧権"
+  },
+  {
+    "id": 21,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder Voting Agreements & Trusts",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• **Voting Agreements**: Shareholders may sign an agreement providing _how they will vote their shares_.\n  ○ Requirements: To be enforceable, the voting agreement MUST **(1) *be in writing***, **AND (2) *signed by all participating shareholders***.\n  ○ Durational Limit: A shareholder voting agreement has ***no durational limit***. It is governed by contract principles, and is not revocable unless it would be under prevailing contract law.\n  ○ Enforcement: A voting agreement is ***specifically enforceable***, and a claim for breach of contract may be brought to enforce this right. In such instance, a court may order the votes cast as the agreement contemplates. The voting agreement may also provide its own enforcement mechanism.\n  ○ Limitations: A shareholder _voting_ agreement CANNOT remove a shareholders' right to elect or remove directors or concern the management of the corporation by the Board of Directors (e.g. election of officers). It also CANNOT remove a director or officer's powers. However, such items MAY be agreed upon and enforced if it complies with the \"Shareholder Management Agreements\" rule.\n• **Voting Trusts**: A shareholder voting trust is _more formal_ than a voting agreement. For voting trusts, the trustee will vote the shares in accordance with the terms of the Voting Trust Agreement. Typically, a voting trust will provide that all aspects of beneficial ownership (_other than the power to vote_) are retained by the voting trust beneficial owners (the shareholders who entered into the trust agreement).\n  ○ Requirements: A voting trust requires: **(1)** the shareholders ***sign an agreement*** setting out the provisions of the trust, **(2)** that legal ownership of the ***shares be transferred to the trust***; **AND (3) *proper notice to the corporation*** – the trustee must provide the Voting Trust Agreement to the corporation (at its principal office), along with a list of the names and addresses the beneficial owners of the shares (the shareholders who entered into the trust agreement).\n  ○ Effective Date: A voting trust becomes effective on the date when the ***first shares are registered in the trustee's name***.\n  ○ Durational Limit: The current version of the MBCA ***does not* impose a durational limit** for a shareholder voting trust. However, **previous versions of the MBCA imposed a maximum 10-year durational limit**. For voting trusts created under the prior act, the 10-year limit still applies (unless the trust is amended by unanimous agreement of the parties).",
+    "meeTips": [],
+    "examHistory": [
+      "July 1997, Essay 6"
+    ],
+    "translation": "• **議決権行使契約（Voting Agreement）**：株主は、_その株式をどのように議決権行使するか_を定める契約を締結することができる。\n  ○ 要件：強制力を持つためには、当該議決権行使契約（Voting Agreement）は** (1) *書面によるものであること***、**AND (2) *参加するすべての株主によって署名されていること***が**必須**である。\n  ○ 期間制限：株主議決権行使契約（Voting Agreement）には***期間制限がない***。これは契約法原則に準拠し、現行の契約法に基づき撤回可能である場合を除き、撤回することはできない。\n  ○ 強制執行：議決権行使契約（Voting Agreement）は***特定履行可能***であり、この権利を強制するために契約違反の請求が提起され得る。そのような場合、裁判所は、契約が想定する通りに議決権を行使するよう命じることができる。当該議決権行使契約（Voting Agreement）は、独自の強制執行メカニズムを定めることもできる。\n  ○ 制限：株主_議決権行使_契約は、取締役を選任または解任する株主の権利を排除したり、取締役会による会社の経営（例：役員の選任）に関与したりすることは**できない**。また、取締役または役員の権限を排除することも**できない**。ただし、そのような事項は、「株主による経営協定」の規則に準拠する場合、合意され、強制執行されることが**できる**。\n• **議決権信託（Voting Trust）**：株主議決権信託（Voting Trust）は、議決権行使契約（Voting Agreement）よりも_より形式的_である。議決権信託（Voting Trust）においては、受託者（Fiduciary）が議決権信託（Voting Trust）契約の条項に従って株式を議決権行使する。通常、議決権信託（Voting Trust）は、実質的支配権のあらゆる側面（_議決権を除く_）が、議決権信託（Voting Trust）の受益者（信託契約を締結した株主）によって保持されることを定める。\n  ○ 要件：議決権信託（Voting Trust）には以下が必要である：** (1) ** 株主が、信託の規定を定める***契約に署名すること***、** (2) ** 株式の法的所有権が***信託に譲渡されること***、**AND (3) *会社への適切な通知*** – 受託者（Fiduciary）は、会社（その本店）に議決権信託（Voting Trust）契約と、株式の実質的所有者（受益者）（信託契約を締結した株主）の氏名と住所のリストを提供しなければならない。\n  ○ 発効日：議決権信託（Voting Trust）は、***最初の株式が受託者（Fiduciary）の名義で登録された***日に発効する。\n  ○ 期間制限：MBCAの現行版は、株主議決権信託（Voting Trust）に***期間制限を課して*いない**。しかし、**MBCAの以前のバージョンでは、最長10年間の期間制限を課していた**。以前の法律に基づいて作成された議決権信託（Voting Trust）については、10年制限が依然として適用される（ただし、当事者全員の合意により信託が改正された場合を除く）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主議決権契約と信託"
+  },
+  {
+    "id": 22,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder Management Agreements",
+    "priority": "LOW",
+    "frequency": "0 of 65 Exams",
+    "body": "• Under the MBCA, **the shareholders of a corporation may make virtually any agreement that governs the *exercise of corporate powers, management of the corporation*, AND/OR *the relationship between shareholders, directors, and the corporation***.\n  ○ This includes the following: eliminating the board of directors; restricting the discretion or powers of the board of directors; making distributions or dividends; establishing directors or officers, including their removal or terms of office; governing voting power of shareholders or directors; the authority to exercise corporate power; or dissolution events and procedures.\n• Requirements: To be valid, the shareholder agreement must be set forth in either **(a)** the ***Articles of Incorporation*** or ***Bylaws*** with approval of ALL shareholders; **OR (b)** a ***written agreement, signed by ALL shareholders***, and the agreement is ***made known to the corporation***. Unanimous shareholder approval is required regardless of the shareholder's entitlement to vote.\n• Limitations: Shareholder agreements have several limitations. **First**, the agreement CANNOT be contrary to public policy, meaning it cannot override core principals of public policy with respect to corporate affairs (e.g. eliminating all standards of conduct for directors). **Second**, a valid shareholder agreement is only effective upon the parties to the agreement, their transferees, and the corporation. It DOES NOT have any binding legal effect on the State, creditors, or third-persons.\n• Notice to Subsequent Purchasers/Transferees of Shares:\n  ○ The existence of a shareholder agreement MUST be ***noted conspicuously*** on **(a) *each share certificate***, **OR (b)** the required ***Information Statement*** when shares are issued without certificates. However, the failure to note the existence of the agreement on either DOES NOT affect the validity of the agreement, but it may provide a subsequent purchaser or transferee of the shares with the right of rescission.\n  ○ **When shares are transferred to a purchaser *without knowledge*** of the shareholder agreement, the purchaser has the ***right to rescind*** the transaction. A purchaser will be deemed to have knowledge of the agreement if its existence is noted on the Share Certificates or Information Statement. An action for rescission must be commenced _within the earlier of_: (a) 90-days after discovery of the agreement, or (b) 2-years after the purchase of shares.\n• Termination & Durational Limit:\n  ○ **The agreement may provide for its termination upon the occurrence of a specific event or condition** (such as a public offering). Under prior versions of the MBCA, the agreement would cease to be effective when the corporation becomes a public corporation. Under the current MBCA, such automatic termination _does not_ occur when the corporation becomes a public corporation (unless it is a stated event in the agreement).\n  ○ The current version of the MBCA ***does not* impose a durational limit** for a shareholder agreement. However, **previous versions of the MBCA imposed a maximum 10-year durational limit**. For agreements entered into under the prior act, the 10-year limit still applies (unless the 10-year term is amended by all shareholders).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• MBCAに基づき、**会社の株主は、*会社の権限の行使、会社の経営*、**および/または***株主、取締役、会社間の関係*を規定するほぼあらゆる合意を締結することができる**。\n  ○ これには以下のものが含まれる：取締役会の廃止；取締役会の裁量権または権限の制限；分配または配当の実施；取締役または役員の設置（解任または任期を含む）；株主または取締役の議決権の統制；会社の権限を行使する権限；または解散（Dissolution）事由および手続き。\n• 要件：有効であるためには、株主契約は、**(a)** ***定款***または***付属定款（Bylaws）***に記載され、**全ての**株主の承認を得るか、**または(b)** ***全ての株主によって署名された書面による合意***であり、その合意が***会社に知らされている***必要がある。株主の議決権の有無にかかわらず、全株主の同意が必要である。\n• 制限：株主契約にはいくつかの制限がある。**第一に**、この契約は公序良俗に反してはならず、会社の事項に関する公序良俗の核心的な原則を覆すことはできない（例：取締役の全ての行動基準を廃止する）。**第二に**、有効な株主契約は、契約当事者、その譲受人、および会社に対してのみ有効である。国、債権者、または第三者に対しては、いかなる法的拘束力も持たない。\n• 株式のその後の購入者/譲受人への通知：\n  ○ 株主契約の存在は、**(a) *各株券***、**または(b)** 株券なしで株式が発行される場合の必須の***情報声明書***に***明瞭に記載***されなければならない。しかし、いずれかに契約の存在を記載しなかったとしても、契約の有効性には影響しないが、株式のその後の購入者または譲受人に解除権を与える可能性がある。\n  ○ **株式が株主契約を*知らない*購入者に譲渡された場合**、購入者は取引を***解除する権利***を有する。購入者は、株券または情報声明書にその存在が記載されていれば、契約を知っていたものとみなされる。解除の訴えは、_以下のいずれか早い方で_提起されなければならない：(a) 契約の発見から90日以内、または (b) 株式購入から2年以内。\n• 終了および期間制限：\n  ○ **契約は、特定の出来事または条件（公開買付けなど）の発生時にその終了を規定することができる**。MBCAの以前のバージョンでは、会社が公開会社になったときに契約は効力を失った。現在のMBCAでは、会社が公開会社になったとしても、そのような自動的な終了は_発生しない_（契約で明記された出来事である場合を除く）。\n  ○ MBCAの現行バージョンは、株主契約に***期間制限を*課していない***。しかし、**MBCAの以前のバージョンでは、最長10年の期間制限が課されていた**。以前の法律の下で締結された契約については、10年間の制限が依然として適用される（全株主によって10年の期間が修正されない限り）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主経営契約"
+  },
+  {
+    "id": 23,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "F. Shareholders",
+    "ruleTitle": "Shareholder Right of Expression & Submitting Proposed Resolutions",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• The practice of a shareholder submitting a “Proposed Resolution” at a Shareholder Meeting is ***generally accepted***, even though not specifically authorized under the MBCA.\n• However, **a Corporation may exclude shareholder proposals that are *improper under state law***.\n  ○ Only ***non-binding or precatory* (expressing a wish or request) resolutions ARE PROPER** for submission to a shareholder vote. For example, proposals cast as _recommendations or requests_ that the Board of Directors take a specified action are proper (_unless_ the company demonstrates otherwise).\n  ○ A **proposal that is *binding upon*** the Corporation or Board of Directors is generally **NOT PROPER**. An exception to this rule exists for a resolution requiring corporate action by amending the Bylaws; such proposals are deemed proper.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2020, Essay 2"
+    ],
+    "translation": "• 株主総会で株主が「提案決議」を提出する慣行は、MBCAで具体的に認可されていないものの、***一般的に認められている***。\n• しかし、**会社は、州法に基づき***不適切である***株主提案を除外することができる**。\n  ○ ***非拘束的または勧告的（希望や要請を表明する）決議のみが***株主投票に提出するのに***適切である***。例えば、取締役会が特定の行動を取ることを_勧告または要請_として提示される提案は適切である（_ただし_、会社が別途証明する場合を除く）。\n  ○ 会社または取締役会を***拘束する***提案は、一般的に**不適切である**。この規則には、付属定款（Bylaws）を修正することによって会社行動を要求する決議に対する例外が存在し、そのような提案は適切であるとみなされる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主の意見表明権と提案提出"
+  },
+  {
+    "id": 24,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "G. Directors",
+    "ruleTitle": "Board of Directors Shall Exercise All Corporate Powers",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• A corporation’s Board of Directors generally make decisions for the corporation.\n• All corporate powers shall be exercised by the Board of Directors, _unless_: (a) the Shareholders’ Agreement provides otherwise; and/or (b) such powers are limited by the Articles of Incorporation.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 2",
+      "July 2022, Essay 3",
+      "Feb 2022, Essay 3"
+    ],
+    "translation": "• 会社の取締役会は一般的に会社のために意思決定を行う。\n• すべての会社権限は取締役会によって行使されるものとする、_ただし_：(a) 株主合意が別途規定する場合、および/または (b) そのような権限が定款によって制限される場合を除く。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "取締役会は会社の全ての権限を行使する"
+  },
+  {
+    "id": 25,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "G. Directors",
+    "ruleTitle": "Board of Directors Meeting: Quorum",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• Under the RMBCA, the Board of Directors ***can only act if a quorum is present***. **A *majority* of the Board of Directors is necessary to make a quorum**, UNLESS there are provisions in the Articles of Incorporation stating that a higher or lower number is required. However, the Articles of Incorporation MUST require that ***at least one-third*** of the directors be present to make a quorum.\n• A quorum must be present _at the time when a vote is taken_. If a quorum is present at the beginning of a meeting, but directors subsequently leave breaking the quorum before a vote, then the Board of Directors CANNOT vote or act.\n• The Board of Directors may permit any or all Directors to participate in regular or special meetings by any means of communication, BUT all ***directors participating must be able to simultaneously hear each other during the meeting***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 3",
+      "Feb 2022, Essay 3",
+      "Feb 2012, Essay 9"
+    ],
+    "translation": "• 修正模範会社法に基づき、取締役会は***定足数（Quorum）を満たしている場合にのみ行動できる***。**定足数（Quorum）を満たすためには取締役会の*過半数*が必要である**。ただし、定款にそれよりも多いまたは少ない人数が必要である旨の規定がある場合はこの限りではない。しかし、定款は定足数（Quorum）を満たすために***少なくとも3分の1***の取締役が出席することを義務付けなければならない。\n• 定足数（Quorum）は_採決が行われる時点_で存在していなければならない。会議の開始時に定足数（Quorum）が存在していても、その後に取締役が退席し、採決前に定足数（Quorum）を満たさなくなった場合、取締役会は採決または行動を行うことはできない。\n• 取締役会は、あらゆる通信手段により、取締役の全部または一部が定時または臨時会議に参加することを許可できる。ただし、***参加するすべての取締役は会議中に互いに同時に聞き取れる***必要がある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "取締役会：定足数（Quorum）"
+  },
+  {
+    "id": 26,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "G. Directors",
+    "ruleTitle": "Board of Directors Meeting: Voting & Objection to Actions",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• If a quorum of the Board of Directors is present when a vote is taken at a meeting, **an act is approved by the *affirmative vote of a majority of directors present*** UNLESS the Articles of Incorporation or bylaws require a greater number.\n• A director who is present at a meeting of the Board of Directors when corporate action is taken is **deemed to have assented** to the action taken UNLESS: **(a)** the director ***objects*** at the beginning of the meeting (or promptly upon arrival) to holding it or transacting business at the meeting; **(b)** the dissent or abstention from the action taken is ***entered into the meeting minutes***; **OR (c)** the director delivers ***written notice*** of the director’s dissent or abstention to the presiding officer of the meeting before its adjournment or to the corporation immediately after adjournment of the meeting. **The right of dissent or abstention is NOT available to a director who *votes in favor* of the action taken**.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 3",
+      "Feb 2022, Essay 3"
+    ],
+    "translation": "• 会議で採決が行われる際に取締役会の定足数（Quorum）が存在する場合、定款または付属定款（Bylaws）がより多くの数を要求しない限り、**行為は*出席取締役の過半数の賛成票*によって承認される**。\n• 会社行動が取られる取締役会の会議に出席している取締役は、以下のいずれかに該当しない限り、その取られた行動に**同意したものとみなされる**。**(a)** 当該取締役が会議の開始時（または到着後速やかに）に会議の開催または会議での事業の処理に***異議を唱える***場合。**(b)** 取られた行動に対する異議または棄権が***議事録に記載される***場合。**または (c)** 当該取締役が、会議の閉会前に会議の議長に対し、または会議の閉会直後に会社に対し、当該取締役の異議または棄権の***書面による通知***を提出する場合。**反対または棄権の権利は、採択された行為に*賛成票を投じた*取締役には認められない**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "取締役会：議決と行為に対する異議"
+  },
+  {
+    "id": 27,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "G. Directors",
+    "ruleTitle": "Board of Directors Meeting: Notice & Waiver",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under the RMBCA, the Board of Directors may hold regular or special meetings. Unless the Articles of Incorporation provide otherwise, **regular meetings may be held *without* notice**, whereas **special meetings require *at least two days’ notice***. The notice must provide the date, time, and place of the special meeting (the purpose of the meeting is _not_ required).\n• A Director may **waive notice** in a ***signed writing***. Waiver also occurs if the Director ***attends the meeting***, **UNLESS** the Director: **(1) *objects*** at the beginning of the meeting (or promptly upon arrival); **AND (2) *does not vote*** at the meeting.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 3",
+      "Feb 2012, Essay 9"
+    ],
+    "translation": "• 修正模範会社法に基づき、取締役会は定時または臨時会議を開催できる。定款に別段の定めがない限り、**定時会議は通知*なしに*開催できる**一方、**臨時会議は*少なくとも2日前の通知*を要する**。通知には臨時会議の日付、時刻、場所を記載しなければならない（会議の目的は_不要_である）。\n• 取締役は***署名された書面***により**通知を放棄できる**。通知の放棄は、取締役が***会議に出席する***場合にも発生する。**ただし**、当該取締役が：**(1) 会議の開始時（または到着後速やかに）に*異議を唱え***、**かつ (2) 会議で*投票しない***場合はこの限りではない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "取締役会：招集通知と放棄"
+  },
+  {
+    "id": 28,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "G. Directors",
+    "ruleTitle": "Board Action by Written Consent",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Generally, the Board of Directors can only take action at a meeting. However (unless the Articles of Incorporation or bylaws provide otherwise), **action may be taken *without a meeting*** by the Board of Directors if: **(1)** each director ***signs a consent*** describing the action to be taken; **AND (2) *delivers it*** to the corporation. A director may withdraw his consent by a signed revocation delivered to the corporation _prior to_ the corporation receiving the written consents signed by the other directors.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 1997, Essay 4"
+    ],
+    "translation": "• 一般に、取締役会は会議においてのみ行為を行うことができる。しかし（定款または付属定款（Bylaws）に別段の定めがある場合を除き）、取締役会は以下の条件を満たす場合に、**会議なしで行為を行うことができる**。**(1)** 各取締役が、行われる行為を記述した***同意書に署名し***、**かつ (2)** それを会社に***交付する***場合である。取締役は、会社が他の取締役が署名した書面による同意書を受領する_前に_、署名された撤回書を会社に交付することにより、その同意を撤回することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "書面による同意による取締役会の行為"
+  },
+  {
+    "id": 29,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "G. Directors",
+    "ruleTitle": "Removal of Directors",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under the RMBCA (and most states), **shareholders may remove Directors *with or without cause*** UNLESS the Articles of Incorporation only allow removal for cause. At common law, Directors could only be removed for cause. **Cause** to remove a director exists when that director violates a fiduciary duty, including engaging in self-dealing, usurping a corporate opportunity, or committing waste.\n  ○ A director may be **removed by the shareholders** only at (1) a meeting called for the purpose of removing the director, and (2) the meeting notice must state that the purpose (or one of the purposes) of the meeting is removal of the director.\n• If the corporation uses straight voting, then a director MAY be removed only if the number of ***votes cast to remove exceeds the number of votes cast not to remove*** the director. If cumulative voting is authorized, a director CANNOT be removed if the ***number of votes cast against removal would have been sufficient to elect the director*** under cumulative voting.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2004, Essay 2"
+    ],
+    "translation": "• RMBCA（およびほとんどの州）の下では、株主は*理由の有無にかかわらず*取締役を解任できる。ただし、定款が理由のある解任のみを許可している場合を除く。コモンローでは、取締役は理由がある場合にのみ解任され得た。取締役を解任する**正当な理由**は、当該取締役が受託者義務（Fiduciary Duty）に違反した場合に存在する。これには、自己取引に従事すること、会社の機会（Corporate Opportunity）を奪うこと、または会社財産を浪費することが含まれる。\n  ○ 取締役は、(1) 取締役の解任を目的として招集された会議においてのみ、株主によって解任され得る。また、(2) 会議の招集通知には、会議の目的（または目的の一つ）が取締役の解任である旨を記載しなければならない。\n• 会社が単純投票を用いる場合、取締役は、***解任に投じられた票数が解任しないことに投じられた票数を超える***場合にのみ解任され得る。累積投票（Cumulative Voting）が許可されている場合、累積投票（Cumulative Voting）の下で、***解任に反対する票数が当該取締役を選任するのに十分であったであろう場合***、取締役は解任され得ない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "取締役の解任"
+  },
+  {
+    "id": 30,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "H. Officers",
+    "ruleTitle": "Authority of Officers",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• The Board of Directors may elect individuals as Officers (i.e. President, Vice-President, Secretary) to manage the dayto-day business of the corporation.\n• An officer has **actual authority** to act consistently with their duties: (a) as outlined in the Bylaws; OR (b) as provided by the Board of Directors. An officer has **apparent authority** to bind the corporation when: **(1)** a ***third-party reasonably believes*** the person/entity has authority to act on behalf of the corporation; **AND (2)** that ***belief is traceable to the corporation’s manifestations*** (the corp. holds the officer out as having authority).\n• The President of a corporation generally has **implied authority** to bind the corporation for matters within its ***ordinary course of business***, BUT DOES NOT have authority to bind the corporation for ***extraordinary acts***.\n  ○ An act or transaction is within the ordinary course of business if it’s ***normal and necessary for managing the business*** – a person would reasonably conclude the act is directly and necessarily embraced within the corporation’s business. Prosecuting a lawsuit in the name of the corporation is normally within the ordinary course of business.\n• The Secretary of the corporation normally has the authority to ***maintain and authenticate the records*** of the corporation.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2005, Essay 1",
+      "Feb 1999, Essay 6",
+      "Feb 1997, Essay 4"
+    ],
+    "translation": "• 取締役会は、会社の日常業務を管理するために、個人を役員（すなわち、社長、副社長、秘書役）として選任することができる。\n• 役員は、その職務に合致して行動する**現実的権限（Actual Authority）**を有する。(a) 付属定款（Bylaws）に概説されている通り、または (b) 取締役会によって定められている通りである。役員は、以下の条件を満たす場合に会社を拘束する**表見的権限（Apparent Authority）**を有する。**(1)** ***第三者が、当該人物/団体が会社を代表して行動する権限を有すると合理的に信じる***場合、**かつ (2)** その***信念が会社の表明に由来する***場合（会社が当該役員に権限があるかのように見せかける場合）である。\n• 会社の社長は、通常、会社の***通常の事業の範囲内***の事項について会社を拘束する**黙示の権限**を有するが、***非日常的な行為***について会社を拘束する権限は有しない。\n  ○ 行為または取引が通常の事業の範囲内であるのは、それが***事業の管理にとって通常かつ必要である***場合である。すなわち、当該行為が会社の事業に直接的かつ必然的に含まれると合理的に結論付けられるであろう場合である。会社の名前で訴訟を提起することは、通常、通常の事業の範囲内である。\n• 会社の秘書役は、通常、会社の***記録を維持し、認証する***権限を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "役員の権限"
+  },
+  {
+    "id": 31,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "H. Officers",
+    "ruleTitle": "Removal of Officers",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• An Officer may be removed at ***any time with or without cause*** by: (a) the Board of Directors; (b) the Officer who appointed such Officer, unless the Bylaws or the Board of Directors provide otherwise; OR (c) any other Officer, if authorized by the Bylaws or the Board of Directors. An officer’s removal DOES NOT affect the officer’s contract rights (if any) with the corporation.",
+    "meeTips": [],
+    "examHistory": [
+      "July 1997, Essay 6"
+    ],
+    "translation": "• 役員は、***いつでも理由の有無を問わず***、以下の者により解任され得る。(a) 取締役会、(b) 当該役員を任命した役員（ただし、定款または取締役会が別途定める場合を除く）、または (c) 定款または取締役会により権限を与えられた他の役員。役員の解任は、当該役員が会社と有する契約上の権利（もしあれば）に影響を与えない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "役員の解任"
+  },
+  {
+    "id": 32,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "I. Members & Managers",
+    "ruleTitle": "Management of an LLC",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• Under RULLCA, an LLC is presumed to be ***member- managed* UNLESS** the Operating Agreement provides otherwise.\n• A ***manager-managed*** LLC is run by an elected group of managers, who manage the business similarly to a board of directors. To constitute a manager-managed LLC, the Operating Agreement must state that the LLC will be manager-managed (i.e. that the LLC is “manager-managed”, “managed by managers”, or management is “vested in managers”).\n• By default, each member (in a member-managed LLC) _or_ manager (in a manager-managed LLC) has ***equal rights in the management*** and conduct of the company’s activities. As such, each member/manager has authority to bind the LLC for contracts within the _ordinary business_ of the LLC.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 1",
+      "Sept 2020, Essay 5",
+      "July 2016, Essay 1"
+    ],
+    "translation": "• RULLCAに基づき、LLCは、運営契約（Operating Agreement）が別途定める場合を**除き**、***メンバー管理型（Member-Managed）***であると推定される。\n• ***マネージャー管理型（Manager-Managed）***LLCは、取締役会と同様に事業を管理する、選任されたマネージャーのグループによって運営される。マネージャー管理型（Manager-Managed）LLCを構成するためには、運営契約（Operating Agreement）において、LLCがマネージャー管理型（Manager-Managed）であること（すなわち、LLCが「マネージャー管理型（Manager-Managed）」であること、「マネージャーによって管理される」こと、または経営が「マネージャーに帰属する」こと）を明記しなければならない。\n• デフォルトでは、各メンバー（メンバー管理型（Member-Managed）LLCの場合）_または_各マネージャー（マネージャー管理型（Manager-Managed）LLCの場合）は、会社の活動の管理および遂行において***平等な権利***を有する。そのため、各メンバー／マネージャーは、LLCの_通常の事業_範囲内の契約についてLLCを拘束する権限を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "LLC（有限責任会社）の経営"
+  },
+  {
+    "id": 33,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "I. Members & Managers",
+    "ruleTitle": "Authority of Members and Managers of an LLC",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• Under RULLCA and general agency principles, **each member or manager** of an LLC generally ***has authority to bind the LLC for the purpose of its business*** (including entering into contracts). However, the default rules under RULLCA may be modified by the members in the Operating Agreement.\n• A member/manager has **express actual authority** to bind the LLC upon receiving said authority from the Operating Agreement or from the managing members/managers. The Operating Agreement may restrict certain activities without unanimous or majority consent (i.e. non-ordinary business transactions).\n  ○ A difference/disagreement among members for an **act within the ordinary course** of the LLC’s business may be decided by a ***majority*** of the members.\n  ○ While **extraordinary acts** (acts outside the ordinary course of business or amending the Operating Agreement) may be undertaken _only with_ the ***consent of* ALL *members***.\n• A member/manager has **implied actual authority** (also known as incidental authority) to take actions that are ***reasonably incidental or necessary*** to achieve the member/ manager’s authorized duties.\n• A member/manager has **apparent authority** to bind the LLC for all acts apparently conducted ***within the ordinary course of the LLC’s business***. A member/manager’s act will NOT bind the LLC if: (1) the member/manager lacked authority; AND (2) the third-party knew (actual knowledge) or had notice that the member/manager lacked authority.\n• An act or transaction is within the ordinary course of business if it is ***normal and necessary for managing the business*** – a person would reasonably conclude the act is directly and necessarily embraced within the company’s business.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 1",
+      "July 2023, Essay 2",
+      "Sept 2020, Essay 5",
+      "July 2016, Essay 1"
+    ],
+    "translation": "• RULLCAおよび一般的な代理の原則に基づき、LLCの**各メンバーまたはマネージャー**は、一般的にその事業目的のためにLLCを拘束する権限を***有する***（契約締結を含む）。しかし、RULLCAに基づくデフォルトの規則は、運営契約（Operating Agreement）においてメンバーによって変更され得る。\n• メンバー／マネージャーは、運営契約（Operating Agreement）または管理メンバー／マネージャーから当該権限を与えられた場合、LLCを拘束する**明示的実権限**を有する。運営契約（Operating Agreement）は、全員一致または過半数の同意なしに特定の活動（すなわち、通常の事業取引ではないもの）を制限し得る。\n  ○ LLCの事業の**通常の範囲内の行為**に関するメンバー間の意見の相違／不一致は、メンバーの***過半数***によって決定され得る。\n  ○ 一方、**特別行為**（通常の事業範囲外の行為または運営契約（Operating Agreement）の変更）は、***全メンバーの同意***_がある場合にのみ_行われ得る。\n• メンバー／マネージャーは、その承認された職務を達成するために***合理的に付随的または必要***な行動をとる**黙示的実権限**（付随的権限とも呼ばれる）を有する。\n• メンバー／マネージャーは、LLCの***通常の事業範囲内で***明らかに遂行されたすべての行為についてLLCを拘束する**表見代理権**を有する。メンバー／マネージャーの行為は、以下のいずれかの場合にはLLCを拘束しない。(1) メンバー／マネージャーに権限がなかった場合、**かつ** (2) 第三者がメンバー／マネージャーに権限がないことを知っていた（現実の知識）または通知を受けていた場合。\n• 行為または取引が通常の事業範囲内であるとは、それが***事業を管理するために通常かつ必要***である場合を指す。すなわち、その行為が会社の事業に直接的かつ必然的に含まれると合理的に結論付けられる場合である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "LLCの社員およびマネージャーの権限"
+  },
+  {
+    "id": 34,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "J. Close Corporations & Control Devices",
+    "ruleTitle": "Preemptive Rights",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A preemptive right is the right of an existing shareholder to maintain her percentage of ownership in the corporation by being offered the opportunity to purchase shares of the corporation issued for cash before outsiders are permitted to purchase them.\n• Under the RMBCA, shareholders **DO NOT** enjoy preemptive rights ***unless*** such rights are explicitly granted in the corporation's Articles of Incorporation. **Additionally, preemptive rights DO NOT apply to**: **(1)** shares ***issued as compensation***; **(2)** shares ***issued to satisfy conversion or option rights*** created to provide compensation; **(3)** shares ***authorized in the Articles of Incorporation that are issued within 6 months*** of incorporation; **(4)** shares ***issued for consideration other than money***; **OR (5)** shares issued ***without general voting rights but with preferential rights to distributions***.\n• Shareholders of common stock DO NOT have preemptive rights with respect to preferred shares ***unless*** the preferred shares are convertible into common shares.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2000, Essay 7"
+    ],
+    "translation": "• 先買権（Pre-emptive Rights）とは、既存株主が、部外者が購入を許される前に、現金で発行される会社の株式を購入する機会を提供されることにより、会社における自己の持株比率を維持する権利である。\n• 改正模範事業会社法（RMBCA）の下では、株主は、かかる権利が会社の定款に明示的に付与されていない限り、先買権（Pre-emptive Rights）を**享受しない**。**加えて、先買権（Pre-emptive Rights）は以下には適用されない**：**(1)** ***報酬として発行された***株式；**(2)** 報酬を提供するために創設された***転換権または選択権を満たすために発行された***株式；**(3)** ***定款に授権され、会社設立から6ヶ月以内に発行された***株式；**(4)** ***金銭以外の対価で発行された***株式；**または (5)** ***一般的な議決権を持たないが分配に対する優先権を有する***株式。\n• 普通株式（Common Stock）の株主は、優先株式（Preferred Stock）が普通株式（Common Stock）に転換可能でない限り、優先株式（Preferred Stock）に関して先買権（Pre-emptive Rights）を有しない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "先買権（Pre-emptive Rights）"
+  },
+  {
+    "id": 35,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "J. Close Corporations & Control Devices",
+    "ruleTitle": "Restrictions on Share Transfers",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under the RMBCA, the Articles of Incorporation, bylaws, and shareholder agreements **may impose restrictions on the transfer of shares of the corporation for: (a) *any reasonable purpose***; **(b)** to preserve exemptions under federal or state securities law; **OR (c)** to maintain the corporation's status when it is dependent on the number or identity of its shareholders. **An *absolute restraint* on the transfer of shares is invalid**. A restriction DOES NOT affect shares issued before the restriction was adopted UNLESS the holders of the shares are parties to the restriction agreement or voted in favor of it.\n• Reasonable restrictions on the transfer of shares may be enforced against the transferor shareholder. However, a valid share transfer restriction **CANNOT be enforced against the transferee UNLESS**: **(a)** the restriction was ***conspicuously noted on the stock certificate***; **OR (b)** the transferee had ***actual knowledge*** of the restriction.\n• Under the RMBCA, the following **restrictions are expressly allowed**: **(1)** a ***right of first refusal*** (the shareholder must first offer the corporation or other shareholders an opportunity to buy the shares); **(2)** the ***obligation of the corporation or other persons to acquire*** the shares; **(3)** to require the ***corporation or certain shareholders/persons to approve the transfer*** of shares, if not manifestly unreasonable; and **(4)** to ***prohibit the transfer to designated persons or classes of persons***, if not manifestly unreasonable.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2000, Essay 4"
+    ],
+    "translation": "• 改正模範事業会社法（RMBCA）の下では、定款、付属定款（Bylaws）、および株主間契約は、株式の譲渡に制限を課すことができる。かかる制限は、**(a)** ***合理的な目的***のために；**(b)** 連邦または州の証券法に基づく免除を維持するために；**または (c)** 株主の数または身元に依存する場合に会社の地位を維持するために、課されることができる。**株式譲渡の***絶対的な制限***は無効である**。制限は、当該株式の保有者が制限契約の当事者であるか、またはそれに賛成票を投じた場合を除き、制限が採用される前に発行された株式には影響を与えない。\n• 株式譲渡の合理的な制限は、譲渡人株主に対して執行され得る。しかし、有効な株式譲渡制限は、**(a)** 当該制限が***株券に明瞭に記載されていた***場合；**または (b)** 譲受人が当該制限の***現実の認識***を有していた場合**を除き、譲受人に対して執行することはできない**。\n• 改正模範事業会社法（RMBCA）の下では、以下の**制限が明示的に認められている**：**(1)** ***先買権（Pre-emptive Rights）***（株主はまず会社または他の株主に株式を購入する機会を提供しなければならない）；**(2)** 会社または他の者が株式を***取得する義務***；**(3)** 著しく不合理でない限り、***会社または特定の株主／者が株式の譲渡を承認する***ことを要求すること；および **(4)** 著しく不合理でない限り、***指定された者または特定の種類の者への譲渡を禁止すること***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株式譲渡制限"
+  },
+  {
+    "id": 36,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "K. Fiduciary Duties",
+    "ruleTitle": "Fiduciary Duties of Directors: Duty of Care",
+    "priority": "HIGH",
+    "frequency": "10 of 65 Exams",
+    "body": "• Directors are ***fiduciaries*** of a corporation, and as such ***owe a duty of care*** to the corporation. This means that they must discharge their duties: **(1)** in ***good faith***; **(2)** in a manner the Director ***reasonably believes to be in the best interests of the corporation***; **AND (3)** with the ***care that a person in a like position would reasonably believe appropriate under similar circumstances***. If this three-part test is satisfied, then a Director will NOT be liable for corporate decisions that resulted in adverse consequences to the corporation. Under the common law, the above test was known as the **Business Judgment Rule**.\n• The duty of care requires that Directors be ***adequately informed*** on the decisions they make. To be adequately informed, directors MUST be informed such that a person in a like position would reasonably believe to be appropriate under similar circumstances. If the board of directors are adequately informed, then a court will NOT interfere with the board’s business judgment.\n• A Director may rely on the **reasonable advice of advisors**, such as attorneys, accountants, officers, or Committees of the Board when: **(1)** such ***reliance was reasonable***; **AND (2)** the advisor or Committee was ***qualified to provide such advice***.\n• A court will NOT disturb decisions subject to the Business Judgment standard if a _rational business purpose_ exists. Additionally, a party attacking a board decision must normally rebut the presumption that its business judgment was an informed one. However, the **Business Judgment Rule DOES NOT apply or protect Directors**: **(i) *financially interested in a transaction*** (a conflict of interest); **(ii) *not acting in good faith***; **OR (iii)** who ***engaged in fraud or illegality***.\n• If a Director breaches the duty of care, he may be held personally liable to the corporation for any losses suffered as a result.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 2",
+      "July 2019, Essay 3",
+      "Feb 2017, Essay 4",
+      "July 2015, Essay 4",
+      "Feb 2009, Essay 9",
+      "Feb 2008, Essay 5",
+      "July 2006, Essay 5",
+      "Feb 2001, Essay 7",
+      "July 1997, Essay 6",
+      "July 1995, Essay 4"
+    ],
+    "translation": "• 取締役は会社の***受託者（Fiduciary）***であり、そのため会社に対して***注意義務（Duty of Care）を負う***。これは、取締役がその職務を：**(1)** ***誠実に***；**(2)** 取締役が***会社の最善の利益であると合理的に信じる***方法で；**かつ (3)** ***同様の立場にある者が同様の状況下において適切であると合理的に信じるような注意***をもって、遂行しなければならないことを意味する。この3つの要件が満たされる場合、取締役は、会社に不利な結果をもたらした会社の決定について責任を負わない。コモンローの下では、上記の要件は**経営判断の原則（Business Judgment Rule (BJR)）**として知られていた。\n• 注意義務（Duty of Care）は、取締役が下す決定について***適切に情報提供されている***ことを要求する。適切に情報提供されるためには、取締役は、同様の状況にある者が適切であると合理的に信じるであろう程度に情報提供されなければならない。取締役会が適切に情報提供されている場合、裁判所は取締役会の経営判断に干渉しない。\n• 取締役は、弁護士、会計士、役員、または取締役会委員会などの**顧問の合理的な助言**に、**(1)** かかる***依拠が合理的であった***場合；**かつ (2)** 当該顧問または委員会が***そのような助言を提供する資格があった***場合に、依拠することができる。\n• ***合理的な事業目的***が存在する場合、裁判所は経営判断の原則（Business Judgment Rule (BJR)）の対象となる決定を妨げない。加えて、取締役会の決定を攻撃する当事者は、通常、その経営判断が情報に基づいたものであったという推定を覆さなければならない。しかし、**経営判断の原則（Business Judgment Rule (BJR)）は、以下の取締役には適用されず、保護しない**：**(i) ***取引に金銭的利害関係がある***者（利益相反（Conflict of Interest））；**(ii) ***誠実に（または善意で）行動していない***者；**または (iii)** ***詐欺または違法行為に従事した***者。\n• 取締役が注意義務（Duty of Care）に違反した場合、その結果として被った損失について、会社に対して個人的に責任を負うことがある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "取締役の受託者責任（Fiduciary Duty）：注意義務（Duty of Care）"
+  },
+  {
+    "id": 37,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "K. Fiduciary Duties",
+    "ruleTitle": "Fiduciary Duties of Directors: Duty of Loyalty – Conflicting Interest Transaction",
+    "priority": "HIGH",
+    "frequency": "9 of 65 Exams",
+    "body": "• A Director owes the corporation a fiduciary duty of loyalty, which means that the Director, in his dealings with the corporation, _must act in the best interests of the corporation and without personal conflict_.\n• The **duty of loyalty forbids Directors from**: **(a)** entering into ***conflicting interest transactions***; **(b) *usurping a corporate opportunity***; **(c) *competing with the corporation***; **OR (d) *trading on inside information***.\n• A **conflicting interest transaction** with the corporation is a breach of the duty of loyalty UNLESS the Director shows that: **(a)** it was approved by ***a majority of disinterested Directors*** after full disclosure of all relevant material facts; **(b)** it was approved by a ***majority of disinterested Shareholders*** after full disclosure of all relevant material facts; **OR (c)** the ***transaction as a whole was fair*** to the corporation at the time it was entered into.\n  ○ Fairness exists when: **(1)** the _terms/price were comparable_ to what the corporation would receive in an arm's length transaction (***fair price***); **(2)** the transaction as a whole was _beneficial_ to the corporation (***beneficial***); **AND (3)** it was _fair in terms of the director's dealings_ with the corporation (***fair dealing***).\n    Under the MBCA, it's unclear if fair dealing is required for typical **intra-corporate group dealings** (not involving a change in control).\n  ○ Full disclosure occurs when the director discloses all known facts concerning the transaction that a reasonable person would believe necessary to make a decision.\n  ○ A quorum must be present to vote on a conflicting interest transaction. This exists when a ***majority of disinterested directors*** is present (_but_ there must be ***at least two*** disinterested directors to vote).\n• A **conflict of interest occurs** when the director/officer or a family member either: **(a)** is a ***party to the transaction***; **(b)** has a ***beneficial interest*** in the transaction or is so closely linked to it that the director's judgment may reasonably be affected; **OR (c)** is ***involved with another entity*** (director, employee, owner, etc.) ***that is conducting business with the corporation*** and that transaction would normally be brought before the Board of Directors because of its importance to the corporation.\n• The **Business Judgment Rule DOES NOT apply or protect Directors financially interested in a transaction or who engaged in fraud or illegality**.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 2",
+      "July 2022, Essay 3",
+      "Feb 2022, Essay 3",
+      "July 2019, Essay 3",
+      "July 2015, Essay 4",
+      "Feb 2009, Essay 9",
+      "Feb 2008, Essay 5",
+      "Feb 2002, Essay 7",
+      "July 1995, Essay 4"
+    ],
+    "translation": "• 取締役は会社に対し忠実義務（Duty of Loyalty）を負う。これは、取締役が会社との取引において、_会社の最善の利益のために、個人的な利益相反（Conflict of Interest）なく行動しなければならない_ことを意味する。\n• **忠実義務（Duty of Loyalty）は取締役が以下を行うことを禁じる**：**(a)** ***利益相反取引（Interested Director Transaction）***を行うこと；**(b) *会社の機会（Corporate Opportunity）を奪取する***こと；**(c) *会社と競業する***こと；**または (d) *インサイダー情報に基づいて取引する***こと。\n• 会社との**利益相反取引（Interested Director Transaction）**は、取締役が以下のいずれかを示す場合を除き、忠実義務（Duty of Loyalty）の違反となる：**(a)** すべての関連する重要事実の完全な開示の後、***利害関係のない取締役（Disinterested Directors）の過半数***によって承認されたこと；**(b)** すべての関連する重要事実の完全な開示の後、***利害関係のない株主の過半数***によって承認されたこと；**または (c)** ***取引全体が、締結時に会社にとって公正であった***こと。\n○ 公正性は以下の場合に存在する：**(1)** _条件/価格が_独立当事者間取引で会社が得るであろうものと_同等であった_こと（***公正な価格***）；**(2)** 取引全体が会社にとって_有益であった_こと（***有益性***）；**および (3)** 取締役の会社との_取引の観点から公正であった_こと（***公正な取引***）。\n  MBCAの下では、典型的な**企業グループ内取引**（支配権の変更を伴わないもの）において公正な取引が必要とされるかは不明である。完全な開示とは、取締役が、合理的な人が意思決定に必要と信じるであろう、その取引に関する既知のすべての事実を開示した場合に発生する。\n○ 利益相反取引（Interested Director Transaction）の議決には定足数（Quorum）が必要である。これは、***利害関係のない取締役（Disinterested Directors）の過半数***が出席している場合に存在する（_ただし_、議決には***少なくとも2名***の利害関係のない取締役（Disinterested Directors）が必要である）。\n**利益相反（Conflict of Interest）は**、取締役/役員またはその家族が以下のいずれかの場合に発生する：**(a)** ***取引の当事者***である場合；**(b)** 取引に***経済的利益***を有するか、または取締役の判断が合理的に影響を受けうるほど密接に関連している場合；**または (c)** ***会社と取引を行っている他の事業体***（取締役、従業員、所有者など）***に関与しており***、その取引が会社にとって重要であるため通常は取締役会に付議されるべきものである場合。\n• **経営判断の原則（Business Judgment Rule (BJR)）は、取引において財務上の利害関係を有する取締役、または詐欺もしくは違法行為に関与した取締役には適用されず、保護も与えない**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "取締役の受託者責任（Fiduciary Duty）：忠実義務（Duty of Loyalty） – 利益相反（Conflict of Interest）"
+  },
+  {
+    "id": 38,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "K. Fiduciary Duties",
+    "ruleTitle": "Fiduciary Duties of Directors: Duty of Loyalty – Usurping a Corporate Opportunity",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A Director owes the corporation a fiduciary duty of loyalty, which means that the Director, in his dealings with the corporation, _must act in the best interests of the corporation and without personal conflict_.\n• The **duty of loyalty forbids Directors from: (a)** entering into ***conflicting interest transactions***; **(b) *usurping a corporate opportunity***; **(c)** competing with the corporation; **OR (d) *trading on inside information***.\n• A **corporate opportunity** is any opportunity that: **(a)** the corporation has an ***interest/expectancy*** in; **OR (b)** is in the corporation’s ***line of business***.\n• A director/officer MAY ONLY pursue a corporate opportunity if he: **(1) *first presents it*** to the corporation’s Board of Directors; **AND (2)** the Board ***decides not to pursue*** the opportunity.\n• It is **NOT a defense** to show that the corporation would not have been financially able to take the opportunity.\n• Opportunities within a Corporate Group: For business opportunities within a corporate group (i.e. a parent/subsidiary corp. setting), courts have held that the parent corporation has some freedom in allocating the opportunity within the group.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2019, Essay 3"
+    ],
+    "translation": "• 取締役は会社に対し忠実義務（Duty of Loyalty）を負う。これは、取締役が会社との取引において、_会社の最善の利益のために、個人的な利益相反（Conflict of Interest）なく行動しなければならない_ことを意味する。\n• **忠実義務（Duty of Loyalty）は取締役が以下を行うことを禁じる：(a)** ***利益相反取引（Interested Director Transaction）***を行うこと；**(b) *会社の機会（Corporate Opportunity）を奪取する***こと；**(c)** 会社と競業すること；**または (d) *インサイダー情報に基づいて取引する***こと。\n• **会社の機会（Corporate Opportunity）**とは、以下のいずれかの機会である：**(a)** 会社が***利害関係または期待***を有するもの；**または (b)** 会社の***事業分野***に属するもの。\n• 取締役/役員は、以下の条件を満たす場合にのみ会社の機会（Corporate Opportunity）を追求することができる：**(1) *まず会社の取締役会に提示し***；**かつ (2)** 取締役会がその機会を***追求しないと決定する***こと。\n• 会社がその機会を得るための資金的余裕がなかったことを示すことは**抗弁とはならない**。\n• 企業グループ内の機会：企業グループ内（すなわち、親会社・子会社の関係）の事業機会については、裁判所は親会社がグループ内での機会の配分においてある程度の自由を有すると判断している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "取締役の受託者責任（Fiduciary Duty）：忠実義務（Duty of Loyalty） – 機会奪取"
+  },
+  {
+    "id": 39,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "K. Fiduciary Duties",
+    "ruleTitle": "Fiduciary Duties of Shareholders",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• Generally, **shareholders DO NOT owe fiduciary duties** to fellow shareholders, and they can act in their own selfinterest. However, certain exceptions to this general rule exist.\n• Close-Corporation Exception: Courts have found that **controlling shareholders in close-corporations *owe the fiduciary duties of loyalty and good faith and fair dealing* to minority shareholders** (which includes an obligation to disclose all material information). A close-corporation is one whose shares are not publicly traded and has only a small number of shareholders.\n• Controlling Shareholders Exception: Controlling shareholders (including parent corporations) generally ***owe fiduciary duties to other shareholders *and* their partially owned subsidiaries***. A controlling shareholder is a shareholder (or group of shareholders) that own the majority of the voting shares of a corporation, such that it has sufficient voting power to elect a majority of the board of directors for the corporation. In such cases, courts impose the fiduciary duty of loyalty upon controlling shareholders that mirrors the duty of loyalty owed by directors. The controlling shareholders CANNOT use their power to benefit themselves at the expense of the minority shareholders or the subsidiary. Generally, courts have examined business dealings between a controlling shareholder (such as a parent corporation) and the controlled corporation using a fairness test. When a parent corporation exercises control that prefers its own interest to the detriment of a subsidiary corporation, most courts require the parent corporation to show that the transaction was ***entirely fair*** to the subsidiary. However, when the transaction _does not_ involve self-dealing (e.g. dividends payable to all shareholders of the controlled corporation), then the \"business judgment\" standard applies. Note, the MBCA does not specify the duties of controlling shareholders.\n• If any of these duties are breached, the controlling shareholder may be held liable to the minority shareholders for any losses caused by the breach.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 2",
+      "July 2019, Essay 3",
+      "July 2006, Essay 5"
+    ],
+    "translation": "• 一般に、**株主は他の株主に対して忠実義務（Duty of Loyalty）を負わず**、自己の利益のために行動することができる。しかし、この一般原則には特定の例外が存在する。\n• 閉鎖会社例外：裁判所は、**閉鎖会社における支配株主は、少数株主に対して*忠実義務（Duty of Loyalty）、誠実義務および公正取引義務*を負う**（すべての重要情報を開示する義務を含む）と判断している。閉鎖会社とは、株式が公開取引されておらず、少数の株主しかいない会社である。\n• 支配株主例外：支配株主（親会社を含む）は一般に***他の株主*および*部分的に所有する子会社*に対して忠実義務（Duty of Loyalty）を負う***。支配株主とは、会社の議決権株式の過半数を所有し、会社の取締役会の過半数を選任するのに十分な議決権を有する株主（または株主グループ）である。このような場合、裁判所は支配株主に対し、取締役が負う忠実義務（Duty of Loyalty）に匹敵する忠実義務（Duty of Loyalty）を課す。支配株主は、少数株主または子会社を犠牲にして自己の利益のためにその権力を行使することはできない。一般に、裁判所は支配株主（親会社など）と被支配会社との間の取引を公正性テストを用いて審査してきた。親会社が子会社に不利益をもたらして自己の利益を優先する支配権を行使する場合、ほとんどの裁判所は親会社に対し、その取引が子会社にとって***完全に公正であった***ことを示すよう要求する。しかし、取引が自己取引を_伴わない_場合（例：被支配会社の全株主に支払われる配当）には、「経営判断」基準が適用される。なお、MBCAは支配株主の義務を明記していない。\n• これらの義務のいずれかが違反された場合、支配株主は、違反によって生じた損失について少数株主に対して責任を負う可能性がある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株主の受託者責任（Fiduciary Duty）"
+  },
+  {
+    "id": 40,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "K. Fiduciary Duties",
+    "ruleTitle": "Restricting/Eliminating Fiduciary Duties in a Corporation",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under the RMBCA, the **Articles of Incorporation *may eliminate or limit the personal liability of a director*** for any action taken or not taken EXCEPT for: **(a)** financial benefits improperly received; **(b)** intentional infliction of harm on the corporation or its shareholders; **(c)** unlawful corporate distributions; or **(d)** an intentional violation of criminal law.\n• Additionally, the Articles of Incorporation may provide for **indemnification of a director** for personal liability, _except_ for the four instances noted above.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2009, Essay 9"
+    ],
+    "translation": "• 修正模範事業会社法（RMBCA）に基づき、**定款は、取締役がとったまたはとらなかったいかなる行為に対する個人的責任を排除または制限することができる**。ただし、以下の場合は除く：**(a)** 不当に受領した金銭的利益；**(b)** 会社またはその株主に対する意図的な損害の付与；**(c)** 違法な会社分配；または **(d)** 刑法の意図的な違反。\n• さらに、定款は、上記の4つの場合を除き、取締役の個人的責任に対する**補償（Indemnification）**を規定することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "株式会社における受託者責任（Fiduciary Duty）の制限・排除"
+  },
+  {
+    "id": 41,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "K. Fiduciary Duties",
+    "ruleTitle": "Fiduciary Duties Owed by Members/Managers of an LLC",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams o",
+    "body": "• Under RULLCA, a **member** of a **Member-Managed LLC** owes the fiduciary duties of care and loyalty to the company and its members.\n  ○ **Duty of Care**: A member owes the duty of care to act: **(1)** with the ***care that a person in a like position would reasonably exercise under similar circumstances***; **AND (2)** in a manner the member ***reasonably believes to be in the best interests of the company***. If a member meets the requirements above, they CANNOT be held personally liable under the Business Judgment Rule.\n    The duty of care requires that members be ***reasonably informed*** on the decisions they make. A member **may rely in good faith** upon opinions, reports, statements, or other information provided by another person that the ***member reasonably believes is a competent and reliable*** source for the information.\n  ○ **Duty of Loyalty**: The duty of loyalty of a member includes the duties: **(1)** to ***account for any property, profit, or benefit the member derived*** from the LLC's activities or property, or from appropriation of an LLC opportunity; **(2)** to ***refrain from dealing with the LLC when an adverse interest to the LLC exists*** (_unless_ the transaction was fair to the LLC); **AND (3)** to ***refrain from competing*** with the LLC before its dissolution.\n    **HOWEVER, after *full disclosure of all material facts***, **ALL members may authorize an act or transaction that otherwise would violate the duty of loyalty**.\n• In a **Manager-Managed LLC**, the fiduciary duties of care and loyalty (as stated above) ***only apply to the managers***, and NOT the members. There are two notable points concerning the duty of loyalty in Manager-Managed LLC:\n  ○ First, only the members (_not_ the managers) may authorize an act or transaction that otherwise would violate the duty of loyalty.\n  ○ Second, a manager must refrain from competing with the LLC until winding up is completed (the duty does _not_ end upon dissolution).\n• Both members and managers MUST discharge their duties and exercise any rights consistently with the contractual ***obligation of good faith and fair dealing***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2013, Essay 6",
+      "July 2012, Essay 8",
+      "July 2007, Essay 9"
+    ],
+    "translation": "• 修正統一有限責任会社法（RULLCA）に基づき、**社員管理型有限責任会社**の**社員**は、会社およびその社員に対し、注意義務（Duty of Care）および忠実義務（Duty of Loyalty）を負う。\n  ○ **注意義務（Duty of Care）**：社員は、**(1)** ***同様の立場にある者が同様の状況下で合理的に行使するような注意をもって***；**かつ (2)** 社員が***会社の最善の利益であると合理的に信じる***方法で行動する注意義務（Duty of Care）を負う。社員が上記の要件を満たす場合、事業判断の原則（Business Judgment Rule (BJR)）に基づき個人的責任を負うことはない。\n    注意義務（Duty of Care）は、社員が下す決定について***合理的に情報に基づいている***ことを要求する。社員は、***社員が有能かつ信頼できる情報源であると合理的に信じる***他の者によって提供された意見、報告書、声明、またはその他の情報を**誠実に信頼することができる**。\n  ○ **忠実義務（Duty of Loyalty）**：社員の忠実義務（Duty of Loyalty）には以下が含まれる。**(1)** LLCの活動もしくは財産から、またはLLCの機会の流用から社員が得た***財産、利益、または便益を会計処理する***義務；**(2)** LLCに不利な利害が存在する場合に***LLCとの取引を差し控える***義務（取引がLLCにとって公正であった_場合を除く_）；**かつ (3)** 解散（Dissolution）前にLLCと***競業することを差し控える***義務。\n    **ただし、*すべての重要な事実の完全な開示の後*、すべての社員は、忠実義務（Duty of Loyalty）に違反するような行為または取引を承認することができる**。\n• **マネージャー管理型（Manager-Managed）有限責任会社**では、上記の注意義務（Duty of Care）および忠実義務（Duty of Loyalty）は***マネージャーにのみ適用***され、社員には適用されない。マネージャー管理型（Manager-Managed）LLCにおける忠実義務（Duty of Loyalty）に関して、2つの注目すべき点がある。\n  ○ 第1に、忠実義務（Duty of Loyalty）に違反するような行為または取引を承認できるのは、社員（マネージャー_ではなく_）のみである。\n  ○ 第2に、マネージャーは、清算（Liquidation）が完了するまでLLCと競業することを差し控えなければならない（その義務は解散（Dissolution）時には_終了しない_）。\n• 社員およびマネージャーは共に、***誠実かつ公正な取引の義務***という契約上の義務と一致する形で、その義務を果たし、権利を行使しなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "LLCの社員・マネージャーが負う受託者責任（Fiduciary Duty）"
+  },
+  {
+    "id": 42,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "K. Fiduciary Duties",
+    "ruleTitle": "Restricting/Eliminating Fiduciary Duties in an LLC",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under RULLCA, ***if not manifestly unreasonable***, the Operating Agreement may: **(1)** restrict or eliminate the **duty of loyalty**; **(2)** identify activities that do not violate the **duty of loyalty**; **(3)** alter the **duty of care** (except to authorize intentional misconduct or a knowing violation of law); **(4)** alter or eliminate any other fiduciary duty (including eliminating particular aspects of that duty); and **(5)** prescribe the standards by which to measure the performance of the contractual obligation of **good faith and fair dealing**.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2013, Essay 6"
+    ],
+    "translation": "• RULLCAの下では、***著しく不合理でない限り***、運営契約（Operating Agreement）は以下を行うことができる。**(1)** **忠実義務（Duty of Loyalty）**を制限または排除すること；**(2)** **忠実義務（Duty of Loyalty）**に違反しない活動を特定すること；**(3)** **注意義務（Duty of Care）**を変更すること（ただし、故意の不正行為または法律の故意の違反を承認することを除く）；**(4)** その他の受託者義務（Fiduciary Duty）を変更または排除すること（当該義務の特定の側面の排除を含む）；および **(5)** **誠実かつ公正な取引の義務**という契約上の義務の履行を測定するための基準を定めること。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "LLCにおける受託者責任（Fiduciary Duty）の制限・排除"
+  },
+  {
+    "id": 43,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "L. Shareholder & Member Litigation",
+    "ruleTitle": "Direct & Derivative Actions",
+    "priority": "HIGH",
+    "frequency": "8 of 65 Exams",
+    "body": "• A **direct action** involves an **injury or breach of a duty *owed to a shareholder*** of a corporation. A shareholder may bring a direct action against a director or officer, but MUST ***prove an actual injury that is NOT solely the result of an injury suffered by the corporation*** (i.e. an action to compel divided). Similarly, a **member of an LLC** may bring a direct action against another member, a manager, or the LLC, and MUST prove an actual/threatened injury that is not solely the result of an injury suffered by the LLC. The damages awarded in a direct action will be paid directly to the shareholder or member.\n• In a **derivative action**, a shareholder is suing to ***enforce the corporation’s claim***, not his own personal claim. The suit must be one in which the corporation could have brought itself, and has harmed the corporation in some way (i.e. loss suffered to corp.’s share value due to misleading statements by directors/officers).\n• **To commence or maintain a derivative suit under the RMBCA, the plaintiff-shareholder must meet the following requirements: (1)** be a ***shareholder at the time of the act or omission*** _or_ became a shareholder by operation of law from such a shareholder; **(2)** be a ***shareholder through entry of judgment***; **(3)** he must ***fairly and adequately represent*** the interests of the corporation; **AND (4)** he must make a ***written demand*** upon the corporation to take suitable action.\n  ○ **A derivative suit CANNOT be commenced until *90 days after* a written demand** UNLESS: (a) the corporation rejects the demand; OR (b) the corporation will suffer irreparable harm if forced to wait. Under the RMBCA, there is NO exception to the demand requirement for futility.\n• The damages awarded in a derivative action will be paid to the corporation (_not_ the shareholder), but the shareholder may recover the reasonable cost of the litigation.\n• To bring a **derivative action on behalf of an LLC**, the elements are the same (as those above) for a corporation EXCEPT: **(1)** the **action may be brought within a *reasonable time* after the demand**; and **(2)** the **demand requirement may be *waived* if the demand is *deemed futile***. In a _member_-managed LLC, the demand must be made on the other members. In a _manager_-managed LLC, the demand must be made upon the managers.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 2",
+      "Feb 2022, Essay 3",
+      "July 2014, Essay 6",
+      "July 2012, Essay 8",
+      "July 2007, Essay 9",
+      "Feb 2010, Essay 5",
+      "July 1998, Essay 6",
+      "July 1997, Essay 6"
+    ],
+    "translation": "• **直接訴訟（Direct Action）**は、会社における***株主に対して負う義務の侵害または違反***を伴う。株主は取締役または役員に対して直接訴訟（Direct Action）を提起することができるが、***会社が被った損害のみの結果ではない実際の損害を証明しなければならない***（すなわち、配当を強制する訴訟）。同様に、**LLCの社員**は他の社員、業務執行者、またはLLCに対して直接訴訟（Direct Action）を提起することができ、LLCが被った損害のみの結果ではない、実際または差し迫った損害を証明しなければならない。直接訴訟（Direct Action）で裁定される損害賠償は、株主または社員に直接支払われる。\n• **代表訴訟（Derivative Action）**においては、株主は自身の個人的な請求ではなく、***会社の請求権を行使する***ために訴訟を提起する。その訴訟は、会社自身が提起できたはずのものであり、何らかの形で会社に損害を与えたものでなければならない（すなわち、取締役または役員による誤解を招く陳述により会社の株価に生じた損失）。\n• **代表訴訟（Derivative Action）を開始または維持するためには、以下の要件を満たす必要がある: (1)** 行為または不作為の時点における***株主であること***、_または_当該株主から法律の規定により株主となったこと；**(2)** 判決確定時まで***株主であること***；**(3)** 会社の利益を***公正かつ適切に代表***しなければならないこと；**AND (4)** 会社に対して適切な措置を講じるよう***書面による請求***を行わなければならないこと。\n○ **代表訴訟（Derivative Action）は、書面による請求から*90日後*まで開始することができない**。ただし、以下の場合を除く：(a) 会社が請求を拒否した場合；**または** (b) 会社が待機を強いられた場合に回復不能な損害を被る場合。RMBCAの下では、請求の無益性（futility）に対する例外は存在しない。\n• 代表訴訟（Derivative Action）で裁定される損害賠償は会社に支払われる（株主_ではない_）が、株主は訴訟の合理的な費用を回収することができる。\n• **LLCを代表して代表訴訟（Derivative Action）**を提起する場合、その要件は会社の場合（上記）と同じであるが、以下の点が**異なる**: **(1)** 請求後***合理的な期間内***に訴訟を提起することができること；および**(2)** 請求が***無益（futile）とみなされる場合には請求要件が*免除*される***こと。_社員_管理型LLCにおいては、他の社員に対して請求を行わなければならない。_業務執行者_管理型LLCにおいては、業務執行者に対して請求を行わなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "直接訴訟（Direct Action）および代表訴訟（Derivative Action）"
+  },
+  {
+    "id": 44,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "L. Shareholder & Member Litigation",
+    "ruleTitle": "Derivative Actions: Dismissal by the Board of Directors",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams determined in good faith, (3) after conducting a reasonable",
+    "body": "• Under the RMBCA, a derivative proceeding MUST be dismissed by the court on motion by the corporation if **(1)** a ***majority of the board’s qualified directors*** (directors who _do not_ have a material interest in the derivative action), **(2)** have determined ***in good faith***, **(3)** after conducting a ***reasonable inquiry***, **(4)** that the derivative proceeding is ***not in the best interests of the corporation***. Some investigation is required by the Board of Directors to support their determination that the derivative action is not in the best interests of the corporation.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2017, Essay 4"
+    ],
+    "translation": "• RMBCAの下では、代表訴訟（Derivative Action）手続は、会社の申立てにより裁判所によって却下されなければならない。ただし、**(1)** 取締役会の***適格取締役（Disinterested Directors）の過半数***（代表訴訟（Derivative Action）に実質的な利害関係を_有しない_取締役）が、**(2)** ***誠実に（in good faith）***判断し、**(3)** ***合理的な調査***を行った後、**(4)** 代表訴訟（Derivative Action）手続が***会社の最善の利益にならない***と判断した場合に限る。取締役会は、代表訴訟（Derivative Action）が会社の最善の利益にならないという判断を裏付けるために、何らかの調査を行う必要がある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "代表訴訟（Derivative Action）：取締役会による却下"
+  },
+  {
+    "id": 45,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "L. Shareholder & Member Litigation",
+    "ruleTitle": "Federal Securities Law – Rule 10b-5",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Rule 10b-5 ***prohibits* the use of any *means or instrumentality of interstate commerce*** in any scheme to defraud, make material misrepresentations or omissions, or in any other way to use fraud **in the purchase or sale of securities**.\n• In order for a plaintiff to prevail under a Rule 10b-5 claim, he must show that: (1) the defendant engaged in a ***fraudulent scheme or device***; (2) which was ***relied*** upon; (3) in connection with the ***purchase or sale*** of a security; (4) acted with ***scienter*** (actual knowledge or recklessness); (5) used some means of ***interstate commerce***; **AND** (6) caused ***damages***. Non-trading defendants may also be held liable if fraud (based on misleading information) can be proven.\n  ○ A **fraudulent scheme or device** includes: (a) a ***misrepresentation of material fact*** (or disseminating such information) (b) ***insider trading*** (trading securities on the basis of inside information); **OR** (c)\n***tipping*** (trading on material information received from an insider). A person who disseminates a material misstatement with intent to defraud (_even though_ they are not the author) can still be found primarily liable under Rule 10b-5 on the basis of having engaged in a “fraudulent scheme.”\n  ○ An **insider** is a person that discloses nonpublic information that a reasonable trader would want to know before buying/selling stock or abstaining from trading. One who receives insider information is only liable if he _knows_ that an insider is giving him nonpublic information for an improper purpose. **Reliance** is _presumed_ if a material omission is made. **Material** is defined as a statement or omission that creates a substantial likelihood that a reasonable investor would consider it important.\n• In a Rule 10b-5 action, the plaintiff MUST either be: (a) the Securities and Exchange Commission (SEC); OR (b) connected to the purchase or sale of the securities at issue.",
+    "meeTips": [],
+    "examHistory": [
+      "July 1998, Essay 6"
+    ],
+    "translation": "• 規則10b-5は、***証券の売買***において、詐欺的計画、重要な虚偽表示または不作為、またはその他の方法で詐欺を用いるために、***州際通商の手段または機関***を使用することを***禁止する***。\n• 原告が規則10b-5に基づく請求で勝訴するためには、以下のことを示さなければならない: (1) 被告が***詐欺的計画または手口***に関与したこと；(2) それが***依拠された***こと；(3) 証券の***売買***に関連していること；(4) ***故意***（実際の知識または無謀な行為）をもって行動したこと；(5) 何らかの***州際通商***の手段を使用したこと；**AND** (6) ***損害***を引き起こしたこと。取引を行わない被告も、詐欺（誤解を招く情報に基づく）が証明されれば責任を負う可能性がある。\n  ○ **詐欺的計画または手口**には、以下のものが含まれる: (a) ***重要な事実の虚偽表示***（またはそのような情報の流布）(b) ***インサイダー取引（Insider Trading）***（内部情報に基づいて証券を取引すること）；**OR** (c) ***チッピング（Tipping）***（インサイダーから受け取った重要情報に基づいて取引すること）。詐欺の意図をもって重要な虚偽表示を流布した者（たとえ彼らが作成者_でなくても_）は、「詐欺的計画」に関与したという理由で、規則10b-5の下で主要な責任を負うと判断される可能性がある。\n  ○ **インサイダー**とは、合理的な取引者が株式の売買を行う前、または取引を控える前に知りたいと思うであろう非公開情報を開示する人物である。インサイダー情報を受け取った者は、インサイダーが不適切な目的で非公開情報を与えていることを_知っている_場合にのみ責任を負う。重要な不作為があった場合、**依拠**は_推定される_。**重要**とは、合理的な投資家が重要であると考えるであろう相当な可能性を生み出す陳述または不作為と定義される。\n• 規則10b-5訴訟において、原告は以下のいずれかでなければならない: (a) 証券取引委員会（SEC）；_または_ (b) 問題の証券の売買に関連している者。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "連邦証券法 – 規則10b-5"
+  },
+  {
+    "id": 46,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "M. Fundamental Corporate Changes",
+    "ruleTitle": "Amending the Articles of Incorporation",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under the RMBCA, the Articles of Incorporation _may be amended at any time_, BUT ONLY IF the following procedures are followed: **(1) *adoption by the Board of Directors***; **(2) *notice to each shareholder*** (whether or not entitled to vote) of a meeting to vote on the amendment – the **notice** must (a) state that a purpose of the meeting is to consider the amendment, and (b) provide a copy of the proposed amendment; **(3) *adoption by the shareholders by a majority vote*** (unless a greater number is required in the Articles of Incorporation or state law).\n• However, there are **two exceptions** to the above rule:\n  ○ First, the Board of Directors have the authority to make ***general minor amendments*** to the Articles _without_ shareholder approval.\n  ○ Second, the Board of Directors (or its incorporators if it has no board of directors) may adopt _any_ amendment to the Articles of Incorporation _without shareholder approval_ if ***a corporation has not yet issued shares***.\n• Class voting is required if the amendment would affect shares of the class, including a change of all or part of the class into a different number of shares of the same class.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2000, Essay 7",
+      "July 1996, Essay 7"
+    ],
+    "translation": "• RMBCAに基づき、定款は_いつでも修正可能_であるが、以下の手続きが遵守される場合に_限る_：**(1) *取締役会による採択***；**(2) *各株主への通知***（議決権の有無にかかわらず）、修正案について議決するための会議の – その**通知**は(a)会議の目的が修正案の検討であることを明記し、(b)提案された修正案の写しを提供しなければならない；**(3) *株主による過半数決議による採択***（定款または州法によりより多数の議決が要求される場合を除く）。\n• しかし、上記の規則には**2つの例外**がある：\n  ○ 第一に、取締役会は株主の承認_なしに_定款に対する***一般的な軽微な修正***を行う権限を有する。\n  ○ 第二に、取締役会（または取締役会がない場合は設立者）は、***会社がまだ株式を発行していない場合***、株主の承認_なしに_定款に対する_いかなる_修正も採択することができる。\n• 修正が当該種類の株式に影響を与える場合、例えば当該種類株式の全部または一部を同種類の異なる数の株式に変更する場合を含め、種類株主別議決が必要とされる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "定款変更"
+  },
+  {
+    "id": 47,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "M. Fundamental Corporate Changes",
+    "ruleTitle": "Mergers and Share Exchanges",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under the MBCA, the approval of a **merger** requires: **(1)** approval by the Board of Directors of _both_ corporations; **AND (2)** shareholder approval of _both_ corporations by a ***majority of votes*** entitled to be cast on the plan (unless a greater number is required by state law or the Articles of Incorporation).\n• **Shareholder approval by the surviving corporation is NOT required for a merger if**: **(1)** the corporation’s Articles of Incorporation will not be changed; **(2)** the shareholders’ number of outstanding shares will not change; **AND (3)** the voting power of any shares issued as a result of the merger is 20% or less of the voting power of the surviving corporation.\n• A **short form merger** occurs when a parent corporation merges with its own subsidiary corporation. If the parent corporation ***owns at least 90 percent*** of a subsidiary’s outstanding (voting) shares, then ***only* the Board of Directors of the parent corporation has to approve the merger**. Approval is NOT REQUIRED from the: (a) shareholders of the parent corporation; (b) the Board of Directors of the subsidiary; or (c) the shareholders of the subsidiary.\n• The approval of a **share exchange** requires: **(1)** approval by the Board of Directors of _both_ corporations; **AND (2)** shareholder approval of the _acquired_ corporation by a ***majority vote*** (unless a greater number is required by state law or the Articles of Incorporation). **Shareholder approval is NOT required for** the ***acquiring*** corporation.\n• Under the MBCA, a **foreign business corporation** (or a foreign eligible entity) **MAY** merge with a domestic business corporation _or_ be the survivor company in a merger, **BUT ONLY IF** the merger is ***permitted by the law of the foreign business corporation*** or eligible entity.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 2",
+      "July 2003, Essay 1"
+    ],
+    "translation": "• MBCAに基づき、**合併（Merger）**の承認には以下が必要である：**(1)** _両_会社の取締役会による承認；**および(2)** _両_会社の株主による、計画に対する投じられるべき***議決権の過半数***による承認（州法または定款によりより多数の議決が要求される場合を除く）。\n• **存続会社による株主承認は、合併（Merger）において以下の場合には要求されない**：**(1)** 会社の定款が変更されない場合；**(2)** 株主の発行済株式（Issued Shares）数が変更されない場合；**および(3)** 合併（Merger）の結果として発行されるいかなる株式の議決権も、存続会社の議決権の20%以下である場合。\n• **簡易合併（Short-Form Merger）**は、親会社が自己の子会社と合併（Merger）する場合に発生する。親会社が子会社の発行済（議決権付）株式の***少なくとも90パーセントを所有***している場合、***親会社の取締役会のみが合併（Merger）を承認する必要がある***。以下の者からの承認は要求されない：(a)親会社の株主；(b)子会社の取締役会；または(c)子会社の株主。\n• **株式交換（Share Exchange）**の承認には以下が必要である：**(1)** _両_会社の取締役会による承認；**および(2)** _被取得_会社の株主による***過半数決議***による承認（州法または定款によりより多数の議決が要求される場合を除く）。***取得***会社については**株主承認は要求されない**。\n• MBCAに基づき、**外国事業会社**（または外国適格事業体）は、国内事業会社と合併（Merger）する_こと_、_または_合併（Merger）における存続会社となる_こと_が**できる**が、**ただし**合併（Merger）が***当該外国事業会社***または適格事業体の**法律により許可されている場合に_限る_**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "合併（Merger）および株式交換（Share Exchange）"
+  },
+  {
+    "id": 48,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "M. Fundamental Corporate Changes",
+    "ruleTitle": "Sale of All or Substantially All of Corporate Assets",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• A ***sale of all or substantially all of the corporation’s assets*** is deemed a fundamental change if the sale is NOT _in the usual and regular course of business_.\n• Under the RMBCA, the following procedure MUST be followed by the corporation for a fundamental change: **(1) *adoption by the Board of Directors***; **(2) *notice to each shareholder*** (whether or not entitled to vote) of a meeting to vote on the proposal – the **notice** must state the purpose of the meeting; **(3) *adoption by the shareholders by a majority vote*** (unless a greater number is required in the Articles of Incorporation or state law).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 1999, Essay 6",
+      "July 1996, Essay 7",
+      "July 1995, Essay 4"
+    ],
+    "translation": "• ***会社の資産の全部または実質的に全部の売却***は、その売却が_通常の事業の過程において_行われるものでない場合、根本的な変更とみなされる。\n• RMBCAに基づき、会社は根本的な変更のために以下の手続きを遵守しなければならない：**(1) *取締役会による採択***；**(2) *各株主への通知***（議決権の有無にかかわらず）、提案について議決するための会議の – その**通知**は会議の目的を明記しなければならない；**(3) *株主による過半数決議による採択***（定款または州法によりより多数の議決が要求される場合を除く）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "会社の全または実質的に全ての資産の売却"
+  },
+  {
+    "id": 49,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "M. Fundamental Corporate Changes",
+    "ruleTitle": "Dissenter’s Appraisal Rights for Fundamental Changes",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• A dissenting shareholder is entitled to appraisal rights, and to obtain payment of the fair market value of his shares, for the following fundamental changes: **(1)** when the shareholder has the ***right to vote on the merger plan***; **(2)** when he is a ***shareholder of the subsidiary in a short form merger***; **(3)** when he is a shareholder of a corporation whose ***shares are being acquired in a share exchange***; **(4)** when the shareholder has the right to vote on the ***distribution of all or substantially all of the corporate assets***; **and (5)** when an ***amendment to the Articles of Incorporation*** materially and adversely affects the shareholder's rights.\n  ○ Appraisal rights are ***NOT available*** to shareholders of ***publicly traded companies***.\n• Shareholders who DO NOT consent to a fundamental corporate change _may force_ the corporation to purchase their shares if: **(1)** the shareholder gave ***notice to the corporation*** of his intent to demand payment if the change was approved; **(2)** the notice was ***given before the vote was taken*** on the fundamental change; **(3)** the fundamental ***change is effectuated***; **AND (4)** the shareholder ***did not vote in favor of the change***. If the corporation and the dissenter cannot agree on a fair price, the court will resolve the issue.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 2",
+      "July 2003, Essay 1",
+      "Feb 1999, Essay 6",
+      "July 1996, Essay 7"
+    ],
+    "translation": "• 異議株主は、以下の根本的な変更に対して、評価請求権（Appraisal Rights）を有し、その株式の公正市場価格の支払いを受ける権利を有する。**(1)** 株主が***合併（Merger）計画について議決権を有する***場合、**(2)** 株主が***略式合併（Merger）における子会社の株主である***場合、**(3)** 株主が***株式交換（Share Exchange）においてその株式が取得される会社***の株主である場合、**(4)** 株主が***会社の資産の全部または実質的に全部の分配***について議決権を有する場合、**および (5)** ***定款の変更***が株主の権利に重大かつ不利な影響を与える場合。\n  ○ 評価請求権（Appraisal Rights）は、***上場企業***の株主には***認められない***。\n• 根本的な会社変更に同意しない株主は、以下の条件を満たす場合、会社にその株式の購入を_強制することができる_。**(1)** 株主が、変更が承認された場合に支払いを要求する意図を***会社に通知した***こと、**(2)** その通知が根本的な変更に関する***投票が行われる前に与えられた***こと、**(3)** 根本的な***変更が実行された***こと、**および (4)** 株主が***その変更に賛成票を投じなかった***こと。会社と異議株主が公正な価格について合意できない場合、裁判所が問題を解決する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "組織再編等における反対株主の株式買取請求権（Right of Appraisal）"
+  },
+  {
+    "id": 50,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "N. Dissolution & Dissociation",
+    "ruleTitle": "Judicial Dissolution of a Corporation",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under the RMBCA, a shareholder may petition the court to dissolve the corporation if he can show: **(a)** a ***deadlock*** of the Directors in the management of corporate affairs _and_ ***irreparable injury*** to the corporation; **(b)** the Directors have acted in a manner that is ***illegal, oppressive, or fraudulent***; **(c)** the ***shareholders are deadlocked*** in voting power _and_ have ***failed to elect Directors for at least two consecutive annual meetings***; **OR (d)** the ***corporate assets have been wasted or misapplied***.\n  ○ Oppressive conduct includes violating a shareholder’s reasonable expectations or preventing minority shareholders from having equal rights and opportunities in the corporation.\n  ○ Courts have also held that the failure to provide properly requested corporate information (e.g.\naccounting records) to minority shareholders may be grounds for judicial dissolution.\n• In a judicial dissolution proceeding, the corporation or shareholders ***may elect to purchase all shares*** owned by the petitioning shareholder ***at fair value***. This election is generally irrevocable.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 3",
+      "July 2000, Essay 4"
+    ],
+    "translation": "• RMBCA（模範会社法）に基づき、株主は以下のいずれかを示すことができれば、裁判所に法人の解散（Dissolution）を申請することができる。**(a)** 会社の業務管理における取締役の***行き詰まり***_かつ_会社への***回復不能の損害***；**(b)** 取締役が***違法、抑圧的、または詐欺的な***方法で行動した場合；**(c)** ***株主が議決権において行き詰まり***_かつ_***少なくとも2回連続する定時株主総会で取締役を選出できなかった***場合；**または (d)** ***会社の資産が浪費または不正に使用された***場合。\n  ○ 抑圧的行為には、株主の合理的な期待を侵害すること、または少数株主が会社において平等な権利と機会を有することを妨げることが含まれる。\n  ○ 裁判所はまた、少数株主に対して適切に要求された会社情報（例：会計記録）の提供を怠ることが、司法的解散（Dissolution）の根拠となり得ると判示している。\n• 司法的解散（Dissolution）手続において、会社または株主は、申請株主が所有する全株式を***公正な価値***で***購入することを選択***することができる。この選択は一般に取り消し不能である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "会社の司法解散（Dissolution）"
+  },
+  {
+    "id": 51,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "N. Dissolution & Dissociation",
+    "ruleTitle": "Voluntary Dissolution of a Corporation",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under the RMBCA, a corporation’s Board of Directors may propose dissolution to the shareholders. The following procedure MUST be followed by the corporation for the proposal to be adopted: **(1) *adoption by the Board of Directors***; **(2) *notice to each shareholder*** (whether or not entitled to vote) of a meeting to vote on the proposal – the **notice** must state the purpose of the meeting; **AND (3)** ***adoption by the shareholders by a majority vote*** (unless a greater amount is required in the Articles of Incorporation or state law).\n• A corporation may be dissolved by a ***majority*** of the incorporators or initial directors if: **(1)** the corporation has **NOT *issued shares or commenced business***; **AND (2)** Articles of Dissolution are filed with the Secretary of State.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2006, Essay 5",
+      "July 1996, Essay 7"
+    ],
+    "translation": "• RMBCAに基づき、会社の取締役会は株主に解散（Dissolution）を提案することができる。この提案が採択されるためには、以下の手続きに従わなければならない：**(1)** ***取締役会による採択***；**(2)** 提案について投票するための会議に関する***各株主への通知***（議決権の有無を問わず）—この**通知**は会議の目的を明記しなければならない；**および (3)** ***株主の過半数による採択***（定款または州法においてより多くの数が要求される場合を除く）。\n• 以下の条件を満たす場合、設立者または初期取締役の***過半数***により会社を解散（Dissolution）させることができる：**(1)** 会社が**株式を発行しておらず、かつ事業を開始していない**こと；**および (2)** 解散（Dissolution）定款を州務長官に提出すること。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "会社の任意解散（Dissolution）"
+  },
+  {
+    "id": 52,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "N. Dissolution & Dissociation",
+    "ruleTitle": "Dissociation of a Member from an LLC",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under RULLCA, a person has the power to dissociate as a member of the LLC at ***any time*** (rightfully or wrongfully).\n• A member becomes dissociated from the LLC upon: **(1)** notice of the member’s ***express will*** to withdraw; **(2) *occurrence of an agreed upon event*** in the Operating Agreement; **(3) *expulsion*** pursuant to the Operating Agreement; **(4) *expulsion by the unanimous vote*** of the other members if it’s (a) unlawful to carry on the LLC business with that member, or (b) there has been a transfer of all or substantially all of that member’s transferable interest in the LLC (other than a transfer for security purposes); **(5)** by ***judicial order for misconduct***; **(6) *bankruptcy***; **(7) *incapacity or death***; **(8)** appointment of a ***personal representative or receiver***; **OR (9) *termination of the entity member*** (who is not an individual, partnership, LLC, corporation, trust, or estate).\n• Upon dissociation, the member ***loses his right to participate in management of the LLC***. However, the dissociated member will have a right to receive distributions from the LLC if issued. The dissociated member has no right to payment for his LLC interest, unless the Operating Agreement provides otherwise.\n• A person’s dissociation is deemed wrongful when it is: **(a)** in breach of the Operating Agreement; **OR (b)** occurs before the termination of the LLC _and_ (i) the person withdraws as a member by express will; (ii) the person is expelled as a member by judicial order; (iii) the person becomes a debtor in bankruptcy; (iv) the person is expelled; or (v) the member entity is willfully dissolved or terminated. A person that wrongfully dissociates as a member is liable to the LLC and other members for damages caused by the dissociation.\n• Under RULLCA, **dissociation of a member DOES NOT result in dissolution of the LLC**.",
+    "meeTips": [],
+    "examHistory": [
+      "Sept 2020, Essay 5",
+      "July 2016, Essay 1"
+    ],
+    "translation": "• RULLCAに基づき、個人は***いかなる時***（正当であるか否かを問わず）もLLCの社員として脱退する権限を有する。\n• 社員がLLCから脱退するのは以下の事由による：**(1)** 社員の***明示の意思***による脱退の通知；**(2)** 運営契約（Operating Agreement）に***定められた事由の発生***；**(3)** 運営契約（Operating Agreement）に基づく***除名***；**(4)** 他の社員の***全員一致の議決による除名***（(a) 当該社員と共にLLC事業を継続することが違法である場合、または (b) 当該社員のLLCにおける譲渡可能持分の全部または実質的に全部の譲渡（担保目的の譲渡を除く）があった場合）；**(5)** ***不正行為に対する裁判所の命令***による；**(6) ***破産***；**(7) ***行為能力の喪失または死亡***；**(8) ***個人代表者または管財人***の選任；**または (9) ***法人社員の消滅***（個人、パートナーシップ、LLC、法人、信託、または財産ではない場合）。\n• 脱退により、社員は***LLCの経営に参加する権利を失う***。ただし、脱退した社員は、LLCから分配が行われた場合、それを受け取る権利を有する。運営契約（Operating Agreement）に別段の定めがない限り、脱退した社員はLLC持分に対する支払いを請求する権利を有しない。\n• 個人の脱退が不当とみなされるのは、以下のいずれかの場合である：**(a)** 運営契約（Operating Agreement）に違反している場合；**または (b)** LLCの終了前に発生し、_かつ_ (i) その個人が明示の意思により社員として脱退した場合；(ii) その個人が裁判所の命令により社員として除名された場合；(iii) その個人が破産債務者となった場合；(iv) その個人が除名された場合；または (v) その社員である法人が意図的に解散（Dissolution）または消滅した場合。社員として不当に脱退した個人は、その脱退によって生じた損害についてLLCおよび他の社員に対し責任を負う。\n• RULLCAに基づき、**社員の脱退はLLCの解散（Dissolution）をもたらさない**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "LLCからの社員の脱退"
+  },
+  {
+    "id": 53,
+    "subject": "CORPORATIONS & LLC'S",
+    "subjectNumber": "03",
+    "section": "N. Dissolution & Dissociation",
+    "ruleTitle": "Dissolution & Winding Up of an LLC",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• Dissolution: Under RULLCA, an LLC is dissolved upon: **(a)** the occurrence of an ***event in the Operating Agreement*** causing dissolution; **(b)** the ***consent of all members***; **(c)** the ***passage of 90 consecutive days*** during which the LLC has ***no members***; or **(d) *judicial dissolution*** of the LLC. However, the default dissolution rules under RULLCA may be modified by the members in the Operating Agreement.\n• Judicial Dissolution: A court may grant **judicial dissolution** of an LLC upon an application by a member on any of the following grounds: **(a)** that the managers or controlling members have/will/are acting in a manner that is ***illegal or fraudulent***; **(b)** that the managers or controlling members have/are acting in a manner that is ***oppressive and directly harmful*** to the member; **(c)** the conduct of all or substantially all of the LLC’s activities is ***unlawful***; **OR (d)** it is ***not reasonably practicable to carry on the LLC's activities*** in conformity with the Certificate of Organization and the Operating Agreement. Judicial dissolution on the ground that it is not reasonably practicable to carry on the business is an exceptional remedy and is rarely granted, especially since a court may order a remedy other than dissolution.\n• Winding Up: Upon dissolution, the LLC’s activities must be wound up. Winding up usually entails the time necessary for the members to finish old business, collect and pay debts, and distribute remaining assets to the members. Under RULLCA, the LLC’s assets are distributed in the following order during the winding up process: **(1) Creditors**; **(2) Members’ capital contributions** that were not previously returned; and **(3)** any **remaining surplus assets to be distributed among the Members** in proportion to their respective rights to share in distributions immediately before the dissolution of the company. Under RULLCA, a contribution may consist of property, such as intellectual property. Members are NOT entitled to a distribution of the specific property they contributed. As part of the winding up process, the LLC must provide notice of the dissolution to creditors. Under RULLCA, the notice sent to creditors must set forth the steps that are necessary for enforcing their claims against the dissolving LLC. **If proper dissolution and winding up procedures are NOT followed, then a creditor's claim may be enforced against**: **(1)** the ***dissolved LLC***; and **(2)** the ***members personally* if the assets of the company have been distributed after dissolution** (but such liability _cannot exceed_ the total value of assets distributed to said member post-dissolution).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 1",
+      "Sept 2020, Essay 5",
+      "July 2013, Essay 6",
+      "July 2012, Essay 8"
+    ],
+    "translation": "• 解散（Dissolution）：RULLCAに基づき、LLCは以下の事由により解散（Dissolution）する：**(a)** 解散（Dissolution）を招く***運営契約（Operating Agreement）に定められた事由***の発生；**(b)** ***全社員の同意***；**(c)** LLCに***社員がいない状態が******90日間連続して経過***すること；**または (d) *LLCの裁判上の解散（Dissolution）***。ただし、RULLCAに基づくデフォルトの解散（Dissolution）規則は、運営契約（Operating Agreement）において社員により変更され得る。\n• 裁判上の解散（Dissolution）：裁判所は、社員からの申立てに基づき、以下のいずれかの理由によりLLCの**裁判上の解散（Dissolution）**を認めることができる：**(a)** 経営者または支配社員が***違法または詐欺的***な方法で行為した、行為する予定である、または行為していること；**(b)** 経営者または支配社員が社員に対し***抑圧的かつ直接的に有害***な方法で行為した、または行為していること；**(c)** LLCの活動の全部または実質的に全部の遂行が***違法***であること；**または (d)** 設立証明書および運営契約（Operating Agreement）に***適合しない***こと。事業を継続することが合理的に実行不可能であるという理由による裁判上の解散（Dissolution）は、例外的な救済策であり、特に裁判所が解散（Dissolution）以外の救済策を命じ得るため、めったに認められない。\n• 清算（Liquidation）：解散（Dissolution）に際し、LLCの活動は清算（Liquidation）されなければならない。清算（Liquidation）は通常、社員が旧事業を完了させ、債権を回収し債務を支払い、残余資産を社員に分配するために必要な時間を伴う。RULLCAに基づき、清算（Liquidation）手続きにおいてLLCの資産は以下の順序で分配される：**(1) 債権者**；**(2) 以前に返還されなかった社員の出資金**；および **(3)** 会社解散（Dissolution）直前の分配を受けるそれぞれの権利に比例して、**社員間で分配される残余剰余資産**。RULLCAに基づき、出資金は知的財産などの財産で構成され得る。社員は、自身が出資した特定の財産の分配を受ける権利を**有しない**。清算（Liquidation）手続きの一環として、LLCは債権者に対し解散（Dissolution）の通知を行わなければならない。RULLCAに基づき、債権者に送付される通知には、解散（Dissolution）するLLCに対する債権を行使するために必要な手順を明記しなければならない。**適切な解散（Dissolution）および清算（Liquidation）手続きが遵守されなかった場合、債権者の債権は以下に対して行使され得る**：**(1)** ***解散（Dissolution）したLLC***；および **(2)** ***会社資産が解散（Dissolution）後に分配された場合、社員個人***（ただし、当該責任は、解散（Dissolution）後に当該社員に分配された資産の総額を_超えることはできない_）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "LLCの解散（Dissolution）および清算（Liquidation）"
+  }
+]

@@ -1,0 +1,817 @@
+[
+  {
+    "id": 1,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "Battery",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A defendant is liable for Battery when there is **(1)** an ***intentional***, **(2) *harmful or offensive contact***, **(3)** with the ***plaintiff’s person*** (including anything connected to the plaintiff).\n• A defendant acts **intentionally** when he acts: (a) with the ***desire*** to bring about the harm/contact; OR (b) knowing that harm/contact is ***substantially certain*** to occur. **Bodily harm** is the ***physical pain***, ***illness***, or ***physical impairment*** to another’s body. A bodily contact is **offensive** if it offends a ***reasonable sense of personal dignity*** (analyzed under the reasonable person standard). A claim may be supported by nominal damages; plaintiff need _not_ suffer actual damages.",
+    "meeTips": [
+      "For any Torts essay question, assume the following: Unless otherwise specified in the question, assume there is NO applicable statute. Assume that survival actions and wrongful death claims are available. Unless otherwise indicated, assume that the jurisdiction uses both: (i) joint and several liability; and (ii) pure comparative negligence."
+    ],
+    "examHistory": [
+      "Feb 2011, Essay 4",
+      "Feb 2010, Essay 4"
+    ],
+    "translation": "• 被告は、**(1)** ***意図的な***、**(2) ***有害または不快な接触（Harmful or Offensive Contact）***が、**(3)** ***原告の身体***（原告に接続しているもの全てを含む）に対してあった場合に、不法接触の責任を負う。\n• 被告は、(a) 損害／接触を引き起こす***意図***をもって行為する場合、または (b) 損害／接触が***実質的に確実（Substantially Certain）***に発生することを知っている場合に、**意図的に**行為する。**身体的損害（Bodily Harm）**とは、他者の身体に対する***身体的苦痛***、***疾病***、または***身体機能の障害***である。身体的接触は、***合理的な個人の尊厳の感覚（Reasonable Person's Sense of Dignity）***を害する場合（合理的な人物の基準の下で分析される）に**不快**である。請求は名目損害賠償（Nominal Damages）によって支持され得る。原告は_現実の損害_を被る必要はない。",
+    "meeTipTranslation": [
+      "不法行為のエッセイ問題では、以下を前提とすること：問題に特に指定がない限り、適用される制定法は存在しないと仮定する。生存訴権および不法死亡請求は認められると仮定する。特に明示されない限り、当該法域は(i) 連帯責任（Joint and Several Liability）、および(ii) 純粋な比較過失（Pure Comparative Negligence）の両方を採用していると仮定する。"
+    ],
+    "ruleTitleJa": "不法接触（Battery）"
+  },
+  {
+    "id": 2,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "Assault",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A defendant is liable for Assault when there is **(1)** an ***intentional act***, **(2)** that ***causes*** the plaintiff to be placed in ***reasonable apprehension***, **(3)** of ***imminent harmful or offensive contact*** with the plaintiff’s person.\n• An act is deemed **intentional** if it is done: (a) for the ***purpose*** of causing such an apprehension; OR (b) with ***knowledge to a substantial certainty*** that such apprehension will result. The **reasonable apprehension** element requires the plaintiff to be BOTH: (i) _aware_ of the defendant’s act; AND (ii) _believe that the defendant is able_ to commit the act.\n• A claim may be supported by nominal damages; plaintiff need _not_ suffer actual damages.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 被告は、**(1)** ***意図的な行為***が、**(2)** 原告を***合理的な畏怖（Reasonable Apprehension）***の状態に置く***原因***となり、**(3)** 原告の身体に対する***差し迫った有害または不快な接触（Imminent Harmful or Offensive Contact）***の畏怖である場合に、身体的威迫の責任を負う。\n• 行為は、(a) そのような畏怖を引き起こす***目的***でなされた場合、または (b) そのような畏怖が生じることについて***実質的な確実性をもって知っている***場合に、**意図的**とみなされる。**合理的な畏怖（Reasonable Apprehension）**の要件は、原告が次の両方であること求める。すなわち、(i) 被告の行為を_認識している_こと、かつ (ii) 被告がその行為を実行_できると信じている_ことである。\n• 請求は名目損害賠償（Nominal Damages）によって支持され得る。原告は_現実の損害_を被る必要はない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "身体的威迫（Assault）"
+  },
+  {
+    "id": 3,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "False Imprisonment",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A defendant is liable for False Imprisonment when he **(1) *intentionally acts***, **(2)** to ***restrain plaintiff to fixed boundaries*** (one with no reasonable means of escape), **AND (3)** the plaintiff is ***conscious of the confinement*** _or_ is ***harmed*** by it (the extent of the false imprisonment is generally _not_ relevant). It is immaterial whether the act directly or indirectly causes the confinement.\n• A defendant acts **intentionally** when he acts: (a) ***purposely*** to bring about the confinement; OR (b) knowing that confinement is ***substantially certain*** to occur. The **restraint** may be accomplished through threats, and DOES NOT need to be physical or stationary (only in one place). A claim may be supported by nominal damages; plaintiff need _not_ suffer actual damages.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 3",
+      "Feb 2012, Essay 4"
+    ],
+    "translation": "• 被告は、**(1) ***意図的に行為し***、**(2)** 原告を***固定された境界内に拘束し（Confined within Fixed Boundaries）***（合理的な脱出手段がない状態）、**かつ (3)** 原告が***監禁を認識している（Aware of the Confinement）***_か_、またはそれによって***損害を被る***場合に、不法監禁の責任を負う（不法監禁の程度は一般的に_関連しない_）。その行為が直接的か間接的かにかかわらず監禁を引き起こすことは重要ではない。\n• 被告は、(a) 監禁を引き起こす***目的***で行為する場合、または (b) 監禁が***実質的に確実（Substantially Certain）***に発生することを知っている場合に、**意図的に**行為する。**拘束**は脅迫によって達成され得るものであり、物理的である必要はなく、また静止している（一箇所に留まっている）必要もない。請求は名目損害賠償（Nominal Damages）によって支持され得る。原告は_現実の損害_を被る必要はない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "不法監禁"
+  },
+  {
+    "id": 4,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "Intentional Infliction of Emotional Distress",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A defendant is liable for Intentional Infliction of Emotional Distress if: **(1)** the defendant acted ***intentionally or recklessly***; **(2)** the defendant’s conduct was ***extreme and outrageous*** (conduct that transcends all bounds of decency); **(3)** the ***defendant’s act caused*** extreme emotional distress (causation); **AND (4)** the plaintiff ***actually suffered severe emotional distress*** (damages).\n• Where such conduct is directed at a third person, the defendant is liable if he intentionally or recklessly causes severe emotional distress: **(a)** to a member of such person’s ***immediate family who is present at the time*** (whether or not such distress results in bodily harm); **OR (b)** to ***any other person present***, if such distress ***results in bodily harm***.\n• An act is **intentional** when: (a) the person ***desires*** to inflict severe emotional distress; OR (b) knows that such distress is ***certain or substantially certain*** to result from the conduct. An act is **reckless** if it’s a ***deliberate disregard of a high risk*** that emotional distress will follow.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 被告は、故意による精神的加害について以下の要件を満たす場合に責任を負う。**(1)** 被告が***意図的または無謀に（Intentionally or Recklessly）***行為したこと。**(2)** 被告の行為が***極度かつ言語道断な（Extreme and Outrageous）***ものであったこと（あらゆる良識の範囲を超える行為）。**(3)** ***被告の行為が***極度の精神的苦痛（Severe Emotional Distress）を***引き起こした***こと（因果関係）。**AND (4)** 原告が***実際に重度の精神的苦痛（Severe Emotional Distress）を被った***こと（損害）。\n• そのような行為が第三者に向けられた場合、被告は、意図的または無謀に（Intentionally or Recklessly）重度の精神的苦痛（Severe Emotional Distress）を引き起こした場合に責任を負う。**(a)** その者の***その場に居合わせた直系家族の構成員（Immediate Family Member Present at the Scene）***に対して（その苦痛が身体的損害（Bodily Harm）をもたらすか否かにかかわらず）。**OR (b)** ***その場に居合わせたその他の者***に対して、その苦痛が***身体的損害（Bodily Harm）をもたらす***場合。\n• 行為が**意図的**であるのは、(a) その者が重度の精神的苦痛（Severe Emotional Distress）を与えることを***望む***場合。OR (b) そのような苦痛がその行為から***確実であるか実質的に確実（Substantially Certain）である***と知っている場合。行為が**無謀（Reckless）**であるのは、精神的苦痛が生じる***高い危険性を意図的に無視した（Conscious Disregard of High Probability）***場合である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "故意による精神的加害（IIED）"
+  },
+  {
+    "id": 5,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "Trespass to Land",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A defendant is liable for the intentional tort of Trespass to Land if **(1)** he ***intentionally***, **(2)** either **(a) *enters the land*** in the possession of another; **(b) *causes an object or a third person to enter the land*** of another; **(c) *remains*** on the land; _or_ **(d) *fails to remove an object*** from the land that he is under a ***duty to remove***.\n• Intent: An act is **intentional** when the person: (a) ***desires*** to bring about entry to land; OR (b) knows that entry to land is ***certain or substantially certain*** to result from the conduct. **Intent to trespass is NOT required; the ONLY intent required is that the defendant intended to enter/remain on the subject land**.\n• Who May Bring Trespass Action: Only a ***possessor*** of the land may bring a trespass to land claim (e.g. owner or tenant). A possessor is any person with _actual and exclusive possession_ at the time the trespass takes place.\n• Damages/Remedies: A claim MAY be supported by **nominal damages**; plaintiff need _not_ suffer actual damages. If **actual damage** occurs, liability extends to ***physical harm*** to the: **(a) *land***; **AND/OR (b) *land possessor*** or their family. For land damage, plaintiff may recover either the: (a) decrease in value of the property; OR (b) cost to repair the property. Some courts have awarded damages for mental/emotional distress (even when no physical harm occurred). An ongoing trespass or nuisance may entitle a party to **injunctive relief**.\n• Intangible Entry: Tangible entry to land is typically required for a trespass claim. Entry by gas, pollution, noise, unpleasant sights, and dangerous conditions (e.g. stored explosives) is usually NOT SUFFICIENT for a trespass to land claim. **Most jurisdictions** have DENIED trespass claims based on ***intangible forces*** (e.g. odors, stray electricity, air particulates, electromagnetic fields). **Some courts** have allowed intangible entry trespass claims, but those courts ***apply a nuisance-like analysis*** that requires proof of damage to the property. Land possessors CANNOT use trespass to stop commercial aviation or seek damages for such activity (unless it causes injury).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2023, Essay 1"
+    ],
+    "translation": "• 被告は、以下の要件を満たす場合に土地侵入の意図的侵害行為について責任を負う。**(1)** 彼が***意図的に***、**(2)** (a) ***他人の占有する土地に侵入する（Enter Land in Possession of Another）***。**(b) *物または第三者を他人の土地に侵入させる***。**(c) *土地に留まる***。_または_ **(d) *除去義務***のある物を土地から***除去しない***。\n• 意図：行為が**意図的**であるのは、その者が(a) 土地への侵入をもたらすことを***望む***場合。OR (b) 土地への侵入がその行為から***確実であるか実質的に確実（Substantially Certain）である***と知っている場合。侵入の意図は不要である。必要な唯一の意図は、***被告が当該土地に侵入/留まることを意図した***ということである。\n• 誰が侵入訴訟を提起できるか：土地の***占有者***のみが土地侵入の請求を提起できる（例：所有者または賃借人）。占有者とは、侵入が発生した時点で_現実かつ排他的な占有_を有するあらゆる者である。\n• 損害賠償／救済：請求は**名目損害賠償（Nominal Damages）**によって支持され得る。原告は現実の損害を被る必要はない。**現実損害**が発生した場合、責任は以下の***物理的損害***に及ぶ。**(a) *土地***。**AND/OR (b) *土地占有者***またはその家族。土地の損害については、原告は(a) 財産の価値減少、OR (b) 財産の修復費用のいずれかを回復できる。一部の裁判所は、精神的・感情的苦痛に対する損害賠償を認めている（物理的損害が発生していない場合でも）。継続的な侵入または迷惑行為は、当事者に**差止命令による救済（Injunctive Relief）**を受ける権利を与える場合がある。\n• 無形侵入：侵入請求には通常、土地への有形侵入が必要である。ガス、汚染、騒音、不快な光景、危険な状態（例：貯蔵された爆発物）による侵入は、通常、土地侵入請求には不十分である。**ほとんどの法域**は、***無形力（Intangible Force）***（例：臭気、迷走電流、空気中の微粒子、電磁場）に基づく侵入請求を***却下している***。**一部の裁判所**は無形侵入の請求を認めているが、それらの裁判所は財産への損害の立証を必要とする***迷惑行為に類似した分析を適用する***。土地占有者は、商業航空を停止させるために侵入を用いることや、そのような活動に対する損害賠償を求めることはできない（それが傷害を引き起こさない限り）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "土地への不法侵入（Trespass to Land）"
+  },
+  {
+    "id": 6,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "Trespass to Chattels & Conversion",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• A person is liable for **Trespass to Chattels** when he **(1) *intentionally*** interferes with another’s ***personal property*** (including damage or preventing a party from using the property), **AND (2)** the amount of ***damage is small***.\n• A person is liable for the tort of **Conversion** if the amount of ***interference is substantial***, in which the converter is liable **for the full market value of the chattel involved**.\n  ○ To determine if there is substantial interference, the court will consider the following factors: (i) extent and duration of dominion/control; (ii) intent to deprive the owner of possession; (iii) the tortfeasor’s good faith; (iv) extent and duration of resulting interference; (v) harm done to the chattel; and (vi) inconvenience and expense caused.\n• Mistaken ownership of the property is NOT a defense to either tort.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• ある者は、**(1) *意図的に***他人の***動産***に干渉し（損害を与えることや、当事者が財産を使用するのを妨げることを含む）、**AND (2)** ***損害が軽微である（Minor Damage）***場合に、**動産侵入（Trespass to Chattels）**について責任を負う。\n• ある者は、***干渉が実質的である（Substantial Interference）***場合に、**転換（Conversion）**の不法行為について責任を負い、その場合、転換（Conversion）者は**当該動産の全市場価値（Full Market Value of the Chattel）**について責任を負う。\n  ○ 実質的な干渉があるか否かを判断するために、裁判所は以下の要素を考慮する。(i) 支配・管理の程度と期間。(ii) 所有者から占有を奪う意図。(iii) 不法行為者の善意。(iv) 結果として生じた干渉の程度と期間。(v) 動産に与えられた損害。(vi) 生じた不便と費用。\n• 財産の所有権の錯誤は、いずれの不法行為に対する抗弁にもならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "動産への不法侵入および転換（Trespass to Chattels & Conversion）"
+  },
+  {
+    "id": 7,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "Doctrine of Transferred Intent",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Under the Doctrine of Transferred Intent, the intent to harm one party can be transferred when: **(1)** the defendant had the ***intent to commit a tort against one particular individual***; **AND (2)** if in the act of trying to accomplish that tort either **(a)** commits a ***different tort*** against that person _or_ **(b) *another person is injured*** – whether by the same tort intended or a different tort that resulted.\n• The doctrine of transferred intent _only applies_ to the intentional torts of battery, assault, false imprisonment, trespass to land, and trespass to chattels.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 転用故意の法理に基づき、一方の当事者に危害を加える意図は、以下のいずれかの場合に転用され得る。**(1)** 被告が***特定の個人に対して不法行為を行う意図（Intent to Commit a Tort against a Specific Person）***を有していた場合、**かつ (2)** その不法行為を達成しようとする行為において、**(a)** その者に対して***異なる不法行為（Different Tort）***を行った場合、_または_ **(b) *別の者が負傷した***場合（意図された不法行為と同じであるか、結果として生じた異なる不法行為（Different Tort）であるかを問わない）。\n• 転用故意の法理は、不法接触、身体的威迫、不法監禁、土地への不法侵入、および動産への不法侵入の故意の不法行為に_のみ適用される_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "転用故意の法理（Transferred Intent）"
+  },
+  {
+    "id": 8,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "Intentional Tort Defenses: Consent",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• **Consent** is a defense to intentional torts, and may be ***express or implied*** through words or conduct. Consent need _not_ be communicated to the actor. Apparent consent is an effective defense when words or conduct are ***reasonably understood to be intended as consent***, such as with customary practice or the person’s failure to object. Implied by law consent occurs under certain special circumstances, such as medical emergencies. However, the defendant’s actions **CANNOT *exceed*** the bounds of the consent given. The consenting party must have capacity, and consent may be withdrawn at any time. Some courts hold that a person _cannot_ consent to a criminal act.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2012, Essay 4",
+      "Feb 2011, Essay 4"
+    ],
+    "translation": "• **同意**は故意の不法行為に対する抗弁であり、言葉または行為を通じて***明示的または黙示的（Express or Implied）***に与えられ得る。同意は行為者に伝達される必要は_ない_。外見上の同意（Apparent Consent）は、慣習や異議を述べないことなど、言葉または行為が***同意として意図されたものと合理的に理解される（Reasonably Understood as Consent）***場合に有効な抗弁となる。法律上の黙示の同意は、医療上の緊急事態など、特定の特別な状況下で生じる。しかし、被告の行為は与えられた同意の範囲を***超えることはできない***。同意する当事者は行為能力を有していなければならず、同意はいつでも撤回され得る。一部の裁判所は、人は犯罪行為に同意することは_できない_と判断している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "故意不法行為の抗弁：同意"
+  },
+  {
+    "id": 9,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "A. Intentional Torts",
+    "ruleTitle": "Intentional Tort Defenses: Privileges",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• **Privilege** is conduct that under ordinary circumstances would subject the actor to liability, ***but is excused under the circumstances***. A privilege must be plead and proved by the defendant. Privilege includes the following defenses listed below.\n• Necessity: A defendant is NOT liable for harm to the plaintiff’s real or personal property if defendant’s acts were **(1) *necessary*** (or reasonably appeared to be necessary), **(2)** to ***prevent serious harm to a person or property***. **Public necessity** is when the defendant acts for the public good and is a complete defense. **Private necessity** is an incomplete privilege (the defendant will be liable for any damages caused unless the purpose of his acts were to help the plaintiff), and occurs when defendant is protecting his own or a few other’s property interests. **Necessity is applicable *only* to intentional torts against property**.\n• Self-Defense/Defense of Others: A defendant is NOT liable for harm to the plaintiff if he: **(1) *reasonably believed*** that the plaintiff was going to harm him or another; **AND (2)** used ***reasonable force that was necessary*** to protect himself or another.\n• Defense of Property: A person may use ***reasonable force*** to defend property, but CANNOT use deadly force.\n• Recapture of Chattels: An owner of chattels wrongfully taken may take ***prompt action*** and ***use reasonable, non-deadly force*** to recover the chattels from the wrongdoer. No force is deemed reasonable until a demand for return has been made, UNLESS the demand would be dangerous or futile. This privilege is NOT applicable to recapture pertaining to a default in an installment contract for the sale of goods.\n• Detain for Investigation: In most jurisdictions, shopkeepers have the privilege of (1) temporarily detaining, (2) a person reasonably suspected of theft, (3) in or near their store, (4) for the purpose of an investigation. Reasonable non-deadly force may be used to detain the individual, when a request to remain has been made and refused.\n• Privilege to Discipline: Parents may use reasonable force in disciplining their children.\n• Privilege to Arrest: A privilege to arrest is generally regulated by statute, but is more likely to occur when the ***crime is serious*** (a felony) _and_ if the defendant ***directly observed the crime*** when making the arrest.",
+    "meeTips": [
+      "On the exam, apply _only_ the applicable privilege(s) based on the essay question."
+    ],
+    "examHistory": [
+      "Feb 2012, Essay 4",
+      "Feb 2011, Essay 4"
+    ],
+    "translation": "• **特権**とは、通常の状況下では行為者に責任を負わせる行為であるが、***状況下で免責される***ものである。特権は被告が主張し、立証しなければならない。特権には以下の抗弁が含まれる。\n• 緊急避難：被告の行為が**(1) *必要であった***（または必要であると合理的に思われた）場合、**かつ (2)** ***人または財産への重大な危害を防止する（Prevent Serious Harm to Person or Property）***ためであった場合、被告は原告の不動産または動産への損害について責任を負わない。**公的緊急避難（Public Necessity）**とは、被告が公共の利益のために行動する場合であり、完全な抗弁である。**私的緊急避難（Private Necessity）**は不完全な特権であり（被告の行為の目的が原告を助けることでない限り、被告は生じた損害について責任を負う）、被告が自己または少数の他者の財産権を保護している場合に生じる。**緊急避難は、***財産に対する故意の不法行為に（Intentional Torts against Property）_のみ_適用される***。\n• 自己防衛／他者防衛：被告が**(1) 原告が自己または他者に危害を加えるであろうと***合理的に信じていた***場合、**かつ (2)** 自己または他者を保護するために***必要かつ合理的な力（Necessary and Reasonable Force）***を行使した場合、被告は原告への損害について責任を負わない。\n• 財産防衛（Defense of Property）：人は財産を防衛するために***合理的な力***を行使することができるが、致死的な力を行使することはできない。\n• 動産奪還（Recapture of Chattels）：不法に奪われた動産の所有者は、***迅速な行動***を取り、不法行為者から動産を回収するために***合理的な、致死的でない力***を行使することができる。返還要求がなされるまで、いかなる力も合理的とは見なされない。ただし、その要求が危険であるか無益である場合はこの限りではない。この特権は、物品売買の分割払い契約における債務不履行に関する奪還には適用されない。\n• 調査のための拘束（Shopkeeper's Privilege）：ほとんどの法域において、店主は(1) 窃盗の合理的な疑いのある者を、(2) 店舗内またはその近傍で、(3) 調査の目的で、(4) 一時的に拘束する特権を有する。留まるよう要求され、拒否された場合、個人を拘束するために合理的な致死的でない力を行使することができる。\n• 懲戒特権（Privilege to Discipline）：親は子供を懲戒する際に合理的な力を行使することができる。\n• 逮捕特権（Privilege to Arrest）：逮捕特権（Privilege to Arrest）は通常、法令によって規制されるが、***犯罪が重大である***（重罪である）場合、_かつ_ 被告が逮捕時に***犯罪を直接目撃した***場合に生じやすい。",
+    "meeTipTranslation": "試験では、論文問題に基づいて_のみ_適用される特権を適用すること。",
+    "ruleTitleJa": "故意不法行為の抗弁：特権"
+  },
+  {
+    "id": 10,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Prima Facie Case of Negligence",
+    "priority": "HIGH",
+    "frequency": "9 of 40 Exams",
+    "body": "• A prima facie case for negligence requires: **(1)** a ***duty*** owed to the plaintiff by the defendant; **(2)** a ***breach*** of that duty; **(3)** the breach was the ***actual*** and ***proximate cause*** of the plaintiff’s injuries; **AND (4) *damages***. To make a prima facie case, a party must offer sufficient evidence so that the trier of fact could reasonably find that ALL of the above elements have been met.",
+    "meeTips": [
+      "State this rule at the beginning of your answer for any essay question concerning negligence."
+    ],
+    "examHistory": [
+      "July 2025, Essay 6",
+      "Feb 2025, Essay 3",
+      "July 2023, Essay 1",
+      "Feb 2019, Essay 1",
+      "July 2017, Essay 1",
+      "July 2015, Essay 1",
+      "Feb 2012, Essay 4",
+      "Feb 2010, Essay 4",
+      "Feb 2009, Essay 7"
+    ],
+    "translation": "• 過失の**一応の立証**（prima facie case）には、以下が必要である。**(1)** 被告が原告に対して負う***義務***；**(2)** その義務の***違反***；**(3)** その違反が原告の傷害の***事実上の原因（Actual Cause）***および***近接原因（Proximate Cause）***であったこと；**および (4) *損害***。一応の立証を構成するためには、当事者は、事実認定者が上記の要素のすべてが満たされたと合理的に認定できるだけの十分な証拠を提出しなければならない。",
+    "meeTipTranslation": "過失に関するいかなる論文形式の設問においても、このルールを解答の冒頭で述べよ。",
+    "ruleTitleJa": "過失の一応の立証要件（Prima Facie Case）"
+  },
+  {
+    "id": 11,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Affirmative Duty to Act & Rendering Aid",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Generally, there is **NO duty to act affirmatively**. However, an affirmative duty to act will arise in certain circumstances: **(1)** A ***pre-existing relationship*** between the parties (i.e. parent-child, landowner-entrant); **(2)** The ***defendant put the plaintiff in peril***; **(3)** The defendant has ***undertaken to rescue*** the plaintiff; **OR (4)** A duty is ***imposed by law***.\n• A person who ***undertakes*** to rescue or aid another is liable for injuries caused by his failure to exercise reasonable care in doing so if: **(a)** the failure to exercise such care ***increases the risk of harm***; **OR (b)** the ***harm is suffered because of the reliance*** on the person providing help or aid. Under this standard, a person who renders aid is liable for any bodily harm caused to the other person if: (1) ***aid is discontinued***; AND (2) the other person is ***left in a worse position***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 1",
+      "July 2015, Essay 1",
+      "July 2012, Essay 6"
+    ],
+    "translation": "• 一般に、**積極的な行為義務（Affirmative Duty to Act）は存在しない**。しかし、積極的な行為義務（Affirmative Duty to Act）は特定の状況において発生する。**(1)** 当事者間に***既存の関係（Pre-Existing Relationship）***がある場合（例：親と子、土地所有者と立ち入り者）；**(2)** ***被告が原告を危険に晒した場合***；**(3)** 被告が原告を***救助することを引き受けた***場合；**または (4)** 義務が***法律によって課せられている***場合。\n• 他者を救助または援助することを***引き受けた***者は、その行為において合理的な注意を払わなかったことによって生じた傷害について、以下の場合に責任を負う。**(a)** そのような注意を払わなかったことが***危害のリスクを増大させた（Increased the Risk of Harm）***場合；**または (b)** 援助を提供する者への***信頼によって危害を被った（Injured by Reliance）***場合。この基準の下では、援助を提供する者は、以下の場合に他者に生じた身体的傷害について責任を負う。(1) ***援助が中止され***；**かつ** (2) 他の者が***より悪い状況に置かれた***場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "積極的行為義務および救助義務"
+  },
+  {
+    "id": 12,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Standard of Care: Reasonable Person Standard",
+    "priority": "HIGH",
+    "frequency": "6 of 40 Exams",
+    "body": "• Every person owes a duty to act as a ***reasonable prudent person would act under like circumstances***. A reasonable prudent person takes appropriate measures to avoid _foreseeable risks_. This duty of care is owed to _all foreseeable plaintiffs_. Following community customs and statutory requirements may be relevant as to what conduct is reasonable, but are NOT dispositive. Statutory compliance DOES NOT establish reasonable care or freedom from fault; it is merely evidence of reasonable care. The specific knowledge of risk(s) is a factor to determine if a person acted with reasonable care. The reasonable person standard also applies to business entities.\n• A person with a **physical disability** must act as a ***reasonable person with the disability*** would act. However, a person with **below average intelligence or a mental disability** must act as a ***reasonable person without the disability*** would act.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2023, Essay 1",
+      "Feb 2019, Essay 1",
+      "July 2017, Essay 1",
+      "Feb 2012, Essay 4",
+      "Feb 2010, Essay 4",
+      "Feb 2009, Essay 7"
+    ],
+    "translation": "• すべての者は、***同様の状況下で合理的な分別ある者（reasonable prudent person）が行動するように行動する義務***を負う。合理的な分別ある者（Reasonable Prudent Person）は、_予見可能なリスク（Foreseeable Risk）_を回避するために適切な措置を講じる。この注意義務は、_すべての予見可能な原告_に対して負われる。地域社会の慣習や法的要件に従うことは、何が合理的行動であるかに関して関連性があるかもしれないが、決定的ではない。法令遵守は、合理的な注意または過失からの免責を確立するものではなく、単に合理的な注意の証拠に過ぎない。リスクに関する特定の知識は、ある者が合理的な注意をもって行動したかどうかを判断する要因である。合理的な者の基準は、事業体にも適用される。\n• **身体的障害**を持つ者は、***その障害を持つ合理的な者が行動するように行動しなければならない***。しかし、**平均以下の知能または精神的障害**を持つ者は、***その障害を持たない合理的な者が行動するように行動しなければならない***。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "注意義務基準：合理的な人物の基準"
+  },
+  {
+    "id": 13,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Standard of Care: Children",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Children are capable of negligence, but are held to a different standard than adults. Children are held to the standard of care of a **hypothetical child *of similar age, experience, and intelligence acting under similar circumstances***.\n• If a child is **engaged in an adult activity**, the child has a duty to ***act as a reasonable adult*** would under the circumstances with respect to that activity. Under the Restatement (Third) of Torts, the following are deemed adult activities: driving a car, tractor, motorcycle, or other motorized vehicle (such as motorbikes/scooters and snowmobiles).\n• Physically disabled children MUST conform their conduct to that of a reasonably careful child with the ***same physical disability***.\n• Specific Rules for Very Young Children: Under the Restatement (Third) of Torts, **children under 5 years old** are ***exempt*** from negligence liability. Some jurisdictions hold that **young children** (typically under 7 years old) are ***presumed incapable of negligence***.\n• Instructions Received: When a child receives instructions from a parent about taking necessary precautions, the child can be found negligent for failing to follow those instructions.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 1",
+      "July 2015, Essay 1",
+      "Feb 2009, Essay 7"
+    ],
+    "translation": "• 子供は過失能力を有するが、大人とは異なる基準が適用される。子供は、***類似の年齢、経験、知能を持つ架空の子供が類似の状況下で行動する場合***の注意義務基準に準拠する。\n• 子供が**大人の活動（Adult Activity）に従事している場合**、その活動に関しては、その状況下で***合理的な大人が行動する***のと同等の義務を負う。不法行為法第三次リステイトメント（Restatement (Third) of Torts）の下では、自動車、トラクター、オートバイ、その他の動力付き車両（原動機付自転車/スクーター、スノーモービルなど）の運転は、大人の活動（Adult Activity）とみなされる。\n• 身体障害のある子供は、***同じ身体障害を持つ合理的に注意深い子供***の行動に合わせなければならない。\n• 非常に幼い子供に関する特定のルール: 不法行為法第三次リステイトメント（Restatement (Third) of Torts）の下では、**5歳未満の子供**は過失責任から***免除される***。一部の法域では、**幼い子供**（通常7歳未満）は***過失能力がないと推定される***。\n• 受けた指示: 子供が親から必要な予防措置を講じるよう指示を受けた場合、その指示に従わなかったことで過失があると判断されることがある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "注意義務基準：子供"
+  },
+  {
+    "id": 14,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Standard of Care: Professionals",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• A professional (doctors, nurses, lawyers, accountants, engineers, architects, psychologist/psychotherapist) owes a duty to act with the knowledge and skill as an ***average member of that profession*** practicing in a ***similar community***. One holding himself out as a specialist should be held to the standard of care and skill of the ***average member of the profession practicing the specialty***, taking into account the advances in the profession. Expert testimony is generally required to show that the professional complied or breached the standard of care.\n• A medical doctor is held to the degree of care and skill of the average qualified practitioner. Most courts analyze the doctor’s conduct under **national standards** rather than those in the doctor’s locality or community. A doctor has a duty to obtain ***informed consent*** from his patient before treatment, which requires the doctor to disclose risks of treatment that a ***reasonable patient*** would want to know.\n• A psychologist/psychotherapist has a duty to warn potential victims when their patient makes a credible threat to others. In most states, a therapist will liable for a victim’s injury if **(1)** the therapist ***believed the patient posed a real risk***, **(2)** of ***serious physical violence***, **(3)** to a ***readily identifiable victim***, and **(4)** the therapist ***failed to take steps to warn*** the victim.",
+    "meeTips": [
+      "On the exam, apply any rules specific to the type of profession (i.e. doctor) if said profession is included in essay question."
+    ],
+    "examHistory": [
+      "July 2016, Essay 3",
+      "July 2012, Essay 6"
+    ],
+    "translation": "• 専門家（医師、看護師、弁護士、会計士、エンジニア、建築家、心理学者/精神療法士）は、***類似の地域社会で開業するその専門職の平均的なメンバー***としての知識と技能をもって行動する義務を負う。専門家を自称する者は、その専門職の進歩を考慮し、***専門分野で開業するその専門職の平均的なメンバー***の注意義務基準と技能に準拠すべきである。専門家が注意義務基準を遵守したか、または違反したかを示すには、通常、専門家証言が必要である。\n• 医師は、平均的な資格のある開業医の注意義務と技能の程度に準拠する。ほとんどの裁判所は、医師の行為を、その医師の地域やコミュニティの基準ではなく、**全国的な基準**で分析する。医師は、治療前に患者から***インフォームド・コンセント（Informed Consent）***を得る義務があり、これには、***合理的な患者（Reasonable Patient）***が知りたいと思う治療のリスクを開示することが求められる。\n• 心理学者/精神療法士は、患者が他者に対して信頼できる脅威を与えた場合、潜在的な被害者に警告する義務を負う。ほとんどの州では、セラピストが被害者の負傷に対して責任を負うのは、**(1)** セラピストが***患者が真の危険を呈していると信じた***、**(2)** ***深刻な身体的暴力（Serious Physical Violence）***の危険であると信じた、**(3)** ***容易に特定可能な被害者（Readily Identifiable Victim）***に対する危険であると信じた、**かつ (4)** セラピストが被害者に***警告する措置を講じなかった（Failed to Take Steps to Warn）***場合である。",
+    "meeTipTranslation": "試験では、エッセイ問題に特定の専門職（例：医師）が含まれている場合、その専門職に特有のルールを適用すること。",
+    "ruleTitleJa": "注意義務基準：専門家"
+  },
+  {
+    "id": 15,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Standard of Care: Land Owner/Possessor’s Duty to Entrants",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Some states require landowners to ***exercise reasonable care to* ALL *entrants*** upon his land to take appropriate measures to avoid _foreseeable risks_. Other states still determine what duty of care is owed by a landowner by considering the type of person (trespasser, licensee, or invitee) is on the property. The same rules apply to a possessor of land (i.e. a tenant or tenant business owner).\n  ○ If the entrant is an **Undiscovered Trespasser** (one who enters the land of another without permission), in most jurisdictions, ***no duty is owed*** by the landowner.\n  ○ If the entrant is an **Anticipated Trespasser** (one who enters the land of another without permission, but which may be expected by the landowner), the landowner must: **(1)** use ***reasonable care in operations*** on the property; **AND (2) *warn of (or make safe) highly dangerous artificial conditions*** that the landowner knows of.\n    Under the Attractive Nuisance Doctrine, a land owner/possessor **owes a duty to *child trespassers* to make the premises reasonably safe or warn of hidden dangers on his land**. A land owner/possessor is labile for the harm to a trespassing child if: **(1)** he knows (or should know) of a ***dangerous artificial condition*** on his land that is likely to cause ***death or serious bodily injury***; **(2)** he knows (or should know) that ***children are likely to frequent the area***; **(3)** children are ***unlikely to discover the condition or appreciate the risks*** involved; **(4)** the ***risk of harm outweighs the expense*** of making the condition safe; **AND (5)** he ***fails to exercise reasonable care*** in eliminating the danger or protecting children from it. The attractive nuisance doctrine is less likely to apply if the child engages in an adult activity.\n  ○ If the entrant is a **Licensee** (invited on the owner’s property as a social guest), the landowner must: **(1)** exercise ***reasonable care in operations*** on the property; **AND (2) *warn of (or make safe) dangerous conditions*** that are known to the landowner, but are not apparent to a guest. A person is a licensee if he _reasonably believed_, _based on the owner’s conduct or words_, that he was permitted to enter the owner’s land.\n  ○ If the entrant is an **Invitee** (invited onto the property for the owner’s benefit, such as a business), the landowner owes all the duties he would to a licensee. In addition, the landowner has a **duty to make *reasonable inspections* of the property to find and make safe non-obvious dangerous conditions**. A landowner is liable for failing to warn of dangerous conditions that would have been discovered upon reasonable inspection. Generally, a landowner is allowed a ***reasonable time-period to discover*** a dangerous condition and remedy it. Courts have held that when food is sold through self-service, the business must take greater precautions and make more frequent inspections.",
+    "meeTips": [
+      "On the exam, apply the relevant landowner standard of care rule(s) based upon the injured person’s status in the essay question."
+    ],
+    "examHistory": [
+      "July 2021, Essay 1",
+      "July 2015, Essay 1",
+      "Feb 2010, Essay 4"
+    ],
+    "translation": "• 一部の州では、土地所有者は、土地への**すべての侵入者**に対して***合理的な注意を払い***、_予見可能なリスク（Foreseeable Risk）_を回避するために適切な措置を講じることを要求する。他の州では、土地所有者が負う注意義務は、その敷地にいる人物の種類（不法侵入者、ライセンシー（Licensee）、インバイティー（Invitee））によって依然として決定される。土地の占有者（例：テナントまたはテナント事業主）にも同じルールが適用される。\n  ○ 侵入者が**未発見の不法侵入者（Undiscovered Trespasser）**（許可なく他人の土地に侵入する者）である場合、ほとんどの法域では、土地所有者には***いかなる義務も負わない***。\n  ○ 侵入者が**予期される不法侵入者（Anticipated Trespasser）**（許可なく他人の土地に侵入するが、土地所有者によって予期されうる者）である場合、土地所有者は次のことを行わなければならない。**(1)** 敷地内での作業において***合理的な注意を払う***。**かつ (2)** 土地所有者が知っている***非常に危険な人工的状況（highly dangerous artificial conditions）について警告する（または安全にする）***。\n    魅力的な危険物（Attractive Nuisance）の法理の下では、土地所有者/占有者は、**自分の土地にいる子供に対して義務を負う**。土地所有者/占有者は、不法侵入した子供への危害に対して責任を負うのは、次の条件を満たす場合である。**(1)** 自分の土地に***死亡または深刻な身体的傷害（death or serious bodily injury）***を引き起こす可能性のある***危険な人工的状況（dangerous artificial condition）***があることを知っている（または知るべきである）。**(2)** ***子供たちがその地域に頻繁に訪れる可能性が高い***ことを知っている（または知るべきである）。**(3)** 子供たちが***その状況を発見したり、関連するリスクを認識したりする可能性が低い***。**(4)** ***危害のリスクが、その状況を安全にするための費用を上回る***。**かつ (5)** 危険を排除するか、子供たちを危険から保護するために***合理的な注意を払うことを怠る***。魅力的な危険物（Attractive Nuisance）の法理は、子供が大人の活動（Adult Activity）に従事している場合には適用されにくい。\n  ○ 侵入者が**ライセンシー（Licensee）**（社交客として所有者の敷地に招待された者）である場合、土地所有者は次のことを行わなければならない。**(1)** 敷地内での作業において***合理的な注意を払う***。**かつ (2)** 土地所有者が知っているが、客には明らかでない***危険な状況（Dangerous Conditions）について警告する（または安全にする）***。ある人物がライセンシー（Licensee）であるのは、_所有者の行動や言葉に基づいて_、その人物が所有者の土地に立ち入ることを許可されていると_合理的に信じた_場合である。\n  ○ 侵入者が**インバイティー（Invitee）**（事業など、所有者の利益のために敷地に招待された者）である場合、土地所有者はライセンシー（Licensee）に対して負うすべての義務を負う。さらに、土地所有者は、**非明白な危険な状況（Dangerous Conditions）を発見・安全化するために*合理的な検査（Reasonable Inspections）*を行う義務**を負う。土地所有者は、合理的な検査（Reasonable Inspections）によって発見されたであろう危険な状況（Dangerous Conditions）について警告を怠った場合、責任を負う。一般的に、土地所有者には、危険な状況（Dangerous Conditions）を***発見し、それを是正するための合理的な期間***が与えられる。裁判所は、食品がセルフサービスで販売されている場合、事業者はより大きな予防措置を講じ、より頻繁な検査を行う必要があると判断している。",
+    "meeTipTranslation": "試験では、エッセイ問題における負傷者の地位に基づいて、関連する土地所有者の注意義務基準ルールを適用すること。",
+    "ruleTitleJa": "注意義務基準：土地所有者/占有者の侵入者に対する義務"
+  },
+  {
+    "id": 16,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Standard of Care: Landlord’s Duty to Tenants",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• Unless otherwise provided by contract or law, **a landlord generally has NO duty to maintain the leased premises**. However, a landlord must warn the tenant of any latent defects.\n• Under the common law, a landlord has NO duty to provide a safe premises so that tenants may be safe from criminal acts of third-persons. HOWEVER, modern courts have held that landlords have a **duty to take *reasonable precautions* to protect tenants against *foreseeable attacks***. This has been applied to schools having a duty to protect tenant students from foreseeable criminal activity.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2012, Essay 6"
+    ],
+    "translation": "• 契約または法律に別段の定めがない限り、**家主は賃貸物件を維持管理する義務を一般的に負わない**。ただし、家主は賃借人に対し、潜在的欠陥（Latent Defects）について警告しなければならない。\n• コモンローの下では、家主は第三者の犯罪行為から賃借人を安全にするための安全な敷地を提供する義務を負わない。しかし、現代の裁判所は、家主が***予見可能な攻撃から賃借人を保護するために合理的な予防措置（Reasonable Precautions）を講じる義務***を負うと判示している。これは、学校が予見可能な犯罪行為から賃借人である学生を保護する義務を負う場合にも適用されている。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "注意義務基準：家主の賃借人に対する義務"
+  },
+  {
+    "id": 17,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Negligence Per Se",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• Under the doctrine of negligence per se, a statute may be used to substitute the duty of care. If negligence per se applies, the duty and breach elements are established when the defendant breaches the statute. Then the plaintiff need only prove causation and damages.\n• To use **negligence per se**, plaintiff must show: **(1)** that the ***statute’s purpose is to prevent the type of harm*** that the plaintiff has suffered; **AND (2)** that the plaintiff ***is in the class of persons the statute seeks to protect***.\n• There are two exceptions when the standard of care will NOT be substituted for the statute even when the above test is met. The first is when the defendant’s ***compliance with statute would have been more dangerous than the violation of it***. The second is when ***compliance with the statute is impossible***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 3",
+      "Feb 2019, Essay 1",
+      "Feb 2015, Essay 1",
+      "Feb 2009, Essay 7"
+    ],
+    "translation": "• 法令違反の過失（negligence per se）の法理の下では、制定法を注意義務に代用することができる。法令違反の過失が適用される場合、被告が制定法に違反したときに、義務および違反の要件が確立される。その場合、原告は因果関係と損害のみを証明すればよい。\n• **法令違反の過失**を適用するためには、原告は以下のことを示さなければならない。**(1)** その***制定法の目的が、原告が被った種類の損害を防止することである（Purpose to Prevent the Type of Harm Suffered）***こと。**かつ (2)** 原告が***制定法が保護しようとする者の階級に属する（Member of the Class the Statute was Designed to Protect）***こと。\n• 上記の要件が満たされていても、注意義務が制定法に代用されない2つの例外がある。第1は、被告が***制定法を遵守することが違反するよりも危険を引き起こす***場合である。第2は、***制定法の遵守が不可能***な場合である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "法令違反の過失（Negligence Per Se）"
+  },
+  {
+    "id": 18,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Res Ipsa Loquitur",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• When the _breach_ element of negligence is very difficult to prove, the court may allow a plaintiff to use the doctrine of “res ipsa loquitur” (which means the thing speaks for itself) to prove the breach element.\n• Traditional Test: To be applicable, a plaintiff must show: **(1)** that her injury is of a sort that ***typically does not occur in the absence of negligence***; **(2)** the instrumentality (thing/object) which caused her injury was in the ***defendant’s exclusive control***; **AND (3)** that the **plaintiff NOT *cause or contribute to the injury***.\n• Restatement (Second) Test: Res Ipsa Loquitur is applicable when: **(1)** the event is of a kind that ***ordinarily does not occur in the absence of negligence***; **(2) *other responsible causes are sufficiently eliminated*** by the evidence (including the conduct of the plaintiff and third persons); **AND (3)** the indicated negligence is ***within the scope of the defendant’s duty to the plaintiff***. Plaintiff need not show that reasonable care would completely eliminate the risk; only that it ordinarily _does not_ occur in the absence of negligence.\n• Restatement (Third) Test: The factfinder may infer the defendant’s negligence when **(1)** the accident causing the plaintiff’s harm is a type that ordinarily happens as a result of the negligence of a class of actors, **(2)** of which the defendant is the relevant member.\n• When an action is against multiple defendants, res ipsa loquitur generally CANNOT be used to show liability of any particular defendant.",
+    "meeTips": [
+      "Unless the essay question states otherwise, you may apply any one of the three Res Ipsa Loquitur tests: Traditional Test, Restatement (Second) Test, or Restatement (Third) Test. This occurred on the Feb. 2019 MEE (Essay 1, Point Three), in which the official analysis stated: “Answers relying on any of these variations should be given full credit…”"
+    ],
+    "examHistory": [
+      "Feb 2019, Essay 1",
+      "Feb 2008, Essay 2"
+    ],
+    "translation": "• 過失の_違反_要素の証明が非常に困難な場合、裁判所は原告が「事実自体が雄弁に語る（res ipsa loquitur）」の法理を使用して違反要素を証明することを認める場合がある。\n• **伝統的テスト**：適用されるために、原告は以下を示さなければならない：**(1)** その傷害が***過失がなければ通常発生しない（Would Not Normally Occur without Negligence）***種類のものであること；**(2)** 傷害の原因となった道具（物品）が***被告の排他的管理下（Exclusive Control of the Defendant）***にあったこと；**かつ (3)** 原告が***傷害を引き起こしまたは寄与しなかった***こと。\n• **リステイトメント（第2版）テスト**：以下の場合にres ipsa loquiturが適用される：**(1)** 事象が***過失がなければ通常発生しない（Would Not Normally Occur without Negligence）***種類のものであること；**(2)** ***他の責任原因が証拠によって十分に排除されている***こと（原告および第三者の行為を含む）；**かつ (3)** 示された過失が***被告の原告への義務の範囲内***であること。原告は合理的な注意が危険を完全に排除することを示す必要はなく、過失がなければ通常は_発生しない_ことを示せばよい。\n• **リステイトメント（第3版）テスト**：**(1)** 原告の損害を引き起こした事故が、ある類の行為者による過失の結果として通常発生するものであり、**(2)** 被告がその関連する構成員である場合、事実認定者は被告の過失を推定することができる。\n• 複数の被告に対する訴訟では、res ipsa loquiturは特定の被告の責任を示すために一般的に使用することはできない。",
+    "meeTipTranslation": "論文問題で別途指定されない限り、レス・イプサ・ロキトゥルの3つのテスト（伝統的テスト、第二次リステイトメントテスト、または第三次リステイトメントテスト）のいずれか1つを適用してよい。これは2019年2月MEE（論文1、第3点）で発生し、公式分析では次のように述べられた：「これらのいずれかの変形に依拠した回答も満点とすべきである…」",
+    "ruleTitleJa": "事実推定の原則"
+  },
+  {
+    "id": 19,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Causation: Actual and Proximate Cause",
+    "priority": "HIGH",
+    "frequency": "9 of 40 Exams",
+    "body": "• A plaintiff must show that the defendant’s conduct was BOTH the ***actual*** and ***proximate cause*** of the injury. **Actual cause** is the “***but for***” ***cause*** – but for defendant’s negligence, plaintiff would not have been injured. Under the **Substantial Factor Test**, something that is a ***substantial factor*** in bringing about the injury is an actual cause (_even if_ the injury had multiple causes). **Proximate cause** is the legal cause, which means that the injury must have been a ***foreseeable*** result of the breach. A defendant is NOT liable for harms that are too remote from the defendant’s conduct. In the context of proximate cause, foreseeability is generally a question of fact for the jury.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 3",
+      "July 2023, Essay 1",
+      "July 2021, Essay 1",
+      "Feb 2019, Essay 1",
+      "July 2017, Essay 1",
+      "July 2015, Essay 1",
+      "July 2013, Essay 2",
+      "July 2012, Essay 6",
+      "Feb 2009, Essay 7"
+    ],
+    "translation": "• 原告は、被告の行為が損害の***事実上の因果関係（Actual Cause）***と***法的因果関係（Proximate Cause）***の**両方**であったことを示さなければならない。**事実上の因果関係（Actual Cause）**とは、「***もし～がなければ～もなかった（But-For Causation）***」***原因***であり、被告の過失がなければ、原告は負傷しなかったであろう。**実質的要因テスト（Substantial Factor Test）**によれば、損害を引き起こす***実質的要因***であるものは事実上の因果関係（Actual Cause）である（_たとえ_損害に複数の原因があったとしても）。**法的因果関係（Proximate Cause）**とは法的な原因であり、損害が違反の***予見可能***な結果であったことを意味する。被告は、被告の行為からあまりにも遠隔すぎる損害に対しては責任を負わない。法的因果関係（Proximate Cause）の文脈において、予見可能性は一般に陪審による事実認定の問題である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "因果関係：事実的因果関係と法的因果関係（Proximate Cause）"
+  },
+  {
+    "id": 20,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Proximate Cause: Intervening Causes",
+    "priority": "HIGH",
+    "frequency": "7 of 40 Exams",
+    "body": "• Any act that occurs after the defendant’s breach that contributes to the harm is an **intervening cause**. Intervening causes that are ***dependent on*** (a natural reaction to) the defendant’s wrongful acts are usually foreseeable. If the intervening cause resulted in an ***unexpected injury*** to the plaintiff, it is usually deemed unforeseeable and will absolve the defendant of liability to the plaintiff.\n• Intervening **medical malpractice** is ALWAYS deemed foreseeable. Intervening **criminal acts** are usually _not_ foreseeable UNLESS: (a) the defendant should have anticipated the criminal act; OR (b) if the defendant’s conduct makes the criminal act more likely to occur. Courts have held that injuries sustained from a plaintiff **running from the danger** are foreseeable. Similarly, an **injured rescuer’s** injuries have been deemed foreseeable under the “danger invites rescue” doctrine.\n• Liability for Increased Harm Caused by Rescue Efforts: A negligent tortfeasor who causes the initial injury is usually ***liable for increased/enhanced harm*** caused by others providing aid (including negligent and non-negligent rescue efforts). Such rescue efforts are typically NOT deemed a superseding cause of the enhanced harm if the risks and/or injury caused is part of a _normal rescue attempt_.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 6",
+      "July 2021, Essay 1",
+      "Feb 2019, Essay 1",
+      "July 2017, Essay 1",
+      "July 2013, Essay 2",
+      "July 2012, Essay 6",
+      "Feb 2009, Essay 7"
+    ],
+    "translation": "• 被告の違反後に発生し、損害に寄与するいかなる行為も**介在原因（Intervening Cause）**である。被告の不法行為に***依存する***（自然な反応である）介在原因（Intervening Cause）は、通常予見可能である。介在原因（Intervening Cause）が原告に***予期せぬ損害（Unforeseeable Harm）***をもたらした場合、それは通常予見不可能とみなされ、被告の原告に対する責任を免除する。\n• 介在する**医療過誤（Medical Malpractice）**は常に予見可能とみなされる。介在する**犯罪行為**は、通常_予見不可能_である。ただし、(a) 被告が犯罪行為を予期すべきであった場合、または (b) 被告の行為が犯罪行為の発生をより可能性高くする場合を除く。裁判所は、原告が**危険から逃走**したことによる負傷は予見可能であると判示している。同様に、「危険は救助を招く（Danger Invites Rescue）」原則の下で、**負傷した救助者**の負傷も予見可能とみなされている。\n• 救助活動によって生じた損害増大に対する責任：最初の負傷を引き起こした過失のある不法行為者は、通常、他者が援助を提供したこと（過失のある救助活動および過失のない救助活動を含む）によって生じた***増大した／増強された損害（Increased/Enhanced Harm）に対して責任を負う***。このような救助活動は、リスクおよび／または生じた負傷が_通常の救助活動_の一部である場合、通常、増強された損害の代替原因（Superseding Cause）とはみなされない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "法的因果関係（Proximate Cause）：介在原因（Intervening Cause）"
+  },
+  {
+    "id": 21,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Causation: Eggshell Plaintiff Rule, Unusually Costly Property Damage, & Emotional Distress Stemming from Physical Injury",
+    "priority": "HIGH",
+    "frequency": "4 of 40 Exams",
+    "body": "• The Eggshell Plaintiff Rule means that ***a tortfeasor takes his victim as he finds him***. Thus, a defendant is liable for **ALL harm** a plaintiff suffers as a result of his conduct, _even if_ the plaintiff suffered from a preexisting mental or physical condition that made the harm different or greater than what a normal person might suffer.\n• When property is damaged by negligence, its full cost of repair is generally recoverable _even if_ the property or property damage is unusually costly. If the type of harm that occurs is within the scope of the risk, the defendant is liable for all such harm caused, regardless of its extent.\n• A plaintiff is entitled to recover any emotional distress damages _stemming_ from a physical injury. However, a plaintiff will need to establish the tort of Negligent Infliction of Emotional Distress to recover mental distress damages _not related_ to any physical injury.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 6",
+      "July 2012, Essay 6",
+      "Feb 2011, Essay 4",
+      "Feb 2010, Essay 4"
+    ],
+    "translation": "• 卵の殻の被害者原則（Eggshell Plaintiff Rule）とは、***不法行為者は被害者をそのあるがままに受け入れる（Take the Victim as You Find Them）***ことを意味する。したがって、被告は、原告が既存の精神的または身体的状態を患っており、その損害が通常の人々が被るであろうものとは異なるか、またはより大きいものであった_としても_、その行為の結果として原告が被る**全ての損害**に対して責任を負う。\n• 財産が過失によって損害を受けた場合、その修理の全費用は、_たとえ_その財産または財産損害が異常に高価であったとしても、一般に回復可能である。発生した損害の種類が危険の範囲内である場合、被告はその程度にかかわらず、引き起こされたそのような全ての損害に対して責任を負う。\n• 原告は、身体的傷害に_起因する_いかなる精神的苦痛による損害賠償も回復する権利を有する。しかし、原告は、いかなる身体的傷害にも_関連しない_精神的苦痛による損害賠償を回復するためには、過失による精神的苦痛の不法行為を立証する必要がある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "因果関係：卵の殻の原告の原則、異常に高価な財産"
+  },
+  {
+    "id": 22,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "B. Negligence",
+    "ruleTitle": "Causation: Toxic Substances",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A plaintiff must show that the defendant’s conduct was both the ***actual cause*** AND ***proximate cause*** of the injury.\n• To prove Actual Causation for toxic substances, courts typically require proof of BOTH “general causation” and “specific causation.” **General Causation** exists when a substance is ***capable of causing a given disease*** (it’s scientifically possible). **Specific Causation** exists when ***exposure to an agent caused that particular party’s disease***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2023, Essay 1"
+    ],
+    "translation": "• 原告は、被告の行為が損害の***事実上の原因***と***法律上の原因***の両方であったことを示さなければならない。\n• 有毒物質に対する事実上の原因を立証するため、裁判所は通常、「一般的原因（General Causation）」と「特定的原因（Specific Causation）」の両方の立証を要求する。**一般的原因（General Causation）**は、ある物質が***特定の疾病を引き起こす能力がある***場合に存在する（科学的に可能である）。**特定的原因（Specific Causation）**は、***ある物質への曝露が当該特定の当事者の疾病を引き起こした場合***に存在する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "因果関係：有害物質"
+  },
+  {
+    "id": 23,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "C. Defenses to Negligence Claims",
+    "ruleTitle": "Comparative Negligence & Contributory Negligence",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Under **pure comparative negligence**, the plaintiff’s negligence or assumption of risk will NOT bar recovery. However, it is a factor in determining the percentage of fault of each party, and will ***reduce the plaintiff’s recoverable damages by the percentage of his own fault***.\n• In most **partial comparative negligence jurisdictions**, if a plaintiff ***contributed 50% or less*** to their own injury, then plaintiff’s ***damages are reduced*** by the percentage of fault that is attributable to plaintiff. If the plaintiff was ***more than 50%*** at fault, then the plaintiff’s ***claim is barred***. However, in a minority of partial comparative negligence states, a plaintiff’s ***claim is barred*** if the plaintiff was _50% or more_ at fault.\n• In a **contributory negligence** jurisdiction, a plaintiff CANNOT recover damages if he ***contributed to his own injury***. However, two exceptions to this rule exist: **(a)** when the ***defendant had the last opportunity*** to avoid the accident; **OR (b)** if the defendant was ***reckless***. Contributory negligence is only applied in a few states.",
+    "meeTips": [
+      "Unless otherwise indicated on the exam, _only apply_ pure comparative negligence. Do not apply partial comparative negligence or contributory negligence _unless_ instructed otherwise."
+    ],
+    "examHistory": [
+      "July 2015, Essay 1",
+      "Feb 2009, Essay 7"
+    ],
+    "translation": "• **純粋な過失相殺（Pure Comparative Negligence）**の下では、原告の過失または危険の引受（Assumption of Risk）は回復を妨げない。しかし、それは各当事者の過失割合を決定する要因となり、***原告が回復可能な損害賠償額を、自身の過失割合に応じて減額する***。\n• ほとんどの**部分的過失相殺（Modified Comparative Negligence）法域**では、原告が自身の損害に***50%以下寄与した場合***、原告の***損害賠償額は***原告に帰属する過失割合に応じて***減額される***。原告の過失が***50%を超える***場合、原告の***請求は棄却される***。しかし、一部の部分的過失相殺（Modified Comparative Negligence）州では、原告の過失が_50%以上_の場合、原告の***請求は棄却される***。\n• **寄与過失（Contributory Negligence）**法域では、原告が***自身の損害に寄与した場合***、損害賠償を回復することはできない。ただし、この規則には二つの例外が存在する。**(a)** ***被告が事故を回避する最後の機会を有していた（Last Clear Chance）***場合、**または (b)** 被告が***無謀（Reckless）であった***場合である。寄与過失（Contributory Negligence）はごく一部の州でのみ適用される。",
+    "meeTipTranslation": "試験で別途指示がない限り、_純粋な過失相殺のみを適用する_。別途指示がない限り、部分的過失相殺（Modified Comparative Negligence）または寄与過失（Contributory Negligence）を適用しない。",
+    "ruleTitleJa": "比較過失（Comparative Negligence）および寄与過失（Contributory Negligence）"
+  },
+  {
+    "id": 24,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "C. Defenses to Negligence Claims",
+    "ruleTitle": "Assumption of Risk",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Assumption of risk is a defense to negligence, and applies if the plaintiff (1) ***voluntarily assumed*** (2) ***a known risk.*** The assumption of risk may be: (a) express – by agreement; OR (b) implied – where an average person would appreciate the risks involved.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 危険の引受（Assumption of Risk）は過失に対する抗弁であり、原告が(1)***自発的に（Voluntarily）***(2)***既知の危険を引き受けた（Assumed a Known Risk）***場合に適用される。危険の引受（Assumption of Risk）は、(a)明示的 – 合意による、または(b)黙示的 – 平均的な人物が関連する危険を認識するであろう場合、のいずれかでありうる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "危険の引受（Assumption of Risk）"
+  },
+  {
+    "id": 25,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "D. Negligent Infliction of Emotional Distress",
+    "ruleTitle": "Negligent Infliction of Emotional Distress",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Generally, there are three scenarios where a plaintiff may recover for negligent infliction of emotional distress: (a) a near miss case; (b) a bystander claim; or (c) in certain situations where a pre-existing relationship exists.\n• In order to recover in a **near miss case**: **(1)** there must be negligence by the defendant, **(2)** which creates a foreseeable risk of physical injury, **(3)** the plaintiff must be in the **zone of danger**, **AND (4)** the plaintiff must manifest physical symptoms.\n• In order to recover in a **bystander claim**: **(1)** there must be negligence by the defendant; **(2)** the plaintiff **must be a *contemporaneous witness* to a negligent bodily *injury inflicted on a close family member*** (i.e. parent, child, spouse); **AND (3)** the plaintiff must manifest physical symptoms (some jurisdictions do not require this). A few jurisdictions require that the plaintiff be in the ***zone of danger*** to recover.\n• The last scenario where a plaintiff can recover is where: **(1)** there is a ***pre-existing relationship*** between the plaintiff and defendant; **AND (2)** the negligent act can ***foreseeably cause distress***. Recovery is rare, and is usually only available in egregious situations.",
+    "meeTips": [
+      "The Feb 2002 MEE (Essay 5) tested the subject of Family Law, but the tort law rule of Negligent Infliction of Emotional Distress was tested."
+    ],
+    "examHistory": [
+      "July 2025, Essay 6",
+      "Feb 2012, Essay 4",
+      "Feb 2002, Essay 5"
+    ],
+    "translation": "• 一般に、原告が精神的苦痛の過失による惹起について回復できるシナリオは3つある。(a) 間一髪事例（Near-Miss Case）、(b) 傍観者請求（Bystander Claim）、または (c) 既存の関係（Pre-Existing Relationship）が存在する特定の状況である。\n• **間一髪事例（Near-Miss Case）**において回復するためには、**(1)** 被告による過失が存在し、**(2)** それが身体的傷害の予見可能な危険を生み出し、**(3)** 原告が**危険区域（Zone of Danger）**に存在し、**かつ (4)** 原告が身体的症状（Physical Symptoms）を呈する必要がある。\n• **傍観者請求（Bystander Claim）**において回復するためには、**(1)** 被告による過失が存在し、**(2)** 原告が***近親者（Close Relative）***（すなわち、親、子、配偶者）に対する***過失による身体的傷害に同時に立ち会った***（目撃した）場合、**かつ (3)** 原告が身体的症状（Physical Symptoms）を呈する必要がある（一部の法域ではこれを要求しない）。少数の法域では、原告が回復するために***危険区域（Zone of Danger）***に存在することを要求する。\n• 原告が回復できる最後のシナリオは、**(1)** 原告と被告の間に***既存の関係（Pre-Existing Relationship）***が存在し、**かつ (2)** 過失行為が***予見可能に苦痛を引き起こす***場合である。回復は稀であり、通常は極めて悪質な状況でのみ可能である。",
+    "meeTipTranslation": [
+      "2002年2月MEE（エッセイ5）は家族法のテーマで出題されたが、不法行為法の過失による精神的苦痛の賠償ルールがテストされた。"
+    ],
+    "ruleTitleJa": "過失による精神的加害（NIED）"
+  },
+  {
+    "id": 26,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "E. Liability for Acts of Others (Vicarious Liability)",
+    "ruleTitle": "Vicarious Liability of Employer: Doctrine of Respondeat Superior",
+    "priority": "HIGH",
+    "frequency": "7 of 65 Exams",
+    "body": "• Under the doctrine of respondeat superior, an employer is vicariously liable for an ***employee’s*** negligent acts if the employee was ***acting within the scope of employment***.\n• An employee acts **within the scope of employment** when: **(a) *performing work assigned by the employer***; **OR (b)** engaging in a course of ***conduct subject to the employer’s control***. Factors to determine if conduct is within the scope of employment include whether: (i) it is the kind the employee is employed to perform; (ii) it occurs substantially within the authorized time and space limits; and (iii) it is motivated (in whole or part) by a purpose to serve the employer. Additionally, conduct is within the scope of employment if it is of the same general nature as that authorized, or incidental to the conduct authorized. Conduct is NOT outside the scope of employment _merely_ because an employee disregards the employer’s instructions. An employee driving between work sites (or between the office/ workplace and a work site) is typically considered within the scope of employment _even if_ there is a minor or incidental deviation from work for personal reasons (a “detour”).\n• An employee’s act is **NOT within the scope of employment** when: **(1)** it occurs within an ***independent course of conduct***; **AND (2)** is ***not intended*** by the employee ***to serve any purpose of the employer***. Under the “Going and Coming Rule,” an employee traveling/commuting to and from the workplace is typically not considered within the scope of employment (UNLESS the “Special Errand Rule” applies, which provides that an employee is within the scope of employment while performing an errand either as part of their regular duties or at the specific order or request of their employer). Additionally, a **substantial departure** for purely personal purposes that is not reasonably incidental to the job (a “frolic”) is _not_ considered within the scope of employment.\n• An employee’s **intentional torts** are NOT generally within the scope of employment UNLESS the act: **(a)** was specifically ***authorized*** by the employer; **(b)** was ***driven by a desire to serve the employer***; **OR (c)** was the result of ***naturally occurring friction*** from the type of employment.",
+    "meeTips": [
+      "The Vicarious Liability rules have appeared on both Agency and Torts essays. As such, they are listed in both subjects, and the total number of exams (e.g. \"x of 65 Exams\") for these rules are higher because they have been testable since February 1995."
+    ],
+    "examHistory": [
+      "July 2025, Essay 6",
+      "Feb 2021, Essay 1",
+      "Feb 2015, Essay 1",
+      "July 2013, Essay 2",
+      "Feb 2010, Essay 4",
+      "Feb 2006, Essay 2",
+      "Feb 2003, Essay 4"
+    ],
+    "translation": "• 使用者責任の法理に基づき、被用者が***職務範囲内（Within the Scope of Employment）で行為していた***場合、雇用主は***被用者の***過失行為に対して使用者責任を負う。\n• 被用者は、**(a) *雇用主によって割り当てられた業務を遂行している***場合、**または (b)** ***雇用主の管理下にある行為***に従事している場合に、**職務範囲内（Within the Scope of Employment）で行為する**。行為が職務範囲内（Within the Scope of Employment）であるかを判断する要因には、(i) それが被用者が遂行するために雇用されている種類の業務であるか、(ii) それが許可された時間および空間の制限内で実質的に発生するか、および (iii) それが（全体または一部において）雇用主に奉仕する目的によって動機づけられているか、が含まれる。さらに、行為が承認されたものと同一の一般的な性質であるか、または承認された行為に付随するものである場合、それは職務範囲内（Within the Scope of Employment）である。被用者が雇用主の指示を無視したという_だけ_で、行為が職務範囲外となることはない。被用者が作業現場間（またはオフィス/職場と作業現場間）を運転している場合、個人的な理由による軽微または付随的な業務からの逸脱（「迂回（Detour）」）があった_としても_、通常は職務範囲内（Within the Scope of Employment）と見なされる。\n• 被用者の行為は、**(1)** ***独立した行為の過程***で発生し、**かつ (2)** 被用者によって***雇用主のいかなる目的にも資することを意図していない***場合、**職務範囲内（Within the Scope of Employment）ではない**。「通勤中の原則（Going and Coming Rule）」に基づき、被用者が職場への往復のために移動/通勤している場合、通常は職務範囲内（Within the Scope of Employment）とは見なされない（ただし、「特別用務規則（Special Errand Rule）」が適用される場合を除く。これは、被用者が通常の職務の一部として、または雇用主の特定の命令または要求により用務を遂行している間は職務範囲内（Within the Scope of Employment）であると定める）。さらに、職務に合理的に付随しない純粋に個人的な目的のための**大幅な逸脱**（「逸脱行為（Frolic）」）は、職務範囲内（Within the Scope of Employment）とは見なされない。\n• 被用者の**故意の不法行為**は、通常、職務範囲内（Within the Scope of Employment）ではない。ただし、その行為が、**(a)** 雇用主によって具体的に***承認されていた***場合、**(b)** ***雇用主に奉仕する意図によって動機づけられていた***場合、**または (c)** その雇用形態から***自然に生じる摩擦（Naturally Occurring Friction）***の結果であった場合を除く。",
+    "meeTipTranslation": [
+      "代理責任のルールはAgencyとTortsの両方のエッセイに出題されているため、両科目に記載されており、試験回数の合計（例：「65回中x回」）が高くなっている。これらのルールは1995年2月から出題可能となっている。"
+    ],
+    "ruleTitleJa": "使用者責任：使用者責任の法理"
+  },
+  {
+    "id": 27,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "E. Liability for Acts of Others (Vicarious Liability)",
+    "ruleTitle": "Vicarious Liability: Liability Where Respondeat Superior Doctrine is Inapplicable",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• In certain situations, a principal (or employer) may still be liable _even if_ the doctrine of respondeat superior is inapplicable. Such situations include when: **(a)** the principal ***intended the conduct or consequences***; **(b)** the principal was ***negligent or reckless in selecting, training, retaining, supervising, or controlling*** the agent; **(c)** the conduct involved a principal’s ***non-delegable duty*** to an injured person that it had a special relationship with; **OR (d)** when (i) the agent had ***apparent authority***, (ii) the agent’s ***actions taken with apparent authority constitute the tort*** or enable the agent to conceal its commission, and (iii) the third-party ***relied on that authority***. Apparent authority is created when: (1) the employer holds the agent out as having authority; AND (2) the third-party reasonably believes the agent has authority to act.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 6",
+      "Feb 2020, Essay 5",
+      "July 2013, Essay 2",
+      "Feb 2003, Essay 4"
+    ],
+    "translation": "• 特定の状況では、使用者責任の法理が適用されない場合_でも_、本人（または雇用主）が責任を負うことがある。そのような状況には、**(a)** 本人が***行為または結果を意図していた***場合、**(b)** 本人が代理人の***選任、訓練、雇用継続、監督、または管理において過失または無謀（Reckless）であった***場合、**(c)** その行為が、本人と特別な関係にあった負傷者に対する本人の***不可譲の義務（Non-Delegable Duty）***に関わるものであった場合、**または (d)** (i) 代理人が***表見代理権（Apparent Authority）***を有し、(ii) 代理人の***表見代理権（Apparent Authority）をもって行われた行為が不法行為を構成する***か、または代理人がその実行を隠蔽することを可能にし、かつ (iii) 第三者が***その権限を信頼した***場合、が含まれる。表見代理権（Apparent Authority）は、(1) 雇用主が代理人に権限があるかのように見せかけ、**かつ (2)** 第三者が代理人に行為する権限があると合理的に信じる場合に発生する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "代理責任（Vicarious Liability）：使用者責任（Respondeat Superior）が適用されない場合の責任"
+  },
+  {
+    "id": 28,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "E. Liability for Acts of Others (Vicarious Liability)",
+    "ruleTitle": "Employee vs. Independent Contractor",
+    "priority": "HIGH",
+    "frequency": "8 of 65 Exams",
+    "body": "• The determination of whether a person is an employee or an independent contractor centers on whether the principal _had the right to control the manner and method in which the job is performed_.\n• An employee is an agent whom the employer _controls_ (or has the right to control) the manner and means of the agent’s performance of work. An independent contractor is a person who contracts with another to do something for him, but who is _not controlled_ nor subject to the other’s right to control with respect to his performance. The contractor may or may not be an agent.\n• Generally, if the principal has **substantial control** in dictating the manner and method in which the job is performed, then the person **is deemed to be an employee** of the principal. In contrast, a person subject to less _extensive control_ is considered an **independent contractor**.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 6",
+      "Feb 2021, Essay 1",
+      "Feb 2020, Essay 5",
+      "July 2017, Essay 1",
+      "Feb 2015, Essay 1",
+      "Feb 2006, Essay 2",
+      "July 2004, Essay 5",
+      "Feb 2003, Essay 4"
+    ],
+    "translation": "• ある者が被用者であるか独立請負人であるかの判断は、本人が_業務遂行の方法および手段を管理する権利を有していたか_に焦点を当てる。\n• 被用者とは、雇用主がその業務遂行の方法および手段を_管理する_（または管理する権利を有する）代理人である。独立請負人とは、他者のために何かを行う契約を他者と締結する者であるが、その業務遂行に関して、他者の管理下になく、また他者の管理権に服さない者である。請負人は代理人である場合もあれば、そうでない場合もある。\n• 一般に、本人が業務遂行の方法および手段を指示する上で**実質的な管理（Substantial Control）**を有する場合、その者は本人の**被用者とみなされる**。対照的に、より_限定的な管理_に服する者は**独立請負人**とみなされる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "従業員対独立請負人"
+  },
+  {
+    "id": 29,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "E. Liability for Acts of Others (Vicarious Liability)",
+    "ruleTitle": "Vicarious Liability for Acts of Independent Contractors",
+    "priority": "HIGH",
+    "frequency": "5 of 65 Exams",
+    "body": "• Generally, a principal is **NOT** vicariously liable for the torts of an independent contractor. However, there are several exceptions to the general rule. A principal **will be liable** for torts committed by an independent contractor if: **(1)** the independent contractor is engaged in an ***inherently hazardous activity***; **(2)** the ***duty*** owed by the principal is ***non-delegable*** (i.e. the duty of care owed to an invitee); **OR (3)** through the doctrine of estoppel where the ***principal holds the independent contractor out as his agent*** to a third-party, the third-party ***reasonably relied*** on the care and skill of the contractor, and the third-party ***suffered harm*** as a result of the contractor’s lack of care or skill.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2025, Essay 6",
+      "Feb 2021, Essay 1",
+      "Feb 2020, Essay 5",
+      "July 2017, Essay 1",
+      "July 2004, Essay 5"
+    ],
+    "translation": "• 一般に、本人は独立請負人の不法行為に対して**使用者責任を負わない**。しかし、この一般原則にはいくつかの例外がある。本人は、独立請負人が不法行為を犯した場合、以下のいずれかに該当するときに**責任を負う**：**(1)** 独立請負人が***本質的に危険な活動（Inherently Dangerous Activity）***に従事している場合；**(2)** 本人が負う***義務***が***非委任的（Non-Delegable）***である場合（例：招請者に対して負う注意義務）；**または (3)** 禁反言の法理（Doctrine of Estoppel）を通じて、***本人が独立請負人を自己の代理人として第三者に表示し***、第三者が請負人の注意および技能に***合理的に依拠し***、その結果、第三者が請負人の注意または技能の欠如により***損害を被った***場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "独立請負人の行為に対する代理責任"
+  },
+  {
+    "id": 30,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "F. Liability of Multiple Defendants",
+    "ruleTitle": "Joint and Several Liability",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• In a jurisdiction permitting joint and several liability, if **multiple defendants** are the ***proximate cause*** of a single indivisible harm, then the plaintiff ***may recover the entire amount*** of his damages from ***any single*** defendant (but may not receive a double recovery). A defendant who pays more than his fair share of the damages may bring an action for contribution against the other defendants for the difference.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 1",
+      "Feb 2019, Essay 1"
+    ],
+    "translation": "• 連帯責任（Joint and Several Liability）を認める法域において、**複数の被告**が単一の不可分な損害（Single Indivisible Harm）の***近接原因***である場合、原告は***いずれか一人の***被告から損害の***全額を回復することができる***（ただし、二重の回復を受けることはできない）。自己の公平な負担分を超える損害額を支払った被告は、その差額について他の被告に対して求償訴訟を提起することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "連帯責任（Joint and Several Liability）"
+  },
+  {
+    "id": 31,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "F. Liability of Multiple Defendants",
+    "ruleTitle": "Indemnification",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A defendant is entitled to indemnification (full reimbursement for damages paid to another party) when the defendant is a ***passive tortfeasor*** and seeks to assert his claim against an ***active tortfeasor***. A defendant entitled to indemnification is **entitled to recover the full amount he paid (or may have to pay) to the plaintiff from the active tortfeasor**. Indemnification is generally available in situations of vicarious liability or when it is provided for by contract. Some states have limited an employer’s right to seek indemnification from employees in certain situations.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2015, Essay 1"
+    ],
+    "translation": "• 被告は、自身が***受動的加害者（Passive Tortfeasor）***であり、***能動的加害者（Active Tortfeasor）***に対して自身の請求を主張しようとする場合、償還（他の当事者に支払われた損害賠償の全額払い戻し）を受ける権利を有する。償還（Indemnification）を受ける権利を有する被告は、**能動的加害者（Active Tortfeasor）から全額を回収する権利を有する**。償還（Indemnification）は、一般的に転嫁責任の状況、または契約によって規定されている場合に利用可能である。一部の州では、特定の状況において、雇用主が従業員に償還（Indemnification）を求める権利を制限している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "補償"
+  },
+  {
+    "id": 32,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "F. Liability of Multiple Defendants",
+    "ruleTitle": "Contribution",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• Contribution is a theory of recovery when there are joint tortfeasors. Under joint and several liability, a plaintiff can recover 100% of the damages from any one of the joint tortfeasors. However, a joint tortfeasor ***may seek contribution from other joint tortfeasors if he pays more than his percentage share of liability***. The amount that can be recovered in contribution is based on pure comparative fault, and a defendant cannot recover from another joint tortfeasor more than that tortfeasor’s percentage share of fault.",
+    "meeTips": [
+      "Although this rule has not been tested to date, the concept of Contribution was discussed in the \"Note\" section of the Feb 2015 MEE (Essay 1, Point Four)."
+    ],
+    "examHistory": [],
+    "translation": "• 寄与請求は、共同不法行為者（Joint Tortfeasors）が存在する場合の回収理論である。連帯責任（Joint and Several Liability）の下では、原告は共同不法行為者（Joint Tortfeasors）のいずれか一人から損害の100%を回収できる。しかし、共同不法行為者（Joint Tortfeasors）は***他の共同不法行為者（Joint Tortfeasors）に対して、自身の責任割合を超えて支払った額の寄与を求めることができる***。寄与請求で回収できる金額は純粋な比較過失（Pure Comparative Negligence）に基づいており、被告は他の共同不法行為者（Joint Tortfeasors）から、その不法行為者の過失割合を超える額を回収することはできない。",
+    "meeTipTranslation": [
+      "このルールはまだ出題されていないが、寄与の概念は2015年2月MEE（エッセイ1、ポイント4）の「注釈」欄で議論された。"
+    ],
+    "ruleTitleJa": "寄与"
+  },
+  {
+    "id": 33,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "F. Liability of Multiple Defendants",
+    "ruleTitle": "Doctrines of Alternative Liability, Joint Enterprise, & Market Share Liability",
+    "priority": "HIGH",
+    "frequency": "2 of 40 Exams",
+    "body": "• Three doctrines exist that allow a jury to find multiple defendants liable _even if_ the plaintiff cannot show which defendant’s conduct caused his injury.\n• Doctrine of Alternative Liability: The doctrine of alternative liability **allows the jury to find ALL defendants liable** if **(1) *multiple defendants are negligent***, **(2)** but it is ***unclear which one caused the plaintiff’s injuries***.\n• Doctrine of Joint Enterprise: The doctrine of joint venture or joint enterprise allows the **negligence of one defendant to be imputed to the others** if: **(1)** multiple defendants were engaged in a ***common project or enterprise***; **AND (2)** all defendants have made an ***explicit or implied agreement*** to engage in tortious conduct.\n• Doctrine of Market Share Liability: Market share liability is appropriate where the following factors are present: **(1)** all the named defendants are potential tortfeasors; **(2)** the allegedly harmful products are _identical_ and share the same defective qualities (or were “fungible”); **(3)** the plaintiff is unable to identify which defendant caused her injury through no fault of her own; **AND (4)** substantially all of the manufacturers which created the defective products during the relevant time are named as defendants. If applicable, the manufacturers (of the product identical to the one which harmed the plaintiff) are ***liable in their proportion to their share of the market*** at the time plaintiff’s injury occurred, regardless of actual causation. The rationale for this theory is that each manufacturer’s liability would approximate its responsibility for the injuries caused by its own products.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2016, Essay 3",
+      "Feb 2008, Essay 2"
+    ],
+    "translation": "• 原告がどの被告の行為が自身の傷害を引き起こしたかを示せない場合でも、陪審が複数の被告に責任を認めることを可能にする3つの法理が存在する。\n• 択一的責任（Alternative Liability）の法理：択一的責任（Alternative Liability）の法理は、**(1) ***複数の被告が過失を犯している***が、**(2)** ***どれが原告の傷害を引き起こしたか不明である***場合、**陪審が**「**全ての被告に責任を認める**」ことを可能にする。\n• 共同事業（Joint Enterprise）の法理：共同ベンチャー（Joint Venture）または共同事業（Joint Enterprise）の法理は、**(1)** 複数の被告が***共通のプロジェクトまたは事業***に従事しており、**かつ (2)** 全ての被告が不法行為に従事することについて***明示的または黙示的（Express or Implied）な合意***をしている場合、**一人の被告の過失が他の被告に帰属される**ことを可能にする。\n• 市場占有率責任（Market Share Liability）の法理：市場占有率責任（Market Share Liability）は、以下の要素が存在する場合に適切である。**(1)** 指名された全ての被告が潜在的な不法行為者であること、**(2)** 申し立てられた有害製品が_同一_であり、同じ欠陥特性を共有している（または「代替可能（Fungible）」であった）こと、**(3)** 原告自身の過失によらず、どの被告が自身の傷害を引き起こしたかを特定できないこと、**かつ (4)** 関連期間中に欠陥製品を製造した製造業者の実質的に全てが被告として指名されていること。適用される場合、製造業者（原告に害を与えた製品と同一の製品の製造業者）は、実際の因果関係にかかわらず、原告の傷害が発生した時点での***市場占有率に比例して責任を負う（Liable in Proportion to Market Share）***。この理論の根拠は、各製造業者の責任が、自身の製品によって引き起こされた傷害に対する責任に近似するだろうという点にある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "択一的責任（Alternative Liability）、共同事業（Joint Enterprise）、および市場占有率責任（Market Share Liability）の法理"
+  },
+  {
+    "id": 34,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "G. Economic & Dignitary Torts",
+    "ruleTitle": "Defamation",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• The elements required to prove a prima facie case of **defamation** are **(1)** a ***false defamatory statement*** (a statement that tends to harm the reputation of another), **(2) *of and concerning the plaintiff*** made by the defendant, **(3) *publication*** by the defendant to a third party, **AND (4) *damages***. A person CANNOT be found liable for defamation of a dead person.\n• For **slander** (an oral defamatory statement), the plaintiff ALWAYS needs to prove special damages (the actual damages suffered), ***unless*** the statement falls within one of the slander per se categories. If it does, then the plaintiff DOES NOT need to prove special damages, ***unless*** the defamatory nature of the statement is not clear on its face.\n  ○ The four **slander per se** categories are: (a) impugning the business integrity or skill of the plaintiff; (b) a statement of unchastity about an unmarried woman; (c) a statement that the plaintiff has or had a loathsome disease; or (d) attributing to the plaintiff a crime of moral turpitude.\n• For **libel** (defamation embodied in some permanent format), the plaintiff DOES NOT need to prove special damages, ***unless***: (1) the statement does not fall within one of the slander per se categories; AND (2) the defamatory nature of the statement is not clear on its face.\n• If the plaintiff is a **public official *or* public figure** (either having injected herself into a public controversy or having achieved widespread notoriety) there is a heightened standard to prove defamation, which requires the plaintiff to prove that the defendant spoke with either (a) ***recklessness*** as to the truth of the statement, _or_ (b) with ***knowledge of its falsity***. Negligence is insufficient to subject the speaker to liability.\n• If the plaintiff is a **private figure speaking about a matter of public concern**, the plaintiff must also prove that the ***speaker was negligent***.\n• Defenses: Even if a defamatory statement has been published, a defendant will NOT be held liable if the defense of privilege applies. **Absolute Privilege** is a complete defense, and applies to statements made: in judicial proceedings, between spouses, by executive branch officials, and during legislative proceedings. **Qualified Privilege** (also referred to as Conditional Privilege) applies when: (1) the statement is ***conditionally privileged***; AND (2) the ***privilege is not abused*** (the person did not act with _malice_). Qualified privilege applies to statements: by former/prospective employers when made in good faith and for a legitimate purpose; in governmental reports of official proceedings; during testimony in legislative proceedings; in self-defense; and to warn others about a harm or danger.",
+    "meeTips": [
+      "A Constitutional Law question concerning defamation was tested on the July 2008 MEE (Essay 2, Point One), but Torts was not tested. Even though the question involved the tort of defamation, the rules tested were solely the free speech limits on defamation. Additionally, the bar examiners noted the subject area for the essay as \"Constitutional Law\"."
+    ],
+    "examHistory": [],
+    "translation": "• **名誉毀損**の一応の訴訟原因を立証するために必要な要素は、**(1)** ***虚偽の名誉毀損的陳述（False Defamatory Statement）***（他者の名誉を傷つける傾向のある陳述）、**(2)** 被告によってなされた***原告に関する陳述***、**(3)** 被告による第三者への***公表（Publication）***、**および (4) ***損害***である。死者に対する名誉毀損について責任を負うことはない。\n• **口頭名誉毀損（Slander）**（口頭による名誉毀損的陳述）の場合、原告は常に特別損害（実際に被った損害）を証明する必要がある。***ただし***、その陳述が名誉毀損的口頭陳述そのもの（Slander Per Se）のカテゴリーのいずれかに該当する場合を除く。該当する場合、原告は特別損害を証明する必要はない。***ただし***、その陳述の名誉毀損的性質が明白でない場合を除く。\n  ○ 4つの**名誉毀損的口頭陳述そのもの（Slander Per Se）**のカテゴリーは、(a) 原告の事業上の誠実性または技能を傷つけるもの、(b) 未婚女性に関する不貞の陳述、(c) 原告が忌まわしい病気にかかっている、またはかかっていたという陳述、または (d) 原告に道徳的堕落の罪（Crime of Moral Turpitude）を帰する陳述である。\n• **文書名誉毀損（Libel）**（恒久的な形式で具現化された名誉毀損）の場合、原告は特別損害を証明する必要はない。***ただし***、(1) その陳述が名誉毀損的口頭陳述そのもの（Slander Per Se）のカテゴリーのいずれにも該当しない**かつ** (2) その陳述の名誉毀損的性質が明白でない場合を除く。\n• 原告が**公務員または公人（Public Official or Public Figure）**（公的な論争に自ら関与した者、または広範な悪評を得た者）である場合、名誉毀損を立証するための基準は高く、原告は被告がその陳述の真実性に関して(a) ***無謀（Reckless）***であったこと、_または_ (b) ***虚偽であることを知っていた***（現実の悪意（Actual Malice））ことのいずれかを証明する必要がある。過失では発言者に責任を負わせるには不十分である。\n• 原告が**私人であり、公共の関心事について話している場合**、原告は***発言者が過失であった***ことも証明しなければならない。\n• 抗弁：名誉毀損的陳述が公表（Publication）されたとしても、特権の抗弁が適用される場合、被告は責任を負わない。**絶対的特権（Absolute Privilege）**は完全な抗弁であり、司法手続中、夫婦間、行政機関の職員によるもの、および立法手続中になされた陳述に適用される。**限定的特権（Qualified Privilege）**（条件付き特権とも呼ばれる）は、(1) その陳述が***条件付きで特権を有する*****かつ** (2) ***特権が濫用されていない***（その者が_悪意_をもって行動していない）場合に適用される。限定的特権（Qualified Privilege）は、元/将来の雇用主による善意かつ正当な目的での陳述、公的議事録の政府報告書、立法手続中の証言、自己防衛、および危害や危険について他者に警告するための陳述に適用される。",
+    "meeTipTranslation": [
+      "名誉毀損に関する憲法上の問題が2008年7月MEE（エッセイ2、ポイント1）でテストされたが、不法行為法はテストされなかった。質問は名誉毀損の不法行為に関するものであったが、テストされたルールは専ら名誉毀損に対する言論の自由の制限であった。また、採点者はエッセイのテーマを「憲法」として記載した。"
+    ],
+    "ruleTitleJa": "名誉毀損"
+  },
+  {
+    "id": 35,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "G. Economic & Dignitary Torts",
+    "ruleTitle": "Invasion of Privacy Torts",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• **Misappropriation of name or picture** occurs when the defendant (1) used the ***plaintiff’s name or likeness***, (2) for the defendant’s ***commercial advantage*** (usually limited to promoting a product or service). Newsworthiness is a defense to misappropriation.\n• **False light** occurs when the defendant (1) causes ***widespread dissemination***, (2) of the plaintiff’s ***beliefs, thoughts, or actions***, (3) in a ***false light***, (4) that would be ***highly objectionable to a reasonable person***. If a plaintiff is a public figure _or_ involves a matter of public concern, the plaintiff MUST show _actual malice_ (knowledge of the falsity or reckless disregard).\n• **Intrusion of privacy** occurs when: (1) the defendant ***intrudes into the private affairs*** of the plaintiff; (2) a plaintiff has a ***reasonable expectation of privacy***; AND (3) the intrusion is ***highly objectionable to a reasonable person*** (i.e. reading private mail, illegal wiretapping). Communication to a third-party of the private affairs is NOT needed for the claim to be actionable.\n• **Public disclosure of private facts** occurs when the defendant (1) caused ***widespread dissemination***, (2) ***of truthful private information***, (3) that would be ***highly objectionable to a reasonable person***. Newsworthiness is a defense _unless_ actual malice is present. The defense of absolute privilege applies for information taken from official public documents.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• **氏名または肖像の不法利用（Appropriation）**は、被告が(1) ***原告の氏名または肖像***を、(2) 被告の***商業的利益***のために（通常、製品やサービスの宣伝に限定される）使用した場合に発生する。ニュース価値（Newsworthiness）は不法利用に対する抗弁である。\n• **虚偽の描写（False Light）**は、被告が(1) ***広範な流布（Wide Publication）***を引き起こし、(2) 原告の***信念、思想、または行動***について、(3) ***虚偽の描写（False Light）***で、(4) ***合理的な人にとって非常に不快***である場合に発生する。原告が公人である_または_公共の関心事に関わる場合、原告は_現実の悪意（Actual Malice）_（虚偽の認識または無謀（Reckless）な無視）を示さなければならない。\n• **プライバシーの侵害（Intrusion upon Seclusion）**は、(1) 被告が原告の***私的な事柄に侵入***し、(2) 原告が***合理的なプライバシーの期待（Reasonable Expectation of Privacy）***を有し、**かつ** (3) その侵入が***合理的な人にとって非常に不快***である場合（すなわち、私信の閲覧、違法な盗聴）に発生する。第三者への私的な事柄の伝達は、請求が成立するために必要ではない。\n• **私的事実の公表（Publication）**は、被告が(1) ***広範な流布（Wide Publication）***を引き起こし、(2) ***真実の私的情報***について、(3) ***合理的な人にとって非常に不快***である場合に発生する。ニュース価値（Newsworthiness）は抗弁となるが、_現実の悪意（Actual Malice）_がある場合を除く。公的文書から得られた情報には絶対的特権（Absolute Privilege）の抗弁が適用される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "プライバシー侵害不法行為"
+  },
+  {
+    "id": 36,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "G. Economic & Dignitary Torts",
+    "ruleTitle": "Intentional Interference with Business Relations",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• To state a prima facie case for intentional interference with business relations, a plaintiff must show that: **(1)** there was a ***contract*** or ***business expectancy***; **(2)** the ***defendant knows*** of the contract/expectancy; **(3)** the defendant ***intentionally induces another party to breach*** the contract or terminate the relationship; **(4)** a ***breach occurs***; **AND (5)** the plaintiff suffered ***damages***.\n• Defenses: A defendant may assert any of the following defenses to such a claim: Defense of legitimate competitive activity (no dishonest, wrongful, or illegal acts were used); Giving truthful information to another; Having a financial interest in the party that breached the contract or terminated the relationship; and Honestly giving requested advice (usually in the context of a “special relationship” such as attorney and client, parent and child, or clergy and penitent.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 事業関係への意図的妨害の一応の訴訟原因を主張するためには、原告は以下のことを示さなければならない。**(1)** ***契約***または***事業上の期待（Business Expectancy）***があったこと、**(2)** ***被告が***その契約/期待を***知っていた***こと、**(3)** 被告が***意図的に他当事者に契約違反または関係終了を誘発した（Intentionally Induced Breach or Termination）***こと、**(4)** ***違反が発生した***こと、**および (5)** 原告が***損害を被った***こと。\n• 抗弁：被告は、かかる請求に対して以下のいずれかの抗弁を主張することができる。正当な競争活動の抗弁（Defense of Legitimate Competitive Activity）（不正、不法、または違法な行為が使用されていない場合）、他者に真実の情報を提供すること、契約違反または関係を終了した当事者に経済的利害関係があること、および求められた助言を誠実に与えること（通常、弁護士と依頼人、親と子、聖職者と告解者などの「特別な関係」の文脈で）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "事業関係への意図的妨害"
+  },
+  {
+    "id": 37,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "G. Economic & Dignitary Torts",
+    "ruleTitle": "Intentional & Negligent Misrepresentation",
+    "priority": "MED",
+    "frequency": "0 of 40 Exams",
+    "body": "• Intentional Misrepresentation: To state a prima facie case for intentional misrepresentation, a plaintiff must show: **(1) *misrepresentation*** of a ***material fact*** by the defendant; **(2)** the defendant ***knew that the statement was false*** (scienter); **(3) *intent*** of the defendant to induce the plaintiff; **(4) *actual and reasonable reliance*** by the plaintiff; **AND (5) *damages***.\n• Negligent Misrepresentation: To state a prima facie case for negligent misrepresentation, a plaintiff must show: **(1)** a ***misrepresentation*** (false statement of a material fact) by the defendant; **(2)** supplied for the guidance of others ***in a business transaction***; **(3)** the defendant ***knew or should have known*** that the information ***was supplied to guide the plaintiff*** in his business transactions; **(4)** the ***defendant was negligent*** in obtaining or communicating the false information; **(5) *actual and reasonable reliance*** by the plaintiff, **AND (6)** the false information ***proximately caused plaintiff’s damages***.\n• Silence is generally NOT actionable. Generally, there is no duty to disclose information, UNLESS: (a) a fiduciary relationship exists; (b) it is necessary to correct an earlier mistake; (c) active concealment of a material fact occurs; OR (d) a person is selling real property and knows material facts that affect the value of the property (that the buyer is unaware of and cannot reasonably discover).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 故意の不実表示：故意の不実表示について一応の訴訟原因を主張するには、原告は以下のことを示さなければならない。**(1)** 被告による***重要事実の不実表示（Misrepresentation of Material Fact）***、**(2)** 被告が***その陳述が虚偽であることを知っていた***こと（悪意）、**(3)** 被告が原告を誘引する***意図***を有していたこと、**(4)** 原告による***現実的かつ合理的な依拠（Actual and Justifiable Reliance）***、**および (5) ***損害***。\n• 過失による不実表示：過失による不実表示について一応の訴訟原因を主張するには、原告は以下のことを示さなければならない。**(1)** 被告による***不実表示***（重要事実の虚偽の陳述）、**(2)** ***事業取引において***他者の指針となるよう提供されたこと、**(3)** 被告が、その情報が原告の事業取引において指針となるよう提供されたことを***知っていたか、知るべきであった***こと、**(4)** 被告が虚偽の情報を取得または伝達する際に***過失があった***こと、**(5)** 原告による***現実的かつ合理的な依拠（Actual and Justifiable Reliance）***、**および (6)** その虚偽の情報が***原告の損害を近因的に引き起こした***こと。\n• 沈黙は一般的に訴訟提起可能ではない。一般的に、情報開示義務はない。ただし、以下の場合はこの限りではない。(a) 受託者関係（Fiduciary Relationship）が存在する場合、(b) 以前の誤りを訂正するために必要な場合、(c) 重要事実の積極的な隠蔽が発生する場合、または (d) 不動産を売却する者が、その不動産の価値に影響を与える重要事実（買主が認識しておらず、合理的に発見できないもの）を知っている場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "意図的および過失による不実表示"
+  },
+  {
+    "id": 38,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "G. Economic & Dignitary Torts",
+    "ruleTitle": "Public and Private Nuisance",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• A public nuisance is (1) an ***unreasonable interference***, (2) with the ***health, safety, or property rights***, (3) ***of the community***. To recover damages, the injured party MUST show actual damages. To constitute a public nuisance, the nuisance must affect a considerable number of people or an entire community or neighborhood.\n• A private nuisance is (1) a ***substantial and unreasonable interference***, (2) with a person’s ***use or enjoyment*** of her property. The nuisance must be offensive, inconvenient, or annoying to a _reasonable person_.\n• Plaintiff will be entitled to damages or an injunction to prevent the nuisance (if damages are insufficient). The primary defenses to the tort of nuisance are: (1) Coming to the Nuisance – a residential landowner knowingly came into a neighborhood with the nuisance; and (2) Statutory Compliance.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 公的生活妨害とは、(1) ***不合理な妨害（Unreasonable Interference）***であり、(2) ***地域社会の***、(3) ***健康、安全、または財産権に対する***ものである。損害を回復するには、被害者は現実の損害を示さなければならない。公的生活妨害を構成するには、その妨害が相当数の人々、または地域社会全体もしくは近隣全体に影響を与えなければならない。\n• 私的生活妨害とは、(1) ***実質的かつ不合理な妨害（Substantial and Unreasonable Interference）***であり、(2) 個人の***自己の財産の使用または享受に対する***ものである。その妨害は、_合理的な人_にとって不快、不便、または迷惑なものでなければならない。\n• 原告は、損害賠償または妨害を防止するための差止命令（Injunction）（損害賠償が不十分な場合）を受ける権利がある。迷惑行為の不法行為に対する主要な抗弁は以下のとおりである。(1) 迷惑行為への接近（Coming to the Nuisance） – 住宅地の土地所有者が、迷惑行為のある近隣に意図的に移転してきた場合、および (2) 法令遵守。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "公的生活妨害および私的生活妨害（Nuisance）"
+  },
+  {
+    "id": 39,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "H. Common Law Strict Liability",
+    "ruleTitle": "Strict Liability: Wild & Domestic Animals",
+    "priority": "LOW",
+    "frequency": "0 of 40 Exams",
+    "body": "• An owner of a **domestic animal** will NOT be strictly liable for harm caused by the animal **UNLESS *the owner has knowledge of the animal’s vicious propensities***. Domestic animals include dogs, cats, and farm animals. However, an owner of a **wild animal** is ***subject to strict liability for harm caused by the animal***, regardless of the safety precautions taken by the owner.\n• An animal owner is ***strictly liable*** for the **trespass and resulting property damage** caused by his animals (if _reasonably foreseeable_).",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• **飼い慣らされた動物（Domesticated Animal）**の飼い主は、***その動物の凶暴な傾向（Vicious Propensities）を知っている場合を除き***、その動物によって引き起こされた損害に対して厳格責任を負わない。飼い慣らされた動物（Domesticated Animal）には、犬、猫、および家畜が含まれる。しかし、**野生動物（Wild Animal）**の飼い主は、飼い主が講じた安全対策にかかわらず、***その動物によって引き起こされた損害に対して厳格責任を負う***。\n• 動物の飼い主は、その動物によって引き起こされた**侵入およびそれに起因する財産損害**に対して***厳格責任を負う***（_合理的に予見可能であれば_）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "厳格責任：野生動物（Wild Animal）および家畜"
+  },
+  {
+    "id": 40,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "H. Common Law Strict Liability",
+    "ruleTitle": "Strict Liability: Abnormally Dangerous Activity",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A defendant is strictly liable for damages caused to a plaintiff when engaging in an ***abnormally dangerous activity*** (known as an _ultrahazardous activity_ under the First Restatement). Under the Third Restatement, an abnormally dangerous activity is one that: **(1)** is ***not of common usage in the community***; **AND (2) *creates a foreseeable and highly significant risk of physical harm*** even when reasonable care is exercised by all actors.\n• Examples of an abnormally dangerous activity include blasting and the use of explosives. Courts are divided on classifying a legal fireworks display as abnormally dangerous – some courts have held that such displays create a significant risk of harm and are not a matter of common usage (similar to blasting), while other courts have held that the value to the community outweighs the dangerous attributes (which is a factor under the Second Restatement test).",
+    "meeTips": [
+      "Using _only_ the Third Restatement test is sufficient when writing your essay answer for a Strict Liability – Abnormally Dangerous Activity issue. In the “Note” section of the official analysis for the July 2017 MEE (Essay 1, Point One), the examiners stated that “A good answer _need not_ analyze each [Restatement] theory discussed above.” (emphasis added)."
+    ],
+    "examHistory": [
+      "July 2017, Essay 1"
+    ],
+    "translation": "• 被告は、***異常に危険な活動（Abnormally Dangerous Activity）***（第一次リステイトメントでは_超危険な活動（Ultrahazardous Activity）_として知られる）に従事する際に原告に生じた損害に対し、厳格責任を負う。第三次リステイトメントによれば、異常に危険な活動（Abnormally Dangerous Activity）とは、**(1)** ***地域社会において一般的に使用されていない（Not Common Usage in the Community）***活動であり、**かつ (2) 全ての行為者が相当な注意を払ったとしても、***予見可能かつ極めて重大な身体的危害のリスクを生み出す（Foreseeable and Highly Significant Risk of Physical Harm）***活動である。\n• 異常に危険な活動（Abnormally Dangerous Activity）の例には、発破作業や爆発物の使用が含まれる。合法的な花火大会を異常に危険な活動（Abnormally Dangerous Activity）と分類するかどうかについては、裁判所の意見が分かれている。一部の裁判所は、そのような花火大会が重大な危害のリスクを生み出し、一般的な使用事項ではない（発破作業と同様に）と判断している一方で、他の裁判所は、地域社会への価値が危険な特性を上回ると判断している（これは第二次リステイトメントの基準における要素である）。",
+    "meeTipTranslation": "厳格責任 – 異常に危険な活動（Abnormally Dangerous Activity）の問題に関する論文形式の解答を作成する際には、_第三次リステイトメントの基準_のみを使用すれば十分である。2017年7月のMEE（エッセイ1、ポイント1）の公式分析の「注」セクションにおいて、試験官は「優れた解答は、上記で議論された各[リステイトメント]理論を分析する_必要はない_」と述べている（強調追加）。",
+    "ruleTitleJa": "厳格責任：異常に危険な活動（Abnormally Dangerous Activity）"
+  },
+  {
+    "id": 41,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "I. Products Liability",
+    "ruleTitle": "Strict Products Liability: Liability for Manufacturing Defect, Design Defect, & Failure to Warn",
+    "priority": "HIGH",
+    "frequency": "3 of 40 Exams",
+    "body": "• Under Strict Products Liability, a commercial supplier of a defective product is subject to ***strict liability*** for any harm caused by the product, _regardless_ of any wrongdoing or negligence. **A claim for strict products liability requires the plaintiff to show**: **(1)** the ***product was defective*** (manufacturing defect, design defect, or failure to warn) when it left the hands of the manufacturer or seller; **(2)** the ***product was not altered*** when it reached the plaintiff; **(3)** the product ***caused an injury*** to plaintiff when it was being ***used in an intended or unintended foreseeable use***; **AND (4)** the defendant is a ***commercial supplier*** who routinely deals in goods of this type.\n• The plaintiff DOES NOT have to be a purchaser of the product to assert a claim for strict products liability (no privity is required). Damages for personal injuries and property damage may be recovered. Recovery ***solely*** for economic loss is NOT allowed.\n• Proving that the **product was defective** is based upon one of three theories of strict products liability: (a) ***manufacturing defect***, (b) ***failure to warn***, OR (c) ***design defect***.\n  ○ Evidence of a **manufacturing defect** requires that (1) the ***product differs from the intended design*** (some defect in manufacturing/production); AND (2) it is ***more dangerous*** than if made properly. A harmful ingredient in a food product constitutes a defect if a reasonable consumer would not expect the food product to contain that ingredient.\n  ○ Evidence of a **failure to warn** requires that (1) the ***plaintiff was not warned of the risks*** regarding use of the product, (2) ***which are not obvious to an ordinary user*** but known to the designer/manufacturer. A warning must be proportionate to the risk involved with normal use of the product.\n  ○ A **design defect** exists if there was a way to build the product that: (1) is ***safer***; (2) is ***more practical***; AND (3) has a ***similar cost***. When a design defect is alleged, the trier of fact (jury or court) must balance the alternative designs available (including their cost and effect on utility) against the risk to consumers.\n• **Definition of Commercial Supplier**: A strict products liability suit may ***only*** be brought against a commercial seller or distributor of goods. A **commercial seller or distributor** is any person or entity who is ***engaged in the business of selling goods of the type*** (routinely sells such goods). Casual sellers and service providers are NOT commercial suppliers, and a strict products liability action CANNOT be maintained against them. Any commercial seller in the distribution chain (including a retailor or wholesaler) is deemed to be a commercial supplier, and a strict products liability action may be brought against them regardless if there is privity with the plaintiff.",
+    "meeTips": [
+      "Three primary theories are available to hold a defendant liable for a product that causes harm: (1) Strict Products Liability; (2) Negligence; and (3) Breach of Warranty. If an essay question _does not_ specify or point to which theory applies, then you must analyze the issues under ALL three products liability theories"
+    ],
+    "examHistory": [
+      "July 2016, Essay 3",
+      "Feb 2011, Essay 4",
+      "Feb 2008, Essay 2"
+    ],
+    "translation": "• 製造物責任の厳格責任の下では、欠陥製品の商業的供給者（Commercial Supplier）は、いかなる不法行為や過失の有無に_かかわらず_、その製品によって引き起こされた損害に対し、***厳格責任***を負う。**製造物責任の厳格責任の請求には、原告が以下のことを示す必要がある**：**(1)** 製品が製造業者または販売業者の手を離れた時点で***欠陥があった***こと（製造上の欠陥（Manufacturing Defect）、設計上の欠陥（Design Defect）、または警告義務違反（Failure to Warn））；**(2)** 製品が原告に到達した時点で***改変されていなかった***こと；**(3)** 製品が***意図された使用または意図されないが予見可能な使用（Intended or Reasonably Foreseeable Use）***をされていたときに、原告に***損害を引き起こした***こと；**かつ (4)** 被告がこの種の製品を日常的に扱う***商業的供給者（Commercial Supplier）***であること。\n• 原告は、製造物責任の厳格責任の請求を主張するために、製品の購入者である必要はない（契約関係は不要である）。人身傷害および物的損害に対する損害賠償は請求できる。***経済的損失のみ（Pure Economic Loss）***の回復は認められない。\n• **製品に欠陥があった**ことの証明は、製造物責任の厳格責任の3つの理論のいずれかに基づく：(a) ***製造上の欠陥（Manufacturing Defect）***、(b) ***警告義務違反（Failure to Warn）***、または (c) ***設計上の欠陥（Design Defect）***。\n  ○ **製造上の欠陥（Manufacturing Defect）**の証拠には、(1) 製品が***意図された設計と異なる***こと（製造/生産における何らかの欠陥）；**かつ (2)** 適切に製造された場合よりも***危険である***ことが必要である。食品中の有害な成分は、合理的な消費者がその食品にその成分が含まれていることを期待しない場合、欠陥を構成する。\n  ○ **警告義務違反（Failure to Warn）**の証拠には、(1) 原告が製品の使用に関する***リスクについて警告されていなかった***こと、(2) ***それが一般の使用者には明らかではない***が、設計者/製造業者には知られていたことが必要である。警告は、製品の通常の使用に伴うリスクに比例していなければならない。\n  ○ **設計上の欠陥（Design Defect）**は、製品を製造する方法が、(1) ***より安全***であり、(2) ***より実用的***であり、**かつ (3)** ***同程度の費用***であった場合に存在する。設計上の欠陥（Design Defect）が主張される場合、事実認定者（陪審または裁判所）は、利用可能な代替設計（その費用と有用性への影響を含む）と消費者へのリスクを比較検討しなければならない。\n• **商業的供給者（Commercial Supplier）の定義**：製造物責任の厳格責任訴訟は、製品の商業的販売者または流通業者に対して_のみ_提起できる。**商業的販売者または流通業者**とは、***その種の製品を販売する事業に従事している***（そのような製品を日常的に販売する）あらゆる個人または法人である。偶発的な販売者およびサービス提供者は商業的供給者（Commercial Supplier）ではなく、彼らに対して製造物責任の厳格責任訴訟を維持することはできない。流通経路におけるあらゆる商業的販売者（小売業者または卸売業者を含む）は商業的供給者（Commercial Supplier）とみなされ、原告との契約関係の有無にかかわらず、彼らに対して製造物責任の厳格責任訴訟を提起できる。",
+    "meeTipTranslation": "被告に損害を引き起こす製品に対する責任を負わせるための3つの主要な理論がある：(1) 製造物責任の厳格責任；(2) 過失；および (3) 保証違反。論文形式の設問が、どの理論が適用されるかを特定または示唆_しない_場合、全ての3つの製造物責任理論の下で問題を分析しなければならない。",
+    "ruleTitleJa": "製造物厳格責任：製造上の欠陥（Manufacturing Defect）に対する責任"
+  },
+  {
+    "id": 42,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "I. Products Liability",
+    "ruleTitle": "Products Liability: Liability for Negligence",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A negligence claim based on a defective product requires: **(1)** a ***duty*** owed to the plaintiff; **(2)** a ***breach*** of that duty; **(3)** causation (actual and proximate cause); **AND (4) *damages***.\n• Product suppliers (manufacturers, distributors, retailors, sellers) owe a duty to all ***foreseeable users*** of its products, and MUST act as a ***reasonably prudent supplier*** of the same type of product. A breach will be found when a supplier’s negligence results in the supply of a defective product. Suppliers are liable for ALL ***foreseeable misuses*** of their product; a misuse will only cut the chain of liability if it was _not_ foreseeable. Any manufacturer or seller may be liable, **BUT it must be shown that their conduct was *negligent*** (i.e. caused the defect, their reasonable inspection of the product would have discovered the defect).\n• Damages for personal injuries and property damage may be recovered. Recovery ***solely*** for economic loss is NOT allowed.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2016, Essay 3"
+    ],
+    "translation": "• 欠陥製品に基づく過失請求には、以下のことが必要である：**(1)** 原告に対して負う***義務***；**(2)** その義務の***違反***；**(3)** 因果関係（事実上の因果関係（Actual Cause）および法的因果関係（Proximate Cause））；**かつ (4) *損害***。\n• 製品供給者（製造業者、流通業者、小売業者、販売業者）は、その製品のあらゆる***予見可能な使用者（Foreseeable User）***に対して義務を負い、同種の製品の***合理的に慎重な供給者（Reasonably Prudent Supplier）***として行動しなければならない。供給者の過失が欠陥製品の供給につながった場合、違反が認定される。供給者は、製品のあらゆる***予見可能な誤用（Foreseeable Misuse）***に対して責任を負う。誤用が責任の連鎖を断ち切るのは、それが_予見不可能_であった場合に限られる。いかなる製造業者または販売業者も責任を負う可能性があるが、**彼らの行為が***過失であった***こと（すなわち、欠陥を引き起こしたこと、彼らの製品の合理的な検査（Reasonable Inspections）によって欠陥が発見されたであろうこと）が示されなければならない**。\n• 人身傷害および物的損害に対する損害賠償は請求できる。***経済的損失のみ（Pure Economic Loss）***の回復は認められない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "製造物責任：過失に対する責任"
+  },
+  {
+    "id": 43,
+    "subject": "TORTS",
+    "subjectNumber": "10",
+    "section": "I. Products Liability",
+    "ruleTitle": "Products Liability: Liability for Breach of Warranty",
+    "priority": "MED",
+    "frequency": "1 of 40 Exams",
+    "body": "• A products liability case may be based on a breach of express warranty or an implied warranty.\n  ○ The **Implied Warranty of Merchantability** requires that ALL goods sold by a ***merchant*** (a person dealing in goods of the kind) MUST ***be fit for their ordinary purpose***. In such action, the only issue is whether the product was merchantable when sold (fault or how the product became unmerchantable is irrelevant).\n  ○ An **Implied Warranty of Fitness for a Particular Purpose** is created when: **(1)** a seller ***knows or has reason to know of the buyer’s particular purpose*** for which the goods are required; **AND (2) *the buyer relies on the seller's skill or judgment to select or furnish suitable goods***. If the above elements are met, the goods MUST be fit for the particular purpose of the buyer, otherwise there is a breach of warranty.\n  ○ A seller is liable for a breach of an **Express Warranty** she makes to a buyer. An express warranty is created when (1) a seller makes an ***affirmation of fact, promise, or description, or provides a sample***, (2) which ***relates to the goods***, and (3) it becomes ***part of the basis of the bargain***.\n• When a breach occurs, the seller may be held liable for any damages resulting from personal injury, property damage, _and_ economic loss. Disclaimer of a warranty is usually _not_ effective for a personal injury action.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2016, Essay 3"
+    ],
+    "translation": "• 製造物責任訴訟は、明示の保証（Express Warranty）の違反または黙示の保証に基づいて提起され得る。\n  ○ **商品性に関する黙示の保証（Implied Warranty of Merchantability）**は、***商人（Merchant）***（その種の物品を扱う者）が販売する**全ての物品**が***通常の目的に適合すること（Fit for Ordinary Purposes）***を要求する。かかる訴訟において、唯一の争点は、販売時に製品に商品性があったか否かである（過失や製品がいかにして商品性を失ったかは無関係である）。\n  ○ **特定目的適合性に関する黙示の保証（Implied Warranty of Fitness for a Particular Purpose）**は、以下のときに成立する。**(1)** 売主が、物品が必要とされる***買主の特定の目的を知っているか、または知るべき理由がある***とき。**かつ (2) *買主が適切な物品を選択または提供するために売主の技術または判断に依拠すること***のとき。上記の要件が満たされる場合、物品は買主の特定の目的に適合しなければならず、さもなければ保証の違反となる。\n  ○ 売主は、買主に対して行った**明示の保証（Express Warranty）**の違反について責任を負う。明示の保証（Express Warranty）は、(1) 売主が***事実の表明、約束、記述を行うか、または見本を提供する***こと、(2) それが***物品に関連する***こと、そして (3) それが***取引の基礎の一部となる***こと、によって成立する。\n• 違反が発生した場合、売主は人身傷害、物損、_および_経済的損失から生じるいかなる損害についても責任を負う可能性がある。保証の免責は、通常、人身傷害訴訟においては_有効ではない_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "製造物責任：保証違反に対する責任"
+  }
+]

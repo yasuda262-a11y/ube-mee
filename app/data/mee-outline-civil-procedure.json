@@ -1,0 +1,877 @@
+[
+  {
+    "id": 1,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "A. Federal Subject Matter Jurisdiction",
+    "ruleTitle": "Subject Matter Jurisdiction: Federal Question",
+    "priority": "HIGH",
+    "frequency": "12 of 65 Exams",
+    "body": "• A federal court can only hear cases where it has **subject matter jurisdiction**, because it is a court of _limited jurisdiction_. A federal court has subject matter jurisdiction if: **(a)** there is a ***federal question***; **(b)** there is ***diversity of citizenship*** among the parties; **OR (c) *supplemental jurisdiction*** is present. Subject matter jurisdiction is ***not waived*** if a party fails to raise it at trial. It may be raised at any time, even on appeal.\n• **Federal Question Jurisdiction** exists if a well-pleaded Complaint alleges a claim that **arises under**: **(a) *federal law***; **(b)** the ***U.S. Constitution***; **OR (c) *United States treaties***. The plaintiff MUST be ***enforcing a federal right***, and the federal question of law must be present on the face of the Complaint. Raising a defense under a federal law is NOT sufficient to trigger federal question jurisdiction.",
+    "meeTips": [
+      "On the exam, assume the application of: (1) the Federal Rules of Civil Procedure; AND (2) federal statues pertaining to trial jurisdiction, appellate jurisdiction, venue, and transfer."
+    ],
+    "examHistory": [
+      "Feb 2025, Essay 4",
+      "July 2021, Essay 6",
+      "July 2016, Essay 6",
+      "July 2015, Essay 2",
+      "Feb 2015, Essay 5",
+      "Feb 2011, Essay 8",
+      "July 2010, Essay 7",
+      "Feb 2010, Essay 6",
+      "Feb 2006, Essay 3",
+      "Feb 2004, Essay 4",
+      "July 1997, Essay 5"
+    ],
+    "translation": "• 連邦裁判所は、**事物管轄権（Subject Matter Jurisdiction）**を有する事件のみを審理することができ、それは_限定的管轄権（Limited Jurisdiction）_を有する裁判所であるためである。連邦裁判所は、以下のいずれかの場合に事物管轄権（Subject Matter Jurisdiction）を有する。**(a)** ***連邦問題（Federal Question）***が存在する場合。**(b)** 当事者間に***州籍相違（Diversity of Citizenship）***が存在する場合。**または (c) ***付加管轄権（Supplemental Jurisdiction）***が存在する場合。事物管轄権（Subject Matter Jurisdiction）は、当事者が裁判でこれを提起しなかったとしても、***放棄されない***。それは、控訴審においてさえ、いつでも提起され得る。\n• **連邦問題（Federal Question）管轄権（Federal Question Jurisdiction）**は、適正に訴えられた訴状（Complaint）が、以下のいずれかに**基づいて生じる**請求を主張する場合に存在する。**(a) ***連邦法***。**(b)** ***米国憲法***。**または (c) ***米国条約***。原告は***連邦の権利を行使している***必要があり、連邦の法律問題は訴状（Complaint）の表面に存在しなければならない。連邦法に基づく抗弁を提起することは、連邦問題（Federal Question）管轄権（Federal Question Jurisdiction）を発動させるには不十分である。",
+    "meeTipTranslation": "試験では、以下の適用を前提とする：**(1)** 連邦民事訴訟規則（Federal Rules of Civil Procedure）；**および (2)** 裁判管轄権、控訴管轄権、裁判地（Venue）、および移送に関する連邦法律。",
+    "ruleTitleJa": "裁判管轄：連邦問題（Federal Question）管轄"
+  },
+  {
+    "id": 2,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "A. Federal Subject Matter Jurisdiction",
+    "ruleTitle": "Subject Matter Jurisdiction: Diversity of Citizenship",
+    "priority": "HIGH",
+    "frequency": "23 of 65 Exams",
+    "body": "• A federal court can only hear cases where it has **subject matter jurisdiction**, because it is a court of _limited jurisdiction_. A federal court has subject matter jurisdiction to hear a claim if: **(a)** there is a ***federal question***; **(b)** there is ***diversity of citizenship*** among the parties; **OR (c) *supplemental jurisdiction*** is present. Subject matter jurisdiction is ***not waived*** if a party fails to raise it at trial. It may be raised at any time, even on appeal. A federal district court has an obligation to inquire _sua sponte_ (on its own) into its ability to exercise subject matter jurisdiction. The court MUST dismiss an action if it lacks subject matter jurisdiction.\n• **Diversity of Citizenship Jurisdiction** exists when: **(1)** there is ***complete diversity of citizenship*** between all plaintiffs and defendants (no plaintiff can be from the same state as any defendant); **AND (2)** the ***amount in controversy exceeds $75,000***. Diversity jurisdiction is determined at the time the ***action is commenced***; a post-filing change of citizenship is irrelevant absent bad faith.\n  ○ ***Citizenship***: A party’s citizenship is determined by their ***domicile***.\n    For a natural person, domicile is determined by the party’s: (1) ***residence*** (physical presence in the state); AND (2) ***subjective intent*** to make the state their ***permanent home***. The above test also applies to permanent resident aliens. If a person resides in more than one state for an extended period of time, then the court will review factors, such as the person’s residence, voter registration/records, vehicle registration, location of bank accounts, and place of employment. Domicile continues until changed. Both residence _and_ intent must be established ***concurrently*** for a change in domicile; the mere change of one without the other is not sufficient.\n    A corporation has dual citizenship, and is deemed to be a domiciliary of: **(1)** the state of its ***principal place of business*** (the corporation’s “nerve center” – where officers direct, control, and coordinate the corporation’s activities); **AND (2)** any state where it is ***incorporated***. Usually, a corporation’s principal place of business is its designated headquarters.\n    An executor or personal representative is deemed to have the ***citizenship of the decedent*** _or_ ***person being represented***.\n    A partnership, sole-proprietorship, limited liability company (LLC), or unincorporated association is deemed to be a domiciliary of the state of ***every partner/member/owner***.\n  ○ ***Amount in Controversy***: The amount in controversy is based on the damages ***alleged in good faith in the Complaint*** (not the actual award), _unless_ it is legally certain that the plaintiff cannot recover the specified amount. A single plaintiff may **aggregate claims** against one defendant, or against multiple defendants if all are joint tortfeasors (where the defendants are jointly and severally liable). Multiple plaintiffs may aggregate their claims ONLY IF they are seeking to enforce a single title or right, in which they have a ***common and undivided interest***. If a co-plaintiff’s claim does not meet the amount in controversy or common-undivided interest test, then Supplemental Jurisdiction may be available if it satisfies those jurisdictional requirements. A claim for **injunctive relief** is valued by either the ***benefit to the plaintiff* OR** the ***cost of compliance*** for the defendant (the value of the injunction).\n• **Alienage Diversity Jurisdiction**: Diversity jurisdiction may also exist in an action by or against an **alien** (a citizen or subject of a foreign state). **Alienage jurisdiction applies in two instances**:\n  ○ In an action between **(1) *aliens*** (on one side), **AND (2) *citizens of a State*** (on the other side), **PLUS (3)** the ***amount in controversy exceeds $75,000***.\n    However, jurisdiction DOES NOT EXIST IF (1) an alien is a U.S. permanent resident, and (2) the alien is domiciled in the same State as a party on the other side of the action.\n  ○ In an action between **(1) *citizens of different States*** (U.S. citizens are present on _both_ sides of the action), **(2)** in which ***aliens are additional parties***; **AND (3)** the ***amount in controversy exceeds $75,000***. Here, jurisdiction DOES NOT exist for cases among aliens (when _both_ the plaintiff and defendant are aliens), _unless_ U.S. citizens are present on _both_ sides of the action.\n• **Foreign State Diversity Jurisdiction**: Diversity jurisdiction also exists between **(1)** a ***Foreign State*** as plaintiff, **AND (2) *citizens of a State or of different States***, **PLUS (3)** the ***amount in controversy exceeds $75,000***. A “Foreign State” includes a political subdivision of a foreign state or an agency/instrumentality of a foreign state.",
+    "meeTips": [
+      "In the past, most MEE questions have generally asked: “Does the court have subject matter jurisdiction?” In such a situation, you will need to analyze Federal Question Jurisdiction, Diversity of Citizenship Jurisdiction, _and_ Supplemental Jurisdiction.",
+      "On the exam, apply the appropriate domicile test based on the person/entity described in the essay question."
+    ],
+    "examHistory": [
+      "Feb 2025, Essay 4",
+      "July 2023, Essay 4",
+      "July 2022, Essay 5",
+      "July 2021, Essay 6",
+      "Feb 2019, Essay 4",
+      "July 2016, Essay 6",
+      "July 2015, Essay 2",
+      "Feb 2015, Essay 5",
+      "July 2013, Essay 1",
+      "Feb 2012, Essay 7",
+      "Feb 2011, Essay 8",
+      "July 2010, Essay 7",
+      "Feb 2010, Essay 6",
+      "July 2009, Essay 6",
+      "July 2008, Essay 5",
+      "July 2007, Essay 2",
+      "Feb 2006, Essay 3",
+      "Feb 2005, Essay 3",
+      "July 2004, Essay 6",
+      "Feb 2004, Essay 4",
+      "Feb 2002, Essay 1",
+      "Feb 2000, Essay 3",
+      "July 1997, Essay 5"
+    ],
+    "translation": "• 連邦裁判所は、**事物管轄権（Subject Matter Jurisdiction）**を有する事件のみを審理することができ、それは_限定的管轄権（Limited Jurisdiction）_を有する裁判所であるためである。連邦裁判所は、以下のいずれかの場合に請求を審理する事物管轄権（Subject Matter Jurisdiction）を有する。**(a)** ***連邦問題（Federal Question）***が存在する場合。**(b)** 当事者間に***州籍相違（Diversity of Citizenship）***が存在する場合。**または (c) ***付加管轄権（Supplemental Jurisdiction）***が存在する場合。事物管轄権（Subject Matter Jurisdiction）は、当事者が裁判でこれを提起しなかったとしても、***放棄されない***。それは、控訴審においてさえ、いつでも提起され得る。連邦地方裁判所は、職権で（_sua sponte_）事物管轄権（Subject Matter Jurisdiction）を行使する能力について調査する義務を負う。裁判所は、事物管轄権（Subject Matter Jurisdiction）を欠く場合、訴訟を却下しなければならない。\n• **州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）**は、以下のいずれかの条件が満たされる場合に存在する。**(1)** すべての原告と被告の間に***完全な州籍相違（Complete Diversity of Citizenship）***が存在する場合（いかなる原告もいかなる被告と同じ州の出身であってはならない）。**かつ (2)** ***係争額が75,000ドルを超える***場合。州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）は、***訴訟が開始された***時点で決定される。悪意がない限り、提訴後の市民権（Citizenship）の変更は無関係である。\n  ○ ***市民権（Citizenship）***：当事者の市民権（Citizenship）は、その***本拠地（Domicile）***によって決定される。\n    自然人の場合、本拠地（Domicile）は、当事者の以下の要素によって決定される。(1) ***居住地（Physical Presence）***（州における物理的所在地）。**かつ (2)** その州を***永住地（Permanent Home）***とする***主観的意図***。上記の基準は永住外国人にも適用される。ある人物が長期間にわたり複数の州に居住している場合、裁判所は、その人物の居住地（Physical Presence）、有権者登録/記録、車両登録、銀行口座の所在地、および勤務地などの要素を検討する。本拠地（Domicile）は変更されるまで継続する。本拠地（Domicile）の変更には、居住地（Physical Presence）_と_意図の両方が***同時に***確立されなければならず、一方のみの変更では不十分である。\n    法人は二重市民権（Citizenship）を有し、以下の州の本拠地（Domicile）を有するものとみなされる。**(1)** その***主要事業所（Principal Place of Business）***の州（法人の「中枢」—役員が法人の活動を指揮、管理、調整する場所）。**かつ (2)** ***設立された***いずれかの州。通常、法人の主要事業所（Principal Place of Business）は、その指定された本社である。\n    遺言執行者または個人代表者は、***被相続人***_または_***代表される人物***の市民権（Citizenship）を有するものとみなされる。\n    パートナーシップ、個人事業主、有限責任会社（LLC）、または非法人団体は、***すべてのパートナー/メンバー/所有者***の州の本拠地（Domicile）を有するものとみなされる。\n  ○ ***係争額***：係争額は、原告が指定された金額を回復できないことが法的に確実である場合_を除き_、***訴状（Complaint）に誠実に主張された***損害額（実際の裁定額ではない）に基づく。単一の原告は、一人の被告に対して、またはすべての被告が共同不法行為者である場合（被告が連帯責任（Joint and Several Liability）を負う場合）には複数の被告に対して、**請求を合算する**ことができる。複数の原告は、***共通かつ不可分の利益（Common and Undivided Interest）***を有する単一の権原または権利を行使しようとしている場合に_のみ_、その請求を合算することができる。共同原告の請求が係争額または共通かつ不可分の利益（Common and Undivided Interest）の基準を満たさない場合、それらの管轄要件を満たせば付加管轄権（Supplemental Jurisdiction）が利用可能となる場合がある。**差止命令による救済**の請求は、***原告への利益*または**被告の***遵守費用***（差止命令の価値）のいずれかによって評価される。\n• **外国人州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）**：州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）は、**外国人**（外国の市民または臣民）によるまたは外国人に対する訴訟においても存在し得る。**外国人管轄権は以下の2つの場合に適用される**。\n  ○ **(1) ***外国人***（一方の当事者）と、**(2) ***州の市民***（他方の当事者）との間の訴訟において、**かつ (3)** ***係争額が75,000ドルを超える***場合。\n    ただし、(1) 外国人が米国永住者であり、かつ (2) その外国人が訴訟の相手方当事者と同じ州に本拠地（Domicile）を有する場合、管轄権は存在しない。\n  ○ **(1) ***異なる州の市民***（米国市民が訴訟の_両_当事者に存在する）間の訴訟において、**(2)** ***外国人が追加の当事者***となる訴訟において、**かつ (3)** ***係争額が75,000ドルを超える***場合。この場合、外国人間の訴訟（原告と被告が_双方とも_外国人である場合）には管轄権は存在しない。ただし、米国市民が訴訟の_双方の_当事者として存在する場合を除く。\n• **外国国家州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）**：州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）は、**(1)** ***外国国家***（原告として）と、**(2) ***州の市民または異なる州の市民***との間においても存在する。**かつ (3)** ***係争額が75,000ドルを超える***場合。「外国国家」には、外国国家の政治的区分または外国国家の機関・道具機関が含まれる。",
+    "meeTipTranslation": "過去のMEE問題では、一般に「裁判所は事物管轄権（Subject Matter Jurisdiction）を有するか？」と問われることが多い。その場合、**連邦問題（Federal Question）管轄権（Federal Question Jurisdiction）**、**州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）**、_および_**補充管轄権**の3つを分析する必要がある。\n試験では、論文問題に記載されている人物・法人の種類に応じて、適切な住所地（domicile）テストを適用すること。",
+    "ruleTitleJa": "裁判管轄：州籍相違（Diversity of Citizenship）管轄"
+  },
+  {
+    "id": 3,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "A. Federal Subject Matter Jurisdiction",
+    "ruleTitle": "Subject Matter Jurisdiction: Supplemental Jurisdiction",
+    "priority": "HIGH",
+    "frequency": "10 of 65 Exams",
+    "body": "• A federal court can only hear cases where it has **subject matter jurisdiction**, because it is a court of _limited jurisdiction_. A federal court has subject matter jurisdiction to hear a claim if: **(a)** there is a ***federal question***; **(b)** there is ***diversity of citizenship*** among the parties; **OR (c) *supplemental jurisdiction*** is present.\n• **Supplemental Jurisdiction**: If a federal court has original jurisdiction (subject matter jurisdiction) over some of the claims in the action, then it may exercise supplemental jurisdiction over _additional_ state court claims when they arise from the ***same “case or controversy”***. Generally, such claims must arise from a ***common nucleus of operative fact*** (the same transaction or occurrence). However, several limitations exist.\n• Supplemental jurisdiction **CANNOT be used to overcome a lack of diversity**. In a case where jurisdiction is based _solely_ on diversity, **a federal court DOES NOT have supplemental jurisdiction to hear *claims by or against additional parties* if their presence in the case would destroy complete diversity**.\n  ○ For example, a plaintiff in a diversity case CANNOT assert supplemental jurisdiction if it would violate complete diversity. Additionally, supplemental jurisdiction DOES NOT apply to claims by the original plaintiff against a third-party defendant. It also CANNOT be used for claims by parties proposed to be joined or intervene as plaintiffs under Required Joinder (Rule 19) or Intervention (Rule 24) if adding such party would destroy complete diversity.\n• A federal court may **decline to exercise supplemental jurisdiction** over State claims when: **(a)** the claim ***raises a novel or complex issue of State law***; **(b)** the claim ***substantially predominates over the claim(s)*** of which the district court had original jurisdiction; **(c)** the federal district court has ***dismissed all claims*** over which it had original jurisdiction; **OR (d)** in ***exceptional circumstances*** where there are other compelling reasons for declining jurisdiction. State claims _do not_ substantially predominate over federal claims when the facts needed to prove each claim are identical or similar.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 5",
+      "July 2021, Essay 6",
+      "July 2016, Essay 6",
+      "July 2015, Essay 2",
+      "Feb 2011, Essay 8",
+      "July 2009, Essay 6",
+      "July 2008, Essay 5",
+      "Feb 2005, Essay 3",
+      "Feb 2004, Essay 4",
+      "Feb 2002, Essay 1"
+    ],
+    "translation": "• 連邦裁判所は_限定的管轄権（Limited Jurisdiction）_を有する裁判所であるため、**事物管轄権（Subject Matter Jurisdiction）**を有する事件のみを審理することができる。連邦裁判所が請求を審理する事物管轄権（Subject Matter Jurisdiction）を有するのは、以下のいずれかの場合である：**(a)** ***連邦問題（Federal Question）***が存在する場合；**(b)** 当事者間に***州籍相違（Diversity of Citizenship）***がある場合；**または (c) *付加管轄権（Supplemental Jurisdiction）***が存在する場合。\n• **付加管轄権（Supplemental Jurisdiction）**：連邦裁判所が訴訟における一部の請求について原始管轄権（事物管轄権（Subject Matter Jurisdiction））を有する場合、追加の州法上の請求が***同一の「事件または争訟」（Same \"Case or Controversy\"）***から生じるときは、その請求についても付加管轄権（Supplemental Jurisdiction）を行使することができる。一般的に、当該請求は***共通の事実核（Common Nucleus of Operative Fact）（Common Nucleus of Operative Fact）***から生じなければならない。ただし、いくつかの制限が存在する。\n• 付加管轄権（Supplemental Jurisdiction）は**州籍相違（Diversity of Citizenship）の欠如を補うために使用することはできない**。管轄権が_専ら_州籍相違（Diversity of Citizenship）に基づく事件では、**連邦裁判所は、その存在が完全な州籍相違（Complete Diversity of Citizenship）を破壊することになる*追加当事者に対する、または追加当事者による*請求を審理する付加管轄権（Supplemental Jurisdiction）を有しない**。\n  ○ 例えば、州籍相違（Diversity of Citizenship）訴訟における原告は、完全な州籍相違（Complete Diversity of Citizenship）を侵害する場合、付加管轄権（Supplemental Jurisdiction）を主張することはできない。また、付加管轄権（Supplemental Jurisdiction）は、原告が第三者被告に対して提起する請求には適用されない。さらに、必要的参加（Rule 19）または参加（Rule 24）に基づいて原告として参加または介入しようとする当事者による請求であって、そのような当事者を加えることにより完全な州籍相違（Complete Diversity of Citizenship）が損なわれる場合にも、付加管轄権（Supplemental Jurisdiction）は使用できない。\n• 連邦裁判所は、以下の場合に州法上の請求に対する付加管轄権（Supplemental Jurisdiction）の行使を**拒否することができる**：**(a)** 請求が***州法上の新規または複雑な問題を提起する***場合；**(b)** 請求が***地方裁判所が原始管轄権（Original Jurisdiction）を有していた請求を実質的に凌駕する***場合；**(c)** 連邦地方裁判所が***原始管轄権（Original Jurisdiction）を有していたすべての請求を却下した***場合；**または (d)** 管轄権を拒否するその他の強制的な理由がある***例外的な状況（Exceptional Circumstances）***において。各請求を証明するために必要な事実が同一または類似する場合、州法上の請求は連邦法上の請求を実質的に凌駕しない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "裁判管轄：付随管轄"
+  },
+  {
+    "id": 4,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "A. Federal Subject Matter Jurisdiction",
+    "ruleTitle": "Subject Matter Jurisdiction: Domestic Relations Exception",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under the Domestic Relations Exception, federal courts MUST decline jurisdiction (even when diversity or federal question is present), when the case ***primarily involves domestic relations matters*** (applies to cases encompassing the issuance of a divorce, alimony, or child custody).\n• A court should NOT decline jurisdiction when domestic relations issues are ancillary to the case.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2010, Essay 6"
+    ],
+    "translation": "• 家事事件例外（Domestic Relations Exception）の下、連邦裁判所は、事件が***主として家事事件に関わる場合***（離婚、扶養料（Alimony）、または子の監護権（Child Custody）の付与を含む事件に適用される）、（州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）または連邦問題（Federal Question）管轄権（Federal Question Jurisdiction）が存在する場合であっても）管轄権を拒否しなければならない。\n• 家事事件が事件に付随的である場合、裁判所は管轄権を拒否すべきではない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "裁判管轄：家族関係事件の例外"
+  },
+  {
+    "id": 5,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "A. Federal Subject Matter Jurisdiction",
+    "ruleTitle": "Subject Matter Jurisdiction: Diversity Jurisdiction of a Large Class Action",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Diversity of Citizenship Jurisdiction of a **large class action** exists when: **(1)** the ***amount in controversy exceeds $5 million***; **(2)** there are ***at least 100 class members***; **AND (3) *minimal diversity*** is present – if any member of the plaintiff class is a citizen of a State different from any defendant.\n  ○ Amount in Controversy & Aggregation: The claims of the individual class members can be aggregated to determine whether the amount or value in controversy exceeds $5 million (exclusive of interest and costs).\n  ○ Citizenship: The citizenship of a party is determined by their domicile. (See the general rule for Diversity of Citizenship for the domicile tests for each type of party).\n• Limits on Class Action Diversity Jurisdiction:\n  ○ A court **MAY** decline to exercise jurisdiction when **non-diverse members constitute *greater than one-third*** _and_ ***less than two-thirds*** of the total class.\n  ○ A court **MUST** decline to exercise jurisdiction when **non-diverse members constitute *greater than two-thirds*** of the total class.\n  ○ Class action diversity jurisdiction **DOES NOT apply** in the following instances:\n    If the primary defendants are ***States, State officials, or other governmental entities*** against whom the court may be foreclosed from ordering relief.\n    If there are ***less than 100 class members***.\n    In class actions involving ***securities or corporate fiduciary claims***.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2019, Essay 6"
+    ],
+    "translation": "• **大規模集団訴訟**における州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）は、以下の条件が満たされる場合に存在する。**(1)** ***係争額が500万ドルを超える***こと。**(2)** ***少なくとも100人のクラスメンバーがいる***こと。**AND (3) *最小限の州籍相違（Diversity of Citizenship）***が存在すること – すなわち、原告クラスのいずれかのメンバーが、いずれかの被告とは異なる州の市民である場合。\n  ○ 係争額と集計：個々のクラスメンバーの請求は、係争額または価値が500万ドル（利息および費用を除く）を超えるかどうかを判断するために集計可能である。\n  ○ 市民権（Citizenship）：当事者の市民権（Citizenship）は、その住所地によって決定される。（各当事者の住所地判定基準については、州籍相違（Diversity of Citizenship）に関する一般規則を参照のこと。）\n• 集団訴訟の州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）の制限：\n  ○ 裁判所は、**州籍相違（Diversity of Citizenship）を満たさないメンバーが総クラスの***3分の1超*** _かつ_ ***3分の2未満***を構成する**場合に、管轄権の行使を拒否**できる**。\n  ○ 裁判所は、**州籍相違（Diversity of Citizenship）を満たさないメンバーが総クラスの***3分の2超***を構成する**場合に、管轄権の行使を拒否**しなければならない**。\n  ○ 集団訴訟の州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）は、以下の事例には**適用されない**。\n    主要な被告が、裁判所が救済命令を下すことができない***州、州職員、またはその他の政府機関***である場合。\n    ***100人未満のクラスメンバー***である場合。\n    ***証券または企業受託者責任に関する請求***を含む集団訴訟の場合。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "裁判管轄：大規模集団訴訟の州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）"
+  },
+  {
+    "id": 6,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "B. Removal",
+    "ruleTitle": "Removal",
+    "priority": "HIGH",
+    "frequency": "5 of 65 Exams",
+    "body": "• A **defendant** may remove a case to a federal court sitting in the State where the claim was filed if: **(1)** the federal court has ***subject matter jurisdiction*** (original jurisdiction); **(2) *all defendants*** agree; **(3) *no defendant is a resident of the forum state*** (only if removal is sought under a Diversity Jurisdiction basis); **AND (4) *removal is sought within 30 days*** of either service of the Summons or receiving the initial pleading (whichever period is shorter). A **plaintiff CANNOT** remove a case to federal court. In addition, a case CANNOT be removed more than one year after commencement in a diversity action.\n• Removal & Venue: Removal of an action filed in State court MUST be to the **U.S. District Court for the *district and division* where the action is pending** (i.e. the appropriate Federal District Court within the State). Typical federal court venue rules DO NOT apply when a case is removed to federal court.\n• Procedure for Removal: To remove an action to federal court the defendant must file a Notice of Removal in the federal court district within the place where the action is pending. The notice MUST: (1) state the basis for federal court jurisdiction; AND (2) include copies of the documents filed in the State court action. The defendant must serve the Notice of Removal upon all parties, and file a copy with the state court. Removal is ***automatic***, and the state court may take no further action in the case once it receives the Notice of Removal.\n• Preventing Removal by Pleading/Stipulating to Less than the Jurisdictional Amount: The Supreme Court has expressly acknowledged **plaintiff’s right to prevent removal of an action by *suing for less* OR *stipulating to less*** than the amount in controversy required under Federal diversity jurisdiction. However, **two exceptions exist**, and a defendant is allowed to prove a higher amount to remove an action if: **(a)** the initial ***pleading seeks non-monetary relief***; **OR (b)** State practice ***does not permit a demand for a specific sum or permits recovery in excess*** of the sum demanded.\n• Removal & Waiver of Personal Jurisdiction: Removal of an action filed in State court to federal court DOES NOT constitute a waiver by the defendant of any right to object to lack of personal jurisdiction. After removal to federal court, then a defendant may properly move to dismiss the case for lack of personal jurisdiction.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 4",
+      "Feb 2012, Essay 7",
+      "July 2009, Essay 6",
+      "July 2007, Essay 2",
+      "Feb 1996, Essay 4"
+    ],
+    "translation": "• **被告**は、以下の条件が満たされる場合に、請求が提起された州に所在する連邦裁判所に事件を移管（Removal）**できる**。**(1)** 連邦裁判所が***事物管轄権（Subject Matter Jurisdiction）***（原管轄権）を有すること。**(2) *全ての被告***が同意すること。**(3) *被告のいずれもフォーラム州の居住者ではない***こと（州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）を根拠として移管（Removal）が求められる場合に限る）。**AND (4) *召喚状（Subpoena）の送達または最初の訴答の受領のいずれか早い方から30日以内に移管（Removal）が求められる***こと。**原告は**事件を連邦裁判所に移管（Removal）**できない**。加えて、州籍相違（Diversity of Citizenship）訴訟においては、訴訟開始から1年を超えて事件を移管（Removal）することはできない。\n• 移管（Removal）と裁判地（Venue）：州裁判所に提起された訴訟の移管（Removal）は、**訴訟が係属している*地区および管轄区域*の合衆国地方裁判所**に行われなければならない（すなわち、当該州内の適切な連邦地方裁判所）。事件が連邦裁判所に移管（Removal）される場合、一般的な連邦裁判所の裁判地（Venue）規則は適用されない。\n• 移管（Removal）の手続き：訴訟を連邦裁判所に移管（Removal）するためには、被告は訴訟が係属している場所の連邦裁判所地区に移管（Removal）通知書（Notice of Removal）を提出しなければならない。通知書は、(1) 連邦裁判所の管轄権の根拠を記載し、AND (2) 州裁判所訴訟で提出された書類の写しを含まなければならない。被告は全ての当事者に移管（Removal）通知書（Notice of Removal）を送達し、州裁判所に写しを提出しなければならない。移管（Removal）は***自動的***であり、州裁判所は移管（Removal）通知書（Notice of Removal）を受領した後は、当該事件においてそれ以上の措置を講じることはできない。\n• 管轄額未満の訴答/合意による移管（Removal）の阻止：最高裁判所は、連邦の州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）の下で要求される係争額よりも***少ない金額を請求する***、または***少ない金額に合意する***ことにより、訴訟の移管（Removal）を阻止する**原告の権利**を明示的に認めている。しかし、**2つの例外が存在し**、被告は、以下のいずれかの場合に、より高額であることを証明して訴訟を移管（Removal）することが許される。**(a)** 最初の***訴答が非金銭的救済を求める***場合。**OR (b)** 州の慣行が、***特定の金額の請求を許可しない、または請求された金額を超える回復を許可する***場合。\n• 移送と人的管轄権（Personal Jurisdiction）の放棄：州裁判所に提起された訴訟を連邦裁判所に移管（Removal）することは、被告による人的管轄権（Personal Jurisdiction）の欠如を異議申し立てする権利の放棄を構成しない。連邦裁判所への移管（Removal）後、被告は人的管轄権（Personal Jurisdiction）の欠如を理由として事件の却下を適切に申し立てることができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "移管（Removal）"
+  },
+  {
+    "id": 7,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "C. Abstention Doctrines",
+    "ruleTitle": "Abstention Doctrines",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A federal court may abstain from hearing a case when doing so would intrude upon the powers of another court. In addition, a federal court may stay a case ***arising from ambiguous state law*** to await the outcome of another pending state court case that may resolve the ambiguity.\n• Under the ***Pullman* doctrine**, federal courts have discretion to abstain from hearing cases that ***arise from unsettled areas of state law***, allowing the state’s highest court to decide the matter first. The doctrine is applicable when the federal court is presented with an ambiguous state law and a state court interpretation of the matter may remove the need to decide the case on federal grounds.\n• Under the ***Younger* doctrine**, federal courts may abstain from hearing constitutional challenges to State action when doing so ***would interfere with state judicial proceedings***.\n• Under the ***Colorado River* doctrine**, federal courts should abstain from hearing cases when there are ***parallel state and federal litigations pending***. Suits are parallel when the parties and issues in the cases are substantially the same.\n• Under the ***Burford* doctrine**, abstention is appropriate ***only if*** federal adjudication would interfere with a state’s administration of a complex regulatory scheme.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2003, Essay 4",
+      "July 1997, Essay 5"
+    ],
+    "translation": "• 連邦裁判所は、他の裁判所の権限を侵害する場合、事件の審理を忌避することができる。さらに、連邦裁判所は、***曖昧な州法から生じる***事件を、その曖昧さを解消する可能性のある係属中の別の州裁判所事件の結果を待つために、停止することができる。\n• ***プルマン・ドクトリン（Pullman Doctrine）***の下では、連邦裁判所は、***未解決の州法領域から生じる***事件の審理を忌避する裁量を有し、州の最高裁判所がまずその問題を決定することを許容する。このドクトリンは、連邦裁判所が曖昧な州法を提示され、州裁判所によるその問題の解釈が連邦の根拠に基づいて事件を決定する必要性を排除する可能性がある場合に適用される。\n• ***ヤンガー・ドクトリン（Younger Doctrine）***の下では、連邦裁判所は、州の行為に対する憲法上の異議申し立ての審理を、そうすることが***州の司法手続に干渉する場合***に忌避することができる。\n• ***コロラド・リバー・ドクトリン（Colorado River Doctrine）***の下では、連邦裁判所は、***並行する州および連邦訴訟が係属している場合***、事件の審理を忌避すべきである。訴訟は、事件の当事者および争点が実質的に同一である場合に並行しているとされる。\n• ***バーフォード・ドクトリン（Burford Doctrine）***の下では、忌避は、連邦による裁定が州の複雑な規制スキームの管理を妨げる場合に***のみ***適切である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "忌避の法理（Abstention Doctrines）"
+  },
+  {
+    "id": 8,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "D. Personal Jurisdiction",
+    "ruleTitle": "Personal Jurisdiction",
+    "priority": "HIGH",
+    "frequency": "13 of 65 Exams",
+    "body": "• A federal court MUST have **personal jurisdiction** over a defendant for its judgment to be ***binding***. A federal court can exercise personal jurisdiction to the same extent as the State courts where the federal district court is located. Jurisdiction over a defendant normally falls into **two categories**: **(1)** the ***traditional bases*** of jurisdiction; and **(2)** a State's ***long-arm statute***.\n• **Traditional Bases of Jurisdiction**: The traditional bases for asserting personal jurisdiction include: (a) domicile; (b) transient jurisdiction (presence in the State when served); (c) consent; or (d) waiver (appearing in the action without objecting to jurisdiction). The above grounds comport with the Constitutional requirements of due process.\n  ○ Consent as a Condition for Doing Business in the State: The Supreme Court has held that state statutes requiring an out-of-state corporation to consent to personal jurisdiction in the state as a condition of registering to do business in the state DO NOT violate the Due Process Clause.\n• **Long-Arm Jurisdiction**: To exert personal jurisdiction over a defendant who is ***not a resident of the forum state***: (1) the forum state must have a long arm statute; AND (2) the Constitutional requirements of due process must be met. Where a state's long-arm statute allows personal jurisdiction to the same extent as the Constitution, then the long-arm analysis is the same as the constitutional analysis, which requires: **(1) that the defendant have *sufficient minimum contacts* with the forum state**, **(2) so as not to offend traditional notions of *fair play and substantial justice***. Both prongs must be satisfied.\n  ○ Prong 1 – Minimum Contacts (Contacts & Relatedness): Sufficient minimum contacts exist when either **general jurisdiction** OR **specific jurisdiction** is present.\n    ***General jurisdiction*** exists when the defendant's contacts with the forum state are ***so substantial and of such nature*** that the defendant is ***essentially at home in the state***. Defendant must _purposefully avail_ itself of the privilege of conducting activities within the forum State, thus invoking the benefits and protections of its laws. The claim DOES NOT need to relate to or arise from the defendant's contacts in the forum state. An individual must be _domiciled_ in the state for general jurisdiction to apply. For a corporation, general jurisdiction applies where the corporation is fairly regarded as \"_at home_\" (usually where the corporation is incorporated or headquartered).\n    ***Specific jurisdiction*** exists when the suit ***arises out of or relates to the defendant's contacts with the forum state***. A court's exercise of specific jurisdiction is Constitutional when a defendant: (1) _purposefully avails_ itself of the privilege of conducting activities within the forum state; AND (2) the defendant's _contacts with the forum give rise_ to (or are related to) the plaintiff's claims. There MUST be ***a connection between the forum state and the underlying controversy*** (principally, an activity or an occurrence that takes place in the forum state). When there is no such connection, specific jurisdiction is lacking regardless of the extent of a defendant's unconnected activities in the state.\n    Regularly occurring sales of a product in a state DOES NOT justify the exercise of jurisdiction over a claim _unrelated_ to those sales.\n    With respect to conduct via the internet, a court will consider how interactive the website is. Generally, the more interactive a website is, the more likely a court will find personal jurisdiction. A passive website (one that contains only information) has been held to be insufficient to subject the owner to jurisdiction. Courts have held jurisdiction to be proper where defendants could reasonably anticipate that defamatory comments posted online would target readers in plaintiff's home state.\n    When a cause of action arises from personal/domestic relations, a _temporary visit_ or _brief stopover_ to a State DOES NOT satisfy the minimum contacts requirement (_even if_ the spouses were married during the visit).\n    Courts have held that specific personal jurisdiction can be exercised over an automobile insurer if an accident in a State was within the insurance policy's territorial scope of coverage.\n  ○ Prong 2 – Fair Play and Substantial Justice (Fairness):\n    Even if the minimum contacts test is met, it **MUST be *fair and reasonable* for the defendant to be sued in the forum state** (so that traditional notions of fair play and substantial justice are not offended).\n    However, the ***burden*** is on the defendant to show that it would be ***so unreasonable*** to defend himself in the forum state that it would constitute a violation of Due Process. The court will consider: the burden on the defendant of litigating in the forum state, the state's interest in providing a forum; the plaintiff's interest in a convenient forum for obtaining relief; and the interests of the judicial system to efficiently resolve disputes.\n• **100-Mile of Courthouse Rule**: Personal jurisdiction over a party is established if: **(1)** that party is ***joined to the action under* Rule 14 (Third-Party Practice)** _or_ **Rule 19 (Required Joinder of Parties)**; **(2)** is ***served within the United States***; **AND (3)** is ***served within 100 miles*** of the courthouse where the Summons was issued. Courts have deemed the exercise of personal jurisdiction under this \"100-mile bulge\" rule to be Constitutional.",
+    "meeTips": [
+      "Depending on the call of the question and the fact pattern, you will need apply one or both of the following rules. Generally, when a state’s long-arm statute is present in the fact pattern, you will need to apply the Long-Arm Jurisdiction rule. When no long-arm statute is present, you will likely apply the Traditional Bases of Jurisdiction rule."
+    ],
+    "examHistory": [
+      "Feb 2026, Essay 6",
+      "Feb 2025, Essay 4",
+      "Feb 2023, Essay 3",
+      "July 2020, Essay 4",
+      "Feb 2019, Essay 4",
+      "July 2016, Essay 6",
+      "July 2015, Essay 2",
+      "July 2013, Essay 1",
+      "July 2010, Essay 7",
+      "Feb 2006, Essay 3",
+      "Feb 2000, Essay 3",
+      "Feb 1999, Essay 4",
+      "Feb 1995, Essay 6"
+    ],
+    "translation": "• 連邦裁判所はその判決を***拘束力（Binding）***あるものとするために、被告に対する**人的管轄権（Personal Jurisdiction）**を有していなければならない。連邦裁判所は、連邦地方裁判所が所在する州の州裁判所と同じ範囲で人的管轄権（Personal Jurisdiction）を行使することができる。被告に対する管轄権は通常、**2つのカテゴリー**に分類される：**(1)** 管轄権の***伝統的根拠（Traditional Bases）***；および **(2)** 州の***ロングアーム法令（Long-Arm Statute）***。\n• **管轄権の伝統的根拠（Traditional Bases）**：人的管轄権（Personal Jurisdiction）を主張するための伝統的根拠（Traditional Bases）には以下が含まれる：(a) 本拠地（Domicile）；(b) 一時的管轄権（送達時の州内での所在）；(c) 同意；または (d) 放棄（管轄権に異議を申し立てることなく訴訟に出頭すること）。上記の根拠はデュー・プロセスの憲法上の要件に適合する。\n  ○ 州内で事業を行うための条件としての同意：最高裁判所は、州外法人が州内で事業を登録するための条件として州での人的管轄権（Personal Jurisdiction）に同意することを要求する州法令はデュー・プロセス条項に違反しないと判示している。\n• **ロングアーム管轄権（Long-Arm Jurisdiction）**：***フォーラム州の居住者でない***被告に対して人的管轄権（Personal Jurisdiction）を行使するためには：(1) フォーラム州がロングアーム法令（Long-Arm Statute）を有していること；かつ (2) デュー・プロセスの憲法上の要件が満たされること。州のロングアーム法令（Long-Arm Statute）が憲法と同じ範囲で人的管轄権（Personal Jurisdiction）を認める場合、ロングアーム分析は憲法上の分析と同じとなり、以下が要求される：**(1) 被告がフォーラム州と*十分な最小限の接触（Minimum Contacts）*を有すること**、**(2) 伝統的な*フェアプレイと実質的正義（Fair Play and Substantial Justice）*の観念を侵害しないこと**。両要件が満たされなければならない。\n  ○ プロング1 – 最小限の接触（接触と関連性）：**一般管轄権（General Jurisdiction）**または**特定管轄権（Specific Jurisdiction）**のいずれかが存在する場合に、十分な最小限の接触（Minimum Contacts）が存在する。\n    ***一般管轄権（General Jurisdiction）***は、被告のフォーラム州との接触が***非常に実質的かつそのような性質のもの***であり、被告が***実質的にその州を本拠としている***場合に存在する。被告はフォーラム州内で活動を行う特権を_意図的に享受_し、その法律の利益と保護を援用しなければならない。請求はフォーラム州における被告の接触から生じるまたは関連する必要はない。個人の場合、一般管轄権（General Jurisdiction）が適用されるには州に_住所地を有する_必要がある。法人の場合、一般管轄権（General Jurisdiction）は法人が「_本拠地（Domicile）_」とみなされる場所（通常は設立州または本社所在地）で適用される。\n    ***特定管轄権（Specific Jurisdiction）***は、訴訟が***被告のフォーラム州との接触から生じるまたは関連する***場合に存在する。特定管轄権（Specific Jurisdiction）の行使が合憲となるのは、被告が：(1) フォーラム州内での活動を行う特権を_意図的に享受_し；かつ (2) 被告の_フォーラムとの接触が_原告の請求の根拠となる（または関連する）場合である。***フォーラム州と根底にある争点との関連性***（主として、フォーラム州で発生した活動または出来事）が存在しなければならない。そのような関連性がない場合、被告の州内での無関係な活動の程度にかかわらず、特定管轄権（Specific Jurisdiction）は欠如する。\n    ある州での製品の定期的な販売は、それらの販売と_無関係な_請求に対する管轄権の行使を正当化しない。\n    インターネットを通じた行為については、裁判所はウェブサイトがどの程度インタラクティブかを考慮する。一般的に、ウェブサイトがよりインタラクティブであるほど、裁判所が人的管轄権（Personal Jurisdiction）を認める可能性が高い。情報のみを含む受動的なウェブサイトは所有者を管轄権に服させるには不十分とされてきた。裁判所は、被告がオンラインに投稿した名誉毀損的コメントが原告の居住州の読者を対象とすることを合理的に予測できた場合に、管轄権を適正と判示している。\n    訴訟原因が個人的・家庭的関係から生じる場合、州への_一時的訪問_または_短期滞在_は最小限の接触（Minimum Contacts）要件を満たさない（滞在中に配偶者が婚姻したとしても同様）。\n    裁判所は、州での事故が保険契約の地域的適用範囲内であった場合に、自動車保険会社に対して特定の人的管轄権（Personal Jurisdiction）を行使できると判示している。\n  ○ プロング2 – フェアプレイと実質的正義（公平性）：\n    最小限の接触（Minimum Contacts）テストが満たされたとしても、（伝統的なフェアプレイと実質的正義（Fair Play and Substantial Justice）の観念を侵害しないよう）**被告がフォーラム州で訴えられることが*公平かつ合理的*でなければならない**。\n    ただし、フォーラム州で自己を防御することが***極めて不合理***であり、デュー・プロセスの違反を構成することを示す***立証責任***は被告にある。裁判所は以下を考慮する：フォーラム州での訴訟における被告の負担；フォーラムを提供することへの州の利益；救済を得るための便利なフォーラムに対する原告の利益；および紛争を効率的に解決するための司法制度の利益。\n• **100マイル・コートハウス・ルール**：以下の場合に当事者に対する人的管轄権（Personal Jurisdiction）が確立される：**(1)** その当事者が**Rule 14（第三者実務）**_または_**Rule 19（必要的参加）**に基づき***訴訟に参加させられた***こと；**(2)** ***米国内で送達された***こと；**かつ (3)** 召喚状（Subpoena）が発行された裁判所の***100マイル以内で送達された***こと。裁判所はこの「100マイル拡大」ルールに基づく人的管轄権（Personal Jurisdiction）の行使が合憲であると判示している。",
+    "meeTipTranslation": "問題の問い方と事実関係に応じて、以下のルールの一方または両方を適用する必要がある。一般的に、事実関係に州の**ロングアーム法令（Long-Arm Statute）**が存在する場合は「ロングアーム管轄権（Long-Arm Jurisdiction）」のルールを適用する。ロングアーム法令（Long-Arm Statute）が存在しない場合は、「人的管轄権（Personal Jurisdiction）の伝統的根拠（Traditional Bases）」のルールを適用する可能性が高い。",
+    "ruleTitleJa": "人的管轄権（Personal Jurisdiction）"
+  },
+  {
+    "id": 9,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "E. Service of Process and Notice",
+    "ruleTitle": "Service of Process and Notice",
+    "priority": "HIGH",
+    "frequency": "5 of 65 Exams",
+    "body": "• In federal court, the Summons and Complaint must be served upon the defendant ***within 90 days*** of filing the Complaint. Otherwise, the court MUST either: **(a) *dismiss*** the action without prejudice against that defendant; **OR (b)** order that service be made ***within a specified time***. However, if the plaintiff shows ***good cause*** for failing to serve within 90 days, the court MUST extend the time for service for an appropriate period.\n• Service may be made by any person who: **(1)** is ***at least 18 years old***; **AND (2) *not a party*** to the action.\n• The method of service must be consistent with the Due Process Clause, which **requires that notice be *reasonably calculated*** to make the parties ***aware of the action*** and give them an ***opportunity to object***.\n  ○ **Service upon an Individual**: An individual may be served by delivering the Summons and Complaint: **(a)** to the individual ***personally***; **(b)** to someone of ***suitable age and discretion*** who resides at the individual's _current_ dwelling or usual place of abode; **(c)** to an ***agent authorized*** by appointment or by law to receive service of process; **OR (d)** in ***accordance with the state law*** of the forum state or where service is made.\n  ○ **Service upon a Corporation, Partnership, or Association**: A corporation, partnership, or unincorporated association may be served: **(a)** in ***accordance with state law*** of the forum state or where service is made; **OR (b)** by delivering the Summons and Complaint to an ***officer*** (i.e. CEO), ***managing agent***, ***general agent***, ***or authorized agent*** (by appointment or by law) of the corporation.\n  ○ **Service upon a Foreign Defendant**: Generally, a foreign defendant may be served by **any manner *not* prohibited by international agreement**. However, a foreign corporation, partnership, or association CANNOT be served by personal service. A court CAN authorize service via e-mail if: (1) no international agreement prohibits it; AND (2) it satisfies due process (reasonably calculated to notify the defendant of the action and give him an opportunity to object).",
+    "meeTips": [
+      "On the exam, apply the appropriate method of service of process based upon the type of party and method of service mentioned in the essay question."
+    ],
+    "examHistory": [
+      "Feb 2026, Essay 6",
+      "July 2017, Essay 6",
+      "Feb 2015, Essay 5",
+      "Feb 2009, Essay 5",
+      "July 1995, Essay 6"
+    ],
+    "translation": "• 連邦裁判所では、召喚状（Summons）と訴状（Complaint）は、訴状（Complaint）の提出から***90日以内***に被告に送達されなければならない。そうでない場合、裁判所は、**(a)** その被告に対する訴訟を不利益なく***却下する***か、**または (b)** 送達を***指定された期間内***に行うよう命じなければならない。ただし、原告が90日以内に送達できなかったことについて***正当な理由（Good Cause）***を示す場合、裁判所は送達期間を適切な期間延長しなければならない。\n• 送達は、次の条件を満たす者であれば誰でも行うことができる。**(1)** ***18歳以上***であること、**かつ (2)** 訴訟の***当事者ではない***こと。\n• 送達方法はデュープロセス条項に合致していなければならず、これは、当事者に***訴訟を認識させ***、***異議を申し立てる機会を与える***ために、通知が***合理的に計算されている***ことを要求する。\n  ○ **個人への送達**: 個人への召喚状（Summons）と訴状（Complaint）の送達は、次の方法で行うことができる。**(a)** 個人に***直接***、**(b)** 個人の_現在の_住居または通常の居住地（Physical Presence）に居住する***適切な年齢と判断能力のある者（Person of Suitable Age and Discretion）***に、**(c)** 任命または法律により送達受領を***権限を与えられた代理人***に、**または (d)** フォーラム州または送達が行われる場所の***州法に従って***。\n  ○ **法人、パートナーシップ、または団体への送達**: 法人、パートナーシップ、または非法人団体への送達は、次の方法で行うことができる。**(a)** フォーラム州または送達が行われる場所の***州法に従って***、**または (b)** 法人の***役員***（例：CEO）、***管理代理人***、***総代理人***、***または権限を与えられた代理人***（任命または法律による）に召喚状（Summons）と訴状（Complaint）を交付することによって。\n  ○ **外国の被告への送達**: 一般的に、外国の被告への送達は、***国際協定で禁止されていない***あらゆる方法で行うことができる。ただし、外国の法人、パートナーシップ、または団体は、個人への直接送達によっては送達できない。裁判所は、電子メールによる送達を次の条件で許可することができる。(1) 国際協定がそれを禁止していないこと、**かつ** (2) デュープロセスを満たしていること（被告に訴訟を通知し、異議を申し立てる機会を与えるために合理的に計算されていること）。",
+    "meeTipTranslation": "試験では、論文問題で言及されている当事者の種類および送達方法に基づいて、適切な訴訟手続きの送達方法を適用すること。",
+    "ruleTitleJa": "訴状（Complaint）送達と通知"
+  },
+  {
+    "id": 10,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "F. Venue",
+    "ruleTitle": "Venue (Proper Venue & Transfer of Venue)",
+    "priority": "HIGH",
+    "frequency": "11 of 65 Exams",
+    "body": "• **Proper Venue**: For civil actions brought in federal court, **venue is proper** in any district where: **(a) *any defendant resides*** (if all defendants are residents of the forum state); **(b)** where a ***substantial portion of the claim occurred***; **(c)** where a ***substantial part of property is located*** (where property is the subject of the action); **OR (d)** if none of the above apply, then venue is proper in any judicial district in which ***any defendant is subject to the court’s personal jurisdiction***. Proper venue is determined ***at the time the suit is filed***; a subsequent move by a party DOES NOT generally warrant a change of venue.\n  ○ Residence Rules: Residence of an **individual** is determined by their domicile (residence and intent to make the place their permanent home). A **business entity’s** residence includes ALL districts where it is subject to personal jurisdiction_._ A **non-resident of the U.S.** (alien or U.S. citizen living outside the U.S.) may be sued in any judicial district.\n  ○ For tort actions, venue is proper where the alleged tortious acts occurred, but venue is **NOT** proper where the ***only*** connection is that medical treatment for injuries was received in the judicial district.\n• **Transfer of Venue**: Transfer of venue and the applicable law depends on whether venue was proper when the suit was first filed.\n  ○ If venue was proper when the case was filed, the court MAY transfer venue if: **(1)** needed for the ***convenience of parties and witnesses _or_ interests of justice***; **AND (2)** the action ***could have initially been brought in the receiving court*** (proper venue, subject matter jurisdiction, and personal jurisdiction). The court has discretion whether or not to transfer the case.\n  ○ If venue was improper when the case was filed, the court MUST either: **(a) *dismiss the case***; **OR (b) *transfer the case*** to a proper court if the ***interests of justice require it***.\n  ○ Forum-Selection Clause: Generally, a court will enforce a contractual forum-selection clause to transfer venue, UNLESS special factors are present (i.e. significant/unusual hardships or inequality of bargaining power). Additionally, the Supreme Court has held that a forum-selection clause is an important factor favoring a change of venue, _even if_ the forum-selection clause is unenforceable under the applicable state law.\n• **Transfer of Venue & Effect on Choice of Law**:\n  ○ If Venue was Proper – General Rule: If venue was proper _and_ the court thereafter transfers venue, then in a diversity action the **transferee court** is REQUIRED TO APPLY the ***applicable state law*** from the **original/ transferor court** (including the original court’s choice-of-law rules).\n    Forum-Selection Clause Exception: However, if the transfer is to enforce a valid Forum-Selection Clause, then the transferee court DOES NOT carry with it the original/transferor court’s choice-of-law rules. In such instance, the transferee court will apply its own choice-of-law rules.\n  ○ If Venue was Improper: If venue was improper when the case was filed _and_ the court thereafter transfers venue, the law applied is that of the **new transferee court**.",
+    "meeTips": [
+      "On the exam, apply the applicable transfer of venue rule based upon whether venue was proper or improper when the case was filed, and/or whether a forum-selection clause is at issue."
+    ],
+    "examHistory": [
+      "Feb 2018, Essay 5",
+      "July 2016, Essay 6",
+      "July 2013, Essay 1",
+      "Feb 2012, Essay 7",
+      "Feb 2005, Essay 3",
+      "July 2002, Essay 3",
+      "Feb 2002, Essay 1",
+      "Feb 2000, Essay 3",
+      "Feb 1999, Essay 4",
+      "Feb 1996, Essay 4",
+      "July 1995, Essay 3"
+    ],
+    "translation": "• **適正裁判地（Venue）**：連邦裁判所に提起される民事訴訟について、**裁判地（Venue）は以下のいずれかの地区において適正とされる**：**(a) *いずれかの被告が居住する***地区（全被告が提訴州の居住者である場合）；**(b)** ***請求の実質的な部分が発生した***地域；**(c)** ***財産の実質的な部分が所在する***地域（財産が訴訟の目的である場合）；**または (d)** 上記のいずれも適用されない場合は、***いずれかの被告が裁判所の人的管轄権（Personal Jurisdiction）に服する***司法地区。適正裁判地（Venue）は***訴訟提起時***に決定され、その後の当事者の移動は原則として裁判地（Venue）変更の根拠とならない。\n  ○ 居住地（Physical Presence）ルール：**個人**の居住地（Physical Presence）は本拠地（居住および永住の意図）によって決定される。**法人**の居住地（Physical Presence）は人的管轄権（Personal Jurisdiction）に服するすべての地区を含む。**米国の非居住者**（外国人または米国外に居住する米国市民）はいずれの司法地区においても訴えることができる。\n  ○ 不法行為訴訟では、裁判地（Venue）は主張された不法行為が発生した場所において適正とされるが、その司法地区内で傷害の医療処置を受けたことのみが唯一の関連性である場合、裁判地（Venue）は**適正とはならない**。\n• **裁判地（Venue）の移送（Transfer of Venue）**：裁判地（Venue）の移送（Transfer of Venue）および適用法は、訴訟提起時に裁判地（Venue）が適正であったか否かによって異なる。\n  ○ 提訴時に裁判地（Venue）が適正であった場合、裁判所は以下の条件を満たす場合に裁判地（Venue）を移送することができる：**(1)** ***当事者・証人の便宜または正義の利益（Convenience of Parties and Witnesses or Interests of Justice）のため***に必要であること；**かつ (2)** その訴訟が***移送先裁判所で当初から提起できたこと***（適正裁判地（Venue）、事物管轄権（Subject Matter Jurisdiction）、人的管轄権（Personal Jurisdiction））。裁判所は移送するかどうかの裁量を有する。\n  ○ 提訴時に裁判地（Venue）が不適正であった場合、裁判所は：**(a) *事件を却下する***；**または (b) *正義の利益がそれを要求する***場合に適正な裁判所に***移送する***のいずれかをしなければならない。\n  ○ 裁判地（Venue）選択条項：一般的に、裁判所は裁判地（Venue）を移送するための契約上の裁判地（Venue）選択条項を執行する。ただし、特別な要因がある場合（著しい不均衡または交渉力の不平等）を除く。また、最高裁判所は、裁判地（Venue）選択条項が該当する州法の下で執行不可能であっても、裁判地（Venue）変更を支持する重要な要素であると判示している。\n• **裁判地（Venue）移送と準拠法の選択**：\n  ○ 裁判地（Venue）が適正であった場合の一般原則：裁判地（Venue）が適正であり、その後裁判所が裁判地（Venue）を移送する場合、州籍相違（Diversity of Citizenship）訴訟において**移送先裁判所**は***元の移送元裁判所***の***適用州法***（元の裁判所の抵触法ルール（Choice of Law Rules）を含む）を適用する義務がある。\n    裁判地（Venue）選択条項の例外：有効な裁判地（Venue）選択条項を執行するための移送の場合、移送先裁判所は元の移送元裁判所の抵触法ルール（Choice of Law Rules）を引き継がない。この場合、移送先裁判所は自己の抵触法ルール（Choice of Law Rules）を適用する。\n  ○ 裁判地（Venue）が不適正であった場合：提訴時に裁判地（Venue）が不適正であり、その後裁判所が裁判地（Venue）を移送した場合、適用されるのは**新たな移送先裁判所**の法律である。",
+    "meeTipTranslation": "試験では、事件が提訴された時点で裁判地（Venue）が適切だったか不適切だったか、および/または裁判地（Venue）選択条項が争点になっているかに基づいて、適切な裁判地（Venue）移送ルールを適用すること。",
+    "ruleTitleJa": "裁判地（適切な裁判地（Venue）と裁判地（Venue）の移送（Transfer of Venue））"
+  },
+  {
+    "id": 11,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "G. Law Applied by Federal Courts",
+    "ruleTitle": "Law Applied by Federal Courts: Erie Doctrine, Substance",
+    "priority": "HIGH",
+    "frequency": "9 of 65 Exams",
+    "body": "• The _Erie_ doctrine applies when a federal case is brought under diversity of citizenship jurisdiction. Under the _Erie_ doctrine, **a federal court will apply its own ***federal procedural laws***, but must apply *state substantive law***. Similarly, for claims heard under Supplemental Jurisdiction, a federal court will apply its own procedural law/rules and the state substantive law.\n  ○ Procedural laws include: civil procedure rules and rebuttable presumptions.\n  ○ Substantive laws include: elements of a claim or defense, conflict or choice of law rules, statute of frauds, burden of proof (on state-law issues), irrebuttable presumptions, damages, statute of limitations and tolling rules, statute of limitations where a borrowing statute was enacted (a statute providing the shorter of the two time-periods applies), and preclusion law (e.g. claim preclusion, issue preclusion).\n• Since choice of law rules are considered substantive law, **a federal court sitting in diversity MUST apply the forum state's choice of law rules to determine the applicable state substantive law in the action**. Once the applicable state law is determined, the federal court must apply that law as the state court would; it CANNOT make its own independent judgment on the construction of a law or statute. When no controlling state case law is available to the federal court for guidance, the court must predict how the state's highest court would rule on the issue.\n• However, **federal law will apply** for matters governed by the U.S. Constitution, laws passed by Congress, or valid federal law that preempts state law under the Supremacy Clause.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 6",
+      "Feb 2021, Essay 3",
+      "July 2019, Essay 6",
+      "July 2017, Essay 6",
+      "Feb 2012, Essay 7",
+      "Feb 2009, Essay 5",
+      "July 1999, Essay 3",
+      "Feb 1997, Essay 5",
+      "July 1995, Essay 3"
+    ],
+    "translation": "• _エリー_原則（Erie Doctrine）は、連邦事件が州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）に基づいて提起された場合に適用される。_エリー_原則（Erie Doctrine）の下では、**連邦裁判所は自己の***連邦手続法（Federal Procedural Laws）***を適用するが、***州の実体法（State Substantive Law）***を適用しなければならない**。同様に、付加管轄権（Supplemental Jurisdiction）の下で審理される請求についても、連邦裁判所は自己の手続法/規則および州の実体法（State Substantive Law）を適用する。\n  ○ 手続法には、民事訴訟規則および反証可能な推定が含まれる。\n  ○ 実体法には、請求または抗弁の要件、抵触法または準拠法選択ルール、詐欺防止法（Statute of Frauds）、立証責任（州法上の問題に関する）、反証不能な推定、損害賠償、消滅時効（Statute of Limitations）および時効停止規則、借用法令が制定された場合の消滅時効（2つの期間のうち短い方が適用される）、および遮断法（既判力（Res Judicata）、争点遮断効（Issue Preclusion / Collateral Estoppel）など）が含まれる。\n• 抵触法ルール（Choice of Law Rules）は実体法とみなされるため、**州籍相違（Diversity of Citizenship）管轄権（Diversity Jurisdiction）で審理する連邦裁判所は、訴訟における適用可能な州の実体法（State Substantive Law）を決定するためにフォーラム州の抵触法ルール（Choice of Law Rules）を適用しなければならない**。適用される州法が決定されたら、連邦裁判所は州裁判所が行うのと同様にその法律を適用しなければならず、法律や制定法の解釈について独自の独立した判断を下すことはできない。適用すべき州の先例がない場合、連邦裁判所はその州の最高裁判所がその問題についてどのように判断するかを予測しなければならない。\n• ただし、**連邦法は**、合衆国憲法、議会が可決した法律、または優越条項の下で州法を先占する有効な連邦法によって規律される事項については適用される。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "連邦裁判所が適用する法：エリー原則（Erie Doctrine）、実体法"
+  },
+  {
+    "id": 12,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "H. Injunctions & Temporary Restraining Orders",
+    "ruleTitle": "Preliminary Injunction",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A preliminary injunction ***maintains the status quo* pending the outcome of an action** in order to protect irreparable harm to a party. The court may issue a preliminary injunction only: **(1)** upon ***notice*** to the adverse party; **AND (2)** if the moving party ***gives security*** in an amount the court deems proper (which will be used to reimburse the non-moving party for any injury caused by the injunction if the moving party does not succeed on the merits). The Federal Rules of Civil Procedure allow the court to issue _both_ a **restraining injunction** (preventing a party from doing something) OR a **mandatory injunction** (compelling a party to do something).\n• Under the traditional four-prong test for a preliminary injunction, the party moving for an injunction must show: **(1)** a ***likelihood of success on the merits***; **(2)** a likely threat of ***irreparable harm*** to the movant; **(3)** the harm alleged by the movant ***outweighs*** any harm to the non-moving party; **AND (4)** an injunction is in the ***public interest***. If the moving party has an adequate remedy at law (can be compensated by money damages for any potential loss), then a motion for a preliminary injunction should be denied. Courts have granted preliminary injunctions in the following instances: environmental damage cases (because such harm is often deemed irreparable); and to enforce non-competition agreements restricting former employees from soliciting customers.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2014, Essay 4",
+      "July 2005, Essay 6"
+    ],
+    "translation": "• 暫定的差止命令（Preliminary Injunction）は、当事者への回復不能な損害（Irreparable Harm）を防ぐために、**訴訟の結果が出るまでの間、現状を維持する（Maintains the Status Quo）**ものである。裁判所が暫定的差止命令（Preliminary Injunction）を発することができるのは、**(1)** 相手方への***通知***がある場合；**かつ (2)** 申立当事者が裁判所が適切と判断する金額の***担保（Security）を提供する***場合（申立当事者が本案で勝訴しなかった場合に相手方が差止命令により被った損害を補償するために使用される）に限られる。連邦民事訴訟規則（Federal Rules of Civil Procedure）は、裁判所が**差止命令**（当事者が何かをすることを禁じる）_または_**強制命令**（当事者に何かをすることを強制する）の両方を発することを認めている。\n• 暫定的差止命令（Preliminary Injunction）に関する伝統的な4要素テストの下では、差止命令を申立てる当事者は以下を示さなければならない：**(1)** ***本案での勝訴可能性（Likelihood of Success on the Merits）***；**(2)** 申立当事者への***回復不能な損害（Irreparable Harm）***の蓋然的な脅威；**(3)** 申立当事者が主張する損害が相手方への損害を***上回る（Outweighs）***こと；**かつ (4)** 差止命令が***公共の利益（Public Interest）***に資すること。申立当事者に法律上の適切な救済手段がある場合（金銭的損害賠償で補償可能な場合）、暫定的差止命令（Preliminary Injunction）の申立ては却下されるべきである。裁判所が暫定的差止命令（Preliminary Injunction）を認めた例：環境被害事件（そのような損害は回復不能とみなされることが多いため）；および元従業員が顧客を勧誘することを制限する競業禁止協定の執行のため。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "仮差止（Preliminary Injunction）"
+  },
+  {
+    "id": 13,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "H. Injunctions & Temporary Restraining Orders",
+    "ruleTitle": "Temporary Restraining Order (TRO)",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• A Temporary Restraining Order (TRO) is an emergency remedy used to **maintain the status quo pending the outcome of a hearing or application** (usually a preliminary injunction application), and is only available when the plaintiff will suffer ***immediate and irreparable harm***. A TRO can only be granted for a limited amount of time, so a party must move for a preliminary injunction if it seeks to maintain the status quo pending the outcome of the action.\n• When deciding to grant a TRO ***on-notice***, a court will analyze the same factors as a preliminary injunction. The moving party must show: **(1)** a ***likelihood of success on the merits***; **(2)** a likely threat of ***irreparable harm*** to the movant; **(3)** the harm alleged by the movant ***outweighs*** any harm to the non-moving party; **AND (4)** an injunction is in the ***public interest***. If granted, the moving party must ***give security*** in an amount the court deems proper.\n• A TRO can be issued ***ex parte*** (***without notice*** to an adverse party).\n  ○ Requirements: The court may issue an ex parte TRO only if the moving party: **(1)** provides specific facts in sworn statement that clearly show that ***immediate and irreparable injury, loss, or damage will result*** to the movant before the adverse party can be heard in opposition; **(2)** certifies in writing ***any efforts made to give notice to the adverse party and why notice should not be required***; **AND (3) *gives security*** in an amount that the court deems proper (the United States, its officers, and its agencies are not required to give security).\n  ○ Expiration: An _ex parte_ TRO ***automatically expires after 14 days*** (unless the court sets a shorter expiration). However, a court can extend the expiration of the TRO: **(a)** for ***good cause***; **OR (b)** if the opposing party ***consents*** to the extension. An adverse party may move to dissolve or modify an _ex parte_ TRO on ***two-day’s notice*** to the moving party.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2014, Essay 4",
+      "July 2005, Essay 6",
+      "Feb 1997, Essay 5"
+    ],
+    "translation": "• 一方的緊急差止命令（TRO）は、**審理または申立て（通常は暫定的差止命令（Preliminary Injunction）の申立て）の結果が出るまでの現状維持**のために用いられる緊急救済であり、原告が***即時かつ回復不能な損害（Immediate and Irreparable Harm）***を被る場合にのみ利用可能である。一方的緊急差止命令は限られた期間しか認められないため、訴訟の結果が出るまでの現状維持を求める当事者は、暫定的差止命令（Preliminary Injunction）を申し立てなければならない。\n• ***通知を伴う***一方的緊急差止命令の付与を決定する際、裁判所は暫定的差止命令（Preliminary Injunction）と同じ要素を分析する。申立当事者は、以下のことを示さなければならない。**(1)** ***本案勝訴の可能性（Likelihood of Success on the Merits）***があること。**(2)** 申立人に***回復不能な損害（Irreparable Harm）***が生じる可能性が高いこと。**(3)** 申立人が主張する損害が、非申立当事者へのいかなる損害をも***上回る（Outweighs）***こと。**AND (4)** 差止命令が***公共の利益（Public Interest）***に資すること。付与された場合、申立当事者は裁判所が適切と認める額の***担保（Security）を供する***必要がある。\n• 一方的緊急差止命令は***一方的に***（相手方への***通知なしに***）発令され得る。\n  ○ 要件：裁判所は、申立当事者が以下の条件を満たす場合にのみ、一方的緊急差止命令を発令することができる。**(1)** 相手方が異議を申し立てる機会を得る前に、申立人に***即時かつ回復不能な傷害、損失、または損害が生じる***ことを明確に示す具体的な事実を宣誓供述書（Affidavit）で提供すること。**(2)** ***相手方への通知を行うためにとったいかなる努力および通知が不要であるべき理由***を書面で証明すること。**AND (3)** 裁判所が適切と認める額の***担保（Security）を供する***こと（米国、その役員、およびその機関は担保（Security）を供する必要はない）。\n  ○ 失効：_一方的緊急差止命令_は、裁判所がより短い期間を定めない限り、***14日後に自動的に失効（Automatically Expires after 14 Days）する***。ただし、裁判所は以下のいずれかの場合に、一方的緊急差止命令の失効を延長することができる。**(a)** ***正当な理由（Good Cause）***がある場合。**OR (b)** 相手方当事者が延長に***同意する***場合。相手方当事者は、申立当事者への***2日前の通知***により、_一方的緊急差止命令_の解消または変更を申し立てることができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "一方的緊急差止命令（TRO）"
+  },
+  {
+    "id": 14,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "H. Injunctions & Temporary Restraining Orders",
+    "ruleTitle": "Permanent Injunction",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Injunction Elements: A party seeking a permanent injunction MUST demonstrate that: **(1)** it has suffered an ***irreparable injury***; **(2) *legal remedies are inadequate*** to compensate for that injury (e.g. the harm cannot be compensated by money damages); **(3)** an injunction is warranted after a ***balance of hardships*** to both parties (balance the harm to applicant versus the harm to the opponent if the injunction is issued); **AND (4)** the ***public interest*** would not be disserved by a permanent injunction. Failure to satisfy any factor is grounds for denying relief.\n  ○ The last two factors merge if (i) the government is a party, and (ii) the government’s interest is the public interest.\n  ○ Courts have denied an injunction if (i) defendant’s activity is _valuable_, AND (ii) it would cause defendant to _shut down_ because technology to avoid the inherent harm is not available.\n• Court Has Discretion: Injunctive relief is NOT automatic. The decision whether to grant or deny injunctive relief rests within the ***discretion of the court***, and such discretion must be exercised consistent with traditional principles of equity.\n• When Issued: A permanent injunction is issued ONLY AFTER a ***full trial on the merits***. The standards for a preliminary injunction are essentially the same as for a permanent injunction with the exception that the plaintiff must actually succeed on the merits.\n• Restraining Injunction vs. Mandatory Injunction: A court MAY issue a restraining injunction or a mandatory injunction. A **restraining injunction** _prevents_ a party from doing something. A **mandatory injunction** _compels_ a party to do something.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2023, Essay 1"
+    ],
+    "translation": "• 差止命令の要件：恒久差止命令（Permanent Injunction）を求める当事者は、以下のことを証明しなければならない。**(1)** ***回復不能な損害（Irreparable Harm）***を被ったこと。**(2)** その損害を補償するための***法的救済が不十分（Legal Remedies Are Inadequate）である***こと（例：金銭賠償では損害を補償できない場合）。**(3)** 両当事者への***困難の比較考量（Balance of Hardships）***（差止命令が発令された場合の申立人への損害と相手方への損害を比較考量する）の結果、差止命令が正当化されること。**AND (4)** 恒久差止命令（Permanent Injunction）によって***公共の利益（Public Interest）***が損なわれないこと。いずれかの要件を満たさない場合、救済を拒否する根拠となる。\n  ○ 以下のいずれかの条件を満たす場合、最後の2つの要件は統合される。(i) 政府が当事者である場合、かつ (ii) 政府の利益が公共の利益（Public Interest）である場合。\n  ○ 裁判所は、以下のいずれかの条件を満たす場合、差止命令を拒否している。(i) 被告の活動が_価値のある_ものであり、かつ (ii) 固有の損害を回避する技術が利用できないため、被告が_閉鎖_せざるを得なくなる場合。\n• 裁判所の裁量：差止救済は自動的ではない。差止救済を付与するか否かの決定は、***裁判所の裁量***に委ねられており、その裁量は衡平法の伝統的原則に従って行使されなければならない。\n• 発令時期：恒久差止命令（Permanent Injunction）は、***本案に関する完全な審理***の後でのみ発令される。暫定的差止命令（Preliminary Injunction）の基準は、原告が実際に本案で勝訴しなければならないという例外を除けば、恒久差止命令（Permanent Injunction）の基準と本質的に同じである。\n• 抑制的差止命令（Prohibitory Injunction） vs. 強制的差止命令（Mandatory Injunction）：裁判所は、抑制的差止命令（Prohibitory Injunction）または強制的差止命令（Mandatory Injunction）を発令することができる。**抑制的差止命令（Prohibitory Injunction）**は、当事者が何かを行うことを_阻止する_。**強制的差止命令（Mandatory Injunction）**は、当事者に何かを行うことを_強制する_。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "恒久的差止命令（Permanent Injunction）"
+  },
+  {
+    "id": 15,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "I. Pleadings",
+    "ruleTitle": "Federal Court Pleading Rules: Claim for Relief",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Pleading a Claim for Relief: A pleading that states a claim for relief MUST contain: **(1)** a short and plain statement of the ***grounds for the court’s jurisdiction*** (_unless_ the court already has jurisdiction and the claim needs no new jurisdictional support); **(2)** a short and plain statement of ***the claim*** showing that the pleader is entitled to relief; **AND (3)** a ***demand for the relief sought*** (which may include relief in the alternative or different types of relief).\n• Pleading to Be Concise: Each allegation must be simple, concise, and direct. No technical form is required.\n• Alternative Statements: A party may set out 2 or more statements of a claim alternatively or hypothetically (either in a single count or in separate ones). If a party makes alternative statements, the pleading is sufficient if any one of them is sufficient.\n• Inconsistent Claims: A party may state as many separate claims as it has, regardless of consistency.\n• Special/Heightened State Law Pleading Requirements: Special or heightened state-law pleading rules DO NOT apply in federal court (e.g. heightened pleading requirements for defamation cases).",
+    "meeTips": [],
+    "examHistory": [
+      "July 2021, Essay 6"
+    ],
+    "translation": "• 救済を求める訴答：救済を求める請求を記載する訴答は、以下のものを含まなければならない。**(1)** ***裁判所の管轄権の根拠***に関する簡潔かつ平易な陳述（_ただし_、裁判所が既に管轄権を有しており、その請求が新たな管轄権の根拠を必要としない場合を除く）。**(2)** 訴答者が救済を受ける権利があることを示す***請求***に関する簡潔かつ平易な陳述。**AND (3)** ***求める救済の請求***（選択的救済または異なる種類の救済を含むことができる）。\n• 簡潔な訴答：各主張は、簡潔、明瞭、直接的でなければならない。技術的な形式は不要である。\n• 選択的主張：当事者は、2つ以上の請求を、選択的にまたは仮定的に（単一の訴因として、または別個の訴因として）記載することができる。当事者が選択的主張を行う場合、それらのいずれか1つが十分であれば、その訴答は十分である。\n• 矛盾する請求：当事者は、矛盾の有無にかかわらず、有する限り多くの別個の請求を記載することができる。\n• 州法の特別な/厳格な訴答要件：州法の特別なまたは厳格な訴答規則は、連邦裁判所では適用されない（例：名誉毀損事件における厳格な訴答要件）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "連邦裁判所訴答規則：救済の申立て"
+  },
+  {
+    "id": 16,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "I. Pleadings",
+    "ruleTitle": "Federal Court Pleading Rules: Responding to a Pleading",
+    "priority": null,
+    "frequency": "2 of 65 Exams",
+    "body": "• Defenses, Admissions, & Denials:\n  ○ Response Required: In responding to a pleading, a party MUST: **(1) *state its defenses to each claim*** asserted against it (in short and plain terms); **AND (2) *admit or deny the allegations*** asserted against it by an opposing party.\n  ○ Denials – Responding to the Substance: A denial MUST ***fairly respond to the substance of the allegation***.\n  ○ General & Specific Denials: A party that intends in good faith to deny all the allegations of a pleading (including the jurisdictional grounds) MAY do so by a ***general denial***. A general denial is _improper_ if the party cannot in good faith deny ALL of the allegations. A party that _does not_ intend to deny all the allegations MUST either (a) specifically deny designated allegations, _or_ (b) generally deny all except those specifically admitted.\n  ○ Denying Part of an Allegation: A party that intends in good faith to deny only part of an allegation MUST ***admit the part that is true and deny the rest***.\n  ○ Lacking Knowledge or Information: A party that lacks knowledge or information sufficient to form a belief about the truth of an allegation MUST so state. Such statement has the effect of a denial.\n  ○ Effect of Failing to Deny: An allegation (other than one relating to the amount of damages) is **deemed admitted** if: **(1)** a ***responsive pleading is required***; **AND (2)** the ***allegation is not denied***. If a responsive pleading is _not_ required, an allegation is considered denied or avoided.\n• Affirmative Defenses:\n  ○ Raising Affirmative Defenses: In responding to a pleading, a party MUST affirmatively state its affirmative defenses, including: accord and satisfaction; arbitration and award; assumption of risk; contributory negligence; duress; estoppel; failure of consideration; fraud; illegality; injury by fellow servant; laches; license; payment; release; res judicata; statute of frauds; statute of limitations; and waiver.\n  ○ Waiver: The failure to plead one of the above affirmative defenses in a responsive pleading ***results in a waiver of that defense*** and its exclusion from the case. However, it may be possible to subsequently amend a pleading to add a defense (see the “Amendments to Pleadings & Relation Back Doctrine” rule below).\n  ○ Mistaken Designation: If a party mistakenly designates a defense as a counterclaim (or a counterclaim as a defense) _and_ if justice requires it, THEN the court must treat the pleading as though it were correctly designated and may impose terms for doing so.\n• Alternative Statements of a Defense:\n  ○ A party may set out 2 or more statements of a defense alternatively or hypothetically, either in a single defense or in separate ones. If a party makes alternative statements, the pleading is sufficient if any one of them is sufficient.\n• Inconsistent Defenses:\n  ○ A party may state as many separate defenses as it has, regardless of consistency.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2023, Essay 4",
+      "Feb 2018, Essay 5"
+    ],
+    "translation": "• 抗弁、認諾、および否認：\n  ○ 応答の要件：訴答書面に応答する際、当事者は以下のことを**必ず**行わなければならない：**(1)** 相手方から主張された***各請求に対する抗弁を（簡潔かつ平易な言葉で）述べる***こと；**および (2)** 相手方当事者から主張された***申し立てを認諾または否認する***こと。\n  ○ 否認 – 実体への応答：否認は、***申し立ての実体に公正に応答しなければならない***。\n  ○ 一般否認（General Denial）および特定否認（Specific Denial）：訴答書面の全ての申し立て（管轄権の根拠を含む）を誠実に否認する意図のある当事者は、***一般否認（General Denial）***によってこれを行うことができる。当事者が全ての申し立てを誠実に否認できない場合、一般否認（General Denial）は_不適切_である。全ての申し立てを否認する意図が_ない_当事者は、(a)指定された申し立てを特定して否認するか、_または_ (b)特定して認諾されたものを除く全てを一般的に否認しなければならない。\n  ○ 申し立ての一部否認：申し立ての一部のみを誠実に否認する意図のある当事者は、***真実である部分を認諾し、残りを否認しなければならない***。\n  ○ 知識または情報の欠如：申し立ての真実性について信念を形成するのに十分な知識または情報を持たない当事者は、その旨を述べなければならない。このような陳述は否認の効果を有する。\n  ○ 否認を怠った場合の効果：申し立て（損害賠償額に関するものを除く）は、以下の条件を満たす場合、**認諾されたものとみなされる**：**(1) ***応答訴答書面が要求される***場合；**および**(2) ***申し立てが否認されていない***場合。応答訴答書面が_要求されない_場合、申し立ては否認されたか回避されたものとみなされる。\n• 積極的抗弁（Affirmative Defenses）：\n  ○ 積極的抗弁（Affirmative Defenses）の提起：訴答書面に応答する際、当事者は、和解と弁済；仲裁と裁定；危険の引受；寄与過失；強迫；禁反言；対価の欠缺；詐欺；不法性；同僚の行為による傷害；権利行使の遅延；許諾；弁済；免責；既判力（Res Judicata）；詐欺防止法（Statute of Frauds）；出訴期限法（Statute of Limitations）；および権利放棄を含む、その積極的抗弁（Affirmative Defenses）を積極的に述べなければならない。\n  ○ 権利放棄：応答訴答書面において上記の積極的抗弁（Affirmative Defenses）のいずれかを主張しなかった場合、***その抗弁は権利放棄されたものとなり***、当該訴訟から排除される。ただし、後に訴答書面を修正して抗弁を追加することが可能な場合がある（下記の「訴答書面の修正と遡及効の原則（Relation Back Doctrine）」のルールを参照）。\n  ○ 誤った指定：当事者が抗弁を反訴（Counterclaim）として（または反訴（Counterclaim）を抗弁として）誤って指定し、_かつ_正義がそれを要求する場合、裁判所は当該訴答書面を正しく指定されたものとして扱い、そのための条件を課すことができる。\n• 抗弁の選択的陳述：\n  ○ 当事者は、単一の抗弁として、または別個の抗弁として、2つ以上の抗弁の陳述を選択的にまたは仮定的に述べることができる。当事者が選択的な陳述を行う場合、それらのいずれか一つが十分であれば、その訴答書面は十分である。\n• 矛盾する抗弁：\n  ○ 当事者は、矛盾の有無にかかわらず、有する限りにおいて多くの別個の抗弁を述べることができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "連邦裁判所訴答規則：訴答への応答"
+  },
+  {
+    "id": 17,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "I. Pleadings",
+    "ruleTitle": "Amendments to Pleadings & Relation Back Doctrine",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• A party may amend a pleading ***once as of right within 21 days*** after service of: **(a)** the original pleading; **OR (b)** a responsive pleading _or_ pre-answer motion to the original pleading. In **all other cases**, a party can only amend a pleading: **(a)** with the opposing party’s ***written consent***; **OR (b) *with leave of the court*** upon motion, which should be freely given when justice so requires. Usually, a party will make a motion to amend a pleading to add claims, parties, or affirmative defenses.\n  ○ Amendment to Add Affirmative Defenses: In responding to a pleading, a party must set forth all affirmative defenses to the claims alleged. If the party fails to do so and wishes to add an affirmative defense, the pleading MUST be amended. The following defenses are ***deemed waived*** if not included in the defendant’s ***first response*** (answer or preanswer motion) to the Complaint: (1) lack of personal jurisdiction; (2) improper venue; (3) insufficient process; AND (4) insufficient service of process.\n  ○ However, courts have allowed a motion to be amended to include a defense or objection inadvertently omitted (even for waivable defenses) ***provided that such action is prompt AND prior to any hearing on the original motion*** (i.e. two days after original motion and before the hearing on the motion).\n• An amendment to a pleading **relates back to the date of the original pleading when**: **(a)** the amendment asserts a claim or defense that ***arose out of the same conduct, transaction, or occurrence*** as the original pleading allegations; **OR (b)** the law that provides the applicable statute of limitations allows the relation back.\n• **HOWEVER, an amendment to change a party or party name *only* relates back if**: **(1)** the amendment concerns the ***same conduct, transaction, or occurrence*** as the original pleading allegations; **(2)** the new party ***received notice of the original action within 90 days of filing*** so that it will not be prejudiced in defending on the merits; **AND (3)** the new party ***knew or should have known*** that the action would have been brought against it, but for a mistake concerning the proper party’s identity.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2017, Essay 6",
+      "July 2012, Essay 7",
+      "July 2006, Essay 6"
+    ],
+    "translation": "• 当事者は、以下のいずれかの送達後***21日以内であれば、一度限り当然に***訴答書面を修正することができる：**(a)** 元の訴答書面；**または**(b)** 元の訴答書面に対する応答訴答書面_または_答弁前申立て。**その他の全ての場合**において、当事者は以下のいずれかの場合にのみ訴答書面を修正することができる：**(a)** 相手方の***書面による同意***がある場合；**または**(b) 正義が要求する場合に自由に与えられるべき、申立てによる***裁判所の許可を得て***。通常、当事者は請求、当事者、または積極的抗弁（Affirmative Defenses）を追加するために訴答書面修正の申立てを行う。\n  ○ 積極的抗弁（Affirmative Defenses）を追加するための修正：訴答書面に応答する際、当事者は主張された請求に対する全ての積極的抗弁（Affirmative Defenses）を述べなければならない。当事者がこれを怠り、積極的抗弁（Affirmative Defenses）を追加したい場合、訴答書面は修正されなければならない。以下の抗弁は、被告の訴状（Complaint）に対する***最初の応答***（答弁書または答弁前申立て）に含まれていない場合、***権利放棄されたものとみなされる***：(1) 人的管轄権（Personal Jurisdiction）の欠如；(2) 不適切な裁判地（Venue）；(3) 不十分な訴訟手続；および(4) 不十分な訴訟送達。\n  ○ しかし、裁判所は、不注意により省略された抗弁または異議（権利放棄可能な抗弁であっても）を含めるために申立てが修正されることを許可している。***ただし、当該申立てが速やかに行われ、かつ元の申立てに関する審理より前に行われる***ことが条件である（すなわち、元の申立てから2日後かつ審理前）。\n• 訴答書面の修正は、以下の条件を満たす場合、**元の訴答書面の日に遡及する**：**(a)** 修正が、元の訴答書面の申し立てと***同一の行為、取引、または出来事に起因する***請求または抗弁を主張する場合；**または**(b)** 適用される出訴期限法（Statute of Limitations）を定める法律が遡及を認める場合。\n• **しかしながら、当事者または当事者名を変更するための修正は、以下の条件を満たす場合に*のみ*遡及する**：**(1)** 修正が、元の訴答書面の申し立てと***同一の行為、取引、または出来事***に関するものであること；**AND (2)** 新しい当事者が、本案について防御する上で不利益を被らないよう、***提訴から90日以内に元の訴訟の通知を受けた***こと；**AND (3)** 新しい当事者が、正当な当事者の身元に関する誤りがなければ、当該訴訟が自分に対して提起されていたであろうことを***知っていたか、知るべきであった***こと。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "訴答の修正と遡及効の原則（Relation Back Doctrine）"
+  },
+  {
+    "id": 18,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "I. Pleadings",
+    "ruleTitle": "Counterclaims",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• A counterclaim is a claim brought by a defendant against a plaintiff. There are two types of counterclaims: permissive and compulsory.\n• A pleading MAY state a **permissive counterclaim**, which is a counterclaim against an opposing party that is ***not*** compulsory.\n• A **compulsory counterclaim** MUST be stated in the party’s pleading, or that party is otherwise ***barred*** from asserting that claim in future litigation. A compulsory counterclaim is a claim that: **(1) *arises out of the same transaction or occurrence*** as the opposing party’s claim; **AND (2)** the claim ***does not require adding another party*** whom the court cannot acquire jurisdiction.\n  ○ Same Transaction or Occurrence Test: To determine whether two claims arise out of the **same transaction or occurrence** for counterclaim purposes, federal courts look at four factors: **(1)** whether the ***issues of fact and law*** raised by the claim and counterclaim are ***largely the same***; **(2)** whether ***res judicata would bar a subsequent*** suit on the counterclaim; **(3)** whether substantially the ***same evidence*** supports or refutes plaintiff’s claim and defendant’s counterclaim; and **(4)** whether there is any ***logical relation*** between the claim and counterclaim.\n  ○ The presence of ***any*** of the above factors supports that the counterclaim arises out of the same transaction or occurrence as the original claim.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2021, Essay 3",
+      "July 2008, Essay 5",
+      "July 2007, Essay 2"
+    ],
+    "translation": "• 反訴（Counterclaim）とは、被告が原告に対して提起する請求である。反訴（Counterclaim）には、任意的反訴（Permissive Counterclaim）と強制的反訴（Compulsory Counterclaim）の2種類がある。\n• 訴答書面は、**任意的反訴（Permissive Counterclaim）**を述べることができる。これは、強制的反訴（Compulsory Counterclaim）では***ない***相手方に対する反訴（Counterclaim）である。\n• **強制的反訴（Compulsory Counterclaim）**は、当事者の訴答書面において述べられなければならず、さもなければ当該当事者は将来の訴訟においてその請求を主張することが***禁じられる***。強制的反訴（Compulsory Counterclaim）とは、以下の請求である：**(1) 相手方の請求と***同一の取引または出来事（Same Transaction or Occurrence）に起因する***請求；**および**(2) 裁判所が管轄権を取得できない***他の当事者の追加を必要としない***請求。\n  ○ 同一取引または出来事テスト：反訴（Counterclaim）の目的で2つの請求が**同一の取引または出来事（Same Transaction or Occurrence）**に起因するかどうかを判断するために、連邦裁判所は4つの要素を考慮する：**(1)** 請求と反訴（Counterclaim）によって提起される***事実および法律上の争点***が***大部分において同一である***か否か；**(2)** 反訴（Counterclaim）に関する***後続の訴訟が既判力（Res Judicata）によって排除される***か否か；**(3)** 原告の請求と被告の反訴（Counterclaim）を支持または反駁する***実質的に同一の証拠***があるか否か；および**(4)** 請求と反訴（Counterclaim）の間に***論理的関連性（Logical Relation）***があるか否か。\n  ○ 上記の要素の***いずれか***が存在することは、反訴（Counterclaim）が元の請求と同一の取引または出来事（Same Transaction or Occurrence）に起因することを裏付ける。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "反訴（Counterclaim）"
+  },
+  {
+    "id": 19,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "I. Pleadings",
+    "ruleTitle": "Cross-Claims",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A pleading may state ***a claim against a co-party*** (i.e. codefendant) as a **cross-claim** if the claim ***arises out of the same transaction or occurrence*** as the original action or counterclaim. The cross-claim may include a claim that a co-party is liable for claims asserted against it (i.e. indemnification, contribution).\n• To determine whether two claims arise out of the **same transaction or occurrence** for cross-claim purposes, federal courts look at four factors: **(1)** whether the ***issues of fact and law*** raised by the claim and cross-claim are ***largely the same***; **(2)** whether ***res judicata would bar a subsequent*** suit on the cross-claim; **(3)** whether substantially the ***same evidence*** supports or refutes plaintiff’s claim and defendant’s cross-claim; and **(4)** whether there is any ***logical relation*** between the claim and cross-claim. The presence of ***any*** of the above factors supports that the cross-claim arises out of the same transaction or occurrence as the original claim.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2011, Essay 8"
+    ],
+    "translation": "• 訴答書面は、請求が原訴訟または反訴（Counterclaim）と***同一の取引または出来事（Same Transaction or Occurrence）に起因する***場合、**交叉請求（Cross-Claim）**として***共同当事者に対する請求***（すなわち共同被告に対する請求）を記載し得る。交叉請求（Cross-Claim）には、共同当事者が自己に対して主張された請求について責任を負う旨の請求（すなわち補償、求償）を含み得る。\n• 交叉請求（Cross-Claim）の目的で二つの請求が**同一の取引または出来事（Same Transaction or Occurrence）に起因する**か否かを判断するため、連邦裁判所は四つの要素を考慮する。すなわち、**(1)** 請求および交叉請求（Cross-Claim）によって提起された***事実上および法律上の争点***が***概ね同一である***か否か、**(2)** 交叉請求（Cross-Claim）に関する***後訴が既判力（Res Judicata）によって妨げられる***か否か、**(3)** 原告の請求および被告の交叉請求（Cross-Claim）を実質的に***同一の証拠***が裏付けるか否か、および**(4)** 請求と交叉請求（Cross-Claim）の間に***論理的関連性（Logical Relation）***があるか否かである。上記の要素の***いずれか***が存在する場合、交叉請求（Cross-Claim）が原請求と同一の取引または出来事（Same Transaction or Occurrence）に起因するという判断を裏付ける。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "交叉請求（Cross-Claim）"
+  },
+  {
+    "id": 20,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "J. Rule 11",
+    "ruleTitle": "Rule 11 – Representations to the Court",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Under Rule 11, all papers served in the litigation (i.e. pleadings, motions) MUST be signed by an attorney of record (or by a party personally, if the party is unrepresented). When presenting the same to the court, that party certifies that: **(1)** it is ***not being presented for any improper purpose*** (to harass, cause unnecessary delay, or needlessly increase the cost of litigation); (**2)** the claims, defenses, and other ***legal contentions are warranted*** and non-frivolous; (**3)** the ***factual contentions have evidentiary support*** or will likely have evidentiary support after further discovery; **AND (4)** the ***denials of factual contentions are warranted*** or reasonably based on lack of information. The above certification must be to the best of the person’s knowledge, information, and belief (formed after an inquiry reasonable under the circumstances).\n• Rule 11 DOES NOT apply to discovery (disclosures, discovery requests, responses, objections) OR discovery motions.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 5",
+      "Feb 1995, Essay 3"
+    ],
+    "translation": "• 規則11に基づき、訴訟において送達された全ての書面（すなわち訴答書面、申立て）は、記録上の弁護士（または当事者が代理人なしの場合、当事者本人）によって署名されなければならない。当該書面を裁判所に提出する際、当該当事者は以下の事項を保証する。すなわち、**(1)** それが***不当な目的（Improper Purpose）のために提出されていない***こと（嫌がらせ、不必要な遅延の発生、または訴訟費用の不必要な増加のためではないこと）、**(2)** 請求、抗弁、およびその他の***法的主張が正当な根拠を有し***、かつ不合理でないこと、**(3)** ***事実的主張が証拠による裏付けを有し***、またはさらなる証拠開示後に証拠による裏付けを有する可能性が高いこと、**および (4)** ***事実的主張の否認が正当な根拠を有し***、または情報不足に基づき合理的なものであること。上記の保証は、当該人物の知識、情報、および信念の限りにおいて（状況下で合理的な調査を行った後に形成されたものとして）なされなければならない。\n• 規則11は、証拠開示（開示、証拠開示請求、回答、異議）または証拠開示申立てには適用されない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "規則11 – 裁判所への陳述"
+  },
+  {
+    "id": 21,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "J. Rule 11",
+    "ruleTitle": "Rule 11 – Sanctions Imposed",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Whether a Rule 11 violation has occurred and what sanctions (if any) to impose are matters _within the discretion_ of the trial court.\n• Sanctions Against an Attorney/Party/Law Firm: The court (by motion or on its own) may issue sanctions against an attorney, law firm, or party for failing to comply with Rule 11. Absent exceptional circumstances, a law firm is _jointly responsible_ for a violation committed by its partner, associate, or employee. A court CANNOT issue ***monetary sanctions* against a client** for an unwarranted claim, defense, or legal contention made by their attorney.\n• Nature of Sanctions: A sanction imposed under this rule must be **limited to what will deter repetition of similar conduct**, and may include: **(i) *non-monetary directives*** (i.e. striking paper/pleading, reprimand, censure, referring matter to disciplinary authority); **(ii)** an order to ***pay a penalty*** into court; or **(iii)** an order directing payment to the movant of all or part of the ***reasonable attorney’s fees and other expenses*** directly resulting from the violation (if imposed on motion and warranted for effective deterrence).\n  ○ In determining what sanction to impose, the court may consider any relevant factor, including: if the conduct was willful, negligent, or a pattern of activity; what effect it had on the litigation and the pleading; and whether the person was an attorney.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 5",
+      "Feb 1995, Essay 3"
+    ],
+    "translation": "• 規則11違反が発生したか否か、およびどのような制裁（もしあれば）を課すかは、裁判所の_裁量に委ねられる_事項である。\n• 弁護士／当事者／法律事務所に対する制裁：裁判所は（申立てにより、または職権で）、規則11を遵守しなかった弁護士、法律事務所、または当事者に対して制裁を課し得る。例外的な事情（Exceptional Circumstances）がない限り、法律事務所は、そのパートナー、アソシエイト、または従業員によって犯された違反について_連帯責任（Joint and Several Liability）を負う_。裁判所は、弁護士によってなされた不当な請求、抗弁、または法的主張に対し、***依頼人に対して金銭的制裁を課す***ことはできない。\n• 制裁の性質：本規則に基づき課される制裁は、**同様の行為の繰り返しを抑止するものに限定され**なければならず、以下のものを含み得る。すなわち、**(i) *非金銭的指示***（すなわち書面／訴答書面の抹消、譴責、懲戒、懲戒権限のある機関への付託）、**(ii)** 裁判所への***罰金の支払い***を命じる命令、または**(iii)** 違反から直接生じた***合理的な弁護士費用（Reasonable Attorney's Fees）およびその他の費用***の全部または一部を申立人に支払うよう命じる命令（申立てに基づいて課され、効果的な抑止のために正当な場合）である。\n  ○ どのような制裁を課すかを決定するにあたり、裁判所は、当該行為が故意であったか、過失であったか、または一連の行為であったか、それが訴訟および訴答書面にどのような影響を与えたか、および当該人物が弁護士であったか否かを含む、関連するあらゆる要素を考慮し得る。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "規則11 – 課される制裁"
+  },
+  {
+    "id": 22,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "J. Rule 11",
+    "ruleTitle": "Rule 11 – Procedure for Filing a Sanctions Motion",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A party CANNOT file a Rule 11 motion for sanctions _with the court_ without first (1) ***serving the motion*** on the offending party, and (2) then giving their opponent ***21 days to withdraw or correct*** the offending pleading or paper. If the 21-day period passes, and the motion/paper is not withdrawn or corrected, the motion may be filed with the court. The motion must be made _separately_ (from other motions), and must _describe the conduct_ in violation of Rule 11.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2018, Essay 5"
+    ],
+    "translation": "• 当事者は、まず違反当事者に***申立てを送達***し、次に相手方に違反する訴答書面または書類を***21日以内に取り下げるか訂正する機会***を与えずに、規則11に基づく制裁申立てを_裁判所に_提出することはできない。21日の期間が経過し、申立て/書類が取り下げまたは訂正されない場合、申立ては裁判所に提出できる。申立ては（他の申立てとは）_別個に_行われなければならず、規則11に違反する_行為を記述_しなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "規則11 – 制裁申立ての手続き"
+  },
+  {
+    "id": 23,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "K. Joinder of Parties and Claims",
+    "ruleTitle": "Permissive Joinder of Parties",
+    "priority": "HIGH",
+    "frequency": "5 of 65 Exams",
+    "body": "• **Multiple Plaintiffs**: Under the Federal Rules of Civil Procedure, multiple **plaintiffs** MAY join in one action if: **(1) *joint and several relief*** is asserted by them ***or*** the claim arises out of the ***same transaction or occurrence***; **(2)** a ***common question of law or fact*** to all plaintiffs exists; **AND (3) *subject matter jurisdiction*** exists for each claim.\n• **Multiple Defendants**: Multiple **defendants** MAY be joined in one action if: **(1) *joint and several relief*** is asserted against them ***or*** the claim arises out of the ***same transaction or occurrence***; **(2)** a ***common question of law or fact*** to all defendants exists; **AND (3) *subject matter jurisdiction*** exists for each claim.\n• Under the **logical relationship test**, ***all logically related events*** entitling a person to institute a legal action against another are generally within the meaning of “transaction and occurrence” for permissive joinder.\n• Misjoinder of parties is NOT a ground for dismissing an action. Instead, the court may add or drop a party on just terms. The court may also sever any claim against a party.",
+    "meeTips": [
+      "On the exam, apply the appropriate joinder rule(s) depending on the parties (plaintiffs or defendants) joined in the action."
+    ],
+    "examHistory": [
+      "Feb 2021, Essay 3",
+      "Feb 2020, Essay 3",
+      "Feb 2010, Essay 6",
+      "July 2009, Essay 6",
+      "Feb 2004, Essay 4"
+    ],
+    "translation": "• **複数原告**: 連邦民事訴訟規則（Federal Rules of Civil Procedure）に基づき、複数の**原告**は以下の条件を満たす場合、一つの訴訟に併合できる。**(1) *連帯責任（Joint and Several Liability）または個別責任（Joint or Alternative Liability）に基づく救済***が彼らによって主張される***か***、請求が***同一の取引または出来事（Same Transaction or Occurrence）***から生じること、**(2)** 全ての原告に***共通の法律上または事実上の争点（Common Question of Law or Fact）***が存在すること、**かつ (3) *各請求について事物管轄権（Subject Matter Jurisdiction）***が存在すること。\n• **複数被告**: 複数の**被告**は以下の条件を満たす場合、一つの訴訟に併合できる。**(1) *連帯責任（Joint and Several Liability）または個別責任（Joint or Alternative Liability）に基づく救済***が彼らに対して主張される***か***、請求が***同一の取引または出来事（Same Transaction or Occurrence）***から生じること、**(2)** 全ての被告に***共通の法律上または事実上の争点（Common Question of Law or Fact）***が存在すること、**かつ (3) *各請求について事物管轄権（Subject Matter Jurisdiction）***が存在すること。\n• **論理的関連性（Logical Relation）テスト**に基づき、ある者が他者に対して訴訟を提起する権利を与える***全ての論理的に関連する出来事（All Logically Related Events）***は、裁量的併合における「取引および出来事」の意味の範囲内に一般的に含まれる。\n• 当事者の不当併合は訴訟却下の理由とはならない。その代わりに、裁判所は公正な条件で当事者を追加または削除できる。裁判所は当事者に対するいかなる請求も分離できる。",
+    "meeTipTranslation": "試験では、訴訟に併合された当事者（原告または被告）に応じて、適切な併合規則を適用すること。",
+    "ruleTitleJa": "任意的当事者追加（Permissive Joinder）"
+  },
+  {
+    "id": 24,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "K. Joinder of Parties and Claims",
+    "ruleTitle": "Required Joinder of Parties",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• A party MUST be joined in an action if: **(1)** that party is a ***necessary party***; **AND (2)** joinder is ***feasible***. If a party has not been joined as required, the court MUST order that the party be joined to the action. A party who refuses to join as a plaintiff may be joined as either a defendant or an involuntary plaintiff.\n• A party is necessary if: **(a)** the court ***cannot grant complete relief*** among existing parties without the absent party; **(b)** the absent party ***claims an interest in the action that would be impaired or impeded*** (as a practical matter) if that person is not joined; **OR (c)** the party’s absence would leave an existing party subject to a substantial ***risk of multiple liability or inconsistent obligations***. Courts have held joint tortfeasors to be permissive, _not_ necessary parties.\n• Joinder is feasible when: **(1)** joinder will ***not remove subject matter jurisdiction***; **AND (2)** the court has ***personal jurisdiction*** over the necessary party.\n• If joinder is NOT feasible, the court will consider the following factors when deciding whether to continue or dismiss the action: (1) the extent to which a judgment in the party’s absence might prejudice that party or the existing parties; (2) the extent to which any prejudice could be lessened or avoided; (3) whether an adequate judgment in the party’s absence could be rendered; and (4) whether the plaintiff would have an adequate remedy if the action were dismissed. Whether to continue or dismiss the action (when joinder is not feasible) is _case specific_ and left to the discretion of the court.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2022, Essay 5",
+      "July 2008, Essay 5",
+      "July 1998, Essay 3"
+    ],
+    "translation": "• 当事者は以下の条件を満たす場合、訴訟に併合されなければならない。**(1)** その当事者が***必要的当事者（Required Party）***であること、**かつ (2)** 併合が***実行可能***であること。必要な当事者が併合されていない場合、裁判所はその当事者を訴訟に併合するよう命じなければならない。原告として参加を拒否する当事者は、被告または非自発的原告として併合できる。\n• 当事者は以下の条件を満たす場合、必要的である。**(a)** 不在当事者なしには、裁判所は既存の当事者間で***完全な救済を与えることができない（Cannot Grant Complete Relief）***こと、**(b)** 不在当事者が、その者が併合されない場合（実際問題として）***損なわれるか妨げられる訴訟における利害関係を主張する***こと、**または (c)** 当事者の不在が、既存の当事者を実質的な***複数責任または矛盾する義務のリスク（Risk of Multiple Liability or Inconsistent Obligations）***にさらすこと。裁判所は共同不法行為者を、必要的当事者（Required Party）_ではなく_、裁量的当事者であると判断している。\n• 併合は以下の条件を満たす場合、実行可能である。**(1)** 併合が***事物管轄権（Subject Matter Jurisdiction）を排除しない***こと、**かつ (2)** 裁判所が必要的当事者（Required Party）に対して***人的管轄権（Personal Jurisdiction）***を有すること。\n• 併合が実行可能でない場合、裁判所は訴訟を続行するか却下するかを決定する際に以下の要素を考慮する。(1) 当事者の不在における判決が、その当事者または既存の当事者にどの程度不利益を与えるか、(2) いかなる不利益もどの程度軽減または回避できるか、(3) 当事者の不在において適切な判決を下すことができるか、および (4) 訴訟が却下された場合、原告が適切な救済を得られるか。訴訟を続行するか却下するか（併合が実行可能でない場合）は、_事案固有_であり、裁判所の裁量に委ねられる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "必要的当事者（Required Party）追加（Required Joinder）"
+  },
+  {
+    "id": 25,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "K. Joinder of Parties and Claims",
+    "ruleTitle": "Intervention as of Right & Permissive Intervention",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• The Federal Rules of Civil Procedure provide two avenues for non-party intervention in an action.\n• **Intervention as of Right**: A court MUST permit intervention as a matter of right if the non-party can demonstrate: **(1)** the application to intervene is ***timely***; **(2)** an ***interest in the subject matter*** of the action; **(3)** that the protection of this interest would be ***impaired*** because of the action; **AND (4)** that the non-party’s interest is ***not adequately represented*** by existing parties to the litigation. The above-test is satisfied whenever disposition of the action would put the non-party at a practical disadvantage in protecting its interest. In addition, a non-party has the right to intervene when a federal statute provides an unconditional right to do so.\n• **Permissive Intervention**: If intervention of right is not warranted, a court MAY still allow a non-party to intervene permissively where the non-party: **(1)** files a ***timely motion***; **AND (2)** either **(a)** has a ***claim or defense that shares a common question of law or fact*** with the main action; ***or* (b)** is given a ***conditional right to intervene*** by a federal statute. However, under permissive intervention, the court must consider whether the intervention will ***unduly delay or prejudice the adjudication*** of the original parties’ rights.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2014, Essay 4"
+    ],
+    "translation": "• 連邦民事訴訟規則（Federal Rules of Civil Procedure）は、訴訟における非当事者による訴訟参加について2つの道筋を規定している。\n• **当然の訴訟参加（Intervention as of Right）**: 非当事者が以下のことを立証できる場合、裁判所は当然の権利として訴訟参加を許可しなければならない。**(1)** 訴訟参加の申立てが***適時***であること、**(2)** 訴訟の***主題事項に対する利害関係***があること、**(3)** その利害関係の保護が当該訴訟によって***害される***こと、**かつ (4)** 非当事者の利害関係が既存の訴訟当事者によって***適切に代表されていない（Not Adequately Represented）***こと。上記の要件は、訴訟の処分が非当事者にとってその利害を保護する上で実質的な不利益をもたらす場合に常に満たされる。さらに、連邦制定法が無条件の訴訟参加権を規定している場合、非当事者は訴訟参加の権利を有する。\n• **裁量による訴訟参加（Permissive Intervention）**: 当然の訴訟参加（Intervention as of Right）が認められない場合でも、非当事者が以下の要件を満たす場合、裁判所は裁量により非当事者の訴訟参加を許可することができる。**(1)** ***適時な申立て***を行うこと、**かつ (2)** **(a)** 本訴訟と***共通の法律上または事実上の争点（Common Question of Law or Fact）***を有する請求または防御を有すること、***または* (b)** 連邦制定法により***条件付きの訴訟参加権***を与えられていること。ただし、裁量による訴訟参加（Permissive Intervention）においては、裁判所は、その訴訟参加が原当事者の権利の***審理を不当に遅延させ、または害するかどうか***を考慮しなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "当然の参加と任意的参加"
+  },
+  {
+    "id": 26,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "K. Joinder of Parties and Claims",
+    "ruleTitle": "Impleader (Third-Party Actions)",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• The Federal Rules of Civil Procedure allow a defendant to bring a third-party into an action ONLY IF **(1)** the third-party ***is or may be liable to the defendant***, **(2)** for ***all or part of the claim against the defendant*** in the action. Claims merely arising out of the same transaction or occurrence are insufficient UNLESS some derivative liability exists (i.e. indemnification or contribution).\n• To commence an action against a third-party, the defendant (third-party plaintiff) must serve a Summons and ThirdParty Complaint upon the third-party. Leave of the court is REQUIRED if the defendant seeks to file the Third-Party Complaint ***more than 14 days*** after serving its original Answer.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2023, Essay 3",
+      "Feb 2020, Essay 3",
+      "Feb 2015, Essay 5"
+    ],
+    "translation": "• **被告による第三者の引込み（Impleader）**：連邦民事訴訟規則（Federal Rules of Civil Procedure）は、被告が第三者を訴訟に引き入れることを許可する。ただし、**(1)** その第三者が***被告に対して責任を負うか、または負う可能性がある***こと、**かつ (2)** 訴訟における***被告に対する請求の全部または一部について***である場合に限る。単に同一の取引または出来事（Same Transaction or Occurrence）から生じる請求は、何らかの派生的責任（Derivative Liability）（すなわち、補償または寄与）が存在しない限り、不十分である。\n• 第三者に対する訴訟を開始するためには、被告（第三者原告）は第三者に対し、召喚状（Summons）および第三者訴状（Third-Party Complaint）を送達しなければならない。被告が最初の答弁書を送達してから***14日を超えて***第三者訴状（Third-Party Complaint）を提出しようとする場合、裁判所の許可が**必要**である。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "引込み（第三者請求）"
+  },
+  {
+    "id": 27,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "K. Joinder of Parties and Claims",
+    "ruleTitle": "Class Action Requirements & Certification",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• One or more representative members of a class may sue or be sued on behalf of the entire class if: **(1)** the class is so ***numerous*** that joinder of all members is impracticable; **(2)** there are ***questions of law or fact common*** to the class; **(3)** the claims or defenses of the representative parties are ***typical*** of the claims or defenses of the class; **AND (4**) the representative parties (including counsel) will ***fairly and adequately protect*** the interests of the class. **These are known as the requirements of *numerosity*, *commonality*, *typicality*, and *adequacy of representation***..\n• Once the above four requirements are met, the **class will be certified** if: **(a) Risk of Inconsistent/Dispositive Adjudications** – when separate actions would ***create a risk of*** (i) ***inconsistent adjudications for other class members***, ***or*** (ii) ***harm the interests of absent class members***; **(b) Declaratory/Injunctive Relief** – the party opposing the class has ***acted or refused to act*** on grounds that apply generally to the class so that ***injunctive or declaratory relief would be appropriate to the class as a whole***; **OR (c) Predominance & Superiority** – ***common questions of law or fact*** to the class members ***predominate*** over any questions affecting individual members ***and*** a ***class action is superior*** to other available methods to adjudicate the case.\n• Courts are reluctant to grant class certification for personal injury claims where the plaintiffs have highly individualized injuries or where personal injury claims are grouped with non-personal injury claims.\n• The Supreme Court has held that a class action authorized under federal law can be maintained in Federal court (_even if_ it’s contrary to state law criteria) since Federal procedural law controls.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2019, Essay 6",
+      "July 2003, Essay 4"
+    ],
+    "translation": "• 集団（クラス）の1人または複数の代表メンバーは、以下の要件を満たす場合、集団全体を代表して訴えを提起し、または訴えられることができる。**(1)** 集団のメンバーが***非常に多数***であるため、全員の併合が非実用的であること、**(2)** 集団に***共通の法律上または事実上の争点（Common Question of Law or Fact）***が存在すること、**(3)** 代表当事者の請求または防御が集団の請求または防御と***典型的***であること、**かつ (4)** 代表当事者（弁護士を含む）が集団の利害を***公正かつ適切に保護する（Fairly and Adequately Protect）***こと。**これらは***多数性（Numerosity）***、***共通性（Commonality）***、***典型性（Typicality）***、および***代表の適切性（Adequacy of Representation）***の要件として知られている**。\n• 上記4つの要件が満たされた場合、以下のいずれかの条件が満たされれば、**集団（クラス）は認定される**。**(a) 矛盾する/決定的な判決のリスク** – 個別の訴訟が、(i) ***他の集団メンバーに対する矛盾する判決***、***または*** (ii) ***不在集団メンバーの利害を害する（Harm the Interests of Absent Class Members）***リスクを***生み出す***場合、**(b) 宣言的/差止命令的救済** – 集団に反対する当事者が、集団全体に一般的に適用される根拠に基づいて***行為し、または行為を拒否した***ため、***集団全体にとって差止命令的または宣言的救済が適切である***場合、**または (c) 優越性（Superiority）および優位性** – 集団メンバーにとっての***共通の法律上または事実上の争点（Common Question of Law or Fact）***が、個々のメンバーに影響を与えるいかなる争点よりも***優越***し、***かつ***、当該事件を審理するための他の利用可能な方法よりも***集団代表訴訟（Class Action）が優位***である場合。\n• 裁判所は、原告が高度に個別化された傷害を負っている場合、または人身傷害請求が非人身傷害請求とグループ化されている場合、人身傷害請求に対する集団代表訴訟（Class Action）の認定を認めることに消極的である。\n• 連邦最高裁判所は、連邦手続法（Federal Procedural Laws）が支配的であるため、連邦法に基づいて許可された集団代表訴訟（Class Action）は（州法の基準に反する場合でも）連邦裁判所で維持できると判示している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "集団代表訴訟（Class Action）の要件と認定"
+  },
+  {
+    "id": 28,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "L. Discovery",
+    "ruleTitle": "Discoverable Information (Relevant & Proportional Standard)",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A party in a lawsuit may obtain discovery of all nonprivileged information that is: **(1) *relevant*** to any party’s claim or defense; **AND (2) *proportional*** to the needs of the case. Information within the scope of discovery need _not_ be admissible in evidence to be discoverable.\n  ○ Proportionality is determined by considering: (1) the importance of the issues at stake in the action; (2) the amount in controversy; (3) the parties’ relative access to relevant information; (4) the parties’ resources; (5) the importance of the discovery in resolving the issues; and (6) whether the burden or expense of the proposed discovery outweighs its likely benefit.\n• When discovery is resisted for reasons related to confidentiality or privacy, the court must balance the interest of the party seeking disclosure against the interests of the party resisting disclosure. In such a situation, a court has discretion to limit the scope of discovery, order an _in camera_ review of documents to determine if they contain sensitive information, or order discovery subject to a confidentiality order. Personnel records have been held to be discoverable.\n• Once a person ***reasonably anticipates litigation***, that person has a duty to preserve ALL relevant evidence and cannot destroy the same, _even if_ litigation has not yet been commenced. Federal courts have the inherent power to sanction parties for any abuse of the judicial process, including destroying or failing to preserve relevant evidence.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 6",
+      "Feb 2007, Essay 3"
+    ],
+    "translation": "• 訴訟当事者は、以下のすべての秘匿特権（Privilege）のない情報を請求開示により取得することができる。すなわち、**(1) いずれかの当事者の請求または防御に***関連性のある（Relevant）***情報、**かつ**(2) 事案の必要性に***比例した（Proportional）***情報である。請求開示の範囲内の情報は、開示可能であるために証拠として許容される必要は_ない_。\n  ○ 比例性は、以下の要素を考慮して決定される。(1) 訴訟における争点の重要性、(2) 係争額、(3) 当事者間の関連情報への相対的アクセス、(4) 当事者の資源、(5) 争点解決における請求開示の重要性、および (6) 提案された請求開示の負担または費用がその見込まれる利益を上回る（Outweighs）か否か。\n• 秘密性またはプライバシーに関連する理由で請求開示が拒否される場合、裁判所は開示を求める当事者の利益と開示に抵抗する当事者の利益を比較衡量しなければならない。このような状況において、裁判所は請求開示の範囲を制限する裁量、機密情報が含まれているか否かを判断するために文書の_インカメラ_審査を命じる裁量、または秘密保持命令（Protective Order）に従うことを条件として請求開示を命じる裁量を有する。人事記録は開示可能であるとされている。\n• ある者が***合理的に訴訟を予期する（Reasonably Anticipates Litigation）***場合、その者はすべての関連証拠を保全する義務を負い、訴訟がまだ開始されていない_場合でも_、これを破棄することはできない。連邦裁判所は、関連証拠の破棄または保全の不履行を含む、司法手続の濫用に対して当事者を制裁する固有の権限を有する。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "開示可能な情報（関連性および均衡性の基準）"
+  },
+  {
+    "id": 29,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "L. Discovery",
+    "ruleTitle": "Depositions",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A party is permitted to conduct ***up to 10 depositions***. Without leave of court, a party is permitted to conduct a deposition of any person or party so long as the deposition is: **(1)** limited to ***one day of no more than 7 hours***; **AND (2) *proper notice is given***. Unless the parties have stipulated otherwise, a party MUST obtain leave of the court: (a) to take more than 10 depositions; (b) if the person has already been deposed; OR (c) if it is seeking a deposition before the parties “meet and confer” (the Rule 26(f) conference). An entity (i.e. corporation) must designate a person to represent it for a deposition, and may designate different people to testify on different topics.\n• Notice: A party who wants to depose a person by oral questions must give ***reasonable written notice*** to every party to the action. The notice must state the time and place of the deposition, and the deponent’s name and address (if known). If the name is unknown, the notice must provide a general description sufficient to identify the person or the particular class or group to which the person belongs.\n• No Subpoena Required to Depose a Party: A subpoena is NOT required to depose an opposing party. A party may be subject to sanctions for (a) failing to appear or (b) failing to provide the deponent for a deposition, ***even if*** the party is beyond the court’s subpoena power.\n• Objections: An objection at the time of the examination (whether to evidence, to a party’s conduct, to the officer’s qualifications, to the manner of taking the deposition, or to any other aspect of the deposition) must be noted on the record. However, the examination of the witness MUST PROCEED, and the testimony is taken subject to any objection. An objection must be stated concisely in a nonargumentative and nonsuggestive manner. A person or attorney may instruct a deponent not to answer ONLY WHEN necessary to preserve a privilege, to enforce a limitation ordered by the court, or to present a Motion to Terminate or Limit the deposition.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 6",
+      "July 2002, Essay 3"
+    ],
+    "translation": "• 当事者は***最大10回の証言録取（Deposition）***を実施することが許される。裁判所の許可なく、当事者は以下の条件を満たす限り、いかなる人物または当事者の証言録取（Deposition）も実施することが許される。すなわち、**(1)** ***1日7時間以内***に限定されること、**かつ**(2) ***適切な通知がなされる***ことである。当事者が別途合意している場合を除き、当事者は以下のいずれかの場合には裁判所の許可を得なければならない。(a) 10回を超える証言録取（Deposition）を行う場合、(b) その人物がすでに証言録取（Deposition）されている場合、または (c) 当事者が「協議」（規則26(f)会議）を行う前に証言録取（Deposition）を求める場合である。法人（すなわち、会社）は、証言録取（Deposition）のために代表者を指名しなければならず、異なる議題について証言するために異なる人物を指名することができる。\n• 通知: 口頭質問により人物の証言録取（Deposition）を希望する当事者は、訴訟のすべての当事者に対し、***合理的な書面による通知***を行わなければならない。通知には、証言録取（Deposition）の時間と場所、および証言録取（Deposition）対象者の氏名と住所（既知の場合）を記載しなければならない。氏名が不明な場合は、その人物またはその人物が属する特定の分類またはグループを特定するのに十分な一般的な記述を通知に記載しなければならない。\n• 当事者の証言録取（Deposition）に召喚状（Subpoena）は不要: 相手方当事者の証言録取（Deposition）に召喚状（Subpoena）は不要である。当事者は、(a) 出頭しなかったこと、または (b) 証言録取（Deposition）のために証言録取（Deposition）対象者を提供しなかったことに対して、その当事者が裁判所の召喚権限の範囲外である***場合でも***、制裁の対象となることがある。\n• 異議: 尋問時における異議（証拠、当事者の行為、担当官の資格、証言録取（Deposition）の実施方法、または証言録取（Deposition）のその他の側面に対するものか否かを問わず）は、記録に記載されなければならない。しかし、証人の尋問は続行されなければならず、証言はいかなる異議にも服して行われる。異議は、簡潔に、議論的でなく、示唆的でない方法で述べられなければならない。人物または弁護士は、特権を保全するため、裁判所が命じた制限を執行するため、または証言録取（Deposition）を終了または制限する申立てを提出するために必要な場合に_のみ_、証言録取（Deposition）対象者に回答しないよう指示することができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "証言録取（Deposition）"
+  },
+  {
+    "id": 30,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "L. Discovery",
+    "ruleTitle": "Request to Produce Documents, ESI, Tangible Things,",
+    "priority": "LOW",
+    "frequency": "0 of 65 Exams",
+    "body": "• Scope: A party may serve on any other party a request to: **(a)** to ***produce* documents, electronically stored information (ESI), or tangible things; **AND/OR (b)** to ***permit an inspection*** of land or other property. The items or property MUST be in the responding party's ***possession, custody, or control***.\n  ○ Specifically, the request may seek: (a) any designated documents or ESI – including writings, drawings, graphs, charts, photographs, sound recordings, images, and other data or data compilations – stored in any medium, translated if necessary into a reasonably usable form; or (b) any designated tangible things; AND/OR (c) entry onto designated land or property so the requesting party may inspect, measure, survey, photograph, test, or sample the property or any designated object or operation on it.\n• Contents of the Request: The request (1) MUST describe with reasonable particularity each item or category of items to be inspected; (2) MUST specify a reasonable time, place, and manner for the inspection and related acts; AND (3) MAY specify the form or forms in which ESI is to be produced.\n• Time to Respond: The responding party MUST respond in writing within 30 days after being served. However, if the request was delivered early under Rule 26(d)(2), then the response is required within 30 days after the parties’ first Rule 26(f) conference. A shorter or longer time may be stipulated or ordered by the court.\n• Responding to Each Item: For each item or category, the response MUST either: (a) state that inspection will be permitted as requested; OR (b) state with specificity the grounds for objecting, including the reasons. The responding party MAY state that it will produce copies of documents or ESI instead of permitting inspection, in which the production must be completed by the time for inspection specified in the request or another reasonable time stated in the response.\n• Objections: An objection MUST state whether any responsive materials are being withheld on the basis of that objection. An objection to part of a request MUST specify the part and permit inspection of the rest.\n• Response to Request for ESI: For ESI, a party MAY object to the requested form. If it objects (or if no form was specified), then the party MUST state the form(s) it intends to use.\n• Form of Production: Unless otherwise stipulated or ordered, these default procedures apply to producing documents or ESI: (1) a party must produce documents as they are kept in the usual course of business OR organize and label them to correspond to the categories in the request; (2) if no form is specified for producing ESI, a party must produce it in a form in which it is ordinarily maintained or in a reasonably usable form; AND (3) a party NEED NOT produce the same ESI in more than one form.\n• Nonparties: By subpoena, a nonparty may be compelled to produce documents and tangible things or to permit an inspection.",
+    "meeTips": [],
+    "examHistory": [],
+    "translation": "• 範囲: 当事者は、他の当事者に対し、以下の請求を行うことができる。**(a)** ***文書、電子的保存情報（ESI）、または有体物を作成する***よう求める請求；**AND/OR (b)** 土地またはその他の財産の***検査を許可する***よう求める請求。当該項目または財産は、回答当事者の***占有、管理、または支配下（Possession, Custody, or Control）***になければならない。\n  ○ 具体的には、請求は以下のものを求めることができる。(a) 指定された文書またはESI（電子的保存情報）—書面、図面、グラフ、図表、写真、録音、画像、およびその他のデータまたはデータ編集物を含み、いかなる媒体に保存されていても、必要に応じて合理的に使用可能な形式に翻訳されたもの—、または (b) 指定された有体物、**および/または**(c) 指定された土地または財産への立ち入り。これにより、請求当事者はその財産またはその上の指定された物または作業を検査、測定、測量、撮影、試験、またはサンプリングすることができる。\n• 請求の内容: 請求は、(1) 検査される各項目または項目の分類を合理的な具体性をもって記述しなければならず、(2) 検査および関連行為のための合理的な時間、場所、および方法を特定しなければならず、**かつ**(3) ESIが作成される形式を指定することができる。\n• 回答期限: 回答当事者は、送達後30日以内に書面で回答しなければならない。ただし、請求が規則26(d)(2)に基づき早期に送達された場合、回答は当事者の最初の規則26(f)会議後30日以内に要求される。より短いまたは長い期間は、合意または裁判所命令により定めることができる。\n• 各項目への回答: 各項目または分類について、回答は以下のいずれかでなければならない。(a) 請求されたとおり検査が許可される旨を述べること、**または**(b) 異議の根拠を理由を含めて具体的に述べることである。回答当事者は、検査を許可する代わりに文書またはESIのコピーを作成する旨を述べることができ、その場合、作成は請求に指定された検査の期限または回答に記載された別の合理的な期限までに完了しなければならない。\n• 異議: 異議は、その異議に基づいて何らかの応答資料が保留されているか否かを述べなければならない。請求の一部に対する異議は、その部分を特定し、残りの検査を許可しなければならない。\n• ESI請求への回答: ESIについて、当事者は請求された形式に異議を唱えることができる。異議を唱える場合（または形式が指定されていない場合）、当事者は使用する意図のある形式を述べなければならない。\n• 作成の形式: 別途合意または命令がない限り、文書またはESIの作成には以下の既定の手続が適用される。(1) 当事者は、通常の業務過程で保管されているとおりに文書を作成するか、または請求の分類に対応するように整理し、ラベルを貼らなければならず、(2) ESIを作成する形式が指定されていない場合、当事者は通常維持されている形式または合理的に使用可能な形式で作成しなければならず、**かつ**(3) 当事者は同じESIを複数の形式で作成する必要はない。\n• 非当事者: 召喚状（Subpoena）により、非当事者は文書および有体物の作成または検査の許可を強制されることがある。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "文書、電子的保存情報、有体物の提出要求"
+  },
+  {
+    "id": 31,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "L. Discovery",
+    "ruleTitle": "Electronically Stored Information & Spoliation Sanctions",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• A party in a lawsuit may obtain discovery of all nonprivileged information that is: **(1) *relevant*** to any party’s claim or defense; **AND (2) *proportional*** to the needs of the case. This includes electronically stored information (ESI), such as e-mails, text messages, and digital files.\n• When a party ***reasonably anticipates*** litigation, it must take reasonable steps to preserve the information (such as to suspend its routine document retention/destruction policy and put in place a “litigation hold” to ensure the preservation of relevant documents). For the duty to preserve to apply, the future litigation must be _probable_, meaning it must be more than a mere possibility. The duty to preserve may be triggered by prelitigation correspondence (e.g. a preservation letter), notice of a claim or demand, oral request, or even prior experience with events that usually lead to litigation.\n• A party may be sanctioned under Rule 37(e) for failing to preserve ESI **only if**: **(1)** the ESI ***should have been preserved*** in the ***anticipation of litigation***; **(2)** the party ***failed to take reasonable steps to preserve it***; **AND (3)** it ***cannot be restored or replaced*** through additional discovery. Only when all three elements are met, the rule is applicable.\n• If Rule 37(e) applies, then: **(a)** the court may ***order measures no greater than necessary to cure the prejudice*** to a party; **OR (b) *if the party acted intentionally***, the court may: (i) presume that the lost information was unfavorable to the party; (ii) instruct the jury that it may or must presume the information was unfavorable to the party; (iii) dismiss the action; _or_ (iv) enter a default judgment.\n• Entering a default judgment is an _extreme remedy_ and is rarely used by the courts, especially when the prejudice may be cured by an adverse inference jury instruction or some other applicable sanction.",
+    "meeTips": [],
+    "examHistory": [
+      "Oct 2020, Essay 1",
+      "Feb 2014, Essay 4"
+    ],
+    "translation": "• 訴訟における当事者は、**(1) いずれかの当事者の請求または抗弁に***関連性があり（Relevant）***、**かつ (2) 事案の必要性に***比例する（Proportional）***、特権のないすべての情報を請求開示により取得できる。これには、電子メール、テキストメッセージ、デジタルファイルなどの電子的に保存された情報（ESI）が含まれる。\n• 当事者が訴訟を***合理的に予期する（Reasonably Anticipates Litigation）***場合、その情報を保全するために合理的な措置を講じなければならない（例えば、通常の文書保存/破棄方針を停止し、関連文書の保全を確実にするための「訴訟ホールド（Litigation Hold）」を導入するなど）。保全義務が適用されるためには、将来の訴訟が_蓋然性のある_ものでなければならず、単なる可能性以上の意味を持つ必要がある。保全義務は、訴訟前の書簡（例：保全指示書）、請求または要求の通知、口頭での要求、あるいは通常訴訟につながる事象に関する過去の経験によっても発生し得る。\n• 当事者は、ESIの保全を怠った場合、規則37(e)に基づき制裁を受けることがあるが、それは**以下の条件をすべて満たす場合のみ**である。**(1)** ESIが***訴訟を予期して（In Anticipation of Litigation）保全されるべきであった***こと、**(2)** 当事者が***それを保全するための合理的な措置を講じなかった***こと、**かつ (3)** 追加の請求開示によって***復元または代替できない***こと。これら3つの要素すべてが満たされた場合にのみ、本規則が適用される。\n• 規則37(e)が適用される場合、**(a)** 裁判所は、当事者への***不利益を是正するために必要な限度を超えない措置を命じる***ことができる。**または (b) 当事者が***意図的に行動した場合***、裁判所は、(i) 失われた情報が当事者にとって不利であったと推定する、(ii) 失われた情報が当事者にとって不利であったと推定できる、または推定しなければならない旨を陪審に指示する、(iii) 訴訟を却下する、_または_ (iv) 欠席判決（Default Judgment）を下すことができる。\n• 欠席判決（Default Judgment）を下すことは_極端な救済措置_であり、特に不利な推論の陪審指示やその他の適用可能な制裁によって不利益が是正され得る場合には、裁判所によってめったに用いられない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "電子的保存情報と証拠隠滅（Spoliation）制裁"
+  },
+  {
+    "id": 32,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "L. Discovery",
+    "ruleTitle": "Rule 26(g) – Signing Disclosures & Sanctions for Improper",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• Under Rule 26(g), ***all discovery papers*** served in the litigation (discovery requests, responses, objections, or disclosure) MUST be signed by an attorney of record (or by a party personally, if the party is unrepresented).\n  ○ When signing any disclosure, the party certifies that it is ***complete and correct*** as of the time it was made.\n  ○ When signing any other discovery document, the party certifies that it is: **(1) *consistent with the Federal Rules of Civil Procedure*** and is non-frivolous; **(2) *not being presented for any improper purpose*** (to harass, cause unnecessary delay, or needlessly increase the cost of litigation); **AND (3) *not unreasonable, unduly burdensome, or unduly expensive*** considering the case, issues at stake, and prior discovery.\n• The court (by motion or on its own) may issue sanctions against an attorney, law firm, or party for failing to comply with Rule 26(g). If a person violates this rule without substantial justification, the court **MUST impose an appropriate sanction**, which includes ordering the violating party or attorney to ***pay the reasonable expenses, including attorney’s fees, caused by the violation***.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 1995, Essay 3"
+    ],
+    "translation": "• 規則26(g)に基づき、訴訟において送達される***すべての請求開示書類***（請求開示請求、応答、異議、または開示）は、記録弁護士（または、当事者が代理人なしの場合は当事者本人）が署名しなければならない。\n  ○ いずれかの開示に署名する際、当事者は、それが作成された時点で***完全かつ正確である***ことを証明する。\n  ○ その他の請求開示書類に署名する際、当事者は、それが以下の条件を満たすことを証明する。**(1) 連邦民事訴訟規則（Federal Rules of Civil Procedure）に***合致しており***、不合理でないこと、**(2) ***不適切な目的（Improper Purpose）のために提出されていない***こと（嫌がらせ、不必要な遅延、または訴訟費用の不必要な増加を引き起こすため）、**かつ (3) 事案、争点、および以前の請求開示を考慮して、***不合理でなく、過度に負担をかけず、または過度に費用がかからない***こと。\n• 裁判所は（申立てにより、または職権で）、規則26(g)を遵守しなかった弁護士、法律事務所、または当事者に対し制裁を課すことができる。実質的な正当な理由（Good Cause）なく本規則に違反した場合、裁判所は**適切な制裁を課さなければならず**、これには、違反した当事者または弁護士に対し、***違反によって生じた合理的な費用（弁護士費用を含む）を支払う***よう命じることが含まれる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "規則26(g) – 開示への署名と不適切な行為に対する制裁"
+  },
+  {
+    "id": 33,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "L. Discovery",
+    "ruleTitle": "Rule 26(a) Initial Disclosures",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Without awaiting a discovery request, a party MUST provide the following initial disclosures to the other parties: **(1)** the names and contact information of ***individuals likely to have discoverable information*** and the information they are likely to possess (but the disclosing party is obligated to disclose such persons ONLY IF it plans to use the information _to support its claims or defenses_; there’s no obligation if the party does not plan to use that information to support its case); **(2)** a ***copy or description of all documents***, electronically stored information, and tangible things the ***party may use to support its claims or defenses*** (unless the use would be solely for impeachment); **(3) *computation of each category of damages*** claimed by the disclosing party; **AND (4)** any ***insurance agreement*** that may be liable to satisfy a possible judgment in the action.\n• The above disclosures MUST be made ***within 14 days*** after the Rule 26(f) conference between the parties. If a party fails to provide any of the above disclosures, that party is **NOT allowed to use that witness or information** on a motion, at a hearing, or at a trial UNLESS the failure was substantially justified or is harmless.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 6",
+      "Feb 2001, Essay 5"
+    ],
+    "translation": "• 請求開示請求を待つことなく、当事者は以下の当然開示（Mandatory Disclosures）を他の当事者に提供しなければならない。**(1) ***請求開示可能な情報を有する可能性のある個人***の氏名および連絡先情報、ならびに彼らが有する可能性のある情報（ただし、開示当事者は、_自己の請求または抗弁を裏付けるために_その情報を使用する予定がある場合にのみ、そのような人物を開示する義務を負う。当事者がその情報を自己の事案を裏付けるために使用する予定がない場合は義務はない）、**(2) 当事者が***自己の請求または抗弁を裏付けるために使用する可能性のある***すべての文書、電子的に保存された情報、および有体物の***写しまたは説明***（弾劾のためのみに使用する場合を除く）、**(3) 開示当事者が請求する***各損害賠償区分の算定***、**かつ (4)** 訴訟における可能性のある判決を履行する責任を負う可能性のある***保険契約***。\n• 上記の開示は、当事者間の規則26(f)会議後***14日以内***に行われなければならない。当事者が上記の開示のいずれかを提供しなかった場合、その不履行が実質的に正当化されるか、または無害である場合を除き、その当事者は、申立て、審問、または裁判において**その証人または情報を使用することを許可されない**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "規則26(a) 当然開示（Mandatory Disclosures）"
+  },
+  {
+    "id": 34,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "L. Discovery",
+    "ruleTitle": "Attorney Work Product Doctrine",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• A party in a lawsuit may obtain discovery of all nonprivileged information that is: **(1) *relevant*** to any party’s claim or defense; **AND (2) *proportional*** to the needs of the case.\n• The **attorney work product doctrine** protects ALL materials prepared by an ***attorney or his agents in anticipation of or during litigation***. Such materials are protected from disclosure UNLESS a party can show that: **(1)** a ***substantial need*** for the materials exists; **AND (2)** a substantial equivalent of the materials ***cannot be obtained without undue hardship***.\n  ○ An insurance company’s investigative report of an ***insured’s claim*** is generally ***not*** considered to have been prepared in anticipation of litigation because it’s not prepared in response to a threat of immediate litigation.\n• When a party claims that requested information is protected as work product, the party must disclose the existence of the material in sufficient detail to enable other parties to assess the claim of privilege (known as a privilege log).",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2014, Essay 4",
+      "Feb 2007, Essay 3",
+      "Feb 1995, Essay 3"
+    ],
+    "translation": "• 訴訟の当事者は、**(1) いずれかの当事者の請求または抗弁に***関連性があり（Relevant）***、**かつ (2) 事案の必要性に***比例した（Proportional）***、**秘匿特権（Privilege）の対象とならないすべての情報を請求開示により入手することができる。\n• **ワーキング・プロダクトの法理（Work Product Doctrine）**は、***弁護士またはその代理人が訴訟を予期して（In Anticipation of Litigation）、または訴訟中に作成した***すべての資料を保護する。かかる資料は、当事者が**(1) 当該資料に対する***実質的な必要性（Substantial Need）***が存在すること、**かつ (2) 当該資料の実質的に同等のものを***不当な困難なくして入手できない（Cannot Be Obtained Without Undue Hardship）***ことを示さない限り、開示から保護される。\n  ○ 保険会社の***被保険者の請求***に関する調査報告書は、差し迫った訴訟の脅威に対応して作成されたものではないため、一般に訴訟を予期して（In Anticipation of Litigation）作成されたとは***みなされない***。\n• 当事者が、要求された情報が職務作成物として保護されると主張する場合、その当事者は、他の当事者が特権の主張を評価できるように、当該資料の存在を十分な詳細をもって開示しなければならない（特権目録として知られる）。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "ワーキング・プロダクトの法理（Work Product Doctrine）"
+  },
+  {
+    "id": 35,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "M. Pretrial Conference and Order",
+    "ruleTitle": "Pretrial Conference and Order",
+    "priority": "MED",
+    "frequency": "3 of 65 Exams",
+    "body": "• The court may order the attorneys and any _pro-se_ parties ***to appear for one or more Pretrial Conferences*** to control the management of the case, including scheduling or to discuss settlement.\n• Scheduling Order: The court must issue a scheduling order (except for certain actions exempted by local rule): (a) after receiving the parties’ report for the Rule 26(f) conference; OR (b) after consulting with the parties’ attorneys and any unrepresented parties at a scheduling conference.\n• Modifying a Scheduling Order: The schedule in a Scheduling Order may be modified only: (1) ***for good cause***; AND (2) with the ***judge’s consent***.\n• Attendance at Pretrial Conferences: A represented party must authorize at least one of its attorneys to appear for a pretrial conference.\n• **Sanctions**: The court (on motion or on its own) may issue sanctions if a party or its attorney: **(a) *fails to appear***; **(b)** is ***substantially unprepared*** to participate; **(c) *does not participate in good faith***; **OR (d) *fails to obey a scheduling or other pretrial order***. Sanctions the court may issue include: (i) prohibiting the disobedient party from supporting or opposing designated claims or defenses; (ii) striking all or part of the pleadings; (ii) dismissing all or part of the action; or (iv) rendering a default judgment against the disobedient party.\n• Pretrial Orders: After any pretrial conference, the court may issue an order reciting the action taken. This order controls the course of the action _unless_ the court subsequently modifies it.\n• Final Pretrial Conference and Orders: The court may hold a final pretrial conference to formulate a trial plan, including a plan to facilitate the admission of evidence. Under the Federal Rules of Civil Procedure, a court may issue an order specifying the issues to be heard at trial. The conference must be held as close to the start of trial as is reasonable, and must be attended by at least one attorney who will conduct the trial for each party and by any unrepresented party. **The court may modify the Final Pretrial Conference Order only to *prevent manifest injustice***. The rule for modifying a Final Pretrial Order takes precedence over the standard to amend a pleading.",
+    "meeTips": [
+      "On the exam, apply the specific Pretrial Conference & Order rule(s) based upon the fact pattern and the call of the essay question."
+    ],
+    "examHistory": [
+      "July 2006, Essay 6",
+      "Feb 2001, Essay 5",
+      "July 2000, Essay 3"
+    ],
+    "translation": "• 裁判所は、事件の管理（日程設定を含む）または和解協議のために、弁護士および本人訴訟当事者に対し、***1回以上の公判前会議（Pretrial Conference）に出頭するよう命じる***ことができる。\n• 日程命令（Scheduling Order）：裁判所は、(a) 当事者の規則26(f)協議に関する報告書を受領した後、**または (b) 日程設定会議において当事者の弁護士および本人訴訟当事者と協議した後、日程命令（Scheduling Order）を発しなければならない（地方規則により免除される特定の訴訟を除く）。\n• 日程命令（Scheduling Order）の修正：日程命令（Scheduling Order）における日程は、(1) ***正当な理由（Good Cause）***がある場合、**かつ (2) ***裁判官の同意***がある場合にのみ修正することができる。\n• 公判前会議（Pretrial Conference）への出席：代理人を有する当事者は、その弁護士のうち少なくとも1人に公判前会議（Pretrial Conference）に出頭する権限を与えなければならない。\n• **制裁**：裁判所は（申立てにより、または職権で）、当事者またはその弁護士が**(a) ***出頭しない***、**(b) 参加する準備が***著しく不十分である***、**(c) ***誠実に参加しない***、**または (d) ***日程命令（Scheduling Order）またはその他の公判前命令に従わない***場合に、制裁を課すことができる。裁判所が課すことができる制裁には、(i) 不服従当事者が指定された請求または抗弁を支持または反対することを禁止すること、(ii) 訴答の全部または一部を抹消すること、(iii) 訴訟の全部または一部を却下すること、または (iv) 不服従当事者に対して欠席判決（Default Judgment）を下すことが含まれる。\n• 公判前命令：公判前会議（Pretrial Conference）の後、裁判所は取られた措置を記載した命令を発することができる。この命令は、裁判所が後に修正しない限り、訴訟の進行を規律する。\n• 最終公判前会議（Final Pretrial Conference）および命令：裁判所は、証拠の採用を促進する計画を含む審理計画を策定するために、最終公判前会議（Final Pretrial Conference）を開催することができる。連邦民事訴訟規則（Federal Rules of Civil Procedure）に基づき、裁判所は審理で審理される争点を特定する命令を発することができる。会議は、審理開始に合理的に近い時期に開催されなければならず、各当事者のために審理を行う少なくとも1人の弁護士および本人訴訟当事者が出席しなければならない。**裁判所は最終公判前会議（Final Pretrial Conference）命令を***明白な不正義（Manifest Injustice）を防止する***ためにのみ修正することができる**。最終公判前命令を修正するための規則は、訴答を修正するための基準に優先する。",
+    "meeTipTranslation": "試験では、事実関係と論文問題の要求に基づいて、特定の公判前会議（Pretrial Conference）および命令の規則を適用すること。",
+    "ruleTitleJa": "公判前会議（Pretrial Conference）と命令"
+  },
+  {
+    "id": 36,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "N. Motions",
+    "ruleTitle": "Motion to Dismiss & Motion for Judgment on the Pleadings",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• **Motion to Dismiss**: Under Rule 12(b), a Motion to Dismiss may be made prior to filing an Answer. A Motion to Dismiss requires the court to: **(1) *consider the facts in the light most favorable to the non-moving party***; **AND (2)** determine whether there is ***any basis upon which relief can be granted*** for the non-moving party. If there is any basis for relief, the court MUST deny the motion. The Court DOES NOT evaluate the merits of the case.\n• **Motion for Judgment on the Pleadings**: A motion for any non-waivable defense may be made at ***any time early enough* NOT *to delay trial***. However, it is referred to as a Motion for Judgment on the Pleadings if it is made _after_ the defendant has answered.\n• **Grounds for Motion and Waiver**: A party may bring a motion in order to dismiss one or more claims on certain specified grounds. Such grounds include: (1) lack of subject matter jurisdiction; (2) lack of personal jurisdiction; (3) improper venue; (4) insufficient process; (5) insufficient service of process; (6) failure to state a claim upon which relief can be granted; and (7) failure to join a necessary party. **The grounds listed in (2)-(5) above are deemed *waived* if NOT raised in the first responsive pleading or Motion to Dismiss**. A motion for lack of subject-matter jurisdiction ***cannot*** be waived, and ***may be made at any time***, even on appeal. Removal of an action filed in State court to federal court DOES NOT constitute a waiver by the defendant of any right to object to lack of personal jurisdiction. After removal to federal court, then a defendant may properly move to dismiss the case for lack of personal jurisdiction.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2017, Essay 6",
+      "Feb 2011, Essay 8",
+      "July 2004, Essay 6",
+      "July 1995, Essay 6"
+    ],
+    "translation": "• **却下申立て（Motion to Dismiss）**：規則12(b)に基づき、却下申立て（Motion to Dismiss）は答弁書提出前に行うことができる。却下申立て（Motion to Dismiss）は、裁判所に対し、**(1) ***非申立当事者に最も有利な光で事実を考慮し***、**かつ (2) 非申立当事者に対して***救済が付与されるいかなる根拠があるか***を判断することを要求する。救済の根拠が少しでもある場合、裁判所は申立てを却下しなければならない。裁判所は事案の本案を評価しない。\n• **訴答に基づく判決申立て（Motion for Judgment on the Pleadings）**：放棄できない抗弁に関する申立ては、***審理を遅らせない程度に十分早い時期であればいつでも***行うことができる。しかし、被告が答弁した_後_に行われる場合、それは訴答に基づく判決申立て（Motion for Judgment on the Pleadings）と呼ばれる。\n• **申立ての根拠と放棄**：当事者は、特定の指定された根拠に基づいて1つ以上の請求を却下するために申立てを行うことができる。かかる根拠には、(1) 事物管轄権（Subject Matter Jurisdiction）の欠如、(2) 人的管轄権（Personal Jurisdiction）の欠如、(3) 不適切な裁判地（Venue）、(4) 不十分な訴訟手続、(5) 不十分な訴訟手続の送達、(6) 救済が付与される請求を述べないこと、および (7) 必要な当事者を参加させないことが含まれる。**上記の(2)から(5)に列挙された根拠は、最初の応答訴答書面または却下申立て（Motion to Dismiss）で提起されない場合、***放棄されたとみなされる***。事物管轄権（Subject Matter Jurisdiction）の欠如に関する申立ては***放棄できず***、控訴審においてさえ、***いつでも行うことができる***。州裁判所に提起された訴訟を連邦裁判所に移送することは、被告による人的管轄権（Personal Jurisdiction）の欠如に対する異議申立ての権利の放棄を構成しない。連邦裁判所への移送後、被告は人的管轄権（Personal Jurisdiction）の欠如を理由として訴訟の却下を適切に申し立てることができる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "却下申立て（Motion to Dismiss）と訴答に基づく判決申立て（Motion for Judgment on the Pleadings）"
+  },
+  {
+    "id": 37,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "N. Motions",
+    "ruleTitle": "Motion for Summary Judgment",
+    "priority": "HIGH",
+    "frequency": "7 of 65 Exams",
+    "body": "• A court will grant a Motion for Summary Judgment when: **(1)** there is ***no genuine issue of material fact***; **AND (2)** the movant is ***entitled to judgment as a matter of law***. When reviewing the motion, **the court MUST view the evidence *in the light most favorable* to the non-moving party**.\n  ○ An issue of material fact is genuine if the evidence is not such that a ***reasonable jury could return a verdict for the nonmoving party***.\n  ○ As to materiality, only disputes over facts that ***might affect the outcome of the suit*** will properly preclude the entry of summary judgment. Factual disputes that are irrelevant or unnecessary will NOT be counted.\n• Where the moving party presents evidence of facts that would defeat the non-moving party’s claim, the non-moving party MUST offer evidence of specific facts showing that there is a genuine issue for trial by affidavits or other evidence.\n• A party may move for summary judgment on the entire case OR on certain issues (partial summary judgment), and may file the motion at ***any time until 30 days after the close of all discovery*** (unless a different time is set by local rule or court order).\n• If a Motion to Dismiss (or Motion for Judgment on the Pleadings) presents matters ***outside the pleadings***, the court may treat the motion as a Motion for Summary Judgment. When this occurs, all parties must be given a reasonable opportunity to present evidence that is pertinent to the motion.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2025, Essay 3",
+      "July 2023, Essay 4",
+      "July 2012, Essay 7",
+      "Feb 2003, Essay 5",
+      "July 1996, Essay 4",
+      "Feb 1998, Essay 4",
+      "July 1995, Essay 6"
+    ],
+    "translation": "• 裁判所は、略式判決（Summary Judgment）を求める申立てを以下の条件で認める。**(1)** ***重要な事実について真正な争点がない（No Genuine Issue of Material Fact）***こと。**かつ (2)** 申立人が***法律問題として判決を受ける権利（Entitled to Judgment as a Matter of Law）がある***こと。申立てを審査する際、**裁判所は、非申立当事者に*最も有利なように*証拠を評価しなければならない**。\n  ○ 重要な事実の争点は、証拠が***合理的な陪審が非申立当事者に有利な評決を下すことができない***ようなものでない場合に真正である。\n  ○ 重要性に関して、***訴訟の結果に影響を及ぼす可能性がある***事実に関する争点のみが、略式判決（Summary Judgment）の言渡しを適切に妨げる。無関係または不必要な事実の争点は考慮されない。\n• 申立当事者が非申立当事者の請求を却下するような事実の証拠を提出した場合、非申立当事者は、宣誓供述書（Affidavit）またはその他の証拠により、審理のための真正な争点があることを示す特定の事実の証拠を提出しなければならない。\n• 当事者は、事件全体または特定の争点（一部略式判決（Partial Summary Judgment））について略式判決（Summary Judgment）を申し立てることができ、***全てのディスカバリー終了後30日以内であればいつでも***（地方規則または裁判所命令により異なる期間が定められている場合を除く）申立てを提出することができる。\n• 却下申立て（または訴答書面に基づく判決申立て）が***訴答書面外の***事項を提示する場合、裁判所は当該申立てを略式判決（Summary Judgment）を求める申立てとして扱うことができる。この場合、全ての当事者は、当該申立てに関連する証拠を提出する合理的な機会を与えられなければならない。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "略式判決（Summary Judgment）を求める申立て"
+  },
+  {
+    "id": 38,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "N. Motions",
+    "ruleTitle": "Motion for Judgment as a Matter of Law",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• A Motion for Judgment as a Matter of Law (JMOL) may be made ***at any time before*** the case is ***submitted to the jury***. The motion must specify the judgment sought and the law and facts that entitle the movant to the judgment. **The motion will be granted if**: **(1)** the non-moving party has been ***fully heard*** on an issue during a jury trial; **AND (2)** the court finds that a ***reasonable jury would not have a legally sufficient basis*** to rule in favor of the non-moving party on that issue. A motion for JMOL was formerly known as a Motion for Directed Verdict.\n  ○ On a motion for JMOL, **the court MUST *draw all reasonable inferences in the light most favorable to the opposing party***, and cannot substitute other inferences that might be regarded as more reasonable. It is the function of the jury as the traditional finder of the facts, and not for the Court, to weigh conflicting evidence and inferences, and determine the credibility of witnesses. Thus, a court CANNOT reverse a denial of a motion for JMOL _unless_ the jury’s factual findings are: (a) _not_ supported by substantial evidence; OR (b) if the legal conclusions from the verdict are _not_ supported by the factual findings.\n• A party may **renew** its motion for JMOL ***only if*** that party moved for JMOL before the case was submitted to the jury. A renewed motion for JMOL must be filed ***within 28 days*** after **Entry of Judgment**. In ruling on the renewed motion, the court may: (a) allow judgment on the verdict (if the jury returned a verdict); (b) order a new trial; OR (c) direct the entry of JMOL. A motion for Renewed JMOL was formerly known as a **Motion for Judgment Notwithstanding the Verdict (JNOV)**.\n• A court may wisely ***reserve ruling*** on a motion for JMOL made at the close of the evidence for a post-verdict decision _because_ a jury verdict may moot the issue and because a pre-verdict ruling gambles a reversal that may result in a new trial.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2024, Essay 6",
+      "Feb 2008, Essay 6",
+      "July 2000, Essay 3",
+      "July 1999, Essay 3"
+    ],
+    "translation": "• 法律問題としての判決申立て（JMOL）は、事件が***陪審に付託される前であればいつでも***行うことができる。申立ては、求められる判決、および申立人が判決を受ける権利があるとする法律と事実を明記しなければならない。**申立ては以下の条件で認められる**。**(1)** 非申立当事者が陪審審理中に争点について***十分に審理された（Fully Heard）***こと。**かつ (2)** 裁判所が、***合理的な陪審が当該争点について非申立当事者に有利な判決を下す法的に十分な根拠を持たない（No Legally Sufficient Basis）***と判断すること。JMOL申立ては、以前は指示評決申立て（Directed Verdict Motion）として知られていた。\n  ○ JMOL申立てにおいて、**裁判所は、*全ての合理的推論を相手方当事者に最も有利な観点から解釈しなければならない***。そして、より合理的と見なされ得る他の推論に置き換えることはできない。相反する証拠と推論を比較検討し、証人の信用性を判断することは、事実の伝統的な発見者としての陪審の機能であり、裁判所の機能ではない。したがって、裁判所は、陪審の事実認定が：(a) 実質的な証拠によって_裏付けられていない_場合。**または** (b) 評決からの法的結論が事実認定によって_裏付けられていない_場合_を除き_、JMOL申立ての却下を取り消すことはできない。\n• 当事者は、事件が陪審に付託される前にJMOLを申し立てた場合に***のみ***、JMOL申立てを**更新**することができる。更新されたJMOL申立て（Renewed Motion for JMOL）は、**判決の言渡し**後***28日以内***に提出しなければならない。更新された申立ての裁定において、裁判所は：(a) 評決に基づく判決を許可する（陪審が評決を下した場合）。(b) 新たな審理を命じる。**または** (c) JMOLの言渡しを指示することができる。更新されたJMOL申立て（Renewed Motion for JMOL）は、以前は**評決不拘判決申立て（JNOV）**として知られていた。\n• 裁判所は、証拠調べの終結時に行われたJMOL申立てについて、評決後の決定のために裁定を***保留する***ことが賢明である。なぜなら、陪審の評決が争点を無効にする可能性があり、また、評決前の裁定は、新たな審理につながる可能性のある取り消しを賭けることになるからである。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "法律問題としての判決申立て"
+  },
+  {
+    "id": 39,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "N. Motions",
+    "ruleTitle": "Motion for a New Trial",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A Motion for a New Trial MUST be filed ***no later than 28 days*** after the entry of judgment. The court may grant a Motion for a New Trial on the entire case or on particular issues for ***any reason for which a new trial has been previously granted in federal court***. Such reasons include: (1) an error at trial that makes the judgment unfair (i.e. incorrect jury instructions or evidentiary ruling); (2) new evidence surfaced that could not have been obtained with due diligence for the original trial; (3) prejudicial misconduct of a party, attorney, third-party, or juror; (4) the judgment was against the weight of evidence; or (5) the verdict was excessive or inadequate.\n• Since the credibility of witnesses is for the jury to decide, it is an invasion of the jury’s province to grant a new trial ***merely*** because the evidence was sharply in conflict.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2008, Essay 6"
+    ],
+    "translation": "• 新たな審理の申立ては、判決の言渡し後***28日以内***に提出しなければならない。裁判所は、事件全体または特定の争点について、***連邦裁判所において以前に新たな審理が認められたいかなる理由***でも新たな審理の申立てを認めることができる。そのような理由には、以下のものが含まれる。(1) 判決を不公平にする審理中の誤り（すなわち、不正確な陪審への指示または証拠に関する裁定）。(2) 相当な注意を払っても元の審理では得られなかった新たな証拠が浮上したこと。(3) 当事者、弁護士、第三者、または陪審員の偏見を生じさせる不正行為。(4) 判決が証拠の優越（Weight of the Evidence）に反していたこと。または (5) 評決が過剰または不十分であったこと。\n• 証人の信用性は陪審が決定すべき事項であるため、証拠が著しく対立していたという理由***のみ***で新たな審理を認めることは、陪審の権限を侵害することになる。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "再審申立て（Motion for a New Trial）"
+  },
+  {
+    "id": 40,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "O. Verdicts and Judgments",
+    "ruleTitle": "Preclusive Effect of a Default Judgment",
+    "priority": "LOW",
+    "frequency": "1 of 65 Exams",
+    "body": "• A default judgment will have a ***preclusive effect*** if the rendering court had **jurisdiction** over the ***claims*** _and_ the ***parties*** to the action (_both_ subject matter jurisdiction and personal jurisdiction).\n• A state court MUST give a judgment rendered in a federal diversity action the ***same effect*** it would accord a judgment rendered in a state court under state law. States vary as to the extent of preclusion a default judgment is given. However, a default judgment **bars a party from asserting *compulsory counterclaims*** that could have been raised in the original action.",
+    "meeTips": [],
+    "examHistory": [
+      "July 2007, Essay 2"
+    ],
+    "translation": "• 欠席判決（Default Judgment）は、判決を下した裁判所が訴訟の***請求***_および_***当事者***に対して**管轄権**を有していた場合（事物管轄権（Subject Matter Jurisdiction）と人的管轄権（Personal Jurisdiction）の_両方_）、***既判力（Res Judicata）***を有する。\n• 州裁判所は、連邦の州籍相違（Diversity of Citizenship）訴訟で下された判決に対し、州法に基づき州裁判所で下された判決に与えるのと***同じ効力***を与えなければならない。州によって欠席判決（Default Judgment）に与えられる既判力（Res Judicata）の範囲は異なる。しかし、欠席判決（Default Judgment）は、**当事者が原訴訟で提起できたはずの***強制的反訴（Compulsory Counterclaim）***を主張することを妨げる**。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "欠席判決（Default Judgment）の遮断効"
+  },
+  {
+    "id": 41,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "P. Claim Preclusion & Issue Preclusion",
+    "ruleTitle": "Claim Preclusion (Res Judicata)",
+    "priority": "MED",
+    "frequency": "2 of 65 Exams",
+    "body": "• Claim Preclusion (res judicata) ***precludes*** the parties in an action from subsequently re-litigating any **claim** that was or could have been raised in that action. Claim preclusion has four elements: **(1)** the ***parties are identical*** or in privity; **(2)** the judgment in the prior action was rendered by a ***court of competent jurisdiction***; **(3)** the prior action was concluded by a ***final judgment on the merits***; **AND (4)** the ***same claim*** was involved in both actions (the claim arises out of the ***same transaction or occurrence*** as the previously litigated claim).\n• Separate Actions Against Joint Tortfeasors: A plaintiff CAN bring separate actions against alleged joint tortfeasors whose liability are ***joint and several***, but CANNOT bring separate actions for joint tortfeasors whose liability is ***derivative***.\n• Parties in Privity: Generally, only a party to the first action is bound by the prior judgment. However, an exception exists when the party in the second action was in ***sufficient privity*** with a party in the first action. **The Supreme Court has found sufficient privity in the following situations**: **(1)** a party who ***agrees to be bound*** by the action; **(2)** a ***substantive legal relationship*** between the two parties (i.e. preceding and succeeding property owners, bailee and bailor, and assignee and assignor); **(3)** a party that was ***adequately represented*** in a class action or by a trustee, guardian, or other fiduciary; **(4)** the party ***assumed control*** over the first action; **(5)** a party seeking to re-litigate through a ***proxy***; and **(6)** when a ***special statutory scheme*** expressly forecloses successive litigation by non-parties (i.e. bankruptcy and probate proceedings). **Close family relationships by themselves are NOT sufficient to establish privity.**",
+    "meeTips": [
+      "On the exam, if the party in the second action was NOT a party in the first action, then apply those specific claim preclusion rule(s)."
+    ],
+    "examHistory": [
+      "Feb 2013, Essay 5",
+      "Feb 2003, Essay 5"
+    ],
+    "translation": "• 請求遮断効（Claim Preclusion / Res Judicata）は、訴訟の当事者が、当該訴訟で提起された、または提起され得た**請求**をその後再訴することを***妨げる***。請求遮断効（Claim Preclusion / Res Judicata）には4つの要素がある。**（1）** ***当事者が同一***であるか、または利害関係にあること。**（2）** 先行訴訟における判決が***管轄権を有する裁判所***によって下されたこと。**（3）** 先行訴訟が***本案に関する最終判決（Final Judgment on the Merits）***によって終結したこと。**および（4）** ***同一の請求***が両訴訟に関与していること（当該請求が、先行して争われた請求と***同一の取引または出来事（Same Transaction or Occurrence）***から生じること）。\n• 共同不法行為者に対する別訴：原告は、責任が***連帯責任（Joint and Several Liability）***であるとされる共同不法行為者に対しては別訴を提起できるが、責任が***派生的***である共同不法行為者に対しては別訴を提起できない。\n• 利害関係にある当事者：一般に、先行訴訟の当事者のみが先行判決に拘束される。しかし、後行訴訟の当事者が先行訴訟の当事者と***十分な利害関係（Sufficient Privity）***にあった場合には例外が存在する。**最高裁判所は以下の状況で十分な利害関係（Sufficient Privity）を認めている**。**（1）** 訴訟に***拘束されることに同意した***当事者。**（2）** 両当事者間に***実体的な法的関係***がある場合（例：先行および後続の不動産所有者、受寄者と寄託者、譲受人と譲渡人）。**（3）** 集団訴訟において、または受託者、後見人、その他の受託者によって***適切に代理された***当事者。**（4）** 当事者が先行訴訟を***支配した***場合。**（5）** ***代理人***を通じて再訴しようとする当事者。**および（6）** ***特別な法定制度***が、非当事者による連続訴訟を明示的に排除している場合（例：破産（Bankruptcy）および遺言検認手続（Probate Proceedings））。**近親関係のみでは、利害関係を確立するには不十分である。**\n\n[MEEのヒント]\n試験では、後行訴訟の当事者が先行訴訟の当事者でなかった場合、それらの特定の請求遮断効（Claim Preclusion / Res Judicata）のルールを適用すること。",
+    "meeTipTranslation": "試験では、第2の訴訟の当事者が第1の訴訟の当事者ではなかった場合、その特定の請求遮断ルールを適用すること。",
+    "ruleTitleJa": "請求遮断効（Claim Preclusion / Res Judicata）"
+  },
+  {
+    "id": 42,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "P. Claim Preclusion & Issue Preclusion",
+    "ruleTitle": "Issue Preclusion (Collateral Estoppel)",
+    "priority": "HIGH",
+    "frequency": "4 of 65 Exams",
+    "body": "• Issue Preclusion (collateral estoppel) precludes a party from attempting to retry an **issue** if there has been a final judgment on the merits by a court of competent jurisdiction. Issue preclusion may be invoked if: **(1)** a ***valid and final judgment*** was rendered in the first action; **(2)** the ***issue is identical*** to the issue decided in the prior action; **(3)** the issue was ***actually litigated, determined, and essential*** in the prior action; **AND (4)** the party against whom enforcement is sought against had a ***full and fair opportunity*** to litigate the issue in the first action.\n• Issue preclusion may be used _both_ to ***defend*** a claim/action _and_ on ***offense*** to support a claim/action. Additionally, issue preclusion may be used _even if_ the second action contains a new claim. A judgment entered pursuant to **settlement** CANNOT be used for issue preclusion purposes because no determination by the court was made.\n• Generally, a **non-party** to the first action CAN assert issue preclusion against a party to that action if the four-part test above is satisfied (_even if_ used offensively by the nonparty). This approach has been adopted in Most States and by the Supreme Court for Federal Claims. However, the Supreme Court has suggested that issue preclusion is NOT appropriate **when it would be unfair**, such as when: (a) a plaintiff in the new action (who was a non-party in the first action) could have ***easily joined*** the first action; (b) the party’s ***stake was deceptively small*** in the original proceeding; (c) the non-party has ***significantly more advantageous procedural opportunities*** in the subsequent proceeding; **OR** (d) there were ***inconsistent prior judgments*** from the same incident. Some States still apply the **mutuality doctrine**, in which a non-party CANNOT assert issue preclusion to their advantage in a subsequent action.",
+    "meeTips": [],
+    "examHistory": [
+      "Feb 2021, Essay 3",
+      "Feb 2013, Essay 5",
+      "Feb 2003, Essay 5",
+      "July 2001, Essay 7"
+    ],
+    "translation": "• 争点遮断効（Issue Preclusion / Collateral Estoppel）は、管轄権を有する裁判所による本案に関する最終判決（Final Judgment on the Merits）があった場合、当事者が**争点**を再審理しようとすることを妨げる。争点効は以下の条件が満たされた場合に援用され得る。**（1）** 先行訴訟において***有効かつ最終的な判決***が下されたこと。**（2）** 当該***争点が***先行訴訟で決定された争点と***同一である***こと。**（3）** 当該争点が先行訴訟において***実際に争われ、決定され、かつ本質的（Actually Litigated, Determined, and Essential）であった***こと。**および（4）** 執行を求められる当事者が、先行訴訟において当該争点を争う***十分かつ公正な機会（Full and Fair Opportunity）***を有していたこと。\n• 争点効は、請求／訴訟を***防御する***ためにも、請求／訴訟を***支持する***ために***攻撃的に（Offensively）***も使用され得る。さらに、争点効は、後行訴訟に新たな請求が含まれる場合_であっても_使用され得る。**和解**に基づいて下された判決は、裁判所による決定がなされていないため、争点効の目的で使用することはできない。\n• 一般に、先行訴訟の**非当事者**は、上記の4つの要件が満たされれば、当該訴訟の当事者に対して争点効を主張できる（非当事者によって攻撃的に（Offensively）使用される場合_であっても_）。このアプローチは、ほとんどの州および連邦請求に関する最高裁判所によって採用されている。しかし、最高裁判所は、争点効が**不公正となる場合**、例えば、(a) 新たな訴訟の原告（先行訴訟の非当事者）が先行訴訟に***容易に参加できた***場合、(b) 当事者の***利害関係が原手続において欺瞞的に小さかった***場合、(c) 非当事者が後続手続において***著しく有利な手続上の機会***を有する場合、**または** (d) 同一の出来事から***矛盾する先行判決（Inconsistent Prior Judgments）***があった場合などには、適切ではないと示唆している。一部の州では、非当事者が後続訴訟において自己に有利に争点効を主張できないとする**相互性の原則（Mutuality Doctrine）**を依然として適用している。",
+    "meeTipTranslation": null,
+    "ruleTitleJa": "争点遮断効（Issue Preclusion / Collateral Estoppel）"
+  },
+  {
+    "id": 43,
+    "subject": "CIVIL PROCEDURE",
+    "subjectNumber": "04",
+    "section": "Q. Appeals",
+    "ruleTitle": "Appeals: Final Judgment Rule & Exceptions",
+    "priority": "HIGH",
+    "frequency": "5 of 65 Exams",
+    "body": "• **Final Judgment Rule**: In federal court, a party may ***only*** appeal from a ***final judgment or decision*** (known as the “final judgment rule”). A **final judgment/decision** is one which ***ends the litigation on the merits (all claims are resolved)***, and leaves nothing for the court to do but execute the judgment. **Appeal is thereby precluded from any decision that adjudicates *some but not all claims* in the action**, as well as from any decision which is tentative, informal, or incomplete.\n• Appeals must be filed ***within 30 days*** after entry of the judgment appealed from.\n• Several exceptions to the final judgment rule exist:\n  ○ Rule 54(b) Exception: Under the Federal Rules of Civil Procedure, an appeal is allowed when: **(1)** the action has ***multiple parties or multiple claims***; **(2)** the court directs entry of a ***final judgment for some of the claims or parties***; **AND (3)** the court ***expressly determines*** that there is ***no just reason for delay***. If all the above elements are NOT met, then any appeal must wait until after a final judgment for the entire case.\n  ○ Statutory Exceptions: Under federal law, a party may immediately appeal certain court orders ***as of right*** relating to: (i) injunctions; (ii) receiverships; (iii) orders affecting the possession of property; (iv) liability in an admiralty action; and (v) patent infringement orders which would be final except for an accounting.\n  ○ Certified Appeal Exception: Under federal law, an immediate appeal is allowed when: **(1)** a federal district court judge ***certifies certain grounds*** for immediate appeal; **AND (2)** the ***Court of Appeals agrees*** to permit the appeal. The application for an appeal under this rule must be made ***within ten days*** after the entry of the order.\n    A judge will typically certify an appeal when the order involves: (i) a _controlling question of law_, (ii) which there is _substantial ground for difference of opinion_, and (iii) an immediate appeal may _materially advance_ the ultimate termination of the litigation.\n  ○ Collateral Order Doctrine: The collateral order doctrine allows an immediate appeal when the interlocutory order: **(1) *conclusively determines*** the disputed question; **(2)** resolves an ***important issue completely separate*** from the merits of the action; **AND (3)** is ***effectively unreviewable*** on appeal from a final judgment. This doctrine will only apply to a small class of decisions. The Supreme Court has held that the collateral order doctrine DOES NOT allow an interlocutory order concerning the enforcement of a forum selection clause because the order is not effectively unreviewable on appeal from final judgment.\n  ○ Writs of Mandamus and Prohibition: When there is an ***abuse of judicial authority*** by a trial court, a party may seek a **writ of mandamus or prohibition** to have a federal appellate court review the trial court’s ruling. However, the writ of mandamus (an application for the court to act) or writ of prohibition (an application for the court to end litigation) are issued only in ***exceptional circumstances***. **A party CANNOT use the writ of mandamus or prohibition to correct an *ordinary error* by the district court.** The party seeking mandamus/prohibition has the burden of showing that its right to issuance of the writ is ***clear and indisputable***.\n    The writs have been invoked when a court acts outside its jurisdiction or when the court fails to follow court rules. Such instances have included: (i) unwarranted judicial action threatened to embarrass the Executive Branch in conducting foreign relations; (ii) it was the only means of forestalling intrusion by the federal courts on a delicate area of federal-state relations; (iii) it was necessary to confine a lower court to the appellate court’s mandate; and (iv) where a district judge displayed a persistent disregard of the Rules of Civil Procedure.\n  ○ Pendent Appellate Jurisdiction: Under the doctrine of pendent appellate jurisdiction, a party may seek to have a non-final order reviewed _along with_ another appealable order currently pending before the appellate court. However, the doctrine is _only_ appropriate when: **(a)** a non-appealable decision is ***inextricably intertwined*** with an appealable decision; **OR (b)** when review of the non-appealable decision is ***necessary to ensure a meaningful review*** of the appealable decision.\n  ○ Certification of Class Action: Under the Federal Rules of Civil Procedure, an order granting or denying class-action certification may be appealed when: **(1)** a petition for permission to appeal is filed ***within 14 days*** after the order is entered; **AND (2)** the Court of Appeals ***agrees*** to hear the appeal (the court has discretion). An appeal _does not_ stay proceedings in the district court unless the district court judge or the Court of Appeals so orders it.",
+    "meeTips": [
+      "On the exam, apply any applicable exceptions to the Final Judgment Rule based upon the fact pattern and the call of the essay question."
+    ],
+    "examHistory": [
+      "Feb 2023, Essay 3",
+      "July 2011, Essay 5",
+      "July 2006, Essay 6",
+      "July 2001, Essay 7",
+      "Feb 1996, Essay 4"
+    ],
+    "translation": "• **終局判決原則（Final Judgment Rule）**: 連邦裁判所において、当事者は***最終判決または決定***（「終局判決原則（Final Judgment Rule）」として知られる）に対して***のみ***上訴することができる。**最終判決／決定**とは、***本案に関する訴訟を終結させ（全ての請求が解決され）***、裁判所が判決を執行する以外に何も残されていないものである。**したがって、訴訟における*一部の請求のみ*を裁定する決定、および暫定的、非公式、または不完全な決定に対する上訴は排除される**。\n• 上訴は、上訴の対象となる判決の言渡し後***30日以内***に提起されなければならない。\n• 終局判決原則（Final Judgment Rule）にはいくつかの例外が存在する。\n  ○ 規則54(b)の例外: 連邦民事訴訟規則（Federal Rules of Civil Procedure）に基づき、以下の場合に上訴が認められる。**(1)** 訴訟に***複数の当事者または複数の請求***がある場合、**(2)** 裁判所が***一部の請求または当事者について最終判決の言渡しを指示***する場合、**かつ (3)** 裁判所が***遅延させる正当な理由（Good Cause）がない（No Just Reason for Delay）***ことを***明示的に決定***する場合。上記の全ての要件が満たされない場合、上訴は事件全体の最終判決後まで待たなければならない。\n  ○ 法定の例外: 連邦法に基づき、当事者は以下の事項に関する特定の裁判所命令に対して***当然に***直ちに上訴することができる。(i) 差止命令、(ii) 管財人制度（Receivership）、(iii) 財産の占有に影響を与える命令、(iv) 海事訴訟（Admiralty）における責任、および (v) 会計処理を除けば最終となる特許侵害命令。\n  ○ 認証された上訴の例外: 連邦法に基づき、以下の場合に直ちに上訴が認められる。**(1)** 連邦地方裁判所判事が直ちに上訴するための***特定の根拠を認証***する場合、**かつ (2)** ***控訴裁判所が上訴を許可することに同意***する場合。この規則に基づく上訴の申請は、命令の言渡し後***10日以内***に行われなければならない。\n    判事は通常、命令が以下を含む場合に上訴を認証する。(i) _支配的な法律問題（Controlling Question of Law）_、(ii) それについて_意見の相違の相当な根拠_があり、(iii) 直ちの上訴が訴訟の最終的な終結を_実質的に促進_する可能性がある場合。\n  ○ 付随的命令の法理（Collateral Order Doctrine）: 付随的命令の法理（Collateral Order Doctrine）は、中間命令が以下の場合に直ちに上訴を認める。**(1) 争点となっている問題を***決定的に判断***する**、**(2)** 訴訟の本案とは***完全に分離した重要な問題***を解決する**、**かつ (3)** 最終判決からの上訴では***実質的に審査不可能***である**。この法理は、ごく一部の決定にのみ適用される。最高裁判所は、付随的命令の法理（Collateral Order Doctrine）が、管轄合意条項の執行に関する中間命令を認めないとしている。なぜなら、その命令は最終判決からの上訴では実質的に審査不可能ではないからである。\n  ○ 職務執行令状および差止令状: 裁判所による***司法権の濫用（Abuse of Judicial Authority）***がある場合、当事者は連邦控訴裁判所に裁判所の判断を審査させるために**職務執行令状または差止令状**を求めることができる。しかし、職務執行令状（裁判所に行為を求める申請）または差止令状（裁判所に訴訟を終了させる申請）は、***例外的な状況（Exceptional Circumstances）***においてのみ発行される。**当事者は、職務執行令状または差止令状を地方裁判所による***通常の誤り***を是正するために使用することはできない。**職務執行令状／差止令状を求める当事者は、令状発行の権利が***明白かつ争いがない（Clear and Indisputable）***ことを示す責任を負う。\n    これらの令状は、裁判所がその管轄権外で行動する場合、または裁判所が裁判所規則に従わない場合に援用されてきた。そのような事例には、(i) 不当な司法行為が外交関係の遂行において行政府を困惑させる恐れがあった場合、(ii) 連邦裁判所が連邦と州の関係の微妙な領域に介入するのを阻止する唯一の手段であった場合、(iii) 下級裁判所を控訴裁判所の命令に限定する必要があった場合、および (iv) 地方裁判所判事が民事訴訟規則を継続的に無視した場合が含まれる。\n  ○ 付随控訴管轄権: 付随控訴管轄権の法理に基づき、当事者は、控訴裁判所に係属中の他の上訴可能な命令と_共に_、最終的でない命令の審査を求めることができる。しかし、この法理は、以下の場合に_のみ_適切である。**(a)** 上訴不可能な決定が、上訴可能な決定と***不可分に絡み合っている（Inextricably Intertwined）***場合、**または (b)** 上訴不可能な決定の審査が、上訴可能な決定の***有意義な審査を確実にするために必要（Necessary to Ensure a Meaningful Review）***である場合。\n  ○ 集団訴訟の認証: 連邦民事訴訟規則（Federal Rules of Civil Procedure）に基づき、集団訴訟の認証を付与または拒否する命令は、以下の場合に上訴することができる。**(1)** 命令の言渡し後***14日以内***に上訴許可の申立てが提出される場合、**かつ (2)** 控訴裁判所が上訴を審理することに***同意***する場合（裁判所には裁量がある）。上訴は、地方裁判所判事または控訴裁判所が命じない限り、地方裁判所における手続を_停止させない_。\n\n[MEEのヒント]\n試験では、事実関係と論文問題の要求に基づいて、終局判決原則（Final Judgment Rule）に適用される例外を適用すること。",
+    "meeTipTranslation": "試験では、事実関係および論文問題の設問に基づいて、最終判決ルールに対する適用可能な例外を適用すること。",
+    "ruleTitleJa": "控訴：終局判決原則（Final Judgment Rule）と例外"
+  }
+]
