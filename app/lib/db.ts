@@ -17,7 +17,7 @@ async function getUserId(): Promise<string | null> {
 
 // ---- Blank Overrides --------------------------------------------------------
 
-const OVERRIDE_LS = "ube-blank-overrides-v3";
+const OVERRIDE_LS = "ube-blank-overrides-v4";
 
 export async function fetchOverrides(): Promise<Record<number, BlankOverride>> {
   const uid = await getUserId();
