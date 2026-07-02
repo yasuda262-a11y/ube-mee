@@ -66,6 +66,7 @@ interface Props {
   onPrev?: () => void;
   isFlagged?: boolean;
   onToggleFlag?: () => void;
+  overrideSyncKey?: number;
 }
 
 const PRIORITY_LABEL: Record<string, { label: string; color: string; bg: string }> = {
@@ -505,7 +506,7 @@ function EditTokens({
 
 // ---- Main component -------------------------------------------------------
 
-export default function FlashCard({ card, cardNumber, total, subjectIndex, onResult, onNext, onPrev, isFlagged = false, onToggleFlag }: Props) {
+export default function FlashCard({ card, cardNumber, total, subjectIndex, onResult, onNext, onPrev, isFlagged = false, onToggleFlag, overrideSyncKey }: Props) {
   const [override, setOverride] = useState<BlankOverride>({
     disabledOriginalBlanks: [],
     partialDisabledWords: {},
@@ -565,7 +566,8 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
       const first = inputRefs.current.values().next().value;
       first?.focus();
     }, 50);
-  }, [card.id]);
+  // overrideSyncKey: Supabase同期完了後にlocalStorageを再読み込みするためのトリガー
+  }, [card.id, overrideSyncKey]);
 
   function applyOverride(next: BlankOverride) {
     setOverride(next);

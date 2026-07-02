@@ -78,6 +78,7 @@ export default function Home() {
   const [studyFrom, setStudyFrom] = useState<"select" | "list">("select");
   const [flagged, setFlagged] = useState<Set<number>>(new Set());
   const [user, setUser] = useState<SupabaseUser | null>(null);
+  const [overrideSyncKey, setOverrideSyncKey] = useState(0);
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [savedSubjects, setSavedSubjects] = useState<Set<string>>(new Set());
   const [accuracyHistory, setAccuracyHistory] = useState<AccuracySnapshot[]>([]);
@@ -112,10 +113,11 @@ export default function Home() {
     });
     fetchFlags().then(setFlagged);
     if (user) {
-      // 伏字・メモもリモートから取得（localStorageキャッシュを更新）
+      // 伏字・メモもリモートから取得（localStorageキャッシュを更新後、FlashCardを再読み込みさせる）
       import("./lib/db").then(({ fetchOverrides, fetchCardMemos }) => {
-        fetchOverrides().catch(() => {});
-        fetchCardMemos().catch(() => {});
+        Promise.all([fetchOverrides(), fetchCardMemos()])
+          .then(() => setOverrideSyncKey((k) => k + 1))
+          .catch(() => {});
       });
     }
   }, [user]);
@@ -614,6 +616,7 @@ export default function Home() {
           onPrev={deckIndex > 0 ? handlePrev : undefined}
           isFlagged={flagged.has(currentCard.id)}
           onToggleFlag={() => handleToggleFlag(currentCard.id)}
+          overrideSyncKey={overrideSyncKey}
         />
       </main>
     </div>
