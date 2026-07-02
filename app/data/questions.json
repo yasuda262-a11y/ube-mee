@@ -9366,7 +9366,7 @@
     "sectionHeader": "F. Warranties (UCC Art. 2)",
     "subsectionTitle": "Express Warranty",
     "priority": "H",
-    "context": "**++Express Warranty++** – Seller is liable for breach of an express warranty.\n− __BLANK_1__ be disclaimed by seller.\nAn express warranty is created when:\n1) Seller makes __BLANK_3__\n2) Relating to the goods, **AND**\n3) That becomes __BLANK_3__\nNo intent is needed to create an express warranty, or that seller use the words \"warranty\" or \"guarantee\".\n− An opinion DOES NOT create an express warranty.",
+    "context": "**++Express Warranty++** – Seller is liable for breach of an express warranty.\n− __BLANK_1__ be disclaimed by seller.\nAn express warranty is created when:\n1) Seller makes __BLANK_2__\n2) Relating to the goods, **AND**\n3) That becomes __BLANK_3__\nNo intent is needed to create an express warranty, or that seller use the words \"warranty\" or \"guarantee\".\n− An opinion DOES NOT create an express warranty.",
     "blanks": [
       {
         "idx": 1,
