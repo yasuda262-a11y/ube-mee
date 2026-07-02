@@ -152,9 +152,23 @@ const OVERRIDE_KEY = "ube-blank-overrides-v4";
 
 type OverrideStore = Record<number, BlankOverride>;
 
+const LEGACY_OVERRIDE_KEY = "ube-blank-overrides-v3";
+
 function loadStore(): OverrideStore {
   if (typeof window === "undefined") return {};
-  try { return JSON.parse(localStorage.getItem(OVERRIDE_KEY) ?? "{}"); }
+  try {
+    const current: OverrideStore = JSON.parse(localStorage.getItem(OVERRIDE_KEY) ?? "{}");
+    // v3→v4 一回限りの移行（旧コードが v3 に書き戻したデータを救済）
+    if (Object.keys(current).length === 0) {
+      const legacy: OverrideStore = JSON.parse(localStorage.getItem(LEGACY_OVERRIDE_KEY) ?? "{}");
+      if (Object.keys(legacy).length > 0) {
+        localStorage.setItem(OVERRIDE_KEY, JSON.stringify(legacy));
+        localStorage.removeItem(LEGACY_OVERRIDE_KEY);
+        return legacy;
+      }
+    }
+    return current;
+  }
   catch { return {}; }
 }
 function saveStore(s: OverrideStore) {
