@@ -549,24 +549,26 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     return m;
   }, [activeBlanks]);
 
+  // カード切り替え時：入力・状態をすべてリセット
   useEffect(() => {
-    const ov = getOverride(card.id);
-    setOverride(ov);
     setInputs(new Map());
     setInputStates(new Map());
     setSubmitted(false);
     setEditMode(false);
     setPendingSelection(new Set());
-    // カードメモを読み込む
-    const memo = getCardMemo(card.id);
-    setCardMemo(memo);
-    setMemoInput(memo);
     setMemoEditing(false);
     setTimeout(() => {
       const first = inputRefs.current.values().next().value;
       first?.focus();
     }, 50);
-  // overrideSyncKey: Supabase同期完了後にlocalStorageを再読み込みするためのトリガー
+  }, [card.id]);
+
+  // override・メモの読み込み：カード切り替え時 + Supabase同期完了後
+  useEffect(() => {
+    setOverride(getOverride(card.id));
+    const memo = getCardMemo(card.id);
+    setCardMemo(memo);
+    setMemoInput(memo);
   }, [card.id, overrideSyncKey]);
 
   function applyOverride(next: BlankOverride) {
