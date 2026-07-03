@@ -356,7 +356,8 @@ function StudyTokens({
         });
       } else {
         const state = inputStates.get(entry.blank.id) ?? "unanswered";
-        pushNode(<BlankBox key={t.idx} answer={entry.blank.answer} num={entry.number} state={state} bold={t.bold}
+        const num = blankNumberMap.get(entry.blank.id) ?? entry.number;
+        pushNode(<BlankBox key={t.idx} answer={entry.blank.answer} num={num} state={state} bold={t.bold}
           onPeek={() => onPeekBlank?.(entry.blank.id)} />);
       }
     } else if (disabledOrigSet.has(t.idx)) {
