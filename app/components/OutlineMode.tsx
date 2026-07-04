@@ -1,8 +1,9 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import type { MeeCard } from "../data/mee-outline";
 import OutlineCard from "./OutlineCard";
+import { syncFromSupabase } from "../lib/outlineUserData";
 
 type PriorityFilter = "ALL" | "HIGH" | "MED" | "LOW";
 
@@ -32,6 +33,8 @@ interface Props {
 }
 
 export default function OutlineMode({ cards, subject }: Props) {
+  useEffect(() => { syncFromSupabase(); }, []);
+
   const [priority, setPriority] = useState<PriorityFilter>("ALL");
   const [subjectFilter, setSubjectFilter] = useState<string>(
     subject !== "ALL" ? subject : "ALL"
