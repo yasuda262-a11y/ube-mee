@@ -521,6 +521,9 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
   const [showTranslation, setShowTranslation] = useState(false);
   const inputRefs = useRef<Map<string, HTMLInputElement | null>>(new Map());
 
+  // ---- スワイプでカード移動（モバイル用） ----
+  const touchStart = useRef<{ x: number; y: number; time: number } | null>(null);
+
   // ---- カードメモ ----
   const [cardMemo, setCardMemo] = useState("");
   const [memoEditing, setMemoEditing] = useState(false);
@@ -760,6 +763,37 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
     });
   }
 
+  // スワイプ判定：編集モード中・複数指・入力欄やボタン上のタッチは対象外
+  function handleTouchStart(e: React.TouchEvent) {
+    if (
+      editMode ||
+      e.touches.length > 1 ||
+      (e.target as HTMLElement).closest("input, textarea, button, a, [contenteditable]")
+    ) {
+      touchStart.current = null;
+      return;
+    }
+    const t = e.touches[0];
+    touchStart.current = { x: t.clientX, y: t.clientY, time: Date.now() };
+  }
+
+  function handleTouchEnd(e: React.TouchEvent) {
+    const start = touchStart.current;
+    touchStart.current = null;
+    if (!start || editMode) return;
+    if (Date.now() - start.time > 600) return; // ゆっくりしたドラッグ（テキスト選択等）は無視
+    const t = e.changedTouches[0];
+    const dx = t.clientX - start.x;
+    const dy = t.clientY - start.y;
+    // 横移動が60px以上かつ縦移動の2倍以上（縦スクロールとの誤判定防止）
+    if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 2) return;
+    if (dx < 0) {
+      onNext(); // 左スワイプ → 次のカード（未採点時はスキップ扱い）
+    } else if (onPrev) {
+      onPrev(); // 右スワイプ → 前のカード
+    }
+  }
+
   // 全入力 ID（subBlanks 考慮）
   const allInputIds = useMemo(() =>
     activeBlanks.flatMap(b =>
@@ -774,7 +808,7 @@ export default function FlashCard({ card, cardNumber, total, subjectIndex, onRes
   const someInput = allInputIds.some(({ id }) => (inputs.get(id) ?? "").trim() !== "");
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
       {/* 進捗バー */}
       <div className="flex items-center gap-3">
         <span className="text-xs text-gray-500 font-semibold min-w-[60px]">{cardNumber} / {total}</span>

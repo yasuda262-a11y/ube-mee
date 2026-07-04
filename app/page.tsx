@@ -263,7 +263,7 @@ export default function Home() {
           {/* 科目選択グリッド */}
           <div>
             <p className="text-xs text-white/40 mb-2 font-semibold">科目を選択</p>
-            <div className="grid grid-cols-4 gap-2 mb-2">
+            <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 mb-2">
               {/* すべて */}
               <button
                 onClick={() => setSelectedSubject(null)}
@@ -273,7 +273,7 @@ export default function Home() {
                     : "bg-white/10 border-transparent hover:bg-white/15"
                 }`}
               >
-                <p className="text-[10px] font-bold leading-tight mb-1">すべて</p>
+                <p className="text-[11px] font-bold leading-tight mb-1">すべて</p>
                 <p className="text-[10px] text-white/70">{ALL_CARDS.length}枚</p>
               </button>
               {SUBJECTS.map((s) => {
@@ -287,7 +287,7 @@ export default function Home() {
                     className={`${subjectColor(s)} rounded-2xl p-3 text-left text-white transition-all active:scale-95 border-2 ${
                       isSelected ? "border-white/80 brightness-110" : "border-transparent hover:opacity-90"
                     }`}>
-                    <p className="text-[10px] font-bold leading-tight mb-1">{s}</p>
+                    <p className="text-[11px] font-bold leading-tight mb-1">{s}</p>
                     <p className="text-[10px] text-white/70">{qs.length}枚</p>
                     <p className="text-[10px] font-bold text-white/90 mt-0.5">{pct}%</p>
                   </button>
@@ -360,68 +360,68 @@ export default function Home() {
           })()}
 
           {/* サブメニュー */}
-          <div className="grid grid-cols-4 gap-1.5">
+          <div className="grid grid-cols-3 sm:grid-cols-4 gap-1.5">
             <button
               onClick={() => weakCards.length > 0 ? startDeck(weakCards) : undefined}
               disabled={weakCards.length === 0}
-              className={`rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
+              className={`rounded-xl px-2 py-2.5 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
                 weakCards.length > 0
                   ? "bg-white/10 text-white border-white/10 hover:bg-white/15"
                   : "bg-white/5 text-white/25 border-white/5 cursor-not-allowed"
               }`}
             >
               <AlertTriangle size={14} className={weakCards.length > 0 ? "text-red-400" : "text-white/20"} />
-              <p className="text-[10px] font-bold leading-tight">苦手のみ</p>
-              <p className="text-[9px] text-white/50">{weakCards.length}枚</p>
+              <p className="text-[11px] font-bold leading-tight">苦手のみ</p>
+              <p className="text-[10px] text-white/50">{weakCards.length}枚</p>
             </button>
 
             <button
               onClick={() => flaggedCards.length > 0 ? startDeck(flaggedCards) : undefined}
               disabled={flaggedCards.length === 0}
-              className={`rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
+              className={`rounded-xl px-2 py-2.5 flex flex-col items-center gap-0.5 border transition-all active:scale-95 ${
                 flaggedCards.length > 0
                   ? "bg-white/10 text-white border-white/10 hover:bg-white/15"
                   : "bg-white/5 text-white/25 border-white/5 cursor-not-allowed"
               }`}
             >
               <Flag size={14} className={flaggedCards.length > 0 ? "text-amber-400" : "text-white/20"} fill={flaggedCards.length > 0 ? "currentColor" : "none"} />
-              <p className="text-[10px] font-bold leading-tight">フラグのみ</p>
-              <p className="text-[9px] text-white/50">{flaggedCards.length}枚</p>
+              <p className="text-[11px] font-bold leading-tight">フラグのみ</p>
+              <p className="text-[10px] text-white/50">{flaggedCards.length}枚</p>
             </button>
 
             <button onClick={() => setAppMode("list")}
-              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              className="rounded-xl px-2 py-2.5 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
               <LayoutList size={14} className="text-white/70" />
-              <p className="text-[10px] font-bold leading-tight">カード一覧</p>
-              <p className="text-[9px] text-white/50">検索・絞込</p>
+              <p className="text-[11px] font-bold leading-tight">カード一覧</p>
+              <p className="text-[10px] text-white/50">検索・絞込</p>
             </button>
 
             <button onClick={() => setAppMode("stats")}
-              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              className="rounded-xl px-2 py-2.5 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
               <BarChart2 size={14} className="text-white/70" />
-              <p className="text-[10px] font-bold leading-tight">統計</p>
-              <p className="text-[9px] text-white/50">科目別成績</p>
+              <p className="text-[11px] font-bold leading-tight">統計</p>
+              <p className="text-[10px] text-white/50">科目別成績</p>
             </button>
 
             <button onClick={() => setAppMode("memos")}
-              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              className="rounded-xl px-2 py-2.5 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
               <NotebookPen size={14} className="text-emerald-400" />
-              <p className="text-[10px] font-bold leading-tight">表現メモ</p>
-              <p className="text-[9px] text-white/50">英語表現集</p>
+              <p className="text-[11px] font-bold leading-tight">表現メモ</p>
+              <p className="text-[10px] text-white/50">英語表現集</p>
             </button>
 
             <button onClick={() => setAppMode("browse")}
-              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              className="rounded-xl px-2 py-2.5 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
               <BookMarked size={14} className="text-sky-400" />
-              <p className="text-[10px] font-bold leading-tight">閲覧</p>
-              <p className="text-[9px] text-white/50">全文表示</p>
+              <p className="text-[11px] font-bold leading-tight">閲覧</p>
+              <p className="text-[10px] text-white/50">全文表示</p>
             </button>
 
             <button onClick={() => setAppMode("outline")}
-              className="rounded-xl px-2 py-2 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
+              className="rounded-xl px-2 py-2.5 flex flex-col items-center gap-0.5 bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 transition-all">
               <FileText size={14} className="text-lime-400" />
-              <p className="text-[10px] font-bold leading-tight">Outline</p>
-              <p className="text-[9px] text-white/50">MEE解説</p>
+              <p className="text-[11px] font-bold leading-tight">Outline</p>
+              <p className="text-[10px] text-white/50">MEE解説</p>
             </button>
           </div>
 

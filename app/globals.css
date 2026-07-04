@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* iOS Safari はフォント16px未満の入力欄にフォーカスすると画面全体を自動ズームするため、
+   モバイル幅では入力欄のフォントを16px未満にしない（!important で text-sm 等を上書き） */
+@media (max-width: 767px) {
+  input,
+  textarea,
+  select {
+    font-size: max(16px, 1em) !important;
+  }
+}
